@@ -56,6 +56,11 @@
         "network": "Goodreads",
         "username": "adrien-sales",
         "url": "https://www.goodreads.com/user/show/124105866-adrien"
+      },
+      {
+        "network": "HuggingFace",
+        "username": "rastadidi",
+        "url": "https://huggingface.co/rastadidi"
       }
     ]
   },

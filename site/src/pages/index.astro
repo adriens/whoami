@@ -1,4 +1,5 @@
 ---
+import '@fortawesome/fontawesome-free/css/all.min.css';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
@@ -15,8 +16,31 @@ const {
   languages = [],
   publications = [],
   awards = [],
-  certificates = [],
 } = resume;
+
+const networkIcons: Record<string, string> = {
+  github:        'fa-brands fa-github',
+  linkedin:      'fa-brands fa-linkedin',
+  twitter:       'fa-brands fa-twitter',
+  'x (twitter)': 'fa-brands fa-x-twitter',
+  x:             'fa-brands fa-x-twitter',
+  youtube:       'fa-brands fa-youtube',
+  'dev.to':      'fa-brands fa-dev',
+  devto:         'fa-brands fa-dev',
+  stackoverflow: 'fa-brands fa-stack-overflow',
+  mastodon:      'fa-brands fa-mastodon',
+  instagram:     'fa-brands fa-instagram',
+  bluesky:       'fa-brands fa-bluesky',
+  twitch:        'fa-brands fa-twitch',
+  kaggle:        'fa-brands fa-kaggle',
+  pypi:          'fa-brands fa-python',
+  goodreads:     'fa-brands fa-goodreads',
+  huggingface:   'hf-icon',
+};
+
+function networkIcon(network: string): string {
+  return networkIcons[network.toLowerCase()] ?? 'fa-solid fa-link';
+}
 ---
 
 <!doctype html>
@@ -36,14 +60,32 @@ const {
         </div>
         <div class="contact">
           {basics.email && (
-            <a href={`mailto:${basics.email}`}>{basics.email}</a>
+            <a href={`mailto:${basics.email}`} title={basics.email}>
+              <i class="fa-solid fa-envelope"></i>
+            </a>
           )}
           {basics.location && (
-            <span>{basics.location.city}, {basics.location.countryCode}</span>
+            <span title={`${basics.location.city}, ${basics.location.countryCode}`}>
+              <i class="fa-solid fa-location-dot"></i>
+              <span class="contact-label">{basics.location.city}</span>
+            </span>
           )}
-          {basics.profiles?.map((p: any) => (
-            <a href={p.url} target="_blank" rel="noopener">{p.network}</a>
-          ))}
+          {basics.url && (
+            <a href={basics.url} target="_blank" rel="noopener" title={basics.url}>
+              <i class="fa-solid fa-globe"></i>
+            </a>
+          )}
+          {basics.profiles?.map((p: any) => {
+            const icon = networkIcon(p.network);
+            return (
+              <a href={p.url} target="_blank" rel="noopener" title={p.network}>
+                {icon === 'hf-icon'
+                  ? <span class="hf-emoji" aria-label="HuggingFace">🤗</span>
+                  : <i class={icon}></i>
+                }
+              </a>
+            );
+          })}
         </div>
       </header>
 
@@ -63,7 +105,9 @@ const {
                   <strong>{w.position}</strong>
                   <span class="company">@ {w.name}</span>
                   {w.url && (
-                    <a href={w.url} target="_blank" rel="noopener" class="ext">↗</a>
+                    <a href={w.url} target="_blank" rel="noopener" class="ext" title={w.name}>
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                   )}
                 </div>
                 <time>{w.startDate} → {w.endDate ?? 'présent'}</time>
@@ -126,7 +170,9 @@ const {
                 <div class="entry-title">
                   <strong>{p.name}</strong>
                   {p.url && (
-                    <a href={p.url} target="_blank" rel="noopener" class="ext">↗</a>
+                    <a href={p.url} target="_blank" rel="noopener" class="ext" title={p.name}>
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                   )}
                 </div>
                 {p.startDate && (
@@ -153,7 +199,9 @@ const {
                 <div class="entry-title">
                   <strong>{p.name}</strong>
                   {p.url && (
-                    <a href={p.url} target="_blank" rel="noopener" class="ext">↗</a>
+                    <a href={p.url} target="_blank" rel="noopener" class="ext" title={p.name}>
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
                   )}
                 </div>
                 {p.releaseDate && <time>{p.releaseDate}</time>}
@@ -200,12 +248,12 @@ const {
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   :root {
-    --accent: #2563eb;
-    --text: #0f172a;
-    --muted: #64748b;
-    --border: #e2e8f0;
-    --bg: #ffffff;
-    --card-bg: #f8fafc;
+    --accent:  #60a5fa;
+    --text:    #f1f5f9;
+    --muted:   #94a3b8;
+    --border:  #334155;
+    --bg:      #0f172a;
+    --surface: #1e293b;
   }
 
   body {
@@ -236,25 +284,43 @@ const {
     font-size: 2rem;
     font-weight: 800;
     letter-spacing: -0.03em;
+    color: var(--text);
   }
 
   .label {
     color: var(--accent);
     font-weight: 500;
-    margin-top: 0.2rem;
+    margin-top: 0.25rem;
   }
 
+  /* ── Contact icons ── */
   .contact {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 0.2rem;
-    font-size: 0.82rem;
-    color: var(--muted);
+    align-items: center;
+    gap: 0.9rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: 0.35rem;
   }
 
-  .contact a { color: var(--muted); text-decoration: none; }
+  .contact a,
+  .contact span {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    transition: color 0.15s;
+  }
+
   .contact a:hover { color: var(--accent); }
+
+  .hf-emoji { font-size: 1rem; line-height: 1; }
+
+  .contact-label {
+    font-size: 0.8rem;
+  }
 
   /* ── Sections ── */
   section { margin-top: 2rem; }
@@ -288,18 +354,25 @@ const {
     margin-bottom: 0.4rem;
   }
 
-  .entry-title { display: flex; align-items: baseline; gap: 0.3rem; flex-wrap: wrap; }
-  .entry-title strong { font-size: 0.95rem; }
+  .entry-title {
+    display: flex;
+    align-items: baseline;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+
+  .entry-title strong { font-size: 0.95rem; color: var(--text); }
 
   .company { color: var(--muted); font-size: 0.88rem; }
 
   .ext {
-    color: var(--accent);
+    color: var(--muted);
     text-decoration: none;
-    font-size: 0.8rem;
-    opacity: 0.7;
+    font-size: 0.7rem;
+    opacity: 0.6;
+    transition: opacity 0.15s, color 0.15s;
   }
-  .ext:hover { opacity: 1; }
+  .ext:hover { opacity: 1; color: var(--accent); }
 
   time {
     font-size: 0.78rem;
@@ -346,7 +419,7 @@ const {
     padding: 0.85rem 1rem;
     border: 1px solid var(--border);
     border-radius: 8px;
-    background: var(--card-bg);
+    background: var(--surface);
   }
 
   .skill-meta {
@@ -356,10 +429,10 @@ const {
     margin-bottom: 0.5rem;
   }
 
-  .skill-meta strong { font-size: 0.88rem; }
+  .skill-meta strong { font-size: 0.88rem; color: var(--text); }
 
   .level {
-    font-size: 0.72rem;
+    font-size: 0.7rem;
     color: var(--accent);
     font-weight: 600;
     text-transform: uppercase;
@@ -389,7 +462,7 @@ const {
   /* ── Responsive ── */
   @media (max-width: 600px) {
     header { flex-direction: column; }
-    .contact { align-items: flex-start; }
+    .contact { justify-content: flex-start; }
     .entry-header { flex-direction: column; gap: 0.15rem; }
     .skills-grid { grid-template-columns: 1fr; }
   }
