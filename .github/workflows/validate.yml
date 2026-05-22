@@ -1,0 +1,23 @@
+name: Validate resume.json
+
+on:
+  push:
+    paths:
+      - "manual/resume.json"
+      - "scripts/validate-json-resume.py"
+  pull_request:
+    paths:
+      - "manual/resume.json"
+      - "scripts/validate-json-resume.py"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Validate resume.json
+        run: uv run scripts/validate-json-resume.py
