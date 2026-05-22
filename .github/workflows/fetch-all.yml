@@ -54,8 +54,15 @@ jobs:
           fi
 
           git commit -m "chore: monthly data refresh ${DATE}"
-          git tag "${TAG}"
-          git push origin "${BRANCH}" --tags
+          FINAL_TAG="${TAG}"
+          n=1
+          while git rev-parse "${FINAL_TAG}" >/dev/null 2>&1; do
+            FINAL_TAG="${TAG}.${n}"
+            n=$((n + 1))
+          done
+          git tag "${FINAL_TAG}"
+          git push origin "${BRANCH}"
+          git push origin "refs/tags/${FINAL_TAG}"
 
           PR_URL=$(gh pr create \
             --title "chore: data refresh ${DATE}" \
