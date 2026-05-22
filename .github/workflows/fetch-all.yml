@@ -39,11 +39,22 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           DATE=$(date +%Y-%m-%d)
-          BRANCH="data/refresh-${DATE}"
-          TAG="data-${DATE}"
+          BASE_BRANCH="data/refresh-${DATE}"
+          BASE_TAG="data-${DATE}"
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          BRANCH="${BASE_BRANCH}"
+          TAG="${BASE_TAG}"
+          n=1
+          while git ls-remote --exit-code origin "refs/heads/${BRANCH}" >/dev/null 2>&1 \
+             || git ls-remote --exit-code origin "refs/tags/${TAG}" >/dev/null 2>&1; do
+            BRANCH="${BASE_BRANCH}.${n}"
+            TAG="${BASE_TAG}.${n}"
+            n=$((n + 1))
+          done
+          echo "Branch: ${BRANCH}, Tag: ${TAG}"
 
           git checkout -b "${BRANCH}"
           git add data/
@@ -54,15 +65,9 @@ jobs:
           fi
 
           git commit -m "chore: monthly data refresh ${DATE}"
-          FINAL_TAG="${TAG}"
-          n=1
-          while git rev-parse "${FINAL_TAG}" >/dev/null 2>&1; do
-            FINAL_TAG="${TAG}.${n}"
-            n=$((n + 1))
-          done
-          git tag "${FINAL_TAG}"
+          git tag "${TAG}"
           git push origin "${BRANCH}"
-          git push origin "refs/tags/${FINAL_TAG}"
+          git push origin "refs/tags/${TAG}"
 
           PR_URL=$(gh pr create \
             --title "chore: data refresh ${DATE}" \
