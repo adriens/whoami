@@ -1,0 +1,497 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
+
+  "basics": {
+    "name": "Adrien Sales",
+    "label": "Architecte SI & Chef de Section | Data Engineering | DevRel | Open Source | Enseignant",
+    "image": "",
+    "email": "Adrien.Sales@gmail.com",
+    "phone": "+687 84 29 84",
+    "url": "https://dev.to/adriens",
+    "summary": "Ingénieur et architecte SI avec plus de 20 ans d'expérience, démarré comme consultant développeur sur les couches base de données chez Experian Decision Analytics (grands comptes : Orange, Bank of America, Crédit Lyonnais), puis DBA expert en tuning Oracle/PostgreSQL chez Docaposte (HADOPI, Jedeclare.com, Infogreffe). Rentré en Nouvelle-Calédonie, j'ai progressé de chef de projet à architecte logiciel à la DSI de la Ville de Nouméa, avant de rejoindre l'OPT-NC comme Chef de Section GLIA (Génie Logiciel Inter-Applicatif) : interopérabilité du SI, data engineering, DevSecOps, knowledge graph Neo4j, Developer Relations et innovation. Contributeur open source actif (DuckDB, endoflife.date, SchemaCrawler, oracle-jutils), auteur de 206 articles sur dev.to, Notebooks Expert Kaggle (top 5%). Enseignant en Master MIAGE à l'Université de Nouvelle-Calédonie avec une approche pédagogique learning-by-doing inspirée de Montessori : projets réels, open source, open data, #techforgood.",
+    "location": {
+      "address": "",
+      "postalCode": "98800",
+      "city": "Nouméa",
+      "countryCode": "NC",
+      "region": "Nouvelle-Calédonie"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "adriens",
+        "url": "https://github.com/adriens/"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "adrien-sales",
+        "url": "https://linkedin.com/in/adrien-sales/"
+      },
+      {
+        "network": "Dev.to",
+        "username": "adriens",
+        "url": "https://dev.to/adriens/"
+      },
+      {
+        "network": "YouTube",
+        "username": "DevOPS-LAB",
+        "url": "https://www.youtube.com/channel/UCcbQ_euR84DKOf_-ksI5_GQ"
+      },
+      {
+        "network": "Kaggle",
+        "username": "adriensales",
+        "url": "https://www.kaggle.com/adriensales"
+      },
+      {
+        "network": "X (Twitter)",
+        "username": "rastadidi",
+        "url": "https://twitter.com/rastadidi"
+      },
+      {
+        "network": "PyPI",
+        "username": "rastadidi",
+        "url": "https://pypi.org/user/rastadidi/"
+      },
+      {
+        "network": "Goodreads",
+        "username": "adrien-sales",
+        "url": "https://www.goodreads.com/user/show/124105866-adrien"
+      }
+    ]
+  },
+
+  "work": [
+    {
+      "name": "OPT-NC (Office des Postes et Télécommunications de Nouvelle-Calédonie)",
+      "position": "Chef de Section GLIA — Génie Logiciel Inter-Applicatif",
+      "url": "https://www.opt.nc",
+      "startDate": "2019-04",
+      "summary": "Pilotage de la section GLIA : interopérabilité du SI, data engineering, DevSecOps, cartographie du SI par knowledge graph, Developer Relations et innovation. Management d'équipe, formation de stagiaires et mentorat.",
+      "highlights": [
+        "Stack data complète en production : Airflow conteneurisé sur Kubernetes, Lakehouse DuckLake, Superset (dataviz), MinIO (stockage) — pipeline bout en bout opérationnel",
+        "Cartographie du SI par knowledge graph Neo4j avec release automatisée via GitHub Actions — présenté à NODES 2022 et NODES 2024 (conférence internationale Neo4j), enrichi d'agents IA",
+        "Stabilisation et rationalisation du bus applicatif Kafka pour un SI hautement disponible et performant",
+        "Culture DevSecOps complète : GitHub Actions, Quarkus, conteneurisation Podman/Docker, shift-left security avec geol (open source, 1 300+ downloads) intégrant Trivy, Quarto et DuckDB",
+        "Déploiement et animation du portail API APIGEE grand public : conception, DevRel, vidéos et documentation",
+        "Open data OPT-NC sur Kaggle et Hugging Face avec MCPs — démo publique : candidature via MCP Claude en 20 minutes",
+        "CLI mobitag en Go pour envoyer des SMS via l'API Mobitag — distribué via Homebrew/goreleaser, conçu avec l'équipe comme exercice pédagogique",
+        "Design, développement et livraison de l'API domaine.nc (noms de domaine .NC) exposée sur la marketplace APIGEE — a permis la création d'une application mobile open source Flutter par la communauté, publiée sur le Google Play Store, testée en crowdtesting via Hightest/Testeum, avec 25 releases et une playlist YouTube dédiée",
+        "Formation et mentorat de stagiaires dont plusieurs recrutés en CDI"
+      ]
+    },
+    {
+      "name": "DSI Ville de Nouméa",
+      "position": "Architecte Logiciel / Chef de Section Développement & Maintenance",
+      "url": "https://www.noumea.nc",
+      "startDate": "2010-12",
+      "endDate": "2019-03",
+      "summary": "Évolution de chef de projet à chef de section puis architecte logiciel. Modernisation complète du SI applicatif de la collectivité.",
+      "highlights": [
+        "Mise en place de la gestion de versions : déploiement SVN on-premise puis migration intégrale vers GitHub",
+        "Migration des applications de WebSphere vers Tomcat puis Spring Boot avec automatisation du build et conteneurisation",
+        "Introduction de Spring Framework puis Spring Boot en remplacement d'un framework maison",
+        "Adoption de ZK Framework en remplacement d'un framework maison pour les applications métier",
+        "Migration des bases de données Oracle vers PostgreSQL et bascule de l'infrastructure vers Linux"
+      ]
+    },
+    {
+      "name": "Docaposte",
+      "position": "DBA — Oracle & PostgreSQL",
+      "startDate": "2008-10",
+      "endDate": "2010-11",
+      "summary": "DBA expert sur des projets nationaux à fort enjeu. Spécialité : tuning et optimisation de bases de données en production.",
+      "highlights": [
+        "Tuning avancé de bases de données Oracle et PostgreSQL sur des plateformes nationales à fort trafic",
+        "Automatisation des scripts de production et introduction des premières pratiques DevOps",
+        "Intervention sur des projets critiques : HADOPI, Jedeclare.com, Infogreffe"
+      ]
+    },
+    {
+      "name": "Experian Decision Analytics",
+      "position": "Consultant Développeur — Couche Base de Données",
+      "startDate": "2003-09",
+      "endDate": "2008-09",
+      "summary": "Développement core sur le layer base de données et intégration en mode consultant chez de grands comptes. Basé à Monaco.",
+      "highlights": [
+        "Développement du layer base de données des composants Decision Analytics, déployés chez Orange, Bank of America et Le Crédit Lyonnais",
+        "Intégration de JMX pour le monitoring interopérable des métriques — initiative innovante pour l'époque ayant significativement amélioré la delivery et le run chez les clients",
+        "Stage de fin de Mastère Spécialisé transformé en embauche directe"
+      ]
+    }
+  ],
+
+  "volunteer": [
+    {
+      "organization": "Université de Nouvelle-Calédonie — Master MIAGE (IAE)",
+      "position": "Enseignant vacataire — Module Interopérabilité des SI",
+      "url": "https://unc.nc",
+      "startDate": "2015-01",
+      "summary": "Conception et animation du module Interopérabilité des Systèmes d'Information en Master MIAGE. Approche pédagogique inspirée de Montessori : learning by doing, projets réels open source et open data, syllabus public sur GitHub, ressources cloud publiques. Suivi des étudiants jusqu'à leur insertion professionnelle.",
+      "highlights": [
+        "Conception intégrale du module et du syllabus (public sur GitHub)",
+        "Pédagogie Montessori appliquée à l'enseignement tech : projets réels, open source, open data, #techforgood",
+        "Expo des réalisations étudiantes en fin d'année documentée sur dev.to (23 commentaires)",
+        "Suivi personnalisé jusqu'à l'emploi pour l'ensemble des promotions"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "CERAM Business School (Skema) — Sophia Antipolis",
+      "url": "https://www.skema.edu",
+      "area": "Bases de données et Progiciels / ERP",
+      "studyType": "Mastère Spécialisé MSBDS (Label Conférence des Grandes Écoles)",
+      "startDate": "2002-09",
+      "endDate": "2003-09",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Université de Nice Sophia-Antipolis",
+      "url": "https://univ-cotedazur.fr",
+      "area": "Mathématiques Appliquées",
+      "studyType": "DEA (Diplôme d'Études Approfondies)",
+      "startDate": "2001-09",
+      "endDate": "2002-07",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Université de Nice Sophia-Antipolis",
+      "url": "https://univ-cotedazur.fr",
+      "area": "Mathématiques Fondamentales",
+      "studyType": "Maîtrise",
+      "startDate": "1998-09",
+      "endDate": "1999-06",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Université de la Nouvelle-Calédonie",
+      "url": "https://unc.nc",
+      "area": "Mathématiques",
+      "studyType": "Licence",
+      "startDate": "1997-09",
+      "endDate": "1998-09",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Université de Nice Sophia-Antipolis",
+      "url": "https://univ-cotedazur.fr",
+      "area": "Mathématiques - Informatique et Applications aux Sciences",
+      "studyType": "DEUG MIASS",
+      "startDate": "1994-09",
+      "endDate": "1996-06",
+      "score": "",
+      "courses": []
+    }
+  ],
+
+  "awards": [
+    {
+      "title": "Notebooks Expert — Kaggle",
+      "date": "2024-01",
+      "awarder": "Kaggle (Google)",
+      "summary": "Top 5% mondial des contributeurs Kaggle — rang 3 005 / 62 173. 6 médailles de bronze, 27 datasets publiés, 81 notebooks, participation régulière aux hackathons."
+    },
+    {
+      "title": "Speaker — NODES 2024 (Conférence internationale Neo4j)",
+      "date": "2024-11",
+      "awarder": "Neo4j",
+      "summary": "Présentation : Cloud-Native Knowledge Graph Automation & AI Agents — cartographie du SI OPT-NC avec Neo4j, release automatisée et agents IA."
+    },
+    {
+      "title": "Speaker — NODES 2022 (Conférence internationale Neo4j)",
+      "date": "2022-11",
+      "awarder": "Neo4j",
+      "summary": "Présentation de la première version du knowledge graph SI de l'OPT-NC."
+    },
+    {
+      "title": "Speaker — Elastic Paris Meetup #58",
+      "date": "2023-01",
+      "awarder": "Elastic",
+      "summary": "Talk : Linter et cartographier ses bases de données en continu avec SchemaCrawler et Elasticsearch."
+    },
+    {
+      "title": "Extension officielle DuckDB Community — brew",
+      "date": "2026-02",
+      "awarder": "DuckDB",
+      "summary": "Extension brew listée sur duckdb.org/community_extensions permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge, activement maintenue."
+    },
+    {
+      "title": "Arctic Code Vault Contributor — GitHub",
+      "date": "2020-07",
+      "awarder": "GitHub",
+      "summary": "Code archivé dans le GitHub Arctic Code Vault pour préservation millénaire."
+    },
+    {
+      "title": "Hacktoberfest Maintainer Spotlight — geol",
+      "date": "2025-10",
+      "awarder": "DEV Community / Hacktoberfest",
+      "summary": "Mise en avant officielle comme mainteneur open source pour le projet geol lors du Hacktoberfest 2025."
+    },
+    {
+      "title": "Admissibilité CAPES externe — Mathématiques",
+      "date": "2000-07",
+      "awarder": "Ministère de l'Éducation Nationale",
+      "summary": "Admissible au CAPES externe de Mathématiques."
+    }
+  ],
+
+  "certificates": [
+    {
+      "name": "Scrum Master",
+      "date": "2013-01",
+      "issuer": "Scrum Alliance",
+      "url": ""
+    },
+    {
+      "name": "Product Owner",
+      "date": "2014-01",
+      "issuer": "Scrum Alliance",
+      "url": ""
+    }
+  ],
+
+  "publications": [
+    {
+      "name": "206 articles techniques — Dev.to",
+      "publisher": "Dev.to",
+      "releaseDate": "2020-08-04",
+      "url": "https://dev.to/adriens/",
+      "summary": "Publication régulière d'articles techniques en anglais et français sur le data engineering, Neo4j, DevOps, open data, IA et l'interopérabilité des SI. 25 badges dont Five Year Club, Hacktoberfest 2025, Google Gemini Challenge, GitHub Copilot Challenge. 1 463 commentaires écrits."
+    },
+    {
+      "name": "Chaîne YouTube DevOPS-LAB",
+      "publisher": "YouTube",
+      "releaseDate": "2020-01-01",
+      "url": "https://www.youtube.com/channel/UCcbQ_euR84DKOf_-ksI5_GQ",
+      "summary": "Vidéos techniques en français et anglais : démonstrations live, DevOps, data engineering, Neo4j, MCP, open data. Inclut des détournements humoristiques de films (VO russe/allemand sous-titrés) pour vulgariser des concepts tech."
+    },
+    {
+      "name": "Open Data OPT-NC sur Kaggle et Hugging Face",
+      "publisher": "Kaggle / Hugging Face",
+      "releaseDate": "2022-01-01",
+      "url": "https://www.kaggle.com/adriensales",
+      "summary": "27 datasets open data publiés, 81 notebooks de démonstration. SDKs Python de scraping (edb-noumea, auptitcafe sur PyPI). Espaces Hugging Face avec applications Gradio et MCPs."
+    },
+    {
+      "name": "Talk : Linter et cartographier ses bases de données en continu",
+      "publisher": "Elastic Paris Meetup #58",
+      "releaseDate": "2023-01-01",
+      "url": "https://www.youtube.com/watch?v=5B5mGAeaHwA",
+      "summary": "Présentation de SchemaCrawler intégré à Elasticsearch pour la cartographie et le linting continu des bases de données."
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Graph & Knowledge Engineering",
+      "level": "Expert",
+      "keywords": ["Neo4j", "Graph Data Science", "Cypher", "Knowledge Graph", "GDS Library", "NetworkX", "endoflife.date-neo4j"]
+    },
+    {
+      "name": "Bases de données",
+      "level": "Avancé",
+      "keywords": ["PostgreSQL", "DuckDB", "DuckLake", "Oracle", "SQL", "Tuning", "SchemaCrawler"]
+    },
+    {
+      "name": "Data Engineering",
+      "level": "Avancé",
+      "keywords": ["Apache Airflow", "Apache Kafka", "MinIO", "Apache Superset", "Lakehouse", "ETL/ELT", "Debezium"]
+    },
+    {
+      "name": "DevSecOps",
+      "level": "Avancé",
+      "keywords": ["GitHub Actions", "Docker", "Podman", "Kubernetes", "Trivy", "Quarto", "Shift-left security", "geol", "goreleaser"]
+    },
+    {
+      "name": "Architecture & Développement",
+      "level": "Expert",
+      "keywords": ["Architecture SI", "Spring Boot", "Quarkus", "Java", "Interopérabilité", "API Design", "APIGEE", "ZK Framework", "picocli", "Cobra (Go)"]
+    },
+    {
+      "name": "IA & Agents",
+      "level": "Intermédiaire",
+      "keywords": ["MCP (Model Context Protocol)", "Hugging Face", "Gradio", "Agents IA", "RAG", "Ollama", "LangChain", "Semantic Router"]
+    },
+    {
+      "name": "Open Data & Data Science",
+      "level": "Avancé",
+      "keywords": ["Kaggle", "Python", "Pandas", "DuckDB", "Scraping", "Open Data", "Hackathons", "uv", "PyPI"]
+    },
+    {
+      "name": "Developer Relations & Communication",
+      "level": "Expert",
+      "keywords": ["Talks internationaux", "YouTube", "Dev.to", "Documentation", "Vulgarisation", "Community building", "Marketing $0", "Mux", "Détournements vidéo tech"]
+    },
+    {
+      "name": "Management & Pédagogie",
+      "level": "Expert",
+      "keywords": ["Management d'équipe", "Mentorat", "Scrum", "Product Owner", "Gestion de projet", "Enseignement universitaire", "Pédagogie Montessori", "Learning by doing"]
+    },
+    {
+      "name": "Open Source",
+      "level": "Avancé",
+      "keywords": ["endoflife.date", "SchemaCrawler", "Chocolatey", "DuckDB brew extension", "geol", "oracle-jutils", "mobitag", "yamlfixer"]
+    }
+  ],
+
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Natif"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "Professionnel — articles, talks et vidéos en live"
+    },
+    {
+      "language": "Allemand",
+      "fluency": "Notions"
+    },
+    {
+      "language": "Espagnol",
+      "fluency": "Notions"
+    }
+  ],
+
+  "interests": [
+    {
+      "name": "Sports outdoor & nautiques",
+      "keywords": ["Course à pied", "Natation open water", "Monopalme", "Prone paddle", "Windsurf", "Wingfoil", "Vélo", "Street workout"]
+    },
+    {
+      "name": "Maker & IoT",
+      "keywords": ["Arduino", "LED matrix", "API vers IoT", "Projets hardware hobby"]
+    },
+    {
+      "name": "Veille technologique & innovation",
+      "keywords": ["Livres tech", "Livres management", "Architecture SI", "Intelligence artificielle", "Open source", "Vibe coding Go"]
+    },
+    {
+      "name": "Création de contenu & humour tech",
+      "keywords": ["Détournements vidéo", "Films VO russe/allemand sous-titrés français", "Mèmes tech", "Storytelling technique"]
+    },
+    {
+      "name": "Lecture",
+      "keywords": ["Management", "Architecture logicielle", "Data science", "Innovation", "Start with Why"]
+    }
+  ],
+
+  "references": [],
+
+  "projects": [
+    {
+      "name": "geol — CLI de gestion des End-of-Life",
+      "startDate": "2022-01",
+      "description": "Outil open source (Go) permettant de gérer les end-of-life des composants logiciels en terminal et CI. Intègre Trivy, génère des rapports via Quarto/LaTeX et DuckDB. Conçu le week-end sur temps personnel. Hacktoberfest Maintainer Spotlight 2025.",
+      "highlights": [
+        "1 300+ downloads, 11 stars, v2.7.1 activement maintenue",
+        "Hacktoberfest 2025 Maintainer Spotlight officiel",
+        "Démo 'impossible 1 minute' sur Mux — approche marketing $0 (YouTube + dev.to uniquement)",
+        "Meetup et démo Killercoda à venir"
+      ],
+      "url": "https://github.com/opt-nc/geol"
+    },
+    {
+      "name": "duckdb-brew — Extension DuckDB Community",
+      "startDate": "2026-02",
+      "description": "Extension officielle DuckDB Community permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge avec vibe coding + CI/CD. Listée sur duckdb.org.",
+      "highlights": [
+        "Listée officiellement sur duckdb.org/community_extensions/extensions/brew",
+        "Construite en hackathon, activement maintenue",
+        "Permet analyses de dépendances, centralité de graphe et rapports de sécurité en SQL pur"
+      ],
+      "url": "https://github.com/adriens/duckdb-brew"
+    },
+    {
+      "name": "Knowledge Graph SI OPT-NC — Neo4j",
+      "startDate": "2021-01",
+      "description": "Système de cartographie du SI de l'OPT-NC basé sur Neo4j avec release automatisée via GitHub Actions. Présenté à NODES 2022 et NODES 2024. Enrichi d'agents IA.",
+      "highlights": [
+        "Speaker NODES 2022 et NODES 2024 (conférence internationale Neo4j)",
+        "Release automatisée via GitHub Actions",
+        "endoflife.date-neo4j référencé dans le wiki officiel endoflife.date aux côtés de Dynatrace et Shodan"
+      ],
+      "url": "https://github.com/opt-nc"
+    },
+    {
+      "name": "MCP OPT-NC — Offres d'emploi Hugging Face",
+      "startDate": "2025-01",
+      "description": "Model Context Protocol exposant les offres d'emploi de l'OPT-NC depuis Hugging Face. Démo publique : trouver et candidater à un poste avec Claude en 20 minutes.",
+      "highlights": [
+        "Démo YouTube : candidature complète (lettre, préparation entretien) en 20 minutes",
+        "Stack 100% open source et open data",
+        "Gradio + Hugging Face Spaces + Claude"
+      ],
+      "url": "https://www.youtube.com/watch?v=yfkjFV42FmY"
+    },
+    {
+      "name": "mobitag — CLI Go pour l'envoi de SMS",
+      "startDate": "2024-06",
+      "description": "CLI en Go pour envoyer des SMS via l'API Mobitag de l'OPT-NC. Distribué via Homebrew et goreleaser. Conçu avec l'équipe comme exercice pédagogique CLI-first. Série de 4 articles sur dev.to.",
+      "highlights": [
+        "Commenté par Jess Lee, co-fondatrice de DEV/Forem",
+        "Philosophie CLI-guidelines : UX first, binaire statique cross-platform, Cobra",
+        "Distribué via Homebrew/goreleaser"
+      ],
+      "url": "https://github.com/opt-nc/mobitag"
+    },
+    {
+      "name": "edb-noumea — SDK qualité eaux de baignade",
+      "startDate": "2025-09",
+      "description": "Package PyPI (stack uv) scraper de la qualité des eaux de baignade à Nouméa. Écosystème complet : TUI Go/BubbleTea, dataset Kaggle, live CSV data, graphiques automatiques. v0.4.0 mai 2026.",
+      "highlights": [
+        "Activement maintenu — v0.4.0 mai 2026",
+        "Écosystème complet : PyPI + Kaggle + GitHub Actions + TUI Go",
+        "Exemple de data citizen appliqué au quotidien"
+      ],
+      "url": "https://pypi.org/project/edb-noumea/"
+    },
+    {
+      "name": "oracle-jutils — Framework PL/SQL Oracle 11g",
+      "startDate": "2009-03",
+      "description": "Framework open source de packages PL/SQL pour Oracle 11g (dump LOB, CRC, MIME type, XMPP, QR codes, Twitter...). Première et unique implémentation libre. Découvert et reconnu par des équipes Oracle APEX au Texas.",
+      "highlights": [
+        "6 509 téléchargements sur SourceForge (2009-2026)",
+        "Note 5/5 étoiles par la communauté",
+        "Reconnu par des équipes Oracle APEX basées au Texas"
+      ],
+      "url": "https://sourceforge.net/projects/oracle-jutils/"
+    },
+    {
+      "name": "API domaine.nc — Création de l'interopérabilité des noms de domaine .NC",
+      "startDate": "2022-01",
+      "description": "Avant ce projet : aucune API, aucune interopérabilité possible sur les données des noms de domaine .NC. Design, développement et livraison de l'API exposée sur la marketplace APIGEE grand public de l'OPT-NC. Publication parallèle du dataset open data sur Kaggle. Effet multiplicateur : une application mobile open source Flutter a été développée par la communauté, publiée sur le Google Play Store et testée en crowdtesting.",
+      "highlights": [
+        "Zéro interopérabilité avant ce projet — première et unique API publique sur les domaines .NC",
+        "Dataset open data publié sur Kaggle : New Caledonia .NC Domains Database (https://www.kaggle.com/datasets/adriensales/new-caledonia-ncl-nc-domains-database)",
+        "App mobile Flutter open source tierce : 25 releases (v1.4.2 oct. 2025), 7 stars, 2 forks, Google Play Store",
+        "Testée en crowdtesting professionnel via Hightest/Testeum — témoignage publié",
+        "Série d'articles dev.to, playlist YouTube et article Kaggle dédiés",
+        "Pattern complet : problème identifié → API → open data → app mobile → écosystème communautaire"
+      ],
+      "url": "https://github.com/lschaeffer313/domaine-nc-mobile"
+    },
+    {
+      "startDate": "2022-01",
+      "description": "Contributeur actif sur SchemaCrawler : packaging RPM/DEB, package Chocolatey (23 048 downloads), intégration Neo4j, speaker Elastic Paris Meetup #58.",
+      "highlights": [
+        "23 048 downloads du package Chocolatey maintenu",
+        "Speaker Elastic Paris Meetup #58 : cartographie et linting continu des bases de données",
+        "Intégration Neo4j pour visualisation des schémas"
+      ],
+      "url": "https://community.chocolatey.org/packages/schemacrawler/17.6.1"
+    }
+  ],
+
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2026-05-23",
+    "theme": "elegant"
+  }
+}
