@@ -1,6 +1,6 @@
 # whoami
 
-[![JSON Resume](https://img.shields.io/badge/JSON%20Resume-schema-5A0FC8?logo=json&logoColor=white)](https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json)
+[![JSON Resume](https://img.shields.io/badge/JSON%20Resume-schema-5A0FC8?logo=json&logoColor=white)](https://jsonresume.org/schema)
 [![Validate](https://github.com/adriens/whoami/actions/workflows/validate.yml/badge.svg)](https://github.com/adriens/whoami/actions/workflows/validate.yml)
 [![Monthly fetch](https://github.com/adriens/whoami/actions/workflows/fetch-all.yml/badge.svg)](https://github.com/adriens/whoami/actions/workflows/fetch-all.yml)
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
