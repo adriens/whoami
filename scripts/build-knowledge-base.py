@@ -1,0 +1,145 @@
+import argparse
+import json
+from datetime import date
+from pathlib import Path
+
+OUTPUT = Path("output/knowledge-base.md")
+DATA = Path("data")
+RESUME = Path("manual/resume.json")
+
+
+def section(title: str, level: int = 2) -> str:
+    return f"\n{'#' * level} {title}\n"
+
+
+def build_resume(resume: dict) -> str:
+    b = resume["basics"]
+    lines = [section("Profil")]
+    lines.append(f"**{b['name']}** — {b['label']}\n")
+    lines.append(f"{b['summary']}\n")
+
+    lines.append(section("Expérience", 3))
+    for w in resume.get("work", []):
+        end = w.get("endDate", "présent")
+        lines.append(f"**{w['position']}** @ {w['name']} ({w['startDate']} → {end})")
+        lines.append(f"{w['summary']}")
+        for h in w.get("highlights", []):
+            lines.append(f"- {h}")
+        lines.append("")
+
+    lines.append(section("Compétences", 3))
+    for s in resume.get("skills", []):
+        kw = ", ".join(s.get("keywords", []))
+        lines.append(f"**{s['name']}** ({s['level']}) : {kw}")
+
+    lines.append(section("Projets open source", 3))
+    for p in resume.get("projects", []):
+        name = p.get("name", "")
+        url = p.get("url", "")
+        desc = p.get("description", "")
+        lines.append(f"**{name}** — {url}")
+        lines.append(f"{desc}")
+        for h in p.get("highlights", []):
+            lines.append(f"- {h}")
+        lines.append("")
+
+    return "\n".join(lines)
+
+
+def build_articles(data_dir: Path, lite: bool) -> str:
+    articles_dir = data_dir / "dev_to"
+    if not articles_dir.exists():
+        return ""
+    lines = [section("Articles DEV.to")]
+    total = 0
+    for user_dir in sorted(articles_dir.iterdir()):
+        user = user_dir.name
+        md_files = sorted((user_dir / "articles").glob("*.md")) if (user_dir / "articles").exists() else []
+        if not md_files:
+            continue
+        lines.append(section(f"@{user} ({len(md_files)} articles)", 3))
+        for md in md_files:
+            content = md.read_text(encoding="utf-8")
+            if lite:
+                # frontmatter uniquement
+                lines.append(content.split("---\n\n")[0].strip() + "\n---")
+            else:
+                lines.append(content.strip())
+            lines.append("\n---\n")
+            total += 1
+    lines.insert(1, f"*{total} articles au total*\n")
+    return "\n".join(lines)
+
+
+def build_videos(data_dir: Path, lite: bool) -> str:
+    youtube_dir = data_dir / "youtube"
+    if not youtube_dir.exists():
+        return ""
+    lines = [section("Vidéos YouTube")]
+    total = 0
+    for channel_dir in sorted(youtube_dir.iterdir()):
+        channel = channel_dir.name
+        md_files = sorted((channel_dir / "videos").glob("*.md")) if (channel_dir / "videos").exists() else []
+        if not md_files:
+            continue
+        lines.append(section(f"Chaîne : {channel} ({len(md_files)} vidéos)", 3))
+        for md in md_files:
+            content = md.read_text(encoding="utf-8")
+            if lite:
+                lines.append(content.split("---\n\n")[0].strip() + "\n---")
+            else:
+                lines.append(content.strip())
+            lines.append("\n---\n")
+            total += 1
+    lines.insert(1, f"*{total} vidéos au total*\n")
+    return "\n".join(lines)
+
+
+def build_books(data_dir: Path, lite: bool) -> str:
+    goodreads_dir = data_dir / "goodreads"
+    if not goodreads_dir.exists():
+        return ""
+    lines = [section("Livres lus (Goodreads)")]
+    total = 0
+    for user_dir in sorted(goodreads_dir.iterdir()):
+        md_files = sorted((user_dir / "books").glob("*.md")) if (user_dir / "books").exists() else []
+        if not md_files:
+            continue
+        for md in md_files:
+            content = md.read_text(encoding="utf-8")
+            if lite:
+                lines.append(content.split("---\n\n")[0].strip() + "\n---")
+            else:
+                lines.append(content.strip())
+            lines.append("\n---\n")
+            total += 1
+    lines.insert(1, f"*{total} livres au total*\n")
+    return "\n".join(lines)
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Generer knowledge-base.md pour NotebookLM")
+    parser.add_argument("--lite", action="store_true", help="Frontmatters uniquement, sans corps des articles")
+    args = parser.parse_args()
+
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+
+    resume = json.loads(RESUME.read_text(encoding="utf-8"))
+    mode = "lite" if args.lite else "full"
+
+    parts = [
+        f"# Adrien Sales — Knowledge Base ({mode})\n",
+        f"*Généré le {date.today()}*\n",
+        build_resume(resume),
+        build_articles(DATA, lite=args.lite),
+        build_videos(DATA, lite=args.lite),
+        build_books(DATA, lite=args.lite),
+    ]
+
+    OUTPUT.write_text("\n".join(p for p in parts if p), encoding="utf-8")
+    size_kb = OUTPUT.stat().st_size // 1024
+    print(f"Done. {OUTPUT} ({size_kb} Ko, mode={mode})")
+
+
+if __name__ == "__main__":
+    main()

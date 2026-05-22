@@ -15,10 +15,12 @@ tasks:
       - bunx serve public -p 4000
 
   export-html:
-    desc: Exporter le CV en HTML autonome (resume.html)
+    desc: Exporter le CV en HTML autonome (output/resume.html)
     deps: [build]
     cmds:
-      - cp public/index.html resume.html
+      - mkdir -p output
+      - cp public/index.html output/resume.html
+      - cp -r public/fonts output/fonts
 
   validate:
     desc: Valider le resume.json contre le schema JSON Resume (uv)
@@ -30,7 +32,61 @@ tasks:
     cmds:
       - bun install
 
-  clean:
-    desc: Supprimer les fichiers generes
+  fetch-devto-adriens:
+    desc: Provisionner les articles DEV.to @adriens
     cmds:
-      - rm -rf public resume.html resume.pdf
+      - uv run scripts/fetch-devto-articles.py --user adriens
+
+  fetch-devto-opt-nc:
+    desc: Provisionner les articles DEV.to @opt-nc (ecrits par adriens uniquement)
+    cmds:
+      - uv run scripts/fetch-devto-articles.py --user opt-nc --author adriens
+
+  fetch-devto:
+    desc: Provisionner tous les articles DEV.to (sequentiel)
+    cmds:
+      - task: fetch-devto-adriens
+      - task: fetch-devto-opt-nc
+
+  fetch-youtube-devops-lab:
+    desc: Provisionner les videos YouTube de la chaine DevOPS-LAB
+    cmds:
+      - uv run scripts/fetch-youtube-channel.py --channel devops-lab
+
+  fetch-youtube:
+    desc: Provisionner toutes les chaines YouTube (sequentiel)
+    cmds:
+      - task: fetch-youtube-devops-lab
+
+  fetch-goodreads-adriens:
+    desc: Provisionner les livres Goodreads @adriens (etagere read)
+    cmds:
+      - uv run scripts/fetch-goodreads.py --user 124105866
+
+  fetch-goodreads:
+    desc: Provisionner tous les comptes Goodreads (sequentiel)
+    cmds:
+      - task: fetch-goodreads-adriens
+
+  build-knowledge-base:
+    desc: Generer output/knowledge-base.md pour injection NotebookLM (full)
+    cmds:
+      - uv run scripts/build-knowledge-base.py
+
+  build-knowledge-base-lite:
+    desc: Generer output/knowledge-base.md (lite, frontmatters uniquement)
+    cmds:
+      - uv run scripts/build-knowledge-base.py --lite
+
+  fetch-all:
+    desc: Fetch toutes les sources + genere le knowledge base
+    cmds:
+      - task: fetch-devto
+      - task: fetch-youtube
+      - task: fetch-goodreads
+      - task: build-knowledge-base
+
+  clean:
+    desc: Supprimer les fichiers generes et les dependances
+    cmds:
+      - rm -rf public output node_modules .venv

@@ -1,0 +1,67 @@
+name: Monthly fetch-all
+
+on:
+  schedule:
+    - cron: "0 3 1 * *"  # 1er du mois à 3h UTC
+  workflow_dispatch:      # déclenchement manuel possible
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install JS deps
+        run: bun install
+
+      - name: Fetch all sources
+        run: |
+          uv run scripts/fetch-devto-articles.py --user adriens
+          uv run scripts/fetch-devto-articles.py --user opt-nc --author adriens
+          uv run scripts/fetch-youtube-channel.py --channel devops-lab
+          uv run scripts/fetch-goodreads.py --user 124105866
+          uv run scripts/build-knowledge-base.py --lite
+
+      - name: Create PR and merge
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          BRANCH="data/refresh-${DATE}"
+          TAG="data-${DATE}"
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b "${BRANCH}"
+          git add data/ output/
+
+          if git diff --cached --quiet; then
+            echo "Aucune nouvelle donnée, pas de PR."
+            exit 0
+          fi
+
+          git commit -m "chore: monthly data refresh ${DATE}"
+          git tag "${TAG}"
+          git push origin "${BRANCH}" --tags
+
+          PR_URL=$(gh pr create \
+            --title "chore: data refresh ${DATE}" \
+            --body "Refresh mensuel automatique des données (DEV.to, YouTube, Goodreads)." \
+            --base main \
+            --head "${BRANCH}")
+
+          echo "PR créée : ${PR_URL}"
+          gh pr merge "${PR_URL}" --merge --delete-branch

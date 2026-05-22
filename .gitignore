@@ -9,9 +9,7 @@ out
 dist
 *.tgz
 public
-fonts
-resume.html
-resume.pdf
+output
 
 # code coverage
 coverage
