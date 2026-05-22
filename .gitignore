@@ -32,6 +32,11 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 .cache
 *.tsbuildinfo
 
+# Astro site
+site/node_modules
+site/dist
+site/.astro
+
 # IntelliJ based IDEs
 .idea
 

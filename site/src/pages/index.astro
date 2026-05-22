@@ -1,0 +1,396 @@
+---
+import { readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, resolve } from 'node:path';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const resume = JSON.parse(readFileSync(resolve(__dirname, '../../../manual/resume.json'), 'utf-8'));
+
+const {
+  basics,
+  work = [],
+  education = [],
+  skills = [],
+  projects = [],
+  languages = [],
+  publications = [],
+  awards = [],
+  certificates = [],
+} = resume;
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{basics.name} — {basics.label}</title>
+    <meta name="description" content={basics.summary} />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="name-block">
+          <h1>{basics.name}</h1>
+          <p class="label">{basics.label}</p>
+        </div>
+        <div class="contact">
+          {basics.email && (
+            <a href={`mailto:${basics.email}`}>{basics.email}</a>
+          )}
+          {basics.location && (
+            <span>{basics.location.city}, {basics.location.countryCode}</span>
+          )}
+          {basics.profiles?.map((p: any) => (
+            <a href={p.url} target="_blank" rel="noopener">{p.network}</a>
+          ))}
+        </div>
+      </header>
+
+      {basics.summary && (
+        <section class="summary">
+          <p>{basics.summary}</p>
+        </section>
+      )}
+
+      {work.length > 0 && (
+        <section>
+          <h2>Expérience</h2>
+          {work.map((w: any) => (
+            <article class="entry">
+              <div class="entry-header">
+                <div class="entry-title">
+                  <strong>{w.position}</strong>
+                  <span class="company">@ {w.name}</span>
+                  {w.url && (
+                    <a href={w.url} target="_blank" rel="noopener" class="ext">↗</a>
+                  )}
+                </div>
+                <time>{w.startDate} → {w.endDate ?? 'présent'}</time>
+              </div>
+              {w.summary && <p class="muted">{w.summary}</p>}
+              {w.highlights?.length > 0 && (
+                <ul>
+                  {w.highlights.map((h: string) => <li>{h}</li>)}
+                </ul>
+              )}
+            </article>
+          ))}
+        </section>
+      )}
+
+      {skills.length > 0 && (
+        <section>
+          <h2>Compétences</h2>
+          <div class="skills-grid">
+            {skills.map((s: any) => (
+              <div class="skill-card">
+                <div class="skill-meta">
+                  <strong>{s.name}</strong>
+                  <span class="level">{s.level}</span>
+                </div>
+                {s.keywords?.length > 0 && (
+                  <div class="tags">
+                    {s.keywords.map((k: string) => <span class="tag">{k}</span>)}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {education.length > 0 && (
+        <section>
+          <h2>Formation</h2>
+          {education.map((e: any) => (
+            <article class="entry">
+              <div class="entry-header">
+                <div class="entry-title">
+                  <strong>{e.studyType} {e.area}</strong>
+                  <span class="company">@ {e.institution}</span>
+                </div>
+                <time>{e.startDate} → {e.endDate ?? 'présent'}</time>
+              </div>
+            </article>
+          ))}
+        </section>
+      )}
+
+      {projects.length > 0 && (
+        <section>
+          <h2>Projets open source</h2>
+          {projects.map((p: any) => (
+            <article class="entry">
+              <div class="entry-header">
+                <div class="entry-title">
+                  <strong>{p.name}</strong>
+                  {p.url && (
+                    <a href={p.url} target="_blank" rel="noopener" class="ext">↗</a>
+                  )}
+                </div>
+                {p.startDate && (
+                  <time>{p.startDate}{p.endDate ? ` → ${p.endDate}` : ''}</time>
+                )}
+              </div>
+              {p.description && <p class="muted">{p.description}</p>}
+              {p.highlights?.length > 0 && (
+                <ul>
+                  {p.highlights.map((h: string) => <li>{h}</li>)}
+                </ul>
+              )}
+            </article>
+          ))}
+        </section>
+      )}
+
+      {publications.length > 0 && (
+        <section>
+          <h2>Publications</h2>
+          {publications.map((p: any) => (
+            <article class="entry">
+              <div class="entry-header">
+                <div class="entry-title">
+                  <strong>{p.name}</strong>
+                  {p.url && (
+                    <a href={p.url} target="_blank" rel="noopener" class="ext">↗</a>
+                  )}
+                </div>
+                {p.releaseDate && <time>{p.releaseDate}</time>}
+              </div>
+              {p.summary && <p class="muted">{p.summary}</p>}
+            </article>
+          ))}
+        </section>
+      )}
+
+      {awards.length > 0 && (
+        <section>
+          <h2>Distinctions</h2>
+          {awards.map((a: any) => (
+            <article class="entry">
+              <div class="entry-header">
+                <div class="entry-title">
+                  <strong>{a.title}</strong>
+                  {a.awarder && <span class="company">@ {a.awarder}</span>}
+                </div>
+                {a.date && <time>{a.date}</time>}
+              </div>
+              {a.summary && <p class="muted">{a.summary}</p>}
+            </article>
+          ))}
+        </section>
+      )}
+
+      {languages.length > 0 && (
+        <section>
+          <h2>Langues</h2>
+          <div class="lang-list">
+            {languages.map((l: any) => (
+              <span><strong>{l.language}</strong> — {l.fluency}</span>
+            ))}
+          </div>
+        </section>
+      )}
+    </main>
+  </body>
+</html>
+
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --accent: #2563eb;
+    --text: #0f172a;
+    --muted: #64748b;
+    --border: #e2e8f0;
+    --bg: #ffffff;
+    --card-bg: #f8fafc;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 15px;
+  }
+
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 3rem 2rem 5rem;
+  }
+
+  /* ── Header ── */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 2px solid var(--accent);
+  }
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+  }
+
+  .label {
+    color: var(--accent);
+    font-weight: 500;
+    margin-top: 0.2rem;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.2rem;
+    font-size: 0.82rem;
+    color: var(--muted);
+  }
+
+  .contact a { color: var(--muted); text-decoration: none; }
+  .contact a:hover { color: var(--accent); }
+
+  /* ── Sections ── */
+  section { margin-top: 2rem; }
+
+  h2 {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--muted);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 1.25rem;
+  }
+
+  /* ── Summary ── */
+  .summary p {
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.75;
+  }
+
+  /* ── Entries ── */
+  .entry { margin-bottom: 1.5rem; }
+
+  .entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .entry-title { display: flex; align-items: baseline; gap: 0.3rem; flex-wrap: wrap; }
+  .entry-title strong { font-size: 0.95rem; }
+
+  .company { color: var(--muted); font-size: 0.88rem; }
+
+  .ext {
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.8rem;
+    opacity: 0.7;
+  }
+  .ext:hover { opacity: 1; }
+
+  time {
+    font-size: 0.78rem;
+    color: var(--muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .muted {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 0.5rem;
+    line-height: 1.65;
+  }
+
+  ul { list-style: none; }
+
+  li {
+    font-size: 0.85rem;
+    color: var(--text);
+    padding: 0.2rem 0 0.2rem 1.1rem;
+    position: relative;
+    line-height: 1.5;
+  }
+
+  li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-size: 0.7rem;
+    top: 0.35rem;
+  }
+
+  /* ── Skills ── */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .skill-card {
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--card-bg);
+  }
+
+  .skill-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+  }
+
+  .skill-meta strong { font-size: 0.88rem; }
+
+  .level {
+    font-size: 0.72rem;
+    color: var(--accent);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 0.25rem; }
+
+  .tag {
+    font-size: 0.7rem;
+    background: var(--border);
+    color: var(--muted);
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+  }
+
+  /* ── Languages ── */
+  .lang-list {
+    display: flex;
+    gap: 2.5rem;
+    font-size: 0.88rem;
+    color: var(--muted);
+  }
+
+  .lang-list strong { color: var(--text); }
+
+  /* ── Responsive ── */
+  @media (max-width: 600px) {
+    header { flex-direction: column; }
+    .contact { align-items: flex-start; }
+    .entry-header { flex-direction: column; gap: 0.15rem; }
+    .skills-grid { grid-template-columns: 1fr; }
+  }
+</style>

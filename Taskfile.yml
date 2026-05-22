@@ -86,7 +86,30 @@ tasks:
       - task: fetch-goodreads
       - task: build-knowledge-base
 
+  site-install:
+    desc: Installer les dependances Astro (site/)
+    cmds:
+      - cd site && bun install
+
+  site-dev:
+    desc: Lancer le site portfolio en mode dev (localhost:4321)
+    deps: [site-install]
+    cmds:
+      - cd site && bun run dev
+
+  site-build:
+    desc: Generer le site portfolio statique (site/dist/)
+    deps: [site-install]
+    cmds:
+      - cd site && bun run build
+
+  site-preview:
+    desc: Previsualiser le build statique du portfolio
+    deps: [site-build]
+    cmds:
+      - cd site && bun run preview
+
   clean:
     desc: Supprimer les fichiers generes et les dependances
     cmds:
-      - rm -rf public output node_modules .venv
+      - rm -rf public output node_modules .venv site/node_modules site/dist site/.astro
