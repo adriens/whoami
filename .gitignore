@@ -1,6 +1,9 @@
 # dependencies (bun install)
 node_modules
 
+# uv
+.venv
+
 # output
 out
 dist
