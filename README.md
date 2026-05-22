@@ -6,6 +6,7 @@
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![Bun](https://img.shields.io/badge/Bun-black?logo=bun&logoColor=white)](https://bun.sh)
 [![Task](https://img.shields.io/badge/Task-taskfile.dev-29BEB0?logo=task&logoColor=white)](https://taskfile.dev)
+[![Astro](https://img.shields.io/badge/Astro-site-FF5D01?logo=astro&logoColor=white)](https://astro.build)
 
 Mon CV et profil en données structurées — knowledge graph personnel pour agents, embeddings et graph data science.
 
