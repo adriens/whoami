@@ -1,23 +1,78 @@
 ---
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const resume = JSON.parse(readFileSync(resolve(__dirname, '../../../manual/resume.json'), 'utf-8'));
+const root = resolve(__dirname, '../../..');
 
-const {
-  basics,
-  work = [],
-  education = [],
-  skills = [],
-  projects = [],
-  languages = [],
-  publications = [],
-  awards = [],
-} = resume;
+const resume = JSON.parse(readFileSync(resolve(root, 'manual/resume.json'), 'utf-8'));
+const { basics, work = [], education = [], skills = [], projects = [], languages = [], publications = [], awards = [] } = resume;
 
+// ── CSV parser ──────────────────────────────────────────────────────────────
+function splitRow(row: string): string[] {
+  const result: string[] = [];
+  let current = '';
+  let inQuotes = false;
+  for (let i = 0; i < row.length; i++) {
+    const ch = row[i];
+    if (ch === '"') {
+      if (inQuotes && row[i + 1] === '"') { current += '"'; i++; }
+      else { inQuotes = !inQuotes; }
+    } else if (ch === ',' && !inQuotes) {
+      result.push(current); current = '';
+    } else {
+      current += ch;
+    }
+  }
+  result.push(current);
+  return result;
+}
+
+function parseCSV(path: string): Record<string, string>[] {
+  if (!existsSync(path)) return [];
+  const lines = readFileSync(path, 'utf-8').trim().split('\n').map(l => l.replace(/\r$/, ''));
+  if (lines.length < 2) return [];
+  const headers = splitRow(lines[0]);
+  return lines.slice(1).filter(l => l.trim()).map(line => {
+    const values = splitRow(line);
+    return Object.fromEntries(headers.map((h, i) => [h, values[i] ?? '']));
+  });
+}
+
+// ── Load data ───────────────────────────────────────────────────────────────
+const articlesAdriens = parseCSV(resolve(root, 'data/dev_to/adriens/_index.csv'));
+const articlesOptNc   = parseCSV(resolve(root, 'data/dev_to/opt-nc/_index.csv'));
+const videos          = parseCSV(resolve(root, 'data/youtube/devops-lab/_index.csv'));
+const books           = parseCSV(resolve(root, 'data/goodreads/124105866/_index.csv'));
+
+const totalArticles = articlesAdriens.length + articlesOptNc.length;
+const totalVideos   = videos.length;
+const totalBooks    = books.length;
+
+const firstYear = work.length > 0
+  ? parseInt(work[work.length - 1].startDate?.substring(0, 4) ?? '2000')
+  : 2000;
+const yearsXP = new Date().getFullYear() - firstYear;
+
+const latestArticles = [...articlesAdriens]
+  .sort((a, b) => b.published_at.localeCompare(a.published_at))
+  .slice(0, 6);
+
+const latestVideos = [...videos]
+  .sort((a, b) => b.published_at.localeCompare(a.published_at))
+  .slice(0, 5);
+
+function formatDate(iso: string): string {
+  const d = iso.substring(0, 10);
+  if (!d || d === '0000-00-00') return '';
+  const [y, m] = d.split('-');
+  const months = ['jan','fév','mar','avr','mai','jun','jul','aoû','sep','oct','nov','déc'];
+  return `${months[parseInt(m) - 1]} ${y}`;
+}
+
+// ── Network icons ────────────────────────────────────────────────────────────
 const networkIcons: Record<string, string> = {
   github:        'fa-brands fa-github',
   linkedin:      'fa-brands fa-linkedin',
@@ -88,6 +143,26 @@ function networkIcon(network: string): string {
           })}
         </div>
       </header>
+
+      <!-- ── Stats bar ─────────────────────────────────────── -->
+      <div class="stats-bar">
+        <div class="stat">
+          <span class="stat-value">{totalArticles}</span>
+          <span class="stat-label"><i class="fa-brands fa-dev"></i> articles</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">{totalVideos}</span>
+          <span class="stat-label"><i class="fa-brands fa-youtube"></i> vidéos</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">{totalBooks}</span>
+          <span class="stat-label"><i class="fa-solid fa-book"></i> livres lus</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">{yearsXP}+</span>
+          <span class="stat-label"><i class="fa-solid fa-calendar"></i> ans d'XP</span>
+        </div>
+      </div>
 
       {basics.summary && (
         <section class="summary">
@@ -230,6 +305,77 @@ function networkIcon(network: string): string {
         </section>
       )}
 
+      <!-- ── Derniers articles DEV.to ───────────────────────── -->
+      {latestArticles.length > 0 && (
+        <section>
+          <h2>
+            <i class="fa-brands fa-dev"></i> Derniers articles DEV.to
+          </h2>
+          <ul class="article-list">
+            {latestArticles.map((a) => (
+              <li class="article-item">
+                <a href={a.url} target="_blank" rel="noopener" class="article-title">
+                  {a.title}
+                </a>
+                <div class="article-meta">
+                  <span class="article-date">{formatDate(a.published_at)}</span>
+                  {a.reactions && parseInt(a.reactions) > 0 && (
+                    <span class="article-stat">
+                      <i class="fa-solid fa-heart"></i> {a.reactions}
+                    </span>
+                  )}
+                  {a.reading_time_minutes && (
+                    <span class="article-stat">
+                      <i class="fa-regular fa-clock"></i> {a.reading_time_minutes} min
+                    </span>
+                  )}
+                  {a.is_dev_challenge === 'True' && (
+                    <span class="challenge-badge">DEV Challenge</span>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ul>
+          <a href="https://dev.to/adriens" target="_blank" rel="noopener" class="see-all">
+            Voir tous les articles <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </section>
+      )}
+
+      <!-- ── Dernières vidéos YouTube ───────────────────────── -->
+      {latestVideos.length > 0 && (
+        <section>
+          <h2>
+            <i class="fa-brands fa-youtube"></i> Dernières vidéos YouTube
+          </h2>
+          <ul class="article-list">
+            {latestVideos.map((v) => (
+              <li class="article-item">
+                <a href={v.url} target="_blank" rel="noopener" class="article-title">
+                  {v.title}
+                </a>
+                <div class="article-meta">
+                  <span class="article-date">{formatDate(v.published_at)}</span>
+                  {v.views && parseInt(v.views) > 0 && (
+                    <span class="article-stat">
+                      <i class="fa-solid fa-eye"></i> {parseInt(v.views).toLocaleString('fr')}
+                    </span>
+                  )}
+                  {v.duration_seconds && (
+                    <span class="article-stat">
+                      <i class="fa-regular fa-clock"></i> {Math.round(parseInt(v.duration_seconds) / 60)} min
+                    </span>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ul>
+          <a href="https://www.youtube.com/@devopslabs2812" target="_blank" rel="noopener" class="see-all">
+            Voir toutes les vidéos <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </section>
+      )}
+
       {languages.length > 0 && (
         <section>
           <h2>Langues</h2>
@@ -241,6 +387,18 @@ function networkIcon(network: string): string {
         </section>
       )}
     </main>
+
+    <footer>
+      <a href="https://github.com/adriens/whoami" target="_blank" rel="noopener">
+        <i class="fa-brands fa-github"></i>
+        adriens/whoami
+      </a>
+      <a href="https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json" target="_blank" rel="noopener">
+        <i class="fa-solid fa-brackets-curly"></i>
+        resume.json
+      </a>
+      <span>Généré avec <a href="https://astro.build" target="_blank" rel="noopener">Astro</a> · <a href="https://docs.astral.sh/uv/" target="_blank" rel="noopener">uv</a></span>
+    </footer>
   </body>
 </html>
 
@@ -293,7 +451,6 @@ function networkIcon(network: string): string {
     margin-top: 0.25rem;
   }
 
-  /* ── Contact icons ── */
   .contact {
     display: flex;
     align-items: center;
@@ -315,11 +472,47 @@ function networkIcon(network: string): string {
   }
 
   .contact a:hover { color: var(--accent); }
-
   .hf-emoji { font-size: 1rem; line-height: 1; }
+  .contact-label { font-size: 0.8rem; }
 
-  .contact-label {
-    font-size: 0.8rem;
+  /* ── Stats bar ── */
+  .stats-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 1.5rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--surface);
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.1rem 0.5rem;
+    border-right: 1px solid var(--border);
+    gap: 0.25rem;
+  }
+
+  .stat:last-child { border-right: none; }
+
+  .stat-value {
+    font-size: 1.85rem;
+    font-weight: 800;
+    color: var(--accent);
+    letter-spacing: -0.03em;
+    line-height: 1;
+  }
+
+  .stat-label {
+    font-size: 0.72rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
   }
 
   /* ── Sections ── */
@@ -334,9 +527,11 @@ function networkIcon(network: string): string {
     padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--border);
     margin-bottom: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
 
-  /* ── Summary ── */
   .summary p {
     color: var(--muted);
     font-size: 0.95rem;
@@ -354,15 +549,8 @@ function networkIcon(network: string): string {
     margin-bottom: 0.4rem;
   }
 
-  .entry-title {
-    display: flex;
-    align-items: baseline;
-    gap: 0.35rem;
-    flex-wrap: wrap;
-  }
-
+  .entry-title { display: flex; align-items: baseline; gap: 0.35rem; flex-wrap: wrap; }
   .entry-title strong { font-size: 0.95rem; color: var(--text); }
-
   .company { color: var(--muted); font-size: 0.88rem; }
 
   .ext {
@@ -422,13 +610,7 @@ function networkIcon(network: string): string {
     background: var(--surface);
   }
 
-  .skill-meta {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    margin-bottom: 0.5rem;
-  }
-
+  .skill-meta { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.5rem; }
   .skill-meta strong { font-size: 0.88rem; color: var(--text); }
 
   .level {
@@ -449,15 +631,120 @@ function networkIcon(network: string): string {
     border-radius: 999px;
   }
 
-  /* ── Languages ── */
-  .lang-list {
+  /* ── Article / Video lists ── */
+  .article-list { list-style: none; display: flex; flex-direction: column; gap: 0.1rem; }
+
+  .article-item {
+    padding: 0.65rem 0;
+    border-bottom: 1px solid var(--border);
     display: flex;
-    gap: 2.5rem;
-    font-size: 0.88rem;
-    color: var(--muted);
+    flex-direction: column;
+    gap: 0.3rem;
   }
 
+  .article-item:last-child { border-bottom: none; }
+
+  .article-item::before { display: none; }
+
+  .article-title {
+    color: var(--text);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.4;
+    transition: color 0.15s;
+  }
+
+  .article-title:hover { color: var(--accent); }
+
+  .article-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .article-date {
+    font-size: 0.75rem;
+    color: var(--muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .article-stat {
+    font-size: 0.75rem;
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .article-stat i { font-size: 0.65rem; color: var(--accent); opacity: 0.8; }
+
+  .challenge-badge {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+    padding: 0.1rem 0.45rem;
+    border-radius: 999px;
+  }
+
+  .see-all {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.85rem;
+    font-size: 0.8rem;
+    color: var(--accent);
+    text-decoration: none;
+    opacity: 0.8;
+    transition: opacity 0.15s;
+  }
+  .see-all:hover { opacity: 1; }
+  .see-all i { font-size: 0.65rem; }
+
+  /* ── Languages ── */
+  .lang-list { display: flex; gap: 2.5rem; font-size: 0.88rem; color: var(--muted); }
   .lang-list strong { color: var(--text); }
+
+  /* ── Footer ── */
+  footer {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 1.5rem 2rem 2rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  footer a {
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    transition: color 0.15s;
+  }
+
+  footer a:hover { color: var(--accent); }
+
+  footer span {
+    font-size: 0.75rem;
+    color: var(--border);
+  }
+
+  footer code {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.72rem;
+    color: var(--muted);
+  }
 
   /* ── Responsive ── */
   @media (max-width: 600px) {
@@ -465,5 +752,9 @@ function networkIcon(network: string): string {
     .contact { justify-content: flex-start; }
     .entry-header { flex-direction: column; gap: 0.15rem; }
     .skills-grid { grid-template-columns: 1fr; }
+    .stats-bar { grid-template-columns: repeat(2, 1fr); }
+    .stat:nth-child(2) { border-right: none; }
+    .stat:nth-child(3) { border-top: 1px solid var(--border); }
+    .stat:nth-child(4) { border-top: 1px solid var(--border); }
   }
 </style>
