@@ -1,0 +1,36 @@
+version: "3"
+
+tasks:
+  build:
+    desc: Generer public/index.html + fonts (source de verite HTML)
+    cmds:
+      - mkdir -p public
+      - bunx resume export -r manual/resume.json -t jsonresume-theme-elegant --format html public/index
+      - cp -r node_modules/jsonresume-theme-elegant/assets/icomoon/fonts public/fonts
+
+  serve:
+    desc: Previsualiser le CV dans le navigateur (localhost:4000)
+    deps: [build]
+    cmds:
+      - bunx serve public -p 4000
+
+  export-html:
+    desc: Exporter le CV en HTML autonome (resume.html)
+    deps: [build]
+    cmds:
+      - cp public/index.html resume.html
+
+  validate:
+    desc: Valider le resume.json contre le schema JSON Resume (uv)
+    cmds:
+      - uv run scripts/validate-json-resume.py
+
+  install:
+    desc: Installer les dependances JS (bun)
+    cmds:
+      - bun install
+
+  clean:
+    desc: Supprimer les fichiers generes
+    cmds:
+      - rm -rf public resume.html resume.pdf

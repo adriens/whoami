@@ -1,0 +1,9 @@
+{
+  "name": "whoami",
+  "private": true,
+  "dependencies": {
+    "jsonresume-theme-elegant": "^1.16.1",
+    "resume-cli": "^3.1.2",
+    "serve": "^14.2.6"
+  }
+}
