@@ -77,3 +77,8 @@ jobs:
 
           echo "PR créée : ${PR_URL}"
           gh pr merge "${PR_URL}" --merge --delete-branch
+
+          gh release create "${TAG}" \
+            --title "Data refresh ${DATE}" \
+            --notes "Refresh mensuel automatique des données (DEV.to, YouTube, Goodreads)." \
+            --target main
