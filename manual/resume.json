@@ -127,6 +127,18 @@
 
   "volunteer": [
     {
+      "organization": "endoflife.date — Projet open source communautaire",
+      "position": "Contributeur de données",
+      "url": "https://endoflife.date",
+      "startDate": "2021-01",
+      "summary": "Contribution de données au projet endoflife.date, référence mondiale collaborative pour le suivi des dates de fin de vie des logiciels et composants. Développement de l'intégration Neo4j (endoflife.date-neo4j) référencée dans le wiki officiel du projet aux côtés de Dynatrace et Shodan.",
+      "highlights": [
+        "endoflife.date-neo4j référencé dans le wiki officiel aux côtés de Dynatrace et Shodan",
+        "Contribution active aux données de fin de vie des composants logiciels",
+        "Intégration utilisée dans la stack DevSecOps de l'OPT-NC"
+      ]
+    },
+    {
       "organization": "Station N — Commission Data & IA",
       "position": "Membre actif — Conférencier",
       "url": "https://www.station-n.nc",
