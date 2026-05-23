@@ -109,6 +109,7 @@
     {
       "name": "Docaposte",
       "position": "DBA — Oracle & PostgreSQL",
+      "url": "https://www.docaposte.com",
       "startDate": "2008-10",
       "endDate": "2010-11",
       "summary": "DBA expert sur des projets nationaux à fort enjeu. Spécialité : tuning et optimisation de bases de données en production.",
@@ -281,7 +282,7 @@
       "title": "Speaker — Elastic Paris Meetup #58",
       "date": "2023-01",
       "awarder": "Elastic",
-      "summary": "Talk : Linter et cartographier ses bases de données en continu avec SchemaCrawler et Elasticsearch."
+      "summary": "Talk : Linter et cartographier ses bases de données en continu avec SchemaCrawler et Elasticsearch. https://www.youtube.com/watch?v=5B5mGAeaHwA"
     },
     {
       "title": "Speaker — NODES 2022 (Conférence internationale Neo4j)",
@@ -343,13 +344,6 @@
       "releaseDate": "2022-01-01",
       "url": "https://www.kaggle.com/adriensales",
       "summary": "27 datasets open data publiés, 81 notebooks de démonstration. SDKs Python de scraping (edb-noumea, auptitcafe sur PyPI). Espaces Hugging Face avec applications Gradio et MCPs."
-    },
-    {
-      "name": "Talk : Linter et cartographier ses bases de données en continu",
-      "publisher": "Elastic Paris Meetup #58",
-      "releaseDate": "2023-01-01",
-      "url": "https://www.youtube.com/watch?v=5B5mGAeaHwA",
-      "summary": "Présentation de SchemaCrawler intégré à Elasticsearch pour la cartographie et le linting continu des bases de données."
     }
   ],
 
@@ -381,7 +375,7 @@
     },
     {
       "name": "IA & Agents",
-      "level": "Intermédiaire",
+      "level": "Avancé",
       "keywords": ["MCP (Model Context Protocol)", "Hugging Face", "Gradio", "Agents IA", "RAG", "Ollama", "LangChain", "Semantic Router", "Vibe coding", "OpenSearch vector search"]
     },
     {
