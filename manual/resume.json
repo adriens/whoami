@@ -4,7 +4,7 @@
   "basics": {
     "name": "Adrien Sales",
     "label": "Architecte SI & Product Builder | Modélisation · Data · IA Agents | LEAN & Innovation frugale | DevRel",
-    "image": "",
+    "image": "https://github.com/adriens.png",
     "email": "Adrien.Sales@gmail.com",
     "phone": "+687 84 29 84",
     "url": "https://adriens.github.io/whoami/",
@@ -144,7 +144,7 @@
       "summary": "Contribution de données au projet endoflife.date, référence mondiale collaborative pour le suivi des dates de fin de vie des logiciels et composants. Développement de l'intégration Neo4j (endoflife.date-neo4j) référencée dans le wiki officiel du projet aux côtés de Dynatrace et Shodan.",
       "highlights": [
         "endoflife.date-neo4j référencé dans le wiki officiel aux côtés de Dynatrace et Shodan",
-        "Contribution active aux données de fin de vie des composants logiciels",
+        "Contributions YAML de données de fin de vie pour plusieurs composants open source, datasets Kaggle automatisés depuis l'API endoflife.date, rapports et fonctionnalités geol — écosystème complet bâti autour du projet",
         "Intégration utilisée dans la stack DevSecOps de l'OPT-NC"
       ]
     },
@@ -448,7 +448,7 @@
       "keywords": ["Détournements vidéo", "Films VO russe/allemand sous-titrés français", "Mèmes tech", "Storytelling technique"]
     },
     {
-      "name": "Écriture — projets futurs",
+      "name": "Écriture",
       "keywords": ["Livre sur la data en entreprise", "Recueil de nouvelles", "Vulgarisation tech"]
     },
     {
