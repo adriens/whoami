@@ -10,6 +10,9 @@ const root = resolve(__dirname, '../../..');
 const resume = JSON.parse(readFileSync(resolve(root, 'manual/resume.json'), 'utf-8'));
 const { basics, work = [], education = [], skills = [], projects = [], languages = [], publications = [], awards = [], volunteer = [], interests = [], certificates = [] } = resume;
 
+const githubProfile   = basics.profiles?.find((p: any) => p.network.toLowerCase() === 'github');
+const linkedinProfile = basics.profiles?.find((p: any) => p.network.toLowerCase() === 'linkedin');
+
 const openSourceProjects   = projects.filter((p: any) => p.type === 'open-source');
 const professionalProjects = projects.filter((p: any) => p.type === 'professional');
 const sortedAwards = [...awards].sort((a: any, b: any) => (b.date ?? '').localeCompare(a.date ?? ''));
@@ -329,9 +332,12 @@ function levelDots(level: string): number {
                   </div>
                   {w.summary && <p class="muted">{w.summary}</p>}
                   {w.highlights?.length > 0 && (
-                    <ul>
-                      {w.highlights.map((h: string) => <li>{h}</li>)}
-                    </ul>
+                    <details class="highlights-toggle" open>
+                      <summary><i class="fa-solid fa-chevron-down"></i> {w.highlights.length} point{w.highlights.length > 1 ? 's' : ''} clé{w.highlights.length > 1 ? 's' : ''}</summary>
+                      <ul>
+                        {w.highlights.map((h: string) => <li>{h}</li>)}
+                      </ul>
+                    </details>
                   )}
                 </article>
               </div>
@@ -362,9 +368,12 @@ function levelDots(level: string): number {
                   </div>
                   {v.summary && <p class="muted">{v.summary}</p>}
                   {v.highlights?.length > 0 && (
-                    <ul>
-                      {v.highlights.map((h: string) => <li>{h}</li>)}
-                    </ul>
+                    <details class="highlights-toggle" open>
+                      <summary><i class="fa-solid fa-chevron-down"></i> {v.highlights.length} point{v.highlights.length > 1 ? 's' : ''} clé{v.highlights.length > 1 ? 's' : ''}</summary>
+                      <ul>
+                        {v.highlights.map((h: string) => <li>{h}</li>)}
+                      </ul>
+                    </details>
                   )}
                 </article>
               </div>
@@ -654,6 +663,27 @@ function levelDots(level: string): number {
           </div>
         </section>
       )}
+      <section class="cta-section">
+        <p class="cta-title">Envie de collaborer ?</p>
+        <p class="cta-sub">Toujours partant pour un projet data, une conférence, un échange open source ou une opportunité depuis la Nouvelle-Calédonie.</p>
+        <div class="cta-links">
+          {basics.email && (
+            <a href={`mailto:${basics.email}`} class="cta-btn" data-copy-email={basics.email}>
+              <i class="fa-solid fa-envelope"></i> Email
+            </a>
+          )}
+          {linkedinProfile && (
+            <a href={linkedinProfile.url} target="_blank" rel="noopener" class="cta-btn">
+              <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+          )}
+          {githubProfile && (
+            <a href={githubProfile.url} target="_blank" rel="noopener" class="cta-btn">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+          )}
+        </div>
+      </section>
     </main>
 
     <footer>
@@ -1276,6 +1306,82 @@ function levelDots(level: string): number {
 
   :root[data-theme="light"] #icon-sun  { display: none; }
   :root[data-theme="light"] #icon-moon { display: block; }
+
+  /* ── C: Collapsible highlights ── */
+  .highlights-toggle { margin-top: 0.4rem; }
+
+  .highlights-toggle > summary {
+    cursor: pointer;
+    list-style: none;
+    font-size: 0.75rem;
+    color: var(--accent);
+    opacity: 0.65;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.15rem 0;
+    user-select: none;
+    transition: opacity 0.15s;
+  }
+
+  .highlights-toggle > summary::-webkit-details-marker { display: none; }
+  .highlights-toggle > summary:hover { opacity: 1; }
+
+  .highlights-toggle > summary i {
+    font-size: 0.6rem;
+    transition: transform 0.2s;
+  }
+
+  .highlights-toggle:not([open]) > summary i { transform: rotate(-90deg); }
+
+  /* ── B: CTA section ── */
+  .cta-section {
+    margin-top: 3rem;
+    padding: 2rem 2rem 1.75rem;
+    background: color-mix(in srgb, var(--accent) 7%, transparent);
+    border: 1px solid color-mix(in srgb, var(--accent) 22%, transparent);
+    border-radius: 14px;
+    text-align: center;
+  }
+
+  .cta-title {
+    font-size: 1.35rem;
+    font-weight: 800;
+    color: var(--text);
+    margin-bottom: 0.4rem;
+    letter-spacing: -0.02em;
+  }
+
+  .cta-sub {
+    font-size: 0.88rem;
+    color: var(--muted);
+    margin-bottom: 1.25rem;
+    line-height: 1.6;
+  }
+
+  .cta-links {
+    display: flex;
+    justify-content: center;
+    gap: 0.65rem;
+    flex-wrap: wrap;
+  }
+
+  .cta-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 1.1rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid var(--border);
+    color: var(--text);
+    background: var(--surface);
+    transition: border-color 0.15s, color 0.15s;
+  }
+
+  .cta-btn:hover { border-color: var(--accent); color: var(--accent); }
 
   /* ── C: Recent badge ── */
   .badge-recent {
