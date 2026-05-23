@@ -36,6 +36,7 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 site/node_modules
 site/dist
 site/.astro
+!site/public
 
 # IntelliJ based IDEs
 .idea
