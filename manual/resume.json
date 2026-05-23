@@ -97,6 +97,9 @@
       "endDate": "2019-03",
       "summary": "Évolution de chef de projet à chef de section puis architecte logiciel. Modernisation complète du SI applicatif de la collectivité.",
       "highlights": [
+        "Conception et développement de l'application permis de construire de la Ville de Nouméa — toujours en exploitation et en évolution 10+ ans après sa livraison",
+        "Conception et développement de la main courante de la police municipale de Nouméa — toujours en exploitation 10+ ans après sa livraison",
+        "Briques logicielles de base (composants réutilisables) toujours intégrées dans le SI de la collectivité à ce jour",
         "Mise en place de la gestion de versions : déploiement SVN on-premise puis migration intégrale vers GitHub",
         "Migration des applications de WebSphere vers Tomcat puis Spring Boot avec automatisation du build et conteneurisation",
         "Introduction de Spring Framework puis Spring Boot en remplacement d'un framework maison",
