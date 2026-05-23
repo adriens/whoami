@@ -8,7 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '../../..');
 
 const resume = JSON.parse(readFileSync(resolve(root, 'manual/resume.json'), 'utf-8'));
-const { basics, work = [], education = [], skills = [], projects = [], languages = [], publications = [], awards = [], volunteer = [], interests = [] } = resume;
+const { basics, work = [], education = [], skills = [], projects = [], languages = [], publications = [], awards = [], volunteer = [], interests = [], certificates = [] } = resume;
 
 const openSourceProjects   = projects.filter((p: any) => p.type === 'open-source');
 const professionalProjects = projects.filter((p: any) => p.type === 'professional');
@@ -129,6 +129,21 @@ function networkIcon(network: string): string {
   return networkIcons[network.toLowerCase()] ?? 'fa-solid fa-link';
 }
 
+const _18monthsAgo = new Date();
+_18monthsAgo.setMonth(_18monthsAgo.getMonth() - 18);
+function isRecent(dateStr: string | undefined): boolean {
+  if (!dateStr) return false;
+  const d = new Date(dateStr.length === 7 ? dateStr + '-01' : dateStr);
+  return d >= _18monthsAgo;
+}
+
+function langFlag(lang: string): string {
+  const map: Record<string, string> = {
+    'français': '🇫🇷', 'anglais': '🇬🇧', 'allemand': '🇩🇪', 'espagnol': '🇪🇸',
+  };
+  return map[lang.toLowerCase()] ?? '🌐';
+}
+
 function interestIcon(name: string): string {
   const n = name.toLowerCase();
   if (n.includes('sport') || n.includes('nautique') || n.includes('outdoor')) return 'fa-solid fa-person-running';
@@ -182,6 +197,9 @@ function levelDots(level: string): number {
       <a href="#articles"     class="snav-link" title="Articles DEV.to"><i class="fa-brands fa-dev"></i></a>
       <a href="#interets"     class="snav-link" title="Intérêts"><i class="fa-solid fa-heart-pulse"></i></a>
     </nav>
+    <button id="pdf-btn" aria-label="Exporter en PDF" title="Exporter en PDF">
+      <i class="fa-solid fa-file-pdf"></i>
+    </button>
     <button id="theme-toggle" aria-label="Basculer le thème" title="Basculer thème clair/sombre">
       <i class="fa-solid fa-sun" id="icon-sun"></i>
       <i class="fa-solid fa-moon" id="icon-moon"></i>
@@ -402,6 +420,23 @@ function levelDots(level: string): number {
         </section>
       )}
 
+      {certificates.length > 0 && (
+        <section id="certifications">
+          <h2><i class="fa-solid fa-certificate"></i> Certifications</h2>
+          <div class="cert-list">
+            {certificates.map((c: any) => (
+              <div class="cert-badge">
+                <i class="fa-solid fa-shield-halved"></i>
+                <div>
+                  <strong>{c.name}</strong>
+                  <span class="cert-meta">{c.issuer}{c.date ? ` · ${c.date.substring(0, 4)}` : ''}</span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       {openSourceProjects.length > 0 && (
         <section id="open-source">
           <h2><i class="fa-brands fa-github"></i> Projets open source <span class="section-count">{openSourceProjects.length}</span></h2>
@@ -410,6 +445,7 @@ function levelDots(level: string): number {
               <div class="entry-header">
                 <div class="entry-title">
                   <strong>{p.name}</strong>
+                  {isRecent(p.startDate) && <span class="badge-recent">RÉCENT</span>}
                   {p.url && (
                     <a href={p.url} target="_blank" rel="noopener" class="ext" title={p.name}>
                       <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -439,6 +475,7 @@ function levelDots(level: string): number {
               <div class="entry-header">
                 <div class="entry-title">
                   <strong>{p.name}</strong>
+                  {isRecent(p.startDate) && <span class="badge-recent">RÉCENT</span>}
                   {p.url && (
                     <a href={p.url} target="_blank" rel="noopener" class="ext" title={p.name}>
                       <i class="fa-solid fa-arrow-up-right-from-square"></i>
@@ -490,6 +527,7 @@ function levelDots(level: string): number {
               <div class="entry-header">
                 <div class="entry-title">
                   <strong>{a.title}</strong>
+                  {isRecent(a.date) && <span class="badge-recent">RÉCENT</span>}
                   {a.awarder && <span class="company">@ {a.awarder}</span>}
                 </div>
                 {a.date && <span class={awardBadgeClass(a.date)}>{a.date.substring(0, 4)}</span>}
@@ -611,7 +649,7 @@ function levelDots(level: string): number {
           <h2><i class="fa-solid fa-language"></i> Langues</h2>
           <div class="lang-list">
             {languages.map((l: any) => (
-              <span><strong>{l.language}</strong> — {l.fluency}</span>
+              <span>{langFlag(l.language)} <strong>{l.language}</strong> — {l.fluency}</span>
             ))}
           </div>
         </section>
@@ -649,6 +687,9 @@ function levelDots(level: string): number {
         root.setAttribute('data-theme', isLight ? 'dark' : 'light');
         localStorage.setItem('theme', isLight ? 'dark' : 'light');
       });
+
+      // ── B: PDF export ──
+      document.getElementById('pdf-btn')?.addEventListener('click', () => window.print());
 
       // ── C: Copy email to clipboard ──
       function showToast(msg: string) {
@@ -1236,6 +1277,64 @@ function levelDots(level: string): number {
   :root[data-theme="light"] #icon-sun  { display: none; }
   :root[data-theme="light"] #icon-moon { display: block; }
 
+  /* ── C: Recent badge ── */
+  .badge-recent {
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 0.07em;
+    background: color-mix(in srgb, #22c55e 15%, transparent);
+    color: #22c55e;
+    border: 1px solid color-mix(in srgb, #22c55e 35%, transparent);
+    padding: 0.1rem 0.45rem;
+    border-radius: 999px;
+    flex-shrink: 0;
+  }
+
+  /* ── A: Certificates ── */
+  .cert-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .cert-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 0.7rem 1rem;
+    flex: 1;
+    min-width: 200px;
+  }
+
+  .cert-badge i { color: var(--accent); font-size: 1.1rem; flex-shrink: 0; }
+  .cert-badge strong { font-size: 0.88rem; color: var(--text); display: block; }
+  .cert-meta { font-size: 0.75rem; color: var(--muted); }
+
+  /* ── B: PDF button ── */
+  #pdf-btn {
+    position: fixed;
+    bottom: 4.5rem;
+    right: 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: color 0.15s, border-color 0.15s;
+    z-index: 100;
+  }
+
+  #pdf-btn:hover { color: #f87171; border-color: #f87171; }
+
   /* ── A: Interests grid ── */
   .interests-grid {
     display: grid;
@@ -1354,7 +1453,7 @@ function levelDots(level: string): number {
 
   /* ── B: Print styles ── */
   @media print {
-    #progress-bar, #theme-toggle, .side-nav, footer, .see-all { display: none !important; }
+    #progress-bar, #theme-toggle, #pdf-btn, #toast, .side-nav, footer, .see-all { display: none !important; }
     body { background: white !important; color: black !important; font-size: 11pt; }
     main { max-width: 100%; padding: 0.5cm 1cm; }
     header { border-bottom-color: #333; }

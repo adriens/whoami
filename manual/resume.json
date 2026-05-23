@@ -409,6 +409,11 @@
       "name": "Open Source",
       "level": "Avancé",
       "keywords": ["endoflife.date", "SchemaCrawler", "Chocolatey", "DuckDB brew extension", "geol", "oracle-jutils", "mobitag", "yamlfixer"]
+    },
+    {
+      "name": "Créativité & Apprentissage autodidacte",
+      "level": "Expert",
+      "keywords": ["Pensée transdisciplinaire", "Expérimentation", "MIT Media Lab mindset", "Rendre l'invisible visible", "Détection d'inefficacités", "Idéation en mouvement", "Apprendre → construire → démontrer → enseigner", "Curiosité naturelle", "Observation du réel"]
     }
   ],
 
