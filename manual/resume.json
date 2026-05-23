@@ -112,12 +112,22 @@
       "url": "https://www.docaposte.com",
       "startDate": "2008-10",
       "endDate": "2010-11",
-      "summary": "DBA expert sur des projets nationaux à fort enjeu. Spécialité : tuning et optimisation de bases de données en production.",
+      "summary": "DBA expert sur des plateformes nationales à fort trafic et fort enjeu : HADOPI, Infogreffe, Jedeclare.com — infrastructure critique, données sensibles, millions d'utilisateurs. Filiale numérique du groupe La Poste.",
       "highlights": [
         "Développement d'un CLI Java mesurant l'écart de synchronisation entre bases primaires et standby — outil de monitoring de la réplication en production",
         "Tuning avancé de bases de données Oracle et PostgreSQL sur des plateformes nationales à fort trafic",
-        "Automatisation des scripts de production et introduction des premières pratiques DevOps",
-        "Intervention sur des projets critiques : HADOPI, Jedeclare.com, Infogreffe"
+        "Automatisation des scripts de production et introduction des premières pratiques DevOps"
+      ]
+    },
+    {
+      "name": "Éducation Nationale — Collège, Nouvelle-Calédonie",
+      "position": "Professeur Vacataire de Mathématiques",
+      "startDate": "1999-09",
+      "endDate": "2001-08",
+      "summary": "Enseignement des mathématiques en collège en Nouvelle-Calédonie après la Maîtrise — d'abord à Bourail, puis à Nouméa. Admissible au CAPES externe de Mathématiques (session 2000). Période fondatrice pour la pédagogie et la transmission, aujourd'hui prolongée dans l'enseignement en Master MIAGE à l'UNC.",
+      "highlights": [
+        "Admissibilité au CAPES externe de Mathématiques (session 2000) — écrits d'un concours national très sélectif réussis",
+        "Première expérience d'enseignement qui ancre une posture pédagogique durable, 25 ans avant les cours en Master MIAGE"
       ]
     },
     {
@@ -307,7 +317,7 @@
       "title": "Admissibilité CAPES externe — Mathématiques",
       "date": "2000-07",
       "awarder": "Ministère de l'Éducation Nationale",
-      "summary": "Admissible au CAPES externe de Mathématiques."
+      "summary": "Admissible au CAPES externe de Mathématiques — écrits d'un concours national très sélectif réussis, pendant une période d'enseignement en Nouvelle-Calédonie (1999–2001) entre la Maîtrise et le DEA."
     }
   ],
 
