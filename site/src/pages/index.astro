@@ -42,6 +42,10 @@ function parseCSV(path: string): Record<string, string>[] {
 }
 
 // ── Load data ───────────────────────────────────────────────────────────────
+function readJSON(path: string): any {
+  try { return JSON.parse(readFileSync(path, 'utf-8')); } catch { return {}; }
+}
+
 const articlesAdriens = parseCSV(resolve(root, 'data/dev_to/adriens/_index.csv'));
 const articlesOptNc   = parseCSV(resolve(root, 'data/dev_to/opt-nc/_index.csv'));
 const videos          = parseCSV(resolve(root, 'data/youtube/devops-lab/_index.csv'));
@@ -49,14 +53,17 @@ const books           = parseCSV(resolve(root, 'data/goodreads/124105866/_index.
 const kaggleDatasets  = parseCSV(resolve(root, 'data/kaggle/adriensales/_index.csv'));
 const hfDatasets      = parseCSV(resolve(root, 'data/huggingface/rastadidi/_datasets_index.csv'));
 const hfSpaces        = parseCSV(resolve(root, 'data/huggingface/rastadidi/_spaces_index.csv'));
+const ytStats         = readJSON(resolve(root, 'data/youtube/devops-lab/_stats.json'));
 
-const totalArticles  = articlesAdriens.length + articlesOptNc.length;
-const totalVideos    = videos.length;
-const totalBooks     = books.length;
-const totalDatasets  = kaggleDatasets.length;
-const totalDownloads = kaggleDatasets.reduce((sum, d) => sum + (parseInt(d.download_count) || 0), 0);
+const totalArticles   = articlesAdriens.length + articlesOptNc.length;
+const totalVideos     = videos.length;
+const totalBooks      = books.length;
+const totalDatasets   = kaggleDatasets.length;
+const totalDownloads  = kaggleDatasets.reduce((sum, d) => sum + (parseInt(d.download_count) || 0), 0);
 const totalHFDatasets = hfDatasets.length;
 const totalHFSpaces   = hfSpaces.length;
+const totalReactions  = [...articlesAdriens, ...articlesOptNc].reduce((sum, a) => sum + (parseInt(a.reactions) || 0), 0);
+const ytSubscribers   = ytStats.subscriber_count || 0;
 
 const firstYear = work.length > 0
   ? parseInt(work[work.length - 1].startDate?.substring(0, 4) ?? '2000')
@@ -194,6 +201,14 @@ function networkIcon(network: string): string {
         <div class="stat">
           <span class="stat-value">{totalHFSpaces}</span>
           <span class="stat-label"><span class="hf-emoji-sm">🤗</span> HF apps</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">{totalReactions.toLocaleString('fr')}</span>
+          <span class="stat-label"><i class="fa-brands fa-dev"></i> réactions</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">{ytSubscribers}</span>
+          <span class="stat-label"><i class="fa-brands fa-youtube"></i> abonnés</span>
         </div>
         <div class="stat">
           <span class="stat-value">{yearsXP}+</span>
@@ -572,7 +587,7 @@ function networkIcon(network: string): string {
   /* ── Stats bar ── */
   .stats-bar {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(8, 1fr);
     margin-top: 1.5rem;
     border: 1px solid var(--border);
     border-radius: 10px;
@@ -837,7 +852,7 @@ function networkIcon(network: string): string {
     .contact { justify-content: flex-start; }
     .entry-header { flex-direction: column; gap: 0.15rem; }
     .skills-grid { grid-template-columns: 1fr; }
-    .stats-bar { grid-template-columns: repeat(3, 1fr); }
+    .stats-bar { grid-template-columns: repeat(4, 1fr); }
     .stat:nth-child(3) { border-right: none; }
     .stat:nth-child(4),
     .stat:nth-child(5),

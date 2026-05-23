@@ -1,5 +1,6 @@
 import argparse
 import csv
+import json
 import re
 import unicodedata
 from pathlib import Path
@@ -28,6 +29,18 @@ def load_existing_ids(channel_dir: Path) -> set[str]:
         return set()
     with open(index_path, encoding="utf-8") as f:
         return {row["id"] for row in csv.DictReader(f)}
+
+
+def fetch_channel_stats(channel_url: str, channel_dir: Path):
+    ydl_opts = {"quiet": True, "ignoreerrors": True, "no_warnings": True, "extract_flat": True}
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        info = ydl.extract_info(channel_url, download=False) or {}
+    stats = {
+        "subscriber_count": info.get("channel_follower_count") or 0,
+        "channel": info.get("channel", ""),
+    }
+    (channel_dir / "_stats.json").write_text(json.dumps(stats, ensure_ascii=False), encoding="utf-8")
+    print(f"  subscribers: {stats['subscriber_count']}")
 
 
 def list_video_ids(channel_url: str) -> list[str]:
@@ -113,6 +126,8 @@ def main():
     index_path = channel_dir / "_index.csv"
     first_row = not index_path.exists()
 
+    print(f"Fetching channel stats for {args.channel}...")
+    fetch_channel_stats(channel_url, channel_dir)
     print(f"Listing videos from {args.channel}...")
     video_ids = list_video_ids(channel_url)
     new_ids = [vid_id for vid_id in video_ids if vid_id not in existing_ids]

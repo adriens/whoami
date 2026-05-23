@@ -1,5 +1,6 @@
 import argparse
 import csv
+import json
 import time
 import unicodedata
 import re
@@ -109,6 +110,15 @@ def write_index(user_dir: Path, articles: list[dict]):
             })
 
 
+def fetch_user_stats(username: str, user_dir: Path):
+    resp = requests.get(f"{DEVTO_API}/users/by_username", params={"url": username}, timeout=10)
+    resp.raise_for_status()
+    data = resp.json()
+    stats = {"followers_count": data.get("followers_count", 0), "username": username}
+    (user_dir / "_stats.json").write_text(json.dumps(stats, ensure_ascii=False), encoding="utf-8")
+    print(f"  followers: {stats['followers_count']}")
+
+
 def main():
     parser = argparse.ArgumentParser(description="Fetch DEV.to articles to markdown")
     parser.add_argument("--user", required=True, help="DEV.to username ou organisation")
@@ -121,6 +131,8 @@ def main():
     articles_dir.mkdir(parents=True, exist_ok=True)
 
     existing_ids = load_existing_ids(user_dir)
+    print(f"Fetching stats for @{username}...")
+    fetch_user_stats(username, user_dir)
     print(f"Fetching articles for @{username}{f' (auteur: {args.author})' if args.author else ''}...")
     articles = fetch_articles(username, author_filter=args.author)
     print(f"Total : {len(articles)} articles ({len(existing_ids)} déjà présents)")
