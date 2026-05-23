@@ -27,11 +27,15 @@ jobs:
         run: bun install
 
       - name: Fetch all sources
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         run: |
           uv run scripts/fetch-devto-articles.py --user adriens
           uv run scripts/fetch-devto-articles.py --user opt-nc --author adriens
           uv run scripts/fetch-youtube-channel.py --channel devops-lab
           uv run scripts/fetch-goodreads.py --user 124105866
+          uv run scripts/fetch-kaggle-datasets.py --user adriensales
           uv run scripts/build-knowledge-base.py --lite
 
       - name: Create PR and merge

@@ -68,6 +68,16 @@ tasks:
     cmds:
       - task: fetch-goodreads-adriens
 
+  fetch-kaggle-adriensales:
+    desc: Provisionner les datasets Kaggle @adriensales
+    cmds:
+      - uv run scripts/fetch-kaggle-datasets.py --user adriensales
+
+  fetch-kaggle:
+    desc: Provisionner tous les datasets Kaggle (sequentiel)
+    cmds:
+      - task: fetch-kaggle-adriensales
+
   build-knowledge-base:
     desc: Generer output/knowledge-base.md pour injection NotebookLM (full)
     cmds:
@@ -84,6 +94,7 @@ tasks:
       - task: fetch-devto
       - task: fetch-youtube
       - task: fetch-goodreads
+      - task: fetch-kaggle
       - task: build-knowledge-base
 
   site-install:

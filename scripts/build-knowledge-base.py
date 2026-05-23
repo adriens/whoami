@@ -95,6 +95,29 @@ def build_videos(data_dir: Path, lite: bool) -> str:
     return "\n".join(lines)
 
 
+def build_kaggle(data_dir: Path, lite: bool) -> str:
+    kaggle_dir = data_dir / "kaggle"
+    if not kaggle_dir.exists():
+        return ""
+    lines = [section("Datasets Kaggle")]
+    total = 0
+    for user_dir in sorted(kaggle_dir.iterdir()):
+        md_files = sorted((user_dir / "datasets").glob("*.md")) if (user_dir / "datasets").exists() else []
+        if not md_files:
+            continue
+        lines.append(section(f"@{user_dir.name} ({len(md_files)} datasets)", 3))
+        for md in md_files:
+            content = md.read_text(encoding="utf-8")
+            if lite:
+                lines.append(content.split("---\n\n")[0].strip() + "\n---")
+            else:
+                lines.append(content.strip())
+            lines.append("\n---\n")
+            total += 1
+    lines.insert(1, f"*{total} datasets au total*\n")
+    return "\n".join(lines)
+
+
 def build_books(data_dir: Path, lite: bool) -> str:
     goodreads_dir = data_dir / "goodreads"
     if not goodreads_dir.exists():
@@ -134,6 +157,7 @@ def main():
         build_articles(DATA, lite=args.lite),
         build_videos(DATA, lite=args.lite),
         build_books(DATA, lite=args.lite),
+        build_kaggle(DATA, lite=args.lite),
     ]
 
     OUTPUT.write_text("\n".join(p for p in parts if p), encoding="utf-8")
