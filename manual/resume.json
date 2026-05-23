@@ -66,6 +66,16 @@
         "network": "Chocolatey",
         "username": "adriens",
         "url": "https://community.chocolatey.org/profiles/adriens"
+      },
+      {
+        "network": "GitHub",
+        "username": "opt-nc",
+        "url": "https://github.com/opt-nc"
+      },
+      {
+        "network": "Dev.to",
+        "username": "optnc",
+        "url": "https://dev.to/optnc"
       }
     ]
   },
@@ -348,7 +358,7 @@
       "publisher": "YouTube",
       "releaseDate": "2020-01-01",
       "url": "https://www.youtube.com/channel/UCcbQ_euR84DKOf_-ksI5_GQ",
-      "summary": "Vidéos techniques en français et anglais : démonstrations live, DevOps, data engineering, Neo4j, MCP, open data. Inclut des détournements humoristiques de films (VO russe/allemand sous-titrés) pour vulgariser des concepts tech."
+      "summary": "284 vidéos techniques en français et anglais : démonstrations live, DevOps, data engineering, Neo4j, MCP, open data. 189 abonnés. Inclut des détournements humoristiques de films (VO russe/allemand sous-titrés) pour vulgariser des concepts tech."
     },
     {
       "name": "Open Data OPT-NC sur Kaggle et Hugging Face",
