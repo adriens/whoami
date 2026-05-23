@@ -76,7 +76,7 @@
       "position": "Chef de Section GLIA — Génie Logiciel Inter-Applicatif",
       "url": "https://www.opt.nc",
       "startDate": "2019-04",
-      "summary": "Pilotage de la section GLIA : interopérabilité du SI, data engineering, DevSecOps, cartographie du SI par knowledge graph, Developer Relations et innovation. Management d'équipe, formation de stagiaires et mentorat.",
+      "summary": "Pilotage de la section GLIA (6 personnes) : interopérabilité du SI, data engineering, DevSecOps, cartographie du SI par knowledge graph, Developer Relations et innovation. Management d'équipe, formation de stagiaires et mentorat.",
       "highlights": [
         "Stack data complète en production : Airflow conteneurisé sur Kubernetes, Lakehouse DuckLake, Superset (dataviz), MinIO (stockage) — pipeline bout en bout opérationnel",
         "Cartographie du SI par knowledge graph Neo4j avec release automatisée via GitHub Actions — présenté à NODES 2022 et NODES 2024 (conférence internationale Neo4j), enrichi d'agents IA",
@@ -166,6 +166,7 @@
       "startDate": "2015-01",
       "summary": "Enseignement exercé entièrement sur temps personnel, le soir après le travail, par passion pour la transmission et la jeune génération. Conception et animation du module Interopérabilité des Systèmes d'Information en Master MIAGE. Approche pédagogique inspirée de Montessori : learning by doing, projets réels open source et open data, syllabus public sur GitHub, ressources cloud publiques. Suivi des étudiants jusqu'à leur insertion professionnelle.",
       "highlights": [
+        "Encadrement de ~12 étudiants par promotion sur des projets réels open source et open data",
         "Conception intégrale du module et du syllabus (public sur GitHub)",
         "Pédagogie Montessori appliquée à l'enseignement tech : projets réels, open source, open data, #techforgood",
         "Expo des réalisations étudiantes en fin d'année documentée sur dev.to (23 commentaires)",
