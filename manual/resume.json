@@ -3,12 +3,12 @@
 
   "basics": {
     "name": "Adrien Sales",
-    "label": "Architecte SI & Chef de Section | Data Engineering | DevRel | Open Source | Enseignant",
+    "label": "Architecte SI & Product Builder | Modélisation · Data · IA Agents | LEAN & Innovation frugale | DevRel",
     "image": "",
     "email": "Adrien.Sales@gmail.com",
     "phone": "+687 84 29 84",
     "url": "https://dev.to/adriens",
-    "summary": "Ingénieur et architecte SI avec plus de 20 ans d'expérience, démarré comme consultant développeur sur les couches base de données chez Experian Decision Analytics (grands comptes : Orange, Bank of America, Crédit Lyonnais), puis DBA expert en tuning Oracle/PostgreSQL chez Docaposte (HADOPI, Jedeclare.com, Infogreffe). Rentré en Nouvelle-Calédonie, j'ai progressé de chef de projet à architecte logiciel à la DSI de la Ville de Nouméa, avant de rejoindre l'OPT-NC comme Chef de Section GLIA (Génie Logiciel Inter-Applicatif) : interopérabilité du SI, data engineering, DevSecOps, knowledge graph Neo4j, Developer Relations et innovation. Contributeur open source actif (DuckDB, endoflife.date, SchemaCrawler, oracle-jutils), auteur de 206 articles sur dev.to, Notebooks Expert Kaggle (top 5%). Enseignant en Master MIAGE à l'Université de Nouvelle-Calédonie avec une approche pédagogique learning-by-doing inspirée de Montessori : projets réels, open source, open data, #techforgood.",
+    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA.\n\n20 ans de parcours : consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood.",
     "location": {
       "address": "",
       "postalCode": "98800",
@@ -340,7 +340,7 @@
     {
       "name": "Management & Pédagogie",
       "level": "Expert",
-      "keywords": ["Management d'équipe", "Mentorat", "Scrum", "Product Owner", "Gestion de projet", "Enseignement universitaire", "Pédagogie Montessori", "Learning by doing"]
+      "keywords": ["Management d'équipe", "Mentorat", "Scrum", "Product Owner", "Gestion de projet", "LEAN", "Innovation frugale", "Design thinking", "Enseignement universitaire", "Pédagogie Montessori", "Learning by doing"]
     },
     {
       "name": "Open Source",
