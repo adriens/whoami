@@ -453,6 +453,10 @@
       "keywords": ["Livre sur la data en entreprise", "Recueil de nouvelles", "Vulgarisation tech"]
     },
     {
+      "name": "Musique",
+      "keywords": ["Jazz"]
+    },
+    {
       "name": "Lecture",
       "keywords": ["Management", "Architecture logicielle", "Data science", "Innovation", "Start with Why"]
     }
