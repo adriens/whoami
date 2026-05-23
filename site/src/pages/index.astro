@@ -8,7 +8,19 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '../../..');
 
 const resume = JSON.parse(readFileSync(resolve(root, 'manual/resume.json'), 'utf-8'));
-const { basics, work = [], education = [], skills = [], projects = [], languages = [], publications = [], awards = [] } = resume;
+const { basics, work = [], education = [], skills = [], projects = [], languages = [], publications = [], awards = [], volunteer = [] } = resume;
+
+const openSourceProjects   = projects.filter((p: any) => p.type === 'open-source');
+const professionalProjects = projects.filter((p: any) => p.type === 'professional');
+const sortedAwards = [...awards].sort((a: any, b: any) => (b.date ?? '').localeCompare(a.date ?? ''));
+
+function awardBadgeClass(date: string): string {
+  const year = parseInt(date?.substring(0, 4) ?? '2000');
+  if (year >= 2025) return 'award-badge award-badge-accent';
+  if (year >= 2023) return 'award-badge award-badge-blue';
+  if (year >= 2020) return 'award-badge award-badge-muted';
+  return 'award-badge award-badge-dim';
+}
 
 // ── CSV parser ──────────────────────────────────────────────────────────────
 function splitRow(row: string): string[] {
@@ -279,6 +291,39 @@ function levelDots(level: string): number {
         </section>
       )}
 
+      {volunteer.length > 0 && (
+        <section>
+          <h2><i class="fa-solid fa-heart"></i> Bénévolat & Enseignement</h2>
+          <div class="timeline">
+            {volunteer.map((v: any) => (
+              <div class="tl-item">
+                <div class="tl-dot"></div>
+                <article class="entry">
+                  <div class="entry-header">
+                    <div class="entry-title">
+                      <strong>{v.position}</strong>
+                      <span class="company">@ {v.organization}</span>
+                      {v.url && (
+                        <a href={v.url} target="_blank" rel="noopener" class="ext" title={v.organization}>
+                          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                      )}
+                    </div>
+                    <time>{v.startDate}{v.endDate ? ` → ${v.endDate}` : ''}</time>
+                  </div>
+                  {v.summary && <p class="muted">{v.summary}</p>}
+                  {v.highlights?.length > 0 && (
+                    <ul>
+                      {v.highlights.map((h: string) => <li>{h}</li>)}
+                    </ul>
+                  )}
+                </article>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       {skills.length > 0 && (
         <section>
           <h2><i class="fa-solid fa-screwdriver-wrench"></i> Compétences</h2>
@@ -326,10 +371,39 @@ function levelDots(level: string): number {
         </section>
       )}
 
-      {projects.length > 0 && (
+      {openSourceProjects.length > 0 && (
         <section>
-          <h2><i class="fa-brands fa-github"></i> Projets open source</h2>
-          {projects.map((p: any) => (
+          <h2><i class="fa-brands fa-github"></i> Projets open source <span class="section-count">{openSourceProjects.length}</span></h2>
+          {openSourceProjects.map((p: any) => (
+            <article class="entry">
+              <div class="entry-header">
+                <div class="entry-title">
+                  <strong>{p.name}</strong>
+                  {p.url && (
+                    <a href={p.url} target="_blank" rel="noopener" class="ext" title={p.name}>
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                  )}
+                </div>
+                {p.startDate && (
+                  <time>{p.startDate}{p.endDate ? ` → ${p.endDate}` : ''}</time>
+                )}
+              </div>
+              {p.description && <p class="muted">{p.description}</p>}
+              {p.highlights?.length > 0 && (
+                <ul>
+                  {p.highlights.map((h: string) => <li>{h}</li>)}
+                </ul>
+              )}
+            </article>
+          ))}
+        </section>
+      )}
+
+      {professionalProjects.length > 0 && (
+        <section>
+          <h2><i class="fa-solid fa-building"></i> Réalisations professionnelles <span class="section-count">{professionalProjects.length}</span></h2>
+          {professionalProjects.map((p: any) => (
             <article class="entry">
               <div class="entry-header">
                 <div class="entry-title">
@@ -377,17 +451,17 @@ function levelDots(level: string): number {
         </section>
       )}
 
-      {awards.length > 0 && (
+      {sortedAwards.length > 0 && (
         <section>
           <h2><i class="fa-solid fa-trophy"></i> Distinctions</h2>
-          {awards.map((a: any) => (
+          {sortedAwards.map((a: any) => (
             <article class="entry">
               <div class="entry-header">
                 <div class="entry-title">
                   <strong>{a.title}</strong>
                   {a.awarder && <span class="company">@ {a.awarder}</span>}
                 </div>
-                {a.date && <time>{a.date}</time>}
+                {a.date && <span class={awardBadgeClass(a.date)}>{a.date.substring(0, 4)}</span>}
               </div>
               {a.summary && <p class="muted">{a.summary}</p>}
             </article>
@@ -1046,6 +1120,34 @@ function levelDots(level: string): number {
 
   :root[data-theme="light"] #icon-sun  { display: none; }
   :root[data-theme="light"] #icon-moon { display: block; }
+
+  /* ── Award year badges ── */
+  .award-badge {
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    letter-spacing: 0.04em;
+    flex-shrink: 0;
+  }
+  .award-badge-accent { background: color-mix(in srgb, #22c55e 15%, transparent); color: #22c55e; border: 1px solid color-mix(in srgb, #22c55e 30%, transparent); }
+  .award-badge-blue   { background: color-mix(in srgb, var(--accent) 15%, transparent); color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent); }
+  .award-badge-muted  { background: color-mix(in srgb, var(--muted) 15%, transparent); color: var(--muted); border: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); }
+  .award-badge-dim    { background: var(--border); color: var(--muted); border: 1px solid var(--border); }
+
+  /* ── Section count badge ── */
+  .section-count {
+    font-size: 0.65rem;
+    font-weight: 700;
+    background: color-mix(in srgb, var(--accent) 15%, transparent);
+    color: var(--accent);
+    border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+    padding: 0.1rem 0.5rem;
+    border-radius: 999px;
+    letter-spacing: 0.04em;
+    margin-left: 0.35rem;
+    text-transform: none;
+  }
 
   /* ── Responsive ── */
   @media (max-width: 600px) {

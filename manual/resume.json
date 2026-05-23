@@ -241,10 +241,16 @@
 
   "awards": [
     {
-      "title": "Notebooks Expert — Kaggle",
-      "date": "2024-01",
-      "awarder": "Kaggle (Google)",
-      "summary": "Top 5% mondial des contributeurs Kaggle — rang 3 005 / 62 173. 6 médailles de bronze, 27 datasets publiés, 81 notebooks, participation régulière aux hackathons."
+      "title": "Extension officielle DuckDB Community — brew",
+      "date": "2026-02",
+      "awarder": "DuckDB",
+      "summary": "Extension brew listée sur duckdb.org/community_extensions permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge, activement maintenue."
+    },
+    {
+      "title": "Hacktoberfest Maintainer Spotlight — geol",
+      "date": "2025-10",
+      "awarder": "DEV Community / Hacktoberfest",
+      "summary": "Mise en avant officielle comme mainteneur open source pour le projet geol lors du Hacktoberfest 2025."
     },
     {
       "title": "Speaker — NODES 2024 (Conférence internationale Neo4j)",
@@ -253,10 +259,28 @@
       "summary": "Présentation : Cloud-Native Knowledge Graph Automation & AI Agents — cartographie du SI OPT-NC avec Neo4j, release automatisée et agents IA."
     },
     {
+      "title": "Notebooks Expert — Kaggle",
+      "date": "2024-01",
+      "awarder": "Kaggle (Google)",
+      "summary": "Top 5% mondial des contributeurs Kaggle — rang 3 005 / 62 173. 6 médailles de bronze, 27 datasets publiés, 81 notebooks, participation régulière aux hackathons."
+    },
+    {
+      "title": "Speaker — PMI Horizons Nouméa (Project Management Institute)",
+      "date": "2024-01",
+      "awarder": "PMI Nouvelle-Calédonie",
+      "summary": "Talk : Neo4j & AI Agents et impacts projets — présentation de l'usage des knowledge graphs et agents IA dans la gestion de projets SI. https://www.youtube.com/watch?v=ErBCyOrup3M"
+    },
+    {
       "title": "Speaker — NODES 2023 (Conférence internationale Neo4j)",
       "date": "2023-11",
       "awarder": "Neo4j",
       "summary": "Présentation : Discover a Country's UN SDGs Concerns w/ Open Metadata on Neo4j — analyse des préoccupations ODD des Nations Unies via open data et knowledge graph. https://dev.to/adriens/discover-a-country-un-sdgs-concerns-w-open-metadata-on-neo4j-13df"
+    },
+    {
+      "title": "Speaker — Elastic Paris Meetup #58",
+      "date": "2023-01",
+      "awarder": "Elastic",
+      "summary": "Talk : Linter et cartographier ses bases de données en continu avec SchemaCrawler et Elasticsearch."
     },
     {
       "title": "Speaker — NODES 2022 (Conférence internationale Neo4j)",
@@ -271,34 +295,10 @@
       "summary": "Présentation sur la puissance de la dataviz pour le Pacific DataViz Challenge, événement régional organisé par la Commission du Pacifique Sud. Talk sur Neo4j et Gephi comme outils de visualisation de données au service de la prise de décision. https://dev.to/optnc/talanoa-2022-the-power-of-data-visualization-1fgn"
     },
     {
-      "title": "Speaker — PMI Horizons Nouméa (Project Management Institute)",
-      "date": "2024-01",
-      "awarder": "PMI Nouvelle-Calédonie",
-      "summary": "Talk : Neo4j & AI Agents et impacts projets — présentation de l'usage des knowledge graphs et agents IA dans la gestion de projets SI. https://www.youtube.com/watch?v=ErBCyOrup3M"
-    },
-    {
-      "title": "Speaker — Elastic Paris Meetup #58",
-      "date": "2023-01",
-      "awarder": "Elastic",
-      "summary": "Talk : Linter et cartographier ses bases de données en continu avec SchemaCrawler et Elasticsearch."
-    },
-    {
-      "title": "Extension officielle DuckDB Community — brew",
-      "date": "2026-02",
-      "awarder": "DuckDB",
-      "summary": "Extension brew listée sur duckdb.org/community_extensions permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge, activement maintenue."
-    },
-    {
       "title": "Arctic Code Vault Contributor — GitHub",
       "date": "2020-07",
       "awarder": "GitHub",
       "summary": "Code archivé dans le GitHub Arctic Code Vault pour préservation millénaire."
-    },
-    {
-      "title": "Hacktoberfest Maintainer Spotlight — geol",
-      "date": "2025-10",
-      "awarder": "DEV Community / Hacktoberfest",
-      "summary": "Mise en avant officielle comme mainteneur open source pour le projet geol lors du Hacktoberfest 2025."
     },
     {
       "title": "Admissibilité CAPES externe — Mathématiques",
@@ -467,6 +467,7 @@
   "projects": [
     {
       "name": "geol — CLI de gestion des End-of-Life",
+      "type": "open-source",
       "startDate": "2022-01",
       "description": "Outil open source (Go) permettant de gérer les end-of-life des composants logiciels en terminal et CI. Intègre Trivy, génère des rapports via Quarto/LaTeX et DuckDB. Conçu le week-end sur temps personnel. Hacktoberfest Maintainer Spotlight 2025.",
       "highlights": [
@@ -479,6 +480,7 @@
     },
     {
       "name": "duckdb-brew — Extension DuckDB Community",
+      "type": "open-source",
       "startDate": "2026-02",
       "description": "Extension officielle DuckDB Community permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge avec vibe coding + CI/CD. Listée sur duckdb.org.",
       "highlights": [
@@ -490,6 +492,7 @@
     },
     {
       "name": "Knowledge Graph SI OPT-NC — Neo4j",
+      "type": "professional",
       "startDate": "2021-01",
       "description": "Système de cartographie du SI de l'OPT-NC basé sur Neo4j avec release automatisée via GitHub Actions. Présenté à NODES 2022, 2023 et 2024. Enrichi d'agents IA.",
       "highlights": [
@@ -503,6 +506,7 @@
     },
     {
       "name": "Open Data RH OPT-NC — Expérience candidat augmentée par l'IA",
+      "type": "professional",
       "startDate": "2024-01",
       "description": "Programme open data autour des données RH de l'OPT-NC : référentiel des métiers, offres d'emploi, AVPS (avis de vacances de poste) et organigramme publiés en open data pour créer une expérience candidat unique. Datasets Hugging Face, agents IA et MCPs pour rendre ces données exploitables par Claude et d'autres LLMs.",
       "highlights": [
@@ -515,6 +519,7 @@
     },
     {
       "name": "MCP OPT-NC — Offres d'emploi Hugging Face",
+      "type": "professional",
       "startDate": "2025-01",
       "description": "Model Context Protocol exposant les offres d'emploi de l'OPT-NC depuis Hugging Face. Démo publique : trouver et candidater à un poste avec Claude en 20 minutes.",
       "highlights": [
@@ -526,6 +531,7 @@
     },
     {
       "name": "mobitag — CLI Go pour l'envoi de SMS",
+      "type": "open-source",
       "startDate": "2024-06",
       "description": "CLI en Go pour envoyer des SMS via l'API Mobitag de l'OPT-NC. Distribué via Homebrew et goreleaser. Conçu avec l'équipe comme exercice pédagogique CLI-first. Série de 4 articles sur dev.to.",
       "highlights": [
@@ -537,6 +543,7 @@
     },
     {
       "name": "edb-noumea — SDK qualité eaux de baignade",
+      "type": "open-source",
       "startDate": "2025-09",
       "description": "Package PyPI (stack uv) scraper de la qualité des eaux de baignade à Nouméa. Écosystème complet : TUI Go/BubbleTea, dataset Kaggle, live CSV data, graphiques automatiques. v0.4.0 mai 2026.",
       "highlights": [
@@ -548,6 +555,7 @@
     },
     {
       "name": "odata-ncl — Open Data Citoyenne Nouvelle-Calédonie",
+      "type": "open-source",
       "startDate": "2024-01",
       "description": "Umbrella de projets data citoyenne sur les données ouvertes de Nouvelle-Calédonie. Objectif : collecter, analyser et publier des données locales à fort impact sociétal — sécurité maritime, qualité des eaux, sécurité routière. Stack complète : Python/uv, Quarto, Kaggle, GitHub Actions, TUI Go/BubbleTea.",
       "highlights": [
@@ -561,6 +569,7 @@
     },
     {
       "name": "oracle-jutils — Framework PL/SQL Oracle 11g",
+      "type": "open-source",
       "startDate": "2009-03",
       "description": "Framework open source de packages PL/SQL pour Oracle 11g (dump LOB, CRC, MIME type, XMPP, QR codes, Twitter...). Première et unique implémentation libre. Découvert et reconnu par des équipes Oracle APEX au Texas.",
       "highlights": [
@@ -572,6 +581,7 @@
     },
     {
       "name": "API domaine.nc — Création de l'interopérabilité des noms de domaine .NC",
+      "type": "professional",
       "startDate": "2022-01",
       "description": "Avant ce projet : aucune API, aucune interopérabilité possible sur les données des noms de domaine .NC. Design, développement et livraison de l'API exposée sur la marketplace APIGEE grand public de l'OPT-NC. Publication parallèle du dataset open data sur Kaggle. Effet multiplicateur : une application mobile open source Flutter a été développée par la communauté, publiée sur le Google Play Store et testée en crowdtesting.",
       "highlights": [
@@ -585,6 +595,8 @@
       "url": "https://github.com/lschaeffer313/domaine-nc-mobile"
     },
     {
+      "name": "SchemaCrawler — Contribution open source",
+      "type": "open-source",
       "startDate": "2022-01",
       "description": "Contributeur actif sur SchemaCrawler : packaging RPM/DEB, package Chocolatey (23 048 downloads), intégration Neo4j, speaker Elastic Paris Meetup #58.",
       "highlights": [
