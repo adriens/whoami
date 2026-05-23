@@ -493,6 +493,18 @@
       "url": "https://github.com/opt-nc"
     },
     {
+      "name": "Open Data RH OPT-NC — Expérience candidat augmentée par l'IA",
+      "startDate": "2024-01",
+      "description": "Programme open data autour des données RH de l'OPT-NC : référentiel des métiers, offres d'emploi, AVPS (avis de vacances de poste) et organigramme publiés en open data pour créer une expérience candidat unique. Datasets Hugging Face, agents IA et MCPs pour rendre ces données exploitables par Claude et d'autres LLMs.",
+      "highlights": [
+        "Référentiel des métiers OPT-NC : dataset HuggingFace + application Gradio",
+        "AVPS (avis de vacances de poste) : dataset HuggingFace + agent IA de matching compétences/poste",
+        "Organigramme OPT-NC : pipeline open data en cours",
+        "Objectif : expérience candidat d'excellence — trouver, comprendre et candidater à un poste en quelques minutes via IA"
+      ],
+      "url": "https://huggingface.co/opt-nc"
+    },
+    {
       "name": "MCP OPT-NC — Offres d'emploi Hugging Face",
       "startDate": "2025-01",
       "description": "Model Context Protocol exposant les offres d'emploi de l'OPT-NC depuis Hugging Face. Démo publique : trouver et candidater à un poste avec Claude en 20 minutes.",
