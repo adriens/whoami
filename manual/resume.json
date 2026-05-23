@@ -365,9 +365,14 @@
       "keywords": ["Neo4j", "Graph Data Science", "Cypher", "Knowledge Graph", "GDS Library", "NetworkX", "endoflife.date-neo4j"]
     },
     {
-      "name": "Bases de données",
+      "name": "IA & Agents",
       "level": "Avancé",
-      "keywords": ["PostgreSQL", "DuckDB", "DuckLake", "Oracle", "SQL", "Tuning", "SchemaCrawler"]
+      "keywords": ["MCP (Model Context Protocol)", "Hugging Face", "Gradio", "Agents IA", "RAG", "Ollama", "LangChain", "Semantic Router", "Vibe coding", "OpenSearch vector search"]
+    },
+    {
+      "name": "Architecture & Développement",
+      "level": "Expert",
+      "keywords": ["Architecture SI", "Spring Boot", "Quarkus", "Java", "Go", "Maven", "Interopérabilité", "API Design", "APIGEE", "ZK Framework", "picocli", "Cobra (Go)", "BubbleTea"]
     },
     {
       "name": "Data Engineering",
@@ -375,19 +380,14 @@
       "keywords": ["Apache Airflow", "Apache Kafka", "MinIO", "Apache Superset", "Lakehouse", "ETL/ELT", "Debezium", "OpenSearch"]
     },
     {
+      "name": "Bases de données",
+      "level": "Avancé",
+      "keywords": ["PostgreSQL", "DuckDB", "DuckLake", "Oracle", "SQL", "Tuning", "SchemaCrawler"]
+    },
+    {
       "name": "DevSecOps",
       "level": "Avancé",
       "keywords": ["GitHub Actions", "GitHub Issues", "Docker", "Podman", "Kubernetes", "Trivy", "Shift-left security", "geol", "goreleaser"]
-    },
-    {
-      "name": "Architecture & Développement",
-      "level": "Expert",
-      "keywords": ["Architecture SI", "Spring Boot", "Quarkus", "Java", "Go", "Maven", "Interopérabilité", "API Design", "APIGEE", "ZK Framework", "picocli", "Cobra (Go)", "goreleaser", "BubbleTea"]
-    },
-    {
-      "name": "IA & Agents",
-      "level": "Avancé",
-      "keywords": ["MCP (Model Context Protocol)", "Hugging Face", "Gradio", "Agents IA", "RAG", "Ollama", "LangChain", "Semantic Router", "Vibe coding", "OpenSearch vector search"]
     },
     {
       "name": "Open Data & Data Science",
@@ -412,7 +412,7 @@
     {
       "name": "Open Source",
       "level": "Avancé",
-      "keywords": ["endoflife.date", "SchemaCrawler", "Chocolatey", "DuckDB brew extension", "geol", "oracle-jutils", "mobitag", "yamlfixer", "liquibase"]
+      "keywords": ["endoflife.date", "SchemaCrawler", "Chocolatey", "DuckDB brew extension", "geol", "oracle-jutils", "mobitag", "liquibase"]
     },
     {
       "name": "Créativité & Apprentissage autodidacte",
