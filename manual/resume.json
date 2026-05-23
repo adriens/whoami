@@ -401,7 +401,7 @@
     {
       "name": "Open Source",
       "level": "Avancé",
-      "keywords": ["endoflife.date", "SchemaCrawler", "Chocolatey", "DuckDB brew extension", "geol", "oracle-jutils", "mobitag", "yamlfixer"]
+      "keywords": ["endoflife.date", "SchemaCrawler", "Chocolatey", "DuckDB brew extension", "geol", "oracle-jutils", "mobitag", "yamlfixer", "liquibase"]
     },
     {
       "name": "Créativité & Apprentissage autodidacte",
@@ -591,6 +591,18 @@
         "Pattern complet : problème identifié → API → open data → app mobile → écosystème communautaire"
       ],
       "url": "https://github.com/lschaeffer313/domaine-nc-mobile"
+    },
+    {
+      "name": "liquibase — Package Chocolatey",
+      "type": "open-source",
+      "startDate": "2013-05",
+      "description": "Création du package Chocolatey officiel pour Liquibase, l'outil de migration de bases de données de référence. Package ensuite repris et maintenu par les ingénieurs DevOps de Liquibase eux-mêmes — validation directe par l'éditeur de la qualité du travail.",
+      "highlights": [
+        "37 250 downloads sur la communauté Chocolatey",
+        "Repris par les ingénieurs DevOps de Liquibase — adoption officielle par l'éditeur",
+        "Première version publiée le 10 mai 2013 (Liquibase 2.0.5.1)"
+      ],
+      "url": "https://community.chocolatey.org/packages/liquibase"
     },
     {
       "name": "SchemaCrawler — Contribution open source",
