@@ -209,7 +209,7 @@
       "startDate": "2002-09",
       "endDate": "2003-09",
       "score": "",
-      "courses": []
+      "courses": ["Stage de fin d'études en data mining, en collaboration avec l'I3S (laboratoire CNRS — Sophia Antipolis) et Experian Decision Analytics — transformé en embauche directe dès la fin du stage"]
     },
     {
       "institution": "Université de Nice Sophia-Antipolis",
@@ -614,12 +614,26 @@
       "url": "https://community.chocolatey.org/packages/liquibase"
     },
     {
+      "name": "auptitcafe — SDK scraping cafés & restaurants NC",
+      "type": "open-source",
+      "startDate": "2023-05",
+      "description": "Package PyPI de scraping des données de cafés et restaurants en Nouvelle-Calédonie : prix, noms de plats, recettes et images. Pipeline complet de données avec GitHub Actions pour l'archivage live, dataset et notebooks Kaggle, agent chat HuggingFace et série dédiée sur Dev.to.",
+      "highlights": [
+        "Package PyPI maintenu avec GitHub Action d'archivage des données en continu",
+        "Dataset Kaggle + notebooks d'analyse explorée",
+        "Agent HuggingFace Chat pour interroger les données en langage naturel",
+        "Série dédiée sur Dev.to : https://dev.to/adriens/series/23071"
+      ],
+      "url": "https://pypi.org/project/auptitcafe/"
+    },
+    {
       "name": "SchemaCrawler — Contribution open source",
       "type": "open-source",
       "startDate": "2022-01",
       "description": "Contributeur actif sur SchemaCrawler : packaging RPM/DEB, package Chocolatey (23 048 downloads), intégration Neo4j.",
       "highlights": [
         "23 048 downloads du package Chocolatey maintenu",
+        "Packaging multi-format : Chocolatey, RPM et DEB — distribution sur les principaux gestionnaires de paquets",
         "Intégration Neo4j pour visualisation des schémas"
       ],
       "url": "https://community.chocolatey.org/packages/schemacrawler/17.6.1"
