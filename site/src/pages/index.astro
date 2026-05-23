@@ -126,6 +126,9 @@ function networkIcon(network: string): string {
     <title>{basics.name} — {basics.label}</title>
     <meta name="description" content={basics.summary} />
     <link rel="icon" type="image/svg+xml" href="/whoami/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
   </head>
   <body>
     <main>
@@ -231,7 +234,7 @@ function networkIcon(network: string): string {
 
       {work.length > 0 && (
         <section>
-          <h2>Expérience</h2>
+          <h2><i class="fa-solid fa-briefcase"></i> Expérience</h2>
           {work.map((w: any) => (
             <article class="entry">
               <div class="entry-header">
@@ -259,7 +262,7 @@ function networkIcon(network: string): string {
 
       {skills.length > 0 && (
         <section>
-          <h2>Compétences</h2>
+          <h2><i class="fa-solid fa-screwdriver-wrench"></i> Compétences</h2>
           <div class="skills-grid">
             {skills.map((s: any) => (
               <div class="skill-card">
@@ -280,7 +283,7 @@ function networkIcon(network: string): string {
 
       {education.length > 0 && (
         <section>
-          <h2>Formation</h2>
+          <h2><i class="fa-solid fa-graduation-cap"></i> Formation</h2>
           {education.map((e: any) => (
             <article class="entry">
               <div class="entry-header">
@@ -297,7 +300,7 @@ function networkIcon(network: string): string {
 
       {projects.length > 0 && (
         <section>
-          <h2>Projets open source</h2>
+          <h2><i class="fa-brands fa-github"></i> Projets open source</h2>
           {projects.map((p: any) => (
             <article class="entry">
               <div class="entry-header">
@@ -326,7 +329,7 @@ function networkIcon(network: string): string {
 
       {publications.length > 0 && (
         <section>
-          <h2>Publications</h2>
+          <h2><i class="fa-solid fa-file-lines"></i> Publications</h2>
           {publications.map((p: any) => (
             <article class="entry">
               <div class="entry-header">
@@ -348,7 +351,7 @@ function networkIcon(network: string): string {
 
       {awards.length > 0 && (
         <section>
-          <h2>Distinctions</h2>
+          <h2><i class="fa-solid fa-trophy"></i> Distinctions</h2>
           {awards.map((a: any) => (
             <article class="entry">
               <div class="entry-header">
@@ -471,7 +474,7 @@ function networkIcon(network: string): string {
 
       {languages.length > 0 && (
         <section>
-          <h2>Langues</h2>
+          <h2><i class="fa-solid fa-language"></i> Langues</h2>
           <div class="lang-list">
             {languages.map((l: any) => (
               <span><strong>{l.language}</strong> — {l.fluency}</span>
@@ -505,7 +508,7 @@ function networkIcon(network: string): string {
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
     color: var(--text);
     background: var(--bg);
     line-height: 1.6;
@@ -640,9 +643,10 @@ function networkIcon(network: string): string {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.12em;
-    color: var(--muted);
-    padding-bottom: 0.5rem;
+    color: var(--accent);
+    padding: 0 0 0.5rem 0.75rem;
     border-bottom: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
     margin-bottom: 1.25rem;
     display: flex;
     align-items: center;
@@ -664,7 +668,19 @@ function networkIcon(network: string): string {
   }
 
   /* ── Entries ── */
-  .entry { margin-bottom: 1.5rem; }
+  .entry {
+    margin-bottom: 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .entry:hover {
+    border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 15%, transparent);
+  }
 
   .entry-header {
     display: flex;
