@@ -127,6 +127,19 @@
 
   "volunteer": [
     {
+      "organization": "Station N — Commission Data & IA",
+      "position": "Membre actif — Conférencier",
+      "url": "https://www.station-n.nc",
+      "startDate": "2022-01",
+      "summary": "Participation active à la commission Data & IA de la Station N, écosystème tech de référence en Nouvelle-Calédonie. Présentations régulières sur les projets data et IA de l'OPT-NC et de l'université, contribution à la diffusion des pratiques data engineering et IA dans l'écosystème local.",
+      "highlights": [
+        "Présentation de la cartographie du SI OPT-NC par knowledge graph Neo4j",
+        "Démonstration de l'agent IA de cartographie du SI",
+        "Présentation des réalisations des étudiants Master MIAGE",
+        "Prochainement : geol pour la partie data engineering et cybersécurité"
+      ]
+    },
+    {
       "organization": "Université de Nouvelle-Calédonie — Master MIAGE (IAE)",
       "position": "Enseignant vacataire — Module Interopérabilité des SI",
       "url": "https://unc.nc",
