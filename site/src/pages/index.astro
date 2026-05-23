@@ -466,15 +466,12 @@ function networkIcon(network: string): string {
     </main>
 
     <footer>
-      <a href="https://github.com/adriens/whoami" target="_blank" rel="noopener">
+      <a href="https://github.com/adriens/whoami" target="_blank" rel="noopener" title="Source — adriens/whoami">
         <i class="fa-brands fa-github"></i>
-        adriens/whoami
       </a>
-      <a href="https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json" target="_blank" rel="noopener">
-        <i class="fa-solid fa-brackets-curly"></i>
-        resume.json
+      <a href="https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json" target="_blank" rel="noopener" title="resume.json">
+        <i class="fa-solid fa-file-code"></i>
       </a>
-      <span>Généré avec <a href="https://astro.build" target="_blank" rel="noopener">Astro</a> · <a href="https://docs.astral.sh/uv/" target="_blank" rel="noopener">uv</a></span>
     </footer>
   </body>
 </html>
@@ -811,36 +808,19 @@ function networkIcon(network: string): string {
     max-width: 860px;
     margin: 0 auto;
     padding: 1.5rem 2rem 2rem;
-    border-top: 1px solid var(--border);
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem;
   }
 
   footer a {
-    color: var(--muted);
+    color: var(--border);
     text-decoration: none;
-    font-size: 0.8rem;
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
+    font-size: 1rem;
     transition: color 0.15s;
   }
 
-  footer a:hover { color: var(--accent); }
-
-  footer span {
-    font-size: 0.75rem;
-    color: var(--border);
-  }
-
-  footer code {
-    font-family: 'SF Mono', 'Fira Code', monospace;
-    font-size: 0.72rem;
-    color: var(--muted);
-  }
+  footer a:hover { color: var(--muted); }
 
   /* ── Responsive ── */
   @media (max-width: 600px) {
