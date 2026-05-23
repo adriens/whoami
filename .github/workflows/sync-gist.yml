@@ -1,0 +1,27 @@
+name: Sync resume.json to Gist
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "manual/resume.json"
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update Gist
+        env:
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+        run: |
+          content=$(cat manual/resume.json)
+          payload=$(jq -n --arg content "$content" \
+            '{"files": {"resume.json": {"content": $content}}}')
+          curl -sS -X PATCH \
+            -H "Authorization: token $GIST_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "$payload" \
+            https://api.github.com/gists/f104d86b75b1f3939188dc8d20c2397c
