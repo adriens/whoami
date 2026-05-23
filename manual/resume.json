@@ -568,6 +568,18 @@
       "url": "https://github.com/opt-nc/mobitag"
     },
     {
+      "name": "ollama-models — Dataset stats téléchargements LLM",
+      "type": "open-source",
+      "startDate": "2024-10",
+      "description": "Dataset Kaggle exposant les statistiques de téléchargement des modèles Ollama : données collectées, stockées dans une base DuckDB, exportées en Parquet. Notebook d'exploration fourni. Croise data engineering frugal et veille sur l'écosystème LLM open source.",
+      "highlights": [
+        "Stack DuckDB + Parquet — pipeline analytique léger et reproductible",
+        "Notebook Kaggle intégré pour l'exploration immédiate des données",
+        "Indicateur de tendance sur l'adoption des LLM open source via Ollama"
+      ],
+      "url": "https://www.kaggle.com/datasets/adriensales/ollama-models"
+    },
+    {
       "name": "edb-noumea — SDK qualité eaux de baignade",
       "type": "open-source",
       "startDate": "2025-09",
