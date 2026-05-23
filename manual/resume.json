@@ -250,6 +250,18 @@
       "summary": "Présentation de la première version du knowledge graph SI de l'OPT-NC."
     },
     {
+      "title": "Speaker — Talanoa 2022 / Pacific DataViz Challenge (SPC)",
+      "date": "2022-11",
+      "awarder": "Pacific Community — SPC",
+      "summary": "Présentation sur la puissance de la dataviz pour le Pacific DataViz Challenge, événement régional organisé par la Commission du Pacifique Sud. Talk sur Neo4j et Gephi comme outils de visualisation de données au service de la prise de décision. https://dev.to/optnc/talanoa-2022-the-power-of-data-visualization-1fgn"
+    },
+    {
+      "title": "Speaker — PMI Horizons Nouméa (Project Management Institute)",
+      "date": "2024-01",
+      "awarder": "PMI Nouvelle-Calédonie",
+      "summary": "Talk : Neo4j & AI Agents et impacts projets — présentation de l'usage des knowledge graphs et agents IA dans la gestion de projets SI. https://www.youtube.com/watch?v=ErBCyOrup3M"
+    },
+    {
       "title": "Speaker — Elastic Paris Meetup #58",
       "date": "2023-01",
       "awarder": "Elastic",
