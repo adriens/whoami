@@ -46,10 +46,13 @@ const articlesAdriens = parseCSV(resolve(root, 'data/dev_to/adriens/_index.csv')
 const articlesOptNc   = parseCSV(resolve(root, 'data/dev_to/opt-nc/_index.csv'));
 const videos          = parseCSV(resolve(root, 'data/youtube/devops-lab/_index.csv'));
 const books           = parseCSV(resolve(root, 'data/goodreads/124105866/_index.csv'));
+const kaggleDatasets  = parseCSV(resolve(root, 'data/kaggle/adriensales/_index.csv'));
 
 const totalArticles = articlesAdriens.length + articlesOptNc.length;
 const totalVideos   = videos.length;
 const totalBooks    = books.length;
+const totalDatasets = kaggleDatasets.length;
+const totalDownloads = kaggleDatasets.reduce((sum, d) => sum + (parseInt(d.download_count) || 0), 0);
 
 const firstYear = work.length > 0
   ? parseInt(work[work.length - 1].startDate?.substring(0, 4) ?? '2000')
@@ -63,6 +66,11 @@ const latestArticles = [...articlesAdriens]
 const latestVideos = [...videos]
   .sort((a, b) => b.published_at.localeCompare(a.published_at))
   .slice(0, 5);
+
+const topDatasets = [...kaggleDatasets]
+  .sort((a, b) => (parseInt(b.download_count) || 0) - (parseInt(a.download_count) || 0))
+  .filter(d => (parseInt(d.download_count) || 0) > 0)
+  .slice(0, 6);
 
 function formatDate(iso: string): string {
   const d = iso.substring(0, 10);
@@ -157,6 +165,14 @@ function networkIcon(network: string): string {
         <div class="stat">
           <span class="stat-value">{totalBooks}</span>
           <span class="stat-label"><i class="fa-solid fa-book"></i> livres lus</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">{totalDatasets}</span>
+          <span class="stat-label"><i class="fa-brands fa-kaggle"></i> datasets</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">{totalDownloads.toLocaleString('fr')}</span>
+          <span class="stat-label"><i class="fa-solid fa-download"></i> downloads</span>
         </div>
         <div class="stat">
           <span class="stat-value">{yearsXP}+</span>
@@ -376,6 +392,40 @@ function networkIcon(network: string): string {
         </section>
       )}
 
+      <!-- ── Top datasets Kaggle ───────────────────────────── -->
+      {topDatasets.length > 0 && (
+        <section>
+          <h2>
+            <i class="fa-brands fa-kaggle"></i> Top datasets Kaggle
+          </h2>
+          <ul class="article-list">
+            {topDatasets.map((d) => (
+              <li class="article-item">
+                <a href={d.url} target="_blank" rel="noopener" class="article-title">
+                  {d.title}
+                </a>
+                <div class="article-meta">
+                  <span class="article-stat">
+                    <i class="fa-solid fa-download"></i> {parseInt(d.download_count).toLocaleString('fr')}
+                  </span>
+                  {d.view_count && parseInt(d.view_count) > 0 && (
+                    <span class="article-stat">
+                      <i class="fa-solid fa-eye"></i> {parseInt(d.view_count).toLocaleString('fr')}
+                    </span>
+                  )}
+                  {d.last_updated && (
+                    <span class="article-date">{formatDate(d.last_updated)}</span>
+                  )}
+                </div>
+              </li>
+            ))}
+          </ul>
+          <a href="https://www.kaggle.com/adriensales/datasets" target="_blank" rel="noopener" class="see-all">
+            Voir tous les datasets <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </section>
+      )}
+
       {languages.length > 0 && (
         <section>
           <h2>Langues</h2>
@@ -478,7 +528,7 @@ function networkIcon(network: string): string {
   /* ── Stats bar ── */
   .stats-bar {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     margin-top: 1.5rem;
     border: 1px solid var(--border);
     border-radius: 10px;
@@ -752,9 +802,10 @@ function networkIcon(network: string): string {
     .contact { justify-content: flex-start; }
     .entry-header { flex-direction: column; gap: 0.15rem; }
     .skills-grid { grid-template-columns: 1fr; }
-    .stats-bar { grid-template-columns: repeat(2, 1fr); }
-    .stat:nth-child(2) { border-right: none; }
-    .stat:nth-child(3) { border-top: 1px solid var(--border); }
-    .stat:nth-child(4) { border-top: 1px solid var(--border); }
+    .stats-bar { grid-template-columns: repeat(3, 1fr); }
+    .stat:nth-child(3) { border-right: none; }
+    .stat:nth-child(4),
+    .stat:nth-child(5),
+    .stat:nth-child(6) { border-top: 1px solid var(--border); }
   }
 </style>
