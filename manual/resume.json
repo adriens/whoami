@@ -61,6 +61,11 @@
         "network": "HuggingFace",
         "username": "rastadidi",
         "url": "https://huggingface.co/rastadidi"
+      },
+      {
+        "network": "Chocolatey",
+        "username": "adriens",
+        "url": "https://community.chocolatey.org/profiles/adriens"
       }
     ]
   },

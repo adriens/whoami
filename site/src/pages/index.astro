@@ -99,6 +99,7 @@ const networkIcons: Record<string, string> = {
   pypi:          'fa-brands fa-python',
   goodreads:     'fa-brands fa-goodreads',
   huggingface:   'hf-icon',
+  chocolatey:    'choco-icon',
 };
 
 function networkIcon(network: string): string {
@@ -144,6 +145,8 @@ function networkIcon(network: string): string {
               <a href={p.url} target="_blank" rel="noopener" title={p.network}>
                 {icon === 'hf-icon'
                   ? <span class="hf-emoji" aria-label="HuggingFace">🤗</span>
+                  : icon === 'choco-icon'
+                  ? <span class="hf-emoji" aria-label="Chocolatey">🍫</span>
                   : <i class={icon}></i>
                 }
               </a>
