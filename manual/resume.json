@@ -120,19 +120,9 @@
       ]
     },
     {
-      "name": "Vice-Rectorat de Nouvelle-Calédonie",
-      "position": "Professeur Vacataire de Mathématiques",
-      "url": "https://www.ac-noumea.nc",
-      "startDate": "1999-09",
-      "endDate": "2001-08",
-      "summary": "Enseignement des mathématiques en collège : collège de Bourail, puis collèges de Rivière Salée et Kaméré à Nouméa. Admissible au CAPES externe de Mathématiques (session 2000). Période fondatrice pour la pédagogie et la transmission, aujourd'hui prolongée dans l'enseignement en Master MIAGE à l'UNC.",
-      "highlights": [
-        "Première expérience d'enseignement qui ancre une posture pédagogique durable, 25 ans avant les cours en Master MIAGE"
-      ]
-    },
-    {
       "name": "Experian Decision Analytics",
       "position": "Consultant Développeur — Couche Base de Données",
+      "url": "https://www.experian.com/decision-analytics/",
       "startDate": "2003-09",
       "endDate": "2008-09",
       "summary": "Développement core sur le layer base de données et intégration en mode consultant chez de grands comptes. Basé à Monaco.",
@@ -141,6 +131,17 @@
         "Développement du layer base de données des composants Decision Analytics, déployés chez Orange, Bank of America et Le Crédit Lyonnais",
         "Tuning Oracle avancé (indexes, tablespaces, partitionnement) pour maximiser les performances du logiciel en production chez les grands comptes",
         "Conception du système de monitoring JMX des bases de données, outillé via ManageEngine — avancée majeure en observabilité et intégration pour les clients (Orange, BofA, Crédit Lyonnais), initiative innovante pour l'époque"
+      ]
+    },
+    {
+      "name": "Vice-Rectorat de Nouvelle-Calédonie",
+      "position": "Professeur Vacataire de Mathématiques",
+      "url": "https://www.ac-noumea.nc",
+      "startDate": "1999-09",
+      "endDate": "2001-08",
+      "summary": "Enseignement des mathématiques en collège : collège de Bourail, puis collèges de Rivière Salée et Kaméré à Nouméa. Admissible au CAPES externe de Mathématiques (session 2000). Période fondatrice pour la pédagogie et la transmission, aujourd'hui prolongée dans l'enseignement en Master MIAGE à l'UNC.",
+      "highlights": [
+        "Première expérience d'enseignement qui ancre une posture pédagogique durable, 25 ans avant les cours en Master MIAGE"
       ]
     }
   ],
@@ -627,7 +628,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.0.0",
+    "version": "v1.1.0",
     "lastModified": "2026-05-24",
     "theme": "elegant"
   }
