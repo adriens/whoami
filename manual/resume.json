@@ -168,6 +168,17 @@
         "Expo des réalisations étudiantes en fin d'année documentée sur dev.to (23 commentaires)",
         "Suivi personnalisé jusqu'à l'emploi pour l'ensemble des promotions"
       ]
+    },
+    {
+      "organization": "data.gouv.nc — Portail open data officiel de Nouvelle-Calédonie",
+      "position": "Contributeur civic data — Réutilisations open data",
+      "url": "https://data.gouv.nc",
+      "startDate": "2024-01",
+      "summary": "Publication de réutilisations sur le portail open data officiel de Nouvelle-Calédonie : analyse et visualisation de données publiques locales à fort impact sociétal (sécurité maritime, qualité des eaux de baignade, sécurité routière). Démarche #techforgood et innovation frugale.",
+      "highlights": [
+        "Réutilisations publiées sur data.gouv.nc à partir de datasets open data locaux",
+        "Projets rattachés à odata-ncl : attaques de requins, eaux de baignade, accidents de la route"
+      ]
     }
   ],
 
@@ -519,7 +530,8 @@
         "Attaques de requins NC : dataset Kaggle, 3 notebooks d'analyse, rapport PDF Quarto, article Dev.to avec Gemini CLI",
         "Eaux de baignade Nouméa (edb-noumea) : PyPI v0.4.0, TUI Go, live CSV, graphiques automatiques",
         "Accidents de la route NC : en pipeline",
-        "Pattern reproductible : open data → scraping → dataset Kaggle → notebooks → rapport Quarto"
+        "Pattern reproductible : open data → scraping → dataset Kaggle → notebooks → rapport Quarto",
+        "Réutilisations publiées sur data.gouv.nc, portail open data officiel de Nouvelle-Calédonie"
       ],
       "url": "https://github.com/adriens/odata-ncl"
     },
