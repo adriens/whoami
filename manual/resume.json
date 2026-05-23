@@ -5,7 +5,7 @@
     "name": "Adrien Sales",
     "label": "Architecte SI & Product Builder | Modélisation · Data · IA Agents | LEAN & Innovation frugale | DevRel",
     "image": "https://github.com/adriens.png",
-    "email": "Adrien.Sales@gmail.com",
+    "email": "adrien.sales@gmail.com",
     "phone": "+687 84 29 84",
     "url": "https://adriens.github.io/whoami/",
     "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis, puis data mining en collaboration avec l'I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA.\n\n25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood.",
@@ -186,15 +186,15 @@
       "organization": "Université de Nouvelle-Calédonie — Master MIAGE (IAE)",
       "position": "Enseignant vacataire — Module Interopérabilité des SI",
       "url": "https://unc.nc",
-      "startDate": "2015-01",
-      "summary": "Enseignement exercé entièrement sur temps personnel, le soir après le travail, par passion pour la transmission et la jeune génération. Conception et animation du module Interopérabilité des Systèmes d'Information en Master MIAGE. Approche pédagogique inspirée de Montessori : learning by doing, projets réels open source et open data, syllabus public sur GitHub, ressources cloud publiques. Suivi des étudiants jusqu'à leur insertion professionnelle.",
+      "startDate": "2025-03",
+      "summary": "Enseignement exercé entièrement sur temps personnel, le soir après le travail, par passion pour la transmission et la jeune génération. Conception et animation du module Interopérabilité des Systèmes d'Information en Master MIAGE. Approche pédagogique inspirée de Montessori : learning by doing, projets réels open source et open data, syllabus public sur GitHub, ressources cloud publiques. Feedbacks et suivi de promotion gérés en données (repo GitHub dédié).",
       "highlights": [
-        "Encadrement de ~12 étudiants par promotion sur des projets réels open source et open data",
-        "Conception intégrale du module et du syllabus (public sur GitHub)",
+        "Encadrement de ~12 étudiants sur des projets réels open source et open data — première promotion Mars 2025",
+        "Conception intégrale du module et du syllabus (public sur GitHub : adriens/unc_iae_miage_interop_si_feedbacks)",
         "Pédagogie Montessori appliquée à l'enseignement tech : projets réels, open source, open data, #techforgood",
         "Posture de mentor praticien : on construit ensemble sur de vrais projets, jamais d'explication théorique seule — chaque étudiant repart avec du code en prod",
         "Expo des réalisations étudiantes en fin d'année documentée sur dev.to (23 commentaires)",
-        "Suivi personnalisé jusqu'à l'emploi pour l'ensemble des promotions"
+        "Suivi de la promotion et des feedbacks entièrement gérés en données via un repo GitHub dédié"
       ]
     },
     {
@@ -347,6 +347,13 @@
   ],
 
   "publications": [
+    {
+      "name": "MIT Media Lab, créativité & jeux — LinkedIn Pulse",
+      "publisher": "LinkedIn Pulse",
+      "releaseDate": "2019-11-07",
+      "url": "https://www.linkedin.com/pulse/how-did-netflix-put-my-heart-brain-fire-abstract-art-design-sales/",
+      "summary": "Réflexion sur la créativité, le jeu et le design inspirée du MIT Media Lab. À partir d'un documentaire Netflix sur l'art abstrait, l'article explore comment les principes du jeu et du design peuvent nourrir la pensée créative et l'innovation en entreprise."
+    },
     {
       "name": "206 articles techniques — Dev.to",
       "publisher": "Dev.to",
