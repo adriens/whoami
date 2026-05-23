@@ -784,7 +784,8 @@ function levelDots(level: string): number {
 </html>
 
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; overflow-wrap: break-word; }
+  html, body { overflow-x: hidden; }
 
   :root {
     --accent:  #60a5fa;
