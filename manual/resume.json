@@ -127,7 +127,6 @@
       "endDate": "2001-08",
       "summary": "Enseignement des mathématiques en collège : collège de Bourail, puis collèges de Rivière Salée et Kaméré à Nouméa. Admissible au CAPES externe de Mathématiques (session 2000). Période fondatrice pour la pédagogie et la transmission, aujourd'hui prolongée dans l'enseignement en Master MIAGE à l'UNC.",
       "highlights": [
-        "Admissible au CAPES externe de Mathématiques (session 2000) — écrits réussis, oral non obtenu",
         "Première expérience d'enseignement qui ancre une posture pédagogique durable, 25 ans avant les cours en Master MIAGE"
       ]
     },
@@ -483,8 +482,7 @@
       "highlights": [
         "1 300+ downloads, 11 stars, v2.7.1 activement maintenue",
         "Hacktoberfest 2025 Maintainer Spotlight officiel",
-        "Démo 'impossible 1 minute' sur Mux — approche marketing $0 (YouTube + dev.to uniquement)",
-        "Meetup et démo Killercoda à venir"
+        "Démo 'impossible 1 minute' sur Mux — approche marketing $0 (YouTube + dev.to uniquement)"
       ],
       "url": "https://github.com/opt-nc/geol"
     },
@@ -522,7 +520,6 @@
       "highlights": [
         "Référentiel des métiers OPT-NC : dataset HuggingFace + application Gradio",
         "AVPS (avis de vacances de poste) : dataset HuggingFace + agent IA de matching compétences/poste",
-        "Organigramme OPT-NC : pipeline open data en cours",
         "Objectif : expérience candidat d'excellence — trouver, comprendre et candidater à un poste en quelques minutes via IA"
       ],
       "url": "https://huggingface.co/opt-nc"
@@ -571,7 +568,6 @@
       "highlights": [
         "Attaques de requins NC : dataset Kaggle, 3 notebooks d'analyse, rapport PDF Quarto, article Dev.to avec Gemini CLI",
         "Eaux de baignade Nouméa (edb-noumea) : PyPI v0.4.0, TUI Go, live CSV, graphiques automatiques",
-        "Accidents de la route NC : en pipeline",
         "Pattern reproductible : open data → scraping → dataset Kaggle → notebooks → rapport Quarto",
         "Réutilisations publiées sur data.gouv.nc, portail open data officiel de Nouvelle-Calédonie"
       ],
@@ -620,10 +616,9 @@
       "name": "SchemaCrawler — Contribution open source",
       "type": "open-source",
       "startDate": "2022-01",
-      "description": "Contributeur actif sur SchemaCrawler : packaging RPM/DEB, package Chocolatey (23 048 downloads), intégration Neo4j, speaker Elastic Paris Meetup #58.",
+      "description": "Contributeur actif sur SchemaCrawler : packaging RPM/DEB, package Chocolatey (23 048 downloads), intégration Neo4j.",
       "highlights": [
         "23 048 downloads du package Chocolatey maintenu",
-        "Speaker Elastic Paris Meetup #58 : cartographie et linting continu des bases de données",
         "Intégration Neo4j pour visualisation des schémas"
       ],
       "url": "https://community.chocolatey.org/packages/schemacrawler/17.6.1"
