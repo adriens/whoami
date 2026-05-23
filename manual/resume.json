@@ -258,19 +258,19 @@
       "title": "Extension officielle DuckDB Community — brew",
       "date": "2026-02",
       "awarder": "DuckDB",
-      "summary": "Extension brew listée sur duckdb.org/community_extensions permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge, activement maintenue."
+      "summary": "Extension brew listée sur duckdb.org/community_extensions permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge, activement maintenue. https://duckdb.org/community_extensions/extensions/brew"
     },
     {
       "title": "Hacktoberfest Maintainer Spotlight — geol",
       "date": "2025-10",
       "awarder": "DEV Community / Hacktoberfest",
-      "summary": "Mise en avant officielle comme mainteneur open source pour le projet geol lors du Hacktoberfest 2025."
+      "summary": "Mise en avant officielle comme mainteneur open source pour le projet geol lors du Hacktoberfest 2025. https://dev.to/adriens/geol-the-cli-to-efficiently-manage-eols-like-a-boss-3hne"
     },
     {
       "title": "Speaker — NODES 2024 (Conférence internationale Neo4j)",
       "date": "2024-11",
       "awarder": "Neo4j",
-      "summary": "Présentation : Cloud-Native Knowledge Graph Automation & AI Agents — cartographie du SI OPT-NC avec Neo4j, release automatisée et agents IA."
+      "summary": "Présentation : Cloud-Native Knowledge Graph Automation & AI Agents — cartographie du SI OPT-NC avec Neo4j, release automatisée et agents IA. https://dev.to/adriens/nodes24-a-practical-path-to-cloud-native-knowledge-graph-automation-ai-agents-2ejh"
     },
     {
       "title": "Notebooks Expert — Kaggle",
