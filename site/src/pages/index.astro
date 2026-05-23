@@ -124,7 +124,13 @@ function networkIcon(network: string): string {
       <header>
         <div class="name-block">
           <h1>{basics.name}</h1>
-          <p class="label">{basics.label}</p>
+          {basics.label && (
+            <div class="label-tags">
+              {basics.label.split('|').map((t: string) => (
+                <span class="label-tag">{t.trim()}</span>
+              ))}
+            </div>
+          )}
         </div>
         <div class="contact">
           {basics.email && (
@@ -516,10 +522,20 @@ function networkIcon(network: string): string {
     color: var(--text);
   }
 
-  .label {
-    color: var(--accent);
+  .label-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+  }
+  .label-tag {
+    font-size: 0.78rem;
     font-weight: 500;
-    margin-top: 0.25rem;
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 12%, transparent);
+    border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+    padding: 0.2rem 0.65rem;
+    border-radius: 999px;
   }
 
   .contact {
