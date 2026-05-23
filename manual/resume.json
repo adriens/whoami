@@ -114,6 +114,7 @@
       "endDate": "2010-11",
       "summary": "DBA expert sur des projets nationaux à fort enjeu. Spécialité : tuning et optimisation de bases de données en production.",
       "highlights": [
+        "Conception d'un système de monitoring JMX des bases de données — avancée majeure en intégration et observabilité pour les clients, outillé via ManageEngine",
         "Tuning avancé de bases de données Oracle et PostgreSQL sur des plateformes nationales à fort trafic",
         "Automatisation des scripts de production et introduction des premières pratiques DevOps",
         "Intervention sur des projets critiques : HADOPI, Jedeclare.com, Infogreffe"
