@@ -8,7 +8,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '../../..');
 
 const resume = JSON.parse(readFileSync(resolve(root, 'manual/resume.json'), 'utf-8'));
-const { basics, work = [], education = [], skills = [], projects = [], languages = [], publications = [], awards = [], volunteer = [] } = resume;
+const { basics, work = [], education = [], skills = [], projects = [], languages = [], publications = [], awards = [], volunteer = [], interests = [] } = resume;
 
 const openSourceProjects   = projects.filter((p: any) => p.type === 'open-source');
 const professionalProjects = projects.filter((p: any) => p.type === 'professional');
@@ -129,6 +129,18 @@ function networkIcon(network: string): string {
   return networkIcons[network.toLowerCase()] ?? 'fa-solid fa-link';
 }
 
+function interestIcon(name: string): string {
+  const n = name.toLowerCase();
+  if (n.includes('sport') || n.includes('nautique') || n.includes('outdoor')) return 'fa-solid fa-person-running';
+  if (n.includes('maker') || n.includes('iot')) return 'fa-solid fa-microchip';
+  if (n.includes('veille') || n.includes('technologique')) return 'fa-solid fa-binoculars';
+  if (n.includes('création') || n.includes('humour')) return 'fa-solid fa-film';
+  if (n.includes('écriture') || n.includes('livre')) return 'fa-solid fa-pen-nib';
+  if (n.includes('musique')) return 'fa-solid fa-music';
+  if (n.includes('lecture')) return 'fa-solid fa-book-open';
+  return 'fa-solid fa-star';
+}
+
 function levelDots(level: string): number {
   const map: Record<string, number> = {
     'expert': 5, 'avancé': 4, 'intermédiaire': 3, 'débutant': 2, 'notions': 1
@@ -158,6 +170,7 @@ function levelDots(level: string): number {
   </head>
   <body>
     <div id="progress-bar"></div>
+    <div id="toast" role="status" aria-live="polite"></div>
     <nav class="side-nav" aria-label="Navigation sections">
       <a href="#experience"   class="snav-link" title="Expérience"><i class="fa-solid fa-briefcase"></i></a>
       <a href="#benevolat"    class="snav-link" title="Bénévolat"><i class="fa-solid fa-heart"></i></a>
@@ -167,6 +180,7 @@ function levelDots(level: string): number {
       <a href="#professionnel" class="snav-link" title="Réalisations pro"><i class="fa-solid fa-building"></i></a>
       <a href="#distinctions" class="snav-link" title="Distinctions"><i class="fa-solid fa-trophy"></i></a>
       <a href="#articles"     class="snav-link" title="Articles DEV.to"><i class="fa-brands fa-dev"></i></a>
+      <a href="#interets"     class="snav-link" title="Intérêts"><i class="fa-solid fa-heart-pulse"></i></a>
     </nav>
     <button id="theme-toggle" aria-label="Basculer le thème" title="Basculer thème clair/sombre">
       <i class="fa-solid fa-sun" id="icon-sun"></i>
@@ -186,7 +200,7 @@ function levelDots(level: string): number {
         </div>
         <div class="contact">
           {basics.email && (
-            <a href={`mailto:${basics.email}`} title={basics.email}>
+            <a href={`mailto:${basics.email}`} title={basics.email} data-copy-email={basics.email}>
               <i class="fa-solid fa-envelope"></i>
             </a>
           )}
@@ -571,6 +585,27 @@ function levelDots(level: string): number {
         </section>
       )}
 
+      {interests.length > 0 && (
+        <section id="interets">
+          <h2><i class="fa-solid fa-heart-pulse"></i> Centres d'intérêt</h2>
+          <div class="interests-grid">
+            {interests.map((item: any) => (
+              <div class="interest-card">
+                <div class="interest-header">
+                  <i class={interestIcon(item.name)}></i>
+                  <strong>{item.name}</strong>
+                </div>
+                {item.keywords?.length > 0 && (
+                  <div class="tags">
+                    {item.keywords.map((k: string) => <span class="tag">{k}</span>)}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       {languages.length > 0 && (
         <section>
           <h2><i class="fa-solid fa-language"></i> Langues</h2>
@@ -599,16 +634,40 @@ function levelDots(level: string): number {
         if (bar) bar.style.width = pct + '%';
       });
 
-      // Dark/light theme toggle
+      // ── D: Theme — respect system preference as default ──
       const root = document.documentElement;
       const btn = document.getElementById('theme-toggle');
       const saved = localStorage.getItem('theme');
-      if (saved === 'light') root.setAttribute('data-theme', 'light');
+      if (saved) {
+        root.setAttribute('data-theme', saved);
+      } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+        root.setAttribute('data-theme', 'light');
+      }
 
       btn?.addEventListener('click', () => {
         const isLight = root.getAttribute('data-theme') === 'light';
         root.setAttribute('data-theme', isLight ? 'dark' : 'light');
         localStorage.setItem('theme', isLight ? 'dark' : 'light');
+      });
+
+      // ── C: Copy email to clipboard ──
+      function showToast(msg: string) {
+        const t = document.getElementById('toast');
+        if (!t) return;
+        t.textContent = msg;
+        t.classList.add('toast-show');
+        setTimeout(() => t.classList.remove('toast-show'), 2000);
+      }
+
+      document.querySelector('[data-copy-email]')?.addEventListener('click', async (e) => {
+        const el = e.currentTarget as HTMLElement;
+        const email = el.getAttribute('data-copy-email');
+        if (!email) return;
+        try {
+          e.preventDefault();
+          await navigator.clipboard.writeText(email);
+          showToast('📋 Email copié !');
+        } catch { /* fallback: mailto: proceeds */ }
       });
 
       // ── C: Animated stat counters ──
@@ -1176,6 +1235,66 @@ function levelDots(level: string): number {
 
   :root[data-theme="light"] #icon-sun  { display: none; }
   :root[data-theme="light"] #icon-moon { display: block; }
+
+  /* ── A: Interests grid ── */
+  .interests-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .interest-card {
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--surface);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .interest-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .interest-header i {
+    color: var(--accent);
+    font-size: 0.85rem;
+    width: 1rem;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  .interest-header strong {
+    font-size: 0.88rem;
+    color: var(--text);
+  }
+
+  /* ── C: Toast notification ── */
+  #toast {
+    position: fixed;
+    bottom: 5.5rem;
+    right: 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--accent);
+    color: var(--text);
+    font-size: 0.8rem;
+    padding: 0.45rem 1rem;
+    border-radius: 8px;
+    opacity: 0;
+    transform: translateY(0.4rem);
+    transition: opacity 0.2s, transform 0.2s;
+    pointer-events: none;
+    z-index: 200;
+    white-space: nowrap;
+  }
+
+  #toast.toast-show {
+    opacity: 1;
+    transform: translateY(0);
+  }
 
   /* ── A: Side nav ── */
   .side-nav {
