@@ -1,0 +1,2 @@
+id,author,url,downloads,likes,last_modified,tags
+rastadidi/recettes-cuisine-auptitcafe-ncl,rastadidi,https://huggingface.co/datasets/rastadidi/recettes-cuisine-auptitcafe-ncl,6,0,2025-01-01,"size_categories:n<1K,format:csv,modality:image,modality:text,library:datasets,library:pandas,library:mlcroissant,library:polars,region:us"

@@ -78,6 +78,16 @@ tasks:
     cmds:
       - task: fetch-kaggle-adriensales
 
+  fetch-hf-rastadidi:
+    desc: Provisionner les datasets et spaces HuggingFace @rastadidi
+    cmds:
+      - uv run scripts/fetch-huggingface.py --author rastadidi
+
+  fetch-hf:
+    desc: Provisionner tous les comptes HuggingFace (sequentiel)
+    cmds:
+      - task: fetch-hf-rastadidi
+
   build-knowledge-base:
     desc: Generer output/knowledge-base.md pour injection NotebookLM (full)
     cmds:
@@ -95,6 +105,7 @@ tasks:
       - task: fetch-youtube
       - task: fetch-goodreads
       - task: fetch-kaggle
+      - task: fetch-hf
       - task: build-knowledge-base
 
   site-install:

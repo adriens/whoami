@@ -140,6 +140,37 @@ def build_books(data_dir: Path, lite: bool) -> str:
     return "\n".join(lines)
 
 
+def build_huggingface(data_dir: Path, lite: bool) -> str:
+    hf_dir = data_dir / "huggingface"
+    if not hf_dir.exists():
+        return ""
+    lines = [section("HuggingFace — Datasets & Spaces")]
+    total_ds = 0
+    total_sp = 0
+    for author_dir in sorted(hf_dir.iterdir()):
+        ds_files = sorted((author_dir / "datasets").glob("*.md")) if (author_dir / "datasets").exists() else []
+        sp_files = sorted((author_dir / "spaces").glob("*.md")) if (author_dir / "spaces").exists() else []
+        if not ds_files and not sp_files:
+            continue
+        lines.append(section(f"@{author_dir.name}", 3))
+        if ds_files:
+            lines.append(section("Datasets", 4))
+            for md in ds_files:
+                content = md.read_text(encoding="utf-8")
+                lines.append(content.split("---\n\n")[0].strip() + "\n---" if lite else content.strip())
+                lines.append("\n---\n")
+                total_ds += 1
+        if sp_files:
+            lines.append(section("Spaces", 4))
+            for md in sp_files:
+                content = md.read_text(encoding="utf-8")
+                lines.append(content.split("---\n\n")[0].strip() + "\n---" if lite else content.strip())
+                lines.append("\n---\n")
+                total_sp += 1
+    lines.insert(1, f"*{total_ds} datasets, {total_sp} spaces au total*\n")
+    return "\n".join(lines)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generer knowledge-base.md pour NotebookLM")
     parser.add_argument("--lite", action="store_true", help="Frontmatters uniquement, sans corps des articles")
@@ -158,6 +189,7 @@ def main():
         build_videos(DATA, lite=args.lite),
         build_books(DATA, lite=args.lite),
         build_kaggle(DATA, lite=args.lite),
+        build_huggingface(DATA, lite=args.lite),
     ]
 
     OUTPUT.write_text("\n".join(p for p in parts if p), encoding="utf-8")
