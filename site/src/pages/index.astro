@@ -47,12 +47,16 @@ const articlesOptNc   = parseCSV(resolve(root, 'data/dev_to/opt-nc/_index.csv'))
 const videos          = parseCSV(resolve(root, 'data/youtube/devops-lab/_index.csv'));
 const books           = parseCSV(resolve(root, 'data/goodreads/124105866/_index.csv'));
 const kaggleDatasets  = parseCSV(resolve(root, 'data/kaggle/adriensales/_index.csv'));
+const hfDatasets      = parseCSV(resolve(root, 'data/huggingface/rastadidi/_datasets_index.csv'));
+const hfSpaces        = parseCSV(resolve(root, 'data/huggingface/rastadidi/_spaces_index.csv'));
 
-const totalArticles = articlesAdriens.length + articlesOptNc.length;
-const totalVideos   = videos.length;
-const totalBooks    = books.length;
-const totalDatasets = kaggleDatasets.length;
+const totalArticles  = articlesAdriens.length + articlesOptNc.length;
+const totalVideos    = videos.length;
+const totalBooks     = books.length;
+const totalDatasets  = kaggleDatasets.length;
 const totalDownloads = kaggleDatasets.reduce((sum, d) => sum + (parseInt(d.download_count) || 0), 0);
+const totalHFDatasets = hfDatasets.length;
+const totalHFSpaces   = hfSpaces.length;
 
 const firstYear = work.length > 0
   ? parseInt(work[work.length - 1].startDate?.substring(0, 4) ?? '2000')
@@ -176,6 +180,14 @@ function networkIcon(network: string): string {
         <div class="stat">
           <span class="stat-value">{totalDownloads.toLocaleString('fr')}</span>
           <span class="stat-label"><i class="fa-solid fa-download"></i> downloads</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">{totalHFDatasets}</span>
+          <span class="stat-label"><span class="hf-emoji-sm">🤗</span> HF datasets</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">{totalHFSpaces}</span>
+          <span class="stat-label"><span class="hf-emoji-sm">🤗</span> HF apps</span>
         </div>
         <div class="stat">
           <span class="stat-value">{yearsXP}+</span>
@@ -532,6 +544,7 @@ function networkIcon(network: string): string {
 
   .contact a:hover { color: var(--accent); }
   .hf-emoji { font-size: 1rem; line-height: 1; }
+  .hf-emoji-sm { font-size: 0.85rem; line-height: 1; }
   .contact-label { font-size: 0.8rem; }
 
   /* ── Stats bar ── */
