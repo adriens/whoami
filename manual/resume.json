@@ -86,7 +86,8 @@
         "Open data OPT-NC sur Kaggle et Hugging Face avec MCPs — démo publique : candidature via MCP Claude en 20 minutes",
         "CLI mobitag en Go pour envoyer des SMS via l'API Mobitag — distribué via Homebrew/goreleaser, conçu avec l'équipe comme exercice pédagogique",
         "Design, développement et livraison de l'API domaine.nc (noms de domaine .NC) exposée sur la marketplace APIGEE — a permis la création d'une application mobile open source Flutter par la communauté, publiée sur le Google Play Store, testée en crowdtesting via Hightest/Testeum, avec 25 releases et une playlist YouTube dédiée",
-        "Formation et mentorat de stagiaires dont plusieurs recrutés en CDI"
+        "Mentorat de proximité : stagiaires accueillis dans le bureau, embarqués sur de vrais projets dès le premier jour — plusieurs recrutés en CDI à l'issue",
+        "Évangélisation technique auprès des collègues : faire découvrir et adopter des pratiques et technologies actionnables au quotidien — par la démonstration et le faire ensemble, jamais par la théorie seule"
       ]
     },
     {
@@ -169,6 +170,7 @@
         "Encadrement de ~12 étudiants par promotion sur des projets réels open source et open data",
         "Conception intégrale du module et du syllabus (public sur GitHub)",
         "Pédagogie Montessori appliquée à l'enseignement tech : projets réels, open source, open data, #techforgood",
+        "Posture de mentor praticien : on construit ensemble sur de vrais projets, jamais d'explication théorique seule — chaque étudiant repart avec du code en prod",
         "Expo des réalisations étudiantes en fin d'année documentée sur dev.to (23 commentaires)",
         "Suivi personnalisé jusqu'à l'emploi pour l'ensemble des promotions"
       ]
@@ -396,7 +398,7 @@
     {
       "name": "Developer Relations & Communication",
       "level": "Expert",
-      "keywords": ["Talks internationaux", "YouTube", "Dev.to", "Documentation", "Vulgarisation", "Storytelling", "Data Storytelling", "Community building", "Marketing $0", "Mux", "Détournements vidéo tech"]
+      "keywords": ["Talks internationaux", "YouTube", "Dev.to", "Documentation", "Vulgarisation", "Storytelling", "Data Storytelling", "Community building", "Marketing $0", "Mux", "Détournements vidéo tech", "Tech advocacy interne", "Évangélisation par la pratique"]
     },
     {
       "name": "Management & Pédagogie",
@@ -411,7 +413,7 @@
     {
       "name": "Créativité & Apprentissage autodidacte",
       "level": "Expert",
-      "keywords": ["Pensée transdisciplinaire", "Expérimentation", "MIT Media Lab mindset", "Rendre l'invisible visible", "Détection d'inefficacités", "Idéation en mouvement", "Apprendre → construire → démontrer → enseigner", "Curiosité naturelle", "Observation du réel"]
+      "keywords": ["Imagination", "Connexion de domaines éloignés", "Pensée transdisciplinaire", "Expérimentation", "MIT Media Lab mindset", "Rendre l'invisible visible", "Détection d'inefficacités", "Idéation en mouvement", "Apprendre → construire → démontrer → enseigner", "Curiosité naturelle", "Observation du réel"]
     }
   ],
 
