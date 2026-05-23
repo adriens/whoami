@@ -8,7 +8,7 @@
     "email": "Adrien.Sales@gmail.com",
     "phone": "+687 84 29 84",
     "url": "https://adriens.github.io/whoami/",
-    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA.\n\n20 ans de parcours : consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood.",
+    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA.\n\n23 ans de parcours : consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood.",
     "location": {
       "address": "",
       "postalCode": "98800",
@@ -96,7 +96,7 @@
       "url": "https://www.noumea.nc",
       "startDate": "2010-12",
       "endDate": "2019-03",
-      "summary": "Évolution de chef de projet à chef de section puis architecte logiciel. Modernisation complète du SI applicatif de la collectivité.",
+      "summary": "9 ans d'évolution dans une équipe de 2-3 développeurs, de la conception au leadership : chef de projet, chef de section, puis architecte logiciel. Ce qui reste : des applications livrées entre 2012 et 2015 toujours en production et en évolution en 2026 — une longévité qui dit tout sur la qualité de l'architecture et la profondeur de la relation avec le métier.",
       "highlights": [
         "Conception et développement de l'application permis de construire de la Ville de Nouméa — toujours en exploitation et en évolution 10+ ans après sa livraison",
         "Conception et développement de la main courante de la police municipale de Nouméa — toujours en exploitation 10+ ans après sa livraison",
@@ -156,8 +156,7 @@
       "highlights": [
         "Présentation de la cartographie du SI OPT-NC par knowledge graph Neo4j",
         "Démonstration de l'agent IA de cartographie du SI",
-        "Présentation des réalisations des étudiants Master MIAGE",
-        "Prochainement : geol pour la partie data engineering et cybersécurité"
+        "Présentation des réalisations des étudiants Master MIAGE"
       ]
     },
     {
@@ -616,7 +615,7 @@
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
     "version": "v1.0.0",
-    "lastModified": "2026-05-23",
+    "lastModified": "2026-05-24",
     "theme": "elegant"
   }
 }
