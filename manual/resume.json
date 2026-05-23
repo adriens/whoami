@@ -1,6 +1,5 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
-  "_test_sync": "gist-sync-test",
 
   "basics": {
     "name": "Adrien Sales",
