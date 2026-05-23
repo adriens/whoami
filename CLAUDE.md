@@ -75,6 +75,15 @@ cd site && bun run dev                   # dev Astro
 cd site && bun run build                 # build Astro
 ```
 
+## Conventions Git
+
+- **Commits sémantiques** : suivre [Conventional Commits](https://www.conventionalcommits.org/) — `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`
+- **Tags sémantiques** : suivre [Semantic Versioning](https://semver.org/) — `vMAJOR.MINOR.PATCH`
+  - `PATCH` : corrections, précisions, suppressions de doublons
+  - `MINOR` : ajout de contenu (nouveaux projets, highlights, enrichissements)
+  - `MAJOR` : refonte structurelle du resume
+- **Synchroniser** `meta.version` dans `manual/resume.json` avec le tag git avant de créer le tag
+
 ## Points importants
 
 - **Toujours valider** `manual/resume.json` après modification (`task validate`)
