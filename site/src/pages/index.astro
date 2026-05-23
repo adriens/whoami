@@ -143,7 +143,14 @@ function levelDots(level: string): number {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{basics.name} — {basics.label}</title>
-    <meta name="description" content={basics.summary} />
+    <meta name="description" content={basics.summary?.split('\n\n')[0]?.substring(0, 300)} />
+    <meta property="og:type" content="profile" />
+    <meta property="og:title" content={`${basics.name} — CV & profil`} />
+    <meta property="og:description" content={basics.summary?.split('\n\n')[0]?.substring(0, 300)} />
+    <meta property="og:url" content="https://adriens.github.io/whoami/" />
+    <meta property="og:site_name" content={basics.name} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@rastadidi" />
     <link rel="icon" type="image/svg+xml" href="/whoami/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -151,6 +158,16 @@ function levelDots(level: string): number {
   </head>
   <body>
     <div id="progress-bar"></div>
+    <nav class="side-nav" aria-label="Navigation sections">
+      <a href="#experience"   class="snav-link" title="Expérience"><i class="fa-solid fa-briefcase"></i></a>
+      <a href="#benevolat"    class="snav-link" title="Bénévolat"><i class="fa-solid fa-heart"></i></a>
+      <a href="#competences"  class="snav-link" title="Compétences"><i class="fa-solid fa-screwdriver-wrench"></i></a>
+      <a href="#formation"    class="snav-link" title="Formation"><i class="fa-solid fa-graduation-cap"></i></a>
+      <a href="#open-source"  class="snav-link" title="Projets open source"><i class="fa-brands fa-github"></i></a>
+      <a href="#professionnel" class="snav-link" title="Réalisations pro"><i class="fa-solid fa-building"></i></a>
+      <a href="#distinctions" class="snav-link" title="Distinctions"><i class="fa-solid fa-trophy"></i></a>
+      <a href="#articles"     class="snav-link" title="Articles DEV.to"><i class="fa-brands fa-dev"></i></a>
+    </nav>
     <button id="theme-toggle" aria-label="Basculer le thème" title="Basculer thème clair/sombre">
       <i class="fa-solid fa-sun" id="icon-sun"></i>
       <i class="fa-solid fa-moon" id="icon-moon"></i>
@@ -225,11 +242,11 @@ function levelDots(level: string): number {
         </div>
         <div class="stat">
           <span class="stat-value">{totalHFDatasets}</span>
-          <span class="stat-label"><span class="hf-emoji-sm">🤗</span> HF datasets</span>
+          <span class="stat-label"><span class="hf-emoji-sm">🤗</span> datasets</span>
         </div>
         <div class="stat">
           <span class="stat-value">{totalHFSpaces}</span>
-          <span class="stat-label"><span class="hf-emoji-sm">🤗</span> HF apps</span>
+          <span class="stat-label"><span class="hf-emoji-sm">🤗</span> apps</span>
         </div>
         <div class="stat">
           <span class="stat-value">{totalReactions.toLocaleString('fr')}</span>
@@ -259,7 +276,7 @@ function levelDots(level: string): number {
       })()}
 
       {work.length > 0 && (
-        <section>
+        <section id="experience">
           <h2><i class="fa-solid fa-briefcase"></i> Expérience</h2>
           <div class="timeline">
             {work.map((w: any) => (
@@ -292,7 +309,7 @@ function levelDots(level: string): number {
       )}
 
       {volunteer.length > 0 && (
-        <section>
+        <section id="benevolat">
           <h2><i class="fa-solid fa-heart"></i> Bénévolat & Enseignement</h2>
           <div class="timeline">
             {volunteer.map((v: any) => (
@@ -325,7 +342,7 @@ function levelDots(level: string): number {
       )}
 
       {skills.length > 0 && (
-        <section>
+        <section id="competences">
           <h2><i class="fa-solid fa-screwdriver-wrench"></i> Compétences</h2>
           <div class="skills-grid">
             {skills.map((s: any) => (
@@ -350,7 +367,7 @@ function levelDots(level: string): number {
       )}
 
       {education.length > 0 && (
-        <section>
+        <section id="formation">
           <h2><i class="fa-solid fa-graduation-cap"></i> Formation</h2>
           <div class="timeline">
             {education.map((e: any) => (
@@ -372,7 +389,7 @@ function levelDots(level: string): number {
       )}
 
       {openSourceProjects.length > 0 && (
-        <section>
+        <section id="open-source">
           <h2><i class="fa-brands fa-github"></i> Projets open source <span class="section-count">{openSourceProjects.length}</span></h2>
           {openSourceProjects.map((p: any) => (
             <article class="entry">
@@ -401,7 +418,7 @@ function levelDots(level: string): number {
       )}
 
       {professionalProjects.length > 0 && (
-        <section>
+        <section id="professionnel">
           <h2><i class="fa-solid fa-building"></i> Réalisations professionnelles <span class="section-count">{professionalProjects.length}</span></h2>
           {professionalProjects.map((p: any) => (
             <article class="entry">
@@ -430,7 +447,7 @@ function levelDots(level: string): number {
       )}
 
       {publications.length > 0 && (
-        <section>
+        <section id="publications">
           <h2><i class="fa-solid fa-file-lines"></i> Publications</h2>
           {publications.map((p: any) => (
             <article class="entry">
@@ -452,7 +469,7 @@ function levelDots(level: string): number {
       )}
 
       {sortedAwards.length > 0 && (
-        <section>
+        <section id="distinctions">
           <h2><i class="fa-solid fa-trophy"></i> Distinctions</h2>
           {sortedAwards.map((a: any) => (
             <article class="entry">
@@ -471,7 +488,7 @@ function levelDots(level: string): number {
 
       <!-- ── Derniers articles DEV.to ───────────────────────── -->
       {latestArticles.length > 0 && (
-        <section>
+        <section id="articles">
           <h2>
             <i class="fa-brands fa-dev"></i> Derniers articles DEV.to
           </h2>
@@ -593,6 +610,45 @@ function levelDots(level: string): number {
         root.setAttribute('data-theme', isLight ? 'dark' : 'light');
         localStorage.setItem('theme', isLight ? 'dark' : 'light');
       });
+
+      // ── C: Animated stat counters ──
+      const statEls = document.querySelectorAll<HTMLElement>('.stat-value');
+      const counterObs = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const el = entry.target as HTMLElement;
+          const original = el.textContent?.trim() || '';
+          const suffix = original.endsWith('+') ? '+' : '';
+          const target = parseFloat(original.replace(/\s/g, '').replace(/\+$/, ''));
+          if (isNaN(target) || target === 0) return;
+          const large = target >= 1000;
+          const t0 = performance.now();
+          const tick = (now: number) => {
+            const p = Math.min((now - t0) / 1000, 1);
+            const eased = 1 - Math.pow(1 - p, 3);
+            const v = Math.round(eased * target);
+            el.textContent = (large ? v.toLocaleString('fr') : String(v)) + suffix;
+            if (p < 1) requestAnimationFrame(tick); else el.textContent = original;
+          };
+          requestAnimationFrame(tick);
+          counterObs.unobserve(el);
+        });
+      }, { threshold: 0.5 });
+      statEls.forEach(el => counterObs.observe(el));
+
+      // ── A: Side nav active section ──
+      const sections = document.querySelectorAll<HTMLElement>('section[id]');
+      const navLinks = document.querySelectorAll<HTMLElement>('.snav-link');
+      const sectionObs = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            navLinks.forEach(link => {
+              link.classList.toggle('active', link.getAttribute('href') === '#' + entry.target.id);
+            });
+          }
+        });
+      }, { rootMargin: '-20% 0px -70% 0px' });
+      sections.forEach(s => sectionObs.observe(s));
     </script>
   </body>
 </html>
@@ -696,7 +752,7 @@ function levelDots(level: string): number {
   /* ── Stats bar ── */
   .stats-bar {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     margin-top: 1.5rem;
     border: 1px solid var(--border);
     border-radius: 10px;
@@ -1121,6 +1177,82 @@ function levelDots(level: string): number {
   :root[data-theme="light"] #icon-sun  { display: none; }
   :root[data-theme="light"] #icon-moon { display: block; }
 
+  /* ── A: Side nav ── */
+  .side-nav {
+    position: fixed;
+    left: max(0.75rem, calc((100vw - 860px) / 2 - 3.5rem));
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    z-index: 50;
+  }
+
+  .snav-link {
+    position: relative;
+    width: 1.75rem;
+    height: 1.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--border);
+    text-decoration: none;
+    font-size: 0.65rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    transition: color 0.2s, border-color 0.2s, background 0.2s;
+  }
+
+  .snav-link:hover,
+  .snav-link.active {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 12%, transparent);
+  }
+
+  .snav-link::after {
+    content: attr(title);
+    position: absolute;
+    left: calc(100% + 0.6rem);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.72rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 6px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+  }
+
+  .snav-link:hover::after { opacity: 1; }
+
+  @media (max-width: 1120px) { .side-nav { display: none; } }
+
+  /* ── B: Print styles ── */
+  @media print {
+    #progress-bar, #theme-toggle, .side-nav, footer, .see-all { display: none !important; }
+    body { background: white !important; color: black !important; font-size: 11pt; }
+    main { max-width: 100%; padding: 0.5cm 1cm; }
+    header { border-bottom-color: #333; }
+    h1 { background: none !important; -webkit-text-fill-color: black !important; color: black !important; }
+    h2 { color: #333 !important; border-left-color: #333 !important; border-bottom-color: #ccc !important; }
+    .label-tag { background: #eee !important; color: #333 !important; border-color: #ccc !important; }
+    .stats-card { display: none !important; }
+    .entry { background: none !important; border-color: #ccc !important; break-inside: avoid; }
+    .skill-card { background: none !important; border-color: #ccc !important; }
+    .content-card { background: none !important; border-color: #ccc !important; break-inside: avoid; }
+    .dot-on { background: #333 !important; }
+    .dot-off { background: #ccc !important; }
+    .award-badge { background: #eee !important; color: #333 !important; border-color: #ccc !important; }
+    a { color: #333 !important; }
+    .muted, .company, time { color: #555 !important; }
+  }
+
   /* ── Award year badges ── */
   .award-badge {
     font-size: 0.72rem;
@@ -1155,10 +1287,6 @@ function levelDots(level: string): number {
     .contact { justify-content: flex-start; }
     .entry-header { flex-direction: column; gap: 0.15rem; }
     .skills-grid { grid-template-columns: 1fr; }
-    .stats-bar { grid-template-columns: repeat(4, 1fr); }
-    .stat:nth-child(3) { border-right: none; }
-    .stat:nth-child(4),
-    .stat:nth-child(5),
-    .stat:nth-child(6) { border-top: 1px solid var(--border); }
+    .stats-bar { grid-template-columns: repeat(5, 1fr); }
   }
 </style>
