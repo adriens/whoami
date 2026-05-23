@@ -8,7 +8,7 @@
     "email": "Adrien.Sales@gmail.com",
     "phone": "+687 84 29 84",
     "url": "https://dev.to/adriens",
-    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA.\n\n20 ans de parcours : consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood.",
+    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA.\n\n20 ans de parcours : consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood.",
     "location": {
       "address": "",
       "postalCode": "98800",
@@ -238,6 +238,12 @@
       "summary": "Présentation : Cloud-Native Knowledge Graph Automation & AI Agents — cartographie du SI OPT-NC avec Neo4j, release automatisée et agents IA."
     },
     {
+      "title": "Speaker — NODES 2023 (Conférence internationale Neo4j)",
+      "date": "2023-11",
+      "awarder": "Neo4j",
+      "summary": "Présentation : Discover a Country's UN SDGs Concerns w/ Open Metadata on Neo4j — analyse des préoccupations ODD des Nations Unies via open data et knowledge graph. https://dev.to/adriens/discover-a-country-un-sdgs-concerns-w-open-metadata-on-neo4j-13df"
+    },
+    {
       "title": "Speaker — NODES 2022 (Conférence internationale Neo4j)",
       "date": "2022-11",
       "awarder": "Neo4j",
@@ -450,9 +456,11 @@
     {
       "name": "Knowledge Graph SI OPT-NC — Neo4j",
       "startDate": "2021-01",
-      "description": "Système de cartographie du SI de l'OPT-NC basé sur Neo4j avec release automatisée via GitHub Actions. Présenté à NODES 2022 et NODES 2024. Enrichi d'agents IA.",
+      "description": "Système de cartographie du SI de l'OPT-NC basé sur Neo4j avec release automatisée via GitHub Actions. Présenté à NODES 2022, 2023 et 2024. Enrichi d'agents IA.",
       "highlights": [
-        "Speaker NODES 2022 et NODES 2024 (conférence internationale Neo4j)",
+        "Speaker NODES 2022 : Cartographie du SI OPT-NC — première version du knowledge graph",
+        "Speaker NODES 2023 : Discover a Country's UN SDGs Concerns w/ Open Metadata on Neo4j",
+        "Speaker NODES 2024 : Cloud-Native Knowledge Graph Automation & AI Agents",
         "Release automatisée via GitHub Actions",
         "endoflife.date-neo4j référencé dans le wiki officiel endoflife.date aux côtés de Dynatrace et Shodan"
       ],
