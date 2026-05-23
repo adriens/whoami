@@ -116,6 +116,13 @@ const networkIcons: Record<string, string> = {
 function networkIcon(network: string): string {
   return networkIcons[network.toLowerCase()] ?? 'fa-solid fa-link';
 }
+
+function levelDots(level: string): number {
+  const map: Record<string, number> = {
+    'expert': 5, 'avancé': 4, 'intermédiaire': 3, 'débutant': 2, 'notions': 1
+  };
+  return map[level?.toLowerCase()] ?? 3;
+}
 ---
 
 <!doctype html>
@@ -131,6 +138,11 @@ function networkIcon(network: string): string {
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
   </head>
   <body>
+    <div id="progress-bar"></div>
+    <button id="theme-toggle" aria-label="Basculer le thème" title="Basculer thème clair/sombre">
+      <i class="fa-solid fa-sun" id="icon-sun"></i>
+      <i class="fa-solid fa-moon" id="icon-moon"></i>
+    </button>
     <main>
       <header>
         <div class="name-block">
@@ -177,6 +189,7 @@ function networkIcon(network: string): string {
       </header>
 
       <!-- ── Stats bar ─────────────────────────────────────── -->
+      <div class="stats-card">
       <div class="stats-bar">
         <div class="stat">
           <span class="stat-value">{totalArticles}</span>
@@ -218,6 +231,7 @@ function networkIcon(network: string): string {
           <span class="stat-value">{yearsXP}+</span>
           <span class="stat-label"><i class="fa-solid fa-calendar"></i> ans d'XP</span>
         </div>
+      </div>
       </div>
 
       {basics.summary && (() => {
@@ -273,7 +287,11 @@ function networkIcon(network: string): string {
               <div class="skill-card">
                 <div class="skill-meta">
                   <strong>{s.name}</strong>
-                  <span class="level">{s.level}</span>
+                  <span class="level-dots">
+                    {Array.from({length: 5}, (_, i) => (
+                      <span class={`dot ${i < levelDots(s.level) ? 'dot-on' : 'dot-off'}`}></span>
+                    ))}
+                  </span>
                 </div>
                 {s.keywords?.length > 0 && (
                   <div class="tags">
@@ -383,31 +401,25 @@ function networkIcon(network: string): string {
           <h2>
             <i class="fa-brands fa-dev"></i> Derniers articles DEV.to
           </h2>
-          <ul class="article-list">
+          <div class="content-grid">
             {latestArticles.map((a) => (
-              <li class="article-item">
-                <a href={a.url} target="_blank" rel="noopener" class="article-title">
-                  {a.title}
-                </a>
-                <div class="article-meta">
+              <a href={a.url} target="_blank" rel="noopener" class="content-card">
+                <span class="content-card-title">{a.title}</span>
+                <span class="content-card-meta">
                   <span class="article-date">{formatDate(a.published_at)}</span>
                   {a.reactions && parseInt(a.reactions) > 0 && (
-                    <span class="article-stat">
-                      <i class="fa-solid fa-heart"></i> {a.reactions}
-                    </span>
+                    <span class="article-stat"><i class="fa-solid fa-heart"></i> {a.reactions}</span>
                   )}
                   {a.reading_time_minutes && (
-                    <span class="article-stat">
-                      <i class="fa-regular fa-clock"></i> {a.reading_time_minutes} min
-                    </span>
+                    <span class="article-stat"><i class="fa-regular fa-clock"></i> {a.reading_time_minutes} min</span>
                   )}
                   {a.is_dev_challenge === 'True' && (
-                    <span class="challenge-badge">DEV Challenge</span>
+                    <span class="challenge-badge">Challenge</span>
                   )}
-                </div>
-              </li>
+                </span>
+              </a>
             ))}
-          </ul>
+          </div>
           <a href="https://dev.to/adriens" target="_blank" rel="noopener" class="see-all">
             Voir tous les articles <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
@@ -420,28 +432,22 @@ function networkIcon(network: string): string {
           <h2>
             <i class="fa-brands fa-youtube"></i> Dernières vidéos YouTube
           </h2>
-          <ul class="article-list">
+          <div class="content-grid">
             {latestVideos.map((v) => (
-              <li class="article-item">
-                <a href={v.url} target="_blank" rel="noopener" class="article-title">
-                  {v.title}
-                </a>
-                <div class="article-meta">
+              <a href={v.url} target="_blank" rel="noopener" class="content-card">
+                <span class="content-card-title">{v.title}</span>
+                <span class="content-card-meta">
                   <span class="article-date">{formatDate(v.published_at)}</span>
                   {v.views && parseInt(v.views) > 0 && (
-                    <span class="article-stat">
-                      <i class="fa-solid fa-eye"></i> {parseInt(v.views).toLocaleString('fr')}
-                    </span>
+                    <span class="article-stat"><i class="fa-solid fa-eye"></i> {parseInt(v.views).toLocaleString('fr')}</span>
                   )}
                   {v.duration_seconds && (
-                    <span class="article-stat">
-                      <i class="fa-regular fa-clock"></i> {Math.round(parseInt(v.duration_seconds) / 60)} min
-                    </span>
+                    <span class="article-stat"><i class="fa-regular fa-clock"></i> {Math.round(parseInt(v.duration_seconds) / 60)} min</span>
                   )}
-                </div>
-              </li>
+                </span>
+              </a>
             ))}
-          </ul>
+          </div>
           <a href="https://www.youtube.com/@devopslabs2812" target="_blank" rel="noopener" class="see-all">
             Voir toutes les vidéos <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
@@ -454,28 +460,20 @@ function networkIcon(network: string): string {
           <h2>
             <i class="fa-brands fa-kaggle"></i> Top datasets Kaggle
           </h2>
-          <ul class="article-list">
+          <div class="content-grid">
             {topDatasets.map((d) => (
-              <li class="article-item">
-                <a href={d.url} target="_blank" rel="noopener" class="article-title">
-                  {d.title}
-                </a>
-                <div class="article-meta">
-                  <span class="article-stat">
-                    <i class="fa-solid fa-download"></i> {parseInt(d.download_count).toLocaleString('fr')}
-                  </span>
+              <a href={d.url} target="_blank" rel="noopener" class="content-card">
+                <span class="content-card-title">{d.title}</span>
+                <span class="content-card-meta">
+                  <span class="article-stat"><i class="fa-solid fa-download"></i> {parseInt(d.download_count).toLocaleString('fr')}</span>
                   {d.view_count && parseInt(d.view_count) > 0 && (
-                    <span class="article-stat">
-                      <i class="fa-solid fa-eye"></i> {parseInt(d.view_count).toLocaleString('fr')}
-                    </span>
+                    <span class="article-stat"><i class="fa-solid fa-eye"></i> {parseInt(d.view_count).toLocaleString('fr')}</span>
                   )}
-                  {d.last_updated && (
-                    <span class="article-date">{formatDate(d.last_updated)}</span>
-                  )}
-                </div>
-              </li>
+                  {d.last_updated && <span class="article-date">{formatDate(d.last_updated)}</span>}
+                </span>
+              </a>
             ))}
-          </ul>
+          </div>
           <a href="https://www.kaggle.com/adriensales/datasets" target="_blank" rel="noopener" class="see-all">
             Voir tous les datasets <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
@@ -502,6 +500,26 @@ function networkIcon(network: string): string {
         <i class="fa-solid fa-file-code"></i>
       </a>
     </footer>
+    <script>
+      // Scroll progress bar
+      const bar = document.getElementById('progress-bar');
+      window.addEventListener('scroll', () => {
+        const pct = window.scrollY / (document.body.scrollHeight - window.innerHeight) * 100;
+        if (bar) bar.style.width = pct + '%';
+      });
+
+      // Dark/light theme toggle
+      const root = document.documentElement;
+      const btn = document.getElementById('theme-toggle');
+      const saved = localStorage.getItem('theme');
+      if (saved === 'light') root.setAttribute('data-theme', 'light');
+
+      btn?.addEventListener('click', () => {
+        const isLight = root.getAttribute('data-theme') === 'light';
+        root.setAttribute('data-theme', isLight ? 'dark' : 'light');
+        localStorage.setItem('theme', isLight ? 'dark' : 'light');
+      });
+    </script>
   </body>
 </html>
 
@@ -545,7 +563,10 @@ function networkIcon(network: string): string {
     font-size: 2rem;
     font-weight: 800;
     letter-spacing: -0.03em;
-    color: var(--text);
+    background: linear-gradient(135deg, var(--text) 40%, var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   .label-tags {
@@ -924,6 +945,107 @@ function networkIcon(network: string): string {
   }
 
   footer a:hover { color: var(--muted); }
+
+  /* ── H: Stats card ── */
+  .stats-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    overflow: hidden;
+  }
+
+  /* ── I: Skill level dots ── */
+  .level-dots { display: flex; gap: 3px; align-items: center; }
+  .dot { width: 8px; height: 8px; border-radius: 50%; }
+  .dot-on  { background: var(--accent); }
+  .dot-off { background: var(--border); }
+
+  /* ── J: Content grid cards ── */
+  .content-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .content-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .content-card:hover {
+    border-color: color-mix(in srgb, var(--accent) 50%, transparent);
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 15%, transparent);
+  }
+
+  .content-card-title {
+    font-size: 0.85rem;
+    color: var(--text);
+    line-height: 1.45;
+    font-weight: 500;
+  }
+
+  .content-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  /* ── K: Scroll progress bar ── */
+  #progress-bar {
+    position: fixed;
+    top: 0; left: 0;
+    height: 3px;
+    width: 0%;
+    background: linear-gradient(to right, var(--accent), #a78bfa);
+    z-index: 1000;
+    transition: width 0.1s linear;
+  }
+
+  /* ── L: Theme toggle ── */
+  #theme-toggle {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    color: var(--muted);
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: color 0.15s, border-color 0.15s;
+    z-index: 100;
+  }
+
+  #theme-toggle:hover { color: var(--accent); border-color: var(--accent); }
+  #icon-moon { display: none; }
+
+  :root[data-theme="light"] {
+    --accent:  #2563eb;
+    --text:    #0f172a;
+    --muted:   #475569;
+    --border:  #cbd5e1;
+    --bg:      #f8fafc;
+    --surface: #ffffff;
+  }
+
+  :root[data-theme="light"] #icon-sun  { display: none; }
+  :root[data-theme="light"] #icon-moon { display: block; }
 
   /* ── Responsive ── */
   @media (max-width: 600px) {
