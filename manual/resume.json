@@ -101,10 +101,8 @@
         "Conception et développement de la main courante de la police municipale de Nouméa — toujours en exploitation 10+ ans après sa livraison",
         "Briques logicielles de base (composants réutilisables) toujours intégrées dans le SI de la collectivité à ce jour",
         "Mise en place de la gestion de versions : déploiement SVN on-premise puis migration intégrale vers GitHub",
-        "Migration des applications de WebSphere vers Tomcat puis Spring Boot avec automatisation du build et conteneurisation",
-        "Introduction de Spring Framework puis Spring Boot en remplacement d'un framework maison",
-        "Adoption de ZK Framework en remplacement d'un framework maison pour les applications métier",
-        "Migration des bases de données Oracle vers PostgreSQL et bascule de l'infrastructure vers Linux"
+        "Migration complète du SI applicatif : WebSphere/Windows/Oracle → Tomcat/Spring Boot/Linux/PostgreSQL — modernisation end-to-end de l'infrastructure et des applications métier de la collectivité",
+        "Introduction de Spring Framework puis Spring Boot et ZK Framework en remplacement des frameworks maison"
       ]
     },
     {
