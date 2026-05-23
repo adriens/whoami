@@ -487,6 +487,18 @@
       "url": "https://pypi.org/project/edb-noumea/"
     },
     {
+      "name": "odata-ncl — Open Data Citoyenne Nouvelle-Calédonie",
+      "startDate": "2024-01",
+      "description": "Umbrella de projets data citoyenne sur les données ouvertes de Nouvelle-Calédonie. Objectif : collecter, analyser et publier des données locales à fort impact sociétal — sécurité maritime, qualité des eaux, sécurité routière. Stack complète : Python/uv, Quarto, Kaggle, GitHub Actions, TUI Go/BubbleTea.",
+      "highlights": [
+        "Attaques de requins NC : dataset Kaggle, 3 notebooks d'analyse, rapport PDF Quarto, article Dev.to avec Gemini CLI",
+        "Eaux de baignade Nouméa (edb-noumea) : PyPI v0.4.0, TUI Go, live CSV, graphiques automatiques",
+        "Accidents de la route NC : en pipeline",
+        "Pattern reproductible : open data → scraping → dataset Kaggle → notebooks → rapport Quarto"
+      ],
+      "url": "https://github.com/adriens/odata-ncl"
+    },
+    {
       "name": "oracle-jutils — Framework PL/SQL Oracle 11g",
       "startDate": "2009-03",
       "description": "Framework open source de packages PL/SQL pour Oracle 11g (dump LOB, CRC, MIME type, XMPP, QR codes, Twitter...). Première et unique implémentation libre. Découvert et reconnu par des équipes Oracle APEX au Texas.",
