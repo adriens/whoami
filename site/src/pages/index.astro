@@ -552,10 +552,19 @@ function networkIcon(network: string): string {
     display: flex;
     align-items: center;
     gap: 0.3rem;
-    transition: color 0.15s;
+    transition: opacity 0.15s;
   }
 
-  .contact a:hover { color: var(--accent); }
+  .contact a:hover { opacity: 0.75; }
+
+  .contact .fa-github        { color: #e6edf3; }
+  .contact .fa-linkedin      { color: #0a66c2; }
+  .contact .fa-dev           { color: #ffffff; }
+  .contact .fa-youtube       { color: #ff0000; }
+  .contact .fa-kaggle        { color: #20beff; }
+  .contact .fa-x-twitter     { color: #e7e9ea; }
+  .contact .fa-python        { color: #3775a9; }
+  .contact .fa-goodreads     { color: #f4f1ea; }
   .hf-emoji { font-size: 1rem; line-height: 1; }
   .hf-emoji-sm { font-size: 0.85rem; line-height: 1; }
   .contact-label { font-size: 0.8rem; }
