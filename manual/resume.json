@@ -125,6 +125,7 @@
       "summary": "Développement core sur le layer base de données et intégration en mode consultant chez de grands comptes. Basé à Monaco.",
       "highlights": [
         "Développement du layer base de données des composants Decision Analytics, déployés chez Orange, Bank of America et Le Crédit Lyonnais",
+        "Tuning Oracle avancé (indexes, tablespaces, partitionnement) pour maximiser les performances du logiciel en production chez les grands comptes",
         "Conception du système de monitoring JMX des bases de données, outillé via ManageEngine — avancée majeure en observabilité et intégration pour les clients (Orange, BofA, Crédit Lyonnais), initiative innovante pour l'époque",
         "Stage de fin de Mastère Spécialisé transformé en embauche directe"
       ]
