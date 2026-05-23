@@ -112,7 +112,6 @@
       "endDate": "2010-11",
       "summary": "DBA expert sur des projets nationaux à fort enjeu. Spécialité : tuning et optimisation de bases de données en production.",
       "highlights": [
-        "Conception d'un système de monitoring JMX des bases de données — avancée majeure en intégration et observabilité pour les clients, outillé via ManageEngine",
         "Tuning avancé de bases de données Oracle et PostgreSQL sur des plateformes nationales à fort trafic",
         "Automatisation des scripts de production et introduction des premières pratiques DevOps",
         "Intervention sur des projets critiques : HADOPI, Jedeclare.com, Infogreffe"
@@ -126,7 +125,7 @@
       "summary": "Développement core sur le layer base de données et intégration en mode consultant chez de grands comptes. Basé à Monaco.",
       "highlights": [
         "Développement du layer base de données des composants Decision Analytics, déployés chez Orange, Bank of America et Le Crédit Lyonnais",
-        "Intégration de JMX pour le monitoring interopérable des métriques — initiative innovante pour l'époque ayant significativement amélioré la delivery et le run chez les clients",
+        "Conception du système de monitoring JMX des bases de données, outillé via ManageEngine — avancée majeure en observabilité et intégration pour les clients (Orange, BofA, Crédit Lyonnais), initiative innovante pour l'époque",
         "Stage de fin de Mastère Spécialisé transformé en embauche directe"
       ]
     }
