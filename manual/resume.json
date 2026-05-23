@@ -8,7 +8,7 @@
     "email": "Adrien.Sales@gmail.com",
     "phone": "+687 84 29 84",
     "url": "https://adriens.github.io/whoami/",
-    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis, puis data mining en collaboration avec l'I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA.\n\n23 ans de parcours : consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood.",
+    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis, puis data mining en collaboration avec l'I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA.\n\n25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood.",
     "location": {
       "address": "",
       "postalCode": "98800",
@@ -120,13 +120,14 @@
       ]
     },
     {
-      "name": "Éducation Nationale — Collège, Nouvelle-Calédonie",
+      "name": "Vice-Rectorat de Nouvelle-Calédonie",
       "position": "Professeur Vacataire de Mathématiques",
+      "url": "https://www.ac-noumea.nc",
       "startDate": "1999-09",
       "endDate": "2001-08",
-      "summary": "Enseignement des mathématiques en collège en Nouvelle-Calédonie après la Maîtrise — d'abord à Bourail, puis à Nouméa. Admissible au CAPES externe de Mathématiques (session 2000). Période fondatrice pour la pédagogie et la transmission, aujourd'hui prolongée dans l'enseignement en Master MIAGE à l'UNC.",
+      "summary": "Enseignement des mathématiques en collège : collège de Bourail, puis collèges de Rivière Salée et Kaméré à Nouméa. Admissible au CAPES externe de Mathématiques (session 2000). Période fondatrice pour la pédagogie et la transmission, aujourd'hui prolongée dans l'enseignement en Master MIAGE à l'UNC.",
       "highlights": [
-        "Admissibilité au CAPES externe de Mathématiques (session 2000) — écrits d'un concours national très sélectif réussis",
+        "Admissible au CAPES externe de Mathématiques (session 2000) — écrits réussis, oral non obtenu",
         "Première expérience d'enseignement qui ancre une posture pédagogique durable, 25 ans avant les cours en Master MIAGE"
       ]
     },
@@ -299,7 +300,7 @@
       "title": "Speaker — NODES 2022 (Conférence internationale Neo4j)",
       "date": "2022-11",
       "awarder": "Neo4j",
-      "summary": "Présentation de la première version du knowledge graph SI de l'OPT-NC."
+      "summary": "Talk : IT Holism at NODES 2022 — première présentation du knowledge graph SI de l'OPT-NC, vision holistique du SI par le graphe. https://dev.to/optnc/our-speech-about-it-holism-at-nodes22-1bpl"
     },
     {
       "title": "Speaker — Talanoa 2022 / Pacific DataViz Challenge (SPC)",
@@ -317,7 +318,7 @@
       "title": "Admissibilité CAPES externe — Mathématiques",
       "date": "2000-07",
       "awarder": "Ministère de l'Éducation Nationale",
-      "summary": "Admissible au CAPES externe de Mathématiques — écrits d'un concours national très sélectif réussis, pendant une période d'enseignement en Nouvelle-Calédonie (1999–2001) entre la Maîtrise et le DEA."
+      "summary": "Admissible (écrits réussis, oral non obtenu) au CAPES externe de Mathématiques — concours national très sélectif, pendant une période d'enseignement en collège en Nouvelle-Calédonie (1999–2001)."
     }
   ],
 
