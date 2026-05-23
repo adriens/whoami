@@ -289,17 +289,22 @@ function networkIcon(network: string): string {
       {education.length > 0 && (
         <section>
           <h2><i class="fa-solid fa-graduation-cap"></i> Formation</h2>
-          {education.map((e: any) => (
-            <article class="entry">
-              <div class="entry-header">
-                <div class="entry-title">
-                  <strong>{e.studyType} {e.area}</strong>
-                  <span class="company">@ {e.institution}</span>
-                </div>
-                <time>{e.startDate} → {e.endDate ?? 'présent'}</time>
+          <div class="timeline">
+            {education.map((e: any) => (
+              <div class="tl-item">
+                <div class="tl-dot"></div>
+                <article class="entry">
+                  <div class="entry-header">
+                    <div class="entry-title">
+                      <strong>{e.studyType} {e.area}</strong>
+                      <span class="company">@ {e.institution}</span>
+                    </div>
+                    <time>{e.startDate} → {e.endDate ?? 'présent'}</time>
+                  </div>
+                </article>
               </div>
-            </article>
-          ))}
+            ))}
+          </div>
         </section>
       )}
 
