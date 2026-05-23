@@ -180,11 +180,17 @@ function networkIcon(network: string): string {
         </div>
       </div>
 
-      {basics.summary && (
-        <section class="summary">
-          <p>{basics.summary}</p>
-        </section>
-      )}
+      {basics.summary && (() => {
+        const paragraphs = basics.summary.split('\n\n').filter((p: string) => p.trim());
+        return (
+          <section class="summary">
+            <p class="summary-abstract">{paragraphs[0]}</p>
+            {paragraphs.slice(1).map((p: string) => (
+              <p class="summary-detail">{p}</p>
+            ))}
+          </section>
+        );
+      })()}
 
       {work.length > 0 && (
         <section>
@@ -582,10 +588,18 @@ function networkIcon(network: string): string {
     gap: 0.5rem;
   }
 
-  .summary p {
-    color: var(--muted);
-    font-size: 0.95rem;
+  .summary-abstract {
+    color: var(--text);
+    font-size: 1rem;
     line-height: 1.75;
+    font-weight: 500;
+  }
+
+  .summary-detail {
+    color: var(--muted);
+    font-size: 0.88rem;
+    line-height: 1.75;
+    margin-top: 0.75rem;
   }
 
   /* ── Entries ── */
