@@ -148,7 +148,7 @@
       "position": "Membre actif — Conférencier",
       "url": "https://www.station-n.nc",
       "startDate": "2022-01",
-      "summary": "Participation active à la commission Data & IA de la Station N, écosystème tech de référence en Nouvelle-Calédonie. Présentations régulières sur les projets data et IA de l'OPT-NC et de l'université, contribution à la diffusion des pratiques data engineering et IA dans l'écosystème local.",
+      "summary": "Participation active à la commission Data & IA de la Station N, hub d'open innovation et écosystème tech de référence en Nouvelle-Calédonie. Présentations régulières sur les projets data et IA de l'OPT-NC et de l'université, contribution à la diffusion des pratiques data engineering et IA dans l'écosystème local dans une démarche d'open innovation.",
       "highlights": [
         "Présentation de la cartographie du SI OPT-NC par knowledge graph Neo4j",
         "Démonstration de l'agent IA de cartographie du SI",
@@ -376,7 +376,7 @@
     {
       "name": "Management & Pédagogie",
       "level": "Expert",
-      "keywords": ["Management d'équipe", "Mentorat", "Scrum", "Product Owner", "Gestion de projet", "LEAN", "Innovation frugale", "Design thinking", "Enseignement universitaire", "Pédagogie Montessori", "Learning by doing"]
+      "keywords": ["Management d'équipe", "Mentorat", "Scrum", "Product Owner", "Gestion de projet", "LEAN", "Innovation frugale", "Open Innovation", "Design thinking", "Enseignement universitaire", "Pédagogie Montessori", "Learning by doing"]
     },
     {
       "name": "Open Source",
