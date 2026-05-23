@@ -127,10 +127,10 @@
       "endDate": "2008-09",
       "summary": "Développement core sur le layer base de données et intégration en mode consultant chez de grands comptes. Basé à Monaco.",
       "highlights": [
+        "Stage de fin de Mastère Spécialisé en data mining, en collaboration avec l'I3S (laboratoire CNRS — Sophia Antipolis) — transformé en embauche directe dès la fin du stage",
         "Développement du layer base de données des composants Decision Analytics, déployés chez Orange, Bank of America et Le Crédit Lyonnais",
         "Tuning Oracle avancé (indexes, tablespaces, partitionnement) pour maximiser les performances du logiciel en production chez les grands comptes",
-        "Conception du système de monitoring JMX des bases de données, outillé via ManageEngine — avancée majeure en observabilité et intégration pour les clients (Orange, BofA, Crédit Lyonnais), initiative innovante pour l'époque",
-        "Stage de fin de Mastère Spécialisé transformé en embauche directe"
+        "Conception du système de monitoring JMX des bases de données, outillé via ManageEngine — avancée majeure en observabilité et intégration pour les clients (Orange, BofA, Crédit Lyonnais), initiative innovante pour l'époque"
       ]
     }
   ],
@@ -207,7 +207,7 @@
       "startDate": "2001-09",
       "endDate": "2002-07",
       "score": "",
-      "courses": []
+      "courses": ["Stage de recherche : INRIA Sophia Antipolis (https://www.inria.fr) — implémentation C++ de LINPACK, bibliothèque de référence en algèbre linéaire numérique haute performance"]
     },
     {
       "institution": "Université de Nice Sophia-Antipolis",
@@ -371,7 +371,7 @@
     {
       "name": "Architecture & Développement",
       "level": "Expert",
-      "keywords": ["Architecture SI", "Spring Boot", "Quarkus", "Java", "Maven", "Interopérabilité", "API Design", "APIGEE", "ZK Framework", "picocli", "Cobra (Go)"]
+      "keywords": ["Architecture SI", "Spring Boot", "Quarkus", "Java", "Go", "Maven", "Interopérabilité", "API Design", "APIGEE", "ZK Framework", "picocli", "Cobra (Go)", "goreleaser", "BubbleTea"]
     },
     {
       "name": "IA & Agents",
