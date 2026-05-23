@@ -112,6 +112,7 @@
       "endDate": "2010-11",
       "summary": "DBA expert sur des projets nationaux à fort enjeu. Spécialité : tuning et optimisation de bases de données en production.",
       "highlights": [
+        "Développement d'un CLI Java mesurant l'écart de synchronisation entre bases primaires et standby — outil de monitoring de la réplication en production",
         "Tuning avancé de bases de données Oracle et PostgreSQL sur des plateformes nationales à fort trafic",
         "Automatisation des scripts de production et introduction des premières pratiques DevOps",
         "Intervention sur des projets critiques : HADOPI, Jedeclare.com, Infogreffe"
