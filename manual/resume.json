@@ -728,14 +728,18 @@
       "name": "API-fication calédonienne — SDKs Java & APIs REST",
       "type": "open-source",
       "startDate": "2017-04",
-      "endDate": "2019-03",
-      "description": "Série de projets personnels visant à exposer des données web calédoniennes inaccessibles autrement via des SDKs Java et APIs REST Spring Boot. Pattern systématique : scraping HtmlUnit → SDK Java → API REST Heroku → intégrations (Google Sheets, app mobile Kotlin). Documenté en série d'articles LinkedIn Pulse (API-fication calédonienne S01/S02).",
+      "endDate": "2023-07",
+      "description": "Démarche systématique de création d'interopérabilité là où elle n'existe pas — deux familles. Scraping : reverse-engineering de sites sans API → SDK Java (JitPack/Travis CI) → API REST Spring Boot (Heroku) → intégrations mobiles et no-code. Open data & original : sources officielles (data.gouv.nc) ou contenu original → même stack, données durables. Série LinkedIn Pulse API-fication S01/S02 + plusieurs articles DEV.to.",
       "highlights": [
-        "tickets-resto-nc-sdk : SDK Java + API REST pour les tickets restaurant NC (neocarte.nc) — jusqu'à l'application mobile Kotlin/Android",
-        "carte-conso-plus-sdk + carte-conso-plus-api : SDK Java (JitPack/Travis CI) + API Spring Boot (Heroku) pour la carte de fidélité Conso+ NC — solde, partenaires, magazines, intégration Google Sheets ; aboutit à une app mobile Kotlin/Android MVP (2019) puis une refonte Flutter open innovation (2020) consolidant fidélité, promotions et paiement mobile",
-        "eaux-baignade-noumea : première API open source NC sur la qualité des eaux de baignade — genèse directe du projet edb-noumea",
-        "BeachCagouBot : bot Twitter des eaux de baignade via CircleCI cron, précurseur du monitoring open data NC",
-        "cine-city-noumea-sdk + cine-city-noumea-api : SDK + API REST pour le cinéma CineCity NC"
+        "Scraping — tickets-resto-nc-sdk (HtmlUnit, JitPack) + API Spring Boot : tickets restaurant NC (neocarte.nc) — aboutit à une app mobile Kotlin/Android en 3 week-ends de dev lean (LinkedIn S02E01)",
+        "Scraping — carte-conso-plus : SDK Java (JitPack) + API Spring Boot (Heroku) pour la carte Conso+ NC — solde, partenaires, magazines, Google Sheets ; puis app mobile Kotlin/Android MVP (2019) et refonte Flutter open innovation (2020)",
+        "Scraping — cine-city-noumea : SDK Java (JitPack) + API REST Spring Boot pour le cinéma CineCity NC",
+        "Scraping — eaux-baignade-noumea : scraping données publiques Ville de Nouméa + SDK Java + BeachCagouBot (bot Twitter CircleCI cron) — genèse directe du projet edb-noumea (LinkedIn S01E04)",
+        "Scraping — mon-1012-nc : API Spring Boot sur l'annuaire 1012.nc (numéros Mobilis) — prototypée pour une app React/React Native (LinkedIn S01E04)",
+        "Scraping — scalair4j (JitPack) + noumea-smartcity-api (Heroku) : SDK Java + hub d'APIs agrégeant la qualité de l'air NC (Scal-Air) et autres endpoints smart city Nouméa",
+        "Open data — ridetnc4j (JitPack) + ridetnc-api : SDK Java + API REST sur le registre RIDET officiel (data.gouv.nc) — 2 articles DEV.to (2021, 2023)",
+        "Original — kalolo-api / kalolo-2.0 : API d'expressions caldoches publiée sur la marketplace RapidAPI — article DEV.to + LinkedIn 2020",
+        "Original — excuses-sdk (JitPack) + excuses-api : SDK Java + API REST, même pattern appliqué à du contenu humoristique"
       ],
       "url": "https://github.com/adriens/tickets-resto-nc-sdk"
     }
@@ -743,7 +747,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.5.1",
+    "version": "v1.6.0",
     "lastModified": "2026-05-24",
     "theme": "elegant"
   }
