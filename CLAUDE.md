@@ -29,6 +29,7 @@ data/
   goodreads/124105866/    # livres lus
   kaggle/adriensales/     # datasets Kaggle
   huggingface/rastadidi/  # datasets + spaces HuggingFace
+  github/adriens/         # repos publics non-forks (repos/*.md + _index.csv + _stats.json)
 manual/resume.json        # source de vérité CV
 ```
 
@@ -52,6 +53,7 @@ task fetch-youtube          # Vidéos YouTube (devops-lab)
 task fetch-goodreads        # Livres Goodreads
 task fetch-kaggle           # Datasets Kaggle
 task fetch-hf               # Datasets & spaces HuggingFace (rastadidi)
+task fetch-github           # Repos GitHub publics non-forks (adriens)
 task build-knowledge-base   # Générer output/knowledge-base.md (full)
 task build-knowledge-base-lite  # Générer output/knowledge-base.md (lite)
 ```

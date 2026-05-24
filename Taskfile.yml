@@ -88,6 +88,16 @@ tasks:
     cmds:
       - task: fetch-hf-rastadidi
 
+  fetch-github-adriens:
+    desc: Provisionner les repos GitHub publics non-forks @adriens
+    cmds:
+      - uv run scripts/fetch-github-repos.py
+
+  fetch-github:
+    desc: Provisionner tous les repos GitHub (sequentiel)
+    cmds:
+      - task: fetch-github-adriens
+
   build-knowledge-base:
     desc: Generer output/knowledge-base.md pour injection NotebookLM (full)
     cmds:
@@ -106,6 +116,7 @@ tasks:
       - task: fetch-goodreads
       - task: fetch-kaggle
       - task: fetch-hf
+      - task: fetch-github
       - task: build-knowledge-base
 
   site-install:
