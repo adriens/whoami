@@ -691,6 +691,21 @@
         "Intégration Neo4j pour visualisation des schémas"
       ],
       "url": "https://community.chocolatey.org/packages/schemacrawler/17.6.1"
+    },
+    {
+      "name": "API-fication calédonienne — SDKs Java & APIs REST",
+      "type": "open-source",
+      "startDate": "2017-04",
+      "endDate": "2019-03",
+      "description": "Série de projets personnels visant à exposer des données web calédoniennes inaccessibles autrement via des SDKs Java et APIs REST Spring Boot. Pattern systématique : scraping HtmlUnit → SDK Java → API REST Heroku → intégrations (Google Sheets, app mobile Kotlin). Documenté en série d'articles LinkedIn Pulse (API-fication calédonienne S01/S02).",
+      "highlights": [
+        "tickets-resto-nc-sdk : SDK Java + API REST pour les tickets restaurant NC (neocarte.nc) — jusqu'à l'application mobile Kotlin/Android",
+        "carte-conso-plus-sdk + carte-conso-plus-api : SDK + API pour la carte de fidélité Conso+ (solde, partenaires) intégrés à Google Sheets",
+        "eaux-baignade-noumea : première API open source NC sur la qualité des eaux de baignade — genèse directe du projet edb-noumea",
+        "BeachCagouBot : bot Twitter des eaux de baignade via CircleCI cron, précurseur du monitoring open data NC",
+        "cine-city-noumea-sdk + cine-city-noumea-api : SDK + API REST pour le cinéma CineCity NC"
+      ],
+      "url": "https://github.com/adriens/tickets-resto-nc-sdk"
     }
   ],
 
