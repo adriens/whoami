@@ -77,6 +77,72 @@ cd site && bun run dev                   # dev Astro
 cd site && bun run build                 # build Astro
 ```
 
+## Extensions custom du schéma (`x-*`)
+
+Le schéma JSON Resume accepte des propriétés additionnelles. Les champs `x-*` permettent de stocker métadonnées et filtres sans casser la validation. Utilisés sur : `basics.profiles` (jamais), `references`, `interests`, `work`, `volunteer`, `awards`, `publications`, `certificates`, `projects`, et certaines entrées d'`education`.
+
+| Champ | Où | Rôle |
+|---|---|---|
+| `x-tags` | toutes les sections (sauf `interests`) | Filtrage cross-section pour générer versions light par offre |
+| `x-context` | `interests` | `personal` / `pro` / `mixed` — filtrer interests pour version pro |
+| `x-position`, `x-relationship`, `x-date`, `x-source`, `x-language`, `x-context` | `references` | Traçabilité et filtrage |
+| `x-label-url` | `education` | URL du label/accréditation (ex: CGE) |
+
+## Workflow : ajouter une recommandation LinkedIn
+
+Quand l'utilisateur colle une reco LinkedIn brute :
+
+### 1. Parser le format LinkedIn
+
+LinkedIn duplique souvent les lignes (Nom doublé, headline doublée, date+relation doublée). Extraire :
+
+- **Nom complet** → `name`
+- **Headline** → `x-position` (nettoyée, garder la version pro la plus parlante)
+- **Date + relation** (ex: "August 1, 2024, Adrien was Sébastien's client") → `x-date` (`YYYY-MM-DD`) + `x-relationship`
+- **Texte intégral** → `reference` (langue originale, `\n` pour paragraphes)
+- **Langue détectée** → `x-language` (`fr` / `en`)
+- Toujours : `x-source: "LinkedIn"`
+
+### 2. Mapper la relation
+
+| Formulation LinkedIn | `x-relationship` | Tag central |
+|---|---|---|
+| `was X's client` | "Prestataire — Adrien était son client" | `client-relationship` |
+| `managed Adrien directly` | "Manager direct d'Adrien" | `manager-recommendation` |
+| `reported directly to Adrien` | "Direct report d'Adrien" | `direct-report-recommendation` |
+| `worked on the same team` | "Collègue — même équipe" | `peer-recognition` |
+| `worked but at different companies` | "Collaboration cross-company" | `cross-company` |
+| Étudiant / stagiaire | "Étudiant — tuteur d'Adrien" | `student-recommendation` ou `intern-recommendation` |
+
+### 3. Construire `x-tags`
+
+Combiner :
+- **Type de relation** (1 tag central, voir tableau ci-dessus)
+- **Thèmes mentionnés dans le texte** (innovation, technical-expertise, mentorat, leadership, communication…)
+- **Domaines/techs cités** (data, neo4j, schemacrawler, fintech…) — utiliser la taxonomie canonique
+- **Contexte employeur si déductible** (`dsi-noumea`, `opt-nc`, `experian`)
+
+### 4. Après chaque ajout
+
+1. `task validate` — toujours
+2. Audit cohérence des tags : `grep -oP '"x-tags": \[\K[^\]]+' manual/resume.json | grep -oP '"[^"]+"' | sort | uniq -c | sort -rn`
+3. Si un nouveau thème récurrent émerge (validé par ≥2 recos indépendantes), envisager un keyword/skill dédié dans `skills` (ex: la transmission, validée par 4 recos, est devenue une skill Expert)
+4. Bump `meta.version` + commit + tag (PATCH pour 1-2 recos, MINOR pour batch ou changement structurel)
+
+## Taxonomie `x-tags` canonique
+
+Pour cohérence du filtrage **cross-section**, utiliser **uniquement** ces tags. Avant d'introduire un nouveau tag, vérifier qu'aucun équivalent n'existe.
+
+**Convention** : anglais par défaut (`interoperability`, `pedagogy`). Français admis pour soft skills sans équivalent immédiat (`mentorat`, `transmission`, `curiosite`).
+
+- **Domaine** : `data`, `architecture`, `devsecops`, `devrel`, `management`, `pedagogy`, `interoperability`, `iot`, `mobile`, `fintech`, `civic-tech`, `ai-agents`
+- **Tech** : `neo4j`, `duckdb`, `airflow`, `kafka`, `python`, `go`, `java`, `quarkus`, `spring`, `flutter`, `huggingface`, `elk-stack`, `kibana`, `power-platform`, `oracle`
+- **Pattern** : `api-fication`, `open-source`, `open-data`, `scraping`, `knowledge-graph`, `mcp`, `lean`, `frugal`, `umbrella`, `packaging`
+- **Géo** : `pacifique`, `nouvelle-caledonie`, `international`, `monaco`
+- **Rôle** : `solo`, `team-lead`, `mentor`, `speaker`, `maintainer`, `product`
+- **Recognition / Recos** : `recognition`, `peer-recognition`, `manager-recommendation`, `direct-report-recommendation`, `student-recommendation`, `intern-recommendation`, `upstream-recognition`, `client-relationship`, `cross-company`
+- **Soft skills (refs)** : `leadership`, `mentorat`, `transmission`, `pedagogie`, `innovation`, `communication`, `curiosite`, `team-culture`, `human-centric`, `business-acumen`, `delivery-focus`, `force-de-proposition`, `responsiveness`, `disponibilite`, `autonomy`, `trust-building`, `knowledge-sharing`, `continuous-improvement`, `pragmatisme-techno`, `polyvalence`, `tech-enthusiasm`, `exploration-techno`, `comprehension-besoins`, `multi-technology`, `industrialisation`, `interim-management`, `long-term-collaboration`, `qualites-humaines`, `endorsement-court`, `lasting-impact`, `internship-to-hire`, `team-fit`, `dynamism`, `pleasure-to-work-with`, `broad-skills`, `technical-expertise`, `technical-excellence`, `code-quality`, `performance`, `services-web`, `api-design`, `architecture-logicielle`, `management-agile`, `veille-technologique`, `unc-partnership`, `projet-tutore`, `polytech-nice`, `premiere-experience-pro`, `stage`, `linux`, `debian`, `community-contribution`, `networking`, `geomatique`, `sig`, `dsi-noumea`, `opt-nc`, `data-science`, `database`, `curiosity`, `business-acumen`
+
 ## Conventions Git
 
 - **Commits sémantiques** : suivre [Conventional Commits](https://www.conventionalcommits.org/) — `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`
