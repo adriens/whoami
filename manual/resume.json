@@ -646,9 +646,9 @@
       "name": "API domaine.nc — Création de l'interopérabilité des noms de domaine .NC",
       "type": "professional",
       "startDate": "2022-01",
-      "description": "Avant ce projet : aucune API, aucune interopérabilité possible sur les données des noms de domaine .NC. Design, développement et livraison de l'API exposée sur la marketplace APIGEE grand public de l'OPT-NC. Publication parallèle du dataset open data sur Kaggle. Effet multiplicateur : une application mobile open source Flutter a été développée par la communauté, publiée sur le Google Play Store et testée en crowdtesting.",
+      "description": "Avant ce projet : aucune API, aucune interopérabilité possible sur les données des noms de domaine .NC. Scraping du site domaine.nc (aucune API officielle) → API exposée sur la marketplace APIGEE grand public de l'OPT-NC + dataset open data Kaggle. Effet multiplicateur : une application mobile Flutter open source développée par la communauté, publiée sur le Google Play Store et testée en crowdtesting.",
       "highlights": [
-        "Zéro interopérabilité avant ce projet — première et unique API publique sur les domaines .NC",
+        "Zéro interopérabilité avant ce projet — scraping du site domaine.nc (pas d'API officielle) → première et unique API publique sur les domaines .NC",
         "Dataset open data publié sur Kaggle : New Caledonia .NC Domains Database (https://www.kaggle.com/datasets/adriensales/new-caledonia-ncl-nc-domains-database)",
         "App mobile Flutter open source tierce : 25 releases (v1.4.2 oct. 2025), 7 stars, 2 forks, Google Play Store",
         "Testée en crowdtesting professionnel via Hightest/Testeum — témoignage publié",
@@ -760,7 +760,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.6.1",
+    "version": "v1.6.2",
     "lastModified": "2026-05-24",
     "theme": "elegant"
   }
