@@ -414,7 +414,7 @@
     {
       "name": "Graph & Knowledge Engineering",
       "level": "Expert",
-      "keywords": ["Neo4j", "Graph Data Science", "Cypher", "Knowledge Graph", "GDS Library", "NetworkX", "endoflife.date-neo4j"]
+      "keywords": ["Neo4j", "Graph Data Science", "Cypher", "Knowledge Graph", "GDS Library", "NetworkX", "endoflife.date-neo4j", "Théorie des graphes", "Analyse de réseaux", "Centralité & clustering", "Réseaux cachés"]
     },
     {
       "name": "IA & Agents",
@@ -459,12 +459,12 @@
     {
       "name": "Developer Relations & Communication",
       "level": "Expert",
-      "keywords": ["Talks internationaux", "YouTube", "Dev.to", "Documentation", "Vulgarisation", "Storytelling", "Data Storytelling", "Community building", "Marketing $0", "Mux", "Détournements vidéo tech", "Tech advocacy interne", "Évangélisation par la pratique"]
+      "keywords": ["Talks internationaux", "YouTube", "Dev.to", "Documentation", "Vulgarisation", "Storytelling", "Data Storytelling", "Community building", "Marketing $0", "Mux", "Détournements vidéo tech", "Tech advocacy interne", "Pitching interne", "Évangélisation par la pratique"]
     },
     {
       "name": "Management & Pédagogie",
       "level": "Expert",
-      "keywords": ["Management d'équipe", "Mentorat", "Scrum", "Product Owner", "Gestion de projet", "Jira", "LEAN", "5S", "Management visuel", "Management libéré", "Running Lean", "Innovation frugale", "Open Innovation", "Design thinking", "Team Topologies", "Enseignement universitaire", "Pédagogie Montessori", "Mindful Learning", "Learning by doing"]
+      "keywords": ["Management d'équipe", "Mentorat", "Scrum", "Product Owner", "Gestion de projet", "Jira", "LEAN", "5S", "Management visuel", "Management libéré", "Running Lean", "Innovation frugale", "Open Innovation", "Design thinking", "Team Topologies", "Transparence radicale", "Culture de feedback", "Enseignement universitaire", "Pédagogie Montessori", "Mindful Learning", "Learning by doing"]
     },
     {
       "name": "Open Source",
@@ -791,7 +791,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.7.2",
+    "version": "v1.7.3",
     "lastModified": "2026-05-24",
     "theme": "elegant"
   }
