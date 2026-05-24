@@ -225,7 +225,11 @@
       "startDate": "1978-09",
       "endDate": "1980-06",
       "score": "",
-      "courses": ["Première expérience d'une pédagogie centrée sur l'autonomie, la manipulation et l'apprentissage par le faire — socle de la posture pédagogique transmise 45 ans plus tard en Master MIAGE"]
+      "courses": [
+        "Fondation d'une posture cognitive durable : apprendre par la manipulation, progresser à son rythme, construire sa propre compréhension plutôt que de recevoir une vérité toute faite",
+        "Explique des traits constants dans le parcours : curiosité naturelle tous azimuts, goût du prototypage et du faire, capacité à connecter des domaines éloignés, malaise face aux apprentissages purement théoriques",
+        "Fil rouge pédagogique : la même philosophie — autonomie, projets réels, apprendre en faisant — se retrouve 45 ans plus tard dans l'enseignement en Master MIAGE et le mentorat de stagiaires"
+      ]
     },
     {
       "institution": "CERAM Business School (Skema) — Sophia Antipolis",
@@ -770,7 +774,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.6.3",
+    "version": "v1.6.4",
     "lastModified": "2026-05-24",
     "theme": "elegant"
   }
