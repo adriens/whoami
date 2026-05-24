@@ -199,7 +199,8 @@
         "Pédagogie double ancrage : Montessori (apprendre par la manipulation, autonomie) + Mindful Learning d'Ellen Langer (apprendre sans certitudes, questionner les règles établies, présence au processus plutôt qu'au résultat) — les deux convergent vers la même posture : construire sa propre compréhension sur de vrais projets",
         "Posture de mentor praticien : on construit ensemble sur de vrais projets, jamais d'explication théorique seule — chaque étudiant repart avec du code en prod",
         "Expo des réalisations étudiantes en fin d'année documentée sur dev.to (23 commentaires)",
-        "Suivi de la promotion et des feedbacks entièrement gérés en données via un repo GitHub dédié"
+        "Suivi de la promotion et des feedbacks entièrement gérés en données via un repo GitHub dédié",
+        "Approche Why-first systématique (Sinek) — partir du problème métier avant d'aborder la solution technique"
       ]
     },
     {
@@ -424,12 +425,12 @@
     {
       "name": "Architecture & Développement",
       "level": "Expert",
-      "keywords": ["Architecture SI", "Spring Boot", "Quarkus", "Java", "Go", "Maven", "Interopérabilité", "API Design", "APIGEE", "ZK Framework", "picocli", "Cobra (Go)", "BubbleTea", "Flutter"]
+      "keywords": ["Architecture SI", "Domain-Driven Design", "Spring Boot", "Quarkus", "Java", "Go", "Maven", "Interopérabilité", "API Design", "APIGEE", "ZK Framework", "picocli", "Cobra (Go)", "BubbleTea", "Flutter"]
     },
     {
       "name": "Data Engineering",
       "level": "Avancé",
-      "keywords": ["Apache Airflow", "Apache Kafka", "MinIO", "Apache Superset", "Lakehouse", "ETL/ELT", "Debezium", "OpenSearch", "ELK Stack", "Elasticsearch", "Kibana"]
+      "keywords": ["Apache Airflow", "Apache Kafka", "MinIO", "Apache Superset", "Lakehouse", "ETL/ELT", "Debezium", "OpenSearch", "ELK Stack", "Elasticsearch", "Kibana", "Gouvernance des métadonnées"]
     },
     {
       "name": "Bases de données",
