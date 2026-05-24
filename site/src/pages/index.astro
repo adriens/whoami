@@ -258,6 +258,11 @@ function levelDots(level: string): number {
         </div>
       </header>
 
+      <!-- ── Hero banner ──────────────────────────────────────── -->
+      <div class="hero-banner">
+        <img src="/whoami/portrait.png" alt="Portrait professionnel Adrien Sales — Master Builder de la Tech" />
+      </div>
+
       <!-- ── Stats bar ─────────────────────────────────────── -->
       <div class="stats-card">
       <div class="stats-bar">
@@ -907,6 +912,20 @@ function levelDots(level: string): number {
   .hf-emoji { font-size: 1rem; line-height: 1; }
   .hf-emoji-sm { font-size: 0.85rem; line-height: 1; }
   .contact-label { font-size: 0.8rem; }
+
+  /* ── Hero banner ── */
+  .hero-banner {
+    margin-top: 1.5rem;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid var(--border);
+  }
+
+  .hero-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 
   /* ── Stats bar ── */
   .stats-bar {
