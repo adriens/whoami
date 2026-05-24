@@ -86,7 +86,7 @@
       "position": "Chef de Section GLIA — Génie Logiciel Inter-Applicatif",
       "url": "https://www.opt.nc",
       "startDate": "2019-04",
-      "summary": "Pilotage de la section GLIA (6 personnes) : interopérabilité du SI, data engineering, DevSecOps, cartographie du SI par knowledge graph, Developer Relations et innovation. Management d'équipe, formation de stagiaires et mentorat.",
+      "summary": "Pilotage de la section GLIA (6 personnes) : interopérabilité du SI, data engineering, DevSecOps, cartographie du SI par knowledge graph, Developer Relations et innovation. Management d'équipe, formation de stagiaires et mentorat. L'interopérabilité comme posture est une signature de carrière depuis 2013+ — déjà identifiée par mes pairs à la DSI de Nouméa, formalisée aujourd'hui dans le rôle GLIA (Génie Logiciel Inter-Applicatif) et l'enseignement en Master MIAGE.",
       "highlights": [
         "Stack data complète en production : Airflow conteneurisé sur Kubernetes, Lakehouse DuckLake, Superset (dataviz), MinIO (stockage) — pipeline bout en bout opérationnel",
         "Cartographie du SI par knowledge graph Neo4j avec release automatisée via GitHub Actions — présenté à NODES 2022 et NODES 2024 (conférence internationale Neo4j), enrichi d'agents IA",
@@ -108,7 +108,7 @@
       "url": "https://www.noumea.nc",
       "startDate": "2010-12",
       "endDate": "2019-03",
-      "summary": "9 ans d'évolution dans une équipe de 2-3 développeurs, de la conception au leadership : chef de projet, chef de section, puis architecte logiciel. Ce qui reste : des applications livrées entre 2012 et 2015 toujours en production et en évolution en 2026 — une longévité qui dit tout sur la qualité de l'architecture et la profondeur de la relation avec le métier.",
+      "summary": "9 ans d'évolution dans une équipe de 2-3 développeurs, de la conception au leadership : chef de projet, chef de section, puis architecte logiciel. Plusieurs applications livrées entre 2012 et 2015 sont toujours en production et en évolution en 2026.",
       "highlights": [
         "Conception et développement de l'application permis de construire de la Ville de Nouméa — toujours en exploitation et en évolution 10+ ans après sa livraison",
         "Conception et développement de la main courante de la police municipale de Nouméa — toujours en exploitation 10+ ans après sa livraison",
@@ -193,7 +193,7 @@
       "position": "Enseignant vacataire — Module Interopérabilité des SI",
       "url": "https://unc.nc",
       "startDate": "2025-03",
-      "summary": "Enseignement exercé entièrement sur temps personnel, le soir après le travail, par passion pour la transmission et la jeune génération. Conception et animation du module Interopérabilité des Systèmes d'Information en Master MIAGE. Approche pédagogique inspirée de Montessori : learning by doing, projets réels open source et open data, syllabus public sur GitHub, ressources cloud publiques. Feedbacks et suivi de promotion gérés en données (repo GitHub dédié).",
+      "summary": "Enseignement exercé entièrement sur temps personnel, le soir après le travail. Conception et animation du module Interopérabilité des Systèmes d'Information en Master MIAGE. Approche pédagogique inspirée de Montessori : learning by doing, projets réels open source et open data, syllabus public sur GitHub, ressources cloud publiques. Feedbacks et suivi de promotion gérés en données (repo GitHub dédié).",
       "highlights": [
         "Encadrement de ~12 étudiants sur des projets réels open source et open data — première promotion Mars 2025",
         "Conception intégrale du module et du syllabus (public sur GitHub : adriens/unc_iae_miage_interop_si_feedbacks)",
@@ -228,8 +228,7 @@
       "endDate": "1980-06",
       "score": "",
       "courses": [
-        "Fondation d'une posture cognitive durable : apprendre par la manipulation, progresser à son rythme, construire sa propre compréhension plutôt que de recevoir une vérité toute faite",
-        "Explique des traits constants dans le parcours : curiosité naturelle tous azimuts, goût du prototypage et du faire, capacité à connecter des domaines éloignés, malaise face aux apprentissages purement théoriques",
+        "Fondation d'une posture cognitive durable : apprendre par la manipulation, progresser à son rythme, construire sa propre compréhension",
         "Fil rouge pédagogique : la même philosophie — autonomie, projets réels, apprendre en faisant — se retrouve 45 ans plus tard dans l'enseignement en Master MIAGE et le mentorat de stagiaires"
       ]
     },
@@ -347,10 +346,10 @@
       "summary": "Code archivé dans le GitHub Arctic Code Vault pour préservation millénaire."
     },
     {
-      "title": "Admissibilité CAPES externe — Mathématiques",
+      "title": "Admissible au CAPES externe de Mathématiques",
       "date": "2000-07",
       "awarder": "Ministère de l'Éducation Nationale",
-      "summary": "Admissible (écrits réussis, oral non obtenu) au CAPES externe de Mathématiques — concours national très sélectif, pendant une période d'enseignement en collège en Nouvelle-Calédonie (1999–2001)."
+      "summary": "Admissible au CAPES externe de Mathématiques (concours national sélectif) pendant la période d'enseignement en collège en Nouvelle-Calédonie (1999–2001)."
     }
   ],
 
@@ -426,7 +425,7 @@
     {
       "name": "Architecture & Développement",
       "level": "Expert",
-      "keywords": ["Architecture SI", "Domain-Driven Design", "Spring Boot", "Quarkus", "Java", "Go", "Maven", "Interopérabilité", "API Design", "APIGEE", "ZK Framework", "picocli", "Cobra (Go)", "BubbleTea", "Flutter"]
+      "keywords": ["Architecture SI", "Domain-Driven Design", "Spring Boot", "Quarkus", "Java", "Go", "Maven", "Interopérabilité (signature de carrière depuis 12+ ans, validée par pairs DSI Nouméa 2018)", "API Design", "APIGEE", "ZK Framework", "picocli", "Cobra (Go)", "BubbleTea", "Flutter"]
     },
     {
       "name": "Data Engineering",
@@ -698,7 +697,7 @@
       "highlights": [
         "1 300+ downloads, 11 stars, v2.7.1 activement maintenue",
         "Hacktoberfest 2025 Maintainer Spotlight officiel",
-        "Démo 'impossible 1 minute' sur Mux — approche marketing $0 (YouTube + dev.to uniquement)"
+        "Approche marketing $0 — démos vidéo sur Mux/YouTube et articles dev.to uniquement, zéro budget pub"
       ],
       "url": "https://github.com/opt-nc/geol"
     },
@@ -824,6 +823,7 @@
       "name": "oracle-jutils — Framework PL/SQL Oracle 11g",
       "type": "open-source",
       "startDate": "2009-03",
+      "endDate": "2012-12",
       "description": "Framework open source de packages PL/SQL pour Oracle 11g (dump LOB, CRC, MIME type, XMPP, QR codes, Twitter...). Première et unique implémentation libre. Découvert et reconnu par des équipes Oracle APEX au Texas.",
       "highlights": [
         "6 509 téléchargements sur SourceForge (2009-2026)",
@@ -949,8 +949,8 @@
   ],
 
   "meta": {
-    "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.9.0",
+    "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
+    "version": "v1.9.1",
     "lastModified": "2026-05-25",
     "theme": "elegant"
   }
