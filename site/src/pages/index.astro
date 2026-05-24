@@ -100,7 +100,7 @@ const topDatasets = [...kaggleDatasets]
 
 const topBooks = [...books]
   .filter(b => parseInt(b.rating) >= 4)
-  .sort((a, b) => (parseInt(b.rating) - parseInt(a.rating)) || (parseFloat(b.average_rating) - parseFloat(a.average_rating)))
+  .sort((a, b) => (parseInt(b.rating) - parseInt(a.rating)) || b.date_read.localeCompare(a.date_read))
   .slice(0, 5);
 
 function formatDate(iso: string): string {
