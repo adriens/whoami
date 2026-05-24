@@ -87,6 +87,7 @@ Le schéma JSON Resume accepte des propriétés additionnelles. Les champs `x-*`
 | `x-context` | `interests` | `personal` / `pro` / `mixed` — filtrer interests pour version pro |
 | `x-position`, `x-relationship`, `x-date`, `x-source`, `x-language`, `x-context` | `references` | Traçabilité et filtrage |
 | `x-label-url` | `education` | URL du label/accréditation (ex: CGE) |
+| `x-summary-short` | `basics` | Version synthétique du `summary` (1 phrase) pour LinkedIn headline / signature email / header version light |
 
 ## Workflow : ajouter une recommandation LinkedIn
 
