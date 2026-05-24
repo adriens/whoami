@@ -8,7 +8,7 @@
     "email": "adrien.sales@gmail.com",
     "phone": "+687 84 29 84",
     "url": "https://adriens.github.io/whoami/",
-    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis, puis data mining en collaboration avec l'I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA.\n\n25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood.\n\nAmbitions parallèles : construire un produit data/IA ancré dans les problématiques du Pacifique, contribuer à la recherche appliquée (knowledge graphs, data science), et étendre une présence DevRel internationale — conférences, open source, communauté.",
+    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis, puis data mining en collaboration avec l'I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA. Ma boussole : l'expertise technique au service du besoin métier et du time-to-market — chaque choix d'architecture se mesure à la valeur livrée.\n\n25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood.\n\nAmbitions parallèles : construire un produit data/IA ancré dans les problématiques du Pacifique, contribuer à la recherche appliquée (knowledge graphs, data science), et étendre une présence DevRel internationale — conférences, open source, communauté.",
     "location": {
       "address": "",
       "postalCode": "98800",
@@ -117,6 +117,7 @@
         "Migration complète du SI applicatif : WebSphere/Windows/Oracle → Tomcat/Spring Boot/Linux/PostgreSQL — modernisation end-to-end de l'infrastructure et des applications métier de la collectivité",
         "Introduction de Spring Framework puis Spring Boot et ZK Framework en remplacement des frameworks maison",
         "4 ans de SCRUM : montée en compétences progressive de chef de projet à chef de section — succès et échecs documentés et présentés au séminaire DSI 2015",
+        "Intérim assuré du Chargé d'études d'architecture et qualité de la DSI lors de ses absences — extension de la confiance hiérarchique au-delà du rôle d'architecte",
         "Introduction des pratiques DevOps : continuous delivery pour logiciels Windows via Chocolatey et AppVeyor, migration cloud hybride expérimentée dès 2016",
         "Analytics RGPD sur les bases de données via SchemaCrawler et ELK Stack — cartographie dynamique des colonnes à données personnelles en dashboard Kibana"
       ]
@@ -463,9 +464,14 @@
       "keywords": ["Talks internationaux", "YouTube", "Dev.to", "Documentation", "Vulgarisation", "Storytelling", "Data Storytelling", "Community building", "Marketing $0", "Mux", "Détournements vidéo tech", "Tech advocacy interne", "Pitching interne", "Évangélisation par la pratique"]
     },
     {
-      "name": "Management & Pédagogie",
+      "name": "Management & Leadership",
       "level": "Expert",
-      "keywords": ["Management d'équipe", "Mentorat", "Scrum", "Product Owner", "Gestion de projet", "Jira", "LEAN", "5S", "Management visuel", "Management libéré", "Running Lean", "Innovation frugale", "Open Innovation", "Design thinking", "Team Topologies", "Transparence radicale", "Culture de feedback", "Enseignement universitaire", "Pédagogie Montessori", "Mindful Learning", "Learning by doing"]
+      "keywords": ["Management d'équipe", "Management par la confiance, l'autonomie et les objectifs clairs", "Scrum", "Product Owner", "Gestion de projet", "Jira", "LEAN", "5S", "Management visuel", "Management libéré", "Running Lean", "Innovation frugale", "Open Innovation", "Design thinking", "Team Topologies", "Transparence radicale", "Culture de feedback", "Intérim de direction"]
+    },
+    {
+      "name": "Pédagogie & Transmission",
+      "level": "Expert",
+      "keywords": ["Enseignement universitaire (Master MIAGE)", "Pédagogie Montessori", "Mindful Learning (Ellen Langer)", "Learning by doing", "Mentorat de stagiaires", "Tuteur industriel (projets tutorés UNC)", "Pédagogie par projets réels open source / open data", "Knowledge sharing", "Vulgarisation technique", "Why-first (Sinek)", "Construction du raisonnement plutôt que dictée de la solution"]
     },
     {
       "name": "Open Source",
@@ -529,7 +535,159 @@
     }
   ],
 
-  "references": [],
+  "references": [
+    {
+      "name": "Sébastien Bourlart",
+      "reference": "Je recommande vivement Adrien pour son expertise technique et son engagement passionné. Son statut d'expert technique ne l'empêche en rien d'être attentif à la satisfaction des besoins business, ou à l'optimisation du time to market. Travailler avec Adrien est toujours un plaisir, car il apporte une expertise technique précieuse. Cerise sur le gâteau, il n'hésite jamais à se positionner sur des technologies novatrices, ce qui est un atout majeur pour mener à bien des projets innovants.",
+      "x-position": "Consultant en stratégie et transformation numérique",
+      "x-relationship": "Prestataire — Adrien était son client",
+      "x-date": "2024-08-01",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": ["leadership", "innovation", "client-relationship", "expertise-technique", "business-acumen"]
+    },
+    {
+      "name": "Ida Carapelle Goossens",
+      "reference": "Dans le cadre de la mission ROI NC à la Ville de Nouméa, j'ai eu le grand plaisir de travailler au sein de l'équipe d'Adrien.\nLa confiance qu'il m'a accordée dès le départ et la reconnaissance du travail accompli, ont été un réel propulseur pour mener les différents chantiers et interventions. Un management AGILE, supervision avec tact et respect. Cette expérience au sein de son équipe à la Ville de Nouméa m'ont donné un élan suffisant que pour développer les activités en Nouvelle Calédonie confiante de travailler avec des personnes combinant des qualités humaines et des compétences technologiques.\nEn effet, Adrien a de « Very high skills » et remplit les conditions du parfait DATA SCIENTISTE : des compétences pointues en ingénierie logicielles, la curiosité intellectuelle, l'esprit d'un entrepreneur et le sens de communication et bien entendu la maîtrise de langages de programmation et du traitement de la donnée…\n(cf. www.lebigdata.fr/13 compétences nécessaires pour devenir data scientist).\nGénérer de la synergie est aussi une de ses préoccupations, Il a pris de son temps pour me mettre en relation avec des experts et personne intéressées par la DATA et l'innovation.\nAvoir le plaisir de nouveau collaborer en groupe de travail de veille ou en mission est un de mes plus vif souhait. Merci Adrien.",
+      "x-position": "Gérante R.O.I. Nouméa-Tahiti — Senior Consultant BI, Open Data & Innovation Numérique",
+      "x-relationship": "Prestataire — Adrien était son client (DSI Ville de Nouméa)",
+      "x-context": "Mission ROI NC à la DSI Ville de Nouméa",
+      "x-date": "2019-05-05",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": ["leadership", "management-agile", "data-science", "mentorat", "networking", "client-relationship", "qualites-humaines"]
+    },
+    {
+      "name": "Alban Seurat",
+      "reference": "J'ai travaillé avec Adrien pendant plusieurs années autour des technologies C++, Java et Oracle sur des produits bancaires innovant et demandant beaucoup d'expertises métier et technique.\n\nAdrien a toujours été ouvert et à la recherche de compromis entre technologie cutting-edge et maturité nécessaire pour l'integration dans un produit. Il a toujours fait preuve de qualité et d'amélioration continue dans son travail. Il est aussi un très bon communiquant et aime partager ses connaissances.\n\nJe recommande chaudement Adrien et j'aimerai pouvoir de nouveau travailler avec lui si l'opportunité se représente.",
+      "x-position": "Co-founder & Senior Architect, Kleis Technology Sàrl",
+      "x-relationship": "Collègue — même équipe (Experian Decision Analytics)",
+      "x-context": "Développement de produits bancaires (C++, Java, Oracle) chez Experian Decision Analytics",
+      "x-date": "2018-11-28",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": ["peer-recognition", "technical-expertise", "fintech", "communication", "knowledge-sharing", "continuous-improvement", "pragmatisme-techno"]
+    },
+    {
+      "name": "M'Bakop Djadja",
+      "reference": "The first time I met Adrien Sales was when he was applying for an internship at Experian Scorex.\nDuring his internship he showed all the expected qualities of a trainee or a future collaborator.\nHis ability to integrate easily into a team, to work on new technologies and carry out the project assigned to him convinced us to offer him a permanent position in the company.\nIn the years that followed, Adrien worked in my team and showed a pronounced taste for innovation and new technologies of the Java world. He also offered us innovative solutions that are still used by our customers today. It is with regret that we have seen him choose to continue his career elsewhere.\nThat's why I strongly recommend Adrien for his dynamism, his seriousness, his high technical qualities and the good atmosphere he brings to the team.",
+      "x-position": "Software Development Manager, Experian Decision Analytics",
+      "x-relationship": "Manager direct d'Adrien (Experian Decision Analytics)",
+      "x-context": "De l'entretien de stage à l'embauche en CDI, puis années en équipe Java/innovation",
+      "x-date": "2018-10-21",
+      "x-source": "LinkedIn",
+      "x-language": "en",
+      "x-tags": ["manager-recommendation", "innovation", "java", "team-fit", "technical-excellence", "internship-to-hire", "lasting-impact", "dynamism"]
+    },
+    {
+      "name": "Michel Moureaux",
+      "reference": "I've been working with Adrien on different projects. He's an expert in software and database technologies.\nHe's got a wide range of skills (and a curiosity that make him up to date to IT)\nAnd beyond his skills he's someone it's a pleasure to work with.",
+      "x-position": "RSSI, Département des Alpes-Maritimes",
+      "x-relationship": "Collègue — même équipe",
+      "x-date": "2015-07-02",
+      "x-source": "LinkedIn",
+      "x-language": "en",
+      "x-tags": ["peer-recognition", "technical-expertise", "database", "curiosity", "broad-skills", "pleasure-to-work-with"]
+    },
+    {
+      "name": "Sualeh Fatehi",
+      "reference": "Adrien is an avid proponent of open source projects. He and I have interacted on my open source project SchemaCrawler. Of his own accord, he has created a Debian package SchemaCrawler, which makes it easy to use on Linux systems. I appreciate Adrien's contributions, and support of the open source community.",
+      "x-position": "Team Builder · Software Craftsman · Open Source Enthusiast",
+      "x-relationship": "Mainteneur upstream — créateur de SchemaCrawler ; collaboration open source cross-company",
+      "x-context": "Contribution d'Adrien au projet SchemaCrawler : création du package Debian",
+      "x-date": "2015-05-02",
+      "x-source": "LinkedIn",
+      "x-language": "en",
+      "x-tags": ["upstream-recognition", "open-source", "packaging", "linux", "debian", "community-contribution", "schemacrawler", "cross-company"]
+    },
+    {
+      "name": "Didier Jean Leroux",
+      "reference": "Excellent architect multi technologies.",
+      "x-position": "IT Managing Director (DSI Ville de Nouméa)",
+      "x-relationship": "Manager direct d'Adrien (DSI Ville de Nouméa)",
+      "x-date": "2013-12-02",
+      "x-source": "LinkedIn",
+      "x-language": "en",
+      "x-tags": ["manager-recommendation", "architecture", "multi-technology", "endorsement-court"]
+    },
+    {
+      "name": "Richard DEPLANQUE",
+      "reference": "Adrien a travaillé à la DSI de la mairie de Nouméa sous ma responsabilité. Cette collaboration a duré un peu plus de 7 ans. Il était responsable du département maintenance et développement et assurait également le rôle d'architecte logiciel. Adrien s'est révélé être un collaborateur très efficace, un travailleur acharné et un architecte logiciel performant. Il a également assuré mon intérim lors de mes absences.\n\nLa capacité d'Adrien à mener à leur terme dans les délais les tâches qui lui étaient assignées m'a fait forte impression. Il a su être moteur et innovant dans la démarche d'industrialisation du développement à la DSI de la mairie de Nouméa. Adrien a également montré qu'il pouvait manager une équipe.\n\nMais par-dessus tout, Adrien est un collaborateur très consciencieux et au fort potentiel. Je suis convaincu qu'il a en main tous les atouts pour réussir. Je recommande Adrien pour toute fonction d'architecte logiciel et supervision d'équipe de développement.",
+      "x-position": "Chargé études d'architecture et qualité à la DSI (Ville de Nouméa)",
+      "x-relationship": "Manager direct d'Adrien pendant 7+ ans (DSI Ville de Nouméa)",
+      "x-context": "Responsabilité du département maintenance & développement, rôle d'architecte logiciel, intérim de Richard lors de ses absences",
+      "x-date": "2018-10-23",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": ["manager-recommendation", "architecture-logicielle", "leadership", "management", "industrialisation", "interim-management", "long-term-collaboration", "delivery-focus", "innovation"]
+    },
+    {
+      "name": "Bheem Reddy",
+      "reference": "It's rare that you come across standout talent like Adrien. I have been working closely with Adrien on SchemaCrawler-lints, I was impressed with all his implementations for the same such as creating Debian packages, Kibana Reporting Dashboards, neo4j and graph Database Integrations so many 🙏🏼 He likes to explore lot of technologies in and around from which we can do some cool stuff. Adrien earns my highest recommendation.",
+      "x-position": "Quality Engineer",
+      "x-relationship": "Collaborateur open source — cross-company (projet SchemaCrawler-lints)",
+      "x-context": "Contributions d'Adrien : Debian packages, Kibana dashboards, intégration Neo4j / graph databases",
+      "x-date": "2019-02-28",
+      "x-source": "LinkedIn",
+      "x-language": "en",
+      "x-tags": ["open-source", "schemacrawler", "cross-company", "peer-recognition", "neo4j", "kibana", "elk-stack", "packaging", "exploration-techno", "polyvalence"]
+    },
+    {
+      "name": "Ronny Soutart",
+      "reference": "J'ai eu l'occasion et la chance de travailler au sein de l'équipe d'Adrien. Je le recommande pour son expertise et ses compétences de très haut niveau dans de multiples domaines aussi bien techniques que créatives.\n\nD'une curiosité sans fin et entraînante, le terme \"tech enthusiast\" prend ici tout son sens. Grâce à Adrien, j'ai pu exploiter mes compétences au maximum et au-delà et en acquérir des nouvelles comme le développement mobile ou les aspects DevOps par exemple.\n\nDe par les objectifs clairs et précis et aidé d'une méthodologie d'une efficacité éprouvée de maintes fois durant ma mission, ont permis de mener à bien l'ensemble des projets du bureau.\n\nToujours prompt à allier innovation et collaboration pour développer des outils qui profitent au plus grand nombre. Communiquer, échanger, partager, une partie hautement importante dans une organisation qu'il applique à merveille.\n\nAdrien met aussi un point d'honneur pour instaurer un environnement sain et serein en mettant de l'humain là où il y a tellement de technique.\n\nSes hautes capacités techniques et humaines en font un exemple à suivre, dont je m'inspirerais dans mes futures projets et collaborations.\n\nUn grand merci à Adrien pour avoir partagé ses connaissances et convictions durant cette expérience professionnelle.",
+      "x-position": "Software Developer chez Skazy (aujourd'hui) — à l'époque membre de l'équipe d'Adrien",
+      "x-relationship": "Direct report d'Adrien (équipe GLIA, OPT-NC)",
+      "x-context": "Membre de l'équipe d'Adrien à l'OPT-NC ; montée en compétences sur le développement mobile et le DevOps",
+      "x-date": "2021-04-14",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": ["direct-report-recommendation", "leadership", "management", "mentorat", "transmission", "team-culture", "human-centric", "innovation", "communication", "curiosite", "opt-nc"]
+    },
+    {
+      "name": "Malcolm Bertaina",
+      "reference": "J'ai eu l'occasion de connaître Adrien Sales lors d'un projet tutoré organisé conjointement entre l'UNC et l'OPT-NC.\nCe projet, que j'ai réalisé en binôme, portait sur le développement d'une interface web permettant d'afficher les temps d'attente en agence. Il nous a été proposé par Adrien, et nous l'avons choisi car il nous semblait innovant et facile à prendre en main.\nTout au long de ce projet, Adrien a été un grand soutien, en nous donnant des réponses très rapides, toute la semaine et même le week-end.\nÇa a été un plaisir de travailler avec lui et de découvrir les technologies modernes et innovantes qu'il nous a fait explorer.\nJe remercie grandement Adrien pour cette collaboration et les connaissances qu'il nous a transmises",
+      "x-position": "Étudiant ingénieur 2ème année — Architecture Systèmes & Réseaux, ENSEEIHT (Toulouse)",
+      "x-relationship": "Étudiant — tuteur industriel d'Adrien (OPT-NC) sur projet tutoré UNC × OPT-NC",
+      "x-context": "Projet tutoré UNC × OPT-NC : interface web d'affichage des temps d'attente en agence (binôme)",
+      "x-date": "2025-03-16",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": ["student-recommendation", "mentorat", "pedagogie", "unc-partnership", "projet-tutore", "responsiveness", "innovation", "transmission", "tech-enthusiasm", "opt-nc"]
+    },
+    {
+      "name": "Morgan Carré",
+      "reference": "Adrien a été à la fois mon tuteur dans un projet réalisé dans le cadre de ma licence et mon manager lors de mon stage de 3ᵉ année de licence.\nMon stage dans son équipe a été ma première expérience professionnelle dans le monde de l'informatique, et grâce à ses précieux conseils et à sa disponibilité (même en soirée et le week-end), j'ai pu évoluer très rapidement sur différentes technologies qui m'étaient inconnues.\nAdrien a été pour moi un mentor, toujours à l'écoute et prêt à me guider avec pédagogie.\nJe serais d'ailleurs très heureux d'avoir l'opportunité de retravailler avec lui à l'avenir.",
+      "x-position": "Étudiant à Polytech Nice Sophia",
+      "x-relationship": "Étudiant puis stagiaire — Adrien tuteur de projet de licence puis manager de stage (OPT-NC)",
+      "x-context": "Première expérience professionnelle : projet tutoré de licence + stage 3ème année dans l'équipe GLIA à l'OPT-NC",
+      "x-date": "2025-03-17",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": ["student-recommendation", "intern-recommendation", "mentorat", "pedagogie", "premiere-experience-pro", "disponibilite", "transmission", "stage", "polytech-nice", "opt-nc"]
+    },
+    {
+      "name": "Michèle Barré",
+      "reference": "Cela fait près de 4 ans que j'ai le plaisir de travailler avec Adrien au sein de la DSI de la Ville de Nouméa.\n\nIl a tout d'abord été mon manager au département Maintenance et Développement.\nToujours disponible pour m'apporter son aide et ses conseils, Adrien m'a rapidement donné la confiance et l'autonomie indispensables à un travail en équipe efficace.\nTrès à l'écoute des aspirations de ses agents tout en tenant compte des besoins d'évolution du système d'information de la Ville, il a su maintenir au sein de son département une ambiance de travail agréable et motivante.\n\nAdrien est à présent architecte logiciel au sein du Service Ingénierie Maintenance et Production et continue à motiver et conseiller l'équipe.\nDe par son expérience professionnelle et sa passion pour la veille technologique, il est force de proposition et a toujours une solution technique élégante et innovante aux problématiques et contraintes des projets.\n\nPour conclure, je peux dire que j'apprécie de travailler avec Adrien et je ne peux que recommander une collaboration avec lui",
+      "x-position": "Software Engineer at OPT New Caledonia (aujourd'hui) — à l'époque membre de l'équipe d'Adrien à la DSI Ville de Nouméa",
+      "x-relationship": "Direct report d'Adrien pendant 4 ans (DSI Ville de Nouméa)",
+      "x-context": "Adrien manager du département Maintenance & Développement puis architecte logiciel au Service Ingénierie Maintenance & Production",
+      "x-date": "2018-10-24",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": ["direct-report-recommendation", "leadership", "management", "autonomy", "trust-building", "team-culture", "veille-technologique", "architecture-logicielle", "innovation", "force-de-proposition", "dsi-noumea"]
+    },
+    {
+      "name": "Cédric Pitout",
+      "reference": "J'ai eu le plaisir de coopérer avec Adrien à la DSI de la ville de Nouméa notamment dans l'interfaçage de modules SIG avec des applications traditionnelles développées sous son couvert. Son mot d'ordre est l'interopérabilité des systèmes avec notamment l'utilisation d'API et de services web de sorte à mettre en oeuvre des techniques saines pour le SI.\n\nDe nature curieuse et entreprenante, il cherche toujours à comprendre les exigences de chacun, de sorte à obtenir rapidement le résultat le plus efficient. Cette démarche s'accompagne aussi avec un souci constant de développer de la valeur et de la performance sur le code produit.",
+      "x-position": "Chef de projet géomatique & informatique, administrateur SIG, manager d'équipe",
+      "x-relationship": "Collègue — même équipe (DSI Ville de Nouméa)",
+      "x-context": "Coopération sur l'interfaçage de modules SIG avec les applications traditionnelles de la collectivité",
+      "x-date": "2018-10-17",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": ["peer-recognition", "interoperabilite", "api-design", "services-web", "sig", "geomatique", "comprehension-besoins", "performance", "code-quality", "curiosite", "dsi-noumea"]
+    }
+  ],
 
   "projects": [
     {
@@ -792,8 +950,8 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.7.3",
-    "lastModified": "2026-05-24",
+    "version": "v1.8.0",
+    "lastModified": "2026-05-25",
     "theme": "elegant"
   }
 }
