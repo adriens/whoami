@@ -8,7 +8,7 @@
     "email": "adrien.sales@gmail.com",
     "phone": "+687 84 29 84",
     "url": "https://adriens.github.io/whoami/",
-    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis, puis data mining en collaboration avec l'I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte. Méthode signature : l'API-fication — identifier un manque d'interopérabilité, scraper ou exploiter l'open data, packager en SDK, exposer en API, laisser émerger l'écosystème communautaire (apps mobiles, AR, bots, MCPs, dashboards). Validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA. Ma boussole : l'expertise technique au service du besoin métier et du time-to-market — chaque choix d'architecture se mesure à la valeur livrée.\n\n25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood. La boucle se referme : la transmission, premier métier en 1999 (professeur de mathématiques en collège), revient au premier plan 25 ans plus tard — fil rouge plus que parenthèse.\n\nAmbitions parallèles : construire un produit data/IA ancré dans les problématiques du Pacifique, contribuer à la recherche appliquée (knowledge graphs, data science), et étendre une présence DevRel internationale — conférences, open source, communauté.",
+    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis) puis en data science (Mastère Spécialisé MSBDS — labellisé Conférence des Grandes Écoles, stage data mining avec l'I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte. Méthode signature : l'API-fication — identifier un manque d'interopérabilité, scraper ou exploiter l'open data, packager en SDK, exposer en API, laisser émerger l'écosystème communautaire (apps mobiles, AR, bots, MCPs, dashboards). Validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA. Ma boussole : l'expertise technique au service du besoin métier et du time-to-market — chaque choix d'architecture se mesure à la valeur livrée.\n\n25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood. La boucle se referme : la transmission, premier métier en 1999 (professeur de mathématiques en collège), revient au premier plan 25 ans plus tard — fil rouge plus que parenthèse.\n\nAmbitions parallèles : construire un produit data/IA ancré dans les problématiques du Pacifique, contribuer à la recherche appliquée (knowledge graphs, data science), et étendre une présence DevRel internationale — conférences, open source, communauté.",
     "location": {
       "address": "",
       "postalCode": "98800",
@@ -220,23 +220,11 @@
 
   "education": [
     {
-      "institution": "École Montessori Les Pouces Verts — Mouans-Sartoux",
-      "url": "https://www.mouans-sartoux.net",
-      "area": "Pédagogie Montessori",
-      "studyType": "École primaire",
-      "startDate": "1978-09",
-      "endDate": "1980-06",
-      "score": "",
-      "courses": [
-        "Fondation d'une posture cognitive durable : apprendre par la manipulation, progresser à son rythme, construire sa propre compréhension",
-        "Fil rouge pédagogique : la même philosophie — autonomie, projets réels, apprendre en faisant — se retrouve 45 ans plus tard dans l'enseignement en Master MIAGE et le mentorat de stagiaires"
-      ]
-    },
-    {
       "institution": "CERAM Business School (Skema) — Sophia Antipolis",
       "url": "https://www.skema.edu",
       "area": "Bases de données et Progiciels / ERP",
-      "studyType": "Mastère Spécialisé MSBDS (Label Conférence des Grandes Écoles)",
+      "studyType": "Mastère Spécialisé MSBDS — labellisé Conférence des Grandes Écoles",
+      "x-label-url": "https://www.cge.asso.fr/labels-accreditations/mastere-specialise/",
       "startDate": "2002-09",
       "endDate": "2003-09",
       "score": "",
@@ -281,6 +269,19 @@
       "endDate": "1996-06",
       "score": "",
       "courses": []
+    },
+    {
+      "institution": "École Montessori Les Pouces Verts — Mouans-Sartoux",
+      "url": "https://www.mouans-sartoux.net",
+      "area": "Pédagogie Montessori",
+      "studyType": "École primaire",
+      "startDate": "1978-09",
+      "endDate": "1980-06",
+      "score": "",
+      "courses": [
+        "Fondation d'une posture cognitive durable : apprendre par la manipulation, progresser à son rythme, construire sa propre compréhension",
+        "Fil rouge pédagogique : la même philosophie — autonomie, projets réels, apprendre en faisant — se retrouve 45 ans plus tard dans l'enseignement en Master MIAGE et le mentorat de stagiaires"
+      ]
     }
   ],
 
@@ -511,31 +512,38 @@
   "interests": [
     {
       "name": "Sports outdoor & nautiques",
-      "keywords": ["Course à pied", "Natation open water", "Monopalme", "Prone paddle", "Windsurf", "Wingfoil", "Vélo", "Street workout"]
+      "keywords": ["Course à pied", "Natation open water", "Monopalme", "Prone paddle", "Windsurf", "Wingfoil", "Vélo", "Street workout"],
+      "x-context": "personal"
     },
     {
       "name": "Maker & IoT",
-      "keywords": ["Arduino", "LED matrix", "API vers IoT", "Meshtastic", "MeshCore", "LoRa mesh networking", "IoT outdoor", "Fablab UNC", "Projets hardware hobby"]
+      "keywords": ["Arduino", "LED matrix", "API vers IoT", "Meshtastic", "MeshCore", "LoRa mesh networking", "IoT outdoor", "Fablab UNC", "Projets hardware hobby"],
+      "x-context": "mixed"
     },
     {
       "name": "Veille technologique & innovation",
-      "keywords": ["Livres tech", "Livres management", "Architecture SI", "Intelligence artificielle", "Open source", "Vibe coding Go"]
+      "keywords": ["Livres tech", "Livres management", "Architecture SI", "Intelligence artificielle", "Open source", "Vibe coding Go"],
+      "x-context": "pro"
     },
     {
       "name": "Création de contenu & humour tech",
-      "keywords": ["Détournements vidéo", "Films VO russe/allemand sous-titrés français", "Mèmes tech", "Storytelling technique"]
+      "keywords": ["Détournements vidéo", "Films VO russe/allemand sous-titrés français", "Mèmes tech", "Storytelling technique"],
+      "x-context": "mixed"
     },
     {
       "name": "Écriture",
-      "keywords": ["Livre sur la data en entreprise", "Recueil de nouvelles", "Vulgarisation tech"]
+      "keywords": ["Livre sur la data en entreprise", "Recueil de nouvelles", "Vulgarisation tech"],
+      "x-context": "mixed"
     },
     {
       "name": "Musique",
-      "keywords": ["Jazz"]
+      "keywords": ["Jazz"],
+      "x-context": "personal"
     },
     {
       "name": "Lecture",
-      "keywords": ["Management", "Architecture logicielle", "Data science", "Innovation", "Start with Why"]
+      "keywords": ["Management", "Architecture logicielle", "Data science", "Innovation", "Start with Why"],
+      "x-context": "pro"
     }
   ],
 
@@ -955,7 +963,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.10.0",
+    "version": "v1.10.1",
     "lastModified": "2026-05-25",
     "theme": "elegant"
   }
