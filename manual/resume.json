@@ -218,6 +218,16 @@
 
   "education": [
     {
+      "institution": "École Montessori Les Pouces Verts — Mouans-Sartoux",
+      "url": "https://www.mouans-sartoux.net",
+      "area": "Pédagogie Montessori",
+      "studyType": "École primaire",
+      "startDate": "1978-09",
+      "endDate": "1980-06",
+      "score": "",
+      "courses": ["Première expérience d'une pédagogie centrée sur l'autonomie, la manipulation et l'apprentissage par le faire — socle de la posture pédagogique transmise 45 ans plus tard en Master MIAGE"]
+    },
+    {
       "institution": "CERAM Business School (Skema) — Sophia Antipolis",
       "url": "https://www.skema.edu",
       "area": "Bases de données et Progiciels / ERP",
@@ -760,7 +770,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.6.2",
+    "version": "v1.6.3",
     "lastModified": "2026-05-24",
     "theme": "elegant"
   }
