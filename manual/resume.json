@@ -692,7 +692,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.2.0",
+    "version": "v1.3.0",
     "lastModified": "2026-05-24",
     "theme": "elegant"
   }
