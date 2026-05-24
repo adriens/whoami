@@ -97,6 +97,8 @@
         "CLI mobitag en Go pour envoyer des SMS via l'API Mobitag — distribué via Homebrew/goreleaser, conçu avec l'équipe comme exercice pédagogique",
         "Design, développement et livraison de l'API domaine.nc (noms de domaine .NC) exposée sur la marketplace APIGEE — a permis la création d'une application mobile open source Flutter par la communauté, publiée sur le Google Play Store, testée en crowdtesting via Hightest/Testeum, avec 25 releases et une playlist YouTube dédiée",
         "Mentorat de proximité : stagiaires accueillis dans le bureau, embarqués sur de vrais projets dès le premier jour — plusieurs recrutés en CDI à l'issue",
+        "Tuteur industriel (OPT-NC) de projets tutorés UNC : dataviz temps d'attente en agence sur matrice LED IoT Pimoroni Cosmic Unicorn 32×32 pixels (Python/MicroPython, API APIGEE) — publié sur Hackster.io, vidéo YouTube, article Dev.to",
+        "Tuteur industriel (OPT-NC) de projets tutorés UNC : dashboard Streamlit temps d'attente API-driven (Docker, API APIGEE) — affichage du temps réel et tendance journalière pour optimiser la venue en agence",
         "Évangélisation technique auprès des collègues : faire découvrir et adopter des pratiques et technologies actionnables au quotidien — par la démonstration et le faire ensemble, jamais par la théorie seule"
       ]
     },
@@ -693,6 +695,22 @@
       "url": "https://community.chocolatey.org/packages/schemacrawler/17.6.1"
     },
     {
+      "name": "ColisNC — Écosystème open source suivi de colis OPT-NC",
+      "type": "open-source",
+      "startDate": "2019-09",
+      "endDate": "2021-06",
+      "description": "Écosystème complet de 6 composants open source construits autour du suivi de colis de l'OPT-NC : SDK Java distribué sur JitPack avec CI Travis, webapp responsive déployée en production, assistant en réalité augmentée, borne Angular 11 + Docker, bot Discord Java et prototype mobile Flutter. Illustration concrète du potentiel multiplicateur d'une API bien exposée.",
+      "highlights": [
+        "colisnc-sdk : SDK Java publié sur JitPack avec CI Travis — première brique permettant aux développeurs d'intégrer le suivi de colis NC sans scraping",
+        "colisnc-webapp : application web responsive déployée en production sur colisnc.redstone.nc",
+        "colisnc-AR : assistant en réalité augmentée pour suivre la livraison de ses colis — présenté dans la communauté OPT-NC",
+        "colisnc-borne : application borne Angular 11 + Docker pour affichage en agence",
+        "colisnc-discord : bot Discord Java (Javacord) pour interroger l'API OPT-NC depuis n'importe quel serveur Discord",
+        "Progression SDK → webapp → AR → borne → Discord → mobile (Flutter) : pattern de démultiplication autour d'une API exposée"
+      ],
+      "url": "https://github.com/adriens/colisnc-sdk"
+    },
+    {
       "name": "API-fication calédonienne — SDKs Java & APIs REST",
       "type": "open-source",
       "startDate": "2017-04",
@@ -711,7 +729,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.3.0",
+    "version": "v1.4.0",
     "lastModified": "2026-05-24",
     "theme": "elegant"
   }
