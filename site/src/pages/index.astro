@@ -184,8 +184,15 @@ function levelDots(level: string): number {
     <meta property="og:description" content={basics.summary?.split('\n\n')[0]?.substring(0, 300)} />
     <meta property="og:url" content="https://adriens.github.io/whoami/" />
     <meta property="og:site_name" content={basics.name} />
-    <meta name="twitter:card" content="summary" />
+    <meta property="og:image" content="https://adriens.github.io/whoami/portrait.webp" />
+    <meta property="og:image:width" content="2752" />
+    <meta property="og:image:height" content="1536" />
+    <meta property="og:image:alt" content="Adrien Sales — Master Builder de la Tech" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@rastadidi" />
+    <meta name="twitter:image" content="https://adriens.github.io/whoami/portrait.webp" />
+    <meta name="twitter:title" content={`${basics.name} — CV & profil`} />
+    <meta name="twitter:description" content={basics.summary?.split('\n\n')[0]?.substring(0, 160)} />
     <link rel="icon" type="image/svg+xml" href="/whoami/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
