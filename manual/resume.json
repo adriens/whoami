@@ -648,7 +648,7 @@
       "name": "Catalogue d'APIs publiques OPT-NC — Vitrine & produit d'appel",
       "type": "professional",
       "startDate": "2021-01",
-      "description": "Conception et pilotage d'un catalogue d'APIs publiques gratuites exposées sur le portail APIGEE de l'OPT-NC (https://apigee-optnc-prd-api.apigee.io/). Toutes en lecture seule. Sources mixtes : données internes OPT-NC et sources scrapées. Stratégie vitrine : prouver la valeur de l'interopérabilité, attirer développeurs et entreprises, créer l'appétit pour des APIs supplémentaires ou sur-mesure. Rôle : Product Owner & architecte — l'équipe GLIA développe.",
+      "description": "Conception et pilotage d'un catalogue d'APIs publiques gratuites exposées sur le portail APIGEE de l'OPT-NC (https://apigee-optnc-prd-api.apigee.io/). Toutes en lecture seule. Sources hétérogènes selon l'API : données statiques gérées en interne, scraping de sites sans API officielle, ou croisement avec de l'open data (data.gouv.nc). Stratégie vitrine : prouver la valeur de l'interopérabilité, attirer développeurs et entreprises, créer l'appétit pour des APIs supplémentaires ou sur-mesure. Rôle : Product Owner & architecte — l'équipe GLIA développe.",
       "highlights": [
         "Localisation des boîtes postales : géolocalisation de toutes les BP en NC — a donné lieu à une réutilisation applicative par la communauté",
         "Suivi de colis : API de tracking OPT-NC exposée publiquement — genèse de l'écosystème colisnc (SDK Java, webapp, AR, Discord, mobile Flutter)",
@@ -791,7 +791,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.7.0",
+    "version": "v1.7.1",
     "lastModified": "2026-05-24",
     "theme": "elegant"
   }
