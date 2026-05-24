@@ -732,7 +732,7 @@
       "description": "Série de projets personnels visant à exposer des données web calédoniennes inaccessibles autrement via des SDKs Java et APIs REST Spring Boot. Pattern systématique : scraping HtmlUnit → SDK Java → API REST Heroku → intégrations (Google Sheets, app mobile Kotlin). Documenté en série d'articles LinkedIn Pulse (API-fication calédonienne S01/S02).",
       "highlights": [
         "tickets-resto-nc-sdk : SDK Java + API REST pour les tickets restaurant NC (neocarte.nc) — jusqu'à l'application mobile Kotlin/Android",
-        "carte-conso-plus-sdk + carte-conso-plus-api : SDK + API pour la carte de fidélité Conso+ (solde, partenaires) intégrés à Google Sheets",
+        "carte-conso-plus-sdk + carte-conso-plus-api : SDK Java (JitPack/Travis CI) + API Spring Boot (Heroku) pour la carte de fidélité Conso+ NC — solde, partenaires, magazines, intégration Google Sheets ; aboutit à une app mobile Kotlin/Android MVP (2019) puis une refonte Flutter open innovation (2020) consolidant fidélité, promotions et paiement mobile",
         "eaux-baignade-noumea : première API open source NC sur la qualité des eaux de baignade — genèse directe du projet edb-noumea",
         "BeachCagouBot : bot Twitter des eaux de baignade via CircleCI cron, précurseur du monitoring open data NC",
         "cine-city-noumea-sdk + cine-city-noumea-api : SDK + API REST pour le cinéma CineCity NC"
@@ -743,7 +743,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.5.0",
+    "version": "v1.5.1",
     "lastModified": "2026-05-24",
     "theme": "elegant"
   }
