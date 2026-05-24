@@ -359,7 +359,7 @@
       "publisher": "LinkedIn Pulse",
       "releaseDate": "2019-12-05",
       "url": "https://www.linkedin.com/pulse/so-i-can-download-my-netflix-activity-csv-what-adrien-sales/",
-      "summary": "Article explorant l'analyse de son historique de visionnage Netflix (export CSV) via Power BI et IMDbPY : visualisations des genres préférés, fidélité aux séries, sessions intensives. Illustre la valeur des données personnelles et l'enjeu du RGPD."
+      "summary": "Article explorant l'analyse de son historique de visionnage Netflix (export CSV) : Power Automate pour le traitement des données, IMDbPY pour l'enrichissement en genres, Power BI pour les visualisations (genres préférés, fidélité aux séries, sessions intensives). Illustre la valeur des données personnelles et l'enjeu du RGPD."
     },
     {
       "name": "MIT Media Lab, créativité & jeux — LinkedIn Pulse",
@@ -577,7 +577,8 @@
       "highlights": [
         "Commenté par Jess Lee, co-fondatrice de DEV/Forem",
         "Philosophie CLI-guidelines : UX first, binaire statique cross-platform, Cobra",
-        "Distribué via Homebrew/goreleaser"
+        "Distribué via Homebrew/goreleaser",
+        "Custom connector Power Automate développé pour appeler l'API Mobitag exposée sur APIGEE — rend l'envoi de SMS possible depuis n'importe quel workflow, gratuitement pour l'OPT-NC, et démontre la valeur bankable de ce type de composant"
       ],
       "url": "https://github.com/opt-nc/mobitag"
     },
