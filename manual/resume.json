@@ -697,7 +697,7 @@
       "x-date": "2018-10-17",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["peer-recognition", "interoperabilite", "api-design", "services-web", "sig", "geomatique", "comprehension-besoins", "performance", "code-quality", "curiosite", "dsi-noumea"]
+      "x-tags": ["peer-recognition", "interoperability", "api-design", "services-web", "sig", "geomatique", "comprehension-besoins", "performance", "code-quality", "curiosite", "dsi-noumea"]
     }
   ],
 
@@ -705,6 +705,7 @@
     {
       "name": "geol — CLI de gestion des End-of-Life",
       "type": "open-source",
+      "x-tags": ["devsecops", "open-source", "go", "duckdb", "maintainer", "international", "frugal"],
       "startDate": "2022-01",
       "description": "Outil open source (Go) permettant de gérer les end-of-life des composants logiciels en terminal et CI. Intègre Trivy, génère des rapports via Quarto/LaTeX et DuckDB. Conçu le week-end sur temps personnel. Hacktoberfest Maintainer Spotlight 2025.",
       "highlights": [
@@ -717,6 +718,7 @@
     {
       "name": "duckdb-brew — Extension DuckDB Community",
       "type": "open-source",
+      "x-tags": ["data", "duckdb", "open-source", "maintainer", "international"],
       "startDate": "2026-02",
       "description": "Extension officielle DuckDB Community permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge avec vibe coding + CI/CD. Listée sur duckdb.org.",
       "highlights": [
@@ -729,6 +731,7 @@
     {
       "name": "Knowledge Graph SI OPT-NC — Neo4j",
       "type": "professional",
+      "x-tags": ["architecture", "data", "neo4j", "knowledge-graph", "ai-agents", "speaker", "team-lead", "pacifique", "nouvelle-caledonie"],
       "startDate": "2021-01",
       "description": "Système de cartographie du SI de l'OPT-NC basé sur Neo4j avec release automatisée via GitHub Actions. Présenté à NODES 2022, 2023 et 2024. Enrichi d'agents IA.",
       "highlights": [
@@ -743,6 +746,7 @@
     {
       "name": "Open Data RH OPT-NC — Expérience candidat augmentée par l'IA",
       "type": "professional",
+      "x-tags": ["data", "ai-agents", "civic-tech", "huggingface", "mcp", "open-data", "team-lead", "pacifique", "nouvelle-caledonie"],
       "startDate": "2024-01",
       "description": "Programme open data autour des données RH de l'OPT-NC : référentiel des métiers, offres d'emploi, AVPS (avis de vacances de poste) et organigramme publiés en open data pour créer une expérience candidat unique. Datasets Hugging Face, agents IA et MCPs pour rendre ces données exploitables par Claude et d'autres LLMs.",
       "highlights": [
@@ -755,6 +759,7 @@
     {
       "name": "MCP OPT-NC — Offres d'emploi Hugging Face",
       "type": "professional",
+      "x-tags": ["ai-agents", "mcp", "huggingface", "open-source", "devrel", "pacifique", "nouvelle-caledonie"],
       "startDate": "2025-01",
       "description": "Model Context Protocol exposant les offres d'emploi de l'OPT-NC depuis Hugging Face. Démo publique : trouver et candidater à un poste avec Claude en 20 minutes.",
       "highlights": [
@@ -767,6 +772,7 @@
     {
       "name": "mobitag — CLI Go pour l'envoi de SMS",
       "type": "open-source",
+      "x-tags": ["go", "open-source", "api-fication", "interoperability", "mentor", "team-lead", "pacifique", "nouvelle-caledonie"],
       "startDate": "2024-06",
       "description": "CLI en Go pour envoyer des SMS via l'API Mobitag de l'OPT-NC. Distribué via Homebrew et goreleaser. Conçu avec l'équipe comme exercice pédagogique CLI-first. Série de 4 articles sur dev.to.",
       "highlights": [
@@ -780,6 +786,7 @@
     {
       "name": "ollama-models — Dataset stats téléchargements LLM",
       "type": "open-source",
+      "x-tags": ["data", "ai-agents", "duckdb", "open-source", "open-data", "international", "frugal"],
       "startDate": "2024-10",
       "description": "Dataset Kaggle exposant les statistiques de téléchargement des modèles Ollama : données collectées, stockées dans une base DuckDB, exportées en Parquet. Notebook d'exploration fourni. Croise data engineering frugal et veille sur l'écosystème LLM open source.",
       "highlights": [
@@ -792,6 +799,7 @@
     {
       "name": "edb-noumea — SDK qualité eaux de baignade",
       "type": "open-source",
+      "x-tags": ["civic-tech", "data", "python", "go", "api-fication", "scraping", "open-source", "open-data", "pacifique", "nouvelle-caledonie"],
       "startDate": "2025-09",
       "description": "Package PyPI (stack uv) scraper de la qualité des eaux de baignade à Nouméa. Écosystème complet : TUI Go/BubbleTea, dataset Kaggle, live CSV data, graphiques automatiques. v0.4.0 mai 2026.",
       "highlights": [
@@ -805,6 +813,7 @@
     {
       "name": "odata-ncl — Open Data Citoyenne Nouvelle-Calédonie",
       "type": "open-source",
+      "x-tags": ["civic-tech", "data", "python", "go", "scraping", "api-fication", "open-source", "open-data", "pacifique", "nouvelle-caledonie"],
       "startDate": "2024-01",
       "description": "Umbrella de projets data citoyenne sur les données ouvertes de Nouvelle-Calédonie. Objectif : collecter, analyser et publier des données locales à fort impact sociétal — sécurité maritime, qualité des eaux, sécurité routière. Stack complète : Python/uv, Quarto, Kaggle, GitHub Actions, TUI Go/BubbleTea.",
       "highlights": [
@@ -818,6 +827,7 @@
     {
       "name": "Catalogue d'APIs publiques OPT-NC — Vitrine & produit d'appel",
       "type": "professional",
+      "x-tags": ["interoperability", "architecture", "devrel", "api-fication", "team-lead", "pacifique", "nouvelle-caledonie"],
       "startDate": "2021-01",
       "description": "Conception et pilotage d'un catalogue d'APIs publiques gratuites exposées sur le portail APIGEE de l'OPT-NC (https://apigee-optnc-prd-api.apigee.io/). Toutes en lecture seule. Sources hétérogènes selon l'API : données statiques gérées en interne, scraping de sites sans API officielle, ou croisement avec de l'open data (data.gouv.nc). Stratégie vitrine : prouver la valeur de l'interopérabilité, attirer développeurs et entreprises, créer l'appétit pour des APIs supplémentaires ou sur-mesure. Rôle : Product Owner & architecte — l'équipe GLIA développe.",
       "highlights": [
@@ -835,6 +845,7 @@
     {
       "name": "oracle-jutils — Framework PL/SQL Oracle 11g",
       "type": "open-source",
+      "x-tags": ["data", "open-source", "java", "international"],
       "startDate": "2009-03",
       "endDate": "2012-12",
       "description": "Framework open source de packages PL/SQL pour Oracle 11g (dump LOB, CRC, MIME type, XMPP, QR codes, Twitter...). Première et unique implémentation libre. Découvert et reconnu par des équipes Oracle APEX au Texas.",
@@ -848,6 +859,7 @@
     {
       "name": "API domaine.nc — Création de l'interopérabilité des noms de domaine .NC",
       "type": "professional",
+      "x-tags": ["interoperability", "civic-tech", "api-fication", "scraping", "open-source", "java", "mobile", "flutter", "pacifique", "nouvelle-caledonie"],
       "startDate": "2022-01",
       "description": "Avant ce projet : aucune API, aucune interopérabilité possible sur les données des noms de domaine .NC. Scraping du site domaine.nc (aucune API officielle) → API exposée sur la marketplace APIGEE grand public de l'OPT-NC + dataset open data Kaggle. Effet multiplicateur : une application mobile Flutter open source développée par la communauté, publiée sur le Google Play Store et testée en crowdtesting.",
       "highlights": [
@@ -863,6 +875,7 @@
     {
       "name": "liquibase — Package Chocolatey",
       "type": "open-source",
+      "x-tags": ["devsecops", "data", "open-source", "maintainer", "international"],
       "startDate": "2013-05",
       "description": "Création du package Chocolatey officiel pour Liquibase, l'outil de migration de bases de données de référence. Package ensuite repris et maintenu par les ingénieurs DevOps de Liquibase eux-mêmes — validation directe par l'éditeur de la qualité du travail.",
       "highlights": [
@@ -875,6 +888,7 @@
     {
       "name": "auptitcafe — SDK scraping cafés & restaurants NC",
       "type": "open-source",
+      "x-tags": ["civic-tech", "data", "python", "scraping", "api-fication", "open-source", "pacifique", "nouvelle-caledonie"],
       "startDate": "2023-05",
       "description": "Package PyPI de scraping des données de cafés et restaurants en Nouvelle-Calédonie : prix, noms de plats, recettes et images. Pipeline complet de données avec GitHub Actions pour l'archivage live, dataset et notebooks Kaggle, agent chat HuggingFace et série dédiée sur Dev.to.",
       "highlights": [
@@ -888,6 +902,7 @@
     {
       "name": "SchemaCrawler — Contribution open source",
       "type": "open-source",
+      "x-tags": ["data", "open-source", "java", "maintainer", "international"],
       "startDate": "2022-01",
       "description": "Contributeur actif sur SchemaCrawler : packaging RPM/DEB, package Chocolatey (23 048 downloads), intégration Neo4j.",
       "highlights": [
@@ -900,6 +915,7 @@
     {
       "name": "Person Counter — Comptage ML pour optimiser l'occupation des salles de réunion",
       "type": "professional",
+      "x-tags": ["ai-agents", "architecture", "java", "open-source", "pacifique", "nouvelle-caledonie"],
       "startDate": "2020-11",
       "endDate": "2020-12",
       "description": "API Java de détection et comptage d'entités par vision par ordinateur, basée sur DJL (Deep Java Library) et TensorFlow. Alimentait un dashboard ELK Stack en KPIs temps réel et heatmaps pour optimiser l'occupation des salles de réunion à l'OPT-NC. Distribuée en image Docker sur DockerHub. Documentée dans un article LinkedIn Pulse.",
@@ -914,6 +930,7 @@
     {
       "name": "ColisNC — Écosystème open source suivi de colis OPT-NC",
       "type": "open-source",
+      "x-tags": ["interoperability", "civic-tech", "mobile", "api-fication", "open-source", "java", "flutter", "pacifique", "nouvelle-caledonie"],
       "startDate": "2019-09",
       "endDate": "2021-06",
       "description": "Écosystème complet de 6 composants open source construits autour du suivi de colis de l'OPT-NC : SDK Java distribué sur JitPack avec CI Travis, webapp responsive déployée en production, assistant en réalité augmentée, borne Angular 11 + Docker, bot Discord Java et prototype mobile Flutter. Illustration concrète du potentiel multiplicateur d'une API bien exposée.",
@@ -930,6 +947,7 @@
     {
       "name": "OPT-NC Fiber Eligibility — Scraper Go + API REST + Swagger",
       "type": "open-source",
+      "x-tags": ["interoperability", "civic-tech", "go", "scraping", "api-fication", "open-source", "pacifique", "nouvelle-caledonie"],
       "startDate": "2025-12",
       "description": "Scraper Go (Chromium headless) exposant l'éligibilité fibre et ADSL de l'OPT-NC sous forme d'API REST avec documentation Swagger/OpenAPI 3.0 interactive. Architecture clean (cmd/internal/pkg), dual mode CLI + API, image Docker Hub publique, Taskfile. Fait sur temps personnel — data citizen.",
       "highlights": [
@@ -943,6 +961,7 @@
     {
       "name": "API-fication calédonienne — SDKs Java & APIs REST",
       "type": "open-source",
+      "x-tags": ["interoperability", "civic-tech", "data", "api-fication", "scraping", "open-source", "open-data", "java", "umbrella", "pacifique", "nouvelle-caledonie"],
       "startDate": "2017-04",
       "endDate": "2023-07",
       "description": "Démarche systématique de création d'interopérabilité là où elle n'existe pas — deux familles. Scraping : reverse-engineering de sites sans API → SDK Java (JitPack/Travis CI) → API REST Spring Boot (Heroku) → intégrations mobiles et no-code. Open data & original : sources officielles (data.gouv.nc) ou contenu original → même stack, données durables. Série LinkedIn Pulse API-fication S01/S02 + plusieurs articles DEV.to.",
@@ -963,7 +982,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.10.1",
+    "version": "v1.11.0",
     "lastModified": "2026-05-25",
     "theme": "elegant"
   }
