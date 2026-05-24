@@ -140,6 +140,29 @@ def build_books(data_dir: Path, lite: bool) -> str:
     return "\n".join(lines)
 
 
+def build_linkedin(data_dir: Path, lite: bool) -> str:
+    linkedin_dir = data_dir / "linkedin"
+    if not linkedin_dir.exists():
+        return ""
+    lines = [section("Articles LinkedIn Pulse")]
+    total = 0
+    for user_dir in sorted(linkedin_dir.iterdir()):
+        md_files = sorted((user_dir / "articles").glob("*.md")) if (user_dir / "articles").exists() else []
+        if not md_files:
+            continue
+        lines.append(section(f"@{user_dir.name} ({len(md_files)} articles)", 3))
+        for md in md_files:
+            content = md.read_text(encoding="utf-8")
+            if lite:
+                lines.append(content.split("---\n\n")[0].strip() + "\n---")
+            else:
+                lines.append(content.strip())
+            lines.append("\n---\n")
+            total += 1
+    lines.insert(1, f"*{total} articles au total (dataset statique 2016–2021)*\n")
+    return "\n".join(lines)
+
+
 def build_huggingface(data_dir: Path, lite: bool) -> str:
     hf_dir = data_dir / "huggingface"
     if not hf_dir.exists():
@@ -190,6 +213,7 @@ def main():
         build_books(DATA, lite=args.lite),
         build_kaggle(DATA, lite=args.lite),
         build_huggingface(DATA, lite=args.lite),
+        build_linkedin(DATA, lite=args.lite),
     ]
 
     OUTPUT.write_text("\n".join(p for p in parts if p), encoding="utf-8")

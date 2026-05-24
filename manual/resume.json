@@ -113,7 +113,10 @@
         "Briques logicielles de base (composants réutilisables) toujours intégrées dans le SI de la collectivité à ce jour",
         "Mise en place de la gestion de versions : déploiement SVN on-premise puis migration intégrale vers GitHub",
         "Migration complète du SI applicatif : WebSphere/Windows/Oracle → Tomcat/Spring Boot/Linux/PostgreSQL — modernisation end-to-end de l'infrastructure et des applications métier de la collectivité",
-        "Introduction de Spring Framework puis Spring Boot et ZK Framework en remplacement des frameworks maison"
+        "Introduction de Spring Framework puis Spring Boot et ZK Framework en remplacement des frameworks maison",
+        "4 ans de SCRUM : montée en compétences progressive de chef de projet à chef de section — succès et échecs documentés et présentés au séminaire DSI 2015",
+        "Introduction des pratiques DevOps : continuous delivery pour logiciels Windows via Chocolatey et AppVeyor, migration cloud hybride expérimentée dès 2016",
+        "Analytics RGPD sur les bases de données via SchemaCrawler et ELK Stack — cartographie dynamique des colonnes à données personnelles en dashboard Kibana"
       ]
     },
     {
@@ -607,7 +610,8 @@
       "highlights": [
         "Activement maintenu — v0.4.0 mai 2026",
         "Écosystème complet : PyPI + Kaggle + GitHub Actions + TUI Go",
-        "Exemple de data citizen appliqué au quotidien"
+        "Exemple de data citizen appliqué au quotidien",
+        "Genèse documentée dans une série LinkedIn Pulse 2019 : API REST → SVG badges → Twitter bot → AR → smart city (5 articles)"
       ],
       "url": "https://pypi.org/project/edb-noumea/"
     },
