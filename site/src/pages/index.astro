@@ -178,10 +178,10 @@ function levelDots(level: string): number {
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{basics.name} — {basics.label}</title>
-    <meta name="description" content={basics.summary?.split('\n\n')[0]?.substring(0, 300)} />
+    <meta name="description" content={basics.summary?.split('\n\n')[0]?.substring(0, 160)} />
     <meta property="og:type" content="profile" />
     <meta property="og:title" content={`${basics.name} — CV & profil`} />
-    <meta property="og:description" content={basics.summary?.split('\n\n')[0]?.substring(0, 300)} />
+    <meta property="og:description" content={basics.summary?.split('\n\n')[0]?.substring(0, 160)} />
     <meta property="og:url" content="https://adriens.github.io/whoami/" />
     <meta property="og:site_name" content={basics.name} />
     <meta property="og:image" content="https://adriens.github.io/whoami/portrait.webp" />
