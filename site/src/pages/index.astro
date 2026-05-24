@@ -98,6 +98,10 @@ const topDatasets = [...kaggleDatasets]
   .filter(d => (parseInt(d.download_count) || 0) > 0)
   .slice(0, 6);
 
+const topBooks = [...books]
+  .filter(b => parseInt(b.rating) >= 4)
+  .sort((a, b) => (parseInt(b.rating) - parseInt(a.rating)) || (parseFloat(b.average_rating) - parseFloat(a.average_rating)));
+
 function formatDate(iso: string): string {
   const d = iso.substring(0, 10);
   if (!d || d === '0000-00-00') return '';
@@ -198,6 +202,7 @@ function levelDots(level: string): number {
       <a href="#professionnel" class="snav-link" title="Réalisations pro"><i class="fa-solid fa-building"></i></a>
       <a href="#distinctions" class="snav-link" title="Distinctions"><i class="fa-solid fa-trophy"></i></a>
       <a href="#articles"     class="snav-link" title="Articles DEV.to"><i class="fa-brands fa-dev"></i></a>
+      <a href="#lectures"     class="snav-link" title="Lectures"><i class="fa-solid fa-book-open"></i></a>
       <a href="#interets"     class="snav-link" title="Intérêts"><i class="fa-solid fa-heart-pulse"></i></a>
     </nav>
     <button id="pdf-btn" aria-label="Exporter en PDF" title="Exporter en PDF">
@@ -628,6 +633,28 @@ function levelDots(level: string): number {
           </div>
           <a href="https://www.kaggle.com/adriensales/datasets" target="_blank" rel="noopener" class="see-all">
             Voir tous les datasets <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </section>
+      )}
+
+      <!-- ── Lectures marquantes ───────────────────────── -->
+      {topBooks.length > 0 && (
+        <section id="lectures">
+          <h2>
+            <i class="fa-solid fa-book-open"></i> Lectures marquantes
+            <span class="section-count">{topBooks.length}</span>
+          </h2>
+          <div class="books-grid">
+            {topBooks.map((b) => (
+              <a href={b.url} target="_blank" rel="noopener" class="book-card">
+                <span class="book-stars">{'★'.repeat(parseInt(b.rating))}</span>
+                <span class="book-title">{b.title}</span>
+                <span class="book-author">{b.author}</span>
+              </a>
+            ))}
+          </div>
+          <a href="https://www.goodreads.com/user/show/124105866" target="_blank" rel="noopener" class="see-all">
+            Voir toutes les lectures <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
         </section>
       )}
@@ -1604,6 +1631,49 @@ function levelDots(level: string): number {
     letter-spacing: 0.04em;
     margin-left: 0.35rem;
     text-transform: none;
+  }
+
+  /* ── Books grid ── */
+  .books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .book-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+    text-decoration: none;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .book-card:hover {
+    border-color: color-mix(in srgb, var(--accent) 50%, transparent);
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 15%, transparent);
+  }
+
+  .book-stars {
+    font-size: 0.7rem;
+    color: #f59e0b;
+    letter-spacing: 0.05em;
+  }
+
+  .book-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.4;
+  }
+
+  .book-author {
+    font-size: 0.75rem;
+    color: var(--muted);
   }
 
   /* ── Responsive ── */
