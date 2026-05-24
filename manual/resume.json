@@ -950,7 +950,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.8.0",
+    "version": "v1.9.0",
     "lastModified": "2026-05-25",
     "theme": "elegant"
   }
