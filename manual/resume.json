@@ -66,16 +66,6 @@
         "network": "Chocolatey",
         "username": "adriens",
         "url": "https://community.chocolatey.org/profiles/adriens"
-      },
-      {
-        "network": "GitHub",
-        "username": "opt-nc",
-        "url": "https://github.com/opt-nc"
-      },
-      {
-        "network": "Dev.to",
-        "username": "optnc",
-        "url": "https://dev.to/optnc"
       }
     ]
   },
@@ -94,7 +84,7 @@
         "Stabilisation et rationalisation du bus applicatif Kafka pour un SI hautement disponible et performant",
         "Culture DevSecOps complète : GitHub Actions, Quarkus, conteneurisation Podman/Docker, shift-left security avec geol (open source, 1 300+ downloads) intégrant Trivy, Quarto et DuckDB",
         "Déploiement et animation du portail API APIGEE grand public : conception, DevRel, vidéos et documentation",
-        "Animation des organisations open data OPT-NC sur Kaggle (https://www.kaggle.com/optnouvellecaldonie) et Hugging Face (https://huggingface.co/opt-nc) : datasets, notebooks, applications Gradio et MCPs — démo publique : candidature via MCP Claude en 20 minutes",
+        "Animation des organisations OPT-NC sur GitHub (https://github.com/opt-nc), Dev.to (https://dev.to/optnc), Kaggle (https://www.kaggle.com/optnouvellecaldonie) et Hugging Face (https://huggingface.co/opt-nc) : code open source, articles techniques, datasets, notebooks, applications Gradio et MCPs — démo publique : candidature via MCP Claude en 20 minutes",
         "CLI mobitag en Go pour envoyer des SMS via l'API Mobitag — distribué via Homebrew/goreleaser, conçu avec l'équipe comme exercice pédagogique",
         "Design, développement et livraison de l'API domaine.nc (noms de domaine .NC) exposée sur la marketplace APIGEE — a permis la création d'une application mobile open source Flutter par la communauté, publiée sur le Google Play Store, testée en crowdtesting via Hightest/Testeum, avec 25 releases et une playlist YouTube dédiée",
         "Mentorat de proximité : stagiaires accueillis dans le bureau, embarqués sur de vrais projets dès le premier jour — plusieurs recrutés en CDI à l'issue",
@@ -1010,7 +1000,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.12.0",
+    "version": "v1.12.1",
     "lastModified": "2026-05-25",
     "theme": "elegant"
   }
