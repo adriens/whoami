@@ -348,6 +348,20 @@
 
   "publications": [
     {
+      "name": "Paroles d'agent — Adrien SALES (OPT-NC)",
+      "publisher": "YouTube / OPT-NC",
+      "releaseDate": "2020-02",
+      "url": "https://www.youtube.com/watch?v=g2JuEcwPvgE",
+      "summary": "Épisode de la série interne 'Paroles d'agent' publiée sur la chaîne YouTube officielle de l'OPT-NC. Présente son rôle d'intégrateur de données à la DSI, sa vision de la collaboration métier/IT, son meilleur succès (débloquer l'adoption d'un logiciel en travaillant main dans la main avec les métiers) et sa devise : 'No excuse'."
+    },
+    {
+      "name": "Analyse de l'historique Netflix avec Power BI — LinkedIn Pulse",
+      "publisher": "LinkedIn Pulse",
+      "releaseDate": "2019-12-05",
+      "url": "https://www.linkedin.com/pulse/so-i-can-download-my-netflix-activity-csv-what-adrien-sales/",
+      "summary": "Article explorant l'analyse de son historique de visionnage Netflix (export CSV) via Power BI et IMDbPY : visualisations des genres préférés, fidélité aux séries, sessions intensives. Illustre la valeur des données personnelles et l'enjeu du RGPD."
+    },
+    {
       "name": "MIT Media Lab, créativité & jeux — LinkedIn Pulse",
       "publisher": "LinkedIn Pulse",
       "releaseDate": "2019-11-07",
