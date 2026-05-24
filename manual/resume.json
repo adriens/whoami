@@ -645,6 +645,23 @@
       "url": "https://github.com/adriens/odata-ncl"
     },
     {
+      "name": "Catalogue d'APIs publiques OPT-NC — Vitrine & produit d'appel",
+      "type": "professional",
+      "startDate": "2021-01",
+      "description": "Conception et pilotage d'un catalogue d'APIs publiques gratuites exposées sur le portail APIGEE de l'OPT-NC (https://apigee-optnc-prd-api.apigee.io/). Toutes en lecture seule. Sources mixtes : données internes OPT-NC et sources scrapées. Stratégie vitrine : prouver la valeur de l'interopérabilité, attirer développeurs et entreprises, créer l'appétit pour des APIs supplémentaires ou sur-mesure. Rôle : Product Owner & architecte — l'équipe GLIA développe.",
+      "highlights": [
+        "Localisation des boîtes postales : géolocalisation de toutes les BP en NC — a donné lieu à une réutilisation applicative par la communauté",
+        "Suivi de colis : API de tracking OPT-NC exposée publiquement — genèse de l'écosystème colisnc (SDK Java, webapp, AR, Discord, mobile Flutter)",
+        "Noms de domaine .NC : scraping du site domaine.nc → première et unique API publique sur les domaines .NC — app mobile Flutter tierce (25 releases, Google Play Store)",
+        "Pharmacies de garde : scraping → API exposant les pharmacies d'astreinte en NC — information critique pour les usagers en dehors des heures ouvrées",
+        "Validateur de numéro de téléphone : validation des numéros NC (format, opérateur) — donnée interne OPT-NC",
+        "RIDET : API sur le registre des entreprises actives en NC — données data.gouv.nc, 2 articles DEV.to",
+        "Référentiel des agences : localisation et informations de toutes les agences OPT-NC",
+        "Transitaires : API listant les transitaires habilités à gérer les taxes de colis de fret en NC — usage professionnel direct"
+      ],
+      "url": "https://apigee-optnc-prd-api.apigee.io/"
+    },
+    {
       "name": "oracle-jutils — Framework PL/SQL Oracle 11g",
       "type": "open-source",
       "startDate": "2009-03",
@@ -774,7 +791,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.6.4",
+    "version": "v1.7.0",
     "lastModified": "2026-05-24",
     "theme": "elegant"
   }
