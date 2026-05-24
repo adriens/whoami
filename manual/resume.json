@@ -405,12 +405,12 @@
     {
       "name": "Architecture & Développement",
       "level": "Expert",
-      "keywords": ["Architecture SI", "Spring Boot", "Quarkus", "Java", "Go", "Maven", "Interopérabilité", "API Design", "APIGEE", "ZK Framework", "picocli", "Cobra (Go)", "BubbleTea"]
+      "keywords": ["Architecture SI", "Spring Boot", "Quarkus", "Java", "Go", "Maven", "Interopérabilité", "API Design", "APIGEE", "ZK Framework", "picocli", "Cobra (Go)", "BubbleTea", "Flutter"]
     },
     {
       "name": "Data Engineering",
       "level": "Avancé",
-      "keywords": ["Apache Airflow", "Apache Kafka", "MinIO", "Apache Superset", "Lakehouse", "ETL/ELT", "Debezium", "OpenSearch"]
+      "keywords": ["Apache Airflow", "Apache Kafka", "MinIO", "Apache Superset", "Lakehouse", "ETL/ELT", "Debezium", "OpenSearch", "ELK Stack", "Elasticsearch", "Kibana"]
     },
     {
       "name": "Bases de données",
@@ -420,7 +420,12 @@
     {
       "name": "DevSecOps",
       "level": "Avancé",
-      "keywords": ["GitHub Actions", "GitHub Issues", "Docker", "Podman", "Kubernetes", "Trivy", "Shift-left security", "geol", "goreleaser"]
+      "keywords": ["GitHub Actions", "GitHub Issues", "Docker", "Podman", "Kubernetes", "Trivy", "Shift-left security", "geol", "goreleaser", "RGPD"]
+    },
+    {
+      "name": "Microsoft Power Platform",
+      "level": "Intermédiaire",
+      "keywords": ["Power BI", "Power Automate", "Microsoft Flow", "Custom connectors APIGEE", "No-code automation", "Data storytelling"]
     },
     {
       "name": "Open Data & Data Science",
