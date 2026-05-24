@@ -695,6 +695,20 @@
       "url": "https://community.chocolatey.org/packages/schemacrawler/17.6.1"
     },
     {
+      "name": "Person Counter — Comptage ML pour optimiser l'occupation des salles de réunion",
+      "type": "professional",
+      "startDate": "2020-11",
+      "endDate": "2020-12",
+      "description": "API Java de détection et comptage d'entités par vision par ordinateur, basée sur DJL (Deep Java Library) et TensorFlow. Alimentait un dashboard ELK Stack en KPIs temps réel et heatmaps pour optimiser l'occupation des salles de réunion à l'OPT-NC. Distribuée en image Docker sur DockerHub. Documentée dans un article LinkedIn Pulse.",
+      "highlights": [
+        "DJL + TensorFlow : inférence ML en Java sans dépendance Python — intégration native Spring Boot, image Docker publique sur DockerHub",
+        "Dashboard Kibana temps réel : KPIs d'occupation + heatmaps issues des flux API — aide à la décision sur la gestion des espaces de travail",
+        "API REST avec filtres par classe d'objet et seuil de confiance, endpoints de visualisation, métadonnées et analyse",
+        "Article LinkedIn Pulse publié : démonstration de la valeur métier du ML appliqué à l'optimisation des espaces"
+      ],
+      "url": "https://github.com/adriens/person-counter-api"
+    },
+    {
       "name": "ColisNC — Écosystème open source suivi de colis OPT-NC",
       "type": "open-source",
       "startDate": "2019-09",
@@ -729,7 +743,7 @@
 
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/resume.json",
-    "version": "v1.4.0",
+    "version": "v1.5.0",
     "lastModified": "2026-05-24",
     "theme": "elegant"
   }
