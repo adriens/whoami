@@ -618,7 +618,7 @@
         "nouvelle-caledonie"
       ],
       "url": "https://www.kaggle.com/optnouvellecaldonie",
-      "summary": "Animation des organisations OPT-NC sur Kaggle (kaggle.com/optnouvellecaldonie) et Hugging Face (huggingface.co/opt-nc) : datasets open data, notebooks, applications Gradio et MCPs. 27 datasets publiés, 81 notebooks de démonstration. SDKs Python de scraping (edb-noumea, auptitcafe sur PyPI)."
+      "summary": "Animation des organisations OPT-NC sur Kaggle (kaggle.com/optnouvellecaldonie) et Hugging Face (huggingface.co/opt-nc) : datasets open data, notebooks, applications Gradio et MCPs. 27 datasets publiés, 81 notebooks de démonstration. SDKs Python de scraping publiés sur PyPI (edb-noumea, auptitcafe, aquavena-sdk)."
     }
   ],
   "skills": [
@@ -1733,6 +1733,27 @@
       "url": "https://github.com/adriens/optnc-fiber-eligibility"
     },
     {
+      "name": "Generative Art — Temps d'attente agences OPT-NC",
+      "type": "professional",
+      "x-tags": [
+        "api-fication",
+        "devrel",
+        "open-source",
+        "opt-nc",
+        "data",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
+      "startDate": "2020-01",
+      "description": "Écosystème API + front-end créatif autour des temps d'attente en agence OPT-NC. L'API REST (opt-temps-attente-agences-api) expose les données en temps réel ; le front-end web (web-generative-art-temps-attente-opt) les consomme pour produire du digital art génératif dynamique — les courbes et animations évoluent selon l'affluence réelle des agences.",
+      "highlights": [
+        "opt-temps-attente-agences-api : API REST conteneurisée — **102 pulls** Docker Hub",
+        "web-generative-art-temps-attente-opt : front-end generative art data-driven — **278 pulls** Docker Hub",
+        "Même source de données réutilisée dans le LED Matrix IoT (Hackster.io, 2024) et les projets tutorés UNC"
+      ],
+      "url": "https://hub.docker.com/r/rastadidi/web-generative-art-temps-attente-opt"
+    },
+    {
       "name": "Post-Office Wait Time LED Matrix — Affichage temps d'attente IoT OPT-NC",
       "type": "professional",
       "x-tags": [
@@ -1830,7 +1851,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.15.0",
+    "version": "v1.15.1",
     "lastModified": "2026-05-25",
     "theme": "elegant"
   }
