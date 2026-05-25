@@ -1,0 +1,10 @@
+slug,name,url,description,last_updated,pull_count,star_count
+optnc-fiber-eligibility,optnc-fiber-eligibility,https://hub.docker.com/r/rastadidi/optnc-fiber-eligibility,Un scrapper Go en API pour tester votre éligibilité à la Fibre Optique en Nouvelle-Calédonie,2025-12-16,439,0
+web-generative-art-temps-attente-opt,web-generative-art-temps-attente-opt,https://hub.docker.com/r/rastadidi/web-generative-art-temps-attente-opt,generative art experience,2020-12-10,278,0
+rfc4180-validator,rfc4180-validator,https://hub.docker.com/r/rastadidi/rfc4180-validator,CSV Testing,2019-05-17,219,0
+ridetnc-api,ridetnc-api,https://hub.docker.com/r/rastadidi/ridetnc-api,API for Ridet in New-Caledonia. See https://www.katacoda.com/rastadidi/courses/open-data/ridet-nc,2021-08-08,136,0
+colisnc-api,colisnc-api,https://hub.docker.com/r/rastadidi/colisnc-api,,2020-11-16,132,0
+kalolo-api,kalolo-api,https://hub.docker.com/r/rastadidi/kalolo-api,,2020-08-10,127,0
+opt-temps-attente-agences-api,opt-temps-attente-agences-api,https://hub.docker.com/r/rastadidi/opt-temps-attente-agences-api,,2020-12-10,102,0
+person-counter-api,person-counter-api,https://hub.docker.com/r/rastadidi/person-counter-api,See https://github.com/adriens/person-counter-api,2020-11-18,91,0
+emploi-nc,emploi-nc,https://hub.docker.com/r/rastadidi/emploi-nc,Offres d'emploi en Nouvelle-Calédonie,2020-04-01,0,0

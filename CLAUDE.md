@@ -31,6 +31,8 @@ data/
   huggingface/rastadidi/  # datasets + spaces HuggingFace
   github/adriens/         # repos publics non-forks (repos/*.md + _index.csv + _stats.json)
   hackster/adriensales/   # projets Hackster.io (projects/*.md + _index.csv + _stats.json)
+  dockerhub/rastadidi/   # images Docker Hub (images/*.md + _index.csv + _stats.json)
+  pypi/rastadidi/        # packages PyPI (packages/*.md + _index.csv + _stats.json)
   linkedin/adrien-sales/
     articles/             # articles LinkedIn Pulse (*.md)
     recommendations/      # recos LinkedIn (*.md + _index.csv) — miroir de references[] dans resume.json
@@ -59,6 +61,8 @@ task fetch-kaggle           # Datasets Kaggle
 task fetch-hf               # Datasets & spaces HuggingFace (rastadidi)
 task fetch-github           # Repos GitHub publics non-forks (adriens)
 task fetch-hackster         # Projets Hackster.io @adriensales (Algolia API + HTML scraping)
+task fetch-dockerhub        # Images Docker Hub @rastadidi (Hub API v2)
+task fetch-pypi             # Packages PyPI @rastadidi (PyPI JSON API)
 task build-knowledge-base   # Générer output/knowledge-base.md (full)
 task build-knowledge-base-lite  # Générer output/knowledge-base.md (lite)
 ```

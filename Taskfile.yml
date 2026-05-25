@@ -108,6 +108,26 @@ tasks:
     cmds:
       - task: fetch-hackster-adriensales
 
+  fetch-dockerhub-rastadidi:
+    desc: Provisionner les images Docker Hub @rastadidi
+    cmds:
+      - uv run scripts/fetch-dockerhub.py --user rastadidi
+
+  fetch-dockerhub:
+    desc: Provisionner tous les comptes Docker Hub (sequentiel)
+    cmds:
+      - task: fetch-dockerhub-rastadidi
+
+  fetch-pypi-rastadidi:
+    desc: Provisionner les packages PyPI @rastadidi
+    cmds:
+      - uv run scripts/fetch-pypi-packages.py --user rastadidi --packages aquavena-sdk edb-noumea auptitcafe
+
+  fetch-pypi:
+    desc: Provisionner tous les packages PyPI (sequentiel)
+    cmds:
+      - task: fetch-pypi-rastadidi
+
   build-knowledge-base:
     desc: Generer output/knowledge-base.md pour injection NotebookLM (full)
     cmds:
@@ -128,6 +148,8 @@ tasks:
       - task: fetch-hf
       - task: fetch-github
       - task: fetch-hackster
+      - task: fetch-dockerhub
+      - task: fetch-pypi
       - task: build-knowledge-base
 
   site-install:
