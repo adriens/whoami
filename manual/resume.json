@@ -1,6 +1,5 @@
 {
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/schema.json",
-
   "basics": {
     "name": "Adrien Sales",
     "label": "Architecte SI & Product Builder | Modélisation · Data · IA Agents | LEAN & Innovation frugale | DevRel",
@@ -75,12 +74,24 @@
       }
     ]
   },
-
   "work": [
     {
       "name": "OPT-NC (Office des Postes et Télécommunications de Nouvelle-Calédonie)",
       "position": "Chef de Section GLIA — Génie Logiciel Inter-Applicatif",
-      "x-tags": ["architecture", "data", "devsecops", "devrel", "management", "interoperability", "ai-agents", "team-lead", "mentor", "knowledge-graph", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "architecture",
+        "data",
+        "devsecops",
+        "devrel",
+        "management",
+        "interoperability",
+        "ai-agents",
+        "team-lead",
+        "mentor",
+        "knowledge-graph",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "url": "https://www.opt.nc",
       "startDate": "2019-04",
       "summary": "Pilotage de la section GLIA (6 personnes) : interopérabilité du SI, data engineering, DevSecOps, cartographie du SI par knowledge graph, Developer Relations et innovation. Management d'équipe, formation de stagiaires et mentorat. L'interopérabilité comme posture est une signature de carrière depuis 2013+ — déjà identifiée par mes pairs à la DSI de Nouméa, formalisée aujourd'hui dans le rôle GLIA (Génie Logiciel Inter-Applicatif) et l'enseignement en Master MIAGE.",
@@ -102,7 +113,18 @@
     {
       "name": "DSI Ville de Nouméa",
       "position": "Architecte Logiciel / Chef de Section Développement & Maintenance",
-      "x-tags": ["architecture", "management", "team-lead", "interoperability", "devsecops", "java", "spring", "data", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "architecture",
+        "management",
+        "team-lead",
+        "interoperability",
+        "devsecops",
+        "java",
+        "spring",
+        "data",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "url": "https://www.noumea.nc",
       "startDate": "2010-12",
       "endDate": "2019-03",
@@ -123,7 +145,14 @@
     {
       "name": "Docaposte",
       "position": "DBA — Oracle & PostgreSQL",
-      "x-tags": ["data", "devsecops", "architecture", "java", "high-availability", "international"],
+      "x-tags": [
+        "data",
+        "devsecops",
+        "architecture",
+        "java",
+        "high-availability",
+        "international"
+      ],
       "url": "https://www.docaposte.com",
       "startDate": "2008-10",
       "endDate": "2010-11",
@@ -137,7 +166,14 @@
     {
       "name": "Experian Decision Analytics",
       "position": "Consultant Développeur — Couche Base de Données",
-      "x-tags": ["data", "architecture", "fintech", "java", "international", "monaco"],
+      "x-tags": [
+        "data",
+        "architecture",
+        "fintech",
+        "java",
+        "international",
+        "monaco"
+      ],
       "url": "https://www.experian.com/decision-analytics/",
       "startDate": "2003-09",
       "endDate": "2008-09",
@@ -152,7 +188,11 @@
     {
       "name": "Vice-Rectorat de Nouvelle-Calédonie",
       "position": "Professeur Vacataire de Mathématiques",
-      "x-tags": ["pedagogy", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "pedagogy",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "url": "https://www.ac-noumea.nc",
       "startDate": "1999-09",
       "endDate": "2001-08",
@@ -163,12 +203,17 @@
       ]
     }
   ],
-
   "volunteer": [
     {
       "organization": "endoflife.date — Projet open source communautaire",
       "position": "Contributeur de données",
-      "x-tags": ["devsecops", "open-source", "maintainer", "neo4j", "international"],
+      "x-tags": [
+        "devsecops",
+        "open-source",
+        "maintainer",
+        "neo4j",
+        "international"
+      ],
       "url": "https://endoflife.date",
       "startDate": "2021-01",
       "summary": "Contribution de données au projet endoflife.date, référence mondiale collaborative pour le suivi des dates de fin de vie des logiciels et composants. Développement de l'intégration Neo4j (endoflife.date-neo4j) référencée dans le wiki officiel du projet aux côtés de Dynatrace et Shodan.",
@@ -181,7 +226,15 @@
     {
       "organization": "Station N — Commission Data & IA",
       "position": "Membre actif — Conférencier",
-      "x-tags": ["devrel", "data", "ai-agents", "speaker", "knowledge-graph", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "devrel",
+        "data",
+        "ai-agents",
+        "speaker",
+        "knowledge-graph",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "url": "https://www.station-n.nc",
       "startDate": "2022-01",
       "summary": "Participation active à la commission Data & IA de la Station N, hub d'open innovation et écosystème tech de référence en Nouvelle-Calédonie. Présentations régulières sur les projets data et IA de l'OPT-NC et de l'université, contribution à la diffusion des pratiques data engineering et IA dans l'écosystème local dans une démarche d'open innovation.",
@@ -194,7 +247,15 @@
     {
       "organization": "Université de Nouvelle-Calédonie — Master MIAGE (IAE)",
       "position": "Enseignant vacataire — Module Interopérabilité des SI",
-      "x-tags": ["pedagogy", "interoperability", "mentor", "open-source", "open-data", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "pedagogy",
+        "interoperability",
+        "mentor",
+        "open-source",
+        "open-data",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "url": "https://unc.nc",
       "startDate": "2025-03",
       "summary": "Enseignement exercé entièrement sur temps personnel, le soir après le travail. Conception et animation du module Interopérabilité des Systèmes d'Information en Master MIAGE. Approche pédagogique inspirée de Montessori : learning by doing, projets réels open source et open data, syllabus public sur GitHub, ressources cloud publiques. Feedbacks et suivi de promotion gérés en données (repo GitHub dédié).",
@@ -211,7 +272,14 @@
     {
       "organization": "data.gouv.nc — Portail open data officiel de Nouvelle-Calédonie",
       "position": "Contributeur civic data — Réutilisations open data",
-      "x-tags": ["civic-tech", "open-data", "data", "frugal", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "civic-tech",
+        "open-data",
+        "data",
+        "frugal",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "url": "https://data.gouv.nc",
       "startDate": "2024-01",
       "summary": "Publication de réutilisations sur le portail open data officiel de Nouvelle-Calédonie : analyse et visualisation de données publiques locales à fort impact sociétal (sécurité maritime, qualité des eaux de baignade, sécurité routière). Démarche #techforgood et innovation frugale.",
@@ -222,7 +290,6 @@
       ]
     }
   ],
-
   "education": [
     {
       "institution": "CERAM Business School (Skema) — Sophia Antipolis",
@@ -233,7 +300,9 @@
       "startDate": "2002-09",
       "endDate": "2003-09",
       "score": "",
-      "courses": ["Stage de fin d'études en data mining, en collaboration avec l'I3S (laboratoire CNRS — Sophia Antipolis) et Experian Decision Analytics — transformé en embauche directe dès la fin du stage"]
+      "courses": [
+        "Stage de fin d'études en data mining, en collaboration avec l'I3S (laboratoire CNRS — Sophia Antipolis) et Experian Decision Analytics — transformé en embauche directe dès la fin du stage"
+      ]
     },
     {
       "institution": "Université de Nice Sophia-Antipolis",
@@ -243,7 +312,9 @@
       "startDate": "2001-09",
       "endDate": "2002-07",
       "score": "",
-      "courses": ["Stage de recherche : INRIA Sophia Antipolis (https://www.inria.fr) — implémentation C++ de LINPACK, bibliothèque de référence en algèbre linéaire numérique haute performance"]
+      "courses": [
+        "Stage de recherche : INRIA Sophia Antipolis (https://www.inria.fr) — implémentation C++ de LINPACK, bibliothèque de référence en algèbre linéaire numérique haute performance"
+      ]
     },
     {
       "institution": "Université de Nice Sophia-Antipolis",
@@ -289,108 +360,186 @@
       ]
     }
   ],
-
   "awards": [
     {
       "title": "Extension officielle DuckDB Community — brew",
       "date": "2026-02",
       "awarder": "DuckDB",
-      "x-tags": ["open-source", "data", "duckdb", "maintainer", "recognition", "international"],
+      "x-tags": [
+        "open-source",
+        "data",
+        "duckdb",
+        "maintainer",
+        "recognition",
+        "international"
+      ],
       "summary": "Extension brew listée sur duckdb.org/community_extensions permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge, activement maintenue. https://duckdb.org/community_extensions/extensions/brew"
     },
     {
       "title": "Hacktoberfest Maintainer Spotlight — geol",
       "date": "2025-10",
       "awarder": "DEV Community / Hacktoberfest",
-      "x-tags": ["open-source", "devsecops", "maintainer", "recognition", "go", "international"],
+      "x-tags": [
+        "open-source",
+        "devsecops",
+        "maintainer",
+        "recognition",
+        "go",
+        "international"
+      ],
       "summary": "Mise en avant officielle comme mainteneur open source pour le projet geol lors du Hacktoberfest 2025. https://dev.to/adriens/geol-the-cli-to-efficiently-manage-eols-like-a-boss-3hne"
     },
     {
       "title": "Speaker — NODES 2024 (Conférence internationale Neo4j)",
       "date": "2024-11",
       "awarder": "Neo4j",
-      "x-tags": ["speaker", "neo4j", "knowledge-graph", "ai-agents", "architecture", "international"],
+      "x-tags": [
+        "speaker",
+        "neo4j",
+        "knowledge-graph",
+        "ai-agents",
+        "architecture",
+        "international"
+      ],
       "summary": "Présentation : Cloud-Native Knowledge Graph Automation & AI Agents — cartographie du SI OPT-NC avec Neo4j, release automatisée et agents IA. https://dev.to/adriens/nodes24-a-practical-path-to-cloud-native-knowledge-graph-automation-ai-agents-2ejh"
     },
     {
       "title": "Notebooks Expert — Kaggle",
       "date": "2024-01",
       "awarder": "Kaggle (Google)",
-      "x-tags": ["data", "python", "recognition", "international"],
+      "x-tags": [
+        "data",
+        "python",
+        "recognition",
+        "international"
+      ],
       "summary": "Top 5% mondial des contributeurs Kaggle — rang 3 005 / 62 173. 6 médailles de bronze, 27 datasets publiés, 81 notebooks, participation régulière aux hackathons."
     },
     {
       "title": "Speaker — PMI Horizons Nouméa (Project Management Institute)",
       "date": "2024-01",
       "awarder": "PMI Nouvelle-Calédonie",
-      "x-tags": ["speaker", "neo4j", "knowledge-graph", "ai-agents", "management", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "speaker",
+        "neo4j",
+        "knowledge-graph",
+        "ai-agents",
+        "management",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "summary": "Talk : Neo4j & AI Agents et impacts projets — présentation de l'usage des knowledge graphs et agents IA dans la gestion de projets SI. https://www.youtube.com/watch?v=ErBCyOrup3M"
     },
     {
       "title": "Speaker — NODES 2023 (Conférence internationale Neo4j)",
       "date": "2023-11",
       "awarder": "Neo4j",
-      "x-tags": ["speaker", "neo4j", "knowledge-graph", "open-data", "civic-tech", "international"],
+      "x-tags": [
+        "speaker",
+        "neo4j",
+        "knowledge-graph",
+        "open-data",
+        "civic-tech",
+        "international"
+      ],
       "summary": "Présentation : Discover a Country's UN SDGs Concerns w/ Open Metadata on Neo4j — analyse des préoccupations ODD des Nations Unies via open data et knowledge graph. https://dev.to/adriens/discover-a-country-un-sdgs-concerns-w-open-metadata-on-neo4j-13df"
     },
     {
       "title": "Speaker — Elastic Paris Meetup #58",
       "date": "2023-01",
       "awarder": "Elastic",
-      "x-tags": ["speaker", "data", "devsecops", "elk-stack", "international"],
+      "x-tags": [
+        "speaker",
+        "data",
+        "devsecops",
+        "elk-stack",
+        "international"
+      ],
       "summary": "Talk : Linter et cartographier ses bases de données en continu avec SchemaCrawler et Elasticsearch. https://www.youtube.com/watch?v=5B5mGAeaHwA"
     },
     {
       "title": "Speaker — NODES 2022 (Conférence internationale Neo4j)",
       "date": "2022-11",
       "awarder": "Neo4j",
-      "x-tags": ["speaker", "neo4j", "knowledge-graph", "architecture", "international"],
+      "x-tags": [
+        "speaker",
+        "neo4j",
+        "knowledge-graph",
+        "architecture",
+        "international"
+      ],
       "summary": "Talk : IT Holism at NODES 2022 — première présentation du knowledge graph SI de l'OPT-NC, vision holistique du SI par le graphe. https://dev.to/optnc/our-speech-about-it-holism-at-nodes22-1bpl"
     },
     {
       "title": "Speaker — Talanoa 2022 / Pacific DataViz Challenge (SPC)",
       "date": "2022-11",
       "awarder": "Pacific Community — SPC",
-      "x-tags": ["speaker", "data", "open-data", "neo4j", "pacifique", "international"],
+      "x-tags": [
+        "speaker",
+        "data",
+        "open-data",
+        "neo4j",
+        "pacifique",
+        "international"
+      ],
       "summary": "Présentation sur la puissance de la dataviz pour le Pacific DataViz Challenge, événement régional organisé par la Commission du Pacifique Sud. Talk sur Neo4j et Gephi comme outils de visualisation de données au service de la prise de décision. https://dev.to/optnc/talanoa-2022-the-power-of-data-visualization-1fgn"
     },
     {
       "title": "Arctic Code Vault Contributor — GitHub",
       "date": "2020-07",
       "awarder": "GitHub",
-      "x-tags": ["open-source", "recognition", "international"],
+      "x-tags": [
+        "open-source",
+        "recognition",
+        "international"
+      ],
       "summary": "Code archivé dans le GitHub Arctic Code Vault pour préservation millénaire."
     },
     {
       "title": "Admissible au CAPES externe de Mathématiques",
       "date": "2000-07",
       "awarder": "Ministère de l'Éducation Nationale",
-      "x-tags": ["pedagogy", "recognition"],
+      "x-tags": [
+        "pedagogy",
+        "recognition"
+      ],
       "summary": "Admissible au CAPES externe de Mathématiques (concours national sélectif) pendant la période d'enseignement en collège en Nouvelle-Calédonie (1999–2001)."
     }
   ],
-
   "certificates": [
     {
       "name": "Scrum Master",
       "date": "2013-01",
       "issuer": "Scrum Alliance",
-      "x-tags": ["management", "scrum", "recognition"]
+      "x-tags": [
+        "management",
+        "scrum",
+        "recognition"
+      ]
     },
     {
       "name": "Product Owner",
       "date": "2014-01",
       "issuer": "Scrum Alliance",
-      "x-tags": ["management", "scrum", "product", "recognition"]
+      "x-tags": [
+        "management",
+        "scrum",
+        "product",
+        "recognition"
+      ]
     }
   ],
-
   "publications": [
     {
       "name": "Paroles d'agent — Adrien SALES (OPT-NC)",
       "publisher": "YouTube / OPT-NC",
       "releaseDate": "2020-02",
-      "x-tags": ["devrel", "interview", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "devrel",
+        "interview",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "url": "https://www.youtube.com/watch?v=g2JuEcwPvgE",
       "summary": "Épisode de la série interne 'Paroles d'agent' publiée sur la chaîne YouTube officielle de l'OPT-NC. Présente son rôle d'intégrateur de données à la DSI, sa vision de la collaboration métier/IT, son meilleur succès (débloquer l'adoption d'un logiciel en travaillant main dans la main avec les métiers) et sa devise : 'No excuse'."
     },
@@ -398,7 +547,11 @@
       "name": "Analyse de l'historique Netflix avec Power BI — LinkedIn Pulse",
       "publisher": "LinkedIn Pulse",
       "releaseDate": "2019-12-05",
-      "x-tags": ["data", "devrel", "power-platform"],
+      "x-tags": [
+        "data",
+        "devrel",
+        "power-platform"
+      ],
       "url": "https://www.linkedin.com/pulse/so-i-can-download-my-netflix-activity-csv-what-adrien-sales/",
       "summary": "Article explorant l'analyse de son historique de visionnage Netflix (export CSV) : Power Automate pour le traitement des données, IMDbPY pour l'enrichissement en genres, Power BI pour les visualisations (genres préférés, fidélité aux séries, sessions intensives). Illustre la valeur des données personnelles et l'enjeu du RGPD."
     },
@@ -406,7 +559,11 @@
       "name": "MIT Media Lab, créativité & jeux — LinkedIn Pulse",
       "publisher": "LinkedIn Pulse",
       "releaseDate": "2019-11-07",
-      "x-tags": ["devrel", "pedagogy", "innovation"],
+      "x-tags": [
+        "devrel",
+        "pedagogy",
+        "innovation"
+      ],
       "url": "https://www.linkedin.com/pulse/how-did-netflix-put-my-heart-brain-fire-abstract-art-design-sales/",
       "summary": "Réflexion sur la créativité, le jeu et le design inspirée du MIT Media Lab. À partir d'un documentaire Netflix sur l'art abstrait, l'article explore comment les principes du jeu et du design peuvent nourrir la pensée créative et l'innovation en entreprise."
     },
@@ -414,7 +571,14 @@
       "name": "206 articles techniques — Dev.to",
       "publisher": "Dev.to",
       "releaseDate": "2020-08-04",
-      "x-tags": ["devrel", "data", "architecture", "ai-agents", "open-source", "international"],
+      "x-tags": [
+        "devrel",
+        "data",
+        "architecture",
+        "ai-agents",
+        "open-source",
+        "international"
+      ],
       "url": "https://dev.to/adriens/",
       "summary": "Publication régulière d'articles techniques en anglais et français sur le data engineering, Neo4j, DevOps, open data, IA et l'interopérabilité des SI. 25 badges dont Five Year Club, Hacktoberfest 2025, Google Gemini Challenge, GitHub Copilot Challenge. 1 463 commentaires écrits."
     },
@@ -422,7 +586,15 @@
       "name": "Chaîne YouTube DevOPS-LAB",
       "publisher": "YouTube",
       "releaseDate": "2020-01-01",
-      "x-tags": ["devrel", "devsecops", "data", "neo4j", "mcp", "open-data", "international"],
+      "x-tags": [
+        "devrel",
+        "devsecops",
+        "data",
+        "neo4j",
+        "mcp",
+        "open-data",
+        "international"
+      ],
       "url": "https://www.youtube.com/channel/UCcbQ_euR84DKOf_-ksI5_GQ",
       "summary": "284 vidéos techniques en français et anglais : démonstrations live, DevOps, data engineering, Neo4j, MCP, open data. 189 abonnés. Inclut des détournements humoristiques de films (VO russe/allemand sous-titrés) pour vulgariser des concepts tech."
     },
@@ -430,90 +602,288 @@
       "name": "Open Data OPT-NC sur Kaggle et Hugging Face",
       "publisher": "Kaggle / Hugging Face",
       "releaseDate": "2022-01-01",
-      "x-tags": ["open-data", "data", "ai-agents", "devrel", "huggingface", "python", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "open-data",
+        "data",
+        "ai-agents",
+        "devrel",
+        "huggingface",
+        "python",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "url": "https://www.kaggle.com/optnouvellecaldonie",
       "summary": "Animation des organisations OPT-NC sur Kaggle (kaggle.com/optnouvellecaldonie) et Hugging Face (huggingface.co/opt-nc) : datasets open data, notebooks, applications Gradio et MCPs. 27 datasets publiés, 81 notebooks de démonstration. SDKs Python de scraping (edb-noumea, auptitcafe sur PyPI)."
     }
   ],
-
   "skills": [
     {
       "name": "Méthode signature : API-fication",
       "level": "Expert",
-      "keywords": ["Identification de manques d'interopérabilité", "Scraping de sources sans API", "Exploitation open data", "Packaging SDK (Java, Python, Go)", "Exposition API REST + OpenAPI/Swagger", "Catalogue d'APIs publiques (APIGEE)", "Démultiplication communautaire (apps mobiles, bots, AR, MCPs, dashboards)", "Pattern validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa"]
+      "keywords": [
+        "Identification de manques d'interopérabilité",
+        "Scraping de sources sans API",
+        "Exploitation open data",
+        "Packaging SDK (Java, Python, Go)",
+        "Exposition API REST + OpenAPI/Swagger",
+        "Catalogue d'APIs publiques (APIGEE)",
+        "Démultiplication communautaire (apps mobiles, bots, AR, MCPs, dashboards)",
+        "Pattern validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa"
+      ]
     },
     {
       "name": "Graph & Knowledge Engineering",
       "level": "Expert",
-      "keywords": ["Neo4j", "Graph Data Science", "Cypher", "Knowledge Graph", "GDS Library", "NetworkX", "endoflife.date-neo4j", "Théorie des graphes", "Analyse de réseaux", "Centralité & clustering", "Réseaux cachés"]
+      "keywords": [
+        "Neo4j",
+        "Graph Data Science",
+        "Cypher",
+        "Knowledge Graph",
+        "GDS Library",
+        "NetworkX",
+        "endoflife.date-neo4j",
+        "Théorie des graphes",
+        "Analyse de réseaux",
+        "Centralité & clustering",
+        "Réseaux cachés"
+      ]
     },
     {
       "name": "IA & Agents",
       "level": "Avancé",
-      "keywords": ["MCP (Model Context Protocol)", "Hugging Face", "Gradio", "Agents IA", "RAG", "Ollama", "LangChain", "Semantic Router", "Vibe coding", "OpenSearch vector search"]
+      "keywords": [
+        "MCP (Model Context Protocol)",
+        "Hugging Face",
+        "Gradio",
+        "Agents IA",
+        "RAG",
+        "Ollama",
+        "LangChain",
+        "Semantic Router",
+        "Vibe coding",
+        "OpenSearch vector search"
+      ]
     },
     {
       "name": "Architecture & Développement",
       "level": "Expert",
-      "keywords": ["Architecture SI", "Domain-Driven Design", "Spring Boot", "Quarkus", "Java", "Go", "Maven", "Interopérabilité (signature de carrière depuis 12+ ans, validée par pairs DSI Nouméa 2018)", "API Design", "APIGEE", "ZK Framework", "picocli", "Cobra (Go)", "BubbleTea", "Flutter"]
+      "keywords": [
+        "Architecture SI",
+        "Domain-Driven Design",
+        "Spring Boot",
+        "Quarkus",
+        "Java",
+        "Go",
+        "Maven",
+        "Interopérabilité (signature de carrière depuis 12+ ans, validée par pairs DSI Nouméa 2018)",
+        "API Design",
+        "APIGEE",
+        "ZK Framework",
+        "picocli",
+        "Cobra (Go)",
+        "BubbleTea",
+        "Flutter"
+      ]
     },
     {
       "name": "Data Engineering",
       "level": "Avancé",
-      "keywords": ["Apache Airflow", "Apache Kafka", "MinIO", "Apache Superset", "Lakehouse", "ETL/ELT", "Debezium", "OpenSearch", "ELK Stack", "Elasticsearch", "Kibana", "Gouvernance des métadonnées"]
+      "keywords": [
+        "Apache Airflow",
+        "Apache Kafka",
+        "MinIO",
+        "Apache Superset",
+        "Lakehouse",
+        "ETL/ELT",
+        "Debezium",
+        "OpenSearch",
+        "ELK Stack",
+        "Elasticsearch",
+        "Kibana",
+        "Gouvernance des métadonnées"
+      ]
     },
     {
       "name": "Bases de données",
       "level": "Avancé",
-      "keywords": ["PostgreSQL", "DuckDB", "DuckLake", "Oracle", "SQL", "Tuning", "SchemaCrawler"]
+      "keywords": [
+        "PostgreSQL",
+        "DuckDB",
+        "DuckLake",
+        "Oracle",
+        "SQL",
+        "Tuning",
+        "SchemaCrawler"
+      ]
     },
     {
       "name": "DevSecOps",
       "level": "Avancé",
-      "keywords": ["GitHub Actions", "GitHub Issues", "Docker", "Podman", "Kubernetes", "Trivy", "Shift-left security", "geol", "goreleaser", "RGPD"]
+      "keywords": [
+        "GitHub Actions",
+        "GitHub Issues",
+        "Docker",
+        "Podman",
+        "Kubernetes",
+        "Trivy",
+        "Shift-left security",
+        "geol",
+        "goreleaser",
+        "RGPD"
+      ]
     },
     {
       "name": "Microsoft Power Platform",
       "level": "Intermédiaire",
-      "keywords": ["Power BI", "Power Automate", "Microsoft Flow", "Custom connectors APIGEE", "No-code automation", "Data storytelling"]
+      "keywords": [
+        "Power BI",
+        "Power Automate",
+        "Microsoft Flow",
+        "Custom connectors APIGEE",
+        "No-code automation",
+        "Data storytelling"
+      ]
     },
     {
       "name": "Open Data & Data Science",
       "level": "Avancé",
-      "keywords": ["Kaggle", "Python", "Pandas", "DuckDB", "Web scraping", "Open Data", "Hackathons", "uv", "poetry", "PyPI", "PyPI maintainer"]
+      "keywords": [
+        "Kaggle",
+        "Python",
+        "Pandas",
+        "DuckDB",
+        "Web scraping",
+        "Open Data",
+        "Hackathons",
+        "uv",
+        "poetry",
+        "PyPI",
+        "PyPI maintainer"
+      ]
     },
     {
       "name": "Reporting & Documentation",
       "level": "Avancé",
-      "keywords": ["Quarto", "Notebooks reproductibles", "Urbanisation SI", "Rapports de sécurité", "Reporting automatisé", "Data-driven management", "Markdown", "GitHub Pages"]
+      "keywords": [
+        "Quarto",
+        "Notebooks reproductibles",
+        "Urbanisation SI",
+        "Rapports de sécurité",
+        "Reporting automatisé",
+        "Data-driven management",
+        "Markdown",
+        "GitHub Pages"
+      ]
     },
     {
       "name": "Developer Relations & Communication",
       "level": "Expert",
-      "keywords": ["Talks internationaux", "YouTube", "Dev.to", "Documentation", "Vulgarisation", "Storytelling", "Data Storytelling", "Community building", "Marketing $0", "Mux", "Détournements vidéo tech", "Tech advocacy interne", "Pitching interne", "Évangélisation par la pratique"]
+      "keywords": [
+        "Talks internationaux",
+        "YouTube",
+        "Dev.to",
+        "Documentation",
+        "Vulgarisation",
+        "Storytelling",
+        "Data Storytelling",
+        "Community building",
+        "Marketing $0",
+        "Mux",
+        "Détournements vidéo tech",
+        "Tech advocacy interne",
+        "Pitching interne",
+        "Évangélisation par la pratique"
+      ]
     },
     {
       "name": "Management & Leadership",
       "level": "Expert",
-      "keywords": ["Management d'équipe", "Management par la confiance, l'autonomie et les objectifs clairs", "Scrum", "Product Owner", "Gestion de projet", "Jira", "LEAN", "5S", "Management visuel", "Management libéré", "Running Lean", "Innovation frugale", "Open Innovation", "Design thinking", "Team Topologies", "Transparence radicale", "Culture de feedback", "Intérim de direction"]
+      "keywords": [
+        "Management d'équipe",
+        "Management par la confiance, l'autonomie et les objectifs clairs",
+        "Scrum",
+        "Product Owner",
+        "Gestion de projet",
+        "Jira",
+        "LEAN",
+        "5S",
+        "Management visuel",
+        "Management libéré",
+        "Running Lean",
+        "Innovation frugale",
+        "Open Innovation",
+        "Design thinking",
+        "Team Topologies",
+        "Transparence radicale",
+        "Culture de feedback",
+        "Intérim de direction"
+      ]
     },
     {
       "name": "Pédagogie & Transmission",
       "level": "Expert",
-      "keywords": ["Enseignement universitaire (Master MIAGE)", "Pédagogie Montessori", "Mindful Learning (Ellen Langer)", "Learning by doing", "Mentorat de stagiaires", "Tuteur industriel (projets tutorés UNC)", "Pédagogie par projets réels open source / open data", "Knowledge sharing", "Vulgarisation technique", "Why-first (Sinek)", "Construction du raisonnement plutôt que dictée de la solution"]
+      "keywords": [
+        "Enseignement universitaire (Master MIAGE)",
+        "Pédagogie Montessori",
+        "Mindful Learning (Ellen Langer)",
+        "Learning by doing",
+        "Mentorat de stagiaires",
+        "Tuteur industriel (projets tutorés UNC)",
+        "Pédagogie par projets réels open source / open data",
+        "Knowledge sharing",
+        "Vulgarisation technique",
+        "Why-first (Sinek)",
+        "Construction du raisonnement plutôt que dictée de la solution"
+      ]
     },
     {
       "name": "Open Source",
       "level": "Avancé",
-      "keywords": ["endoflife.date", "SchemaCrawler", "Chocolatey", "DuckDB brew extension", "geol", "oracle-jutils", "mobitag", "liquibase"]
+      "keywords": [
+        "endoflife.date",
+        "SchemaCrawler",
+        "Chocolatey",
+        "DuckDB brew extension",
+        "geol",
+        "oracle-jutils",
+        "mobitag",
+        "liquibase"
+      ]
+    },
+    {
+      "name": "IoT & Hardware",
+      "level": "Intermédiaire",
+      "keywords": [
+        "Arduino",
+        "ESP8266 / NodeMCU",
+        "Arduino MKR1000",
+        "Raspberry Pi Pico W",
+        "Pimoroni Cosmic Unicorn",
+        "Arduino IoT Cloud",
+        "IFTTT / Maker service",
+        "HC-SR04 (capteur ultrason)",
+        "LED matrix",
+        "Hackster.io"
+      ]
     },
     {
       "name": "Créativité & Apprentissage autodidacte",
       "level": "Expert",
-      "keywords": ["Imagination", "Connexion de domaines éloignés", "Pensée transdisciplinaire", "Expérimentation", "MIT Media Lab mindset", "Rendre l'invisible visible", "Détection d'inefficacités", "Idéation en mouvement", "Apprendre → construire → démontrer → enseigner", "Curiosité naturelle", "Observation du réel"]
+      "keywords": [
+        "Imagination",
+        "Connexion de domaines éloignés",
+        "Pensée transdisciplinaire",
+        "Expérimentation",
+        "MIT Media Lab mindset",
+        "Rendre l'invisible visible",
+        "Détection d'inefficacités",
+        "Idéation en mouvement",
+        "Apprendre → construire → démontrer → enseigner",
+        "Curiosité naturelle",
+        "Observation du réel"
+      ]
     }
   ],
-
   "languages": [
     {
       "language": "Français",
@@ -532,45 +902,90 @@
       "fluency": "Notions"
     }
   ],
-
   "interests": [
     {
       "name": "Sports outdoor & nautiques",
-      "keywords": ["Course à pied", "Natation open water", "Monopalme", "Prone paddle", "Windsurf", "Wingfoil", "Vélo", "Street workout"],
+      "keywords": [
+        "Course à pied",
+        "Natation open water",
+        "Monopalme",
+        "Prone paddle",
+        "Windsurf",
+        "Wingfoil",
+        "Vélo",
+        "Street workout"
+      ],
       "x-context": "personal"
     },
     {
       "name": "Maker & IoT",
-      "keywords": ["Arduino", "LED matrix", "API vers IoT", "Meshtastic", "MeshCore", "LoRa mesh networking", "IoT outdoor", "Fablab UNC", "Projets hardware hobby"],
+      "keywords": [
+        "Arduino",
+        "ESP8266 / NodeMCU",
+        "Arduino MKR1000",
+        "Raspberry Pi Pico W",
+        "Pimoroni Cosmic Unicorn",
+        "LED matrix",
+        "API vers IoT",
+        "Meshtastic",
+        "MeshCore",
+        "LoRa mesh networking",
+        "IoT outdoor",
+        "Fablab UNC",
+        "Hackster.io"
+      ],
       "x-context": "mixed"
     },
     {
       "name": "Veille technologique & innovation",
-      "keywords": ["Livres tech", "Livres management", "Architecture SI", "Intelligence artificielle", "Open source", "Vibe coding Go"],
+      "keywords": [
+        "Livres tech",
+        "Livres management",
+        "Architecture SI",
+        "Intelligence artificielle",
+        "Open source",
+        "Vibe coding Go"
+      ],
       "x-context": "pro"
     },
     {
       "name": "Création de contenu & humour tech",
-      "keywords": ["Détournements vidéo", "Films VO russe/allemand sous-titrés français", "Mèmes tech", "Storytelling technique"],
+      "keywords": [
+        "Détournements vidéo",
+        "Films VO russe/allemand sous-titrés français",
+        "Mèmes tech",
+        "Storytelling technique"
+      ],
       "x-context": "mixed"
     },
     {
       "name": "Écriture",
-      "keywords": ["Livre sur la data en entreprise", "Recueil de nouvelles", "Vulgarisation tech"],
+      "keywords": [
+        "Livre sur la data en entreprise",
+        "Recueil de nouvelles",
+        "Vulgarisation tech"
+      ],
       "x-context": "mixed"
     },
     {
       "name": "Musique",
-      "keywords": ["Jazz"],
+      "keywords": [
+        "Jazz"
+      ],
       "x-context": "personal"
     },
     {
       "name": "Lecture",
-      "keywords": ["Management", "Architecture logicielle", "Data science", "Innovation", "Start with Why"],
+      "keywords": [
+        "Management",
+        "Architecture logicielle",
+        "Data science",
+        "Innovation",
+        "Start with Why"
+      ],
       "x-context": "pro"
     }
   ],
-
   "references": [
     {
       "name": "Sébastien Bourlart",
@@ -580,7 +995,13 @@
       "x-date": "2024-08-01",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["leadership", "innovation", "client-relationship", "expertise-technique", "business-acumen"]
+      "x-tags": [
+        "leadership",
+        "innovation",
+        "client-relationship",
+        "expertise-technique",
+        "business-acumen"
+      ]
     },
     {
       "name": "Ida Carapelle Goossens",
@@ -591,7 +1012,15 @@
       "x-date": "2019-05-05",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["leadership", "management-agile", "data-science", "mentorat", "networking", "client-relationship", "qualites-humaines"]
+      "x-tags": [
+        "leadership",
+        "management-agile",
+        "data-science",
+        "mentorat",
+        "networking",
+        "client-relationship",
+        "qualites-humaines"
+      ]
     },
     {
       "name": "Alban Seurat",
@@ -602,7 +1031,15 @@
       "x-date": "2018-11-28",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["peer-recognition", "technical-expertise", "fintech", "communication", "knowledge-sharing", "continuous-improvement", "pragmatisme-techno"]
+      "x-tags": [
+        "peer-recognition",
+        "technical-expertise",
+        "fintech",
+        "communication",
+        "knowledge-sharing",
+        "continuous-improvement",
+        "pragmatisme-techno"
+      ]
     },
     {
       "name": "M'Bakop Djadja",
@@ -613,7 +1050,16 @@
       "x-date": "2018-10-21",
       "x-source": "LinkedIn",
       "x-language": "en",
-      "x-tags": ["manager-recommendation", "innovation", "java", "team-fit", "technical-excellence", "internship-to-hire", "lasting-impact", "dynamism"]
+      "x-tags": [
+        "manager-recommendation",
+        "innovation",
+        "java",
+        "team-fit",
+        "technical-excellence",
+        "internship-to-hire",
+        "lasting-impact",
+        "dynamism"
+      ]
     },
     {
       "name": "Michel Moureaux",
@@ -623,7 +1069,14 @@
       "x-date": "2015-07-02",
       "x-source": "LinkedIn",
       "x-language": "en",
-      "x-tags": ["peer-recognition", "technical-expertise", "database", "curiosity", "broad-skills", "pleasure-to-work-with"]
+      "x-tags": [
+        "peer-recognition",
+        "technical-expertise",
+        "database",
+        "curiosity",
+        "broad-skills",
+        "pleasure-to-work-with"
+      ]
     },
     {
       "name": "Sualeh Fatehi",
@@ -634,7 +1087,16 @@
       "x-date": "2015-05-02",
       "x-source": "LinkedIn",
       "x-language": "en",
-      "x-tags": ["upstream-recognition", "open-source", "packaging", "linux", "debian", "community-contribution", "schemacrawler", "cross-company"]
+      "x-tags": [
+        "upstream-recognition",
+        "open-source",
+        "packaging",
+        "linux",
+        "debian",
+        "community-contribution",
+        "schemacrawler",
+        "cross-company"
+      ]
     },
     {
       "name": "Didier Jean Leroux",
@@ -644,7 +1106,12 @@
       "x-date": "2013-12-02",
       "x-source": "LinkedIn",
       "x-language": "en",
-      "x-tags": ["manager-recommendation", "architecture", "multi-technology", "endorsement-court"]
+      "x-tags": [
+        "manager-recommendation",
+        "architecture",
+        "multi-technology",
+        "endorsement-court"
+      ]
     },
     {
       "name": "Richard DEPLANQUE",
@@ -655,7 +1122,17 @@
       "x-date": "2018-10-23",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["manager-recommendation", "architecture-logicielle", "leadership", "management", "industrialisation", "interim-management", "long-term-collaboration", "delivery-focus", "innovation"]
+      "x-tags": [
+        "manager-recommendation",
+        "architecture-logicielle",
+        "leadership",
+        "management",
+        "industrialisation",
+        "interim-management",
+        "long-term-collaboration",
+        "delivery-focus",
+        "innovation"
+      ]
     },
     {
       "name": "Bheem Reddy",
@@ -666,7 +1143,18 @@
       "x-date": "2019-02-28",
       "x-source": "LinkedIn",
       "x-language": "en",
-      "x-tags": ["open-source", "schemacrawler", "cross-company", "peer-recognition", "neo4j", "kibana", "elk-stack", "packaging", "exploration-techno", "polyvalence"]
+      "x-tags": [
+        "open-source",
+        "schemacrawler",
+        "cross-company",
+        "peer-recognition",
+        "neo4j",
+        "kibana",
+        "elk-stack",
+        "packaging",
+        "exploration-techno",
+        "polyvalence"
+      ]
     },
     {
       "name": "Ronny Soutart",
@@ -677,7 +1165,19 @@
       "x-date": "2021-04-14",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["direct-report-recommendation", "leadership", "management", "mentorat", "transmission", "team-culture", "human-centric", "innovation", "communication", "curiosite", "opt-nc"]
+      "x-tags": [
+        "direct-report-recommendation",
+        "leadership",
+        "management",
+        "mentorat",
+        "transmission",
+        "team-culture",
+        "human-centric",
+        "innovation",
+        "communication",
+        "curiosite",
+        "opt-nc"
+      ]
     },
     {
       "name": "Malcolm Bertaina",
@@ -688,7 +1188,18 @@
       "x-date": "2025-03-16",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["student-recommendation", "mentorat", "pedagogie", "unc-partnership", "projet-tutore", "responsiveness", "innovation", "transmission", "tech-enthusiasm", "opt-nc"]
+      "x-tags": [
+        "student-recommendation",
+        "mentorat",
+        "pedagogie",
+        "unc-partnership",
+        "projet-tutore",
+        "responsiveness",
+        "innovation",
+        "transmission",
+        "tech-enthusiasm",
+        "opt-nc"
+      ]
     },
     {
       "name": "Morgan Carré",
@@ -699,7 +1210,18 @@
       "x-date": "2025-03-17",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["student-recommendation", "intern-recommendation", "mentorat", "pedagogie", "premiere-experience-pro", "disponibilite", "transmission", "stage", "polytech-nice", "opt-nc"]
+      "x-tags": [
+        "student-recommendation",
+        "intern-recommendation",
+        "mentorat",
+        "pedagogie",
+        "premiere-experience-pro",
+        "disponibilite",
+        "transmission",
+        "stage",
+        "polytech-nice",
+        "opt-nc"
+      ]
     },
     {
       "name": "Michèle Barré",
@@ -710,7 +1232,19 @@
       "x-date": "2018-10-24",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["direct-report-recommendation", "leadership", "management", "autonomy", "trust-building", "team-culture", "veille-technologique", "architecture-logicielle", "innovation", "force-de-proposition", "dsi-noumea"]
+      "x-tags": [
+        "direct-report-recommendation",
+        "leadership",
+        "management",
+        "autonomy",
+        "trust-building",
+        "team-culture",
+        "veille-technologique",
+        "architecture-logicielle",
+        "innovation",
+        "force-de-proposition",
+        "dsi-noumea"
+      ]
     },
     {
       "name": "Cédric Pitout",
@@ -721,15 +1255,34 @@
       "x-date": "2018-10-17",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["peer-recognition", "interoperability", "api-design", "services-web", "sig", "geomatique", "comprehension-besoins", "performance", "code-quality", "curiosite", "dsi-noumea"]
+      "x-tags": [
+        "peer-recognition",
+        "interoperability",
+        "api-design",
+        "services-web",
+        "sig",
+        "geomatique",
+        "comprehension-besoins",
+        "performance",
+        "code-quality",
+        "curiosite",
+        "dsi-noumea"
+      ]
     }
   ],
-
   "projects": [
     {
       "name": "geol — CLI de gestion des End-of-Life",
       "type": "open-source",
-      "x-tags": ["devsecops", "open-source", "go", "duckdb", "maintainer", "international", "frugal"],
+      "x-tags": [
+        "devsecops",
+        "open-source",
+        "go",
+        "duckdb",
+        "maintainer",
+        "international",
+        "frugal"
+      ],
       "startDate": "2022-01",
       "description": "Outil open source (Go) permettant de gérer les end-of-life des composants logiciels en terminal et CI. Intègre Trivy, génère des rapports via Quarto/LaTeX et DuckDB. Conçu le week-end sur temps personnel. Hacktoberfest Maintainer Spotlight 2025.",
       "highlights": [
@@ -742,7 +1295,13 @@
     {
       "name": "duckdb-brew — Extension DuckDB Community",
       "type": "open-source",
-      "x-tags": ["data", "duckdb", "open-source", "maintainer", "international"],
+      "x-tags": [
+        "data",
+        "duckdb",
+        "open-source",
+        "maintainer",
+        "international"
+      ],
       "startDate": "2026-02",
       "description": "Extension officielle DuckDB Community permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge avec vibe coding + CI/CD. Listée sur duckdb.org.",
       "highlights": [
@@ -755,7 +1314,17 @@
     {
       "name": "Knowledge Graph SI OPT-NC — Neo4j",
       "type": "professional",
-      "x-tags": ["architecture", "data", "neo4j", "knowledge-graph", "ai-agents", "speaker", "team-lead", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "architecture",
+        "data",
+        "neo4j",
+        "knowledge-graph",
+        "ai-agents",
+        "speaker",
+        "team-lead",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "startDate": "2021-01",
       "description": "Système de cartographie du SI de l'OPT-NC basé sur Neo4j avec release automatisée via GitHub Actions. Présenté à NODES 2022, 2023 et 2024. Enrichi d'agents IA.",
       "highlights": [
@@ -770,7 +1339,17 @@
     {
       "name": "Open Data RH OPT-NC — Expérience candidat augmentée par l'IA",
       "type": "professional",
-      "x-tags": ["data", "ai-agents", "civic-tech", "huggingface", "mcp", "open-data", "team-lead", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "data",
+        "ai-agents",
+        "civic-tech",
+        "huggingface",
+        "mcp",
+        "open-data",
+        "team-lead",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "startDate": "2024-01",
       "description": "Programme open data autour des données RH de l'OPT-NC : référentiel des métiers, offres d'emploi, AVPS (avis de vacances de poste) et organigramme publiés en open data pour créer une expérience candidat unique. Datasets Hugging Face, agents IA et MCPs pour rendre ces données exploitables par Claude et d'autres LLMs.",
       "highlights": [
@@ -783,7 +1362,15 @@
     {
       "name": "MCP OPT-NC — Offres d'emploi Hugging Face",
       "type": "professional",
-      "x-tags": ["ai-agents", "mcp", "huggingface", "open-source", "devrel", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "ai-agents",
+        "mcp",
+        "huggingface",
+        "open-source",
+        "devrel",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "startDate": "2025-01",
       "description": "Model Context Protocol exposant les offres d'emploi de l'OPT-NC depuis Hugging Face. Démo publique : trouver et candidater à un poste avec Claude en 20 minutes.",
       "highlights": [
@@ -796,7 +1383,16 @@
     {
       "name": "mobitag — CLI Go pour l'envoi de SMS",
       "type": "open-source",
-      "x-tags": ["go", "open-source", "api-fication", "interoperability", "mentor", "team-lead", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "go",
+        "open-source",
+        "api-fication",
+        "interoperability",
+        "mentor",
+        "team-lead",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "startDate": "2024-06",
       "description": "CLI en Go pour envoyer des SMS via l'API Mobitag de l'OPT-NC. Distribué via Homebrew et goreleaser. Conçu avec l'équipe comme exercice pédagogique CLI-first. Série de 4 articles sur dev.to.",
       "highlights": [
@@ -810,7 +1406,15 @@
     {
       "name": "ollama-models — Dataset stats téléchargements LLM",
       "type": "open-source",
-      "x-tags": ["data", "ai-agents", "duckdb", "open-source", "open-data", "international", "frugal"],
+      "x-tags": [
+        "data",
+        "ai-agents",
+        "duckdb",
+        "open-source",
+        "open-data",
+        "international",
+        "frugal"
+      ],
       "startDate": "2024-10",
       "description": "Dataset Kaggle exposant les statistiques de téléchargement des modèles Ollama : données collectées, stockées dans une base DuckDB, exportées en Parquet. Notebook d'exploration fourni. Croise data engineering frugal et veille sur l'écosystème LLM open source.",
       "highlights": [
@@ -823,7 +1427,18 @@
     {
       "name": "edb-noumea — SDK qualité eaux de baignade",
       "type": "open-source",
-      "x-tags": ["civic-tech", "data", "python", "go", "api-fication", "scraping", "open-source", "open-data", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "civic-tech",
+        "data",
+        "python",
+        "go",
+        "api-fication",
+        "scraping",
+        "open-source",
+        "open-data",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "startDate": "2025-09",
       "description": "Package PyPI (stack uv) scraper de la qualité des eaux de baignade à Nouméa. Écosystème complet : TUI Go/BubbleTea, dataset Kaggle, live CSV data, graphiques automatiques. v0.4.0 mai 2026.",
       "highlights": [
@@ -837,7 +1452,18 @@
     {
       "name": "odata-ncl — Open Data Citoyenne Nouvelle-Calédonie",
       "type": "open-source",
-      "x-tags": ["civic-tech", "data", "python", "go", "scraping", "api-fication", "open-source", "open-data", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "civic-tech",
+        "data",
+        "python",
+        "go",
+        "scraping",
+        "api-fication",
+        "open-source",
+        "open-data",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "startDate": "2024-01",
       "description": "Umbrella de projets data citoyenne sur les données ouvertes de Nouvelle-Calédonie. Objectif : collecter, analyser et publier des données locales à fort impact sociétal — sécurité maritime, qualité des eaux, sécurité routière. Stack complète : Python/uv, Quarto, Kaggle, GitHub Actions, TUI Go/BubbleTea.",
       "highlights": [
@@ -851,7 +1477,15 @@
     {
       "name": "Catalogue d'APIs publiques OPT-NC — Vitrine & produit d'appel",
       "type": "professional",
-      "x-tags": ["interoperability", "architecture", "devrel", "api-fication", "team-lead", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "interoperability",
+        "architecture",
+        "devrel",
+        "api-fication",
+        "team-lead",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "startDate": "2021-01",
       "description": "Conception et pilotage d'un catalogue d'APIs publiques gratuites exposées sur le portail APIGEE de l'OPT-NC (https://apigee-optnc-prd-api.apigee.io/). Toutes en lecture seule. Sources hétérogènes selon l'API : données statiques gérées en interne, scraping de sites sans API officielle, ou croisement avec de l'open data (data.gouv.nc). Stratégie vitrine : prouver la valeur de l'interopérabilité, attirer développeurs et entreprises, créer l'appétit pour des APIs supplémentaires ou sur-mesure. Rôle : Product Owner & architecte — l'équipe GLIA développe.",
       "highlights": [
@@ -869,7 +1503,12 @@
     {
       "name": "oracle-jutils — Framework PL/SQL Oracle 11g",
       "type": "open-source",
-      "x-tags": ["data", "open-source", "java", "international"],
+      "x-tags": [
+        "data",
+        "open-source",
+        "java",
+        "international"
+      ],
       "startDate": "2009-03",
       "endDate": "2012-12",
       "description": "Framework open source de packages PL/SQL pour Oracle 11g (dump LOB, CRC, MIME type, XMPP, QR codes, Twitter...). Première et unique implémentation libre. Découvert et reconnu par des équipes Oracle APEX au Texas.",
@@ -883,7 +1522,18 @@
     {
       "name": "API domaine.nc — Création de l'interopérabilité des noms de domaine .NC",
       "type": "professional",
-      "x-tags": ["interoperability", "civic-tech", "api-fication", "scraping", "open-source", "java", "mobile", "flutter", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "interoperability",
+        "civic-tech",
+        "api-fication",
+        "scraping",
+        "open-source",
+        "java",
+        "mobile",
+        "flutter",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "startDate": "2022-01",
       "description": "Avant ce projet : aucune API, aucune interopérabilité possible sur les données des noms de domaine .NC. Scraping du site domaine.nc (aucune API officielle) → API exposée sur la marketplace APIGEE grand public de l'OPT-NC + dataset open data Kaggle. Effet multiplicateur : une application mobile Flutter open source développée par la communauté, publiée sur le Google Play Store et testée en crowdtesting.",
       "highlights": [
@@ -899,7 +1549,13 @@
     {
       "name": "liquibase — Package Chocolatey",
       "type": "open-source",
-      "x-tags": ["devsecops", "data", "open-source", "maintainer", "international"],
+      "x-tags": [
+        "devsecops",
+        "data",
+        "open-source",
+        "maintainer",
+        "international"
+      ],
       "startDate": "2013-05",
       "description": "Création du package Chocolatey officiel pour Liquibase, l'outil de migration de bases de données de référence. Package ensuite repris et maintenu par les ingénieurs DevOps de Liquibase eux-mêmes — validation directe par l'éditeur de la qualité du travail.",
       "highlights": [
@@ -912,7 +1568,16 @@
     {
       "name": "auptitcafe — SDK scraping cafés & restaurants NC",
       "type": "open-source",
-      "x-tags": ["civic-tech", "data", "python", "scraping", "api-fication", "open-source", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "civic-tech",
+        "data",
+        "python",
+        "scraping",
+        "api-fication",
+        "open-source",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "startDate": "2023-05",
       "description": "Package PyPI de scraping des données de cafés et restaurants en Nouvelle-Calédonie : prix, noms de plats, recettes et images. Pipeline complet de données avec GitHub Actions pour l'archivage live, dataset et notebooks Kaggle, agent chat HuggingFace et série dédiée sur Dev.to.",
       "highlights": [
@@ -926,7 +1591,13 @@
     {
       "name": "SchemaCrawler — Contribution open source",
       "type": "open-source",
-      "x-tags": ["data", "open-source", "java", "maintainer", "international"],
+      "x-tags": [
+        "data",
+        "open-source",
+        "java",
+        "maintainer",
+        "international"
+      ],
       "startDate": "2022-01",
       "description": "Contributeur actif sur SchemaCrawler : packaging RPM/DEB, package Chocolatey (23 048 downloads), intégration Neo4j.",
       "highlights": [
@@ -939,7 +1610,14 @@
     {
       "name": "Person Counter — Comptage ML pour optimiser l'occupation des salles de réunion",
       "type": "professional",
-      "x-tags": ["ai-agents", "architecture", "java", "open-source", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "ai-agents",
+        "architecture",
+        "java",
+        "open-source",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "startDate": "2020-11",
       "endDate": "2020-12",
       "description": "API Java de détection et comptage d'entités par vision par ordinateur, basée sur DJL (Deep Java Library) et TensorFlow. Alimentait un dashboard ELK Stack en KPIs temps réel et heatmaps pour optimiser l'occupation des salles de réunion à l'OPT-NC. Distribuée en image Docker sur DockerHub. Documentée dans un article LinkedIn Pulse.",
@@ -954,7 +1632,17 @@
     {
       "name": "ColisNC — Écosystème open source suivi de colis OPT-NC",
       "type": "open-source",
-      "x-tags": ["interoperability", "civic-tech", "mobile", "api-fication", "open-source", "java", "flutter", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "interoperability",
+        "civic-tech",
+        "mobile",
+        "api-fication",
+        "open-source",
+        "java",
+        "flutter",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "startDate": "2019-09",
       "endDate": "2021-06",
       "description": "Écosystème complet de 6 composants open source construits autour du suivi de colis de l'OPT-NC : SDK Java distribué sur JitPack avec CI Travis, webapp responsive déployée en production, assistant en réalité augmentée, borne Angular 11 + Docker, bot Discord Java et prototype mobile Flutter. Illustration concrète du potentiel multiplicateur d'une API bien exposée.",
@@ -971,7 +1659,16 @@
     {
       "name": "OPT-NC Fiber Eligibility — Scraper Go + API REST + Swagger",
       "type": "open-source",
-      "x-tags": ["interoperability", "civic-tech", "go", "scraping", "api-fication", "open-source", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "interoperability",
+        "civic-tech",
+        "go",
+        "scraping",
+        "api-fication",
+        "open-source",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "startDate": "2025-12",
       "description": "Scraper Go (Chromium headless) exposant l'éligibilité fibre et ADSL de l'OPT-NC sous forme d'API REST avec documentation Swagger/OpenAPI 3.0 interactive. Architecture clean (cmd/internal/pkg), dual mode CLI + API, image Docker Hub publique, Taskfile. Fait sur temps personnel — data citizen.",
       "highlights": [
@@ -983,9 +1680,84 @@
       "url": "https://github.com/adriens/optnc-fiber-eligibility"
     },
     {
+      "name": "Post-Office Wait Time LED Matrix — Affichage temps d'attente IoT OPT-NC",
+      "type": "professional",
+      "x-tags": [
+        "iot",
+        "api-fication",
+        "opt-nc",
+        "open-source",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
+      "startDate": "2024-11",
+      "description": "Matrice LED animée (Pimoroni Cosmic Unicorn / Raspberry Pi Pico W) affichant en temps réel les temps d'attente en agence OPT-NC, pilotée par l'API publique OPT-NC via Google Apigee. Preuve de concept IoT mêlant données publiques et expérience client physique.",
+      "highlights": [
+        "Intégration directe de l'API temps d'attente OPT-NC Developer Portal dans un objet physique",
+        "Hardware : Pimoroni Cosmic Unicorn (Raspberry Pi Pico W) — affichage LED matrix animé",
+        "Publié sur Hackster.io — niveau Beginner, 192 vues"
+      ],
+      "url": "https://www.hackster.io/adriensales/post-office-wait-time-api-driven-waiting-time-led-matrix-39c00b"
+    },
+    {
+      "name": "Mailbox Notifier — Boîte aux lettres connectée OPT-NC",
+      "type": "professional",
+      "x-tags": [
+        "iot",
+        "opt-nc",
+        "open-source",
+        "mentor",
+        "pedagogy",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
+      "startDate": "2020-08",
+      "description": "Dispositif IoT co-conçu avec l'équipe OPT-NC (compte boiteconnecteeopt) détectant l'arrivée du courrier par capteur ultrason et envoyant des notifications WiFi via IFTTT. Tutorat industriel d'un étudiant (Mathéo Moinet) sur ce projet hardware.",
+      "highlights": [
+        "Co-auteur avec boiteconnecteeopt (OPT-NC) et Mathéo Moinet — projet encadré en tutorat",
+        "Stack : NodeMCU ESP-12E + HC-SR04 + Arduino IDE + IFTTT Maker service",
+        "5 400+ vues sur Hackster.io — niveau Intermédiaire, rayonnement communauté maker mondiale"
+      ],
+      "url": "https://www.hackster.io/354529/mailbox-notifier-ed6dba"
+    },
+    {
+      "name": "Legacy Mailbox SMS Notifier — Proto boîte aux lettres connectée",
+      "type": "open-source",
+      "x-tags": [
+        "iot",
+        "open-source",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
+      "startDate": "2019-05",
+      "description": "Prototype personnel transformant une boîte aux lettres classique en objet connecté envoyant un SMS à chaque arrivée de courrier sans modification mécanique. Stack Arduino MKR1000 + Arduino IoT Cloud + IFTTT — point de départ du Mailbox Notifier OPT-NC.",
+      "highlights": [
+        "Concept 'high-low tech' : hack de boîte standard, aucune modification mécanique requise",
+        "Stack : Arduino MKR1000 + capteur ultrason HC-SR04 + Arduino IoT Cloud + IFTTT",
+        "4 600+ vues sur Hackster.io — genèse directe du projet professionnel OPT-NC (2020)"
+      ],
+      "url": "https://www.hackster.io/adriensales/legacy-mailbox-sms-notifier-ec6d4b"
+    },
+    {
       "name": "API-fication calédonienne — SDKs Java & APIs REST",
       "type": "open-source",
-      "x-tags": ["interoperability", "civic-tech", "data", "api-fication", "scraping", "open-source", "open-data", "java", "python", "ai-agents", "mcp", "huggingface", "umbrella", "pacifique", "nouvelle-caledonie"],
+      "x-tags": [
+        "interoperability",
+        "civic-tech",
+        "data",
+        "api-fication",
+        "scraping",
+        "open-source",
+        "open-data",
+        "java",
+        "python",
+        "ai-agents",
+        "mcp",
+        "huggingface",
+        "umbrella",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
       "startDate": "2017-04",
       "endDate": "2023-07",
       "description": "Démarche systématique de création d'interopérabilité là où elle n'existe pas — deux familles. Scraping : reverse-engineering de sites sans API → SDK Java (JitPack/Travis CI) → API REST Spring Boot (Heroku) → intégrations mobiles et no-code. Open data & original : sources officielles (data.gouv.nc) ou contenu original → même stack, données durables. Série LinkedIn Pulse API-fication S01/S02 + plusieurs articles DEV.to.",
@@ -1003,10 +1775,9 @@
       "url": "https://github.com/adriens/tickets-resto-nc-sdk"
     }
   ],
-
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.13.1",
+    "version": "v1.14.0",
     "lastModified": "2026-05-25",
     "theme": "elegant"
   }
