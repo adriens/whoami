@@ -71,6 +71,11 @@
         "network": "Hackster.io",
         "username": "adriensales",
         "url": "https://www.hackster.io/adriensales"
+      },
+      {
+        "network": "Docker Hub",
+        "username": "rastadidi",
+        "url": "https://hub.docker.com/u/rastadidi"
       }
     ]
   },
@@ -1466,6 +1471,7 @@
       "description": "Package PyPI (stack uv) scraper de la qualité des eaux de baignade à Nouméa. Écosystème complet : TUI Go/BubbleTea, dataset Kaggle, live CSV data, graphiques automatiques. v0.4.0 mai 2026.",
       "highlights": [
         "Activement maintenu — v0.4.0 mai 2026",
+        "HuggingFace MCP Space : rastadidi/edb-noumea — serveur MCP pour accès direct aux données de qualité des eaux depuis les agents IA",
         "Écosystème complet : PyPI + Kaggle + GitHub Actions + TUI Go",
         "Exemple de data citizen appliqué au quotidien",
         "Genèse documentée dans une série LinkedIn Pulse 2019 : API REST → SVG badges → Twitter bot → AR → smart city (5 articles)"
@@ -1612,6 +1618,28 @@
       "url": "https://pypi.org/project/auptitcafe/"
     },
     {
+      "name": "aquavena — SDK Python scraping menus & tarifs Aquavena NC",
+      "type": "open-source",
+      "x-tags": [
+        "civic-tech",
+        "data",
+        "python",
+        "scraping",
+        "api-fication",
+        "open-source",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
+      "startDate": "2025-01",
+      "description": "SDK Python + CLI pour scraper les menus et tarifs d'Aquavena, service de livraison de repas diététiques en Nouvelle-Calédonie. Support de 8+ régimes alimentaires (méditerranéen, low carb, végétarien, sportif…), tarifs en XPF, filtrage par jour. Intégration Claude Skill + HuggingFace Space.",
+      "highlights": [
+        "Package PyPI `aquavena-sdk` (Python ≥3.13) — SDK + CLI autonome",
+        "8+ régimes : menus hebdomadaires détaillés (déjeuner/dîner, suppléments, boissons) + tarifs complets",
+        "HuggingFace MCP Space : rastadidi/aquavena — serveur MCP pour accès aux menus depuis les agents IA (créé mai 2026) + Claude Skill dédié + documentation GitHub Pages"
+      ],
+      "url": "https://pypi.org/project/aquavena-sdk/"
+    },
+    {
       "name": "SchemaCrawler — Contribution open source",
       "type": "open-source",
       "x-tags": [
@@ -1648,7 +1676,8 @@
         "DJL + TensorFlow : inférence ML en Java sans dépendance Python — intégration native Spring Boot, image Docker publique sur DockerHub",
         "Dashboard Kibana temps réel : KPIs d'occupation + heatmaps issues des flux API — aide à la décision sur la gestion des espaces de travail",
         "API REST avec filtres par classe d'objet et seuil de confiance, endpoints de visualisation, métadonnées et analyse",
-        "Article LinkedIn Pulse publié : démonstration de la valeur métier du ML appliqué à l'optimisation des espaces"
+        "Article LinkedIn Pulse publié : démonstration de la valeur métier du ML appliqué à l'optimisation des espaces",
+        "API conteneurisée (person-counter-api) : **91 pulls** Docker Hub"
       ],
       "url": "https://github.com/adriens/person-counter-api"
     },
@@ -1675,7 +1704,8 @@
         "colisnc-AR : assistant en réalité augmentée pour suivre la livraison de ses colis — présenté dans la communauté OPT-NC",
         "colisnc-borne : application borne Angular 11 + Docker pour affichage en agence",
         "colisnc-discord : bot Discord Java (Javacord) pour interroger l'API OPT-NC depuis n'importe quel serveur Discord",
-        "Progression SDK → webapp → AR → borne → Discord → mobile (Flutter) : pattern de démultiplication autour d'une API exposée"
+        "Progression SDK → webapp → AR → borne → Discord → mobile (Flutter) : pattern de démultiplication autour d'une API exposée",
+        "Impact Docker Hub : colisnc-api — **132 pulls**"
       ],
       "url": "https://github.com/adriens/colisnc-sdk"
     },
@@ -1698,7 +1728,7 @@
         "Scraping Chromium headless en Go — approche plus robuste que HtmlUnit Java (2017), gère le JavaScript des formulaires OPT-NC",
         "API REST sémantique : 200 (numéro trouvé), 404 (inconnu), 400 (format invalide) — retourne fibre, ADSL, liste des FAIs NC disponibles",
         "Swagger UI embarqué (OpenAPI 3.0) : documentation interactive générée depuis annotations Go",
-        "Image Docker Hub publique (rastadidi/optnc-fiber-eligibility) + Taskfile pour build/run/test/logs"
+        "**439 pulls** Docker Hub — image publique rastadidi/optnc-fiber-eligibility + Taskfile pour build/run/test/logs"
       ],
       "url": "https://github.com/adriens/optnc-fiber-eligibility"
     },
@@ -1791,8 +1821,8 @@
         "Scraping — eaux-baignade-noumea : scraping données publiques Ville de Nouméa + SDK Java + BeachCagouBot (bot Twitter CircleCI cron) — genèse directe du projet edb-noumea (LinkedIn S01E04)",
         "Scraping — mon-1012-nc : API Spring Boot sur l'annuaire 1012.nc (numéros Mobilis) — prototypée pour une app React/React Native (LinkedIn S01E04). Aujourd'hui hors service : refonte complète du site source ayant cassé le scraper — illustration concrète du coût de maintenance des approches scraping vs API officielle (et argument fort pour la stratégie catalogue APIGEE OPT-NC)",
         "Scraping — scalair4j (JitPack) + noumea-smartcity-api (Heroku) : SDK Java + hub d'APIs agrégeant la qualité de l'air NC (Scal-Air) et autres endpoints smart city Nouméa. Statut actuel : hébergement Heroku abandonné. Évolution prévue : refonte Python (uv) + app HuggingFace Spaces + MCP — modernisation complète de la stack avec les outils data/IA actuels",
-        "Open data — ridetnc4j (JitPack) + ridetnc-api : SDK Java + API REST sur le registre RIDET officiel (data.gouv.nc) — 2 articles DEV.to (2021, 2023)",
-        "Original — kalolo-api / kalolo-2.0 : API d'expressions caldoches publiée sur la marketplace RapidAPI — article DEV.to + LinkedIn 2020. Évolution prévue : dataset open d'expressions caldoches + MCP (Model Context Protocol) — exposition directe aux clients LLM (Claude, etc.) pour conversations localisées NC, démarche d'inclusivité culturelle Pacifique dans les agents IA",
+        "Open data — ridetnc4j (JitPack) + ridetnc-api : SDK Java + API REST sur le registre RIDET officiel (data.gouv.nc) — **136 pulls** Docker Hub — 2 articles DEV.to (2021, 2023)",
+        "Original — kalolo-api / kalolo-2.0 : API d'expressions caldoches publiée sur la marketplace RapidAPI — **127 pulls** Docker Hub — article DEV.to + LinkedIn 2020. Évolution prévue : dataset open d'expressions caldoches + MCP (Model Context Protocol) — exposition directe aux clients LLM (Claude, etc.) pour conversations localisées NC, démarche d'inclusivité culturelle Pacifique dans les agents IA",
         "Original — excuses-sdk (JitPack) + excuses-api : SDK Java + API REST, même pattern appliqué à du contenu humoristique. Évolution prévue : dataset open d'excuses + MCP — donner du caractère/humour aux agents IA via Model Context Protocol, exemple typique d'augmentation conversationnelle ludique"
       ],
       "url": "https://github.com/adriens/tickets-resto-nc-sdk"
@@ -1800,7 +1830,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.14.1",
+    "version": "v1.15.0",
     "lastModified": "2026-05-25",
     "theme": "elegant"
   }
