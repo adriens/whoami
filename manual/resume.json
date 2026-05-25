@@ -1416,7 +1416,7 @@
         "frugal",
         "saga"
       ],
-      "startDate": "2022-01",
+      "startDate": "2025-08",
       "description": "Outil open source (Go) permettant de gérer les end-of-life des composants logiciels en terminal et CI. Intègre Trivy, génère des rapports via Quarto/LaTeX et DuckDB. Conçu le week-end sur temps personnel. Hacktoberfest Maintainer Spotlight 2025.",
       "highlights": [
         "1 300+ downloads, 11 stars, v2.7.1 activement maintenue",
@@ -2008,7 +2008,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.17.6",
+    "version": "v1.17.7",
     "lastModified": "2026-05-26",
     "theme": "elegant"
   }
