@@ -98,6 +98,16 @@ tasks:
     cmds:
       - task: fetch-github-adriens
 
+  fetch-hackster-adriensales:
+    desc: Provisionner les projets Hackster.io @adriensales
+    cmds:
+      - uv run scripts/fetch-hackster-projects.py --user adriensales
+
+  fetch-hackster:
+    desc: Provisionner tous les comptes Hackster.io (sequentiel)
+    cmds:
+      - task: fetch-hackster-adriensales
+
   build-knowledge-base:
     desc: Generer output/knowledge-base.md pour injection NotebookLM (full)
     cmds:
@@ -117,6 +127,7 @@ tasks:
       - task: fetch-kaggle
       - task: fetch-hf
       - task: fetch-github
+      - task: fetch-hackster
       - task: build-knowledge-base
 
   site-install:

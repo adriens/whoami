@@ -1,0 +1,4 @@
+slug,name,url,published_at,difficulty,content_type,respects,impressions,tags,authors
+2024-11-15-post-office-wait-time-api-driven-waiting-time-led-matrix,Post-Office Wait Time API-driven waiting time LED Matrix,https://www.hackster.io/adriensales/post-office-wait-time-api-driven-waiting-time-led-matrix-39c00b,2024-11-15,beginner,tutorial,1,192,"api,art,display,internet of things,led",adriensales
+2020-08-01-mailbox-notifier,Mailbox notifier,https://www.hackster.io/354529/mailbox-notifier-ed6dba,2020-08-01,intermediate,wip,3,5422,"esp,mailbox,notifications,wifi","boiteconnecteeopt,adriensales,matheo-moinet"
+2019-05-07-legacy-mailbox-sms-notifier,Legacy Mailbox SMS Notifier,https://www.hackster.io/adriensales/legacy-mailbox-sms-notifier-ec6d4b,2019-05-07,beginner,tutorial,4,4648,"home automation,mailbox,sms,wifi",adriensales
