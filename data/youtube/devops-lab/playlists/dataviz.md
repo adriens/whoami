@@ -1,0 +1,90 @@
+---
+id: "PL7GdrgVAWcDgq8B_A-hJL8zbGe4eUI0EZ"
+slug: dataviz
+title: "Dataviz"
+url: "https://www.youtube.com/playlist?list=PL7GdrgVAWcDgq8B_A-hJL8zbGe4eUI0EZ"
+video_count: 78
+---
+
+
+
+## Videos (78)
+
+  - YnAAvigoC3A
+  - wvTe1ca9bbI
+  - T3h7WZ-CcFo
+  - q2kNbOI_IPI
+  - R1rNXhQ-UHI
+  - 2xBAxvcDgGI
+  - 63E_efWQslQ
+  - PsTF55byh34
+  - sNcQ_OzOINo
+  - J1fyzLzKx4M
+  - WHzd_9v2ocw
+  - jwXX2jFKUv8
+  - EX-G81j-N5k
+  - DyENKRKvfQ8
+  - drgXeuDS9yk
+  - L0pxKgI7niA
+  - jo6oQpxbvYk
+  - rl3sCVyDqtY
+  - uaiklKmxkws
+  - 4vmKVhHkdhI
+  - vse6eb74hM8
+  - EtM2PZYT1cY
+  - 1ySr9CR12rs
+  - Ke7ioOPAlz0
+  - R6fFjs28PvA
+  - bLhv7GOuwa8
+  - AqOE42GF1HI
+  - Exr_csN1Epc
+  - zFrwXuzwXEo
+  - 2cOMB3s3Fuw
+  - w9zAWPxMcPk
+  - aFtJx-dEqug
+  - hURvEy-O2oc
+  - rpRDstHf-fk
+  - V1wb5dkdAPs
+  - o9iqbuCRFos
+  - 2tWFPIPBZM4
+  - 4LCZbkkCyfQ
+  - hatIPuXVnPE
+  - 2aMK7LLAv2E
+  - KWaId5i88Ks
+  - wAg_5xu-w48
+  - hq_ZvUTCRWQ
+  - sqIpfaCUOLQ
+  - VPBBppmLxow
+  - nkN0Pgu7KM0
+  - BH2DqBnxcWg
+  - b6wBSTHZh20
+  - Acp_TcGW-9g
+  - F6ow49TpK60
+  - Y5PWxaxz1_E
+  - OuIGTYsFj8w
+  - 1-enuO_qR24
+  - DQOVxyqGYZY
+  - SVIIc0W-8hg
+  - okbin3vmkfs
+  - uBx_wwjR6ic
+  - Ra5HCWVxvtg
+  - 14Bo3eviUC0
+  - -I9DBQRhsjo
+  - sAW9KIN0Xug
+  - dQI9SON4vkA
+  - 4hJxggHg-8U
+  - m24Kzk-kat4
+  - mz8D8lN5CRw
+  - XCao0fcXiEQ
+  - 7AEAN-nkhjE
+  - zPMaaBdeKNQ
+  - C3yKrT0Z-mg
+  - T74TOF5GxCo
+  - cE0LLl7iglY
+  - kNWiZjAtMiE
+  - suVkKJ_nNGI
+  - VhCZFc0Uvg4
+  - M3iiRXKgz60
+  - 4YQoeajyMHA
+  - SojNndY8vrk
+  - 5iPqMv49R1c

@@ -1,0 +1,90 @@
+---
+id: "PL7GdrgVAWcDgD7V2mvGR4vO8UUYZAnBjY"
+slug: open-data
+title: "Open Data"
+url: "https://www.youtube.com/playlist?list=PL7GdrgVAWcDgD7V2mvGR4vO8UUYZAnBjY"
+video_count: 78
+---
+
+
+
+## Videos (78)
+
+  - mf82Ya-LqTE
+  - WHzd_9v2ocw
+  - jo6oQpxbvYk
+  - AFSg3cm18xQ
+  - Luk-DbK_Aoo
+  - 4vmKVhHkdhI
+  - 1ySr9CR12rs
+  - yF8dAr76Wu0
+  - 9KCmB0nMnTA
+  - o9iqbuCRFos
+  - UoLvRw8v6Rk
+  - h2JKqlZRBHw
+  - vDXkRrkfqRc
+  - Fy4o0Sfq7eg
+  - t6tDH8qaVSA
+  - M9JAPYhNCVs
+  - DfdngsK-JaM
+  - RawJXW_Lwag
+  - su4arCzhiGQ
+  - sqIpfaCUOLQ
+  - 6MsLHr7fX_Y
+  - VPBBppmLxow
+  - nkN0Pgu7KM0
+  - BH2DqBnxcWg
+  - b6wBSTHZh20
+  - Acp_TcGW-9g
+  - Y5PWxaxz1_E
+  - OuIGTYsFj8w
+  - HrZ8Txhgtig
+  - 1-enuO_qR24
+  - DQOVxyqGYZY
+  - okbin3vmkfs
+  - uBx_wwjR6ic
+  - -I9DBQRhsjo
+  - dQI9SON4vkA
+  - 4hJxggHg-8U
+  - mz8D8lN5CRw
+  - XCao0fcXiEQ
+  - 7AEAN-nkhjE
+  - Df864F2yEz8
+  - aIzcgofPRf4
+  - C3yKrT0Z-mg
+  - T74TOF5GxCo
+  - kzdrJYhDETM
+  - FHX_RzosERQ
+  - fPH1l89i3b4
+  - jiuVHmZp_Ls
+  - 5Sra-Yqn_Xs
+  - L8EqveZAFYE
+  - kNWiZjAtMiE
+  - TWuZ1Sk9ZQw
+  - -ANplGPBWE4
+  - 7j-nASKXUFo
+  - tHA-61BwkN4
+  - O9a0yfs2SEo
+  - X-iFIS54NhY
+  - jyvTR42hVb4
+  - 5U8Rs9O4MFs
+  - uWAX7MFyb28
+  - uVGarme-Gzg
+  - dKR2NZM0G2g
+  - d0_sA38My7w
+  - xLLb7ipKN00
+  - Ck1JqZxhib8
+  - suVkKJ_nNGI
+  - WJUKcYsJQ8A
+  - SX09XdaX-kU
+  - eJn12eJZZAI
+  - rzojwTwwZVI
+  - pk12RZIGOZE
+  - n1oRicJaNr4
+  - wbztvu-Kfxs
+  - M3iiRXKgz60
+  - 4YQoeajyMHA
+  - N6BZIq9Z7cs
+  - orrWgE9-ad4
+  - Rui7jSKNJNk
+  - yfkjFV42FmY

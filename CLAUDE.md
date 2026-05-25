@@ -25,7 +25,7 @@ Site portfolio Astro déployé sur GitHub Pages : https://adriens.github.io/whoa
 data/
   dev_to/adriens/         # articles DEV.to @adriens
   dev_to/opt-nc/          # articles DEV.to @opt-nc
-  youtube/devops-lab/     # vidéos + _stats.json (subscriber_count)
+  youtube/devops-lab/     # vidéos + _stats.json (subscriber_count) + playlists/*.md + _playlists_index.csv
   goodreads/124105866/    # livres lus
   kaggle/adriensales/     # datasets Kaggle
   huggingface/rastadidi/  # datasets + spaces HuggingFace
@@ -55,7 +55,8 @@ task site-install  # Installer les dépendances Astro
 ```sh
 task fetch-all              # Fetch toutes les sources + knowledge base
 task fetch-devto            # Articles DEV.to (adriens + opt-nc)
-task fetch-youtube          # Vidéos YouTube (devops-lab)
+task fetch-youtube          # Vidéos + playlists YouTube (devops-lab)
+task fetch-youtube-playlists  # Playlists uniquement (devops-lab)
 task fetch-goodreads        # Livres Goodreads
 task fetch-kaggle           # Datasets Kaggle
 task fetch-hf               # Datasets & spaces HuggingFace (rastadidi)

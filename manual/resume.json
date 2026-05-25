@@ -1570,8 +1570,8 @@
         "Dataset open data Kaggle : New Caledonia .NC Domains Database — notebooks Jupyter, graph Neo4j AuraDB + tableau de bord NeoDash",
         "App mobile Flutter open source tierce : 25 releases (v1.4.2 oct. 2025), 7 stars, 2 forks, Google PlayStore",
         "Testée en crowdtesting professionnel via Hightest/Testeum — témoignage publié",
-        "**Saga complète : 10 articles Dev.to** (avr. 2022 → déc. 2023) — Docker, GH Actions, RapidAPI, Killercoda, Neo4j/NeoDash, mobile PlayStore, Kaggle",
-        "**7 vidéos YouTube** (mai 2022 → fév. 2025) — démos Docker, GH Actions, Neo4j, mobile unboxing, UX front-end sur mesure",
+        "**Saga complète : 12 articles Dev.to** (avr. 2022 → déc. 2023) — Docker, GH Actions, RapidAPI, Killercoda, Neo4j/NeoDash, mobile PlayStore, Kaggle + série mobile",
+        "**21 vidéos playlist DOMAINE.nc** — https://www.youtube.com/playlist?list=PL7GdrgVAWcDgTfeJKnrK2MyeKCxJWNs03 | **5 vidéos playlist Mobile** — https://www.youtube.com/playlist?list=PL7GdrgVAWcDilGJGeNuVdvCM-lSmt5DNT",
         "Pattern complet : problème identifié → API → open data → app mobile → écosystème communautaire"
       ],
       "url": "https://github.com/lschaeffer313/domaine-nc-mobile"
@@ -1706,7 +1706,8 @@
         "colisnc-borne : application borne Angular 11 + Docker pour affichage en agence",
         "colisnc-discord : bot Discord Java (Javacord) pour interroger l'API OPT-NC depuis n'importe quel serveur Discord",
         "Progression SDK → webapp → AR → borne → Discord → mobile (Flutter) : pattern de démultiplication autour d'une API exposée",
-        "Impact Docker Hub : colisnc-api — **132 pulls**"
+        "Impact Docker Hub : colisnc-api — **132 pulls**",
+        "**Playlist YouTube Colis NC : 9 vidéos** — https://www.youtube.com/playlist?list=PL7GdrgVAWcDjRyCWzfueG9GZqe9M2Lqxe"
       ],
       "url": "https://github.com/adriens/colisnc-sdk"
     },
@@ -1773,6 +1774,7 @@
         "API publiée sur RapidAPI marketplace (2022) — exposition internationale",
         "Dashboard Streamlit historique via Apigee Developer Portal (2024)",
         "Série Dev.to 7 articles (juin 2022 → déc. 2024) : https://dev.to/adriens/series/18414",
+        "**20 vidéos playlist Temps d'attente en agences** — https://www.youtube.com/playlist?list=PL7GdrgVAWcDgN1QV5tbPRCa1f5Q83yRMi",
         "Même source de données réutilisée dans le LED Matrix IoT Hackster.io (2024) et projets tutorés UNC"
       ],
       "url": "https://dev.to/adriens/series/18414"
@@ -1875,7 +1877,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.16.1",
+    "version": "v1.17.0",
     "lastModified": "2026-05-25",
     "theme": "elegant"
   }

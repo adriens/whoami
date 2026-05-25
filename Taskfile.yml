@@ -53,10 +53,21 @@ tasks:
     cmds:
       - uv run scripts/fetch-youtube-channel.py --channel devops-lab
 
+  fetch-youtube-playlists-devops-lab:
+    desc: Provisionner les playlists YouTube de la chaine DevOPS-LAB
+    cmds:
+      - uv run scripts/fetch-youtube-playlists.py --channel devops-lab
+
+  fetch-youtube-playlists:
+    desc: Provisionner les playlists de toutes les chaines YouTube (sequentiel)
+    cmds:
+      - task: fetch-youtube-playlists-devops-lab
+
   fetch-youtube:
-    desc: Provisionner toutes les chaines YouTube (sequentiel)
+    desc: Provisionner toutes les chaines YouTube (videos + playlists, sequentiel)
     cmds:
       - task: fetch-youtube-devops-lab
+      - task: fetch-youtube-playlists-devops-lab
 
   fetch-goodreads-adriens:
     desc: Provisionner les livres Goodreads @adriens (etagere read)
