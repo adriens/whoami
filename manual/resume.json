@@ -67,6 +67,11 @@
         "network": "Chocolatey",
         "username": "adriens",
         "url": "https://community.chocolatey.org/profiles/adriens"
+      },
+      {
+        "network": "Hackster.io",
+        "username": "adriensales",
+        "url": "https://www.hackster.io/adriensales"
       }
     ]
   },
