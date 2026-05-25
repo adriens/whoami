@@ -1856,6 +1856,28 @@
       "url": "https://www.hackster.io/354529/mailbox-notifier-ed6dba"
     },
     {
+      "name": "BP connectée — Monitoring rack boîtes postales OPT-NC",
+      "type": "professional",
+      "x-tags": [
+        "iot",
+        "opt-nc",
+        "civic-tech",
+        "pedagogy",
+        "mentor",
+        "frugal",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
+      "startDate": "2020",
+      "description": "PoC IoT instrumentant un rack complet de boîtes postales (BP) OPT-NC : détection laser par case + communication Zigbee basse consommation → génération d'events dans le SI → notification client à la dépose du courrier. Co-conçu avec des élèves de la filière numérique et électronique du Lycée du Mont-Dore. Démonstration interne DSI en présence du DSI, du professeur, des élèves et de la section GLIA. PoC sans suite décisionnelle de l'OPT.",
+      "highlights": [
+        "Monitoring à l'échelle du rack : un capteur laser par case, mesh Zigbee basse consommation — zéro câblage réseau supplémentaire",
+        "Valeur métier : notification client à la dépose du courrier → élimine les déplacements inutiles sans effort supplémentaire pour le personnel postal",
+        "Co-conception pédagogique avec élèves filière numérique & électronique, Lycée du Mont-Dore",
+        "Démonstration interne validée (DSI, professeur, élèves, section GLIA) — PoC techniquement abouti, sans suite décisionnelle OPT"
+      ]
+    },
+    {
       "name": "Legacy Mailbox SMS Notifier — Proto boîte aux lettres connectée",
       "type": "open-source",
       "x-tags": [
@@ -1912,7 +1934,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.17.2",
+    "version": "v1.17.3",
     "lastModified": "2026-05-26",
     "theme": "elegant"
   }
