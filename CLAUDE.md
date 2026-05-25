@@ -145,6 +145,11 @@ Combiner :
 4. Si un nouveau thème récurrent émerge (validé par ≥2 recos indépendantes), envisager un keyword/skill dédié dans `skills` (ex: la transmission, validée par 4 recos, est devenue une skill Expert)
 5. Créer le fichier `.md` miroir dans `data/linkedin/adrien-sales/recommendations/` + mettre à jour `_index.csv`
 6. Bump `meta.version` + commit + tag (PATCH pour 1-2 recos, MINOR pour batch ou changement structurel)
+7. **Toujours conclure par un feedback structuré** à l'utilisateur :
+   - **1ères occurrences** : nouveaux tags jamais validés par un tiers — nommer le tag et expliquer pourquoi c'est un signal fort
+   - **Tags renforcés** : tableau `tag | nouveau compte | signal` pour les plus significatifs
+   - **Valeur qualitative unique** : ce que cette reco apporte que les autres n'ont pas dit (formulation spécifique, angle inédit, niveau de détail)
+   - **Signal à surveiller** : si un tag atteint 2 occurrences en refs, mentionner qu'à la 3ème il vaut la peine de le promouvoir en skill
 
 ## Workflow : ajouter un témoignage YouTube
 
@@ -206,6 +211,7 @@ Même logique que LinkedIn : type de relation + thèmes du transcript + contexte
 4. Créer le fichier `.md` miroir dans `data/linkedin/adrien-sales/recommendations/` (même dossier que LinkedIn, `x-source` différencie)
 5. Mettre à jour `_index.csv`
 6. Bump `meta.version` + commit + tag (PATCH)
+7. **Toujours conclure par un feedback structuré** : 1ères occurrences / tags renforcés (tableau) / valeur qualitative unique / signal à surveiller (voir étape 7 du workflow LinkedIn)
 
 ## Taxonomie `x-tags` canonique
 
