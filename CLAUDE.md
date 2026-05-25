@@ -30,6 +30,10 @@ data/
   kaggle/adriensales/     # datasets Kaggle
   huggingface/rastadidi/  # datasets + spaces HuggingFace
   github/adriens/         # repos publics non-forks (repos/*.md + _index.csv + _stats.json)
+  hackster/adriensales/   # projets Hackster.io (projects/*.md + _index.csv + _stats.json)
+  linkedin/adrien-sales/
+    articles/             # articles LinkedIn Pulse (*.md)
+    recommendations/      # recos LinkedIn (*.md + _index.csv) — miroir de references[] dans resume.json
 manual/resume.json        # source de vérité CV
 ```
 
@@ -54,6 +58,7 @@ task fetch-goodreads        # Livres Goodreads
 task fetch-kaggle           # Datasets Kaggle
 task fetch-hf               # Datasets & spaces HuggingFace (rastadidi)
 task fetch-github           # Repos GitHub publics non-forks (adriens)
+task fetch-hackster         # Projets Hackster.io @adriensales (Algolia API + HTML scraping)
 task build-knowledge-base   # Générer output/knowledge-base.md (full)
 task build-knowledge-base-lite  # Générer output/knowledge-base.md (lite)
 ```
@@ -80,6 +85,8 @@ cd site && bun run build                 # build Astro
 ## Extensions custom du schéma (`x-*`)
 
 Le schéma JSON Resume accepte des propriétés additionnelles. Les champs `x-*` permettent de stocker métadonnées et filtres sans casser la validation. Utilisés sur : `basics.profiles` (jamais), `references`, `interests`, `work`, `volunteer`, `awards`, `publications`, `certificates`, `projects`, et certaines entrées d'`education`.
+
+**`skills` n'a pas de `x-tags`** — décision explicite : `name` + `level` + `keywords` constituent déjà 3 dimensions de filtrage suffisantes. La valeur des `x-tags` est sur les sections narratives où l'on doit *cacher des entrées entières* selon l'offre ; les skills sont quasi-systématiquement montrés en intégralité.
 
 | Champ | Où | Rôle |
 |---|---|---|
@@ -127,8 +134,12 @@ Combiner :
 
 1. `task validate` — toujours
 2. Audit cohérence des tags : `grep -oP '"x-tags": \[\K[^\]]+' manual/resume.json | grep -oP '"[^"]+"' | sort | uniq -c | sort -rn`
-3. Si un nouveau thème récurrent émerge (validé par ≥2 recos indépendantes), envisager un keyword/skill dédié dans `skills` (ex: la transmission, validée par 4 recos, est devenue une skill Expert)
-4. Bump `meta.version` + commit + tag (PATCH pour 1-2 recos, MINOR pour batch ou changement structurel)
+3. **Analyser l'apport metadata de la nouvelle reco** — deux cas distincts :
+   - **Tag en 1ère occurrence** : nouvelle facette du profil jamais validée par un tiers (ex: `api-fication` et `open-data` apparus pour la 1ère fois avec Sabrina Vérolle en 2026) → signal fort, potentiellement à promouvoir en skill ou keyword
+   - **Tag renforcé** : convergence entre recommandants indépendants → crédibilité accrue (ex: `innovation` à 7x, `transmission` à 4x)
+4. Si un nouveau thème récurrent émerge (validé par ≥2 recos indépendantes), envisager un keyword/skill dédié dans `skills` (ex: la transmission, validée par 4 recos, est devenue une skill Expert)
+5. Créer le fichier `.md` miroir dans `data/linkedin/adrien-sales/recommendations/` + mettre à jour `_index.csv`
+6. Bump `meta.version` + commit + tag (PATCH pour 1-2 recos, MINOR pour batch ou changement structurel)
 
 ## Taxonomie `x-tags` canonique
 
