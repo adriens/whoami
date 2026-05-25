@@ -97,7 +97,7 @@ Le schéma JSON Resume accepte des propriétés additionnelles. Les champs `x-*`
 |---|---|---|
 | `x-tags` | toutes les sections (sauf `interests`) | Filtrage cross-section pour générer versions light par offre |
 | `x-context` | `interests` | `personal` / `pro` / `mixed` — filtrer interests pour version pro |
-| `x-position`, `x-relationship`, `x-date`, `x-source`, `x-language`, `x-context` | `references` | Traçabilité et filtrage |
+| `x-position`, `x-relationship`, `x-date`, `x-source`, `x-url`, `x-language`, `x-context` | `references` | Traçabilité et filtrage (`x-url` pour sources non-LinkedIn : YouTube, etc.) |
 | `x-label-url` | `education` | URL du label/accréditation (ex: CGE) |
 | `x-summary-short` | `basics` | Version synthétique du `summary` (1 phrase) pour LinkedIn headline / signature email / header version light |
 
@@ -145,6 +145,67 @@ Combiner :
 4. Si un nouveau thème récurrent émerge (validé par ≥2 recos indépendantes), envisager un keyword/skill dédié dans `skills` (ex: la transmission, validée par 4 recos, est devenue une skill Expert)
 5. Créer le fichier `.md` miroir dans `data/linkedin/adrien-sales/recommendations/` + mettre à jour `_index.csv`
 6. Bump `meta.version` + commit + tag (PATCH pour 1-2 recos, MINOR pour batch ou changement structurel)
+
+## Workflow : ajouter un témoignage YouTube
+
+Quand l'utilisateur fournit l'URL d'un clip YouTube (élève, collaborateur, prestataire) :
+
+### 1. Récupérer le transcript
+
+```sh
+uv run --with youtube-transcript-api scripts/yt-transcript.py <video_id_ou_url>
+```
+
+Accepte un `video_id` brut ou une URL complète (`youtu.be/xxx`, `youtube.com/watch?v=xxx`). Tente le français puis l'anglais en fallback.
+
+### 2. Vérifier si la vidéo est dans le channel devops-lab
+
+```sh
+grep "<video_id>" data/youtube/devops-lab/_index.csv
+```
+
+Si présente → récupérer la date de publication exacte et le titre. Sinon, noter la date de publication YouTube visible sur la page.
+
+### 3. Extraire les infos
+
+- **Nom** → `name` (depuis le titre de la vidéo ou le transcript)
+- **Position** → `x-position` (formation/rôle mentionné dans le titre ou contexte)
+- **Date** → `x-date` (`YYYY-MM-DD`) = date de publication de la vidéo
+- **Texte nettoyé** → `reference` : supprimer les "euh", artefacts de sous-titres auto, restructurer en paragraphes logiques avec `\n\n`
+- **Langue** → `x-language`
+- Toujours : `x-source: "YouTube"`, `x-url: "<url_du_clip>"`
+
+### 4. Mapper la relation
+
+Même tableau que LinkedIn, adapté au contexte vidéo :
+
+| Contexte | `x-relationship` | Tag central |
+|---|---|---|
+| Étudiant cours UNC/MIAGE | "Étudiant [formation] UNC — Adrien intervenant pédagogique" | `student-recommendation` |
+| Élève lycée (projet tutoré) | "Élève [lycée/filière] — Adrien tuteur industriel" | `student-recommendation` |
+| Collaborateur / collègue | "Collègue — [contexte]" | `peer-recognition` |
+| Prestataire | "Prestataire — Adrien était son client" | `client-relationship` |
+
+### 5. Construire `x-tags`
+
+Même logique que LinkedIn : type de relation + thèmes du transcript + contexte géo/employeur.
+
+### 6. Après chaque ajout
+
+1. `task validate` — toujours
+2. Audit tags (Python) :
+   ```sh
+   python3 -c "
+   import json; from collections import Counter
+   data = json.load(open('manual/resume.json'))
+   refs = [t for r in data.get('references',[]) for t in r.get('x-tags',[])]
+   [print(f'{c:3d}  {t}') for t, c in Counter(refs).most_common()]
+   "
+   ```
+3. Analyser l'apport : tags en 1ère occurrence (nouvelle facette) vs renforcés (convergence)
+4. Créer le fichier `.md` miroir dans `data/linkedin/adrien-sales/recommendations/` (même dossier que LinkedIn, `x-source` différencie)
+5. Mettre à jour `_index.csv`
+6. Bump `meta.version` + commit + tag (PATCH)
 
 ## Taxonomie `x-tags` canonique
 
