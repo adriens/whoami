@@ -154,7 +154,7 @@ Pour cohérence du filtrage **cross-section**, utiliser **uniquement** ces tags.
 
 - **Domaine** : `data`, `architecture`, `devsecops`, `devrel`, `management`, `pedagogy`, `interoperability`, `iot`, `mobile`, `fintech`, `civic-tech`, `ai-agents`
 - **Tech** : `neo4j`, `duckdb`, `airflow`, `kafka`, `python`, `go`, `java`, `quarkus`, `spring`, `flutter`, `huggingface`, `elk-stack`, `kibana`, `power-platform`, `oracle`
-- **Pattern** : `api-fication`, `open-source`, `open-data`, `scraping`, `knowledge-graph`, `mcp`, `lean`, `frugal`, `umbrella`, `packaging`
+- **Pattern** : `api-fication`, `open-source`, `open-data`, `scraping`, `knowledge-graph`, `mcp`, `lean`, `frugal`, `umbrella`, `packaging`, `saga` *(projet exploré progressivement sur plusieurs médias : articles Dev.to + playlist YouTube + composants multiples — ex: ColisNC, domaine.nc, temps d'attente, geol, auptitcafe)*
 - **Géo** : `pacifique`, `nouvelle-caledonie`, `international`, `monaco`
 - **Rôle** : `solo`, `team-lead`, `mentor`, `speaker`, `maintainer`, `product`
 - **Recognition / Recos** : `recognition`, `peer-recognition`, `manager-recommendation`, `direct-report-recommendation`, `student-recommendation`, `intern-recommendation`, `upstream-recognition`, `client-relationship`, `cross-company`

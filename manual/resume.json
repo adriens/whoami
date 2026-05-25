@@ -1309,7 +1309,8 @@
         "duckdb",
         "maintainer",
         "international",
-        "frugal"
+        "frugal",
+        "saga"
       ],
       "startDate": "2022-01",
       "description": "Outil open source (Go) permettant de gérer les end-of-life des composants logiciels en terminal et CI. Intègre Trivy, génère des rapports via Quarto/LaTeX et DuckDB. Conçu le week-end sur temps personnel. Hacktoberfest Maintainer Spotlight 2025.",
@@ -1561,7 +1562,8 @@
         "mobile",
         "flutter",
         "pacifique",
-        "nouvelle-caledonie"
+        "nouvelle-caledonie",
+        "saga"
       ],
       "startDate": "2022-01",
       "description": "Avant ce projet : aucune API, aucune interopérabilité possible sur les données des noms de domaine .NC. Scraping du site domaine.nc (aucune API officielle) → API exposée sur la marketplace APIGEE grand public de l'OPT-NC + dataset open data Kaggle. Effet multiplicateur : une application mobile Flutter open source développée par la communauté, publiée sur le Google Play Store et testée en crowdtesting.",
@@ -1606,7 +1608,8 @@
         "api-fication",
         "open-source",
         "pacifique",
-        "nouvelle-caledonie"
+        "nouvelle-caledonie",
+        "saga"
       ],
       "startDate": "2023-05",
       "description": "Package PyPI de scraping des données de cafés et restaurants en Nouvelle-Calédonie : prix, noms de plats, recettes et images. Pipeline complet de données avec GitHub Actions pour l'archivage live, dataset et notebooks Kaggle, agent chat HuggingFace et série dédiée sur Dev.to.",
@@ -1694,7 +1697,8 @@
         "java",
         "flutter",
         "pacifique",
-        "nouvelle-caledonie"
+        "nouvelle-caledonie",
+        "saga"
       ],
       "startDate": "2019-09",
       "endDate": "2021-06",
@@ -1763,7 +1767,8 @@
         "opt-nc",
         "data",
         "pacifique",
-        "nouvelle-caledonie"
+        "nouvelle-caledonie",
+        "saga"
       ],
       "startDate": "2020-01",
       "description": "Écosystème complet autour des temps d'attente en agence OPT-NC : API REST conteneurisée (opt-temps-attente-agences-api), front-end generative art data-driven (p5.js, Docker), expérience Unity interactive, dashboard Streamlit historique et LED Matrix IoT. Documenté dans une série de 7 articles Dev.to (@adriens + @optnc) de juin 2022 à décembre 2024.",
