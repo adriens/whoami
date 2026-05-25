@@ -1296,6 +1296,36 @@
         "knowledge-sharing",
         "opt-nc"
       ]
+    },
+    {
+      "name": "Jean Paul OLIVE",
+      "reference": "En tant que prestataire j'ai eu l'opportunité de travailler sur plusieurs projets avec Adrien. Il est sans doute l'un des managers techniques les plus inspirants avec qui j'ai collaboré.\n\nC'est un technophile toujours à l'affût des dernières nouveautés concernant l'IA, le DevOps et l'architecture logicielle. Soucieux des bonnes pratiques tant au niveau du code, de la sécurité et de l'architecture, il sait se montrer pédagogue pour faire progresser son équipe. D'ailleurs le fait qu'il dispense des cours à l'UNC et qu'il publie régulièrement des articles sur dev.to et sur sa chaine Youtube en dit long sur sa motivation à partager son savoir et son expérience.\n\nAu sein de sa section et même de son service, il a su proposer des solutions originales transformant les besoins métiers en opportunités d'innovation et d'apprentissage.\n\nJe peux dire sans hésiter que c'est dans sa section que j'ai appris le plus ces dernières années.",
+      "x-position": "Software Engineer — CEO @ DEVEO NC",
+      "x-relationship": "Prestataire — Adrien était son client",
+      "x-date": "2026-05-25",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": [
+        "client-relationship",
+        "leadership",
+        "tech-enthusiasm",
+        "veille-technologique",
+        "devsecops",
+        "architecture",
+        "code-quality",
+        "technical-excellence",
+        "pedagogie",
+        "pedagogy",
+        "transmission",
+        "mentorat",
+        "unc-partnership",
+        "devrel",
+        "knowledge-sharing",
+        "innovation",
+        "force-de-proposition",
+        "lasting-impact",
+        "opt-nc"
+      ]
     }
   ],
   "projects": [
@@ -1882,8 +1912,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.17.0",
-    "lastModified": "2026-05-25",
+    "version": "v1.17.2",
+    "lastModified": "2026-05-26",
     "theme": "elegant"
   }
 }
