@@ -1350,6 +1350,31 @@
         "lasting-impact",
         "opt-nc"
       ]
+    },
+    {
+      "name": "Clémentine Galin",
+      "reference": "J'ai eu la chance d'avoir Adrien comme intervenant en Master MIAGE, dans une UE intitulée Interopérabilité des SI. Un intitulé qui peut sembler technique au départ, mais qu'il a su rendre concret, accessible et vraiment intéressant.\n\nÀ travers un projet mené en mode \"start-up\", basé sur des données ouvertes comme celles de prix.nc, Adrien nous a permis de travailler comme de véritables équipes en entreprise : data préparation, data visualisation et data science. Chacun pouvait explorer ses propres pistes tout en collaborant avec les autres groupes, ce qui a rendu l'apprentissage très riche.\n\nCe que je retiens surtout, c'est sa passion, sa pédagogie et sa capacité à donner du sens à des notions parfois complexes. Adrien fait partie de ces enseignants dont on se souvient, car il transmet bien plus qu'un cours : une façon concrète d'aborder les projets SI, avec de la curiosité, de l'expérimentation et une vraie logique d'apprentissage par la pratique. Je le recommande avec grand plaisir.",
+      "x-position": "Valoriser la donnée, éclairer la décision",
+      "x-relationship": "Étudiante M2 MIAGE UNC — Adrien intervenant pédagogique (UE Interopérabilité des SI)",
+      "x-date": "2026-05-25",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": [
+        "student-recommendation",
+        "pedagogie",
+        "pedagogy",
+        "transmission",
+        "lasting-impact",
+        "innovation",
+        "tech-enthusiasm",
+        "open-data",
+        "civic-tech",
+        "data",
+        "interoperability",
+        "unc-partnership",
+        "human-centric",
+        "curiosite"
+      ]
     }
   ],
   "projects": [
@@ -1958,7 +1983,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.17.4",
+    "version": "v1.17.5",
     "lastModified": "2026-05-26",
     "theme": "elegant"
   }
