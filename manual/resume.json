@@ -1009,6 +1009,16 @@
   ],
   "references": [
     {
+      "name": "Marc RODRIGUES",
+      "reference": "J'ai la chance de travailler avec Adrien, et c'est une collaboration qui rend le quotidien vraiment simple et agréable.\n\nAdrien est quelqu'un de dynamique, impliqué, toujours dans l'action. En dev, en DevOps ou sur des sujets de data engineering, il garde le même réflexe : chercher des solutions concrètes, débloquer rapidement les situations et faire avancer les choses sans tourner autour.\n\nCe que j'apprécie particulièrement, c'est qu'on peut lui soumettre une idée même encore un peu floue. Il prend le temps d'écouter, de comprendre le contexte, de challenger avec justesse, et souvent il t'amène à voir les choses autrement. Pas en imposant son point de vue, mais en aidant chacun à affiner sa réflexion. Et parfois, clairement, à revoir sa copie dans le bon sens.\n\nSur les sujets techniques, que ce soit l'architecture, les pipelines data, les pipelines CI/CD ou le run, il a une approche très pragmatique. Ça va droit au but, sans complexité inutile. Peu de réunions, des échanges efficaces, et des décisions qui permettent d'avancer vite et bien.\n\nIl y a aussi une vraie rigueur dans sa manière de travailler : du bon sens, des pratiques propres, une vision agile et lean aussi bien dans la construction que dans le maintien en condition opérationnelle.\n\nC'est quelqu'un de fiable, sur qui on peut compter quand les sujets deviennent plus sensibles ou plus techniques. Il garde le cap, aide à débloquer les situations et sait prendre ses responsabilités quand il le faut.\n\nPour finir, c'est un collègue comme on en croise peu, et quelqu'un qui me manquerait sincèrement s'il venait à partir.",
+      "x-position": "Software Architect",
+      "x-relationship": "Collègue — même équipe",
+      "x-date": "2026-05-26",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": ["peer-recognition", "dynamism", "delivery-focus", "pragmatisme-techno", "lean", "human-centric", "trust-building", "technical-excellence", "devsecops", "data", "architecture", "pleasure-to-work-with", "lasting-impact", "opt-nc"]
+    },
+    {
       "name": "Sébastien Bourlart",
       "reference": "Je recommande vivement Adrien pour son expertise technique et son engagement passionné. Son statut d'expert technique ne l'empêche en rien d'être attentif à la satisfaction des besoins business, ou à l'optimisation du time to market. Travailler avec Adrien est toujours un plaisir, car il apporte une expertise technique précieuse. Cerise sur le gâteau, il n'hésite jamais à se positionner sur des technologies novatrices, ce qui est un atout majeur pour mener à bien des projets innovants.",
       "x-position": "Consultant en stratégie et transformation numérique",
@@ -2025,7 +2035,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.18.3",
+    "version": "v1.18.4",
     "lastModified": "2026-05-26",
     "theme": "elegant"
   }
