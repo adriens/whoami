@@ -367,6 +367,13 @@
   ],
   "awards": [
     {
+      "title": "Mentor Pépite NC 2025 — équipe WAZA lauréate",
+      "date": "2025",
+      "awarder": "Pépite NC / Bpifrance / Prix Lagoon",
+      "x-tags": ["mentorat", "transmission", "pedagogy", "mentor", "civic-tech"],
+      "summary": "Mentor du programme Pépite NC 2025 auprès de l'équipe WAZA (Dévi Bergès, Tina Nak, James Langeron, Raimanu Pain — étudiants MIAGE UNC). Application de mise en relation chauffeurs/passagers. 3ème place + Prix spécial Lagoon (100 000 CFP). Mentorat sollicité directement par les étudiants."
+    },
+    {
       "title": "Extension officielle DuckDB Community — brew",
       "date": "2026-02",
       "awarder": "DuckDB",
@@ -2017,7 +2024,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.18.1",
+    "version": "v1.18.2",
     "lastModified": "2026-05-26",
     "theme": "elegant"
   }
