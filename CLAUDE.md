@@ -35,7 +35,8 @@ data/
   pypi/rastadidi/        # packages PyPI (packages/*.md + _index.csv + _stats.json)
   linkedin/adrien-sales/
     articles/             # articles LinkedIn Pulse (*.md)
-    recommendations/      # recos LinkedIn (*.md + _index.csv) — miroir de references[] dans resume.json
+    recommendations/      # recos reçues (*.md + _index.csv) — miroir de references[] dans resume.json
+    recommendations-given/ # recos données par Adrien (*.md + _index.csv) — data only, pas dans resume.json
 manual/resume.json        # source de vérité CV
 ```
 
@@ -150,6 +151,61 @@ Combiner :
    - **Tags renforcés** : tableau `tag | nouveau compte | signal` pour les plus significatifs
    - **Valeur qualitative unique** : ce que cette reco apporte que les autres n'ont pas dit (formulation spécifique, angle inédit, niveau de détail)
    - **Signal à surveiller** : si un tag atteint 2 occurrences en refs, mentionner qu'à la 3ème il vaut la peine de le promouvoir en skill
+
+## Workflow : ajouter une recommandation donnée (LinkedIn)
+
+Les recos données par Adrien sont **data-only** : elles ne vont pas dans `resume.json` mais uniquement dans `data/linkedin/adrien-sales/recommendations-given/`. Même formalisme que les recos reçues.
+
+### 1. Parser le format LinkedIn
+
+Même logique que les recos reçues. Extraire :
+- **Nom complet** → `name`
+- **Headline** → `position`
+- **Date + relation** → `x-date` (`YYYY-MM-DD`) + `x-relationship`
+- **Texte intégral** → corps du `.md` (langue originale, paragraphes séparés par ligne vide)
+- **Langue** → `lang`
+- Toujours : `source: "LinkedIn"`
+
+### 2. Mapper la relation
+
+| Contexte | `x-relationship` |
+|---|---|
+| Adrien était le manager direct | "Adrien — manager direct" |
+| Adrien était senior sans management | "Adrien — senior, sans management direct" |
+| Collaborateur / même équipe | "Adrien — collègue même équipe" |
+| Prestataire recommandé | "Adrien — client du prestataire" |
+| Étudiant encadré | "Adrien — tuteur industriel / intervenant" |
+
+### 3. Construire les tags
+
+Mêmes principes que les recos reçues : compétences et qualités de la personne recommandée, contexte employeur, relation. Ces tags décrivent **la personne recommandée**, pas Adrien.
+
+### 4. Créer le fichier `.md`
+
+Dans `data/linkedin/adrien-sales/recommendations-given/` avec le frontmatter suivant :
+
+```markdown
+---
+slug: YYYY-MM-DD-prenom-nom
+name: "Prénom Nom"
+position: "Poste actuel"
+relationship: "Adrien — [contexte]"
+date: YYYY-MM-DD
+lang: fr
+source: LinkedIn
+tags: [tag1, tag2, ...]
+---
+
+Texte intégral de la recommandation donnée.
+```
+
+### 5. Mettre à jour `_index.csv`
+
+`data/linkedin/adrien-sales/recommendations-given/_index.csv` — même colonnes que les recos reçues.
+
+### 6. Commit
+
+Pas de bump de `meta.version` (pas de modification de `resume.json`). Commit `chore(data)` ou `feat(data)` selon le volume.
 
 ## Workflow : ajouter un témoignage YouTube
 
