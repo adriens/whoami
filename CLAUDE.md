@@ -269,6 +269,19 @@ Même logique que LinkedIn : type de relation + thèmes du transcript + contexte
 6. Bump `meta.version` + commit + tag (PATCH)
 7. **Toujours conclure par un feedback structuré** : 1ères occurrences / tags renforcés (tableau) / valeur qualitative unique / signal à surveiller (voir étape 7 du workflow LinkedIn)
 
+## Concept : saga
+
+Une **saga** est un projet ou thème exploré progressivement sur plusieurs médias et dans la durée — typiquement : une série d'articles Dev.to, une playlist YouTube dédiée, des composants open source multiples, et/ou des datasets/espaces HuggingFace. La saga se distingue d'un projet ponctuel par son **caractère évolutif et documenté** : chaque nouveau medium enrichit le même sujet sans le clore.
+
+**Critères pour tagger `saga`** (au moins 2 des 3) :
+- ≥ 2 articles Dev.to sur le même sujet
+- ≥ 1 playlist YouTube ou série de vidéos dédiée
+- ≥ 2 composants/repos/packages distincts autour du même thème
+
+**Sagas actives** : ColisNC, domaine.nc, temps d'attente OPT-NC, geol, auptitcafe
+
+**Pourquoi c'est important** : le tag `saga` permet de filtrer les projets qui illustrent la capacité à construire un écosystème complet autour d'un problème — signal fort de profondeur et de durabilité, contrairement à un one-shot.
+
 ## Taxonomie `x-tags` canonique
 
 Pour cohérence du filtrage **cross-section**, utiliser **uniquement** ces tags. Avant d'introduire un nouveau tag, vérifier qu'aucun équivalent n'existe.
