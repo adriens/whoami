@@ -821,7 +821,12 @@
         "Team Topologies",
         "Transparence radicale",
         "Culture de feedback",
-        "Intérim de direction"
+        "Intérim de direction",
+        "Recrutement — détection de talent sur dossier",
+        "Pilotage de prestataires (BI, cloud, intégration SI)",
+        "Management full-remote async (GitHub issues uniquement)",
+        "Serious games et rétrospectives créatives",
+        "Transition & onboarding entrant"
       ]
     },
     {
@@ -2008,7 +2013,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.17.7",
+    "version": "v1.17.8",
     "lastModified": "2026-05-26",
     "theme": "elegant"
   }
