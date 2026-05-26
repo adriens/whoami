@@ -217,6 +217,29 @@ def build_huggingface(data_dir: Path, lite: bool) -> str:
     return "\n".join(lines)
 
 
+def build_iot(data_dir: Path, lite: bool) -> str:
+    iot_dir = data_dir / "iot"
+    if not iot_dir.exists():
+        return ""
+    lines = [section("IoT — Devices & Gadgets")]
+    total = 0
+    for owner_dir in sorted(iot_dir.iterdir()):
+        if not owner_dir.is_dir():
+            continue
+        devices_dir = owner_dir / "devices"
+        md_files = sorted(devices_dir.glob("*.md")) if devices_dir.exists() else []
+        if not md_files:
+            continue
+        lines.append(section(f"@{owner_dir.name}", 3))
+        for md in md_files:
+            content = md.read_text(encoding="utf-8")
+            lines.append(content.split("---\n\n")[0].strip() + "\n---" if lite else content.strip())
+            lines.append("\n---\n")
+            total += 1
+    lines.insert(1, f"*{total} devices au total*\n")
+    return "\n".join(lines)
+
+
 def main():
     parser = argparse.ArgumentParser(description="Generer knowledge-base.md pour NotebookLM")
     parser.add_argument("--lite", action="store_true", help="Frontmatters uniquement, sans corps des articles")
@@ -238,6 +261,7 @@ def main():
         build_huggingface(DATA, lite=args.lite),
         build_linkedin(DATA, lite=args.lite),
         build_github(DATA, lite=args.lite),
+        build_iot(DATA, lite=args.lite),
     ]
 
     OUTPUT.write_text("\n".join(p for p in parts if p), encoding="utf-8")

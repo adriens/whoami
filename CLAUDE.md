@@ -37,6 +37,7 @@ data/
     articles/             # articles LinkedIn Pulse (*.md)
     recommendations/      # recos reçues (*.md + _index.csv) — miroir de references[] dans resume.json
     recommendations-given/ # recos données par Adrien (*.md + _index.csv) — data only, pas dans resume.json
+  iot/adriens/            # inventaire devices IoT/Maker (devices/*.md + _index.csv + _stats.json)
 manual/resume.json        # source de vérité CV
 ```
 
