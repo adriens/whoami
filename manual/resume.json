@@ -940,6 +940,7 @@
     {
       "name": "Maker & IoT",
       "keywords": [
+        "Lo-tech",
         "Arduino",
         "ESP8266 / NodeMCU",
         "Arduino MKR1000",
@@ -2024,7 +2025,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.18.2",
+    "version": "v1.18.3",
     "lastModified": "2026-05-26",
     "theme": "elegant"
   }
