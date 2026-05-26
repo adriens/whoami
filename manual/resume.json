@@ -859,7 +859,8 @@
         "geol",
         "oracle-jutils",
         "mobitag",
-        "liquibase"
+        "liquibase",
+        "Attraction et fidélisation de contributors externes"
       ]
     },
     {
@@ -2015,7 +2016,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.17.9",
+    "version": "v1.18.0",
     "lastModified": "2026-05-26",
     "theme": "elegant"
   }
