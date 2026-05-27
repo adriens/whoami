@@ -1833,7 +1833,8 @@
         "Dashboard Kibana temps réel : KPIs d'occupation + heatmaps issues des flux API — aide à la décision sur la gestion des espaces de travail",
         "API REST avec filtres par classe d'objet et seuil de confiance, endpoints de visualisation, métadonnées et analyse",
         "Article LinkedIn Pulse publié : démonstration de la valeur métier du ML appliqué à l'optimisation des espaces",
-        "API conteneurisée (person-counter-api) : **91 pulls** Docker Hub"
+        "API conteneurisée (person-counter-api) : **91 pulls** Docker Hub",
+        "Système d'alerte from scratch sur Raspberry Pi 4 + caméra : détection temps réel + appels webhooks — implémenté avec un stagiaire (Guillaume Bertherat, 2021)"
       ],
       "url": "https://github.com/adriens/person-counter-api"
     },
@@ -2056,7 +2057,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.18.6",
+    "version": "v1.18.7",
     "lastModified": "2026-05-26",
     "theme": "elegant"
   }
