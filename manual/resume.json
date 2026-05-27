@@ -1451,6 +1451,20 @@
   ],
   "projects": [
     {
+      "name": "Programme stages & projets tutorés OPT-NC × UNC",
+      "type": "professional",
+      "x-tags": ["mentorat", "transmission", "pedagogy", "opt-nc", "nouvelle-caledonie", "pacifique", "open-source", "open-data", "api-fication", "civic-tech", "unc-partnership"],
+      "startDate": "2019",
+      "description": "Programme informel mais documenté d'encadrement de stagiaires et projets tutorés en partenariat avec l'Université de la Nouvelle-Calédonie (UNC). Chaque projet part d'un problème réel OPT-NC, expose un étudiant à des technologies modernes, et livre un artefact concret et publié — article Dev.to, vidéo YouTube, repo GitHub. Technologies couvertes : ML/IA, Flutter, Unity, Streamlit, Next.js, ELK Stack, IoT/LED matrix, Java/JavaFX, APIs REST conteneurisées.",
+      "highlights": [
+        "14 projets encadrés (2019→2026) — 9 stages + 5 projets tutorés",
+        "18 étudiants distincts — majoritairement locaux (Nouméa), avec des étudiants de France métropolitaine en échange à l'UNC (Toulouse, Paris, Toulon)",
+        "100% des projets livrés avec au moins un artefact public : article Dev.to, vidéo YouTube ou repo GitHub open source",
+        "Fil conducteur : un problème réel OPT-NC → open data ou API → livrable concret → publication — reproductible sur 6 ans"
+      ],
+      "url": "https://github.com/opt-nc/odata-stages-projets-tutores-unc"
+    },
+    {
       "name": "geol — CLI de gestion des End-of-Life",
       "type": "open-source",
       "x-tags": [
@@ -2057,7 +2071,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.18.7",
+    "version": "v1.18.8",
     "lastModified": "2026-05-26",
     "theme": "elegant"
   }
