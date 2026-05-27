@@ -1,6 +1,6 @@
 {
-  "total": 2,
-  "by_category": {"microcontroller": 1, "sbc": 1},
-  "by_status": {"retired": 1, "shelved": 1},
-  "by_connectivity": {"wifi": 2, "ethernet": 1}
+  "total": 4,
+  "by_category": {"microcontroller": 1, "sbc": 1, "kit": 1, "module": 1},
+  "by_status": {"retired": 1, "shelved": 2, "planned": 1},
+  "by_connectivity": {"wifi": 3, "ethernet": 1}
 }
