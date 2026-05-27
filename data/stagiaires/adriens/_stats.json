@@ -1,9 +1,17 @@
 {
-  "total": 12,
-  "by_type": {"stage": 6, "projet-tutore": 6},
-  "by_employer": {"OPT-NC": 12},
-  "etudiants_distincts": 16,
+  "total": 14,
+  "by_type": {"stage": 8, "projet-tutore": 6},
+  "by_employer": {"OPT-NC": 14},
+  "etudiants_distincts": 18,
   "avec_youtube": 8,
-  "avec_article": 7,
-  "avec_git": 6
+  "avec_article": 9,
+  "avec_git": 6,
+  "in_progress": 1,
+  "origins": {
+    "Nouméa": 15,
+    "France métropolitaine": 3,
+    "Toulon": 1,
+    "Paris": 1,
+    "Toulouse": 1
+  }
 }
