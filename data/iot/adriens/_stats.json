@@ -1,6 +1,6 @@
 {
-  "total": 0,
-  "by_category": {},
-  "by_status": {},
-  "by_connectivity": {}
+  "total": 1,
+  "by_category": {"microcontroller": 1},
+  "by_status": {"retired": 1},
+  "by_connectivity": {"wifi": 1}
 }

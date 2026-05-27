@@ -1,1 +1,2 @@
 slug,name,category,connectivity,status,acquired,tags
+arduino-mkr1000-coffeeops,"Arduino MKR1000 WiFi",microcontroller,[wifi],retired,2019,"[iot, wifi, arduino, oled]"
