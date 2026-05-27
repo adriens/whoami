@@ -217,6 +217,28 @@ def build_huggingface(data_dir: Path, lite: bool) -> str:
     return "\n".join(lines)
 
 
+def build_stagiaires(data_dir: Path, lite: bool) -> str:
+    stagiaires_dir = data_dir / "stagiaires"
+    if not stagiaires_dir.exists():
+        return ""
+    lines = [section("Stagiaires & Projets tutorés")]
+    total = 0
+    for owner_dir in sorted(stagiaires_dir.iterdir()):
+        if not owner_dir.is_dir():
+            continue
+        md_files = sorted((owner_dir / "stagiaires").glob("*.md")) if (owner_dir / "stagiaires").exists() else []
+        if not md_files:
+            continue
+        lines.append(section(f"@{owner_dir.name}", 3))
+        for md in md_files:
+            content = md.read_text(encoding="utf-8")
+            lines.append(content.split("---\n\n")[0].strip() + "\n---" if lite else content.strip())
+            lines.append("\n---\n")
+            total += 1
+    lines.insert(1, f"*{total} stagiaires / projets tutorés au total*\n")
+    return "\n".join(lines)
+
+
 def build_iot(data_dir: Path, lite: bool) -> str:
     iot_dir = data_dir / "iot"
     if not iot_dir.exists():
@@ -262,6 +284,7 @@ def main():
         build_linkedin(DATA, lite=args.lite),
         build_github(DATA, lite=args.lite),
         build_iot(DATA, lite=args.lite),
+        build_stagiaires(DATA, lite=args.lite),
     ]
 
     OUTPUT.write_text("\n".join(p for p in parts if p), encoding="utf-8")
