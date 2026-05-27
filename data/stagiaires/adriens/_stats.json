@@ -1,6 +1,6 @@
 {
   "total": 14,
-  "by_type": {"stage": 8, "projet-tutore": 6},
+  "by_type": {"stage": 9, "projet-tutore": 5},
   "by_employer": {"OPT-NC": 14},
   "etudiants_distincts": 18,
   "avec_youtube": 8,
@@ -9,7 +9,7 @@
   "in_progress": 1,
   "origins": {
     "Nouméa": 15,
-    "France métropolitaine": 3,
+    "France métropolitaine": 1,
     "Toulon": 1,
     "Paris": 1,
     "Toulouse": 1

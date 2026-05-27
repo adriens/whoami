@@ -3,7 +3,7 @@ slug: 2024-09-08-domaine-nc-javafx
 name: "Domaine.nc JavaFX"
 school: ""
 formation: ""
-type: stage
+type: projet-tutore
 employer: "OPT-NC"
 uo: "DSI/SMO/GLIA"
 date_soutenance: 2024-09-08
