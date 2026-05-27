@@ -8,6 +8,10 @@ employer: "OPT-NC"
 uo: "DSI/SMO/GLIA"
 date_soutenance: 2024-09-08
 etudiants: ["Kévin Petit", "David Domergue", "Irwan Soer"]
+origins:
+  "Kévin Petit": "Nouméa"
+  "David Domergue": "Nouméa"
+  "Irwan Soer": "Nouméa"
 subject: "Domaine.nc on JavaFX"
 current_position: ""
 url_git: "https://github.com/opt-nc/domaine-nc-javafx"

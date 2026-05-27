@@ -8,6 +8,8 @@ employer: "OPT-NC"
 uo: "DSI/SMO/GLIA"
 date_soutenance: 2025-09-20
 etudiants: ["Quoc-Kim Bui"]
+origins:
+  "Quoc-Kim Bui": "Nouméa"
 subject: "Un front-end NEXT.js pour localiser les agences de l'OPT-NC"
 current_position: ""
 url_git: "https://github.com/adriens/unc-temps-attente-nextjs"

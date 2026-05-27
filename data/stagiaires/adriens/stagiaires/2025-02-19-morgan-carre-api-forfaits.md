@@ -8,6 +8,8 @@ employer: "OPT-NC"
 uo: "DSI/SMO/GLIA"
 date_soutenance: 2025-02-19
 etudiants: ["Morgan Carré"]
+origins:
+  "Morgan Carré": "Nouméa"
 subject: "Une API pour les forfaits telecom de l'OPT-NC"
 current_position: ""
 url_git: "https://github.com/adriens/api-forfaits-opt"

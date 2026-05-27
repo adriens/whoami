@@ -8,6 +8,8 @@ employer: "OPT-NC"
 uo: "DSI/SMO/GLIA"
 date_soutenance: 2019-07-01
 etudiants: ["Paul Monimeau"]
+origins:
+  "Paul Monimeau": "Nouméa"
 subject: "Un BOT en réalité augmentée pour suivre son colis!"
 current_position: "Ingénieur en Informatique"
 url_git: ""

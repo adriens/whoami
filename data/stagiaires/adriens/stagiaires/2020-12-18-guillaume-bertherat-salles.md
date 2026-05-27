@@ -8,6 +8,8 @@ employer: "OPT-NC"
 uo: "DSI/SMO/GLIA"
 date_soutenance: 2020-12-18
 etudiants: ["Guillaume Bertherat"]
+origins:
+  "Guillaume Bertherat": "Nouméa"
 subject: "Optimiser l'utilisation des salles de réunion et des espaces de travail grâce à des indicateurs clés (KPI) et des analyses issues du Machine Learning"
 current_position: "Responsable technique & Développeur senior chez Sopra Steria"
 url_git: ""

@@ -8,6 +8,9 @@ employer: "OPT-NC"
 uo: "DSI/SMO/GLIA"
 date_soutenance: 2025-09-29
 etudiants: ["Sarah Chalier", "Hugo Fantin"]
+origins:
+  "Sarah Chalier": "Nouméa"
+  "Hugo Fantin": "Nouméa"
 subject: "Le référentiel des emplois de l'OPT-NC... en data, dataviz & ML"
 current_position: ""
 url_git: "https://github.com/adriens/referentiel-emplois-opt-nc"

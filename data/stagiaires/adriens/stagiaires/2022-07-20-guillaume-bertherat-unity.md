@@ -8,6 +8,8 @@ employer: "OPT-NC"
 uo: "DSI/SMO/GLIA"
 date_soutenance: 2022-07-20
 etudiants: ["Guillaume Bertherat"]
+origins:
+  "Guillaume Bertherat": "Nouméa"
 subject: "Bringing live Wait Time data to life with Digital Art & Unity"
 current_position: "Responsable technique & Développeur senior chez Sopra Steria"
 url_git: ""

@@ -8,6 +8,9 @@ employer: "OPT-NC"
 uo: "DSI/SMO/GLIA"
 date_soutenance: 2024-12-03
 etudiants: ["Morgan Carré", "Malcolm Bertaina"]
+origins:
+  "Morgan Carré": "Nouméa"
+  "Malcolm Bertaina": "Nouméa"
 subject: "Front-end web API driven sur Streamlit qui présente les temps d'attente en Agence à l'OPT Nouvelle-Calédonie"
 current_position: ""
 url_git: "https://github.com/adriens/temps-attente-streamlit"

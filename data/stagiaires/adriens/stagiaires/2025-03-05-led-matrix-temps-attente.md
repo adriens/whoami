@@ -8,6 +8,9 @@ employer: "OPT-NC"
 uo: "DSI/SMO/GLIA"
 date_soutenance: 2025-03-05
 etudiants: ["Raphaël Bordais", "José Goué"]
+origins:
+  "Raphaël Bordais": "Toulon"
+  "José Goué": "Nouméa"
 subject: "Un projet de dataviz sur Matrice LED drivée par les données de temps d'attente de l'OPT-NC"
 current_position: ""
 url_git: "https://github.com/adriens/temps-attente-matrix-led"

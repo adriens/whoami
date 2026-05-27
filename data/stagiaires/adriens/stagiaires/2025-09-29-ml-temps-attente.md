@@ -8,6 +8,9 @@ employer: "OPT-NC"
 uo: "DSI/SMO/GLIA"
 date_soutenance: 2025-09-29
 etudiants: ["Astride Saman", "Tenisio Lagikula"]
+origins:
+  "Astride Saman": "Nouméa"
+  "Tenisio Lagikula": "Nouméa"
 subject: "Utiliser des techniques de ML et IA pour comprendre, classifier et prédire les temps d'attente en agence de l'OPT-NC"
 current_position: ""
 url_git: "https://github.com/adriens/referentiel-emplois-opt-nc"

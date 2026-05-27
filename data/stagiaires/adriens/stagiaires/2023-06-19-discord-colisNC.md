@@ -8,6 +8,10 @@ employer: "OPT-NC"
 uo: "DSI/SMO/GLIA"
 date_soutenance: 2023-06-19
 etudiants: ["Luc Enee", "Kevin Petit", "Oceanne Tilly"]
+origins:
+  "Luc Enee": "Nouméa"
+  "Kevin Petit": "Nouméa"
+  "Oceanne Tilly": "Nouméa"
 subject: "Suivre son colis directement depuis des commandes dédiées dans Discord"
 current_position: ""
 url_git: ""
