@@ -1,5 +1,9 @@
 {
-  "total": 4,
-  "by_type": {"stage": 3, "projet-tutore": 1},
-  "by_employer": {"OPT-NC": 4}
+  "total": 12,
+  "by_type": {"stage": 6, "projet-tutore": 6},
+  "by_employer": {"OPT-NC": 12},
+  "etudiants_distincts": 16,
+  "avec_youtube": 8,
+  "avec_article": 7,
+  "avec_git": 6
 }
