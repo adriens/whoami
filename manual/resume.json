@@ -370,7 +370,13 @@
       "title": "Mentor Pépite NC 2025 — équipe WAZA lauréate",
       "date": "2025",
       "awarder": "Pépite NC / Bpifrance / Prix Lagoon",
-      "x-tags": ["mentorat", "transmission", "pedagogy", "mentor", "civic-tech"],
+      "x-tags": [
+        "mentorat",
+        "transmission",
+        "pedagogy",
+        "mentor",
+        "civic-tech"
+      ],
       "summary": "Mentor du programme Pépite NC 2025 auprès de l'équipe WAZA (Dévi Bergès, Tina Nak, James Langeron, Raimanu Pain — étudiants MIAGE UNC). Application de mise en relation chauffeurs/passagers. 3ème place + Prix spécial Lagoon (100 000 CFP). Mentorat sollicité directement par les étudiants."
     },
     {
@@ -1020,7 +1026,45 @@
       "x-date": "2026-05-28",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["student-recommendation", "pedagogie", "pedagogy", "transmission", "disponibilite", "data", "interoperability", "mentorat", "unc-partnership", "lasting-impact", "human-centric"]
+      "x-tags": [
+        "student-recommendation",
+        "pedagogie",
+        "pedagogy",
+        "transmission",
+        "disponibilite",
+        "data",
+        "interoperability",
+        "mentorat",
+        "unc-partnership",
+        "lasting-impact",
+        "human-centric"
+      ]
+    },
+    {
+      "name": "Dévi Bergès",
+      "reference": "J'ai eu la chance d'avoir Adrien comme professeur à l'UNC en Master 2 MIAGE (cours d'interopérabilité des SI), puis comme tuteur académique pour le programme PEPITE 2025\n\nAdrien est un enseignant qui sort vraiment du lot (dans le top vacataires du MIAGE). Avec lui, on ne se contente pas de faire de la théorie. Il nous a fait travailler sur des projets très concrets (comme avec notre projet prix.nc), en gérant la classe comme une véritable start-up. Nous avons même eu l'opportunité de présenter nos travaux aux institutions (DAE du gouv et la Station N). Grâce à sa pédagogie basée sur l'expérimentation et la pratique, il arrive à rendre des sujets très techniques clairs, accessibles et passionnants.\n\nEnsuite, en tant que tuteur pour notre projet d'entrepreneuriat PEPITE, il a été un soutien incroyable. Adrien est quelqu'un de très bienveillant et toujours à l'écoute. Il sait nous faire confiance, nous donner de la liberté et nous challenger pour donner le meilleur de nous-mêmes, sans jamais nous freiner. En plus, il fait preuve d'une disponibilité sans faille, même en dehors des heures de cours et de travail.\n\nC'est un professionnel inspirant qui donne du sens à ce qu'il transmet et qui donne envie de s'investir. Je le recommande les yeux fermés à toute personne qui recherche un profil à la fois très pointu techniquement avec de formidables qualités humaines.",
+      "x-position": "Chargé de projets / Étudiant-entrepreneur",
+      "x-relationship": "Étudiant M2 MIAGE UNC — Adrien intervenant pédagogique et tuteur PEPITE 2025",
+      "x-date": "2026-05-28",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": [
+        "student-recommendation",
+        "pedagogie",
+        "pedagogy",
+        "transmission",
+        "mentorat",
+        "human-centric",
+        "qualites-humaines",
+        "disponibilite",
+        "trust-building",
+        "unc-partnership",
+        "projet-tutore",
+        "technical-expertise",
+        "lasting-impact",
+        "interoperability",
+        "innovation"
+      ]
     },
     {
       "name": "Guillaume Bertherat",
@@ -1031,7 +1075,21 @@
       "x-date": "2026-05-26",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["direct-report-recommendation", "intern-recommendation", "stage", "mentorat", "transmission", "pedagogie", "tech-enthusiasm", "curiosite", "knowledge-sharing", "disponibilite", "human-centric", "force-de-proposition", "opt-nc"]
+      "x-tags": [
+        "direct-report-recommendation",
+        "intern-recommendation",
+        "stage",
+        "mentorat",
+        "transmission",
+        "pedagogie",
+        "tech-enthusiasm",
+        "curiosite",
+        "knowledge-sharing",
+        "disponibilite",
+        "human-centric",
+        "force-de-proposition",
+        "opt-nc"
+      ]
     },
     {
       "name": "David Kranitz",
@@ -1041,7 +1099,24 @@
       "x-date": "2026-05-27",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["direct-report-recommendation", "mentorat", "transmission", "pedagogie", "open-data", "open-source", "database", "technical-excellence", "spring", "java", "architecture-logicielle", "civic-tech", "dsi-noumea", "nouvelle-caledonie", "iot", "tech-enthusiasm"]
+      "x-tags": [
+        "direct-report-recommendation",
+        "mentorat",
+        "transmission",
+        "pedagogie",
+        "open-data",
+        "open-source",
+        "database",
+        "technical-excellence",
+        "spring",
+        "java",
+        "architecture-logicielle",
+        "civic-tech",
+        "dsi-noumea",
+        "nouvelle-caledonie",
+        "iot",
+        "tech-enthusiasm"
+      ]
     },
     {
       "name": "Marc RODRIGUES",
@@ -1051,7 +1126,22 @@
       "x-date": "2026-05-26",
       "x-source": "LinkedIn",
       "x-language": "fr",
-      "x-tags": ["peer-recognition", "dynamism", "delivery-focus", "pragmatisme-techno", "lean", "human-centric", "trust-building", "technical-excellence", "devsecops", "data", "architecture", "pleasure-to-work-with", "lasting-impact", "opt-nc"]
+      "x-tags": [
+        "peer-recognition",
+        "dynamism",
+        "delivery-focus",
+        "pragmatisme-techno",
+        "lean",
+        "human-centric",
+        "trust-building",
+        "technical-excellence",
+        "devsecops",
+        "data",
+        "architecture",
+        "pleasure-to-work-with",
+        "lasting-impact",
+        "opt-nc"
+      ]
     },
     {
       "name": "Sébastien Bourlart",
@@ -1467,7 +1557,19 @@
     {
       "name": "Programme stages & projets tutorés OPT-NC × UNC",
       "type": "professional",
-      "x-tags": ["mentorat", "transmission", "pedagogy", "opt-nc", "nouvelle-caledonie", "pacifique", "open-source", "open-data", "api-fication", "civic-tech", "unc-partnership"],
+      "x-tags": [
+        "mentorat",
+        "transmission",
+        "pedagogy",
+        "opt-nc",
+        "nouvelle-caledonie",
+        "pacifique",
+        "open-source",
+        "open-data",
+        "api-fication",
+        "civic-tech",
+        "unc-partnership"
+      ],
       "startDate": "2019",
       "description": "Programme informel mais documenté d'encadrement de stagiaires et projets tutorés en partenariat avec l'Université de la Nouvelle-Calédonie (UNC). Chaque projet part d'un problème réel OPT-NC, expose un étudiant à des technologies modernes, et livre un artefact concret et publié — article Dev.to, vidéo YouTube, repo GitHub. Technologies couvertes : ML/IA, Flutter, Unity, Streamlit, Next.js, ELK Stack, IoT/LED matrix, Java/JavaFX, APIs REST conteneurisées.",
       "highlights": [
@@ -2085,7 +2187,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.19.0",
+    "version": "v1.19.1",
     "lastModified": "2026-05-28",
     "theme": "elegant"
   }
