@@ -883,6 +883,8 @@
         "IFTTT / Maker service",
         "HC-SR04 (capteur ultrason)",
         "LED matrix",
+        "Adafruit (FunHouse, PyPortal, MagTag)",
+        "CircuitPython",
         "Hackster.io"
       ]
     },
@@ -953,6 +955,9 @@
         "LoRa mesh networking",
         "IoT outdoor",
         "Fablab UNC",
+        "Adafruit / CircuitPython",
+        "eInk displays",
+        "BBC micro:bit",
         "Hackster.io"
       ],
       "x-context": "mixed"
