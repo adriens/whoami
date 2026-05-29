@@ -586,7 +586,7 @@
       "summary": "Réflexion sur la créativité, le jeu et le design inspirée du MIT Media Lab. À partir d'un documentaire Netflix sur l'art abstrait, l'article explore comment les principes du jeu et du design peuvent nourrir la pensée créative et l'innovation en entreprise."
     },
     {
-      "name": "206 articles techniques — Dev.to",
+      "name": "208 articles techniques — Dev.to",
       "publisher": "Dev.to",
       "releaseDate": "2020-08-04",
       "x-tags": [
@@ -1604,6 +1604,31 @@
       "url": "https://github.com/opt-nc/geol"
     },
     {
+      "name": "Helia Monitor — Stack monitoring consommation mobile OPT-NC",
+      "type": "open-source",
+      "x-tags": [
+        "go",
+        "duckdb",
+        "python",
+        "ai-agents",
+        "mobile",
+        "opt-nc",
+        "nouvelle-caledonie",
+        "pacifique",
+        "interoperability",
+        "frugal"
+      ],
+      "startDate": "2025-06",
+      "description": "Stack personnelle de monitoring de l'offre mobile Helia (OPT-NC) : APK reverse-engineered pour extraire les appels HTTP privés, Go CLI qui snapshote voice/data/SMS dans DuckDB toutes les 5 minutes, widgets KDE Plasma Python/PyQt live. Hermes Agent génère un rapport PDF 17 pages multi-parties prenantes (CEO/CIO/Admin réseau) via LaTeX pour $19.57 vs une semaine de travail manuel.",
+      "highlights": [
+        "Reverse-engineering de l'APK Helia — extraction des appels HTTP privés, reconstruits en Go CLI",
+        "DuckDB comme base locale : historique de consommation, burn rate, alertes — données non disponibles dans l'app officielle",
+        "Widgets KDE Plasma Python/PyQt lisant DuckDB en temps réel avec icône system tray",
+        "Rapport PDF 17 pages généré par Hermes Agent + LaTeX : 3 profils (CEO/CIO/Admin), 326 requêtes, 61.4M tokens, $19.57"
+      ],
+      "url": "https://dev.to/adriens/i-reverse-engineered-my-mobile-operators-apk-then-hermes-agent-wrote-the-executive-report-2j3o"
+    },
+    {
       "name": "duckdb-brew — Extension DuckDB Community",
       "type": "open-source",
       "x-tags": [
@@ -1611,14 +1636,17 @@
         "duckdb",
         "open-source",
         "maintainer",
-        "international"
+        "international",
+        "packaging",
+        "saga"
       ],
       "startDate": "2026-02",
-      "description": "Extension officielle DuckDB Community permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge avec vibe coding + CI/CD. Listée sur duckdb.org.",
+      "description": "Extension officielle DuckDB Community permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge avec vibe coding + CI/CD. Listée sur duckdb.org. Demo Quarto publiée en 2026 : notebook PDF avec Graph Data Science et charts de sécurité.",
       "highlights": [
         "Listée officiellement sur duckdb.org/community_extensions/extensions/brew",
-        "Construite en hackathon, activement maintenue",
-        "Permet analyses de dépendances, centralité de graphe et rapports de sécurité en SQL pur"
+        "Construite en hackathon, activement maintenue — 824 téléchargements/mois",
+        "Permet analyses de dépendances, centralité de graphe et rapports de sécurité en SQL pur",
+        "Demo Quarto : notebook Python génère un rapport PDF professionnel via GitHub Copilot en 2h"
       ],
       "url": "https://github.com/adriens/duckdb-brew"
     },
@@ -2187,7 +2215,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.19.1",
+    "version": "v1.19.2",
     "lastModified": "2026-05-28",
     "theme": "elegant"
   }

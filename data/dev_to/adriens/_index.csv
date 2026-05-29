@@ -1,4 +1,6 @@
 id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_challenge
+3735712,📊 I (finally) built the demo of my duckdb brew extension,https://dev.to/adriens/i-finally-built-the-demo-of-my-duckdb-brew-extension-c6o,2026-05-29T08:07:18Z,"devchallenge,githubchallenge,datascience,security",0,0,2,True
+3767131,⚚ I reverse-engineered my mobile operator's APK — then Hermes Agent wrote the executive report,https://dev.to/adriens/i-reverse-engineered-my-mobile-operators-apk-then-hermes-agent-wrote-the-executive-report-2j3o,2026-05-28T23:01:45Z,"hermesagentchallenge,devchallenge,agents,datascience",0,2,5,True
 3658489,🧞‍♂️Transform unstructured PDFs Job Offers into a dataset w. gemma4:2b,https://dev.to/adriens/transform-unstructured-pdfs-job-offers-into-a-dataset-w-gemma42b-4ggb,2026-05-17T22:47:08Z,"devchallenge,gemmachallenge,gemma,dataengineering",9,3,4,True
 3049555,💸 How $0 marketing budget boosted my creativity & automation opportunities,https://dev.to/adriens/how-0-marketing-budget-boosted-my-creativity-automation-opportunities-3n9j,2026-03-11T20:11:05Z,"automation,marketing,design,showdev",8,5,3,False
 3293201,🦈 Analyzing Open Data shark attacks with gemini-cli and Quarto 📊,https://dev.to/adriens/analyzing-open-data-shark-attacks-with-gemini-cli-and-quarto-3pe8,2026-02-28T06:55:37Z,"devchallenge,geminireflections,gemini,datascience",8,25,3,True
@@ -67,7 +69,7 @@ id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_ch
 1605448,🎉 Java 21 is out... and bookmarks 📑,https://dev.to/adriens/java-21-is-out-and-bookmarks-4h8k,2023-09-19T22:10:00Z,"java,news,programmers,jkd21",5,11,1,False
 1597217,🎮 Runnable READMEs w/ xc,https://dev.to/adriens/runnable-readmes-w-xc-1c6d,2023-09-12T19:47:17Z,"productivity,github,datascience,devops",0,5,1,False
 1593045,🌐 UN Goals : Education & Gender Equity ⚖️,https://dev.to/adriens/un-goals-education-gender-equity-2l6i,2023-09-09T01:08:56Z,"opendata,jupyter,womenintech,techforgood",0,8,1,False
-1585048,🥳 Celebrate endoflife.date's 250th product with ArgoCD,https://dev.to/adriens/celebrate-endoflifedates-250th-product-with-argocd-1418,2023-08-30T21:18:14Z,"devops,k8,kubernetes,gitops",2,1,2,False
+1585048,🥳 Celebrate endoflife.date's 250th product with ArgoCD,https://dev.to/adriens/celebrate-endoflifedates-250th-product-with-argocd-1418,2023-08-30T21:18:14Z,"devops,k8,kubernetes,gitops",2,1,1,False
 1564199,🦜🔗 Track Package Delivery w. Langchain Agent Custom Tools,https://dev.to/adriens/track-package-delivery-w-langchain-agent-custom-tools-18jf,2023-08-24T19:53:48Z,"ai,openai,api,showdev",0,14,2,False
 1570623,🎯 Data strategy for (not so) dummies,https://dev.to/optnc/data-strategy-for-not-so-dummies-1b23,2023-08-17T20:27:19Z,"api,interview,data,news",2,2,8,False
 1546196,"📯 Hi, this is Cyber postman talking 🎙️",https://dev.to/adriens/hi-this-is-cyber-postman-talking-g34,2023-08-10T22:00:43Z,"api,ai,showdev,python",2,3,2,False
@@ -204,4 +206,4 @@ id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_ch
 640194,Draw charts from terminal with psql and termgraph,https://dev.to/adriens/draw-charts-from-terminal-with-psql-and-termgraph-50k6,2021-03-21T20:08:34Z,"postgres,analytics,bash",4,0,1,False
 495561,Getting package delivery status from docker at opt.nc,https://dev.to/adriens/getting-package-delivery-status-from-docker-at-opt-nc-8d1,2020-10-23T09:19:57Z,"docker,kubernetes,vagrant",6,0,2,False
 495330,Waiting time API at OPT.nc,https://dev.to/adriens/waiting-time-api-at-opt-nc-pfm,2020-10-23T00:04:36Z,"docker,kubernetes",0,0,1,False
-421158,Kalolo API from scratch with Docker (inside hashicorp/bionic64),https://dev.to/adriens/kalolo-api-from-scratch-with-docker-inside-hashicorp-bionic64-1959,2020-08-07T22:15:10Z,"docker,vagrant,cowsay,rest",1,0,1,False
+421158,Kalolo API from scratch with Docker (inside hashicorp/bionic64),https://dev.to/adriens/kalolo-api-from-scratch-with-docker-inside-hashicorp-bionic64-1959,2020-08-07T22:15:10Z,"docker,vagrant,cowsay,rest",1,1,1,False
