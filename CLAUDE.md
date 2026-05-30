@@ -353,6 +353,24 @@ Pour cohérence du filtrage **cross-section**, utiliser **uniquement** ces tags.
   - `MAJOR` : refonte structurelle du resume
 - **Synchroniser** `meta.version` dans `manual/resume.json` avec le tag git avant de créer le tag
 
+## Règle absolue — Python
+
+> **Ne jamais exécuter un script Python directement.** Toujours et uniquement `uv run`.
+
+```sh
+# INTERDIT
+python script.py
+python3 script.py
+
+# OBLIGATOIRE
+uv run script.py
+uv run --with some-package script.py
+```
+
+Cette règle s'applique à **tous les scripts** sans exception, y compris les one-liners `-c`.
+
+Si une lib est chargée via `--with` (usage ponctuel), l'ajouter immédiatement dans `pyproject.toml` pour la documenter et la tracer.
+
 ## Points importants
 
 - **Toujours valider** `manual/resume.json` après modification (`task validate`)
@@ -360,4 +378,3 @@ Pour cohérence du filtrage **cross-section**, utiliser **uniquement** ces tags.
 - Le champ `type` sur les projets (`"open-source"` ou `"professional"`) contrôle l'affichage dans les deux sections distinctes du site
 - Le badge `RÉCENT` est automatique (fenêtre glissante de 18 mois) sur les distinctions et projets
 - `site/public/` est exclu du `.gitignore` via une exception `!site/public`
-- Python : toujours utiliser `uv run` (jamais `python` directement)

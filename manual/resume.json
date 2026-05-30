@@ -637,6 +637,20 @@
       ],
       "url": "https://www.kaggle.com/optnouvellecaldonie",
       "summary": "Animation des organisations OPT-NC sur Kaggle (kaggle.com/optnouvellecaldonie) et Hugging Face (huggingface.co/opt-nc) : datasets open data, notebooks, applications Gradio et MCPs. 27 datasets publiés, 81 notebooks de démonstration. SDKs Python de scraping publiés sur PyPI (edb-noumea, auptitcafe, aquavena-sdk)."
+    },
+    {
+      "name": "PostgreSQL Security Analysis — Zenodo",
+      "publisher": "Zenodo",
+      "releaseDate": "2026-05-30",
+      "x-tags": [
+        "devsecops",
+        "geol",
+        "open-source",
+        "ai-agents",
+        "database"
+      ],
+      "url": "https://zenodo.org/records/20467660",
+      "summary": "Première publication scientifique sur Zenodo (DOI : 10.5281/zenodo.20467660). Analyse de sécurité des versions PostgreSQL via trois outils CLI : geol (End-of-Life), Trivy (scan de vulnérabilités Docker), skopeo (inspection d'images). Démontre comment combiner IA générative et outils CLI pour automatiser l'analyse de risques sur des images de base de données."
     }
   ],
   "skills": [
@@ -736,7 +750,8 @@
         "Oracle",
         "SQL",
         "Tuning",
-        "SchemaCrawler"
+        "SchemaCrawler",
+        "Analyse sécurité & lifecycle"
       ]
     },
     {
@@ -749,6 +764,7 @@
         "Podman",
         "Kubernetes",
         "Trivy",
+        "skopeo",
         "Shift-left security",
         "geol",
         "goreleaser",
@@ -2220,7 +2236,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.19.3",
+    "version": "v1.19.4",
     "lastModified": "2026-05-28",
     "theme": "elegant"
   }
