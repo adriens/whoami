@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": "PostgreSQL Security Analysis",
+  "author": {
+    "@type": "Person",
+    "name": "Adrien Sales"
+  },
+  "datePublished": "2026-05-30",
+  "version": "v1",
+  "inLanguage": "en",
+  "abstract": "This work examines database security by analyzing PostgreSQL version lifecycles. The author employed three specialized tools—geol for checking End-of-Life dates, trivy for vulnerability scanning in Docker images, and skopeo for inspecting image metadata—to establish risk profiles for both supported and unsupported versions. The research underscores why maintaining current versions matters and demonstrates how combining generative AI with CLI tools can enhance security analysis automation.",
+  "keywords": ["devops", "devsecops"],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://zenodo.org/records/20467660",
+  "sameAs": "https://doi.org/10.5281/zenodo.20467660",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "doi",
+    "value": "10.5281/zenodo.20467660"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "isBasedOn": {
+    "@type": "SoftwareSourceCode",
+    "codeRepository": "https://github.com/adriens/geol-showcase"
+  }
+}

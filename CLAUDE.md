@@ -39,6 +39,7 @@ data/
     recommendations-given/ # recos données par Adrien (*.md + _index.csv) — data only, pas dans resume.json
   iot/adriens/            # inventaire devices IoT/Maker (devices/*.md + _index.csv + _stats.json)
   stagiaires/adriens/    # inventaire stagiaires et projets tutorés encadrés (stagiaires/*.md + _index.csv + _stats.json)
+  zenodo/adriens/        # publications scientifiques Zenodo (publications/*.json + _index.csv) — JSON-LD schema.org/ScholarlyArticle, saisie manuelle
 manual/resume.json        # source de vérité CV
 ```
 
@@ -270,6 +271,51 @@ Même logique que LinkedIn : type de relation + thèmes du transcript + contexte
 5. Mettre à jour `_index.csv`
 6. Bump `meta.version` + commit + tag (PATCH)
 7. **Toujours conclure par un feedback structuré** : 1ères occurrences / tags renforcés (tableau) / valeur qualitative unique / signal à surveiller (voir étape 7 du workflow LinkedIn)
+
+## Workflow : ajouter une publication Zenodo
+
+Quand l'utilisateur fournit une URL ou un DOI Zenodo :
+
+### 1. Récupérer les métadonnées
+
+Fetch la page Zenodo pour extraire : titre, DOI, date, abstract, keywords, licence, repo GitHub associé.
+
+### 2. Créer le fichier JSON-LD
+
+Dans `data/zenodo/adriens/publications/YYYY-MM-DD-slug.json` en suivant le schéma `schema.org/ScholarlyArticle` documenté dans `data/zenodo/README.md`.
+
+### 3. Mettre à jour `_index.csv`
+
+`data/zenodo/adriens/_index.csv` — colonnes : `slug, name, doi, datePublished, inLanguage, keywords, url`
+
+### 4. Ajouter l'entrée dans `resume.json`
+
+Section `publications[]` :
+```json
+{
+  "name": "Titre",
+  "publisher": "Zenodo",
+  "releaseDate": "YYYY-MM-DD",
+  "url": "https://zenodo.org/records/<id>",
+  "summary": "Résumé court.",
+  "x-tags": ["devsecops", "open-source", ...]
+}
+```
+
+### 5. Auditer les skills
+
+Comparer les `keywords` de la publication et les outils/technologies mentionnés dans l'`abstract` avec les `skills[]` du resume.json :
+
+- **Keyword absent d'un skill existant** → l'ajouter dans `keywords[]` du skill concerné
+- **Technologie non présente dans aucun skill** → évaluer si elle mérite un skill dédié (niveau + keywords)
+- **Domaine renforcé** → vérifier que le `level` du skill reflète bien la profondeur démontrée
+
+Une publication est un signal **en première personne** — plus direct qu'une recommandation tierce pour valider une compétence.
+
+### 6. Valider et commiter
+
+1. `task validate` — toujours
+2. Bump `meta.version` + commit `feat(publications):` + tag PATCH
 
 ## Concept : saga
 

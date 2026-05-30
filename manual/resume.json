@@ -76,6 +76,11 @@
         "network": "Docker Hub",
         "username": "rastadidi",
         "url": "https://hub.docker.com/u/rastadidi"
+      },
+      {
+        "network": "Ko-fi",
+        "username": "rastadidi",
+        "url": "https://ko-fi.com/rastadidi"
       }
     ]
   },
@@ -2215,7 +2220,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.19.2",
+    "version": "v1.19.3",
     "lastModified": "2026-05-28",
     "theme": "elegant"
   }
