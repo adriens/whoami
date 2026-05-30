@@ -667,6 +667,7 @@
         "Exploitation open data",
         "Packaging SDK (Java, Python, Go)",
         "Exposition API REST + OpenAPI/Swagger",
+        "schema.org — attachement de données à des schémas existants avant exposition",
         "Catalogue d'APIs publiques (APIGEE)",
         "Démultiplication communautaire (apps mobiles, bots, AR, MCPs, dashboards)",
         "Pattern validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa"
@@ -686,7 +687,9 @@
         "Théorie des graphes",
         "Analyse de réseaux",
         "Centralité & clustering",
-        "Réseaux cachés"
+        "Réseaux cachés",
+        "JSON-LD",
+        "schema.org"
       ]
     },
     {
@@ -718,6 +721,7 @@
         "Maven",
         "Interopérabilité (signature de carrière depuis 12+ ans, validée par pairs DSI Nouméa 2018)",
         "API Design",
+        "JSON Schema",
         "APIGEE",
         "ZK Framework",
         "picocli",
@@ -741,7 +745,8 @@
         "ELK Stack",
         "Elasticsearch",
         "Kibana",
-        "Gouvernance des métadonnées"
+        "Gouvernance des métadonnées",
+        "Data Products"
       ]
     },
     {
@@ -1038,7 +1043,8 @@
         "Architecture logicielle",
         "Data science",
         "Innovation",
-        "Start with Why"
+        "Start with Why",
+        "Data Products"
       ],
       "x-context": "pro"
     }
@@ -2240,8 +2246,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.19.5",
-    "lastModified": "2026-05-28",
+    "version": "v1.19.6",
+    "lastModified": "2026-05-31",
     "theme": "elegant"
   }
 }
