@@ -272,6 +272,33 @@ Même logique que LinkedIn : type de relation + thèmes du transcript + contexte
 6. Bump `meta.version` + commit + tag (PATCH)
 7. **Toujours conclure par un feedback structuré** : 1ères occurrences / tags renforcés (tableau) / valeur qualitative unique / signal à surveiller (voir étape 7 du workflow LinkedIn)
 
+## Workflow : rendre publiques des vidéos YouTube existantes
+
+Quand l'utilisateur indique qu'une ou plusieurs vidéos privées viennent d'être rendues publiques :
+
+### 1. Créer les fichiers `.md` + mettre à jour `_index.csv`
+
+Fetcher les métadonnées via `yt-dlp --dump-json --skip-download <url>` pour chaque vidéo. Créer le fichier `data/youtube/devops-lab/videos/YYYY-MM-DD-slug.md` et ajouter la ligne dans `_index.csv` (trié du plus récent au plus ancien).
+
+### 2. Identifier les entrées `resume.json` liées
+
+**Obligatoire** — vérifier si la vidéo se rattache à une entrée existante (`awards`, `publications`, `projects`, `work`, `volunteer`) :
+
+- Grep le titre, le sujet ou les mots-clés de la vidéo dans `resume.json`
+- Si une entrée liée existe → passer à l'étape 3
+- Si aucune entrée → commit data-only (`chore(youtube)`) sans bump de version
+
+### 3. Enrichir l'entrée liée dans `resume.json`
+
+- **`x-tags`** : ajouter les tags manquants au regard du contenu de la vidéo — notamment `devrel` (conférence/talk public), `nouvelle-caledonie` (si le projet représente la NC à l'international), tags tech/domaine absents
+- **`summary`** : référencer les URLs des vidéos maintenant publiques + enrichir le contexte (ex : Nème participation consécutive, CFP sélectionné, etc.)
+
+### 4. Valider, bumper, commiter
+
+1. `task validate`
+2. Bump `meta.version` (PATCH)
+3. Commit `feat(<section>)` pour l'enrichissement `resume.json` (séparé du commit data `chore(youtube)` si besoin) + tag
+
 ## Workflow : ajouter une publication Zenodo
 
 Quand l'utilisateur fournit une URL ou un DOI Zenodo :
