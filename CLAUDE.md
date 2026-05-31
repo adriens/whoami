@@ -579,6 +579,12 @@ Suivre [Semantic Versioning](https://semver.org/) — `vMAJOR.MINOR.PATCH`. Sync
 | `MINOR` | Ajout de contenu (nouvelle entrée dans une section) |
 | `MAJOR` | Refonte structurelle du resume |
 
+**Règle absolue — pousser les tags immédiatement.** `git push` ne pousse pas les tags. Après chaque `git tag vX.Y.Z`, enchaîner sans exception :
+
+```sh
+git push origin vX.Y.Z
+```
+
 ## Règle absolue — Python
 
 > **Ne jamais exécuter un script Python directement.** Toujours et uniquement `uv run`.
