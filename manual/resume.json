@@ -1644,11 +1644,13 @@
         "duckdb",
         "python",
         "ai-agents",
+        "iot",
         "mobile",
         "opt-nc",
         "nouvelle-caledonie",
         "pacifique",
         "interoperability",
+        "huggingface",
         "frugal"
       ],
       "startDate": "2025-06",
@@ -1657,7 +1659,8 @@
         "Reverse-engineering de l'APK Helia — extraction des appels HTTP privés, reconstruits en Go CLI",
         "DuckDB comme base locale : historique de consommation, burn rate, alertes — données non disponibles dans l'app officielle",
         "Widgets KDE Plasma Python/PyQt lisant DuckDB en temps réel avec icône system tray",
-        "Rapport PDF 17 pages généré par Hermes Agent + LaTeX : 3 profils (CEO/CIO/Admin), 326 requêtes, 61.4M tokens, $19.57"
+        "Rapport PDF 17 pages généré par Hermes Agent + LaTeX : 3 profils (CEO/CIO/Admin), 326 requêtes, 61.4M tokens, $19.57",
+        "Intégration robot Reachy Mini (simulation, CPU-only, sans LLM) : alerte vocale sur seuil de consommation via HuggingFace app store — https://youtu.be/hnn5J3qbDyU"
       ],
       "url": "https://dev.to/adriens/i-reverse-engineered-my-mobile-operators-apk-then-hermes-agent-wrote-the-executive-report-2j3o"
     },
@@ -2248,7 +2251,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.19.7",
+    "version": "v1.19.8",
     "lastModified": "2026-05-31",
     "theme": "elegant"
   }
