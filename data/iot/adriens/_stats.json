@@ -1,6 +1,6 @@
 {
-  "total": 22,
-  "by_category": {"microcontroller": 9, "sbc": 3, "kit": 8, "module": 2},
-  "by_status": {"retired": 1, "shelved": 20, "planned": 1},
+  "total": 25,
+  "by_category": {"microcontroller": 9, "sbc": 3, "kit": 8, "module": 4, "sensor": 1},
+  "by_status": {"retired": 1, "shelved": 22, "planned": 1, "active": 1},
   "by_connectivity": {"wifi": 14, "ethernet": 4, "bluetooth": 5}
 }

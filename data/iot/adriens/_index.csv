@@ -1,4 +1,7 @@
 slug,name,category,connectivity,status,acquired,tags
+keyestudio-turbidity-sensor,"Keyestudio Turbidity Sensor V1.0",sensor,[],active,2026,"[iot, sensors, arduino, water-quality, keyestudio, nouvelle-caledonie, civic-tech]"
+adafruit-neopixel-ring-24,"Adafruit NeoPixel Ring 24 RGB LED",module,[],shelved,2026,"[iot, led, adafruit, neopixel, arduino, rgb, circuitpython, ws2812b]"
+alitov-led-strip,"Alitov LED Strip",module,[],shelved,2026,"[iot, led, arduino, rgb, ws2812b]"
 arduino-mkr1000-coffeeops,"Arduino MKR1000 WiFi",microcontroller,[wifi],retired,2019,"[iot, wifi, arduino, oled]"
 raspberry-pi-4-person-counter,"Raspberry Pi 4 + caméra",sbc,"[wifi, ethernet]",shelved,2020,"[iot, python, ml, webhook, opt-nc]"
 sensecap-watcher,"SenseCAP Watcher",kit,[wifi],planned,2025,"[iot, wifi, ai-agents, vision, llm, seeed]"
