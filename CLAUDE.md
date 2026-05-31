@@ -579,11 +579,14 @@ Suivre [Semantic Versioning](https://semver.org/) — `vMAJOR.MINOR.PATCH`. Sync
 | `MINOR` | Ajout de contenu (nouvelle entrée dans une section) |
 | `MAJOR` | Refonte structurelle du resume |
 
-**Règle absolue — pousser les tags immédiatement.** `git push` ne pousse pas les tags. Après chaque `git tag vX.Y.Z`, enchaîner sans exception :
+**Règle absolue — pousser le tag et créer la release immédiatement.** `git push` ne pousse pas les tags. Après chaque `git tag vX.Y.Z`, enchaîner sans exception :
 
 ```sh
 git push origin vX.Y.Z
+gh release create vX.Y.Z --title "vX.Y.Z — <titre court>" --notes "<release notes>"
 ```
+
+La release note doit lister : les changements de contenu (`resume.json`), les données ajoutées, et les évolutions de docs/workflows. S'appuyer sur `git log vX.Y.(Z-1)..vX.Y.Z --oneline` pour la construire.
 
 ## Règle absolue — Python
 
