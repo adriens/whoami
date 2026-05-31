@@ -738,12 +738,12 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "feedparser", specifier = ">=6.0.12" },
-    { name = "huggingface-hub", specifier = ">=0.23.0" },
+    { name = "huggingface-hub", specifier = ">=1.16.1" },
     { name = "jsonschema", specifier = ">=4.26.0" },
     { name = "kaggle", specifier = ">=2.0.0" },
     { name = "pyyaml", specifier = ">=6.0.3" },
     { name = "requests", specifier = ">=2.34.2" },
-    { name = "youtube-transcript-api", specifier = ">=1.0.0" },
+    { name = "youtube-transcript-api", specifier = ">=1.2.4" },
     { name = "yt-dlp", specifier = ">=2026.3.17" },
 ]
 
