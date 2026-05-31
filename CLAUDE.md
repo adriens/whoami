@@ -371,14 +371,102 @@ Pour cohérence du filtrage **cross-section**, utiliser **uniquement** ces tags.
 - **Recognition / Recos** : `recognition`, `peer-recognition`, `manager-recommendation`, `direct-report-recommendation`, `student-recommendation`, `intern-recommendation`, `upstream-recognition`, `client-relationship`, `cross-company`
 - **Soft skills (refs)** : `leadership`, `mentorat`, `transmission`, `pedagogie`, `innovation`, `communication`, `curiosite`, `team-culture`, `human-centric`, `business-acumen`, `delivery-focus`, `force-de-proposition`, `responsiveness`, `disponibilite`, `autonomy`, `trust-building`, `knowledge-sharing`, `continuous-improvement`, `pragmatisme-techno`, `polyvalence`, `tech-enthusiasm`, `exploration-techno`, `comprehension-besoins`, `multi-technology`, `industrialisation`, `interim-management`, `long-term-collaboration`, `qualites-humaines`, `endorsement-court`, `lasting-impact`, `internship-to-hire`, `team-fit`, `dynamism`, `pleasure-to-work-with`, `broad-skills`, `technical-expertise`, `technical-excellence`, `code-quality`, `performance`, `services-web`, `api-design`, `architecture-logicielle`, `management-agile`, `veille-technologique`, `unc-partnership`, `projet-tutore`, `polytech-nice`, `premiere-experience-pro`, `stage`, `linux`, `debian`, `community-contribution`, `networking`, `geomatique`, `sig`, `dsi-noumea`, `opt-nc`, `data-science`, `database`, `curiosity`, `business-acumen`
 
-## Conventions Git
+## Conventions Git — Taxonomie des commits
 
-- **Commits sémantiques** : suivre [Conventional Commits](https://www.conventionalcommits.org/) — `feat:`, `fix:`, `docs:`, `chore:`, `refactor:`
-- **Tags sémantiques** : suivre [Semantic Versioning](https://semver.org/) — `vMAJOR.MINOR.PATCH`
-  - `PATCH` : corrections, précisions, suppressions de doublons
-  - `MINOR` : ajout de contenu (nouveaux projets, highlights, enrichissements)
-  - `MAJOR` : refonte structurelle du resume
-- **Synchroniser** `meta.version` dans `manual/resume.json` avec le tag git avant de créer le tag
+> **Objectif** : messages de commits analysables par ML/embeddings et reportings de tokens. Vocabulaire fermé, scopes non-ambigus, un seul scope par commit.
+
+### Format canonique
+
+```
+<type>(<scope>): <subject> [(vX.Y.Z)]
+
+[corps optionnel]
+```
+
+- **Subject** ≤ 72 caractères
+- **Version** `(vX.Y.Z)` uniquement quand un bump est effectué, en fin de subject
+- **Un seul scope** par commit — jamais de composés (`skills/interests`, `projects,iot`)
+- Si plusieurs sections touchées → prendre la section primaire (celle qui apporte le plus de valeur sémantique)
+- **Corps** facultatif, même langue que le changement principal
+
+### Types (vocabulaire fermé)
+
+| Type | Sémantique | Modifie `resume.json` ? |
+|---|---|---|
+| `feat` | Nouveau contenu (nouvelle entrée, enrichissement) | Oui |
+| `fix` | Correction (date, doublon, champ erroné) | Oui ou non |
+| `chore` | Maintenance : data-only, rebuild, bump standalone | Non (ou bump seul) |
+| `docs` | Documentation : CLAUDE.md, READMEs, workflows | Non |
+| `perf` | Optimisation site ou build (images, bundle) | Non |
+| `refactor` | Restructuration sans contenu nouveau | Non |
+
+**Règle `feat` vs `chore`** : si `resume.json` est modifié avec du contenu nouveau → `feat`. Sinon → `chore`.
+
+### Scopes — Famille 1 : sections `resume.json`
+
+Ces scopes correspondent aux nœuds de contenu du CV. Toujours utiliser le nom exact de la section JSON.
+
+| Scope | Section JSON | Exemple |
+|---|---|---|
+| `basics` | `basics` (summary, profiles, x-summary-short) | `feat(basics): add x-summary-short` |
+| `work` | `work[]` | `feat(work): add OPT-NC GLIA section head` |
+| `education` | `education[]` | `feat(education): add Mastère MIAGE` |
+| `skills` | `skills[]` | `feat(skills): add DuckDB — Expert level` |
+| `projects` | `projects[]` | `feat(projects): add geol CLI project` |
+| `awards` | `awards[]` | `feat(awards): add NODES24 speaker` |
+| `publications` | `publications[]` | `feat(publications): add Zenodo SchemaCrawler` |
+| `references` | `references[]` | `feat(references): add Jean Dupont recommendation` |
+| `volunteer` | `volunteer[]` | `feat(volunteer): add Neo4j Ninja` |
+| `interests` | `interests[]` | `feat(interests): add Lo-tech keyword` |
+| `certificates` | `certificates[]` | `feat(certificates): add AWS Solutions Architect` |
+
+### Scopes — Famille 2 : sources de données
+
+Ces scopes correspondent aux dossiers `data/<source>/`. Commits quasi-exclusivement `chore` (data sans impact `resume.json`).
+
+| Scope | Dossier | Exemple |
+|---|---|---|
+| `youtube` | `data/youtube/` | `chore(youtube): add NODES24 CFP videos` |
+| `devto` | `data/dev_to/` | `chore(devto): fetch 3 new articles` |
+| `goodreads` | `data/goodreads/` | `chore(goodreads): add 5-star review — Accelerate` |
+| `kaggle` | `data/kaggle/` | `chore(kaggle): update dataset stats` |
+| `huggingface` | `data/huggingface/` | `chore(huggingface): add new space` |
+| `github-data` | `data/github/` | `chore(github-data): fetch public repos` |
+| `hackster` | `data/hackster/` | `chore(hackster): add IoT project` |
+| `dockerhub` | `data/dockerhub/` | `chore(dockerhub): update image stats` |
+| `pypi` | `data/pypi/` | `chore(pypi): add geol package` |
+| `linkedin` | `data/linkedin/` | `chore(linkedin): add recommendation-given` |
+| `iot` | `data/iot/` | `chore(iot): add Raspberry Pi 5` |
+| `stagiaires` | `data/stagiaires/` | `chore(stagiaires): add Thomas Quillet` |
+| `zenodo` | `data/zenodo/` | `chore(zenodo): add publication JSON-LD` |
+
+### Scopes — Famille 3 : infra et méta
+
+| Scope | Périmètre | Exemple |
+|---|---|---|
+| `claude` | `CLAUDE.md` | `docs(claude): add YouTube workflow` |
+| `ci` | `.github/workflows/` | `chore(ci): update deploy action` |
+| `site` | `site/` (Astro) | `perf(site): convert hero PNG→WebP` |
+| `scripts` | `scripts/` | `feat(scripts): add yt-transcript.py` |
+| `release` | bump seul sans contenu | `chore(release): bump to v1.19.0` |
+| `kb` | `output/knowledge-base.md` | `chore(kb): rebuild knowledge base` |
+
+### Règles d'arbitrage
+
+1. **Data + résumé enrichi → deux commits séparés** : d'abord `chore(<source>)` pour les fichiers data, puis `feat(<section>)` pour l'enrichissement `resume.json`.
+2. **Scope de la section primaire** : si `awards` et `skills` sont enrichis dans le même commit, choisir `awards` (section la plus impactante narrativement).
+3. **`references` toujours au pluriel** — jamais `refs`.
+4. **`github-data`** pour la source de données — jamais `github` seul (ambigu avec la plateforme).
+
+### Versioning sémantique
+
+Suivre [Semantic Versioning](https://semver.org/) — `vMAJOR.MINOR.PATCH`. Synchroniser `meta.version` dans `manual/resume.json` avant de créer le tag.
+
+| Incrément | Quand |
+|---|---|
+| `PATCH` | Correction, précision, enrichissement mineur (tags, summary) |
+| `MINOR` | Ajout de contenu (nouvelle entrée dans une section) |
+| `MAJOR` | Refonte structurelle du resume |
 
 ## Règle absolue — Python
 
