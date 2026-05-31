@@ -1,6 +1,7 @@
 ---
 duration_seconds: 398
 id: hnn5J3qbDyU
+lang: fr
 likes: null
 published_at: '2026-05-31'
 tags: []

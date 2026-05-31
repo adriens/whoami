@@ -1,6 +1,7 @@
 ---
 duration_seconds: 1103
 id: 9MxVcMB_RWE
+lang: en
 likes: null
 published_at: '2026-05-31'
 tags: []

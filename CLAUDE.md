@@ -272,13 +272,56 @@ Même logique que LinkedIn : type de relation + thèmes du transcript + contexte
 6. Bump `meta.version` + commit + tag (PATCH)
 7. **Toujours conclure par un feedback structuré** : 1ères occurrences / tags renforcés (tableau) / valeur qualitative unique / signal à surveiller (voir étape 7 du workflow LinkedIn)
 
+## Format des fichiers vidéo `.md`
+
+Tout fichier `data/youtube/devops-lab/videos/YYYY-MM-DD-slug.md` doit avoir ce frontmatter :
+
+```yaml
+---
+duration_seconds: <int>
+id: <video_id>
+lang: <fr|en|fr/en>
+likes: <int ou null>
+published_at: 'YYYY-MM-DD'
+tags: []
+title: '<titre exact YouTube>'
+url: https://youtu.be/<id>
+views: <int>
+---
+```
+
+- **`lang`** : langue parlée dans la vidéo — `fr`, `en`, ou `fr/en` (code-switching fréquent en contexte NC/international). Déterminée en lisant le transcript, pas seulement le titre.
+- **`tags`** : liste vide par défaut ; enrichir si des tags thématiques sont évidents.
+- Le corps du fichier contient le lien vers l'article ou projet associé + les chapitres horodatés.
+
+## Règle : lire le transcript pour toute vidéo
+
+**Obligatoire pour toute vidéo ajoutée**, quelle que soit l'origine (nouvelle vidéo, vidéo rendue publique, témoignage) :
+
+```sh
+uv run --with youtube-transcript-api scripts/yt-transcript.py <video_id_ou_url>
+```
+
+Le titre seul ne suffit pas. Le transcript permet de :
+- Déterminer la langue réelle (`lang`) — le titre peut être dans une langue, la vidéo dans une autre
+- Identifier les entrées `resume.json` liées (projets, awards, skills mentionnés)
+- Détecter les tags manquants dans les entrées existantes
+- Extraire les highlights pertinents pour les enrichissements
+
 ## Workflow : rendre publiques des vidéos YouTube existantes
 
 Quand l'utilisateur indique qu'une ou plusieurs vidéos privées viennent d'être rendues publiques :
 
-### 1. Créer les fichiers `.md` + mettre à jour `_index.csv`
+### 1. Lire le transcript + fetcher les métadonnées
 
-Fetcher les métadonnées via `yt-dlp --dump-json --skip-download <url>` pour chaque vidéo. Créer le fichier `data/youtube/devops-lab/videos/YYYY-MM-DD-slug.md` et ajouter la ligne dans `_index.csv` (trié du plus récent au plus ancien).
+Pour chaque vidéo :
+
+```sh
+yt-dlp --dump-json --skip-download <url>
+uv run --with youtube-transcript-api scripts/yt-transcript.py <video_id>
+```
+
+Créer le fichier `data/youtube/devops-lab/videos/YYYY-MM-DD-slug.md` (format ci-dessus, `lang` déterminé par le transcript) et ajouter la ligne dans `_index.csv` (trié du plus récent au plus ancien).
 
 ### 2. Identifier les entrées `resume.json` liées
 
@@ -290,14 +333,14 @@ Fetcher les métadonnées via `yt-dlp --dump-json --skip-download <url>` pour ch
 
 ### 3. Enrichir l'entrée liée dans `resume.json`
 
-- **`x-tags`** : ajouter les tags manquants au regard du contenu de la vidéo — notamment `devrel` (conférence/talk public), `nouvelle-caledonie` (si le projet représente la NC à l'international), tags tech/domaine absents
-- **`summary`** : référencer les URLs des vidéos maintenant publiques + enrichir le contexte (ex : Nème participation consécutive, CFP sélectionné, etc.)
+- **`x-tags`** : ajouter les tags manquants au regard du contenu — notamment `devrel` (talk public), `nouvelle-caledonie` (si projet NC à l'international), tags tech/domaine absents
+- **`summary`** ou **`highlights`** : référencer les URLs des vidéos publiques + enrichir le contexte (ex : Nème participation consécutive, CFP sélectionné, etc.)
 
 ### 4. Valider, bumper, commiter
 
 1. `task validate`
 2. Bump `meta.version` (PATCH)
-3. Commit `feat(<section>)` pour l'enrichissement `resume.json` (séparé du commit data `chore(youtube)` si besoin) + tag
+3. Commit `feat(<section>)` pour l'enrichissement `resume.json` (séparé du commit data `chore(youtube)`) + tag
 
 ## Workflow : ajouter une publication Zenodo
 
