@@ -371,29 +371,34 @@ Pour cohérence du filtrage **cross-section**, utiliser **uniquement** ces tags.
 - **Recognition / Recos** : `recognition`, `peer-recognition`, `manager-recommendation`, `direct-report-recommendation`, `student-recommendation`, `intern-recommendation`, `upstream-recognition`, `client-relationship`, `cross-company`
 - **Soft skills (refs)** : `leadership`, `mentorat`, `transmission`, `pedagogie`, `innovation`, `communication`, `curiosite`, `team-culture`, `human-centric`, `business-acumen`, `delivery-focus`, `force-de-proposition`, `responsiveness`, `disponibilite`, `autonomy`, `trust-building`, `knowledge-sharing`, `continuous-improvement`, `pragmatisme-techno`, `polyvalence`, `tech-enthusiasm`, `exploration-techno`, `comprehension-besoins`, `multi-technology`, `industrialisation`, `interim-management`, `long-term-collaboration`, `qualites-humaines`, `endorsement-court`, `lasting-impact`, `internship-to-hire`, `team-fit`, `dynamism`, `pleasure-to-work-with`, `broad-skills`, `technical-expertise`, `technical-excellence`, `code-quality`, `performance`, `services-web`, `api-design`, `architecture-logicielle`, `management-agile`, `veille-technologique`, `unc-partnership`, `projet-tutore`, `polytech-nice`, `premiere-experience-pro`, `stage`, `linux`, `debian`, `community-contribution`, `networking`, `geomatique`, `sig`, `dsi-noumea`, `opt-nc`, `data-science`, `database`, `curiosity`, `business-acumen`
 
-## Conventions Git — Taxonomie des commits
+## Conventions Git — Taxonomie et ontologie des commits
 
-> **Objectif** : messages de commits analysables par ML/embeddings et reportings de tokens. Vocabulaire fermé, scopes non-ambigus, un seul scope par commit.
+> **Objectif** : messages de commits analysables par ML, embeddings et reporting de tokens. Vocabulaire entièrement fermé — chaque commit est une ligne parseable par regex : `type(scope): verb entity [quantity] [(vX.Y.Z)]`.
 
 ### Format canonique
 
 ```
-<type>(<scope>): <subject> [(vX.Y.Z)]
+<type>(<scope>): <verb> <entity> [(vX.Y.Z)]
 
-[corps optionnel]
+[corps structuré optionnel]
 ```
 
-- **Subject** ≤ 72 caractères
-- **Version** `(vX.Y.Z)` uniquement quand un bump est effectué, en fin de subject
-- **Un seul scope** par commit — jamais de composés (`skills/interests`, `projects,iot`)
-- Si plusieurs sections touchées → prendre la section primaire (celle qui apporte le plus de valeur sémantique)
-- **Corps** facultatif, même langue que le changement principal
+**Contraintes strictes :**
+
+- **Subject en anglais uniquement** — toujours. Le corps peut être en français.
+- **Subject ≤ 72 caractères**
+- **Aucun emoji dans le subject** — les emojis cassent le parsing regex et ajoutent du bruit aux tokenizers. Tolérés dans le corps uniquement.
+- **Un seul scope par commit** — jamais de composés (`skills/interests`, `projects,iot`)
+- **Version** `(vX.Y.Z)` en fin de subject uniquement quand un bump est effectué dans ce commit
+- Si plusieurs sections touchées → scope de la section la plus impactante narrativement
+
+---
 
 ### Types (vocabulaire fermé)
 
 | Type | Sémantique | Modifie `resume.json` ? |
 |---|---|---|
-| `feat` | Nouveau contenu (nouvelle entrée, enrichissement) | Oui |
+| `feat` | Nouveau contenu (nouvelle entrée ou enrichissement) | Oui |
 | `fix` | Correction (date, doublon, champ erroné) | Oui ou non |
 | `chore` | Maintenance : data-only, rebuild, bump standalone | Non (ou bump seul) |
 | `docs` | Documentation : CLAUDE.md, READMEs, workflows | Non |
@@ -402,9 +407,68 @@ Pour cohérence du filtrage **cross-section**, utiliser **uniquement** ces tags.
 
 **Règle `feat` vs `chore`** : si `resume.json` est modifié avec du contenu nouveau → `feat`. Sinon → `chore`.
 
+---
+
+### Verbes canoniques (vocabulaire fermé)
+
+Un seul verbe par subject. Choisir dans cette liste — ne pas inventer de synonymes.
+
+| Verbe | Intention |
+|---|---|
+| `add` | Nouvelle entrée ou fichier créé |
+| `enrich` | Entrée existante augmentée (tags, summary, keywords, URLs) |
+| `fix` | Correction d'une valeur erronée |
+| `remove` | Suppression d'une entrée ou d'un champ |
+| `fetch` | Mise à jour de données depuis une source externe |
+| `rebuild` | Régénération d'un artefact (knowledge base, site) |
+| `bump` | Incrément de version seul (scope `release` uniquement) |
+
+---
+
+### Quantification
+
+Indiquer systématiquement le volume quand > 1, pour l'agrégation directe en reporting :
+
+```
+chore(youtube): add 3 NODES24 CFP videos
+chore(iot): fetch 18 new devices
+feat(skills): enrich 4 keywords — JSON Schema, schema.org
+feat(references): add recommendation — J. Dupont   ← singulier = 1 implicite
+```
+
+---
+
+### Entité nommée dans le subject
+
+Pour les sections `references`, `awards`, `publications`, `projects` : nommer l'entité principale après un tiret long `—`.
+
+```
+feat(references): add recommendation — Jean Dupont
+feat(awards): add speaker — NODES24 (Neo4j, international)
+feat(publications): add paper — SchemaCrawler on Zenodo
+feat(projects): add geol — CLI EOL management
+chore(goodreads): add review — Accelerate (5 stars)
+```
+
+---
+
+### Corps structuré (optionnel, machine-readable)
+
+Pour les commits riches (multi-tags, signal fort, première occurrence), un corps en liste de faits brefs — parseable ligne par ligne par regex ou embeddings :
+
+```
+feat(references): add recommendation — Sébastien Bourlart
+
+- tags: peer-recognition, neo4j, innovation (first occurrence)
+- signal: innovation reaches 7x — strongest recurring theme
+- version: v1.19.1
+```
+
+---
+
 ### Scopes — Famille 1 : sections `resume.json`
 
-Ces scopes correspondent aux nœuds de contenu du CV. Toujours utiliser le nom exact de la section JSON.
+Ces scopes correspondent aux nœuds de contenu du CV. Toujours utiliser le nom exact de la clé JSON.
 
 | Scope | Section JSON | Exemple |
 |---|---|---|
@@ -412,30 +476,30 @@ Ces scopes correspondent aux nœuds de contenu du CV. Toujours utiliser le nom e
 | `work` | `work[]` | `feat(work): add OPT-NC GLIA section head` |
 | `education` | `education[]` | `feat(education): add Mastère MIAGE` |
 | `skills` | `skills[]` | `feat(skills): add DuckDB — Expert level` |
-| `projects` | `projects[]` | `feat(projects): add geol CLI project` |
-| `awards` | `awards[]` | `feat(awards): add NODES24 speaker` |
-| `publications` | `publications[]` | `feat(publications): add Zenodo SchemaCrawler` |
-| `references` | `references[]` | `feat(references): add Jean Dupont recommendation` |
+| `projects` | `projects[]` | `feat(projects): add geol — CLI EOL management` |
+| `awards` | `awards[]` | `feat(awards): add speaker — NODES24` |
+| `publications` | `publications[]` | `feat(publications): add paper — SchemaCrawler` |
+| `references` | `references[]` | `feat(references): add recommendation — J. Dupont` |
 | `volunteer` | `volunteer[]` | `feat(volunteer): add Neo4j Ninja` |
-| `interests` | `interests[]` | `feat(interests): add Lo-tech keyword` |
+| `interests` | `interests[]` | `feat(interests): enrich Maker — add Lo-tech keyword` |
 | `certificates` | `certificates[]` | `feat(certificates): add AWS Solutions Architect` |
 
 ### Scopes — Famille 2 : sources de données
 
-Ces scopes correspondent aux dossiers `data/<source>/`. Commits quasi-exclusivement `chore` (data sans impact `resume.json`).
+Ces scopes correspondent aux dossiers `data/<source>/`. Commits quasi-exclusivement `chore`.
 
 | Scope | Dossier | Exemple |
 |---|---|---|
-| `youtube` | `data/youtube/` | `chore(youtube): add NODES24 CFP videos` |
+| `youtube` | `data/youtube/` | `chore(youtube): add 3 NODES24 CFP videos` |
 | `devto` | `data/dev_to/` | `chore(devto): fetch 3 new articles` |
-| `goodreads` | `data/goodreads/` | `chore(goodreads): add 5-star review — Accelerate` |
-| `kaggle` | `data/kaggle/` | `chore(kaggle): update dataset stats` |
-| `huggingface` | `data/huggingface/` | `chore(huggingface): add new space` |
+| `goodreads` | `data/goodreads/` | `chore(goodreads): add review — Accelerate (5 stars)` |
+| `kaggle` | `data/kaggle/` | `chore(kaggle): fetch dataset stats` |
+| `huggingface` | `data/huggingface/` | `chore(huggingface): add space — job-offers-nc` |
 | `github-data` | `data/github/` | `chore(github-data): fetch public repos` |
-| `hackster` | `data/hackster/` | `chore(hackster): add IoT project` |
-| `dockerhub` | `data/dockerhub/` | `chore(dockerhub): update image stats` |
-| `pypi` | `data/pypi/` | `chore(pypi): add geol package` |
-| `linkedin` | `data/linkedin/` | `chore(linkedin): add recommendation-given` |
+| `hackster` | `data/hackster/` | `chore(hackster): add project — Person Counter` |
+| `dockerhub` | `data/dockerhub/` | `chore(dockerhub): fetch image stats` |
+| `pypi` | `data/pypi/` | `chore(pypi): add package — geol` |
+| `linkedin` | `data/linkedin/` | `chore(linkedin): add recommendation-given — M. Gault` |
 | `iot` | `data/iot/` | `chore(iot): add Raspberry Pi 5` |
 | `stagiaires` | `data/stagiaires/` | `chore(stagiaires): add Thomas Quillet` |
 | `zenodo` | `data/zenodo/` | `chore(zenodo): add publication JSON-LD` |
@@ -444,12 +508,14 @@ Ces scopes correspondent aux dossiers `data/<source>/`. Commits quasi-exclusivem
 
 | Scope | Périmètre | Exemple |
 |---|---|---|
-| `claude` | `CLAUDE.md` | `docs(claude): add YouTube workflow` |
+| `claude` | `CLAUDE.md` | `docs(claude): add YouTube publish workflow` |
 | `ci` | `.github/workflows/` | `chore(ci): update deploy action` |
-| `site` | `site/` (Astro) | `perf(site): convert hero PNG→WebP` |
+| `site` | `site/` (Astro) | `perf(site): convert hero PNG to WebP` |
 | `scripts` | `scripts/` | `feat(scripts): add yt-transcript.py` |
 | `release` | bump seul sans contenu | `chore(release): bump to v1.19.0` |
 | `kb` | `output/knowledge-base.md` | `chore(kb): rebuild knowledge base` |
+
+---
 
 ### Règles d'arbitrage
 
@@ -458,13 +524,15 @@ Ces scopes correspondent aux dossiers `data/<source>/`. Commits quasi-exclusivem
 3. **`references` toujours au pluriel** — jamais `refs`.
 4. **`github-data`** pour la source de données — jamais `github` seul (ambigu avec la plateforme).
 
+---
+
 ### Versioning sémantique
 
 Suivre [Semantic Versioning](https://semver.org/) — `vMAJOR.MINOR.PATCH`. Synchroniser `meta.version` dans `manual/resume.json` avant de créer le tag.
 
 | Incrément | Quand |
 |---|---|
-| `PATCH` | Correction, précision, enrichissement mineur (tags, summary) |
+| `PATCH` | Correction, précision, enrichissement mineur (tags, summary, URLs) |
 | `MINOR` | Ajout de contenu (nouvelle entrée dans une section) |
 | `MAJOR` | Refonte structurelle du resume |
 
