@@ -148,7 +148,7 @@ Combiner :
    - **Tag renforcé** : convergence entre recommandants indépendants → crédibilité accrue (ex: `innovation` à 7x, `transmission` à 4x)
 4. Si un nouveau thème récurrent émerge (validé par ≥2 recos indépendantes), envisager un keyword/skill dédié dans `skills` (ex: la transmission, validée par 4 recos, est devenue une skill Expert)
 5. Créer le fichier `.md` miroir dans `data/linkedin/adrien-sales/recommendations/` + mettre à jour `_index.csv`
-6. Bump `meta.version` + commit + tag (PATCH pour 1-2 recos, MINOR pour batch ou changement structurel)
+6. Bump `meta.version` + commit + tag (MINOR — toute nouvelle entrée dans `references[]`)
 7. **Toujours conclure par un feedback structuré** à l'utilisateur :
    - **1ères occurrences** : nouveaux tags jamais validés par un tiers — nommer le tag et expliquer pourquoi c'est un signal fort
    - **Tags renforcés** : tableau `tag | nouveau compte | signal` pour les plus significatifs
@@ -269,7 +269,7 @@ Même logique que LinkedIn : type de relation + thèmes du transcript + contexte
 3. Analyser l'apport : tags en 1ère occurrence (nouvelle facette) vs renforcés (convergence)
 4. Créer le fichier `.md` miroir dans `data/linkedin/adrien-sales/recommendations/` (même dossier que LinkedIn, `x-source` différencie)
 5. Mettre à jour `_index.csv`
-6. Bump `meta.version` + commit + tag (PATCH)
+6. Bump `meta.version` + commit + tag (MINOR — toute nouvelle entrée dans `references[]`)
 7. **Toujours conclure par un feedback structuré** : 1ères occurrences / tags renforcés (tableau) / valeur qualitative unique / signal à surveiller (voir étape 7 du workflow LinkedIn)
 
 ## Format des fichiers vidéo `.md`
@@ -385,7 +385,7 @@ Une publication est un signal **en première personne** — plus direct qu'une r
 ### 6. Valider et commiter
 
 1. `task validate` — toujours
-2. Bump `meta.version` + commit `feat(publications):` + tag PATCH
+2. Bump `meta.version` + commit `feat(publications):` + tag MINOR (nouvelle entrée dans `publications[]`)
 
 ## Concept : saga
 
