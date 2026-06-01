@@ -112,6 +112,11 @@ def write_index(user_dir: Path, articles: list[dict]):
 
 def fetch_user_stats(username: str, user_dir: Path):
     resp = requests.get(f"{DEVTO_API}/users/by_username", params={"url": username}, timeout=10)
+    if resp.status_code == 404:
+        print(f"  WARNING: @{username} not found via users API (org account?) — skipping stats")
+        stats = {"followers_count": 0, "username": username}
+        (user_dir / "_stats.json").write_text(json.dumps(stats, ensure_ascii=False), encoding="utf-8")
+        return
     resp.raise_for_status()
     data = resp.json()
     stats = {"followers_count": data.get("followers_count", 0), "username": username}
