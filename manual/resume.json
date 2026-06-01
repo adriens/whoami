@@ -1053,6 +1053,25 @@
   ],
   "references": [
     {
+      "name": "Stéphanie BOUVET",
+      "reference": "J'ai eu l'occasion de collaborer avec Adrien dans le cadre d'un projet de service en ligne orienté grand public, et transverse à plusieurs organismes publics ou assimilés.\nSon désir de faire progresser les services publics, son dynamisme et son expérience qualifiée sont des atouts majeurs dans un écosystème calédonien qui poursuit sa transformation numérique.",
+      "x-position": "Cheffe de produit service-public.nc - Coordinatrice téléservices chez Direction du Numérique et de la Modernisation",
+      "x-relationship": "Collaboration cross-company (Direction du Numérique et de la Modernisation)",
+      "x-date": "2026-06-01",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": [
+        "cross-company",
+        "civic-tech",
+        "nouvelle-caledonie",
+        "services-web",
+        "interoperability",
+        "dynamism",
+        "technical-expertise",
+        "force-de-proposition"
+      ]
+    },
+    {
       "name": "Thouraya Sakis",
       "reference": "J'aurai la chance d'avoir Adrien comme enseignant à l'université, et je le recommanderai vivement.\n\nAdrien se distinguera par la qualité de son enseignement, sa capacité à vulgariser des sujets complexes et à rendre ses cours particulièrement clairs et accessibles. Il fera preuve d'une grande pédagogie et d'un réel engagement envers la réussite de ses étudiants.\n\nIl abordera également des projets en lien avec des sujets d'actualité tels que la data, l'intelligence artificielle et l'interopérabilité, ce qui permettra de relier les enseignements théoriques aux enjeux concrets du monde professionnel.\n\nSon écoute, sa disponibilité et sa volonté d'accompagner chacun dans sa progression seront de véritables atouts. Grâce à son approche structurée et motivante, il créera un environnement d'apprentissage stimulant et enrichissant.\n\nJe garderai une excellente expérience de ses cours et le recommanderai sans hésitation.",
       "x-relationship": "Étudiante — Adrien intervenant pédagogique universitaire",
@@ -2255,8 +2274,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.19.11",
-    "lastModified": "2026-05-31",
+    "version": "v1.19.12",
+    "lastModified": "2026-06-02",
     "theme": "elegant"
   }
 }
