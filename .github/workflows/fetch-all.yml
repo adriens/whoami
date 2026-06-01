@@ -30,6 +30,7 @@ jobs:
         env:
           KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           uv run scripts/fetch-devto-articles.py --user adriens
           uv run scripts/fetch-devto-articles.py --user optnc --author adriens

@@ -12,6 +12,8 @@ result = subprocess.run(
      "--json", "name,description,url,stargazerCount,createdAt,updatedAt,primaryLanguage,repositoryTopics,isArchived,isFork,isPrivate"],
     capture_output=True, text=True
 )
+if result.returncode != 0 or not result.stdout.strip():
+    raise SystemExit(f"gh repo list failed (rc={result.returncode}): {result.stderr.strip()}")
 all_repos = json.loads(result.stdout)
 
 repos = [r for r in all_repos if not r["isFork"] and not r["isPrivate"]]
