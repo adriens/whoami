@@ -38,9 +38,9 @@ tasks:
       - uv run scripts/fetch-devto-articles.py --user adriens
 
   fetch-devto-opt-nc:
-    desc: Provisionner les articles DEV.to @opt-nc (ecrits par adriens uniquement)
+    desc: Provisionner les articles DEV.to @optnc (ecrits par adriens uniquement)
     cmds:
-      - uv run scripts/fetch-devto-articles.py --user opt-nc --author adriens
+      - uv run scripts/fetch-devto-articles.py --user optnc --author adriens
 
   fetch-devto:
     desc: Provisionner tous les articles DEV.to (sequentiel)

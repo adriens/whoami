@@ -32,7 +32,7 @@ jobs:
           KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
         run: |
           uv run scripts/fetch-devto-articles.py --user adriens
-          uv run scripts/fetch-devto-articles.py --user opt-nc --author adriens
+          uv run scripts/fetch-devto-articles.py --user optnc --author adriens
           uv run scripts/fetch-youtube-channel.py --channel devops-lab
           uv run scripts/fetch-goodreads.py --user 124105866
           uv run scripts/fetch-kaggle-datasets.py --user adriensales
