@@ -6,7 +6,7 @@ id: '7108725'
 isbn: '1591842808'
 num_pages: '256'
 published_year: '2009'
-rating: '0'
+rating: '5'
 shelf: read
 title: 'Start with Why: How Great Leaders Inspire Everyone to Take Action'
 url: https://www.goodreads.com/review/show/5941375356?utm_medium=api&utm_source=rss
