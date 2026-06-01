@@ -1651,16 +1651,20 @@
         "pacifique",
         "interoperability",
         "huggingface",
-        "frugal"
+        "frugal",
+        "api-fication",
+        "devrel",
+        "mcp"
       ],
       "startDate": "2025-06",
-      "description": "Stack personnelle de monitoring de l'offre mobile Helia (OPT-NC) : APK reverse-engineered pour extraire les appels HTTP privés, Go CLI qui snapshote voice/data/SMS dans DuckDB toutes les 5 minutes, widgets KDE Plasma Python/PyQt live. Hermes Agent génère un rapport PDF 17 pages multi-parties prenantes (CEO/CIO/Admin réseau) via LaTeX pour $19.57 vs une semaine de travail manuel.",
+      "description": "Stack personnelle de monitoring de l'offre mobile Helia (OPT-NC) : APK reverse-engineered pour extraire les appels HTTP privés, Go CLI qui snapshote voice/data/SMS dans DuckDB toutes les 5 minutes, widgets KDE Plasma Python/PyQt live. Hermes Agent génère un rapport PDF 17 pages multi-parties prenantes (CEO/CIO/Admin réseau) via LaTeX pour $19.57 vs une semaine de travail manuel. Inscrit au DEV Challenge (Dev.to). Repo : https://github.com/adriens/helia",
       "highlights": [
         "Reverse-engineering de l'APK Helia — extraction des appels HTTP privés, reconstruits en Go CLI",
         "DuckDB comme base locale : historique de consommation, burn rate, alertes — données non disponibles dans l'app officielle",
         "Widgets KDE Plasma Python/PyQt lisant DuckDB en temps réel avec icône system tray",
         "Rapport PDF 17 pages généré par Hermes Agent + LaTeX : 3 profils (CEO/CIO/Admin), 326 requêtes, 61.4M tokens, $19.57",
-        "Intégration robot Reachy Mini (simulation, CPU-only, sans LLM) : alerte vocale sur seuil de consommation via HuggingFace app store — https://youtu.be/hnn5J3qbDyU"
+        "Intégration robot Reachy Mini (simulation, CPU-only, sans LLM) : alerte vocale sur seuil de consommation via HuggingFace app store — https://youtu.be/hnn5J3qbDyU",
+        "Étude complète open innovation (65 min) — télémétrie, éditiques, SLAs, DORA, B2B APIGEE, MCP, IoT — https://youtu.be/tPihPZRfh2A"
       ],
       "url": "https://dev.to/adriens/i-reverse-engineered-my-mobile-operators-apk-then-hermes-agent-wrote-the-executive-report-2j3o"
     },
@@ -2251,7 +2255,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.19.10",
+    "version": "v1.19.11",
     "lastModified": "2026-05-31",
     "theme": "elegant"
   }
