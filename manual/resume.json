@@ -7,7 +7,7 @@
     "email": "adrien.sales@gmail.com",
     "phone": "+687 84 29 84",
     "url": "https://adriens.github.io/whoami/",
-    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis) puis en data science (Mastère Spécialisé MSBDS — labellisé Conférence des Grandes Écoles, stage data mining avec l'I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte. Méthode signature : l'API-fication — identifier un manque d'interopérabilité, scraper ou exploiter l'open data, packager en SDK, exposer en API, laisser émerger l'écosystème communautaire (apps mobiles, AR, bots, MCPs, dashboards). Validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA. Ma boussole : l'expertise technique au service du besoin métier et du time-to-market — chaque choix d'architecture se mesure à la valeur livrée.\n\n25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood. La boucle se referme : la transmission, premier métier en 1999 (professeur de mathématiques en collège), revient au premier plan 25 ans plus tard — fil rouge plus que parenthèse.\n\nConviction transversale, valable pour moi comme pour les collaborateurs et stagiaires que j'encadre : un rythme soutenable sur la durée prime sur le sprint. Six ans de projets tutorés sans interruption, des séries d'articles régulières, des contributions open source continues — l'endurance comme méthode, pas comme contrainte.\n\nAmbitions parallèles : construire un produit data/IA ancré dans les problématiques du Pacifique, contribuer à la recherche appliquée (knowledge graphs, data science), et étendre une présence DevRel internationale — conférences, open source, communauté.",
+    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis) puis en data science (Mastère Spécialisé MSBDS — labellisé Conférence des Grandes Écoles, stage data mining avec l'I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte. Méthode signature : l'API-fication — identifier un manque d'interopérabilité, scraper ou exploiter l'open data, packager en SDK, exposer en API, laisser émerger l'écosystème communautaire (apps mobiles, AR, bots, MCPs, dashboards). Validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA. Ma boussole : l'expertise technique au service du besoin métier et du time-to-market — chaque choix d'architecture se mesure à la valeur livrée.\n\n25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood. Outcomes mesurables : deux étudiants de la promo 2025 recrutés dans des institutions publiques calédoniennes (OPT-NC, ISEE-NC) sur recommandation active — la pédagogie comme levier de placement, pas seulement de formation. La boucle se referme : la transmission, premier métier en 1999 (professeur de mathématiques en collège), revient au premier plan 25 ans plus tard — fil rouge plus que parenthèse.\n\nConviction transversale, valable pour moi comme pour les collaborateurs et stagiaires que j'encadre : un rythme soutenable sur la durée prime sur le sprint. Six ans de projets tutorés sans interruption, des séries d'articles régulières, des contributions open source continues — l'endurance comme méthode, pas comme contrainte.\n\nAmbitions parallèles : construire un produit data/IA ancré dans les problématiques du Pacifique, contribuer à la recherche appliquée (knowledge graphs, data science), et étendre une présence DevRel internationale — conférences, open source, communauté.",
     "x-summary-short": "Architecte et urbaniste des SI au croisement des maths (DEA INRIA Sophia Antipolis) et de la data science (Mastère MSBDS — labellisé Conférence des Grandes Écoles), je reconnais la famille de problèmes derrière chaque demande pour structurer le SI interne (knowledge graph, lakehouse, bus applicatif) ou API-fier l'existant public (open data → SDK → API → écosystème communautaire) — innovation frugale comme levier.",
     "location": {
       "address": "",
@@ -1114,8 +1114,11 @@
         "mentorat",
         "unc-partnership",
         "lasting-impact",
-        "human-centric"
-      ]
+        "human-centric",
+        "civic-tech",
+        "isee-nc"
+      ],
+      "x-position": "Collaboratrice ISEE-NC"
     },
     {
       "name": "Dévi Bergès",
@@ -1632,6 +1635,32 @@
     }
   ],
   "projects": [
+    {
+      "name": "Enseignement MIAGE UNC — Module Interopérabilité SI",
+      "type": "professional",
+      "x-tags": [
+        "pedagogy",
+        "transmission",
+        "mentorat",
+        "interoperability",
+        "open-source",
+        "open-data",
+        "unc-partnership",
+        "nouvelle-caledonie",
+        "pacifique"
+      ],
+      "startDate": "2025-03",
+      "url": "https://github.com/adriens/unc_iae_miage_interop_si_feedbacks",
+      "description": "Conception et animation du module Interopérabilité des SI en Master MIAGE, IAE-UNC, sur temps personnel. Pédagogie Montessori appliquée à l'université : learning by doing, projets open source réels, syllabus public sur GitHub. 12 étudiants, promo 2025.",
+      "highlights": [
+        "Pédagogie double ancrage : Montessori (manipulation, autonomie) + Mindful Learning d'Ellen Langer — chaque étudiant repart avec du code en prod",
+        "Dévi Bergès (M2 2025) : témoignage vidéo spontané sur la méthode + recruté à l'OPT-NC sur recommandation active — https://youtu.be/0QU79d9cqJg",
+        "Thouraya Sakis (M2 2025) : retenue à l'ISEE-NC après recommandation avec entretien",
+        "Deux placements en institution publique calédonienne en juin 2026 — preuve d'impact au-delà du cours",
+        "Expo des réalisations étudiantes en fin d'année documentée sur Dev.to (23 commentaires)",
+        "Syllabus public sur GitHub — transparence totale de la méthode"
+      ]
+    },
     {
       "name": "Programme stages & projets tutorés OPT-NC × UNC",
       "type": "professional",
@@ -2300,7 +2329,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.21.1",
+    "version": "v1.22.0",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }
