@@ -1073,7 +1073,8 @@
         "trust-building",
         "lasting-impact",
         "unc-partnership",
-        "projet-tutore"
+        "projet-tutore",
+        "opt-nc"
       ]
     },
     {
@@ -1139,7 +1140,8 @@
         "technical-expertise",
         "lasting-impact",
         "interoperability",
-        "innovation"
+        "innovation",
+        "opt-nc"
       ]
     },
     {
@@ -2298,7 +2300,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.21.0",
+    "version": "v1.21.1",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }
