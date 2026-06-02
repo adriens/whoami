@@ -1053,6 +1053,30 @@
   ],
   "references": [
     {
+      "name": "Dévi Bergès",
+      "reference": "Je voudrais adresser un remerciement tout particulier à notre enseignant Adrien Sales. Merci pour votre bienveillance, votre écoute, pour la liberté que vous nous avez laissé dans ce projet. Vous avez su nous faire confiance, nous challenger sans jamais nous freiner. Personnellement, ce projet a été bien plus qu'un simple exercice de fin d'année. Il m'a permis de grandir, de me révéler et de me projeter différemment pour la suite. Alors, sincèrement, merci.",
+      "x-position": "Chargé de projets / Étudiant-entrepreneur",
+      "x-relationship": "Étudiant M2 MIAGE UNC — Adrien intervenant pédagogique",
+      "x-date": "2026-06-02",
+      "x-source": "YouTube",
+      "x-url": "https://youtu.be/0QU79d9cqJg",
+      "x-language": "fr",
+      "x-tags": [
+        "student-recommendation",
+        "pedagogie",
+        "pedagogy",
+        "transmission",
+        "mentorat",
+        "human-centric",
+        "qualites-humaines",
+        "disponibilite",
+        "trust-building",
+        "lasting-impact",
+        "unc-partnership",
+        "projet-tutore"
+      ]
+    },
+    {
       "name": "Stéphanie BOUVET",
       "reference": "J'ai eu l'occasion de collaborer avec Adrien dans le cadre d'un projet de service en ligne orienté grand public, et transverse à plusieurs organismes publics ou assimilés.\nSon désir de faire progresser les services publics, son dynamisme et son expérience qualifiée sont des atouts majeurs dans un écosystème calédonien qui poursuit sa transformation numérique.",
       "x-position": "Cheffe de produit service-public.nc - Coordinatrice téléservices chez Direction du Numérique et de la Modernisation",
@@ -2274,7 +2298,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.20.0",
+    "version": "v1.21.0",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }
