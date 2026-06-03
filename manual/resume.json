@@ -1728,7 +1728,8 @@
         "frugal",
         "api-fication",
         "devrel",
-        "mcp"
+        "mcp",
+        "saga"
       ],
       "startDate": "2025-06",
       "description": "Stack personnelle de monitoring de l'offre mobile Helia (OPT-NC) : APK reverse-engineered pour extraire les appels HTTP privés, Go CLI qui snapshote voice/data/SMS dans DuckDB toutes les 5 minutes, widgets KDE Plasma Python/PyQt live. Hermes Agent génère un rapport PDF 17 pages multi-parties prenantes (CEO/CIO/Admin réseau) via LaTeX pour $19.57 vs une semaine de travail manuel. Inscrit au DEV Challenge (Dev.to). Repo : https://github.com/adriens/helia",
@@ -2330,7 +2331,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.22.1",
+    "version": "v1.22.2",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }
