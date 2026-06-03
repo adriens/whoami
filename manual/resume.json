@@ -1738,7 +1738,8 @@
         "Widgets KDE Plasma Python/PyQt lisant DuckDB en temps réel avec icône system tray",
         "Rapport PDF 17 pages généré par Hermes Agent + LaTeX : 3 profils (CEO/CIO/Admin), 326 requêtes, 61.4M tokens, $19.57",
         "Intégration robot Reachy Mini (simulation, CPU-only, sans LLM) : alerte vocale sur seuil de consommation via HuggingFace app store — https://youtu.be/hnn5J3qbDyU",
-        "Étude complète open innovation (65 min) — télémétrie, éditiques, SLAs, DORA, B2B APIGEE, MCP, IoT — https://youtu.be/tPihPZRfh2A"
+        "Étude complète open innovation (65 min) — télémétrie, éditiques, SLAs, DORA, B2B APIGEE, MCP, IoT — https://youtu.be/tPihPZRfh2A",
+        "Dev Challenge HERMES x Qwen 3.7 Max (OpenRouter) : rapport Quarto multi-rôles (CEO/CIO/Admin/Dev), role-playing simulation, bimodal distribution discovery — https://youtu.be/Zw-lfNFA0fQ"
       ],
       "url": "https://dev.to/adriens/i-reverse-engineered-my-mobile-operators-apk-then-hermes-agent-wrote-the-executive-report-2j3o"
     },
@@ -2329,7 +2330,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.22.0",
+    "version": "v1.22.1",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }
