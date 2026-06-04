@@ -1055,6 +1055,28 @@
   ],
   "references": [
     {
+      "name": "Clémentine Galin",
+      "reference": "Avant-dernier point, l'enrichissement personnel. On a eu la chance de choisir chacun les sujets qu'on souhaitait aborder. Donc ça c'est vraiment intéressant, et d'explorer les pistes qu'on souhaitait explorer. Et dernier point, je remercie Adrien pour ses conseils et ses connaissances qui nous a permis de nous challenger et d'explorer des pistes auxquelles on n'aurait pas pensé.",
+      "x-position": "Valoriser la donnée, éclairer la décision",
+      "x-relationship": "Étudiante M2 MIAGE UNC — Adrien intervenant pédagogique (UE Interopérabilité des SI)",
+      "x-date": "2026-06-04",
+      "x-source": "YouTube",
+      "x-url": "https://youtu.be/DH0OXalt_F8",
+      "x-language": "fr",
+      "x-tags": [
+        "student-recommendation",
+        "pedagogie",
+        "pedagogy",
+        "transmission",
+        "mentorat",
+        "human-centric",
+        "lasting-impact",
+        "curiosite",
+        "knowledge-sharing",
+        "unc-partnership"
+      ]
+    },
+    {
       "name": "Ludwig MARTIN",
       "reference": "I am pleased to recommend Adrien, an outstanding engineer with a rare ability to combine deep technical expertise, curiosity, and practical execution.\n\nAdrien is always keen to explore new technologies, build meaningful POCs, and leverage public APIs to turn ideas into concrete, working solutions. He does not just follow technology trends; he understands them, tests them, and finds smart ways to apply them to real-world problems.\n\nBeyond his technical skills, Adrien is also committed to sharing knowledge. His involvement in mentoring young people in New Caledonia reflects his generosity, patience, and genuine desire to help others grow.\n\nHe is also a great person to work with: reliable, positive, supportive, and always willing to help. Adrien is both a highly skilled engineer and a great teammate, and I would gladly recommend him to any organization looking for technical excellence, innovation, and strong human values.",
       "x-position": "AI & CyberSecurity Enterprise Architect | Cloud, Governance & Risk | POC-First & Pragmatic by Design | CISSP • TOGAF • PMP • ITIL • COBIT",
@@ -2391,7 +2413,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.24.1",
+    "version": "v1.25.0",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }
