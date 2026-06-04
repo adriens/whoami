@@ -1072,7 +1072,10 @@
         "dynamism",
         "leadership",
         "team-culture",
-        "data"
+        "data",
+        "api-fication",
+        "data-science",
+        "mobile"
       ]
     },
     {
@@ -2355,7 +2358,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.23.0",
+    "version": "v1.23.1",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }
