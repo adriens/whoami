@@ -1,11 +1,9 @@
 ---
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import { readFileSync, existsSync } from 'node:fs';
-import { fileURLToPath } from 'node:url';
-import { dirname, resolve } from 'node:path';
+import { resolve } from 'node:path';
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const root = resolve(__dirname, '../../..');
+const root = resolve(process.cwd(), '..');
 
 const resume = JSON.parse(readFileSync(resolve(root, 'manual/resume.json'), 'utf-8'));
 const { basics, work = [], education = [], skills = [], projects = [], languages = [], publications = [], awards = [], volunteer = [], interests = [], certificates = [] } = resume;
