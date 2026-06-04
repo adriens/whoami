@@ -9,6 +9,7 @@ on:
     paths:
       - "manual/resume.json"
       - "scripts/validate-json-resume.py"
+  workflow_dispatch:
 
 jobs:
   validate:
