@@ -664,6 +664,8 @@
       "name": "Méthode signature : API-fication",
       "level": "Expert",
       "keywords": [
+        "API-fication",
+        "Validée 3x en recommandations LinkedIn par des pairs indépendants",
         "Identification de manques d'interopérabilité",
         "Scraping de sources sans API",
         "Exploitation open data",
@@ -2389,7 +2391,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.24.0",
+    "version": "v1.24.1",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }
