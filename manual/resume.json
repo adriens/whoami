@@ -1053,6 +1053,29 @@
   ],
   "references": [
     {
+      "name": "Paul Monimeau",
+      "reference": "J'ai eu la chance de travailler avec Adrien lors d'une expérience particulièrement enrichissante autour de projets data et innovation. Adrien sait transmettre sa vision, faire confiance et créer un environnement où l'on apprend vite tout en gardant un vrai sens du concret.\n\nSon approche mêlant exigence technique, innovation et méthodes de travail agiles m'a beaucoup apporté. Au-delà de ses compétences, j'ai particulièrement apprécié son énergie, sa capacité à fédérer et son envie constante de faire progresser les équipes.\n\nJe recommande Adrien avec grand plaisir et serais ravi de collaborer à nouveau avec lui.",
+      "x-position": "Ingénieur en Informatique",
+      "x-relationship": "Direct report d'Adrien",
+      "x-date": "2026-06-04",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": [
+        "direct-report-recommendation",
+        "transmission",
+        "trust-building",
+        "mentorat",
+        "technical-expertise",
+        "technical-excellence",
+        "innovation",
+        "management-agile",
+        "dynamism",
+        "leadership",
+        "team-culture",
+        "data"
+      ]
+    },
+    {
       "name": "Dévi Bergès",
       "reference": "Je voudrais adresser un remerciement tout particulier à notre enseignant Adrien Sales. Merci pour votre bienveillance, votre écoute, pour la liberté que vous nous avez laissé dans ce projet. Vous avez su nous faire confiance, nous challenger sans jamais nous freiner. Personnellement, ce projet a été bien plus qu'un simple exercice de fin d'année. Il m'a permis de grandir, de me révéler et de me projeter différemment pour la suite. Alors, sincèrement, merci.",
       "x-position": "Chargé de projets / Étudiant-entrepreneur",
@@ -2332,7 +2355,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.22.3",
+    "version": "v1.23.0",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }
