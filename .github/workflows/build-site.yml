@@ -1,0 +1,25 @@
+name: Build site check
+
+on:
+  pull_request:
+    paths:
+      - 'site/**'
+      - 'manual/resume.json'
+      - 'data/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install dependencies
+        working-directory: site
+        run: bun install
+
+      - name: Build site
+        working-directory: site
+        run: bun run build
