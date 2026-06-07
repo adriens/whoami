@@ -8,6 +8,7 @@ num_pages: '272'
 published_year: '2009'
 rating: '5'
 shelf: read
+tags: [design-thinking, innovation, creativity, human-centric, pedagogy, accessibility, civic-tech]
 title: 'Change by Design: How Design Thinking Transforms Organizations and Inspires
   Innovation'
 url: https://www.goodreads.com/review/show/8451396127?utm_medium=api&utm_source=rss

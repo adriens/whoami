@@ -1047,6 +1047,7 @@
         "Architecture logicielle",
         "Data science",
         "Innovation",
+        "Design Thinking",
         "Start with Why",
         "Data Products"
       ],
@@ -2413,7 +2414,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.25.1",
+    "version": "v1.25.2",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }

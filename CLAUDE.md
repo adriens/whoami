@@ -588,6 +588,42 @@ gh release create vX.Y.Z --title "vX.Y.Z — <titre court>" --notes "<release no
 
 La release note doit lister : les changements de contenu (`resume.json`), les données ajoutées, et les évolutions de docs/workflows. S'appuyer sur `git log vX.Y.(Z-1)..vX.Y.Z --oneline` pour la construire.
 
+## Workflow : enrichir le CV après une lecture Goodreads
+
+Adrien met systématiquement en œuvre ce qu'il lit. **À chaque ajout d'un livre avec review personnelle**, enrichir `resume.json` avant de committer — ne pas se limiter au data-only.
+
+### 1. Analyser la review
+
+Lire le corps du `.md` du livre (la review Goodreads fetchée). Extraire :
+- Les **thèmes principaux** du livre
+- Les **actions concrètes** que la lecture a déclenchées ("ce livre m'a conduit à...", "j'ai créé...", "j'ai organisé...")
+
+### 2. Mapper aux sections du CV
+
+| Signal dans la review | Section à enrichir | Action |
+|---|---|---|
+| Thème récurrent dans la bibliothèque (≥ 2 livres) | `interests.Lecture.keywords[]` | Ajouter le keyword si absent |
+| Livre a déclenché une action concrète citée dans le CV | `awards` / `projects` / `work` → `summary` | Ajouter la référence causale |
+| Livre valide/démontre un skill existant | `skills[].keywords[]` | Enrichir les keywords |
+| Thème absent de tout skill existant mais récurrent (≥ 3 livres) | `skills[]` | Envisager un skill dédié |
+
+### 3. Tagger le fichier `.md` du livre
+
+Ajouter `tags:` dans le frontmatter du fichier book généré par le fetch :
+
+```yaml
+tags: [design-thinking, innovation, creativity, human-centric, ...]
+```
+
+Tags = thèmes du livre mappés à la taxonomie canonique `x-tags`.
+
+### 4. Valider et commiter
+
+1. `task validate`
+2. Bump `meta.version` (PATCH si enrichissement, MINOR si nouvelle entrée)
+3. Deux commits séparés : `chore(goodreads):` pour les data, `feat(interests):` (ou autre section) pour `resume.json`
+4. Tag + release
+
 ## Règle absolue — Python
 
 > **Ne jamais exécuter un script Python directement.** Toujours et uniquement `uv run`.
