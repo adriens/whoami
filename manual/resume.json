@@ -447,17 +447,23 @@
     {
       "title": "Speaker — PMI Horizons Nouméa (Project Management Institute)",
       "date": "2026-07",
-      "awarder": "PMI Nouvelle-Calédonie",
+      "awarder": "PMI France – Branche Horizons, Pôle Nouvelle-Calédonie",
       "x-tags": [
         "speaker",
         "design-thinking",
         "human-centric",
         "accessibility",
         "civic-tech",
+        "devsecops",
+        "data",
+        "knowledge-graph",
+        "open-source",
+        "lean",
+        "interoperability",
         "pacifique",
         "nouvelle-caledonie"
       ],
-      "summary": "2ème participation consécutive au PMI Horizons Nouméa — Talk : Design Thinking & Accessibilité numérique. Déclenché par la lecture de *Change by Design* (Tim Brown) : exploration de l'accessibilité, développement d'une application dédiée, puis mise en pratique pédagogique. Prévu le 7 juillet 2026."
+      "summary": "2ème participation consécutive — Exposé : \"Développer mieux. Plus vite. Plus inclusif.\" Thème de l'événement : \"L'innovation n'a de valeur que lorsqu'elle crée davantage d'inclusion, d'accessibilité et de capacité d'agir.\" Point de départ : un proche en perte d'autonomie incapable de lire un document pour passer commande — zéro expertise préalable en accessibilité. Approche Design Thinking outillée (Agile, DevOps/CI-CD, Data Science, ML, Graph Data Science, IA) pour concevoir un service accessible quel que soit le handicap ou le contexte. Métriques projet : LEAD Time & DORA. Framework data-driven, open source, avec démonstration live et témoignages utilisateur. Succès mesuré au gain d'autonomie (nul, partiel ou total). 3 juillet 2026."
     },
     {
       "title": "Speaker — PMI Horizons Nouméa (Project Management Institute)",
@@ -2429,7 +2435,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.26.0",
+    "version": "v1.26.1",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }
