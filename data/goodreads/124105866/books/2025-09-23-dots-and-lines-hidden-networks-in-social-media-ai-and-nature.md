@@ -1,6 +1,6 @@
 ---
 author: Anthony Bonato
-average_rating: '4.08'
+average_rating: '4.07'
 date_read: '2025-09-23'
 id: '214637385'
 isbn: '1421451263'
