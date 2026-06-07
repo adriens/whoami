@@ -886,6 +886,8 @@
         "Innovation frugale",
         "Open Innovation",
         "Design thinking",
+        "Lean UX",
+        "Design Sprint",
         "Team Topologies",
         "Transparence radicale",
         "Culture de feedback",
@@ -1069,6 +1071,7 @@
         "Data science",
         "Innovation",
         "Design Thinking",
+        "UX Strategy",
         "Start with Why",
         "Data Products"
       ],
@@ -2435,7 +2438,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.26.1",
+    "version": "v1.26.2",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }
