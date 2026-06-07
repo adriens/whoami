@@ -1,6 +1,6 @@
 # Adrien Sales — Knowledge Base (full)
 
-*Généré le 2026-05-29*
+*Généré le 2026-06-07*
 
 
 ## Profil
@@ -11,7 +11,7 @@ Ma spécificité : face à n'importe quelle problématique, je reconnais la fami
 
 Ingénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA. Ma boussole : l'expertise technique au service du besoin métier et du time-to-market — chaque choix d'architecture se mesure à la valeur livrée.
 
-25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood. La boucle se referme : la transmission, premier métier en 1999 (professeur de mathématiques en collège), revient au premier plan 25 ans plus tard — fil rouge plus que parenthèse.
+25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood. Outcomes mesurables : deux étudiants de la promo 2025 recrutés dans des institutions publiques calédoniennes (OPT-NC, ISEE-NC) sur recommandation active — la pédagogie comme levier de placement, pas seulement de formation. La boucle se referme : la transmission, premier métier en 1999 (professeur de mathématiques en collège), revient au premier plan 25 ans plus tard — fil rouge plus que parenthèse.
 
 Conviction transversale, valable pour moi comme pour les collaborateurs et stagiaires que j'encadre : un rythme soutenable sur la durée prime sur le sprint. Six ans de projets tutorés sans interruption, des séries d'articles régulières, des contributions open source continues — l'endurance comme méthode, pas comme contrainte.
 
@@ -69,13 +69,13 @@ Enseignement des mathématiques en collège : collège de Bourail, puis collège
 
 ### Compétences
 
-**Méthode signature : API-fication** (Expert) : Identification de manques d'interopérabilité, Scraping de sources sans API, Exploitation open data, Packaging SDK (Java, Python, Go), Exposition API REST + OpenAPI/Swagger, Catalogue d'APIs publiques (APIGEE), Démultiplication communautaire (apps mobiles, bots, AR, MCPs, dashboards), Pattern validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa
-**Graph & Knowledge Engineering** (Expert) : Neo4j, Graph Data Science, Cypher, Knowledge Graph, GDS Library, NetworkX, endoflife.date-neo4j, Théorie des graphes, Analyse de réseaux, Centralité & clustering, Réseaux cachés
+**Méthode signature : API-fication** (Expert) : API-fication, Validée 3x en recommandations LinkedIn par des pairs indépendants, Identification de manques d'interopérabilité, Scraping de sources sans API, Exploitation open data, Packaging SDK (Java, Python, Go), Exposition API REST + OpenAPI/Swagger, schema.org — attachement de données à des schémas existants avant exposition, Catalogue d'APIs publiques (APIGEE), Démultiplication communautaire (apps mobiles, bots, AR, MCPs, dashboards), Pattern validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa
+**Graph & Knowledge Engineering** (Expert) : Neo4j, Graph Data Science, Cypher, Knowledge Graph, GDS Library, NetworkX, endoflife.date-neo4j, Théorie des graphes, Analyse de réseaux, Centralité & clustering, Réseaux cachés, JSON-LD, schema.org
 **IA & Agents** (Avancé) : MCP (Model Context Protocol), Hugging Face, Gradio, Agents IA, RAG, Ollama, LangChain, Semantic Router, Vibe coding, OpenSearch vector search
-**Architecture & Développement** (Expert) : Architecture SI, Domain-Driven Design, Spring Boot, Quarkus, Java, Go, Maven, Interopérabilité (signature de carrière depuis 12+ ans, validée par pairs DSI Nouméa 2018), API Design, APIGEE, ZK Framework, picocli, Cobra (Go), BubbleTea, Flutter
-**Data Engineering** (Avancé) : Apache Airflow, Apache Kafka, MinIO, Apache Superset, Lakehouse, ETL/ELT, Debezium, OpenSearch, ELK Stack, Elasticsearch, Kibana, Gouvernance des métadonnées
-**Bases de données** (Avancé) : PostgreSQL, DuckDB, DuckLake, Oracle, SQL, Tuning, SchemaCrawler
-**DevSecOps** (Avancé) : GitHub Actions, GitHub Issues, Docker, Podman, Kubernetes, Trivy, Shift-left security, geol, goreleaser, RGPD
+**Architecture & Développement** (Expert) : Architecture SI, Domain-Driven Design, Spring Boot, Quarkus, Java, Go, Maven, Interopérabilité (signature de carrière depuis 12+ ans, validée par pairs DSI Nouméa 2018), API Design, JSON Schema, APIGEE, ZK Framework, picocli, Cobra (Go), BubbleTea, Flutter
+**Data Engineering** (Avancé) : Apache Airflow, Apache Kafka, MinIO, Apache Superset, Lakehouse, ETL/ELT, Debezium, OpenSearch, ELK Stack, Elasticsearch, Kibana, Gouvernance des métadonnées, Data Products
+**Bases de données** (Avancé) : PostgreSQL, DuckDB, DuckLake, Oracle, SQL, Tuning, SchemaCrawler, Analyse sécurité & lifecycle
+**DevSecOps** (Avancé) : GitHub Actions, GitHub Issues, Docker, Podman, Kubernetes, Trivy, skopeo, Shift-left security, geol, goreleaser, RGPD
 **Microsoft Power Platform** (Intermédiaire) : Power BI, Power Automate, Microsoft Flow, Custom connectors APIGEE, No-code automation, Data storytelling
 **Open Data & Data Science** (Avancé) : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Hackathons, uv, poetry, PyPI, PyPI maintainer
 **Reporting & Documentation** (Avancé) : Quarto, Notebooks reproductibles, Urbanisation SI, Rapports de sécurité, Reporting automatisé, Data-driven management, Markdown, GitHub Pages
@@ -87,6 +87,15 @@ Enseignement des mathématiques en collège : collège de Bourail, puis collège
 **Créativité & Apprentissage autodidacte** (Expert) : Imagination, Connexion de domaines éloignés, Pensée transdisciplinaire, Expérimentation, MIT Media Lab mindset, Rendre l'invisible visible, Détection d'inefficacités, Idéation en mouvement, Apprendre → construire → démontrer → enseigner, Curiosité naturelle, Observation du réel
 
 ### Projets open source
+
+**Enseignement MIAGE UNC — Module Interopérabilité SI** — https://github.com/adriens/unc_iae_miage_interop_si_feedbacks
+Conception et animation du module Interopérabilité des SI en Master MIAGE, IAE-UNC, sur temps personnel. Pédagogie Montessori appliquée à l'université : learning by doing, projets open source réels, syllabus public sur GitHub. 12 étudiants, promo 2025.
+- Pédagogie double ancrage : Montessori (manipulation, autonomie) + Mindful Learning d'Ellen Langer — chaque étudiant repart avec du code en prod
+- Dévi Bergès (M2 2025) : témoignage vidéo spontané sur la méthode + recruté à l'OPT-NC sur recommandation active — https://youtu.be/0QU79d9cqJg
+- Thouraya Sakis (M2 2025) : retenue à l'ISEE-NC après recommandation avec entretien
+- Deux placements en institution publique calédonienne en juin 2026 — preuve d'impact au-delà du cours
+- Expo des réalisations étudiantes en fin d'année documentée sur Dev.to (23 commentaires)
+- Syllabus public sur GitHub — transparence totale de la méthode
 
 **Programme stages & projets tutorés OPT-NC × UNC** — https://github.com/opt-nc/odata-stages-projets-tutores-unc
 Programme informel mais documenté d'encadrement de stagiaires et projets tutorés en partenariat avec l'Université de la Nouvelle-Calédonie (UNC). Chaque projet part d'un problème réel OPT-NC, expose un étudiant à des technologies modernes, et livre un artefact concret et publié — article Dev.to, vidéo YouTube, repo GitHub. Technologies couvertes : ML/IA, Flutter, Unity, Streamlit, Next.js, ELK Stack, IoT/LED matrix, Java/JavaFX, APIs REST conteneurisées.
@@ -102,11 +111,23 @@ Outil open source (Go) pour gérer les end-of-life des composants logiciels en t
 - Rapport HTML Quarto : score de dette technique, charts visuels et calendrier EOL — généré automatiquement, partageable directement à des décideurs
 - Approche marketing $0 — démos vidéo sur Mux/YouTube et articles dev.to uniquement, zéro budget pub
 
+**Helia Monitor — Stack monitoring consommation mobile OPT-NC** — https://dev.to/adriens/i-reverse-engineered-my-mobile-operators-apk-then-hermes-agent-wrote-the-executive-report-2j3o
+Stack personnelle de monitoring de l'offre mobile Helia (OPT-NC) : APK reverse-engineered pour extraire les appels HTTP privés, Go CLI qui snapshote voice/data/SMS dans DuckDB toutes les 5 minutes, widgets KDE Plasma Python/PyQt live. Hermes Agent génère un rapport PDF 17 pages multi-parties prenantes (CEO/CIO/Admin réseau) via LaTeX pour $19.57 vs une semaine de travail manuel. Inscrit au DEV Challenge (Dev.to). Repo : https://github.com/adriens/helia
+- Reverse-engineering de l'APK Helia — extraction des appels HTTP privés, reconstruits en Go CLI
+- DuckDB comme base locale : historique de consommation, burn rate, alertes — données non disponibles dans l'app officielle
+- Widgets KDE Plasma Python/PyQt lisant DuckDB en temps réel avec icône system tray
+- Rapport PDF 17 pages généré par Hermes Agent + LaTeX : 3 profils (CEO/CIO/Admin), 326 requêtes, 61.4M tokens, $19.57
+- Intégration robot Reachy Mini (simulation, CPU-only, sans LLM) : alerte vocale sur seuil de consommation via HuggingFace app store — https://youtu.be/hnn5J3qbDyU
+- Étude complète open innovation (65 min) — télémétrie, éditiques, SLAs, DORA, B2B APIGEE, MCP, IoT — https://youtu.be/tPihPZRfh2A
+- Dev Challenge HERMES x Qwen 3.7 Max (OpenRouter) : rapport Quarto multi-rôles (CEO/CIO/Admin/Dev), role-playing simulation, bimodal distribution discovery — https://youtu.be/Zw-lfNFA0fQ
+- Clip : HERMES annotant les SLAs analytics LaTeX en direct depuis DuckDB — https://youtu.be/wUKko5sRwzQ
+
 **duckdb-brew — Extension DuckDB Community** — https://github.com/adriens/duckdb-brew
-Extension officielle DuckDB Community permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge avec vibe coding + CI/CD. Listée sur duckdb.org.
+Extension officielle DuckDB Community permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge avec vibe coding + CI/CD. Listée sur duckdb.org. Demo Quarto publiée en 2026 : notebook PDF avec Graph Data Science et charts de sécurité.
 - Listée officiellement sur duckdb.org/community_extensions/extensions/brew
-- Construite en hackathon, activement maintenue
+- Construite en hackathon, activement maintenue — 824 téléchargements/mois
 - Permet analyses de dépendances, centralité de graphe et rapports de sécurité en SQL pur
+- Demo Quarto : notebook Python génère un rapport PDF professionnel via GitHub Copilot en 2h
 
 **Knowledge Graph SI OPT-NC — Neo4j** — https://github.com/opt-nc
 Système de cartographie du SI de l'OPT-NC basé sur Neo4j avec release automatisée via GitHub Actions. Présenté à NODES 2022, 2023 et 2024. Enrichi d'agents IA.
@@ -292,7 +313,7 @@ Démarche systématique de création d'interopérabilité là où elle n'existe 
 
 ## Articles DEV.to
 
-*208 articles au total*
+*305 articles au total*
 
 
 ### @adriens (208 articles)
@@ -17029,12 +17050,7068 @@ I built the Quarto notebook within 2 hours of prompting before getting out of to
 ---
 
 
+### @optnc (97 articles)
+
+---
+comments: 0
+id: 974401
+is_dev_challenge: false
+published_at: '2022-02-02T03:59:21Z'
+reactions: 1
+reading_time_minutes: 4
+tags:
+- github
+- deployment
+- devops
+- docker
+title: Speeding Up Time to Market with Custom Ansible GitHub Actions
+url: https://dev.to/optnc/speeding-up-time-to-market-with-custom-github-actions-3md0
+---
+
+## Intro
+
+Recently, we started to migrate our onPremise Jenkins/Gitlab based Continuous Integration platform to Github.com.
+
+After having migrated our code and build tool from `gradle` to `maven`, implemented all the classic CI, including Continuous Delivery,
+
+> we wanted to go one step further : achieve Continuous Deployment.
+
+This post is about how we achieved that, while relying on hybrid onPremise and Cloud services, and the software we developed to achieve that, with an industrial approach.
+
+
+## :blue_book: Our mantra : getting platform oriented
+
+Our core mantra that would drive all of our DevOPS decisions was to
+
+> perform a weak couplage... and avoid self hosted runners.
+
+OPS would deliver us a ready to use platform (servers and deployment pipeline) while programmers (Dev and Ops) should integrate the OPS pipeline to implement the Continuous Deployment Pipeline.
+
+## :zap: The pipeline
+
+Finally, we should get a whole pipeline as follows :
+
+1. **Cloud** : Code and deliver assets/artefacts or Docker images on Github.com
+2. **onPremise**: Delegate deploy tasks by calling dedicated & ready-to-use [Ansible Tower Job](https://access.redhat.com/products/ansible-tower-red-hat)
+
+Below see the same version deployed to both environments :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mkofd1q8z2eb58bnm38u.png)
+
+On each deployment you can see the reference to the GH Action :
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ppkzug28sej4mvd1i438.png)
+
+## :rocket: Deployment cases
+
+We finally achieved the following deployment pipeline :
+
+- **When a PR is merged into the `develop` branch** : trigger a deployment on integration environment
+- **When a released is triggered** : a deployment in Qualification is triggered, but waiting for a reviewer to accept it
+- **For production environment** : same approach as previous item, eventually with different reviewers
+
+## :package: Package and deliver the Tower Action
+
+To deliver the deployment, we naturally have chosen to implement a dedicated Github Action so other developers could use it too to implement deployment workflows.
+
+Finally we managed to release this as a public action on [Github Action Marketplace](https://github.com/marketplace/actions/deploy-with-tower-ansible) :  
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1w9oprlr95t0rvxq2d05.png)
+
+:point_right: Notice that we did put a lot of care to be able to produce public code, be able to manage secrets and not being too specific to our needs. **This is an important part of our philosophy.**
+
+You can get a closer look as the action sourcecode below : 
+
+{% github opt-nc/tower-deploy-action %}
+
+## :gear: Maintaining the pipeline
+
+> As any kind of dependency, a Github Action needs to be maintained, and as an end user, **you need to monitor that** (I mean... you really have to).
+
+Fortunately, [since 2022/01/31](https://github.blog/2022-01-31-dependency-graph-now-supports-github-actions/) this can now be achieved through [the standard dependency graph](https://docs.github.com/en/enterprise-server@3.1/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph) (the same way you monitor through any package managers like npm, NuGet, Maven, or RubyGems).
+
+From any repository which uses Actions, you can now see your Actions workflows listed alongside any other dependencies in the Insights/Dependency Graph experience:
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6vv9g1su0bwucg9plm0f.png)
+
+The [dependency graph](https://docs.github.com/en/code-security/supply-chain-security/understanding-your-software-supply-chain/about-the-dependency-graph) is the foundation of GitHub’s supply chain security capabilities because understanding what you depend on is a crucial first step toward securing software.
+
+> We can configure `Dependabot` version updates to keep your Actions dependencies up to date automatically... I mean as part of your development workflow through automated Pull requests.
+
+See [official Github Blog Post](https://github.blog/2022-01-31-dependency-graph-now-supports-github-actions/) about this topic.
+
+## Benefits
+
+During this first Github Action development we had the following benefits : 
+
+- Even **better code-related collaboration** with OPS Teams for code around Tower calls and security concerns
+- **Better questions and responsibility** around deployment and the deployment reviews and roles
+- Generate DevOps **metrics** to get data driven around on this area
+- **Optimize workflow to save money** (switch from Docker image to js under investigation) : **the faster your pipeline runs, the less money you spend**
+- This discipline behind the mantra opens the door for a very wide range of deployments, **making us very productive at no additional development cost**
+- As on Github.com CPU time and storage come at a cost, cost and performance do now are investigated since the very beginning and are data-driven : **we have started to [shift left](https://dev.to/t/shiftleft) on these aspects too**
+
+## Resources
+
+- Keeping an eye on GH [public roadmap](https://github.com/github/roadmap/issues) for more information about upcoming supply chain improvements in this area.
+
+## :cinema: Intro to Gh Actions
+
+{% youtube R8_veQiYBjI%}
+
+## :pray: Acknowledgements
+
+I really want to thank all the people that made this first success possible : Dev, OPS, financial services, RSSI and CIO for their confidence. Without all this engagement this pipeline would have never been come true.
+
+---
+
+---
+comments: 0
+id: 996836
+is_dev_challenge: false
+published_at: '2022-03-10T02:32:02Z'
+reactions: 10
+reading_time_minutes: 3
+tags:
+- github
+- yaml
+- devops
+- docker
+title: Let CI check & fix your yamls
+url: https://dev.to/optnc/let-ci-check-fix-your-yamls-kfa
+---
+
+## 👉 Intro
+
+A few months ago, we have started to migrate our sourcecode [CI & CD to Github.com](https://github.com/features/actions).
+
+Then, both DEV and OPS started to migrate source codes.
+
+It appeared that OPS had to migrate a huge amount of [Ansible](https://www.redhat.com/en/topics/automation/what-is-an-ansible-playbook) related repos from an onPrem Gitlab instance to Github.com, and we wanted to take advantage of linting and code quality of the yamls.
+
+OPS started to develop the migration process so it could be entirely code driven and tested.
+
+What appeared was that we needed to manage that huge amount of code to : 
+
+- :one: **lint** (syntax validity, but for weirdnesses like key repetition and cosmetic problems such as lines length, trailing spaces, indentation, etc)
+- :two: **fix/implement lints** feedbacks in a massive way (they were so huge that we could not imagine do that by hand)
+
+OPS did choose to use the following approach : 
+
+- :one: **Lint** with [yamllint](https://github.com/tamere-allo-peter/yamllint)
+- :two: **Fix** with [yamlfixer](https://github.com/opt-nc/yamlfixer), which in facts uses `yamllint` in his core
+
+As DEV & OPS are using `yaml` everyday a -bit- lot more ([k8s](https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/), [CI configuration](https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions), [Spring Boot configuration](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.external-config), ...), we started to 
+
+> think about a common toolbox that we could embed in our CI pipeline, on Github.com.
+
+What we needed to do was to :
+
+1. **Integrate** OPS sourcecode (DevOPS **teamwork**)
+2. **Package** it inside as a dedicated GH Action that everyone could add to their pipeline within a few lines of code
+
+## 🛠️ Yaml Fixer
+
+An important work has been done by OPS on [yamlfixer](https://github.com/opt-nc/yamlfixer) so it could be used conveniently from the `cli` :
+
+{% github opt-nc/yamlfixer %}
+
+Still this `cli` needed a Python runtime to be used.
+
+### 🐳 Deliver as a `Docker` image
+
+Then we wanted to distribute it an easier way, which meaned :
+> package it as a Docker image.
+
+At that point, DEVs took the relay and implemented Docker release on GH CI, and pushed images on DockerHub under [optnc/yamlfixer](https://hub.docker.com/r/optnc/yamlfixer) :
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pz2by6kdbf410faltst6.png)
+
+ 
+### 🏃 Deliver as a GH Action
+
+Now, we could use the Docker image to implement the following Public GH Action : 
+
+{% github opt-nc/yamlfixer-action %}
+
+... that could be released on the [Marketplace](https://github.com/marketplace/actions/yaml-fixer) :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f0k521qfwnihag6pgmyu.png)
+ 
+### 🤖 Action usage
+
+Here is the code (and... it's `yaml` 🐔🥚🐣) required to use the action in any workflow :
+
+```yaml
+name: Lint yaml files
+
+on: [push]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout my app
+        uses: actions/checkout@v2
+      - name: Lint yaml files
+        uses: opt-nc/yamlfixer-action
+        with:
+            yaml_file: .github/*.yml
+            options: --verbose
+            user: ${{secrets.my_user}}
+            token: ${{secrets.my_user_password}}
+```
+:point_right: Notice that the action **creates a new branch and the pull request to be merged into the working branch** so this code activity can be managed and reviewed as any other source code proposal.
+
+# 🎦 Live demo
+
+As a live video worths a thousand words : discover how the Github Action runs on a [dedicated repository](https://github.com/opt-nc/demo-yamlfixer-action) :
+
+{% youtube https://youtu.be/GuloRWeTavY %}
+
+## 📷 Examples in details
+
+### ❌ Rejected PR because of lint failure
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i6iu8hyolrklfmzywxrr.png)
+ 
+### ✔️ Valid PR coming from GH Action
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/d5ufe4c20ziakrfebqqa.png)
+
+And code change review : 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/phx1aa6pe5jc92ansosg.png)
+
+## 🪙 ROI
+
+Now, **both DEVs and OPs** are using it to enhance `yaml` quality proactively with the help of CI and `yaml` quality issues are managed on our [daily workflow on GH Issue](https://github.com/features/issues).
+
+:point_right: **Also notice that all the teams using the GH Action have the same level of quality accross the whole organization.**
+
+## 🙏 Acknowledgments 🧑‍🤝‍🧑
+
+A lot of thanks to the team that made this work come true, all on our DEVOPS pipeline : 
+
+- [Jerome ALET](https://github.com/tamere-allo-peter) as core `Yaml Fixer` developer & integrator
+- [Michèle BARRE](https://www.linkedin.com/in/michelebarre/) for Docker packaging and GH Action development
+- [Daniel SANTOS](https://www.linkedin.com/in/daniel-santos-dev-fullstack/) for its test on DockerHub publish and his continuous feedbacks on this new Gh Action
+
+---
+
+---
+comments: 0
+id: 1029336
+is_dev_challenge: false
+published_at: '2022-03-24T20:24:28Z'
+reactions: 9
+reading_time_minutes: 2
+tags:
+- yaml
+- devops
+- python
+- kubernetes
+title: We wanted to create a tool to fix yamls...then we got a community
+url: https://dev.to/optnc/we-wanted-to-create-a-tool-to-fix-yamlsthen-we-got-a-community-42ji
+---
+
+## 👉 Intro
+
+Recently we built a library that would lint & fix `yamls`, that we also did embed as a Github Action so we could use this tool as part of our CI pipeline : 
+
+{% embed https://dev.to/adriens/let-ci-check-fix-your-yamls-kfa %}
+
+What we did not know at that time is that...
+
+> _that was just the beginning of a journey._
+
+## 📦 Release the `cli`
+
+Progressively we started to focus on `yamlfixer` `cli` user experience, features, packaging and delivery.
+
+So the context slowly started to shift from a background  hidden tool to a full tool, with more features and more integrations.
+
+We started to automate [package delivery on `pypi`](https://pypi.org/project/yamlfixer-opt-nc/), make install process much easier, [create demo scenarios](https://www.katacoda.com/opt-labs/courses/devops-tools/yamlfixer), create [one liners](https://github.com/opt-nc/yamlfixer/blob/main/README.md#-one-liners), [plug into `jq`](https://github.com/opt-nc/yamlfixer/blob/main/README.md#piping-json--summary-through-jq) , plug it into [gomplate template engine](https://github.com/opt-nc/yamlfixer/issues/31), ...integration scenarios and many other exciting things, very efficiently around our Dev & OPS pipeline, all that very naturally.
+
+> While the collaboration through GH issues was fully remote, we even did an internal (30' minutes long) meetup to share about vision and issues.
+
+At the end of the first week I was mesmerized : 
+
+{% embed https://asciinema.org/a/478928 %}
+
+> _we wanted a `cli` tool to fix `yamls` but finally we built a community !_
+
+## 🎞️ Video demo
+
+Find below first live demo video (in French) with a lot of more details about what we did :
+
+{% youtube https://youtu.be/_FiVaMFITkI %}
+
+## 🎬 asciinema demos
+
+Below some dedicated [`asciinema`](https://asciinema.org/) demos :
+
+- [First Kickstart](https://asciinema.org/a/478928)
+- [Backup suffix](https://github.com/opt-nc/yamlfixer/issues/70) feature [demo](https://asciinema.org/a/479510)
+
+Feel free to contribute yours on the GH project 👇
+
+## 🧑‍🤝‍🧑 Contributors
+
+Many thanks to the core team I really enjoy working with on a daily basis on many other DevOPS challenges, helping pushing disruptive new ideas :
+
+- 👱‍♀️ [Michèle](https://dev.to/mbarre)
+- 🧔‍♂️ [Jérôme](https://github.com/tamere-allo-peter)
+
+## 🔖 Project repo
+
+For more about the project just : 
+
+{% github opt-nc/yamlfixer %}
+
+---
+
+---
+comments: 0
+id: 1036279
+is_dev_challenge: false
+published_at: '2022-03-27T23:25:14Z'
+reactions: 5
+reading_time_minutes: 1
+tags:
+- kubernetes
+- opensource
+- devops
+- docker
+title: Running Tanzu unmanaged cluster on (very) low resources
+url: https://dev.to/optnc/running-tanzu-unmanaged-cluster-on-very-low-resources-15g1
+---
+
+## 👉 Intro
+
+We currently are evaluating [VM Ware Tanzu Kubernetes cluster](https://twitter.com/vmwaretanzu ) solution.
+
+Fortunately [VM Ware](https://tanzu.vmware.com/) made the choice to get community driven by :
+
+- Making its cluster available for many flavors through its Community Edition called TCE ([Tanzu Community Edition](https://tanzucommunityedition.io/))
+- Creating [Carvel Community](https://carvel.dev/) which : 
+
+> _"[...] provides a set of reliable, single-purpose, composable tools that aid in your application building, configuration, and deployment to Kubernetes."_
+
+## ❔ The `unmanaged` cluster
+
+In TCE, VM Ware introduces [TCE Unmanaged Cluster](https://tanzucommunityedition.io/docs/v0.10/ref-unmanaged-cluster/) which makes possible to run Tanzu on low resources envs or on develop environments great to be destroyed/rebuilt for experimental/learning purposes.
+
+So I wanted to challenge TCE on Katacoda to see **how could use it on our workstations**.
+
+> If you manage to make it run on Katacoda (with default low resources) then you can run it on your system.
+
+
+## 🎞️ Discover TCE
+
+So you can discover how we achieved to get a live TCE running cluster on Katacoda and on which stack it does rely :
+
+{% embed https://youtu.be/GRipRGxR4QY %}
+
+## 🔖 Resources
+
+Play yourself on the [dedicated Katacoda scenario](https://www.katacoda.com/opt-labs/courses/tanzu-community/tce-playground) and stay tuned for more news on that topic :
+
+{% twitter 1505904668584685569 %}
+
+---
+
+---
+comments: 2
+id: 1045907
+is_dev_challenge: false
+published_at: '2022-04-05T22:12:00Z'
+reactions: 3
+reading_time_minutes: 2
+tags:
+- graalvm
+- knative
+- springboot
+title: ⏩ Going native with Spring Boot on Mac M1
+url: https://dev.to/optnc/going-native-with-spring-boot-on-mac-m1-3nnh
+---
+
+## 👉 Intro
+
+I recently saw a great Spring blog post about [Building Native Images with GraalVM and Spring Native on Apple's M1 Architecture](https://spring.io/blog/2022/03/23/building-native-images-with-graalvm-and-spring-native-on-apple-s-m1-architecture).
+
+In the same time we are investigating on porting some of our (innovation dedicated) existing Spring Boot based APIs to [Spring Native](https://docs.spring.io/spring-native/docs/current/reference/htmlsingle/), see related content : 
+
+{% embed https://dev.to/optnc/knative-the-easy-way-to-serverless-a-java-app-3n36 %}
+
+As one of our developers works on an Mac M1, we wanted to give it a try to see what would happen.
+
+This short blog post is about that short experimentation.
+
+## 🎞️ Build & Run  : 2' speedrun
+
+Finally we could enjoy the full and smooth cli based experience : 
+
+1. Setup Java runtime with [GraalVM](https://www.graalvm.org/) [`22.0.0`](https://www.graalvm.org/release-notes/22_0/) with [sdkman](https://sdkman.io/)
+2. Build & Install native image (and see resources used : time & memory)
+3. Boot the API (`0.4`s.)
+4. Perform a first REST query (`0.007` s.) with [`httpie`](https://httpie.io/)
+5. Perform a second REST query (`0.003` s.)
+
+Let the show begin :
+
+{% embed https://youtu.be/MyNPzH7oheA %}
+
+
+## 🍏 More about Apple M1
+
+You can get a full intro/deep dive on Apple M1 Ultra architecture  thanks to this great [Computerphile](https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA) episode : 
+
+{% embed https://youtu.be/yG1m7oGZC48 %}
+
+
+## 🔖 Resources
+
+- API [homepage on Dockerhub](https://hub.docker.com/r/optnc/api-partenaires-mobilis/)
+- API on [RapidAPI marketplace](https://rapidapi.com/opt-nc-opt-nc-default/api/partenaires-mobilis/details)
+- [Building Native Images with GraalVM and Spring Native on Apple's M1 Architecture](https://spring.io/blog/2022/03/23/building-native-images-with-graalvm-and-spring-native-on-apple-s-m1-architecture)
+
+{% twitter 1511724002150162432 %}
+
+---
+
+---
+comments: 2
+id: 1048298
+is_dev_challenge: false
+published_at: '2022-04-07T22:12:05Z'
+reactions: 5
+reading_time_minutes: 2
+tags:
+- security
+- serverless
+- kubernetes
+- devops
+title: 🕵️ About Java Bytecode, native binaries & security (short Grype benchmark)
+url: https://dev.to/optnc/about-java-bytecode-native-binaries-security-short-grype-benchmark-4ng9
+---
+
+## ❔ Intro
+
+We are currently working on the following topics :
+
+- Native Docker images delivery through Github Actions, on various registries (mainly [GHCR.io](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry) and [Docker Hub](https://hub.docker.com/u/optnc))
+- Java native experience : migration to [Spring Boot Native](https://docs.spring.io/spring-native/docs/current/reference/htmlsingle/) & [Quarkus](https://quarkus.io/) experimentations
+- Security for our Images Continuous Deployment pipeline
+
+## 🛡️ Security
+
+For our **source code & dependencies**, we are applying security strategy thanks to Dependabot :
+
+{% embed https://dev.to/optnc/dependency-management-automation-with-dependabot-3l62 %}
+
+...and [GitHub Advanced Security](https://docs.github.com/en/enterprise-cloud@latest/get-started/learning-about-github/about-github-advanced-security) for some repositories.
+
+## 🖕 Controlling Docker images releases
+
+More and more we release and rely on an ever growing set of Docker images.
+To make short, as Software Developers and DEVOPS engineers, the ones that interest us currently are :
+
+- The images we rely on
+- The image we build ourselves (on top of previous ones)
+
+👉 **What we  ~~want~~ need to be able to do is : to be able to control the security level of the images we are building...**
+
+⚠️ **And not release them if they do not reach the expected level of security, depending of the target service.**
+
+> _As all services do not have the same criticity, vulnerabilities level may have different impacts on runtime security governance._ 
+
+## 👐 Experimentation and solutions
+
+Fortunately [anchore](https://anchore.com/) provides a set of ready to use tools that helps... a lot :
+
+- [grype](https://github.com/anchore/grype) (_vulnerability scanner for container images and filesystems_)
+- [syft](https://github.com/anchore/syft) (_CLI tool and library for generating a Software Bill of Materials from container images and filesystems_)
+- [`grype` as a Anchore GitHub Action](https://github.com/marketplace/actions/anchore-container-scan) : 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ilqrmjadb1ttgfz8vukw.png)
+ 
+👉 So you can easily protect your Continuous Delivery pipeline  thanks to the `severity-cutoff` :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8zf94iv7slu5dvopsevg.png)
+ 
+## 🤔 Bytecode vs. native impact on security
+
+We wanted to give a quick look at if - and so how - native strategy impacts security, discover the `grype` output below:
+
+{% youtube LPrxUb82wCY %}
+
+## 🔖 Resources
+
+- [`grype`](https://github.com/anchore/grype) on GitHub
+- [`grype` Feature request : Optional External Data Source Reference for Maven Packages](https://github.com/anchore/grype/issues/711)
+
+{% embed https://github.com/anchore/grype %}
+
+---
+
+---
+comments: 0
+id: 1047181
+is_dev_challenge: false
+published_at: '2022-04-07T03:17:39Z'
+reactions: 5
+reading_time_minutes: 1
+tags:
+- github
+- security
+- maintenance
+- java
+title: 🦾 Dependency management automation with Dependabot
+url: https://dev.to/optnc/dependency-management-automation-with-dependabot-3l62
+---
+
+## ❔ Intro
+
+We (Java programmers) recently had to face 3 majors issues :
+
+- Two on [Log4J](https://www.dynatrace.com/news/blog/what-is-log4shell/)
+- One on [Spring](https://spring.io/blog/2022/03/31/spring-framework-rce-early-announcement).
+
+In the mean time teams have an ever growing set of projects to manage.
+
+⚠️ While you **often rely on public dependencies**, you also **can rely on your own private ones... which can themsleves depend on public ones and then present security flaws.**
+
+👆 **In both cases, dependency management has to be performed at scale on your pipeline from build to deployment... as fast as possible... and on all your code.**
+
+Sometimes, you just need to be aware that some of your dependencies are not up-to-date, for example to get new features.
+
+In both cases : 
+
+> _You don't have time to spend to monitor your favorite dependencies for each of your projects : you'd rather see someone else do the job._
+
+Yet, when it's about security...
+
+> _The job has to be done as fast as possible at scale... and without breaking existing software so the fix can be deployed as fast as possible._
+
+
+This is what this post is about.
+
+It will show how we achieve this as part of the CI with [Dependabot](https://github.blog/2020-06-01-keep-all-your-packages-up-to-date-with-dependabot/) :
+
+{% youtube NHJSdEYDqRw %}
+
+---
+
+---
+comments: 0
+id: 1048327
+is_dev_challenge: false
+published_at: '2022-04-07T23:18:35Z'
+reactions: 4
+reading_time_minutes: 1
+tags:
+- kubernetes
+- docker
+- java
+- springboot
+title: '👶 DEVOPS-LABS 2022.2 : premiers pas et démo Spring Native'
+url: https://dev.to/optnc/devops-labs-20222-premiers-pas-et-demo-spring-native-3e62
+---
+
+## 👉 A propos
+
+Ci-dessous l'extrait de notre dernier `DEVOPS-LABS 2022.2` :
+
+{% youtube 1UepHh-P4Vg %}
+
+... lequel est en lien direct avec la démo récemment opérée sur Knative : 
+
+{% embed https://dev.to/optnc/knative-the-easy-way-to-serverless-a-java-app-3n36 %}
+
+---
+
+---
+comments: 0
+id: 1049553
+is_dev_challenge: false
+published_at: '2022-04-09T00:10:16Z'
+reactions: 10
+reading_time_minutes: 1
+tags:
+- github
+- git
+- productivity
+- cli
+title: ⬆️ Upgrade GitHub cli
+url: https://dev.to/optnc/upgrade-github-cli-2gbe
+---
+
+## ❔ About `cli/cli`
+
+GitHub focuses more and more its users productivity and [`UX`](https://en.wikipedia.org/wiki/User_experience).
+
+Target audience are : 
+
+- Programmers/people making code (DEV, OPS, SECOPS, Network, DevSecOPS,..),
+- Team Managers,
+- SCRUM Masters,
+- Product Owners,
+- Security managers (see [organization-level security manager role](https://github.blog/changelog/2021-10-21-introducing-the-organization-level-security-manager-role/)),
+- DEVOPS engineers,
+
+, ... and more generally **every person how is engaged on the software creation, delivery and deployment pipeline.**
+
+To make `userexperience` always better they have released a dedicated cli : `cli/cli/` :
+
+{% github cli/cli %}
+
+
+In addition to traditional `git` operations, you can smoothely interact on an - everyday - [growing set of GitHub features](https://cli.github.com/manual/).
+
+## 🆙 Stay up-to-date
+
+As any other software and as it is also maintained by an ever growing [programmers community](https://github.com/cli/cli/graphs/contributors), `cli/cli` is often [released](https://github.com/cli/cli/releases).
+
+Hence you often have to upgrade (the cli warns you about new release availability).
+
+Fortunately it is distributed through [`brew`](https://brew.sh/) wich makes uprgade process a real piece of cake
+
+> ... making it possible to enjoy new features very easily.
+
+## 🎬 Upgrade demo
+
+To upgrade things are a easy as :
+
+```shell
+brew upgrade gh  
+```
+
+See below how to upgrade (`v2.6.0` to [`v2.7.0`](https://github.com/cli/cli/releases/tag/v2.7.0) in my case):
+
+{% youtube 3c7vj5cuYoY %}
+
+
+## 🔖 `cli/cli` Homepage
+
+For more about that tool, just visit its homepage :
+
+{% embed https://cli.github.com/ %}
+
+---
+
+---
+comments: 0
+id: 1052197
+is_dev_challenge: false
+published_at: '2022-04-11T21:30:21Z'
+reactions: 6
+reading_time_minutes: 1
+tags:
+- productivity
+- programming
+- github
+- cli
+title: '📥 Github cli 2.7.0 : "gh status"'
+url: https://dev.to/optnc/github-cli-270-gh-status-42f5
+---
+
+## ❔ Intro
+
+[Gtihub cli/cli](https://github.com/cli/cli) has recently [released its `v2.7.0` version](https://github.com/cli/cli/releases/tag/v2.7.0)
+
+While reading its [releaseNote](https://github.com/cli/cli/releases/tag/v2.7.0) I discovered the following new feature :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cvnrrpdhmf712fmn0usn.png)
+ 
+So I gave a look at the [`gh status` feature](https://github.com/cli/cli/pull/5369).
+
+The preview was looking cool :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jyz6ggxvhkq1j0nka135.png)
+
+So I wanted to give it a try to this productivity tool. 
+
+## 🎞️ Demo
+
+I wanted to give it a try, see demo below :
+
+{% youtube 8Iqr75OWX3o %}
+
+## 👇 Conclusion
+
+👉 `gh status` is now part of my productivity tool.
+
+ I use it as a shortcut to my GH related activities (code, project management and team management), in addition to my [GH inbox](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/viewing-and-triaging-notifications/managing-notifications-from-your-inbox) which is much much reacher, allows to make much more things but requires more time. These two approaches are complementary.
+
+---
+
+---
+comments: 9
+id: 1052364
+is_dev_challenge: false
+published_at: '2022-04-12T20:09:49Z'
+reactions: 7
+reading_time_minutes: 2
+tags:
+- docker
+- angular
+- api
+- devops
+title: '🐋 DOMAINE.nc : the fun (docker) way... and screenshots contest 🎨'
+url: https://dev.to/optnc/domainenc-the-fun-docker-way-and-screenshots-contest-17o8
+---
+
+## ❔ Intro
+
+A few months ago, during COVID lockdown in New-Caledonia, we decided to build cohesion around a simple yet very efficient innovation project across two teams, challenging us about what we could achieve together within less than 3 days.
+
+> _Our main concern was to show what can be achieved when we have public APIs... and what we could do with [Open Innovation](https://en.wikipedia.org/wiki/Open_innovation)._
+
+## 🐋 Do it the Docker way
+
+The we built and released this project relying on dedicated and public
+
+- Back image : [optnc/domaine-nc-api](https://hub.docker.com/r/optnc/domaine-nc-api)
+- Front-end image : [optnc/domaine-nc-front](https://hub.docker.com/r/optnc/domaine-nc-front)
+
+## 💡 Our goals
+
+- 🧪 Create a whole new `UX` on an existing web app
+- 🧑‍🤝‍🧑 Collaborate accross two teams and experiment [Github issues](https://github.com/features/issues)
+- 😛 Have fun
+- 🧑‍🎓 Get knowledge on Github Actions and pure front image building
+- 😎 Make something cool together we can enjoy and play with
+
+Then we did this👇
+
+## 🕹️ Run the demo
+
+```shell
+cat << EOF > docker-compose.yml
+version: "3.7"
+services:
+  api:
+    image: docker.io/optnc/domaine-nc-api:latest
+    ports:
+      - "8080:8080"
+  front:
+    links:
+      - api
+    image: docker.io/optnc/domaine-nc-front:stable
+    environment:
+      - DNS_BACKEND=api:8080
+    ports:
+      - "80:80"
+EOF
+
+# Run docker-compose
+docker-compose up -d
+```
+
+Now you're ready to give it a try :
+
+```
+# Give it a try 🤩
+firefox http://localhost/opt.nc
+firefox http://localhost
+```
+
+## 🙏🏻 Acknowledgements
+
+This post is dedicated to [Laurent Schaeffer](https://www.linkedin.com/in/laurent-schaeffer-b1174a173/) (aka. [lschaeffer313](https://github.com/lschaeffer313)) and [Michèle Barré](https://www.linkedin.com/in/michelebarre/) (aka. [@mbarre](https://github.com/mbarre)) who where the core developers.
+
+Also I want to thank [Sabrina](https://www.linkedin.com/in/sabrinaverolle/) who did trust us and accepted to invest 3 days of dev of Laurent.
+
+We really enjoyed a lot developing together and role playing.
+
+Now, I'm happy to welcome [Daniel Santos](https://www.linkedin.com/in/daniel-santos-dev-fullstack/) (aka. [@Dougniel](https://github.com/Dougniel)) on the team as front-end and DEVOPS, and of course Michèle as back-end active maintainer.
+
+## 📷 Drop your screenshots 🎁
+
+If you enjoyed this approach, drop a screenshot of your favorite  `.nc` domain in New-Caledonia in the discussion 👇
+
+---
+
+---
+comments: 0
+id: 1055293
+is_dev_challenge: false
+published_at: '2022-04-14T03:32:41Z'
+reactions: 6
+reading_time_minutes: 1
+tags:
+- docker
+- devsecops
+- devops
+- kubernetes
+title: '💉 Grype 0.35.0 new feature : Indicate location of vulnerability'
+url: https://dev.to/optnc/grype-0350-new-feature-indicate-location-of-vulnerability-1pam
+---
+
+## 👏 Celebrating Issue `#561`
+
+Previously when we were running [`grype`](https://github.com/anchore/grype) on an image, we were could get vulnerabilities
+
+> **_... but not we could be easily aware of where they were coming from._**
+
+In other words its "type" (`deb`, `java`,... ) :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3gb2j6eau55ppc06yoro.png)
+
+See previous demo for more about the previously available datas for vulnerabilities :
+
+{% embed https://dev.to/optnc/about-java-bytecode-native-binaries-security-short-grype-benchmark-4ng9 %}
+
+## 🖕 The new feature
+
+Fortunately, the following issue has been shipped in the latest [v0.35.0](https://github.com/anchore/grype/releases/tag/v0.35.0) `grype` release :
+
+{% embed https://github.com/anchore/grype/issues/561 %}
+
+To get it :
+
+```
+brew install grype
+```
+
+, to upgrade it :
+
+```
+brew upgrade grype
+```
+
+## 🎞️ Demo
+
+Now let's see what it does look now : 
+
+{% youtube LzLSWOFQdRU %}
+
+## ⬅️ Shift Left considerations
+
+Since now, programmers can easily be aware of any security flaw during development pahse itself, on their workstation.
+
+---
+
+---
+comments: 1
+id: 1058241
+is_dev_challenge: false
+published_at: '2022-04-19T20:49:39Z'
+reactions: 5
+reading_time_minutes: 2
+tags:
+- devops
+- programming
+- productivity
+- codenewbie
+title: 🦾 Show & explain what BOTs do for us 🧑‍🤝‍🧑
+url: https://dev.to/optnc/show-explain-what-bots-do-for-us-3ki
+---
+
+## ❔ Context
+
+
+Everyday, **BOTs and CI are doing more and more things for us**.
+
+At the office, to
+
+> build a shared an efficient digital culture,
+
+it is important for programmers (DEVs & OPS) to explain to middle and top management how this technology helps to :
+
+- ➿ **Maintain** existing source code
+- 🚀 **Release** software, new features,...
+- ⤴️ **Loop** between the two previous activities
+
+> Still it remains a bit abstract.
+
+The goal of this short post is to show how, from a source code point of view,
+
+> how BOTs are an extension of the team and can (should ?) be considered as "real" programmers...
+
+that help us in our daily missions... and focus on what really matters :
+
+> Innovate, learn, create new features as fast as possible to the market... so they can be released (and then maintained).
+
+## 🎥 Movie show
+
+Visual management is a powerful tool to help understand and gain attention on abstract concepts.
+So, to put in evidence how BOTs participate to the teamwork, I thought **a short movie could do the job**.
+
+👉 This is where [`gource`](https://gource.io/) helps :
+
+{% github acaudwell/Gource %}
+
+## 🍿 Enjoy collaboration replay
+
+Within a very simple command line :
+
+```
+gource \
+    --key \
+    --highlight-users \
+    --date-format "%d/%m/%y" \
+    --hide mouse,filenames \
+    --file-idle-time 0 \
+    --max-files 0  \
+    --background-colour 000000 \
+    --font-size 25 \
+    --output-ppm-stream - \
+    | ffmpeg -y -r 30 -f image2pipe \
+    -vcodec ppm -i - -b 65536K movie.mp4
+```
+
+We can see :
+
+- how humans and BOTs collaborate
+- on what
+- on which pace
+- on wich parts of the project
+- new programmers arrival
+
+{% youtube jwXX2jFKUv8 %}
+
+👉 Notice that from a code point of view you can't see the difference between BOTs code and human... **except that BOTS often modify the same files, according to a same pattern.**
+
+## 🙏 Acknowledgments
+
+Thanks a lot to the programmers who played the role of actors in the movie, **_by order of appearance_** 😉 :
+
+- 👨 [`@lschaeffer313`](https://github.com/lschaeffer313)
+- 🧔‍♂️ [`@Dougniel`](https://github.com/Dougniel)
+- 🤖 [`DependaABOT`](https://github.com/dependabot)
+- 🦾 [`semantic-release-bot`](https://github.com/semantic-release-bot)
+
+---
+
+---
+comments: 3
+id: 1061131
+is_dev_challenge: false
+published_at: '2022-04-25T22:19:42Z'
+reactions: 7
+reading_time_minutes: 4
+tags:
+- docker
+- security
+- devsecops
+- infosec
+title: ⚖️ Bench (and choose) Java-8 docker images with anchore/grype
+url: https://dev.to/optnc/bench-and-choose-java-8-docker-images-with-anchoregrype-4fg8
+---
+
+## 🛡️ Context : security 🐳
+
+We recently started to put [`grype`](https://github.com/anchore/grype) and [Anchore Container Scan](https://github.com/marketplace/actions/anchore-container-scan) in our (GH based) CI pipeline.
+
+In the mean time, we started to **spread container security culture accross Dev & OPS teams**, especially around `grype` tooling (which is very easy to handle).
+
+Now ...
+
+> all the people who produce and release docker images have `grype` installed on their workstation... hence helps promote shiftleft culture
+
+Next to that we wanted to **automate, monitor and alert** on **security issues** so we'll be able to run a proper maintenance pipeline **by linking issues to code actions.**
+
+## 🛤️ Action
+
+Finally we created the following scheduled workflows to monitor our `stable` and `latest` tags (the ones we deploy)... and be noticed when they fail according to 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1lx0dkvn67348p9gn2dt.png)
+ 
+## 📉 Issue management & kanban
+
+We wanted to be noticed and embed security concerns into our [project planning](https://github.com/features/issues) : we needed to get alerts as issues :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cf1luyumnbr1a5zm5tyq.png)
+ 
+Also, thanks to custom and shared labels accross our organization, it is possible to report these issues globally.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hml6nftnov1irsdvpu84.png)
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/p0cak9hm3lwpya0wrajv.png)
+
+Now we get all the required details within the (self updating) issue so we can assign it, investigate, link it to other tasks, assign it to a SCRUM and so many other things.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rmf08i1rimz52clf00u8.png)
+
+## 🚨 Then the real world came to us
+
+For now, we have set the workflow to fail as soon as a `Critical` level has been reached... and here is what we got on one of our projects :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lxf1wr3o0dnjmmmbxruq.png)
+
+These issues were affecting our core java image that was relying on : `openjdk:8-alpine`.
+
+Then here is what we got 😱 👇
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wdlkqtxuc8b2xish5lsi.png)
+
+So I started to count them :
+
+```
+grype openjdk:8-alpine | grep Critical | wc -l
+grype openjdk:8-alpine | grep High | wc -l
+```
+
+Then, with that methodology I could very quickly build the following benchmark : 
+
+| Image | Critical | High | Medium | Low  | Negligible | 
+| ---              | ---| ---| --- | --- | ---|
+| openjdk:8-alpine | 10 | 55 | 110 | 142 | 0  |
+| openjdk:8u102    | 6  | 234| 685 | 140 | 232|
+| adoptopenjdk/openjdk8 | 0 | 0 | 8 | 21 | 7  |
+| adoptopenjdk/openjdk8:alpine-jre | 0 | 0 | 0 | 0 | 0 |
+
+## ❇️ Jaw dropping `adoptopenjdk/openjdk8:alpine-jre`
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dbksatuikizgbnouvi9w.png)
+ 
+
+👉 Finally we started to migrate our core java layer from `openjdk:8-alpine` to [`adoptopenjdk/openjdk8:alpine-jre`](https://hub.docker.com/r/adoptopenjdk/openjdk8)
+
+{% embed https://hub.docker.com/r/adoptopenjdk/openjdk8 %}
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8vtkg5l7z4ohs3qe1usq.png)
+
+☝️ Be aware that if under certain circumstances vulnerabilities should be considered as acceptable, it is **possible to create a configuration file to ignore certain matches** : 
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nu1oplik2yltho1cqo9f.png)
+ 
+## ☝️ Conclusion
+
+Thanks to continuous scan and proper alerting we could seriously enhance our core Java runtime for legacy source code that only supports java 8 runtime, 
+
+> we could switch from a **runtime with 10 `Critical` issues** to a runtime with **21 `Low` security issues**.
+
+It is possible to generate [`SARIF`](https://docs.oasis-open.org/sarif/sarif/v2.0/sarif-v2.0.html) vulnerability report so it can be displayed : 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ppc4zl7zg3lu50e7hkac.png)
+
+... delivered to other systems. 
+
+See more details about `SARIF` support in `grype` :
+
+{% embed https://github.com/anchore/grype/issues/304 %} 
+
+## 🌌 Further
+
+- [Anchore :  Continuous security checks directly in container image registry](https://anchore.com/container-registry-scanning/) : _ready to play solution (native integration, monitor public & private repos, enforce policies, gain security insights, ready to use reporting)_
+- [Snyk report for `openjdk:8-jdk-alpine`](https://snyk.io/test/docker/openjdk%3A8-jdk-alpine)
+- [Uploading a SARIF file to GitHub](https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/uploading-a-sarif-file-to-github)
+- [SARIF support for code scanning on Github](https://docs.github.com/en/code-security/code-scanning/integrating-with-code-scanning/sarif-support-for-code-scanning) _to display results from a third-party static analysis tool  & CodeQL static analysis_
+- [Managing container vulnerability risks: Tools and best practices](https://www.csoonline.com/article/3656702/managing-container-vulnerability-risks-tools-and-best-practices.html)
+- [The Role of SBOMs in Securing Software Supply Chains by Gartner](https://get.anchore.com/gartner-sboms-report/)
+
+## 🔭 Organisation wide strategy
+
+Finally many strategies are possible : 
+
+- Per-repo strategy : each repo is reponsible of its own monitoring with CI
+- Per-org single repo strategy : within a single repo, monitor all published images with CI
+- Global & ready-to-use [Container Registry Scanning by  `anchore`](https://anchore.com/container-registry-scanning/) for policy enforcement, security insights
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/lvyigfqnylu0lujig8j5.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hg3vy9r98kfq67gulmv5.png)
+
+See global solution below : 
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o2r9f2kx49hyqeaqlzxo.png)
+ 
+> Each of these approaches has its pros and cons,... just pick (or create) your own solution to achieve this goal. 
+ 
+
+## 👀 Remarkable grype issues
+
+Find below some issues :
+
+- [Replacements for the inline scanning script](https://github.com/anchore/grype/issues/600)
+- [grype can't detect spring4shell (CVE-2022-22965) ](https://github.com/anchore/grype/issues/704)
+- [Add support for cyclonedx 1.4 and VEX](https://github.com/anchore/grype/issues/591)
+- [generate fig autocompletion](https://github.com/anchore/grype/issues/604)
+- [False positive for alpine package](https://github.com/anchore/grype/issues/601)
+- [Consistent sort order for grype output](https://github.com/anchore/grype/issues/709)
+- [Add show-grype-output option to show vulnerabilities in console](https://github.com/anchore/scan-action/pull/135)
+- [Can't see findings in console?](https://github.com/anchore/scan-action/issues/168)
+
+---
+
+---
+comments: 1
+id: 1068519
+is_dev_challenge: false
+published_at: '2022-04-27T19:58:11Z'
+reactions: 10
+reading_time_minutes: 2
+tags:
+- github
+- productivity
+- terminal
+- codenewbie
+title: '🏷️ Github CLI v2.9.0 is out : clone labels feature #5452 is here'
+url: https://dev.to/optnc/github-cli-v290-is-out-clone-labels-feature-5452-is-here-3odk
+---
+
+## 🙋 Intro
+
+[GitHub CLI `v2.9.0`](https://github.com/cli/cli/releases/tag/v2.9.0) is out and brings some nice new features around [labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) : 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5nzx7sgiemdi5159sd3a.png)
+
+{% embed https://github.com/cli/cli/pull/5452 %}
+
+As recently I felt the need (for organizational level reporting) to synchronize labels on distinct repos (see [dedicated feedback](https://github.com/github/feedback/discussions/15300)) :
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rjl5nr77zparqnbpjcje.png)
+ 
+, this latest release was the perfect match ❣️
+
+
+## 🎞️ The demo
+
+A short video worths a thousand words so here go 👇
+{% youtube XhaqCqv1vWA %}
+
+
+## 📜 Movie script
+
+
+⚠️ **Replace with your account**⚠️
+
+
+```shell
+clear
+
+# 🤔 So a new release is avilable for Gtihub Cli ❔
+# 👉 What's new on v2.9.0... let's find out 👇  
+gh release view v2.9.0 --repo cli/cli
+
+# 🎁 ... and what is cli/cli #5452 "label clone" feature ❔
+gh issue view 5452 --repo cli/cli
+
+# 🆗 Let's give it a try ❣️
+
+# 1️⃣ Create a master repo 
+gh repo create gh-cli-demo-labels-master --public 
+
+# 🏷️ See labels on the newly created repo 👇
+gh label list --repo adriens/gh-cli-demo-labels-master
+
+# ➕ Create a custom label 🦩
+gh label create SOMETHING_PINK --description "I love pink things" --color FFC0CB --repo adriens/gh-cli-demo-labels-master
+
+# ✅ And check it has been created  👇
+gh label list --repo adriens/gh-cli-demo-labels-master
+
+# 🔍 Look for the newly created label 👇
+gh label list --repo adriens/gh-cli-demo-labels-master | grep PINK
+
+# ➕  Now, create a new repo...
+gh repo create gh-cli-demo-labels-synced --public 
+
+# ... List existing labels on te newly created repo
+gh label list --repo adriens/gh-cli-demo-labels-synced
+
+# ✅ Check that the PINK label does not exists
+gh label list --repo adriens/gh-cli-demo-labels-synced | grep PINK
+
+# 🪄 Sync labels ✨
+gh label clone adriens/gh-cli-demo-labels-master --repo adriens/gh-cli-demo-labels-synced
+
+# 🕵️ See if the clone command did work 🤞
+gh label list --repo adriens/gh-cli-demo-labels-synced | grep PINK
+
+# 🎆 Job done 🤸
+
+# 🧽 Cleanup the mess 🧼
+gh repo delete adriens/gh-cli-demo-labels-master --confirm
+gh repo delete adriens/gh-cli-demo-labels-synced --confirm
+
+# 🎬 That's all folks
+gh repo view cli/cli
+
+# 🌟 Go like it 🌟
+gh repo view cli/cli --web
+```
+
+## 🔖 Resources
+
+- 🎞️ [Github CLI playlist](https://youtube.com/playlist?list=PL7GdrgVAWcDgnslVa345j1xpjFJx9IvrE) on [`DevOPS LABS`](https://www.youtube.com/channel/UCcbQ_euR84DKOf_-ksI5_GQ)
+- [Github CLI homepage](https://cli.github.com/)
+- [`cli/cli` Manual](https://cli.github.com/manual/)
+- [`cli/cli` on Github](https://github.com/cli/cli)
+
+---
+
+---
+comments: 1
+id: 1063330
+is_dev_challenge: false
+published_at: '2022-05-03T07:29:41Z'
+reactions: 4
+reading_time_minutes: 2
+tags:
+- api
+- githubaction
+- cloud
+- rapidapi
+title: 🦾 Avoid domain name expiration with GH Actions , issues & RapidAPI 🎫
+url: https://dev.to/optnc/avoid-domain-name-expiration-with-gh-actions-issues-rapidapi-24
+---
+
+## ❔ About
+
+We are managing a website dedicated to domain names management (see [`DOMAINE.NC`](https://www.domaine.nc/)).
+
+Some months ago we faced a incident due to domain name expiration.
+The impact on the business is pretty simple 👇
+
+> your domain is simply disappearing from the web (no more ads nor transaction revenue, no more service, SLA impacts, potential penalties,...) 😱
+
+At that time I said myself... then to my team that we absolutely had to
+
+> _create something that would help anyone avoid that incident so **noone should see anymore that kind of service outage**_
+
+## 💡 The Pitch
+
+> **_"We need to get a solution that warns us before domain name expiration by sending a pluggable event/notification."_**
+
+## 🧰 Our toolbox
+
+Previously we had created an API to interact with _domain names in New-Caledonia_.
+
+It is available under various flavours : 
+
+- As a public docker image : [`optnc/domaine-nc-api`](https://hub.docker.com/r/optnc/domaine-nc-api)
+- On our [marketplace on RapidAPI](https://rapidapi.com/opt-nc-opt-nc-default/api/domaine-nc/)
+
+So thanks to this, we wanted to apply  [“dogfooding”](https://deviq.com/practices/dogfooding) practice.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7sortd28o7fg049rie0w.png)
+ 
+We will 
+
+> create a ready to use cloud based solution so we could monitor our own domains.
+
+## 🛎️ Deliver a ready to use solution
+
+I was still remembering of "2021 GitHub Actions Hackathon on DEV" :
+
+{% embed https://dev.to/devteam/join-us-for-the-2021-github-actions-hackathon-on-dev-4hn4 %}
+
+Github actions are **an efficient way to get the Job done** and take advantage of all GH (ready to use) integrations around issues.
+
+So...
+
+> we would create a **public GH Action** that would do the monitoring for us... making it possible to **automate backoffice tasks** (Power Automate, Zapier or IFTTT) : 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5r0p7o29y0leoaa1g2jq.png)
+
+☝️ **The GH action is relying on the API delivered through RapidAPI, so the only thing you have to do is bring your own [RapidAPI key](https://docs.rapidapi.com/v2.0/docs/keys) so you can store it as a secret on your GH repo**
+
+## 🎬 Live demo
+
+Enjoy the demo of the solution and how to customize it :
+
+{% youtube x4GhCnyJ_DY %}
+
+## 📜 Source code
+
+Find below GH Action source code :
+
+{% embed https://github.com/opt-nc/domaine-nc-action %}
+
+... and finally the [Action on the Marketplace](https://github.com/marketplace/actions/get-your-nc-domain-validity-metadata).
+
+
+
+## 🔖 Related contents
+
+Previous related POST : 
+
+{% embed https://dev.to/optnc/domainenc-the-fun-docker-way-and-screenshots-contest-17o8 %}
+
+API on [RapidAPI marketplace](https://rapidapi.com/opt-nc-opt-nc-default/api/domaine-nc/) :
+
+[
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hbndfi3zvwqr3j3hm6f1.png)](https://rapidapi.com/opt-nc-opt-nc-default/api/domaine-nc/)
+
+---
+
+---
+comments: 1
+id: 1075764
+is_dev_challenge: false
+published_at: '2022-05-05T01:57:41Z'
+reactions: 3
+reading_time_minutes: 1
+tags:
+- docker
+- java
+- infosec
+- devops
+title: 🗞️ Java eclipse temurin:18.0.1_10-jre-alpine is out ! Now what ?
+url: https://dev.to/optnc/java-eclipse-temurin180110-jre-alpine-is-out-now-what--10g
+---
+
+## 🛡️ About
+
+Java 18 is out since a few weeks. 
+
+> Let's see how we can handle its integration in Docker images the Dev(Sec)Ops way 👇
+
+## 🍿 Demo
+
+[Eclipse Temurin](https://hub.docker.com/_/eclipse-temurin) is maintaining a rich collection of Java images.
+
+See below how we are aware of required maintenant on our own images... and how we double check it is well secured with [`grype`](https://github.com/anchore/grype) : 
+
+{% youtube https://youtu.be/dhhRxWpDWE0 %}
+
+
+## 🔖 Related posts
+
+{% embed https://dev.to/optnc/bench-and-choose-java-8-docker-images-with-anchoregrype-4fg8 %}
+
+{% embed https://dev.to/optnc/grype-0350-new-feature-indicate-location-of-vulnerability-1pam %}
+
+{% embed https://dev.to/optnc/about-java-bytecode-native-binaries-security-short-grype-benchmark-4ng9 %}
+
+{% embed https://dev.to/optnc/dependency-management-automation-with-dependabot-3l62 %}
+
+---
+
+---
+comments: 0
+id: 1068315
+is_dev_challenge: false
+published_at: '2022-05-09T22:23:54Z'
+reactions: 4
+reading_time_minutes: 2
+tags:
+- github
+- java
+- security
+- devops
+title: 🎞️ This is how we maintain & release Secured Software on Github 🤖
+url: https://dev.to/optnc/this-is-how-we-maintain-release-secured-software-on-github-2pn3
+---
+
+## ❔ About
+
+As many organizations, we have to develop & maintain (aka. **`BUILD & RUN`**) common software.
+
+☝️ This process involves **a lot of things that have to be achieved**... (if you want to get a robust and secured software release pipeline).
+
+I'll showcase here how we achieved all theses challenges on a common Java library dedicated to logging :
+
+{% github opt-nc/opt-logging %}
+
+## 🏎️ Time to Market
+
+Software release pipeline gains everyday a shorter Time To Market.
+
+In fact there is no real option : 
+
+> _**maintenance & release tasks have to be drastically automated... and should embed security concerns on the left side of the pipeline.**_
+
+## 🛡️ Security
+
+We have three complementary ways of achieving security tasks on our pipeline : 
+
+1. [Dependabot](https://github.com/dependabot) alerts : so we get Pull Requests to notify us what are the risks
+2. [`CodeQL`](https://codeql.github.com/) Scan as part of [GitHub Advanced Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security) (aka. GHAS)
+3. Docker Image scan (see [previous dedicated post](https://dev.to/optnc/bench-and-choose-java-8-docker-images-with-anchoregrype-4fg8))
+
+
+Then to release software we rely on [`semantic-release`](https://github.com/semantic-release/semantic-release) to implement a solid [Semantic Versioning scheme](https://semver.org/) and get a
+
+> _**fully automated version management and package publishing pipeline.**_
+
+## 🍿 Démo
+
+Here is the full secured & automated release process 👇
+
+{% youtube jfvRUCo89Iw %}
+
+## 🧰 Stack
+
+- [`semantic-release`](https://github.com/semantic-release/semantic-release)
+- [`codeql`](https://codeql.github.com/)
+- [`codeql-action`](https://github.com/github/codeql-action)
+- [GitHub Advanced Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security)
+
+
+## 🔖 Related contents
+
+### ⛯ Scan Docker images 🛡️
+
+{% embed https://dev.to/optnc/bench-and-choose-java-8-docker-images-with-anchoregrype-4fg8 %}
+
+### 🔂 Semantic release demo 🎞️
+
+Semantic release intro demo :
+
+{% youtube Er-W5J5ky7Q %}
+
+---
+
+---
+comments: 7
+id: 1080390
+is_dev_challenge: false
+published_at: '2022-05-16T21:01:06Z'
+reactions: 0
+reading_time_minutes: 2
+tags:
+- github
+- documentation
+- redocly
+- devops
+title: 📜 API Documentation release automation with Github, redocly and Open API 🦾
+url: https://dev.to/optnc/api-documentation-release-automation-with-github-redocly-and-open-api-f6h
+---
+
+## 💡 Inception
+
+I truly ❤️ the way [Forem](https://forem.dev/) manages its community by providing ready to use resources to help make things possible.
+
+Their [way of achieving documentation](https://developers.forem.com/api) really impressed me, see by yourself :
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yf2hccq37lzylkfqth6g.png)](https://developers.forem.com/api#tag/articles)
+ 
+> So I wanted to offer the same comfort to the users of the APIs we create & maintain
+
+👉 **This post is about how we achieved that as part of our maintenance & release process.**
+
+## ❔ Intro
+
+Pretty often, people ask you for API documentation. Most of the time you have a live and running Swagger interface (aka. [`Swagger UI`](https://swagger.io/tools/swagger-ui/)), but..
+
+> when you have onPrem APIs, some people may not have access to an up-to-date documentation.
+
+This post will show how we did achieve this on one of our APIs : domaine-nc-api.
+
+
+## 📝 Ways of releasing documentation
+
+Below are some ways to achieve and access documentation :
+
+- Live & running [Swagger](https://swagger.io/) instance
+- Swagger from running Docker (public images) instance, see [`optnc/domaine-nc-api`](https://hub.docker.com/r/optnc/domaine-nc-api)
+- API Marketplace like [our API Marketplace on RapidAPI](https://rapidapi.com/opt-nc-opt-nc-default/api/domaine-nc/)
+- Static [openAPI](https://spec.openapis.org/oas/v3.1.0) `yaml` exports
+- Static web documentation (achieved thanks to [redocly](https://redocly.com/))
+
+☝️ To achieve all this work, we are using Continuous Integrations, with [GitHub Action](https://github.com/features/actions) **so the job is done as part of the release process.**
+
+
+## 🍿 Démo
+
+With the following demo you'll discover live how we achieve the whole maintenance & release process to achieve all these tasks 👇
+
+{% youtube 4eNz5qHGnEY %}
+
+## 🔖 Related contents
+
+{% embed https://dev.to/optnc/avoid-domain-name-expiration-with-gh-actions-issues-rapidapi-24 %}
+
+{% embed https://dev.to/optnc/dependency-management-automation-with-dependabot-3l62 %}
+
+{% embed https://dev.to/optnc/domainenc-the-fun-docker-way-and-screenshots-contest-17o8 %}
+
+---
+
+---
+comments: 4
+id: 1090316
+is_dev_challenge: false
+published_at: '2022-05-19T21:03:41Z'
+reactions: 5
+reading_time_minutes: 1
+tags:
+- java
+- springboot
+- programming
+- podman
+title: 👋 Good bye Spring Boot 2.5.x, hello 2.7.0
+url: https://dev.to/optnc/good-bye-spring-boot-25x-hello-270-40n
+---
+
+## 📢 Announce
+
+Yesterday Spring team announced the `2.5.14` release... and also...
+
+> 2.5.x has now reached the end of its OSS support 
+
+{% twitter 1527217911730929664 %}
+
+... and as promised, the long awaited `2.7` release announce !
+
+{% twitter 1527284897240428545 %}
+
+Below the full releaseNote : 
+
+{% embed https://spring.io/blog/2022/05/19/spring-boot-2-7-0-available-now %}
+
+## 📝 Details
+
+Two of the most remarkable news are : 
+
+- New `@DataCoubaseTest` and `@DataElasticsearchTest` support
+- Podman can now be used when building images using Cloud Native Buildpacks
+
+as we started to use Podman ro tun containers and always pushing further on testing.
+
+Also in the [detailed releaseNote](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.7-Release-Notes#dependency-upgrades ), we can notice among others : 
+
+- [Numerous dependency upgrades](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.7-Release-Notes#dependency-upgrades), including `Kafka 3.1`
+- `Elasticsearch 7.17` (still no Elastic 8.x native support, awaited for Spring 3.x)
+
+Also taking a glance at [miscellanous](https://github.com/spring-projects/spring-boot/wiki/Spring-Boot-2.7-Release-Notes#miscellaneous) details is worth reading for Kafka users, JDBC and ElasticSearch 
+
+## 🏁 Upgrade time
+
+If you are using Dependabot like we do, just wait for [PullRequests comme to your repo](https://github.com/opt-nc/opt-temps-attente-agences-api/pull/78) to discover how to upgrade : 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/zrj8xt5wlvkhpuy997ih.png)
+
+---
+
+---
+comments: 4
+id: 1083871
+is_dev_challenge: false
+published_at: '2022-05-23T22:12:23Z'
+reactions: 5
+reading_time_minutes: 1
+tags:
+- docker
+- cloudnative
+- killercoda
+- api
+title: 🧑‍🎓 Showcase your digital services on Killercoda 🥷
+url: https://dev.to/optnc/showcase-your-digital-services-on-killercoda-e6g
+---
+
+## 🎯 Strategic fact
+
+> Showing how easy to integrate are your services is capital : even more it's a key factor for their adoption... which leads to product development success.
+
+The ambition of this post is to show how we think this goal can be achieved... by telling the whole story.
+
+
+## ❔ Context
+
+
+We recently pushed various contents about our domaine-nc API. In the mean time we have switched our demo environments on Killercoda to show how our products are easy to use and integrate.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5bpe9uavoygwv5x8su19.png)
+
+In this demo I'll drive integrators, programmers accross our realisations and tell the full story behind realizations.
+
+Hopefully you'll enjoy this content as much as we do. 
+
+## 🎞️ Showtime
+
+{% youtube fVODO2iAniY %}
+
+## 🔖 Ressources
+
+- [OPT-LABS on Killercoda](https://killercoda.com/opt-labs)
+- [Domaine.nc course on Killercoda](https://killercoda.com
+/opt-labs/course/domaine-nc)
+- [Domaine-NC on RapidAPI.com](https://rapidapi.com/opt-nc-opt-nc-default/api/domaine-nc/)
+- [Domaine-NC on DockerHub](https://hub.docker.com/r/optnc/domaine-nc-api)
+
+---
+
+---
+comments: 4
+id: 1099319
+is_dev_challenge: false
+published_at: '2022-05-29T22:24:18Z'
+reactions: 3
+reading_time_minutes: 3
+tags:
+- java
+- springboot
+- programming
+- spring
+title: 🏁 Preparing for Spring Boot 3.0
+url: https://dev.to/optnc/preparing-for-spring-boot-30-3bi9
+---
+
+## 👉 Context
+
+We all are aware that... 
+
+> **Spring Boot `3.0` is coming ❕**
+
+Since a few months as part of our pipeline's migration from onPremise to Github.com process we have been prototyping on Spring Native and invest on maintenance by upgrading :
+
+- Our dependencies (let Dependabot PRs ⛆ 😱 ), making us upgrade all to [`2.6.7`](https://spring.io/blog/2022/04/21/spring-boot-2-6-7-available-now), then more recently [`2.7.0`](https://spring.io/blog/2022/05/19/spring-boot-2-7-0-available-now)
+- Our runtime from `Java 8` to `Java 17`... from the dev side up to the server runtime
+
+## 🧽 Gains
+
+That was a big work to achieve but offered us the **opportunity to improve our testing strategies** (less code for more coverage), dependencies cleanup/removal to make native easier in a near future.
+
+> Notice that this investment made it possible to achieve `RUN` tasks in a much more comfortable on a continuous pace and less time consuming way... while making it possible to **upgrade the middlewares we rely on**.
+
+## ☝️ Switching to Spring Data libraries
+
+As part of dependencies cleanup, we switched to [Spring Data for Elasticsearch](https://github.com/spring-projects/spring-data-elasticsearch#spring-data-for-elasticsearch--), hence making us rely on [Spring Data](https://spring.io/projects/spring-data)  instead of Elastic's ones.
+
+So we chose the following **straightforward strategy** : 
+
+We did migrate our Elastic instance to Elastic 7... and [wait to Spring Boot 3, based on Spring 6 and Java 17.](https://github.com/spring-projects/spring-data-elasticsearch#elasticsearch-8-client-libraries)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/axu273wyqtgry4smorlm.png)
+
+Find below the [compatibility matrix](https://docs.spring.io/spring-data/elasticsearch/docs/current-SNAPSHOT/reference/html/#preface.versions) (so you don't have to look for it 😓) : 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/srxps2ua35vweraal1ww.png)
+ 
+
+## 🐳 Docker prepare
+ 
+In the mean time we also did prepare traditional (non native) docker images that embeds a secured Java 17 runtime, see below for more : 
+
+{% embed  https://dev.to/optnc/java-eclipse-temurin180110-jre-alpine-is-out-now-what--10g %}
+
+## 🌌 Be ready for Spring Boot 3
+
+Fortunately Spring tweeted a dedicated post on this topic : 
+
+{% twitter 1529432188038561794 %}
+
+According to the [blog post](https://spring.io/blog/2022/05/24/preparing-for-spring-boot-3-0), here are the things you can do to get ready.
+
+In our team, this will be used as a checklist to get ready to migrate as clean as possible : 
+
+### 1️⃣ Upgrade to Java 17
+
+> "Spring Boot 3.0 will require Java 17."
+
+Hence it makes it possible to use [Records](https://dzone.com/articles/what-are-java-records).
+
+Also here is Spring advice : 
+
+> "We highly recommend that you upgrade your JDK today if at all possible."
+
+### 2️⃣ Upgrade to the Latest Spring Boot `2.7.x`
+
+Spring will provide a migration guide to Spring Boot 3...
+
+> "but it will assume that you’re migrating from Spring Boot 2.7 and not an earlier version."
+
+We also applied the following migration strategy, following SB upgrades on a continuous way (so we finally could drastically reduce our technical debt):
+
+> If you’re upgrading from Spring Boot 2.5 or earlier, we don’t recommend skipping releases.** It’s often easier to upgrade in steps** (e.g. 2.5 → 2.6 → 2.7) rather than trying to upgrade directly from 2.5 → 2.7.
+
+### 3️⃣ Check for Calls to Deprecated Code
+
+> **Spring Boot 3.0 will remove all deprecated code**, so we recommend that you check your existing code is not relying on any deprecated methods. It’s worth considering using the `-Werror` Java compiler option to fail your build if deprecation warnings are reported.
+
+### 4️⃣ Migrate from Legacy `application.properties` and `application.yaml` Processing
+
+> The **legacy processing support will not be coming to Spring Boot 3.0** so you should check that your project doesn’t set `spring.config.use-legacy-processing`.
+
+### 5️⃣ Use Spring MVC’s PathPatternParser
+
+> we recommend using the `PathPatternParser` if at all possible since it provides better performance.
+
+### 6️⃣ Other
+
+Also see the [full blog post ](https://spring.io/blog/2022/05/24/preparing-for-spring-boot-3-0)for more about _Third-party Projects Have Jakarta EE 9 Compatible Releases_ and _Third-party Projects have Updated Spring Compatible Releases_
+
+## 🔖 Resources
+
+- [Preparing for Spring boot 3.0](https://spring.io/blog/2022/05/24/preparing-for-spring-boot-3-0)
+- [VMware Overhauls Spring 6 & Spring Boot 3 for Another Decade ](https://www.infoq.com/news/2021/09/spring-6-spring-boot-3-overhaul/)
+
+---
+
+---
+comments: 1
+id: 1076839
+is_dev_challenge: false
+published_at: '2022-05-30T21:53:40Z'
+reactions: 5
+reading_time_minutes: 1
+tags:
+- github
+- productivity
+- tutorial
+- api
+title: 📅 Manage GitHub milestones from cli
+url: https://dev.to/optnc/manage-github-milestones-from-cli-2hkh
+---
+
+## ❔ Intro
+
+Recently we needed to load a lot of issues on a given milestone so they could be properly managed and reported.
+
+Issues were coming from a given list. Manual process was very time consuming... so we wondered how we could achieve this in a much more efficient way, from shell and cli commands.
+
+This short post is about that and shows what kind of things can be achieved with [GitHub Cli](https://cli.github.com/)... and especially how [`cli/cli`](https://github.com/cli/cli) can be used with [`gh api`](https://cli.github.com/manual/gh_api) calls.
+
+## 🎬 Démo
+
+{% youtube wWyUDkghFZI %}
+
+## 🔖 More about GH API
+
+Delopers make feedbacks... and as you can see it below Github is
+
+> _"committed to making it trustworthy, easy to find, and easy to use."_
+
+{% twitter 1529140169185665026 %}
+
+## 🔖 Gist
+
+
+{% embed https://gist.github.com/adriens/5a66c2aad305b6da7f3a8f7271e6f42d %}
+
+---
+
+---
+comments: 2
+id: 1106599
+is_dev_challenge: false
+published_at: '2022-06-06T20:54:25Z'
+reactions: 7
+reading_time_minutes: 1
+tags:
+- java
+- programming
+- beginners
+- tutorial
+title: SDKMAN! for dummies
+url: https://dev.to/optnc/sdkman-for-dummies-38m1
+---
+
+## ❔ About
+
+It's a very common task for **programmers or ops to maintain a runtime.** Everyday, the ecosystem around the [jvm](https://en.wikipedia.org/wiki/Java_virtual_machine) gets richer and richer.
+
+The consequence is simple : 
+
+- You have to **install and upgrade** software on a regular basis
+- You have to be able to easily **switch between versions & runtimes**
+- You need to **be noticed on new major/minor** software releases
+
+> **_This is all what SDKMAN! is about and helps managing all theses challenges with comfort and ease._**
+
+👉 Let's take first look at what SDKMAN! is and all the amazing benefits you can get... and much more 🙋
+
+ > ️ ⚠️ **Caution : testing `SDKMAN!` is adopting `SDKMAN!`** 😂 ⚠️
+
+## 🍿 Démo
+
+{% youtube https://youtu.be/oP8zJR1epBk %}
+
+## 🔖 Resources
+
+- [SDKMAN! homepage](https://sdkman.io/)
+- [Available SDKs](https://sdkman.io/sdks)
+
+---
+
+---
+comments: 1
+id: 1087429
+is_dev_challenge: false
+published_at: '2022-06-08T20:54:07Z'
+reactions: 5
+reading_time_minutes: 1
+tags:
+- java
+- maven
+- programming
+- productivity
+title: Java runtime management automation with SDKMAN! .sdkmanrc
+url: https://dev.to/optnc/java-runtime-management-automation-with-sdkman-sdkmanrc-3eoi
+---
+
+## 👉 Intro
+
+Recently I had to onboard a new programmer in our Team. His first programming experience is to add a feature to an existing Java based SDK Project.
+
+Our culture in the team is to use Open JDK flavors of Java,...
+
+> still that was not mentionned in any `README.md`.
+
+And once I asked him if he had installed his java runtime he answered me : 
+
+> _"Yes, take a look, I've just installed the AWS's one."_
+
+At this moment I told my self and to the team that we should enhance this part of the onboarding process...
+
+> **so people would know on which distribution and version of our Java runtime we should work, as part of project's source code itself.**
+
+The same week, I saw the following tweet : 
+
+{% tweet 1525439674939998209 %}
+
+That was showing how to achieve this without having to write any documentation and by **providing the desired target runtime... next to source code** ❣️
+
+👉 The purpose of this post is to show how to achieve this within a live demo.
+
+## 🍿 Demo
+
+{% youtube nPg5d1YOKjk %}
+
+## 🔖 Killercoda
+
+You can play by yourself with the demo with the dedicated Killercoda scenario : 
+
+{% embed https://killercoda.com/opt-labs/course/sdkman/sdkmanrc %}
+
+---
+
+---
+comments: 2
+id: 1112403
+is_dev_challenge: false
+published_at: '2022-06-13T20:39:32Z'
+reactions: 6
+reading_time_minutes: 1
+tags:
+- docker
+- api
+- programming
+- news
+title: 📢 We're on DockerHub
+url: https://dev.to/optnc/were-on-dockerhub-4epg
+---
+
+## ✨About
+
+This week, I'd like to promote our public Docker images, and today is the intro : 
+
+The first approach is to 
+
+> look for them on Google to see how well they are indexed : 
+
+{% youtube 9H60KADDJRo %}
+
+## 🔖 Resources
+
+[`opt-nc`](https://github.com/opt-nc) on DockerHub : 
+
+{% embed https://hub.docker.com/u/optnc %}
+
+---
+
+---
+comments: 2
+id: 1065476
+is_dev_challenge: false
+published_at: '2022-06-15T20:26:54Z'
+reactions: 8
+reading_time_minutes: 2
+tags:
+- docker
+- api
+- beginners
+- json
+title: 🌈 Show me your DockerHub public images in your terminal
+url: https://dev.to/optnc/show-me-your-dockerhub-public-images-in-your-terminal-39n4
+---
+
+## ❔ Intro
+
+[Docker Registry `HTTP API V2`](https://docs.docker.com/registry/spec/api/) make is possible to query the registry in a comfortable way.
+
+To showcase our public images, I wonder if I could :
+
+- **Learn** more about the API
+- **Play** with `jq` options
+- **Showcase** some content in a fun yet interesting way, from the terminal itself
+- Generate other kinds of **creative ideas** around this topic
+
+## 💡 The idea
+
+To put in evidence the popularity of our images to the team that builds them,
+
+> I wanted to display a ranking they could play with on their workstations... right into their terminal
+
+## 🧰 Tooling
+
+Therefore I used the tool the team already uses on a daily basis to test & document our APIs : 
+
+- [`httpie`](https://httpie.io/) : _"As easy as /aitch-tee-tee-pie/ pie Modern, user-friendly command-line HTTP client for the API era. JSON support, colors, sessions, downloads, plugins & more. "_
+- [`jq`](https://stedolan.github.io/jq/) : _"jq is like `sed` for JSON data"_
+
+... and for the fun and geek culture :
+
+- [`lolcat`](https://github.com/busyloop/lolcat) : _"Rainbows and unicorns!"_
+
+
+```shell
+http https://hub.docker.com/v2/repositories/optnc | \
+	 jq -r '"Image\tPulls", "-----------------------\t---", ( .results | sort_by(.pull_count) | reverse | .[] | "\(.name)\t\(.pull_count)")' | \
+ column -t -s $'\t' | \
+ lolcat -a -d 20
+```
+
+## 🍿 Demo
+
+Here is the final demo :
+
+{% youtube uaiklKmxkws %}
+
+Find the _movie source code_ just below (so you can replay or customize it) : 
+
+```shell
+# 🤓 Let's see at optnc's public images on DockerHub 🎇
+
+http https://hub.docker.com/v2/repositories/optnc | jq -r '"Image\tStars\tPulls", "-----------------------\t-------\t------", ( .results | sort_by(.pull_count) | reverse | .[] | "\(.name)\t\(.star_count)\t\(.pull_count)")' | column -t -s $'\t'
+
+# 🎬 Now watching the spicy way 🌈
+
+clear && http https://hub.docker.com/v2/repositories/optnc | \
+	 jq -r '"Image\tPulls", "-----------------------\t---", ( .results | sort_by(.pull_count) | reverse | .[] | "\(.name)\t\(.pull_count)")' | \
+ column -t -s $'\t' | \
+ lolcat -a -d 20
+
+# 🙏🏻 Hopefully you enjoyed this short demo 🙋
+```
+
+## 🔖 Resources
+
+- [Docker HUB API (beta)](https://docs.docker.com/docker-hub/api/latest/)
+- [Docker Registry HTTP API V2](https://docs.docker.com/registry/spec/api/)
+- [Great collection of DockerHub Docker Registry API call Examples](https://www.arthurkoziel.com/dockerhub-registry-api/)
+
+## 📜 Drafts
+
+Below drafts that helped create the final version 👇
+
+```
+http https://hub.docker.com/v2/repositories/optnc | jq -r '.results|.[] | "\(.name)\t\(.star_count)"'  | column -t -s $'\t'
+```
+
+Then the aligned version : 
+
+```
+http https://hub.docker.com/v2/repositories/optnc | jq -r '"Image\tStars", "-----------------------\t-------", ( .results|.[] | "\(.name)\t\(.star_count)" )' | column -t -s $'\t'
+```
+
+Sorting desc by stars : 
+
+```
+http https://hub.docker.com/v2/repositories/optnc | jq -r '( .results | sort_by(.star_count) | reverse | .[] | "\(.name)\t\(.star_count)")' | column -t -s $'\t'
+```
+
+Then with `lolcat` piping : 
+
+```
+http https://hub.docker.com/v2/repositories/optnc | jq -r '"Image\tStars\tPulls", "-----------------------\t-------\t------", ( .results | sort_by(.pull_count) | reverse | .[] | "\(.name)\t\(.star_count)\t\(.pull_count)")' | column -t -s $'\t' | lolcat
+```
+
+---
+
+---
+comments: 7
+id: 1115790
+is_dev_challenge: false
+published_at: '2022-06-21T08:59:02Z'
+reactions: 3
+reading_time_minutes: 2
+tags:
+- rapidapi
+- api
+- programming
+- saas
+title: 💰 RapidAPI Raises 150 M💲 "to Empower Developers" (and why and how we're in)
+url: https://dev.to/optnc/rapidapi-raises-150-m-to-empower-developers-and-why-and-how-were-in-1dn9
+---
+
+## ❔ About
+
+Back in August 2019 I started to use [RapidAPI.com](https://rapidapi.com/hub) for personal Open Innovation ([Heroku](https://www.heroku.com/home) hosted) API related side projects :
+
+{% embed https://www.linkedin.com/pulse/everything-you-always-wanted-know-api-monetization-were-adrien-sales/ %}
+
+These side projects helped me to learn a lot about API monetization... and pretty soon I started to dream about deploying that kind of technology at an [Organizational Level](https://docs.rapidapi.com/docs/faqs-rapidapi-for-team), at [OPT-NC](https://office.opt.nc/en).
+
+👉 So we started to deliver public Docker images 👇
+
+{% embed https://dev.to/optnc/were-on-dockerhub-4epg %}
+
+## 🛍️ Shopping for developers : the Marketplace
+
+Finally we were ready to showcase APIs on our marketplace :
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bjxeie0mzvk9bedxhl7u.png)](https://rapidapi.com/orghomepage/opt-nc)
+ 
+
+## 🌟 Benefits
+
+That helped us a lot to explain how : 
+
+- To **monetize** APIs
+- **Structure APIs endpoints and data** to be ready for its cloud usage, **since the beginning of the project**
+- **APIs documentation** can or should be released
+- Drastically **decrease Time To Market**, especially on **innovation projects**
+- To **promote APIs** with demos & interactive integrations
+- **Impact internal culture** by showcasing around APIs with [Spotlights](https://rapidapi.com/opt-nc-opt-nc-default/api/domaine-nc/details)
+- Talking and promoting popularity and **public availability and performances metrics**
+- **Worldwide Testing strategy** and [Test Analytics](https://docs.rapidapi.com/docs/test-analytics) plans
+- Increase **internal innovation** speed in our own organization
+
+## 🤵 Iddo Gino (Founder and CEO)
+
+[Iddo Gino (Founder and CEO)](https://www.linkedin.com/in/iddogino) :
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qk2iyg9v7sflcmdrhq4w.png)](https://www.linkedin.com/in/iddogino)
+ 
+
+## 📺 Ido's interview
+
+Listen to this short interview as it explains very clearly how API strategy matters and why any Digital Organization should feel concerned to develop its services in a very efficient way :
+
+{% embed https://cheddar.com/media/rapidapi-raises-150-million-to-empower-developers-to-innovate-and-build-software-faster-with-apis %}
+
+## 💰💰 2022, March : RapidAPI nabs $150M at a $1B valuation
+
+> _"RapidAPI nabs $150M at a $1B valuation, with its API marketplace now used by 4M+ developers"_
+
+{% embed https://techcrunch.com/2022/03/23/rapidapi-nabs-150m-at-a-1b-valuation-with-its-api-marketplace-now-used-by-4m-developers %}
+
+## 💰 May, 2020 : RapidAPI raises $25M more
+
+> _"RapidAPI raises $25M more to expand its API marketplace"_
+
+{% embed https://techcrunch.com/2020/05/21/rapidapi-api-marketplace-funding/ %}
+
+---
+
+---
+comments: 8
+id: 1120720
+is_dev_challenge: false
+published_at: '2022-06-21T20:52:00Z'
+reactions: 12
+reading_time_minutes: 2
+tags:
+- java
+- springboot
+- news
+- opensource
+title: 🎀 Spring Boot 2.7.0 Released
+url: https://dev.to/optnc/spring-boot-270-released-kn3
+---
+
+## 📢 About
+
+Spring Boot `2.7.0` has [just been released](https://spring.io/blog/2022/05/19/spring-boot-2-7-0-available-now) :
+
+{% embed https://www.infoq.com/news/2022/06/spring-boot-2-7 %}
+
+👉 Let's summarize what it brings and what's the next step.
+
+## 🛍️ What it brings
+
+- Support for [GraphQL 1.0](https://www.infoq.com/news/2022/06/spring-graphql/)
+- Support for the [`Podman` container engine](https://podman.io/) as an alternative to Docker Engine 
+- Dependency management and auto-configuration for [`Cache2k`](https://cache2k.org/)
+
+## 🧰 Testing related features
+
+Hot news around testing as new test annotations are coming for :
+
+- [`ElasticSearch`](https://www.elastic.co/) 
+- [`Couchbase`](https://www.couchbase.com/)
+
+## 📖 `/actuator/info` related features
+
+[`JavaInfoContributor`](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/actuate/info/JavaInfoContributor.html) and [`OsInfoContributor` ](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/actuate/info/OsInfoContributor.html )classes have been improved and can now expose more information about :
+
+- Java version & vendor
+- Underlying OS
+
+## ⬆️ Dependencies updates
+
+- [Spring Data 2021.2](https://github.com/spring-projects/spring-data-commons/wiki/Release-Train-2021.2-%28Raj%29-Release-Notes)
+- [Spring Security 5.7](https://github.com/spring-projects/spring-security/releases/tag/5.7.0)
+- [Infinispan 13](https://infinispan.org/blog/2021/10/12/infinispan-13-final)
+- [Micrometer 1.9](https://github.com/micrometer-metrics/micrometer/releases/tag/v1.9.0)
+- [Elasticsearch 7.17](https://www.elastic.co/guide/en/elasticsearch/reference/7.17/release-highlights.html)
+- [H2 2.1](https://github.com/h2database/h2database/releases)
+- [Flyway 8.5](https://github.com/flyway/flyway/releases)
+
+
+## 🛤️ Head to `Spring Boot 3.0`
+
+Based on Spring Framework 6.0, Spring Boot 3.0 will be the next major revision **and will require Java 17 or above**. 
+
+
+☝️ Spring Boot 3.0, **planned for November 2022**, will be the next version.
+
+Spring Boot 3.0 will also support AOT (ahead-of-time) compilation and native executables thanks to [Spring Native](https://docs.spring.io/spring-native/docs/current/reference/htmlsingle/).
+
+---
+
+---
+comments: 8
+id: 1100251
+is_dev_challenge: false
+published_at: '2022-06-23T21:47:55Z'
+reactions: 7
+reading_time_minutes: 3
+tags:
+- docker
+- devops
+- infosec
+- devsecops
+title: 🎟️ Docker image security scan automation with GH issues
+url: https://dev.to/optnc/docker-image-security-scan-automation-with-gh-issues-2h0p
+---
+
+## ☝️ Context
+
+Docker image security is an ever increasing trend. But more than a trend, not achieving a proper pipeline around images security can lead to disasters.
+
+To achieve that we adopted the following strategy : 
+
+- Rely on highly securely maintained images
+- Paying attention to dependency management
+
+Dependency management is managed thanks to DependaBot, and it'as available almost "Out of the Box".
+
+**For docker imaged there is some more work.**
+
+👉 In this short post you'll see how we implemented a repo-centric and CI driven efficient approach.
+
+## 📝 Implementation
+
+For docker image scan, we rely on the [Container Scan (GitHub Action)](https://github.com/marketplace/actions/anchore-container-scan) maintained by [Anchore](https://anchore.com/).
+
+> Then we wrapped some CI around it so we can monitor security as part of our daily activities.
+
+### ⏰ Schedule scans
+
+First, we have scheduled scans. Below our code to scan the `latest` tag : 
+
+```yaml
+name: 🛡️ Scan Docker image latest 🐳
+
+on:
+  schedule: ## Schedule the job to run at a particular time.
+    - cron:  '0 1 * * 1' ## every monday at 1:00AM
+```
+
+### 💥 Use `severity-cutoff`
+
+Next, we need our scheduled task to fail if a critical vulnerability has been discovered.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kyimhrwa1qhhabmzv82t.png)
+
+Find below `severity-cutoff` implementation : 
+
+```yaml
+jobs:
+  scan:
+    name: 🛡️ Scan image latest
+    runs-on: ubuntu-latest
+    steps:
+      - uses: anchore/scan-action@v3
+        id: scan
+        with:
+         image: optnc/domaine-nc-api:latest
+         fail-build: true
+         severity-cutoff: critical
+```
+
+### 🎫 Create (or update) issue
+
+Next we want to create an issue in case of Scan Action failure (meaning that a `critical` security issue has been found).
+
+What we want is to get properly tagged issues so we can manage them as part of our daily tasks and produce reporting.
+
+Therefore we : 
+
+- Setup some [labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) (so it makes filtering easier), eg : `security`, `docker-scan'`
+- Get the ref to the latest opened issue that matches these specific label **so issues are updated instead of getting tons of issues targetting the same issue everyday**
+- Get the scan report and put it in the issue **so all elements are available at a single place**
+
+Find the code below :
+
+```yaml
+ - name: Create/Update an issue of vulnerabilities 🛡️ that have been detected
+        if: ${{ failure() }}
+        uses: actions/github-script@v6
+        with:
+          debug: true
+          script: |
+            const { owner, repo } = context.repo;
+            const labels = ['security', 'docker-scan', 'Alert : Docker image scan'];
+            
+            // récupération de l'id de la dernière issue (si existante)
+            const existingIssue = (await github.paginate(github.rest.issues.listForRepo.endpoint.merge({
+              owner, repo, state: 'open',labels
+            }))).filter(i => i.title.indexOf('Docker image security scan') !== -1)[0];
+            
+            // création ou modification de l'issue
+            const body = `Workflow failed for commit ${{github.sha}}.        
+            
+            Following vulnerabilities have been detected :
+            \`\`\`
+            ${{ steps.scan_report.outputs.report }}
+            \`\`\`
+                `;
+            
+            if (existingIssue) {
+              github.rest.issues.update({ owner, repo, issue_number: existingIssue.number, body });
+            } else {
+              github.rest.issues.create({
+                owner, repo,
+                title : '🛡️ Docker image security scan failed 🛡️',
+                body,
+                labels
+              });
+            }
+```
+
+### 👮 Enjoy a clean issue
+
+Then you are setup to get very useful issue from your CI :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8t6z0cf9kdv6s8e8gzyi.png)
+
+### 🎀 Bonus 
+
+Pay good attention to the fact that issue is related to commit which is really useful to follow how the security flaw may have been introduced too : 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/98cxoz8oyok6zfzvsxgz.png)
+
+
+## 🔖 Resources
+
+-  [`Anchore Container Scan` on GitHub marketplace](https://github.com/marketplace/actions/anchore-container-scan)
+- [`Anchore Container Scan` sourcecode on GitHub](https://github.com/anchore/scan-action)
+
+{% embed https://dev.to/optnc/bench-and-choose-java-8-docker-images-with-anchoregrype-4fg8 %}
+
+---
+
+---
+comments: 1
+id: 1122104
+is_dev_challenge: false
+published_at: '2022-06-23T20:27:59Z'
+reactions: 5
+reading_time_minutes: 1
+tags:
+- security
+- docker
+- devops
+- ruby
+title: 🛡️ Is Redmine affected by CVE-2022-32209 ?
+url: https://dev.to/optnc/is-redmine-affected-by-cve-2022-32209--4oa5
+---
+
+## ❔ About
+
+Last week I got the following question : 
+
+> _"Do we have running [RoR](https://rubyonrails.org/) applications ? I saw a Post... are we affected by `CVE-2022-32209` ?"_
+[
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0lh4yqefz6q4sm6rq0yl.png)](https://cert.ssi.gouv.fr/avis/CERTFR-2022-AVI-540/)
+
+👉 The post is about how fast we could answer the questions.
+
+First answer : 
+
+> _"Yes, we are running a Redmine instance and are up-to-date with the [`redmine:latest`](https://hub.docker.com/_/redmine) Docker Image"_
+
+The rest of the answer is coming below.
+
+## 🛡️ Security scan
+
+To answer if we are affected, the question can be answered within a single line of code, thanks to [`grype`](https://github.com/anchore/grype) :
+
+```shell
+grype redmine:latest \
+    | grep CVE-2022-32209 \
+    | wc -l
+```
+
+See it live :
+
+{% youtube luCdXf-TGYY %}
+
+## 📰 About Redmine
+
+Redmine is a great tool which is...
+
+> _"free and open source, web-based project management and issue tracking tool. It allows users to manage multiple projects"_
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kuerumyumah0zaxx1u6w.png)
+](https://www.redmine.org/)
+
+---
+
+---
+comments: 3
+id: 1109731
+is_dev_challenge: false
+published_at: '2022-06-23T06:32:38Z'
+reactions: 9
+reading_time_minutes: 1
+tags:
+- tutorial
+- api
+- docker
+- opensource
+title: 🗠 Waiting time in OPT-NC agencies... on Rapidapi.com
+url: https://dev.to/optnc/waiting-time-in-opt-nc-agencies-on-rapidapi-marketplace-54h7
+---
+
+## ❔ Context
+
+Currently [OPT-NC](https://office.opt.nc/) is [publishing a website](https://www.opt.nc/service/l-opt-pres-de-chez-moi-trouver-une-agence) that makes it possible to find agencies and queue waiting time so our customers can optimize their time according to current load: 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xv9k71o2t2i7aibcoxwe.png)
+ 
+
+## 📰 Publish on RapidAPI Marketplace
+
+To enable innovation and [open-innovation](https://www.amazon.fr/Open-innovation-D%C3%A9veloppez-culture-collaborative/dp/2100705199), we have released this content as a public API on [RapidAPI marketplace](https://rapidapi.com/opt-nc-opt-nc-default/api/temps-attente-en-agence/details) so people can create new solutions on our services.
+
+👉 This short post will guide you through our API, how to find it, how to interact with it thanks to an interactive and [dedicated tutorial on Killercoda](https://killercoda.com/opt-labs/course/opt-temps-attente-agences/basique).
+
+## 🍿 Démo
+
+{% youtube SpzF0sHSkes %}
+
+## 🧪 Innovation
+
+This API made it possible to create, learn & innovate a wide range of things & technologies. Stay tuned for more 🤗
+
+## 🔖 Resources
+
+- API on [RapidAPI marketplace](https://rapidapi.com/opt-nc-opt-nc-default/api/temps-attente-en-agence/)
+- `optnc/opt-temps-attente-agences-api` Docker image [on DockerHub](https://hub.docker.com/r/optnc/opt-temps-attente-agences-api)
+- [Killercoda tutorial](https://killercoda.com/opt-labs/course/opt-temps-attente-agences/basique)
+
+---
+
+---
+comments: 4
+id: 1123847
+is_dev_challenge: false
+published_at: '2022-06-24T23:01:16Z'
+reactions: 1
+reading_time_minutes: 1
+tags:
+- docker
+- security
+- devops
+- php
+title: 📢 Grype v0.40.1 released and php support
+url: https://dev.to/optnc/grype-v0401-released-and-php-support-1ekc
+---
+
+## 🗞️ News
+
+Grype has just released an excitin version as it embeds the following issue : 
+
+{% embed https://github.com/anchore/grype/issues/792 %}
+
+## 🍿 News and upgrade demo
+
+{% youtube https://youtu.be/nxMQejs1XOU %}
+
+---
+
+---
+comments: 1
+id: 1123829
+is_dev_challenge: false
+published_at: '2022-06-29T23:21:02Z'
+reactions: 7
+reading_time_minutes: 1
+tags:
+- docker
+- kafka
+- security
+- devops
+title: '⚖️ Kafka image : wurstmeister vs. bitnami'
+url: https://dev.to/optnc/kafka-image-wurstmeister-vs-bitnami-efg
+---
+
+## ❔ Context
+
+We recenlty did operate maintenance on our interal (yet public repo) that helps us internally promote Kafka practices : 
+
+{% github opt-nc/atelier-spring-kafka %}
+
+☝️ We also do apply a maintenance strategy on this content like : 
+
+- [Spring Boot upgrades](https://github.com/opt-nc/atelier-spring-kafka/pull/21)
+- [Kafka upgrades](https://github.com/opt-nc/atelier-spring-kafka/pull/19)
+
+We created a [dedicated issue to upgrade to Kafka `3.2`](https://github.com/opt-nc/atelier-spring-kafka/issues/18), we switched from [`wurstmeister/kafka`](https://hub.docker.com/r/wurstmeister/kafka/) to [`bitnami/kafka`](https://hub.docker.com/r/bitnami/kafka/) (by [vmWare](https://hub.docker.com/u/bitnami)) cf [our configuration change](https://github.com/opt-nc/atelier-spring-kafka/commit/7255813352133f76d205e7cec0cf3d25ee6a8dee).
+
+## 🛡️ Security concerns
+
+☝️ Each time we use a new Docker image, we also focus on the security part.
+
+👉 **This post is about the comparison of these two images security levels.**
+
+```shell
+grype --add-cpes-if-none wurstmeister/kafka:latest \
+    | grep Critical \
+    | wc -l
+# 14
+grype bitnami/kafka:latest \
+    | grep Critical \
+    | wc -l
+# 5
+```
+
+|Criticity|`wurstmeister/kafka:latest`|`bitnami/kafka:latest` |
+|       ---     |          ---       |          ---         |
+| ☣️`Critical`  | 14                 | 5                    |  
+| ❗`High`      | 34                 | 17                   | 
+| ❕`Medium`    | 16                 | 9                    | 
+| ⚠️`Low`       | 9                  | 9                    | 
+| 🪶`Negligible`| 68                 | 66                   |
+| ❔`Unknown`   | 15                 | 13                   |
+
+
+## 📊 Charts
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/uolz7iqqat8ye0fww7ki.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1zfkuqvqb12dziuemxur.png)
+
+## 🤔 The `Unknown` Criticity
+ 
+Wondering what means `Unknown` Criticity ? Check the answer below :
+
+
+{% embed https://github.com/anchore/grype/issues/807 %}
+
+## 📦 Apache Kafka packaged by `Bitnami`
+
+{% github bitnami/bitnami-docker-kafka %}
+
+## 🔖 Resources
+
+- 🐦 [`@bitnami`](https://twitter.com/Bitnami)
+- 🐳 [Bitnami containers](https://bitnami.com/stacks/containers)
+
+---
+
+---
+comments: 3
+id: 1127836
+is_dev_challenge: false
+published_at: '2022-06-29T21:58:47Z'
+reactions: 4
+reading_time_minutes: 3
+tags:
+- java
+- spring
+- devops
+- news
+title: '🛤️ Spring 6 at #springio22 : Infrastructure themes 📑'
+url: https://dev.to/optnc/spring-framework-6-at-springio22-infrastructure-themes-summarized-3864
+---
+
+## 🗞️ The news
+
+`Spring I/O 2022` recently released a lot of amazing contents about Spring and Java rodmap (see `#springio22 #replay`) :
+
+{% twitter 1541797382760894465 %}
+
+They have published a very video content, but the video was not splited into chapters.
+
+👉 The purpose of this post is to **provide you a ready to use and indexed path to this appealing content so you can take the most out of this content according to your needs.**
+
+## 📑 Video chapters
+
+1. `00:00` : [Intro](https://youtu.be/ikQ06uwro1M) 
+2. `01:26` : [Current: Spring Framework `5.3.x` : _"Extended maintenance on the established baseline"_](https://youtu.be/ikQ06uwro1M?t=85)
+3. `04:20` : [Coming up: Spring Framework `6.x`: _"A new Generation of Spring for 2023 and beyon"_](https://youtu.be/ikQ06uwro1M?t=260)
+4. `08:32` : [JDK `21 LTS` (Sep. 2023) & Spring `6.0 GA` (Nov. 2022) Roadmap](https://youtu.be/ikQ06uwro1M?t=512)
+5. `09:45` : [`AOT` (Ahead-Of-Time) : Spring 5, Spring 6](https://youtu.be/ikQ06uwro1M?t=585)
+6. `14:32` : [`AOT` (Ahead-Of-Time) : _To `AOT` or not to `AOT` ?_](https://youtu.be/ikQ06uwro1M?t=872)
+7. `17:04` : [`AOT` (Ahead-Of-Time) : _For optimized `JVM` deployments_](https://youtu.be/ikQ06uwro1M?t=1024)
+8. `18:56` : [`AOT` (Ahead-Of-Time) : _For `GraalVM` native executables_](https://youtu.be/ikQ06uwro1M?t=1136)
+9. `22:00` : [`AOT` (Ahead-Of-Time) : _For `OpenJDK` static images ("Project Leyden")_](https://youtu.be/ikQ06uwro1M?t=1320)
+10. `26:17` : [Java Platform Module System : _"Supporting applications built as explicit modules"_](https://youtu.be/ikQ06uwro1M?t=1577)
+11. `29:21` : [Java Platform Module System : _"Transitive resolution of framework modules"_](https://youtu.be/ikQ06uwro1M?t=1761)
+12. `31:52` : [Java Platform Module System : _"Framework modules vs. jlink images"_](https://youtu.be/ikQ06uwro1M?t=1912)
+13. `33:39` : [Java Platform Module System : _"Redesign for minimal footprint of jlink images"_](https://youtu.be/ikQ06uwro1M?t=2019)
+14. `37:25` : [Java Platform Module System : _"Classpath scanning versus module path scanning"_](https://youtu.be/ikQ06uwro1M?t=2245)
+15. `39:52` : [Virtual Threads : _""Project Loom" going into preview in `JDK 19`"_](https://youtu.be/ikQ06uwro1M?t=2392)
+16. `42:59` : [Virtual Threads : _"Loom-compatible infrastructure"_](https://youtu.be/ikQ06uwro1M?t=2579)
+17. `46:21` : [Virtual Threads : _"For web applications"_](https://youtu.be/ikQ06uwro1M?t=2781)
+18. `46:50` : [Virtual Threads : _"For messaging / scheduling"_](https://youtu.be/ikQ06uwro1M?t=2810)
+19. `47:18` : [Revised Web Application Infrastructure : _"Several longer-planned features coming in `6.0`"_](https://youtu.be/ikQ06uwro1M?t=2838)
+20. `47:47` : [Spring and JDK roadmap reminders](https://youtu.be/ikQ06uwro1M?t=2867)
+21. `47:54` : [Spring Framework `6.0` : _"The remaining roadmap towards `GA` (`6.0` GA  in Nov. 2022`)"_](https://youtu.be/ikQ06uwro1M?t=2874)
+22. `48:28` : [Conclusion](https://youtu.be/ikQ06uwro1M?t=2908)
+
+See below the target video :
+
+{% youtube ikQ06uwro1M %}
+
+## 🔖 Related contents
+
+- [Project Leyden homepage](https://openjdk.org/projects/leyden/)
+- [Project Leyden Aims to Improve Java Startup Time ](https://www.infoq.com/news/2020/05/java-leyden/)
+- [`jlink` intro on Baeldung](https://www.baeldung.com/jlink)
+- [News about "Project Loom](https://www.infoq.com/loom/)
+
+## Beyond REST API’s
+
+Beyond REST API’s – An overview about modern API technologies :
+
+{% youtube 6mrLFcZhWjs %}
+
+---
+
+---
+comments: 8
+id: 1115450
+is_dev_challenge: false
+published_at: '2022-06-30T09:27:33Z'
+reactions: 4
+reading_time_minutes: 2
+tags:
+- api
+- javascript
+- webdev
+- showdev
+title: 🎨 From waiting time metrics to Generative art
+url: https://dev.to/optnc/from-waiting-time-metrics-to-generative-art-2d6d
+---
+
+## ❔ Context
+
+Recenlty we have published an API dedicated to waiting time in our (Post)-offices.
+
+👉 See previous episode of the series.
+
+
+To put in evidence the potential of that API we created an original [`P5*js`](https://p5js.org/) based artwork datavizualization experience around that API.
+
+In this post you'll discover what we could achieve... and if you like it to run it by yourself.
+
+## 🎫 Core real world data display
+
+In our agencies, here is how we display the data to customers :
+
+{% youtube A1MLiBJON2Y %}
+
+## ⌨️ Install artwork
+
+The install process is really straight forward : 
+
+First, clone the repo : 
+
+```shell
+git clone https://github.com/opt-nc/generative-art-temps-attente.git
+cd generative-art-temps-attente
+```
+
+Then boot the solution : 
+
+```shell
+docker-compose up -d
+docker-compose ps
+```
+
+That's it : you can now enjoy the datavisualization.
+
+## 🎨 Enjoy artworks
+
+Many kind of visualizations have been created. See below to discover them.
+
+### 🌌 Orbit
+
+First the default one.
+
+Notice that rotation speed is based on the waiting time.
+
+```
+firefox http://localhost
+```
+
+### 🌌 Orbit light version
+
+Then a lightest version of the previous one :
+
+```
+firefox http://localhost/orbit.min.html
+```
+
+### ⛹️ Jumpers
+
+In this visualization each ball is a Post-Office, and the higher a ball is bouncing, the higher waiting queue are important.
+
+```
+firefox http://localhost/jumpers.html
+```
+
+### 🕳️ Gravity
+
+Then this one where interactions are driven by gravity and speed.
+Notice that each ball's mass is relying on the waiting time :
+
+```
+firefox http://localhost/gravity.html
+```
+
+### 🍿 Live demo
+
+Below a live demo from scratch :
+
+{% youtube 4vmKVhHkdhI %}
+
+## 🙏 Acknowledgements
+
+All that work would have not been possible without talents and highly engaged team members : 
+
+- 👧 [Emilie Bossart](https://www.linkedin.com/in/meilie389/) : first API version
+- 👨 [Guillaume Bertherat](https://www.linkedin.com/in/guillaume-bertherat-3b7a071b3/) : visualizations creator
+- 🧔‍♂️ [Daniel Santos](https://www.linkedin.com/in/daniel-santos-dev-fullstack/) : enhancements on the API and docker image publish automation
+
+## 🔖 Resources
+
+### 🤓 Source code
+
+{% github opt-nc/generative-art-temps-attente %}
+
+### 🛍️ API on RapidAPI.com
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ua5grlbcbutaktou9y8r.png)](https://rapidapi.com/opt-nc-opt-nc-default/api/temps-attente-en-agence/details)
+
+---
+
+---
+comments: 11
+id: 1125143
+is_dev_challenge: false
+published_at: '2022-07-04T02:37:40Z'
+reactions: 7
+reading_time_minutes: 2
+tags:
+- datascience
+- api
+- motivation
+- management
+title: 🧑‍🤝‍🧑 Dataviz et culture d'entreprise
+url: https://dev.to/optnc/dataviz-et-culture-dentreprise-2mke
+---
+
+## 💭 Intro
+
+Le jour où j'ai entendu cette citation de [Peter Drucker](https://hbr.org/2009/11/why-read-peter-drucker) , je n'ai cessé d'explorer les techniques me donnant une chance d'impacter la culture autour de moi afin de promouvoir l'innovation, la performance, la qualité de vie au travail, le désir de toujours mieux faire, et surtout, ...
+
+> de donner du sens : clé qui permet de gagner l'engagement des collaborateurs.
+
+[Lectures](https://www.goodreads.com/user/show/124105866-adrien-sales), reportages, [tweets](https://twitter.com/peterdruckerxxi) : j'ai (et je continue) à saisir toutes les opportunités, puis à expérimenter ces techniques.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pl6fhqn3i8plnc5u8c4y.png)
+ 
+
+## ❔ Contexte
+
+> _"A l’occasion d’une conférence de presse le 11 mars 2022, l’OPT-NC a dévoilé son nouveau plan stratégique intitulé « CONSTRUIRE DEMAIN |OPT 2025 ». Technologies et qualité de service de haut niveau, innovation, nouvelles manières collaboratives de travailler et de manager, pilotage de la performance, l’OPT-NC s’engage et se réinvente"_
+
+## 🎦 Un spectacle datadriven
+
+{% youtube wvTe1ca9bbI %}
+
+## 🚀 `#ConstruireDemainOPT2025`
+
+A cette occasion a été créé le hashtag [`#ConstruireDemainOPT2025`](https://twitter.com/search?q=%23ConstruireDemainOPT2025&src=typed_query).
+
+Plus de [détails sur le site institutionnel de l'OPT-NC](https://office.opt.nc/fr/strategie/construire-demain-OPT-2025).
+
+☝️ Toutefois, quelques éléments en lien avec l'innovation, la `dataculture` et la stratégie `api-first`se sont glissés au sein de ce plan, et **de manière très visuelle** ❣️
+
+👉 L'ambition de ce post va les référencer et ce faisant,...
+
+> **de faire le lien entre stratégie et l'appropriation de la culture de la donnée.**
+
+## 📊 La dataviz s'affiche
+
+Sur la [page institutionnelle](https://office.opt.nc/en/node/1982) :
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/eapw4nshhbixlb5wbv27.png)](https://office.opt.nc/en/node/1982)
+ 
+### 📯 Dans le livret
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/18v1e9znsuvmd23o2ind.png)
+
+... ainsi qu'en pleine page à la fin du livret :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qdr75hpqituee0iksq68.png)
+  
+### 📝 Entêtes de documents
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yt9ofb1qsipp3boqr4f2.png)
+](https://office.opt.nc/sites/corporate/files/media/file/2022-03-11-DP%20OPT-NC-Plan%20strat%C3%A9gique%20Construire%20demain%20OPT2025.pdf) 
+[
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/36z52udw6x96fxsdt5hj.png)](https://office.opt.nc/sites/corporate/files/media/file/2022-03-11-DP%20OPT-NC-Plan%20strat%C3%A9gique%20Construire%20demain%20OPT2025.pdf)
+ 
+
+### 🐦 Twitter : 
+
+{% twitter 1502079240862273538 %}
+
+
+### 🎥 Film institutionnel
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2l49pjvkwveh9a5m3a1e.png)](https://youtu.be/GTKCTuOYPA4?t=104)
+
+
+## 📑 Ressources
+
+- [construire-demain-OPT-2025](https://office.opt.nc/fr/strategie/construire-demain-OPT-2025)
+
+## 📘 Booklets
+
+On retrouve également le thème de cette dataviz sur les booklets:
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mefa2kwam0oiuemyvbra.png)](https://youtube.com/shorts/vse6eb74hM8?feature=share)
+ 
+
+## 🎦 Film Institutionnel
+
+{% youtube GTKCTuOYPA4 %}
+
+---
+
+---
+comments: 3
+id: 1134868
+is_dev_challenge: false
+published_at: '2022-07-07T21:14:33Z'
+reactions: 5
+reading_time_minutes: 1
+tags:
+- api
+- productivity
+- news
+- microservices
+title: 🗞️ A curated list of news around Axway
+url: https://dev.to/optnc/a-curated-list-of-news-around-axway-3epb
+---
+
+## ❔ About
+
+Since I'm engaged on API integrations, I started to work on public API Marketplaces with RapidAPI.com.
+
+{% embed https://dev.to/optnc/rapidapi-raises-150-m-to-empower-developers-and-why-and-how-were-in-1dn9 %}
+
+Recently I started to work on opportunities with [`@Axway`](https://twitter.com/Axway) solutions, and then to bookmark some of their own contents... and also related content.
+
+👉 Consider this post as a **set of bookmarks**.
+
+I did it for myself and collborators at [`@opt-nc`](https://dev.to/optnc) but you could also be intersted. If it's the case, just :
+
+1. **Bookmark** the post
+2. **Subscribe** the post so you get noticed when I add new content
+
+## 🐦 First post 🚀
+
+Here is the first post (the following ones will be added to the discussion) :
+
+{% twitter 1545052525199364104 %}
+
+Interview link below : 
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/wgp4p236fvxla3vptqea.png)](https://www.bsmart.fr/video/14927-le-grand-entretien-emission-09-juillet-2022)
+
+---
+
+---
+comments: 6
+id: 1137962
+is_dev_challenge: false
+published_at: '2022-07-12T21:31:18Z'
+reactions: 7
+reading_time_minutes: 3
+tags:
+- quarkus
+- java
+- kubernetes
+- showdev
+title: '📑 #jfokus2022 : Quarkus [...] back from the Future'
+url: https://dev.to/optnc/jfokus2022-quarkus-back-from-the-future-445l
+---
+
+## ❔ About
+
+We recenlty started to investigate around native Java services and serverless with Spring Native as we are actually relying on Spring Boot :
+
+{% embed https://dev.to/optnc/devops-labs-20222-premiers-pas-et-demo-spring-native-3e62 %}
+
+{% embed https://dev.to/optnc/going-native-with-spring-boot-on-mac-m1-3nnh %}
+
+In the mean time, we also started to perform some experimentations on Quarkus, the _"Supersonic Subatomic Java"_.
+
+👉 This post is dedicated to an amazing session that occurred at  [`#jfokus2022`](https://www.jfokus.se/) by [Sébastien Blanc](https://www.linkedin.com/in/s%C3%A9bastien-blanc-08a73b1/) (aka. [`@sebi2706`](https://twitter.com/sebi2706)) :
+
+> For me, this video is **THE** place to start if you want to learn more about Quarkus and all the underlying aspects
+
+As the original video is not indexed by chapters, I decided to :
+
+- Index the chapters
+- Promote this awesome content around me
+
+## ☝️ Intro
+
+First, the two main aspects of Quarkus are :
+
+- **Deployment density** (will be explained)
+- Native is **Not a must have** but nice to have in serverless
+
+## 📑 Chapters
+
+1. [`00:00`](https://youtu.be/H7X7rQHK4qE) : Intro
+2. [`01:40`](https://youtu.be/H7X7rQHK4qE?t=100) : About [Quarkus](https://quarkus.io/about/) : performance & developer experience
+3. [`02:43`](https://youtu.be/H7X7rQHK4qE?t=163) : Create a Quarkus project from scratch
+4. [`03:05`](https://youtu.be/H7X7rQHK4qE?t=185) : Create with [`code.quarkus.io`](https://code.quarkus.io/)
+5. [`03:46`](https://youtu.be/H7X7rQHK4qE?t=226) : Create with [IDE plugin (VSCode)](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-quarkus) and [`maven`](https://maven.apache.org/)
+6. [`06:20`](https://youtu.be/H7X7rQHK4qE?t=380) : Start application in [`Dev-mode`](https://quarkus.io/guides/dev-mode-differences)
+7. [`07:50`](https://youtu.be/H7X7rQHK4qE?t=470) : Deal with configuration
+8. [`09:00`](https://youtu.be/H7X7rQHK4qE?t=540) : Live reload and state management
+9. [`11:11`](https://youtu.be/H7X7rQHK4qE?t=671) : [Continuous testing](https://quarkus.io/guides/continuous-testing)
+10. [`13:08`](https://youtu.be/H7X7rQHK4qE?t=788) : [Quarkus Dev UI](https://quarkus.io/guides/dev-ui)
+11. [`14:24`](https://youtu.be/H7X7rQHK4qE?t=864) : Container packaging
+12. [`14:55`](https://youtu.be/H7X7rQHK4qE?t=895) : Container packaging with [`mutable-jar`](https://quarkus.io/guides/maven-tooling#remote-development-mode) (full OpenShift lifecycle demo)
+13. [`21:26`](https://youtu.be/H7X7rQHK4qE?t=1286) : Cluster remote live reload with [`mvn quarkus:remote-dev`](https://developers.redhat.com/blog/2021/02/11/enhancing-the-development-loop-with-quarkus-remote-development)
+14. [`23:25`](https://youtu.be/H7X7rQHK4qE?t=1405) : Create [native binary & GraalVM](https://quarkus.io/guides/building-native-image) (native profile)
+15. [`28:20`](https://youtu.be/H7X7rQHK4qE?t=1700) : Persistence layer with [`Panache`](https://quarkus.io/guides/hibernate-orm-panache) layer, jdbc, Swagger, psql testcontainer,...
+16. [`31:46`](https://youtu.be/H7X7rQHK4qE?t=1906) : Deal with JPA entity annotations with `Panache`
+17. [`34:10`](https://youtu.be/H7X7rQHK4qE?t=2050) : [Create Resources](https://quarkus.io/guides/rest-data-panache) (`GET`, `POST`,...  )
+18. [`38:58`](https://youtu.be/H7X7rQHK4qE?t=2338) : Dev Services (Databases, [Kafka](https://quarkus.io/guides/kafka), [Keycloak](https://quarkus.io/guides/security-keycloak-authorization), ... )
+19. [`39:44`](https://youtu.be/H7X7rQHK4qE?t=2384) : Compatibiliy layer extensions (Doing [Spring Boot stuff in Quarkus](https://quarkus.io/blog/quarkus-for-spring-developers/))
+20. [`42:15`](https://youtu.be/H7X7rQHK4qE?t=2535) : [Security with `OIDC`](https://quarkus.io/guides/security-openid-connect) : Keycloak, Okta,...
+21. [`48:45`](https://youtu.be/H7X7rQHK4qE?t=2925) : Conclusion
+
+## 🔖 Bookmarks
+
+- [Quarkus Master Course](https://dn.dev/quarkusmaster)
+
+## 🍿 Showtime
+
+{% youtube H7X7rQHK4qE %}
+
+---
+
+---
+comments: 1
+id: 1144055
+is_dev_challenge: false
+published_at: '2022-07-18T23:20:40Z'
+reactions: 7
+reading_time_minutes: 1
+tags:
+- docker
+- productivity
+- devops
+- security
+title: 📢 Grype 0.42.0 is out... and hello grype-contribs 👶
+url: https://dev.to/optnc/grype-0420-is-out-and-hello-grype-contribs-3g4i
+---
+
+## ❔ About
+
+[`Grype`](https://github.com/anchore/grype) recently released a very interesting version : [`v0.42.0`](https://github.com/anchore/grype/releases/tag/v0.42.0), which includes a very (very) interesting feature (and resource within the issue itself) : 
+
+> Templates for Grype output. HTML template `Issue #724` : 
+
+{% github https://github.com/anchore/grype/issues/724 %}
+
+☝️ This post is dedicated to this feature and to a contribution project I did create for our needs.
+
+## 🗞️ Always stay aware of `Grype` updates
+
+Find below how I stay up-to-date with [`Grype`](https://github.com/anchore/grype) :
+
+{% youtube https://youtu.be/hEHzWiT9e1k %}
+
+## 💡 The "grype-contribs" idea
+
+I wanted to summarize at a single place a community driven set of resources and practices around `Grype` as it is now part of our culture at [`opt-nc`](https://dev.to/optnc).
+
+In this first version I wanted to 
+
+- 📊 Perform **nice looking charts** in the terminal
+- 📜 Be able to **export nice looking scan reports**
+
+👉 Let's see what we got it this very early versions.
+
+## 🍿 Demo time
+
+{% youtube C2-i_fc5fKk %}
+
+
+## 🔖 `grype-contribs` repo
+
+{% github opt-nc/grype-contribs %}
+
+## 📑 Resources
+
+- [`grype-contribs`](https://github.com/opt-nc/grype-contribs)
+- [`grype`](https://github.com/anchore/grype)
+- [`termgraph`](https://github.com/mkaz/termgraph)
+
+---
+
+---
+comments: 2
+id: 1132834
+is_dev_challenge: false
+published_at: '2022-07-20T07:37:27Z'
+reactions: 4
+reading_time_minutes: 2
+tags:
+- showdev
+- api
+- datascience
+- gamedev
+title: 🎮 Bringing live data to life with Digital Art & Unity
+url: https://dev.to/optnc/bringing-live-data-to-life-with-digital-art-unity-25jf
+---
+
+## ❔ About
+
+As you already know now, we have & share live data through :
+
+- [APIs](https://rapidapi.com/opt-nc-opt-nc-default/api/temps-attente-en-agence)
+- [Docker image](https://hub.docker.com/r/optnc/opt-temps-attente-agences-api)
+
+We wanted to create an immersive and Jaw Dropping experience with this live content : 
+
+> _"We wanted to bring our data into life and jump inside it so we could finally be surrounded by our own data"_
+
+👉 We chose to use [Unity Game platform](https://unity.com/) for that.👈
+
+## 🎤 The pitch 
+
+> _"We are using Unity as a platform to visualize our data in a new dimension."_
+
+## 🖼️ The artworks
+
+### 🎱 Create and bring a scene to life
+
+The underlying concept is quite straight forward : 
+
+1. Each **agency is a billiard ball**
+2. We get all our agencies **and drop them on a circular pool table** (it creates more interactions)
+3. Each ball **continuously updates its own size** (then increasing its mass) according to the **real data by polling the API**
+
+Enjoy the show :
+
+{% youtube R1rNXhQ-UHI %}
+
+### 🎮 Deliver as a video game
+
+Finally we did package the whole experience as a Video game **so we can take a walk withing the artwork** :
+
+{% youtube 2xBAxvcDgGI %}
+
+### 🧪 Experimentations
+
+We also started to develop some other kinds of experiences : 
+
+{% youtube PsTF55byh34 %}
+
+### 💭 To be done
+
+Export as an [Augmented Reality experience](https://unity.com/unity/features/arfoundation) so we can enjoy the show in our world, for example
+
+> _"Display the show on a real table at the office, or put collaborators in their own immersive experience."_
+
+
+## 🤓 Source code
+
+The code is open sourced so anyone can push experimentations further :
+
+{% github opt-nc/opt-temps-attente-agences-unity %}
+
+## 🔖 Ressources
+
+- [Made with Unity](https://unity.com/madewith)
+- [Unity developer and creator advocacy team](https://unity.com/community/advocates)
+- [Youtube dedicated playlist](https://youtube.com/playlist?list=PL7GdrgVAWcDgN1QV5tbPRCa1f5Q83yRMi)
+
+---
+
+---
+comments: 2
+id: 1139110
+is_dev_challenge: false
+published_at: '2022-07-21T21:12:32Z'
+reactions: 4
+reading_time_minutes: 1
+tags:
+- showdev
+- api
+- management
+- leadership
+title: 🍿 Organizational Performance with Open Data, 5S & digital art
+url: https://dev.to/optnc/organizational-performance-with-open-data-5s-digital-art-4mnp
+---
+
+## ❔ About
+
+It's now time to put things together, especially after : 
+
+{% embed https://dev.to/optnc/from-waiting-time-metrics-to-generative-art-2d6d %}
+
+{% embed https://dev.to/optnc/dataviz-et-culture-dentreprise-2mke %}
+
+In this short post, you'll see how all things come together, from its inception to technology and management gains.
+
+## 🍿 Show time
+
+Below are the contents that inspired - and keep on inspiring - me on a daily basis.
+
+So...
+
+1. Sit down
+2. Relax
+3. Enjoy the show
+
+{% youtube WHzd_9v2ocw %}
+
+## 📚 Bibliography
+
+Below a short selection of the books that inspired me : 
+
+- [Liberté & cie](https://www.goodreads.com/book/show/35654633-libert-cie)
+- [Daily Rituals: How Artists Work ](https://www.goodreads.com/book/show/15799151-daily-rituals)
+- [Guide pratique des 5S et du management visuel](https://www.goodreads.com/book/show/24468085-guide-pratique-des-5s-et-du-management-visuel)
+- [Open innovation : Développez une culture ouverte et collaborative pour mieux innover (Stratégies et Management) ](https://www.goodreads.com/book/show/25204011-open-innovation)
+- [La règle? pas de règles: Netflix et la culture de la réinvention ](https://www.goodreads.com/book/show/57254246-la-r-gle-pas-de-r-gles)
+- [Employees First, Customers Second: Turning Conventional Management Upside Down](https://www.goodreads.com/book/show/8038126-employees-first-customers-second)
+
+## 📑 Worth viewing related contents
+
+### Teaser
+
+{% youtube 0mNTITLV698 %}
+
+### Short version
+
+{% youtube lGShsSQatN8 %}
+
+### Full version
+
+{% youtube 2MLVYEwXGL0 %}
+
+---
+
+---
+comments: 4
+id: 1153193
+is_dev_challenge: false
+published_at: '2022-07-27T22:26:26Z'
+reactions: 1
+reading_time_minutes: 1
+tags:
+- devops
+- security
+- news
+- productivity
+title: 🪄 Introducing jq tricks to Grype-Contribs
+url: https://dev.to/optnc/introducing-jq-tricks-to-grype-contribs-4663
+---
+
+## 🗞️ About
+
+I'm quite excited to announce the arrival of a set of new productivity resources for [`Grype`](https://github.com/anchore/grype) in :
+
+{% github opt-nc/grype-contribs %}
+
+## 🪄 `jq` tricks
+
+This time we opened a new topic around `Grype` reporting : 
+
+> Export vulnerabilities as well formated `csv` wthin a single line of code
+
+## 💰 ROI 📊
+
+With clean `csv`, you can **easily create and share** your analysis  wit JupyterNotebook... see dedicated issue in the pipe :
+
+{% embed https://github.com/opt-nc/grype-contribs/issues/10 %}
+
+## 🍿 Demo
+
+{% youtube  https://youtu.be/mvYckVNnaS4 %}
+
+## 🔮 Next `jq` trick coming
+
+{% embed https://github.com/opt-nc/grype-contribs/issues/8 %}
+
+---
+
+---
+comments: 2
+id: 1115785
+is_dev_challenge: false
+published_at: '2022-07-28T07:06:04Z'
+reactions: 1
+reading_time_minutes: 3
+tags:
+- api
+- java
+- programming
+- showdev
+title: 📲 Inspired by Twilio we started to build our own (pico)cli to send sms
+url: https://dev.to/optnc/inspired-by-twilio-we-started-to-build-our-own-picocli-to-send-sms-3f80
+---
+
+## ❔ About
+
+Back in 2019, while trying to send notifications for a personal ([Arduino `MKR WiFi 1010`](https://docs.arduino.cc/hardware/mkr-wifi-1010)) IoT project :
+
+{% embed https://www.linkedin.com/pulse/making-legacy-mailboxes-smarter-arduino-iot-cloud-platform-sales/ %}
+
+Well... I felt the need to send `sms`... and used [IFTTT](https://ifttt.com/sms) to achieve this... but also discovered [Twilio](https://www.twilio.com/)... and started to follow them on social medias.
+
+## 😮 The post that teased me
+
+Then... one day.. I discovered that blog post :
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8lqlh0p6yre4v7tkh722.png)](https://www.twilio.com/blog/cli-app-java-jbang-picocli)
+
+Explaining **step by step how to build from scratch** a Java Client to send `sms` based on : 
+
+- [Twilio `SMS` API](https://www.twilio.com/docs/sms/api) : _"API that helps you add robust messaging capabilities to your applications."_
+- [`SDKMAN!`](https://sdkman.io/) : _"a tool for managing parallel versions of multiple Software Development Kits"_
+- [`JBang!`](https://www.jbang.dev/) : _"edit and run self-contained source-only Java programs with unprecedented ease."_
+- [`picocli`](https://picocli.info/) : _"a mighty tiny command line interface"_
+
+Finally I saw the conclusion :
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pusw3kv0e7ke7d5o1ntk.png)
+
+Even better I saw the following tweet : 
+
+{% twitter 1287845230197211137 %}
+ 
+I was mesmerized by the simplicity and started to think...
+
+> 🤔 _"One day, we will implement this at the office"_
+
+## 🔭 Start dreaming
+
+> **Since that day, I neved stopped dreaming about the opportunity to create such a `cli`** ❣️
+
+I mean... like....
+
+{% embed https://giphy.com/gifs/Collider-yes-do-it-PLIxrcm4rPZfVh6k8j %}
+
+## 🍀 The opportunity
+
+Then one day the opportunity came : my Team was in charge of creating a new batch that should : 
+
+✅ Use our internal `sms` API
+✅ Send `sms` in a batch mode while taking `csv` as input
+
+That was it, we had the **opportunity to create something clean and cool** around the `sms` experience : 
+
+> We would create a nicely, efficient and well designed `cli` 🤗
+
+## 🚀 Straight to the MVP
+
+### 📜 `cli` guidelines
+
+First, we wanted to build a userexperience around the `cli` to make it also as much user-friendly as possible.
+
+Therefore we started to learn more about `cli` design best practices :
+
+- [10 design principles for delightful CLIs](https://blog.developer.atlassian.com/10-design-principles-for-delightful-clis/)
+
+Then this site which is an amazing set of dedicated resources: 
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/skf24i7yb2ircdex28ui.png)](https://clig.dev/)
+
+👉 You can folllow the underlying repo :
+
+{% github cli-guidelines/cli-guidelines %}
+
+### ✨ Finally... the first `sms` 
+
+Finally, our first MVP was up... from the terminal :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/52mrfsvzqt41i7h07f62.png)
+
+to the mobile phone :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ziqwt3y81wvreazl2v13.png)
+
+## 🛤️ Roadmap
+
+Next steps are : 
+
+- Refactoring for better performances
+- Reporting features
+- Implement `csv` send mode in batch
+- `cli` packaging using [`JReleaser` to ease its distribution](https://jreleaser.org/guide/latest/distributions/binary.html#_packager_support) (`Docker`, `Homebrew`, `Macports`, native,...)
+
+## 🍿 Demo
+
+Finally we could manage go get a new experience.
+
+Discover below **the software in its very early stages** : 
+
+{% youtube 4Rn_T_q207Y %}
+ 
+
+## 🔖 Resources
+
+- [Twilio on RapidAPI](https://rapidapi.com/user/twilio)
+- [Twilio Blog](https://www.twilio.com/blog)
+- [`#twilio`](https://dev.to/t/twilio) on DEV.to
+
+## 📑 SMS APIs
+
+- [Free SMS APIs](https://rapidapi.com/collection/free-sms-apis)
+- [Twilio SMS](https://rapidapi.com/twilio/api/twilio-sms/)
+
+
+## 🐦 Twitter accounts worth following 🥇
+
+- **Matthew (he/him)** : [`@MaximumGilliard`](https://twitter.com/MaximumGilliard)
+- **Ben Firshman** : [`@bfirsh`](https://twitter.com/bfirsh)
+- **Carl Tashian** : [`@tashian`](https://twitter.com/tashian)
+- **Eva Parish** : [`@evpari`](https://twitter.com/evpari)
+- [`@twilio`](https://twitter.com/twilio)
+- [`@picocli`](https://twitter.com/picocli)
+- [`@jbangdev`](https://twitter.com/jbangdev)
+- [`@jreleaser`](https://twitter.com/jreleaser)
+
+Stay tuned for more 😊.
+
+---
+
+---
+comments: 1
+id: 1150431
+is_dev_challenge: false
+published_at: '2022-07-31T20:56:26Z'
+reactions: 2
+reading_time_minutes: 9
+tags:
+- neo4j
+- datascience
+- algorithms
+- dataviz
+title: 🗺️ Delivering Information System cartography as a Graph with Neo4J
+url: https://dev.to/optnc/delivering-information-system-cartography-as-a-graph-with-neo4j-5bhl
+---
+
+## 🗣️ Pitch
+
+As Information Systems grow everyday faster and get even more decentralized and hybrid, **getting an up-to-date System Mapping becomes an always hotter and strategic topic.**
+
+There are ready to use softwares to achieve that kind of goals, still sometimes, you need to achieve that kind of goal in a very short time... and at no cost (this is the tricky part).
+
+This article will show you such an approach :
+
+- highly customizable
+- natively interoperable through APIs (`REST`, `graphql`) and SDKs (Java, js, Python, ...)
+- deliverable through thanks to easy to classic DevOPS pipelines
+
+## ❔ Intro
+
+ This is the fact :
+
+> _"few people want to maintain that kind of mapping... yet most of us need to get that knowledge"_
+
+...a few minutes after a question has been asked. So the question maybe :
+
+> _"how to empower people so they can answer by themselves to their own questions ?"_
+
+## 🙀 The hot questions
+
+Some of the most frequent questions I got in my daily experience are :
+
+- What happens if this service or **middleware is down or broken** ?
+- Does my HA (High Availability) application exclusively rely on high availability services ? (Please say yes, and if not tell me why)
+- I see that these services rely on each others : why do they as they should not ?!
+- Who does consume this service ? For what purpose ?!
+- Who are the people maintaining this chain of services ? I need to talk to them.
+
+👉 The first thing to notice is that all these questions are in fact **relying on data considerations, and meta-datas, not more, not less.** 
+
+We would like to
+
+> _"answer these questions with data, and hence : they should be formulated as queries (not tickets nor meetings, nor manually maintained wikis)."_
+
+## 🔭 The vision
+
+ So... What if you were
+
+> _"considering Information System as a Social Network were people would be services or middlewares ?"_ 
+
+Finally, one day, I got it:
+
+> _"I wanted to get the "Facebook of our services"... and I wanted it now !"_
+
+## 🙋 Answering the question with data structures
+
+Once the question is properly set (sorry I have a math background), it suddenly appears quite evident that the answer to these questions is a graph where **relation between a wide variety of objects occurs.**
+
+I previously did some data story telling on Neo4J, on a large variety of custom datasets like : 
+
+- [books](https://www.linkedin.com/pulse/l%C3%B4%C3%B4%C3%B4ngin-cest-qui-quest-au-centre-de-la-bd-%C3%A0-nous-brousse-sales/)
+- [PostgreSQL relational schema metadatas](https://www.linkedin.com/pulse/digging-mining-datas-structures-extracting-from-neo4j-adrien-sales/)
+- [mathematical conjectures](https://dev.to/adriens/about-the-collatz-conjecture-neo4j-cypher-184h)
+- [identity providers](https://www.linkedin.com/pulse/cloud-authentication-providers-cambridge-analytica-what-adrien-sales/)
+- [cooking recipes](https://www.linkedin.com/pulse/non-le-basilic-nest-pas-au-centre-de-la-cuisine-ni%C3%A7oise-adrien-sales/)
+
+A playground to which
+
+> _"I wanted now to add the Information System mapping."_
+
+## 🚀 Kick Off
+
+The first goal I wanted to achieve was to be able to answer all the questions that were around my department (and keep track of them). **That would be my MVP** : and this is how I pitched it to my team.
+
+The first thing to do would be able to deliver a runnable solution within 3 weeks to our CIO... Considering that we were not 100% available to that, we needed to collaborate together in an efficient way, ... the DevOPS way, then on Git. I would evangelize core Neo4J concepts and a very core yet usable version.
+
+I could build the very first core concept and its deployment guidelines within less than 4 hours.
+
+## 🧑‍🎓 Neo4J basics
+
+Neo4J relies on graph theory, we have two kind of objects :
+
+ - [Nodes](https://neo4j.com/docs/getting-started/current/graphdb-concepts/#graphdb-node)
+ - [Relationships](https://neo4j.com/docs/getting-started/current/graphdb-concepts/#graphdb-relationship)
+
+In our case :
+
+- **Nodes** will be information system objects (services, middlewares, people or Organizational Units,....)... and they have properties
+- **Relationships** will be the relationships between them (a services relies on an another one, someone maintains an application, someone manages someone, etc...)
+
+Once that in mind, as a starter we built `csv` files, **one by kind of node, and one by kind of relationship.** That's all : [KISS](https://en.wikipedia.org/wiki/KISS_principle) (Keep It Simple Stupid).
+
+As you can very [easily load `csv` files in Neo4J](https://neo4j.com/docs/cypher-manual/current/clauses/load-csv/), you can then feed your database in one shot with a few lines of cypher code :
+
+Loading a collection of nodes becomes :
+
+```
+LOAD CSV WITH HEADERS
+FROM 'file:///node_kafka_consumer.csv' AS lin
+CREATE (:KConsumer {id_consumer: line.id_consumer,
+    name:line.name,
+    url_doc: line.url_doc,
+    url_git: line.url_git}
+    );
+```
+
+Then set nodes as `uniques` :
+
+```
+CREATE CONSTRAINT UniqueKConsumer
+ON (p:KConsumer)
+ASSERT p.id_consumer IS UNIQUE;
+```
+
+While loading relationship between two nodes becomes :
+
+```
+LOAD CSV WITH HEADERS FROM "file:///relationship_consumer_topic.csv" AS row
+MATCH (c:KConsumer), (t:KTopic)
+WHERE
+  c.id_consumer = row.id_consumer AND
+  t.id_topic = row.id_topic
+
+CREATE (c)-[r:CONSUMES]->(t)
+RETURN r;
+```
+
+Once all entities are loaded, just let Neo4J engine do the job, for example by [drawing you the metamodel of your map](https://neo4j-contrib.github.io/neo4j-apoc-procedures/3.5/schema/meta-graph/),
+
+> _"putting in evidence how objects are intended to interact with each others, straight out of the data."_ 
+
+See below [Bloom](https://neo4j.com/product/bloom/) visualization which shows applications, people, Kafka topic/consumers and producers, middlewares :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o4v3h8m33xu8so5xchrf.png)
+
+Admit it : this is probably the first time you see your Information System like that. What is nice with that is that
+
+> _"it's all made through data introspection."_ 
+
+Now that you have the meta-graph, you can perform cypher queries and answer questions, for example visually discover how people and services are relying on one of your services, or discover and report Single Point Of Failure :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qjy9pdbx8kl0ityyl954.png)
+
+The nice thing is that you can play and interact with them, get properties, links to resources (Git repo, Wiki links and so many things). In a word,
+
+> _"you can touch your Information System cartography"_
+
+## 🧑‍🤝‍🧑 Information System Mapping KickOff
+
+ Once we had this first "draft", we could start to enjoy with it... and a lot of great stuff started to happen.
+
+The most exciting thing was that
+
+> _"people started to talk together about these datas like they never did before."_
+
+## 📖 And now... Data story telling !
+
+As part of the first demo, we did live exploration on the previous case. While clicking and opening new relationships and drilling down in the Information System, people started to ask new kind of questions while getting answers in the next second.
+
+At that time I started to introduce how the data-scientist could hold that role.
+
+Some could not hide their surprises :
+
+> _"Is it normal that so many things rely on that node ? Is it in HA ? What if..."_
+
+## ➰ Mapping as part of daily `RUN` tasks
+
+As soon as we had put all that in data, on a git repo, we started to **add items on a regular basis** : each opportunity was caught and transformed in a dedicated issue that was fixed thanks to a Pull Request, a code Review, then a merge on the main branch.
+
+> _"That activity became part of our daily routines."_ 
+
+Very quicly we had the following exciting interaction pattern with other teams :
+
+- _"Hey, could I submit you come code so I can get my app in your mapping ? I have a project kickoff and I'd like to introduce it with that kind of nice looking dataviz"_
+- _"Sure. Take a look at the README.md, drop us a dedicated issue, then a related PR on a dedicated branch, once reviewed, it will be merged._
+
+## 🛍️ Contributors & documentation for free
+
+Our audience started to grow very quickly because of the visual impact : **soon non developer people wanted to get the live mapping on their own workstation.**
+
+- _"Can we have an install party together so I can get it up and running on my laptop, I'll create a documentation with screenshots so everyone like me could get it even if we don't have programmer skills"_
+- _"Sure, le'ts do this next week, I'll show you how you'll be able to contribute your documentation to the our repository"_
+
+## 🕸️ Integration(s) 💰
+
+Some asked if it would be possible to load that in more traditional middlewares like [PostgreSQL](https://www.postgresql.org/docs/current/sql-copy.html) or [Elasticsearch](https://www.elastic.co/guide/en/logstash/current/plugins-filters-csv.html) to achieve other custom goals.
+
+As our `csv` are [very clean](https://datatracker.ietf.org/doc/html/rfc4180) (meeting [Github csv compliance rules](https://docs.github.com/en/repositories/working-with-files/using-files/working-with-non-code-files#rendering-csv-and-tsv-data)), versionned and normalized, I could answer yes with confidence and
+
+> _"get some more contributions around our work, which made our ROI even greater."_ 
+
+## 🤖 AI & Applied Data Science 🧠
+
+Today, a lot of people talk about `#datascience`. Thanks to the architecture of the solution, you can ask datascientists for help, perform audit, for example to discover well-known or hidden patterns in the topology of your information system, predict relationships, detect regressions and so many possibilities offered by data science.
+
+> _"The more skills you'll have on data science around you, the better you'll master your information system mapping, the better you'll be."_ 
+
+Also, Neo4J has a dedicated [Graph Data Science library](https://neo4j.com/docs/graph-data-science/current/) that helps you detect : 
+
+- loops,
+- topological structures (ex : if two nodes are connected or not)
+- perform predictions,
+- ...
+
+Learn more about these kind of features below :
+
+{% embed https://dev.to/adriens/about-the-collatz-conjecture-neo4j-cypher-184h %}
+
+## 🏭 Industralization
+
+With very few efforts regarding to the benefits, still some questions were coming : how could I integrate that new kind of documentation ? Do you have an API ? How do you manage to environments : integration vs. production,...
+
+And for each of these questions the answers were coming very naturally, here are some of them below.
+
+## 🔌 Does your map have an API ?
+
+That was one of the first one, along with programming languages bindings and SDKs. The anwser is very easy : yes, and take a good look a Neo4J documentation to find the approach that best fits your needs.
+
+Still saying that REST and GraphQL are available as well as a wide variety of SDKs for a great variety of languages (Java, GO, Ruby, Python, js, .NET,...).
+
+In a word,
+
+> _"loading our data into Neo4J made our map highly interoperable, making it available for a wide set of usecases, but at no developement cost."_
+
+## 🛤️ About environments and releases
+
+
+
+- _"How do you manage environements ? Often I make draft candidate architectures : how do you handle this ?"_
+- _"Well, as it's all code based in Git, we handle this by using a dedicated issue and branches. If your candidate is released, then the code has to merged in the proper branch"_
+
+Also :
+
+- _"How do you version the architecture map ?"_
+- _"We strongly rely on git revision system"_
+- _"Awesome, for the first time we have a fine grained architecture map !... and even are able compare version and environments ?"_
+- _"Absolutely."_
+
+## 🦾 Automating
+
+ In the first version we are integrating static data, but as time goes by, we started to want to grab some other external entities, coming from other live system and create new relationships.
+
+For example, we were highly interested in getting the following objects :
+
+- Contracts (linked to some services or apps)
+- [Git repositories](https://docs.github.com/en/rest/repos/repos#list-organization-repositories) (so we could import metadatas and browse) to grab technology, maintainers, [issues](https://docs.github.com/en/rest/issues/issues), software quality scores, [users](https://docs.github.com/en/rest/users/users),...
+- Active Directory accounts,
+- ...
+
+To make the system richer, we plan to implement daily jobs through CI that produce csv so the live part stays up-to-date. In a word, create daily builds and releases.
+
+Finally  comes the delivery part... 
+
+## 📩 Delivering the map
+
+As this point, people wanted to get a ready to use map on their workstation, but we did not have time to install a centralized Neo4J instance.
+
+Still we needed to deliver a ready to use and up-to-date versions to people. This is why this is probably the next thing we will operate :
+
+> _"deliver ready to use docker images,"_ 
+
+with adequate tags according to what people ask us, at least : production, integration, qualification.
+
+We'll probably deliver classic tags like latest (main branch), stable (based on latest tag) and tag-name itself, all targeting production environment/branch as most questions are for production items.
+
+Finally to get the map you need, you should just pull and run the right image, then browse it. That's it.
+
+## 🔚 Conclusion
+
+Hopefully you enjoyed this approach. Just enjoy that kind of data-driven approach, customize it and start thinking about your information system as a whole thing, show relationships and nodes to collaborators, make story tellings for your teams, on your architecture and never stop making it better day after day.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7zobhx7xbr9an5icda63.png)
+
+---
+
+---
+comments: 5
+id: 1156368
+is_dev_challenge: false
+published_at: '2022-08-03T08:45:00Z'
+reactions: 8
+reading_time_minutes: 1
+tags:
+- neo4j
+- datascience
+- management
+- showdev
+title: 🗣️ A cartography, management & datascience storytelling
+url: https://dev.to/optnc/a-cartography-management-datascience-storytelling-1lep
+---
+
+## 👉 About
+
+On July 7, 2022 I had the opportunity to perform a story telling about how we used Neo4J to answer some highly concrete and sensitive questions on Information System cartography.
+
+In this 36' minutes video you'll discover :
+
+- How we defined our problem
+- How we did modelize it (and how Dataviz helped)
+- How we started to prototype on it
+- How fast we got ROI with this solution
+- How we developed our Teams around this now solution
+- The impact on our culture (especially how people build the system together)
+- How we impacted culture around us (putting the solution to scale)
+- What we intend to build now
+- The high level questions we now want to answer
+
+## 🍿 Showtime
+
+{% youtube EtM2PZYT1cY %}
+
+## 🙏 Acknowledgements
+
+I'm very thankful for my amazing team at [`opt-nc`](https://dev.to/optnc) : 
+
+- [Pipiena](https://dev.to/pluaki)
+- [Daniel](https://dev.to/dougniel)
+- [Michèle](https://dev.to/mbarre)
+
+Also, I'm thankful to [Ida](https://www.linkedin.com/in/ida-carapelle-goossens-842829b/) who gave me the opportunity to share my passion with others, and [Bas](https://www.linkedin.com/in/johan-sebastiaan-bas-berghoef-2607123/) who shared with us his great conference room at [Pacific Community-SPC](https://www.linkedin.com/company/the-pacific-community/).
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h5r1v7wjf2uljz770e9l.png)
+ 
+## ❔ What's next ?
+
+Now that the foundations are set, we'll put content on a regular basis showing which tools we are using, next challenges and results... so stay tuned 😊
+
+---
+
+---
+comments: 2
+id: 1159639
+is_dev_challenge: false
+published_at: '2022-08-10T20:40:00Z'
+reactions: 5
+reading_time_minutes: 1
+tags:
+- api
+- showdev
+- java
+- agile
+title: 🧑‍🚀 Disrupting 📦 delivery with public (Quarkus) APIs & chatBOT 🚀
+url: https://dev.to/optnc/disrupting-delivery-with-public-quarkus-apis-4kf8
+---
+
+## 🗣️ Pitch
+
+> **_Because making things happen has much more impact than just saying things are possible._**
+
+## ❔ About
+
+Since some months we have pushed some of our APIs on our public Marketplace on RapidAPI by lauching [OPT-NC for developers](https://rapidapi.com/organization/opt-nc) : 
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/kxs510whsmsrjjqkn7c8.png)](https://rapidapi.com/organization/opt-nc)
+ 
+To : 
+
+- **Make Open Innovation happen** around our services
+- Help people (`B2C` et `B2B`) **perform effortlessly the  integrations they need**
+
+## 🎯 Goals
+
+In this post you'll : 
+
+- Learn how to operate with our API on RapidAPI
+- Discover how this make innovations happen with a real chat Discord BOT demo
+
+## 🍿 Demo
+
+Chapter Indexed demo below, and for the impatients, direct [🔗 to Discord integration](https://youtu.be/d_vWqNONjCM?t=766).
+
+{% youtube d_vWqNONjCM %}
+
+## 🔖 Ressources
+
+- 🤓 [Java SDK source code](https://github.com/opt-nc/colisnc-sdk)
+- 🤓 [API source code](https://github.com/opt-nc/colisnc-api)
+- 🧑‍🎓 [Dedicated Killercoda course](https://killercoda.com/opt-labs/course/colis-nc)
+- 🛒 [API on RapidAPI](https://rapidapi.com/opt-nc-opt-nc-default/api/suivi-colis)
+- 🐳 [API on DockerHub](https://hub.docker.com/r/optnc/colisnc-api)
+
+---
+
+---
+comments: 1
+id: 1155240
+is_dev_challenge: false
+published_at: '2022-08-17T08:00:09Z'
+reactions: 2
+reading_time_minutes: 1
+tags:
+- news
+- showdev
+- ux
+- motivation
+title: 😱 Anakin veut envoyer de (très) gros SMS depuis son terminal ⌨️
+url: https://dev.to/optnc/anakin-veut-envoyer-de-tres-gros-sms-depuis-son-terminal-1fjj
+---
+
+## 🪝 Pitch
+
+Anakin a entendu qu'il existait un `cli` nommé `OPT-SMS` qui permet d'envoyer des textos de taille supérieure à 160 caractères depuis le terminal... et il le veut sans attendre ‼️
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/2jk3iyynwd9cb9m656bz.png)
+
+
+## 👴 Histoire de la limite
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/paqejpt00doo9wv9vwvd.png)](https://www.twilio.com/docs/glossary/what-sms-character-limit)
+
+## 🍿 Showtime
+
+{% youtube oqrSA4ueUIo %}
+
+🙋 La prochaine étape sera la démo de cette feature ✨
+
+## 🔖 Ressources
+
+- [SMS Character Limit](https://www.twilio.com/docs/glossary/what-sms-character-limit)
+- [SMS (stands for Short Message Service)](https://www.twilio.com/docs/glossary/what-is-an-sms-short-message-service)
+- [`GSM-7` encoding](https://www.twilio.com/docs/glossary/what-is-gsm-7-character-encoding)
+- [Maximum Message Length with Twilio Programmable Messaging](https://support.twilio.com/hc/en-us/articles/360033806753-Maximum-Message-Length-with-Twilio-Programmable-Messaging)
+
+---
+
+---
+comments: 1
+id: 1161649
+is_dev_challenge: false
+published_at: '2022-08-18T10:33:00Z'
+reactions: 0
+reading_time_minutes: 1
+tags:
+- showdev
+- news
+- java
+- ux
+title: 💪 Bypass SMS 160 chars limits and send Star Wars intro as a single concatenated
+  📜
+url: https://dev.to/optnc/bypass-sms-160-chars-limits-and-send-star-wars-intro-as-a-single-concatenated-11ok
+---
+
+## ❔ About
+
+Many `SMS` services and gateways support **_"concatenated SMS"_ ** (messages or messages over 160 characters).
+
+This time, we'll show how our Java (`picocli` & Spring Boot) based `cli`, thanks to a nicely designed API make the sending of (very) long SMS look like a piece of 🍰.
+
+## 📑 Existing services and gateways
+
+In the wild, we can find two famous SMS API services : 
+
+[Jasmin SMS](https://www.jasminsms.com/) is one of them... and it supports "Long Messages" :
+
+> "Supports concatenated (multipart) SMS contents (long SMS)"
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vmxybar0vj1dxy8996zm.png)](https://docs.jasminsms.com/en/latest/)
+ 
+So does [Twilio](https://www.twilio.com/messaging/sms), still providing [some best practices guidelines](https://support.twilio.com/hc/en-us/articles/223181508-Does-Twilio-support-concatenated-SMS-messages-or-messages-over-160-characters-) : 
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mxq1lzhx3f1wctm94n8v.png)
+](https://support.twilio.com/hc/en-us/articles/223181508-Does-Twilio-support-concatenated-SMS-messages-or-messages-over-160-characters-) 
+
+## 🍿 `cli` Showtime ✨
+
+`OPT-SMS` is a `cli` which aims is to simplify integrations & sms batch sending easier for any user who has an access to the API.
+
+Our `cli` does not required any technical skill to perform usually not that easy tasks, for any kind of user on any kind of platform as it is a (Spring boot) Java based project.
+
+{% youtube WjQgS7aNgGc %}
+
+---
+
+---
+comments: 3
+id: 1170031
+is_dev_challenge: false
+published_at: '2022-08-25T06:48:01Z'
+reactions: 6
+reading_time_minutes: 2
+tags:
+- datascience
+- tutorial
+- showdev
+- ux
+title: '💡Data Storytelling with Neo4J NeoDash 2.0 : from 0️⃣ to 🦸'
+url: https://dev.to/optnc/data-storytelling-with-neo4j-neodash-20-from-0-to-157e
+---
+
+## ❔ About
+
+In the previous post you could follow a live Story Telling about how we implemented a cartopgraphy for our information system :
+
+{% embed https://dev.to/optnc/a-cartography-management-datascience-storytelling-1lep %}
+
+## 🧰 Tooling and `NeoDash 2.0`
+
+Within some slides you may have discovered some appealing visuals.
+These visuals for some of them have been made with [Neodash](https://neo4j.com/developer-blog/neodash-2-0-a-brand-new-way-to-visualize-neo4j/).
+
+## 👨‍🎓 What you'll learn
+
+We have started to use NeoDash to deliver with ease ready-to-use portals and dashboards, some with forms.
+
+With this demo, you'll learn how to, on an **initial totally empty Neo4J instance**, then "from scratch", **and within less than 30'**, how to
+
+1. Load `csv` Data
+2. Install `NeoDash`
+3. Launch `NeoDash`
+4. Create a new Dashboard from scratch
+5. Create new visualizations
+6. Put rich static content with the Markdown component
+7. Add Schema visualisation (as a component)
+8. Add a Single value Scorecard component
+9. Add a Graph component
+10. Enjoy a Short Data Storytelling
+11. Add a Table component
+12. Add a Bar chart component
+13. Add a Piechart component
+14. Use filters
+15. Export/Import Dashboards
+16. Put some data-driven style on a table
+17. Put some data-driven style on a Piechart
+
+## 🍿 Demo
+
+{% youtube rl3sCVyDqtY %}
+
+## 🙏 Acknowledgements
+
+Special thanks to [Pipiena Luaki](https://www.linkedin.com/in/pipiena-luaki-0848b848/) for its Data Storytelling skills and creating awesome visualizations on top of our data on a daily basis.
+
+## 🔖 Resources
+
+- [NeoDash on Github](https://github.com/neo4j-labs/neodash)
+- [NeoDash 2.0 – A Brand New Way to Visualize Neo4j](https://neo4j.com/developer-blog/neodash-2-0-a-brand-new-way-to-visualize-neo4j/)
+
+{% github neo4j-labs/neodash %}
+
+---
+
+---
+comments: 1
+id: 1172946
+is_dev_challenge: false
+published_at: '2022-08-30T08:57:24Z'
+reactions: 4
+reading_time_minutes: 1
+tags:
+- datascience
+- beginners
+- showdev
+- python
+title: 📊 From API to csv... then datascience with Jupyter
+url: https://dev.to/optnc/from-api-to-csv-then-datascience-with-jupyter-41em
+---
+
+## ❔ About
+
+Now that we have an API... is it possible to build some reporting or even better create intelligence on top of it ?
+
+This question will be covered from the ground up in this post.
+
+You'll see, how, with a simple **- yet clean -** `csv` you can build really nice and useful reporting contents... and how to share them around you.
+
+Enough talk now, let's dive head first into the demo !
+
+## 🍿 Demo
+
+{% youtube Bf2I6nhN36w %}
+
+## 🔖 Ressources
+
+- [JupyterNotebook source code (and `csv`)](https://github.com/opt-nc/domaine-nc-jupyter-notebook)
+- [API on Markeplace](https://rapidapi.com/opt-nc-opt-nc-default/api/domaine-nc)
+
+## 🧑‍🤝‍🧑 Acknowledgements
+
+- @mbarre & @spencer_forrest_opt for implementing the endpoints that made it possible
+- @olivierruineau for the kind prototyping, knowledge sharing and his nice data storytelling
+- [`opt-nc`](https://dev.to/optnc)'s team for the data storytelling review process
+
+---
+
+---
+comments: 3
+id: 1176356
+is_dev_challenge: false
+published_at: '2022-09-01T20:41:53Z'
+reactions: 5
+reading_time_minutes: 1
+tags:
+- showdev
+- news
+- java
+- ux
+title: 🚚 SMS batch sending with csv input
+url: https://dev.to/optnc/sms-batch-sending-with-csv-input-58n
+---
+
+## ❔ About
+
+In many customer usecases, people need to **send SMS in a batch mode... for a very wide amount of business cases.**
+
+## 💭 ERP Integration considerations and `csv`
+
+Customer data can be managed through an endless list of ERP/CRM and middlewares (relational databases, ETL jobs,...), including hand-made solutions and Spreadsheets, etc...
+
+☝️ Still, at some point, they all may need to **notify their customers on a regular or event driven basis** (birthdays, fidelity points, special events, emergency, dates,...).
+
+What all these people do is an export of : 
+
+1️⃣ The customer phone number
+2️⃣ The custom message to send
+
+This is exactly what this feature is about.
+
+We need to send that data to your customer thanks to a simple `csv` as :
+
+☑️ They are easy to produce on **any language and any platform/middleware**
+☑️ There are a lot of **ready to use automation tools** (Power Automate, Zapier, IFTTT,...) around them
+
+## 🗃️ Input data : the `csv`
+
+The input can come from any spreadsheet : 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/7fxgqrdnmg6c7eok0hjt.png)
+
+... then exported to `csv` :
+
+```
+to,message
++687XXXXXX,"Hey Jack, All work and no play makes Jack a dull boy."
++687XXXXXX,"Today is your birthday, come to our shop to enjoy your discount."
++687XXXXXX,"Come enjoy black friday tomorrow morning!"
++687XXXXXX,"Yoy now have 1000pts. on your fidelity card, come enjoy discount today"
++687XXXXXX,"Your command has been delivered and awaits for you at the postoffice"
+```
+
+Next, to send the `csv`, just : 
+
+```csv
+opt-sms send -f "${SHORT_NUMBER_CODE}"\
+    -c "${ACCOUNT}"\
+    -i "~/demo_batch_sms.csv"
+```
+
+And you're done.
+
+Now... enough talk, let's enjoy the demo!
+
+
+## 🍿 Demo
+
+{% youtube qjjETvi0W9k %}
+
+---
+
+---
+comments: 3
+id: 1180967
+is_dev_challenge: false
+published_at: '2022-09-05T20:28:51Z'
+reactions: 5
+reading_time_minutes: 1
+tags:
+- datascience
+- neo4j
+- codenewbie
+- tutorial
+title: '📘 Neo4J Bloom : Install & Storytell 🎞️'
+url: https://dev.to/optnc/neo4j-bloom-install-storytell-2lkd
+---
+
+## ❔ About
+
+On a daily basis, we use [`Neo4J Bloom`](https://neo4j.com/product/bloom/) to discover data and prepare our data storytellings.
+
+> This tool helps us produce high quality content with very low effort.
+
+Essentially our process workflow is :
+
+1. Load data and make some check with [`Neo4j Browser`](https://neo4j.com/developer/neo4j-browser/) to check that everything is fine
+2. Switch to [`Bloom`](https://neo4j.com/product/bloom/) to efficiently prototype queries, visuals and perspectives
+
+## 🧑‍🎓 What you'll learn
+
+In this post, you'll learn : 
+
+- How to install an app from [`Neo4J app gallery`](https://install.graphapp.io/)
+- Use Bloom from scratch and interactively build some visuals
+
+## 🛒 Install apps from app Gallery
+
+{% youtube CorRJHu1fro %}
+
+## 🍿 Bloom walkthrough
+
+{% youtube 4f7LAtm4pSw %}
+
+---
+
+---
+comments: 1
+id: 1181837
+is_dev_challenge: false
+published_at: '2022-09-07T20:52:10Z'
+reactions: 0
+reading_time_minutes: 1
+tags:
+- showdev
+- java
+- news
+- api
+title: '📢 New feature release : get ALL domains 🙀'
+url: https://dev.to/optnc/new-feature-release-get-all-domains-39p5
+---
+
+## ❔ About
+
+Until recently we could get details about a specific domain name...
+
+> but we could not get the list of all existing domains 😔
+
+But now... this feature is available : 
+
+[🛒 On RapidAPI marketplace❕](https://rapidapi.com/opt-nc-opt-nc-default/api/domaine-nc/details)
+
+
+## 🍿 Demo
+
+Enough talk : it's showtime 🎉
+
+{% youtube https://youtu.be/aEkj8D3LLWM %}
+
+## 🔖 Related content
+
+Thanks to this endpoint we could produce some data analysis, see previous post for more : 
+
+{% embed https://dev.to/optnc/from-api-to-csv-then-datascience-with-jupyter-41em %}
+
+---
+
+---
+comments: 9
+id: 1180998
+is_dev_challenge: false
+published_at: '2022-09-12T20:14:00Z'
+reactions: 0
+reading_time_minutes: 2
+tags: []
+title: ☎️ An Open Source Java SDK to validate phonenumbers in New-Caledonia 🧑‍🤝‍🧑
+url: https://dev.to/optnc/an-open-source-java-sdk-to-validate-phonenumbers-in-new-caledonia-pkl
+---
+
+## ❔ About
+
+Recenlty we saw a very nice & interesting Discussion landing on our [`opt-nc` Github Organization](https://github.com/opt-nc) : 
+
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5j76qiha1j6al8xii5gz.png)](https://github.com/orgs/opt-nc/discussions/13)
+
+With a very well explained use case :
+
+> _"Bonjour, disposer d'un SDK voire d'une API permettant de valider des numéros de téléphone ou encore de détecter si un numéro est un numéro de fixe ou un numéro de mobile."_
+
+> _"Avec ces outils, il serait possible facilement d'améliorer la qualité de bases de données ou encore rendre des formulaires web plus efficaces."_
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/f4gr0wh3xp5sz7nxwd7z.png)](https://github.com/orgs/opt-nc/discussions/13)
+
+Quite rapidly we discovered that it could help a lot of people enhancing the data quality of Information Systems... and even ours !
+
+This first intro post is dedicated to announce the release of the SDK.
+
+## 😎 Open source repo
+
+Here is the repo :
+
+{% github opt-nc/phonenumber-validator %}
+
+##  🚀 Get started
+
+[Add SDK to your repo](https://github.com/opt-nc/phonenumber-validator#-maven), then :
+
+```java
+System.out.println("Type de numéro : " + PhoneNumberValidator.getPhoneType("+687514243").name());
+System.out.println("Mobile ? : " + (PhoneNumberValidator.isMobile("+687514243") ? "oui" : "non"));
+System.out.println("Fixe ? : " + (PhoneNumberValidator.isFixe("+687514243") ? "oui" : "non"));
+System.out.println("Special ? : " + (PhoneNumberValidator.isSpecial("+687514243") ? "oui" : "non"));
+```
+
+## 🛡️ Security
+
+As dependencies are monitored and code security is enabled, you can safely analyze code and see if any toxic code is embedded in the SDK :
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j5btmqhte6b11tlhflr2.png)](https://github.com/opt-nc/phonenumber-validator/security/code-scanning)
+
+## ➰ Feedbacks
+
+Feel free to send feedback by :
+
+🎫 [Dropping an issue](https://github.com/opt-nc/phonenumber-validator/issues)
+🧑‍🤝‍🧑 [Opening or participating to a discussion](https://github.com/opt-nc/phonenumber-validator/discussions)
+🎁 [SDK delivery](https://github.com/orgs/opt-nc/discussions/13#discussioncomment-3629378) for [#ProgrammersDay](https://twitter.com/hashtag/ProgrammersDay) 🤓
+
+---
+
+---
+comments: 3
+id: 1191560
+is_dev_challenge: false
+published_at: '2022-09-14T21:44:41Z'
+reactions: 3
+reading_time_minutes: 1
+tags:
+- java
+- showdev
+- news
+- jbang
+title: 🔍 Validate New-Caledonia Phone Numbers from cli ⌨️
+url: https://dev.to/optnc/validate-new-caledonia-phone-numbers-from-cli-2bc3
+---
+
+## ❔ About
+
+We recenlty released a SDK dedicated that statically validates phone numbers in New-Caledonia : 
+
+{% embed https://dev.to/optnc/an-open-source-java-sdk-to-validate-phonenumbers-in-new-caledonia-pkl %}
+
+We thought that it would also be handy to get a simple `cli` tool to interact with the SDK, for anyone.
+
+Then we released a [`JBang!`](https://www.jbang.dev/) and [`picocli`](https://picocli.info/) based cli that would be, **on any OS running a `jvm` runtime** : 
+
+👶 Easy to **install**
+🕹️ Easy to **use**
+🔁 Easy to **integrate** within shell or any other scripting language
+
+## 🎯 Goals
+
+In this short demo, you will learn how to : 
+
+1️⃣ **Install** the script from our JBang Catalog
+2️⃣ **Discover and run** available options
+
+## 🍿 Showtime
+
+{% youtube lhMfKB6lukw %}
+
+## 🔖 Resources
+
+- [Public `JBang!` catalog on GitHub.com](https://github.com/opt-nc/jbang-catalog)
+- [SDK source code](https://github.com/opt-nc/phonenumber-validator)
+
+---
+
+---
+comments: 1
+id: 1188295
+is_dev_challenge: false
+published_at: '2022-09-19T22:21:19Z'
+reactions: 7
+reading_time_minutes: 1
+tags:
+- github
+- tutorial
+- productivity
+- news
+title: '📌 GitHub CLI 2.15.0 is out : let''s pin 🎫'
+url: https://dev.to/optnc/github-cli-2150-is-out-lets-pin-2k9f
+---
+
+## ❔ About
+
+[`GH CLI`](https://cli.github.com/) [`v2.15.0`](https://github.com/cli/cli/releases/tag/v2.15.0) is out and embeds some cool issue feature : 
+
+{% github https://github.com/cli/cli/issues/5585 %}
+
+The process is quite simple : 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xtwswb73beblywxl6gjz.png)
+
+Let's find out how it looks IRL 🤗
+
+## 🍿 Demo time
+
+{% youtube AA42epxVY-I %}
+
+## 🔖 Resources
+
+- [GitHub CLI 2.15.0 ReleaseNote](https://github.com/cli/cli/releases/tag/v2.15.0)
+- Issue pinning feature [`#5585`](https://github.com/cli/cli/issues/5585)
+- Pull Request fixing the issue : [`#5597`](https://github.com/cli/cli/pull/5597)
+
+---
+
+---
+comments: 4
+id: 1122823
+is_dev_challenge: false
+published_at: '2022-09-25T20:23:02Z'
+reactions: 12
+reading_time_minutes: 1
+tags:
+- github
+- productivity
+- tutorial
+- tooling
+title: 📊 Count comments on a GitHub issue 🎫
+url: https://dev.to/optnc/count-comments-on-a-github-issue-1j4d
+---
+
+## ☝️ Why counting comments matters ?
+
+There are two type issues with a lot of comments : 
+
+1️⃣ The ones that are popular, then getting a lot of feedback 🤗
+2️⃣ The ones that have a lot of comments because we struggle to fix them efficiently 😱
+
+👉 In both cases, performing report on them can be helpful to monitor your `RUN` performances.
+
+## ❔ Count with API calls
+
+☝️ There actually is no native [`gh issue`](https://cli.github.com/manual/gh_issue) command to count issues on a specific command...
+
+👉 but [`gh api`](https://cli.github.com/manual/gh_api)...
+
+> _"Makes an authenticated `HTTP` request to the GitHub API and prints the response."_
+
+```shell
+gh api <endpoint> [flags]
+```
+
+💡 This short post is documenting how easy it is to count comments on a given issue.
+
+## 🤓 Snippet
+
+```shell
+gh api -X GET \
+  -H "Accept: application/vnd.github.v3+json" \
+  -F per_page=100 \
+  /repos/YOUR_ORGA/REPO/issues/ISSUEID/comments | \
+  jq '. | length'
+```
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/phorj3zhmgpmwrs077b0.png)
+
+---
+
+---
+comments: 1
+id: 1206083
+is_dev_challenge: false
+published_at: '2022-10-03T20:34:48Z'
+reactions: 2
+reading_time_minutes: 2
+tags:
+- java
+- devops
+- api
+- showdev
+title: '🛍️ Partenaires Mobilis : API, appli responsive 💻📱 & Open Data 🙀'
+url: https://dev.to/optnc/partenaires-mobilis-api-appli-responsive-open-data-5gif
+---
+
+## ❔ A propos
+
+L'OPT-NC met 
+
+> _"Un réseau de boutiques Mobilis à ma disposition"_
+
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nfie1mui5b0ulni89rs1.png)](https://www.opt.nc/particuliers/mobile/un-reseau-de-boutiques-mobilis-ma-disposition)
+
+☝️ Toutefois, le contenu proposé est non interopérable : il n'y a pas d'API ... **pourtant ces données ont un potentiel non néligeable**, comme par exemple des fonctionnalités liées à la Géolocalisation, voire l'intégration à des services tiers...
+
+## 💡 L'idée
+
+Nous avons donc entrepris de transformer ces données en une API interopérable, dynamique et enrichir avec : 
+
+- 🔗 Les liens vers les pages de réseaux sociaux des partenaires (Facebook, Google Maps,...)
+- 🗺️ La possibilité de faire des recherches géolocalisées
+- 📱💻 Un front-end responsive qui met en valeur les possibilités de l'API 
+- 🔌 Des clés interopérables afin que l'on puisse faire le lien avec des SI tiers (par exemple en Open Data [`communes-nc`](https://data.gouv.nc/explore/dataset/communes-nc/information/))
+- 🎁 et autres "goodies" à découvrir ☺️
+
+
+## 🍿 Demo
+
+Assez de blabla stratégique : feu sur la démo qui résume tout cela en 15' 👇
+
+{% youtube u1uKgdzM9sQ %}
+
+## 🔖 Ressources
+
+- 🔗 [Page institutionnelle](https://www.opt.nc/particuliers/mobile/un-reseau-de-boutiques-mobilis-ma-disposition)
+- 🛍️ [API sur RapidAPI](https://rapidapi.com/opt-nc-opt-nc-default/api/partenaires-mobilis/details)
+- 👨‍🎓 [Tutoriel interactif sur KillerCoda](https://killercoda.com/opt-labs/course/partenaires-mobilis/partenaires-mobilis-discover)
+- 🐋 [Image Docker](https://hub.docker.com/r/optnc/api-partenaires-mobilis)
+- 🤓 [Source code](https://github.com/opt-nc/api-partenaires-mobilis)
+- 📺 [Demo playlist](https://youtube.com/playlist?list=PL7GdrgVAWcDhigJGOLSo87BC0yI2s9SGi)
+- 👐 Open Data [`communes-nc`](https://data.gouv.nc/explore/dataset/communes-nc/information/)
+- 👐 Open Data [`entreprises-actives-au-ridet`](https://data.gouv.nc/explore/dataset/entreprises-actives-au-ridet/information)
+- 👐 Open Data [`etablissements-actifs-au-ridet`](https://data.gouv.nc/explore/dataset/etablissements-actifs-au-ridet/information/)
+- 🐦 [`data.gouv.nc`](https://twitter.com/datagouvnc)
+
+---
+
+---
+comments: 7
+id: 1212516
+is_dev_challenge: false
+published_at: '2022-10-10T20:25:55Z'
+reactions: 2
+reading_time_minutes: 2
+tags:
+- tutorial
+- productivity
+- kafka
+- linux
+title: ⌨️ Pipe xlsx files into/from Kafka... From cli with (k)cat 🙀
+url: https://dev.to/optnc/pipe-xlsx-files-intofrom-kafka-from-cli-with-kcat-plp
+---
+
+## 🪝 Teaser
+
+What you'll discover in this post is how we could, within a [dedicated KillerCoda scenario](https://killercoda.com/opt-labs/course/kafka/kcat) :
+
+- Literally `pipe` data to and from Kafka, from (and to) any file, with the `|` operator
+- Visualize data on a cool web interface on [Redpanda Console](https://github.com/redpanda-data/console)
+
+## 🍒 on the 🍰
+
+We'll play with real life data from [isee.nc](https://www.isee.nc/component/phocadownload/category/10-ridet) :
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xir0qhy83naa4tkepqbj.png)](https://www.isee.nc/component/phocadownload/category/10-ridet?download=2027:liste-etablissements)
+
+
+☝️ Now... to fully enjoy this post, please be sure to really 
+
+> 👉 deeply understand what `pipe` is, how and why it was created... and all the amazing opportunities it opened since its early ages.
+
+## 🪄 Intro : Unix Pipeline 🦸‍♂️
+
+Spend 5' to deeply understand how and why the `|` was created and **why it still matters (a lot) today**.
+
+{% youtube bKzonnwoR2I %}
+
+## 🧰 Tools (and Philosophy) 🏺
+
+Now, you can jump start in the demo where we'll do everything from the terminal thanks to all these amazing, [`UNIX` Philosophic](https://en.wikipedia.org/wiki/Unix_philosophy) single-purposed tools : 
+
+- [`cURL`](https://en.wikipedia.org/wiki/CURL)
+- [`pipe`](https://en.wikipedia.org/wiki/Pipeline_(Unix))
+- [`kcat`](https://github.com/edenhill/kcat)
+- [`xls2csv`](https://github.com/xevo/xls2csv)
+- [`jq`](https://stedolan.github.io/jq/)
+- [`tail`](https://en.wikipedia.org/wiki/Tail_(Unix))
+- [`head`](https://en.wikipedia.org/wiki/Head_(Unix))
+- [`cut`](https://en.wikipedia.org/wiki/Cut_(Unix))
+- [`comm`](https://en.wikipedia.org/wiki/Comm)
+- [`sort`](https://en.wikipedia.org/wiki/Sort_(Unix))
+- [`column`](https://man7.org/linux/man-pages/man1/column.1.html)
+- [`sed`](https://en.wikipedia.org/wiki/Sed)
+- [`awk`](https://en.wikipedia.org/wiki/AWK)
+- [`wc`](https://en.wikipedia.org/wiki/Wc_(Unix))
+
+## 🍿 Full demo
+
+{% youtube t_UhRhLU2II %}
+
+## 🔖 Resources
+
+- [Dedicated Killercoda scenario](https://killercoda.com/opt-labs/course/kafka/kcat)
+
+---
+
+---
+comments: 4
+id: 1220126
+is_dev_challenge: false
+published_at: '2022-10-18T19:38:03Z'
+reactions: 5
+reading_time_minutes: 1
+tags:
+- docker
+- security
+- devops
+- infosec
+title: '🪄 Grype jq tricks : csv for spreadsheets 📊'
+url: https://dev.to/optnc/grype-jq-tricks-csv-for-spreadsheets-c7h
+---
+
+## ❔ About
+
+Often, when you talk about an image vulnerabilities, you need to get that kind of charts in a spreadsheet:
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qn4cogwl696raptjhokl.png)
+
+Therefore we created the following issue : 
+
+{% embed https://github.com/opt-nc/grype-contribs/issues/8 %}
+
+
+## 🪄 The `jq` trick
+
+Just follow (and bookmark) the following guidelines to enjoy the trick : 
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/znw938ah74omekt61hwy.png)](https://github.com/opt-nc/grype-contribs/blob/main/JQ_TRICKS.md#csv-output)
+
+## 🍿 Showtime
+
+Enough talk, let's see the trick in action :
+
+{% youtube _llZdBSS0iw %}
+
+## 🔖 Resources
+
+- [The trick](https://github.com/opt-nc/grype-contribs/blob/main/JQ_TRICKS.md#csv-output)
+- [`jq`](https://stedolan.github.io/jq/)
+
+{% github opt-nc/grype-contribs %}
+
+---
+
+---
+comments: 3
+id: 1216113
+is_dev_challenge: false
+published_at: '2022-10-24T20:29:06Z'
+reactions: 5
+reading_time_minutes: 1
+tags:
+- github
+- quarkus
+- java
+- api
+title: 🔁 Build & deliver static docs w. Quarkus/Reodcly on GitHub Pages 📘
+url: https://dev.to/optnc/build-deliver-static-documentation-w-quarkusreodcly-on-github-pages-4224
+---
+
+## ❔ About
+
+Today, **`CD` (Continuous Delivery)** of up-to-date documentation is a crucial step if you want to achieve things at scale.
+
+APIs do not make exception : we deliver embedded swagger, but...
+
+> _**more and more outside collaborators ask for offline documentation, or on API marketplaces.**_
+
+
+And (hopefully) : 
+
+> _**your outside contributors or clients are more numerous than you.**_
+
+☝️ So you have to deliver them an optimal **`DX`** (Developer-Experience) that costs no work to your organization.
+
+👉 We'll show you how we **deliver documentation** for : 
+
+- 🤓 Human people
+- 🤖 Third party CI services for integration purposes
+
+
+## 💡 What we'll cover
+
+What we'll show here is how we **deliver a static** [OpenAPI specification](https://swagger.io/specification/) (`html` and `yaml`), **as part of the release process**.
+
+👉 With that, it makes it very easy to import your API into any API marketplace, see below on Google [`apigee`](https://cloud.google.com/apigee) :
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/47gqrwcw43x4v4oey08o.png)
+](https://cloud.google.com/apigee/docs/api-platform/tutorials/create-api-proxy-openapi-spec)
+
+## 🧰 Stack
+
+- [GitHub Actions](https://github.com/features/actions)
+- [GitHub Pages](https://github.blog/2022-08-10-github-pages-now-uses-actions-by-default/)
+- [Quarkus](https://quarkus.io/about/)
+- [Redocly](https://redocly.com/)
+
+## 🍿 Demo
+
+Enough talks, let's watch this very cool step by step and short (<`10'`) demo from @mbarre :
+
+{% youtube VCphsrYfzak %}
+
+## 🔖 Resources
+
+- [Quarkiverse documentation](https://quarkiverse.github.io/quarkiverse-docs/index/index/index.html)
+- [Quarkiverse Hub on GitHub](https://github.com/quarkiverse)
+
+## 📆 Date to save
+
+{% twitter 1583442985647329287 %}
+
+---
+
+---
+comments: 3
+id: 1228062
+is_dev_challenge: false
+published_at: '2022-11-01T20:52:36Z'
+reactions: 3
+reading_time_minutes: 2
+tags:
+- datascience
+- datavis
+- opendata
+- beginners
+title: '📜 Talanoa 2022: The Power of Data Visualization 🏝️'
+url: https://dev.to/optnc/talanoa-2022-the-power-of-data-visualization-1fgn
+---
+
+## 🧑‍🤝‍🧑 About "Talanoa" 🛖
+
+> _"Figurately we use Talanoa as a platform for enabling conversation and inclusive dialog. [...]
+> The Talanoa provides a safe place to meet and share views and perspectives."_ - Sioeli Tonga
+
+For more about this event, check this dedicated tweet :
+
+{% twitter 1581821995414478848 %}
+
+
+## 📑 Chapters
+
+- `00:00` : 👐🏽 [Welcome speech](https://youtu.be/Ef8E69UhZ3w) from Sioeli
+- `00:32` : ❔ [The symbolic of "Talanoa"](https://youtu.be/Ef8E69UhZ3w?t=32), "Tok Stori", aka. Storytelling
+- `02:57` : 🥇 [2022 Pacific Dataviz Challenge](https://youtu.be/Ef8E69UhZ3w?t=176) (cf [official YT spot](https://youtu.be/kOSEjhCB298))
+- `05:21` : 🗺️ [Ice breaker #1](https://youtu.be/Ef8E69UhZ3w?t=320) : "Where are you connecting from ?"
+- `07:22` : 🧑‍🎓 [Ice breaker #2](https://youtu.be/Ef8E69UhZ3w?t=440) : "What is your level of knowledge of DataViz ?"
+- `08:24` : 😊 (Very kind) [welcome message by Leo](https://youtu.be/Ef8E69UhZ3w?t=503) and agenda intros
+- `11:26` : ℹ️ [Lucas intro](https://youtu.be/Ef8E69UhZ3w?t=686) (COVID-19 data and ourworldindata.org)
+- `14:24` : 🧫 ["The Power of visualization"](https://youtu.be/Ef8E69UhZ3w?t=864), by Lucas
+- `45:08` : 🛰️ ["Big Data, Data Science, Machine Learning..."](https://youtu.be/Ef8E69UhZ3w?t=2706), by Nazha
+- `01:05:32` : 🗣️ ["How to effectively tell a story with your data"](https://youtu.be/Ef8E69UhZ3w?t=3932), by Ruth
+- `01:31:17` : 👨‍🎨 ["Dataviz & Digital Economy in New-Caledonia"](https://youtu.be/Ef8E69UhZ3w?t=5481), by Adrien
+- `01:48:00` : 🙏 [Acknowledgments](https://youtu.be/Ef8E69UhZ3w?t=6484), by Houy-Sy
+- `01:52:35` : 🔭 [Conclusion](https://youtu.be/Ef8E69UhZ3w?t=6755), by Léo
+- `01:53:32` : 👋 The ["Good bye Ice breaker" ](https://youtu.be/Ef8E69UhZ3w?t=6808)
+
+## 🎞️ Let Talanoa begin
+
+{% youtube Ef8E69UhZ3w %}
+
+## 🧑🏽‍🤝‍🧑🏽 Speakers
+
+By order or appearance : 
+
+- 👨 [Sioeli Tonga](https://www.linkedin.com/in/sioelitonga/)
+- 👨 [Léo Cann-polydor](https://www.linkedin.com/in/l%C3%A9o-cann-polydor-91a690161/)
+- 👨 [Lucas Rodès-Guirao](https://www.linkedin.com/in/lucasrodes/), [`@lucasrodesg`](https://twitter.com/lucasrodesg)
+- 👩 [Nazha Selmaoui-Folcher](https://www.linkedin.com/in/nazha-selmaoui-folcher-41b154104/)
+- 👩 [Ruth Pozuelo Martinez](https://www.linkedin.com/in/ruthpozuelo/), [`@CurbalEN`](https://twitter.com/CurbalEN)
+- 👨 [Adrien Sales](https://www.linkedin.com/in/adrien-sales/), aka. [`@rastadidi`](https://twitter.com/rastadidi)
+- 👩 [Houy-Sy Thao](https://www.linkedin.com/in/houy-sy-thao-5abb085/)
+
+## 🏢 Organizations
+
+By order or appearance :
+
+- [Pacific Community-SPC ](https://www.linkedin.com/company/the-pacific-community/)
+- [Our World in Data](https://www.linkedin.com/company/ourworldindata/)
+- [Université de la Nouvelle-Calédonie](https://www.linkedin.com/school/univ-nc/)
+- [Curbal](https://www.linkedin.com/company/curbal/)
+- [OPT New Caledonia](https://www.linkedin.com/company/opt-new-caledonia/mycompany/)
+
+## 🧰 Tools
+
+- [PowerBI](https://powerbi.microsoft.com/en-au/)
+- [Neo4J](https://neo4j.com/) : [Bloom](https://dev.to/optnc/neo4j-bloom-install-storytell-2lkd), [Neodash](https://dev.to/optnc/data-storytelling-with-neo4j-neodash-20-from-0-to-157e)
+- [GraphXR](https://community.kineviz.com/c/gallery/12) by [Kineviz](https://www.kineviz.com/)
+- [Flutter](https://flutter.dev/) for mobile app'
+- [Gephi](https://gephi.org/)
+- [JupyterNotebook](https://jupyter.org/)
+
+## 🔖 Bookmarks
+
+- [Pacific Data Hub Youtube channel](https://www.youtube.com/channel/UCduYaJIPIEs8p2c_NLtorYg)
+- [Pacific Data Hub explorer](https://stats.pacificdata.org/)
+
+## 📅 What's coming next
+
+{% youtube kOSEjhCB298 %}
+
+---
+
+---
+comments: 6
+id: 1258294
+is_dev_challenge: false
+published_at: '2022-11-15T20:59:41Z'
+reactions: 1
+reading_time_minutes: 1
+tags:
+- neo4j
+- datascience
+- news
+title: '📢 We are at #nodes22 tomorrow with cartography & "IT holism" 🙌'
+url: https://dev.to/optnc/we-are-at-nodes22-tomorrow-with-cartography-it-holism-m87
+---
+
+## 📅 News
+
+Don't forget to register to #nodes22 : 
+
+{% twitter 1592619669529456640 %}
+
+## 💺 Register
+
+To register to the online event : 
+
+{% embed https://bit.ly/3f2ZQIQ %}
+
+## 🍿 Show
+
+At `1H09` :
+
+{% youtube _2XAA7PcgTE %}
+
+## 🖼️ Inspirationals
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jxa90eg63xy3ysg1r47k.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9ati6col4umfiphik799.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/tpnp7euf2zikvhy35kc7.png)
+
+---
+
+---
+comments: 2
+id: 1216504
+is_dev_challenge: false
+published_at: '2022-11-23T19:48:48Z'
+reactions: 7
+reading_time_minutes: 2
+tags:
+- java
+- tutorial
+- productivity
+- showdev
+title: 🗞️ We have just released our JBang! catalog 🛍️
+url: https://dev.to/optnc/we-have-just-released-our-jbang-catalog-4olj
+---
+
+## ❔ About `JBang!`
+
+[`JBang!`](https://www.jbang.dev/)'s pitch is very **appealing and easy** to understand :
+
+> _"Unleash the power of Java - JBang Lets Students, Educators and Professional Developers create, edit and run self-contained source-only Java programs with unprecedented ease. "_
+
+In this post, we'll go a bit further and introduce [AppStore](https://github.com/jbangdev/jbang#appstore), especially how to release `JBang! catalogs`.
+
+## 🛍️ Catalogs
+
+[Catalogs](https://www.jbang.dev/documentation/guide/latest/alias_catalogs.html#catalogs) are a very convenient way to **deliver from a common place** a set of `JBang!` applications.
+
+See below some real life examples:
+
+- [🐪 Apache Camel](https://camel.apache.org/) : [Camel JBang, _A JBang-based Camel app for easily running Camel routes._](https://camel.apache.org/manual/camel-jbang.html)
+- [☁️ Microsoft JBang Catalog (Minecraft, Azure Application Insights Agent,...)](https://github.com/microsoft/jbang-catalog#microsoft-jbang-catalog)
+- [🚀 Quarkus](https://quarkus.io/) [`jbang-catalog`, _Collection of JBang scripts related to Quarkus and its subprojects_](https://github.com/quarkusio/jbang-catalog)
+
+## 🧑‍🎓 What you'll learn
+
+Within less than `15'`, you will learn : 
+
+- What is a JBang! script
+- What's a catalog ?
+- How to create and execute your own script
+- How to run a remote script on your local machine
+- ...
+
+So you'll be fully operational with JBang packaged apps.
+
+## 🗞️ News 🤓
+
+So, we, at [`OPT-NC`](https://github.com/opt-nc) have created our own (**and public !**) `JBang! catalog` : 
+
+{% github opt-nc/jbang-catalog %}
+
+## 🍿 Demo
+
+Enjoy this very nice demo from @mbarre :
+
+{% youtube 2dSzf4WdTjA %}
+
+## 📑 Resources
+
+- [`OPT-NC`'s JBang catalog tutorial on Killercoda](https://killercoda.com/opt-labs/course/jbang/optnc-catalog)
+- [`OPT-NC`'s JBang catalog](https://github.com/opt-nc/jbang-catalog)
+- [`jbang-catalog(1)`](https://www.jbang.dev/documentation/guide/latest/cli/jbang-catalog.html)
+- [Catalogs](https://www.jbang.dev/documentation/guide/latest/alias_catalogs.html#catalogs)
+
+---
+
+---
+comments: 8
+id: 1269519
+is_dev_challenge: false
+published_at: '2022-12-05T21:24:06Z'
+reactions: 3
+reading_time_minutes: 2
+tags:
+- neo4j
+- datascience
+- datavisualization
+- github
+title: '🗣️ Our speech about "IT holism" at #nodes22 💡'
+url: https://dev.to/optnc/our-speech-about-it-holism-at-nodes22-1bpl
+---
+
+## 🍿 Speech chapters
+
+In this speech, you'll discover how _modelizing your IT system as a **social network**_ can bring huge benefits.
+
+I will show you the journey we have accomplished, from an absolute beginner to a team project bringing unprecedented KPIs and knowledge.
+
+1. [Intro](https://youtu.be/8dXe5kVbQvQ)
+2. [Transform a comic book into a Social Network](https://youtu.be/8dXe5kVbQvQ?t=52) : _"Learn by doing"_
+3. [The Rise of cartography](https://youtu.be/8dXe5kVbQvQ?t=137) : _Methodology_
+4. [Prototyping approach](https://youtu.be/8dXe5kVbQvQ?t=248) to **impact culture** & deliver
+5. [The stack we used](https://youtu.be/8dXe5kVbQvQ?t=426) _Tools we used_
+6. [IT Holism](https://youtu.be/8dXe5kVbQvQ?t=506) : _"The whole is greater than the sum of its parts"_
+7. [Holism Pyramid](https://youtu.be/8dXe5kVbQvQ?t=537) : _My IT Maslow Pyramide_
+8. [Get the data from the right place](https://youtu.be/8dXe5kVbQvQ?t=638) : API integrations, `csv`,...
+9. [Mapping the organization as entities and relationships](https://youtu.be/8dXe5kVbQvQ?t=754)
+10. [Putting metrics on the graph](https://youtu.be/8dXe5kVbQvQ?t=807)
+11. [Applications centralities by domain](https://youtu.be/8dXe5kVbQvQ?t=921)
+12. [From Vision drawing to data](https://youtu.be/8dXe5kVbQvQ?t=1015) _Identify SPOFs_
+13. [Skills management and cartography](https://youtu.be/8dXe5kVbQvQ?t=1086)
+14. [Topology as KPI](https://youtu.be/8dXe5kVbQvQ?t=1139)
+15. [Score how much "you DEVOPS"](https://youtu.be/8dXe5kVbQvQ?t=1197)
+16. [Applications & services centrality](https://youtu.be/8dXe5kVbQvQ?t=1269)
+17. [Technical Debt & EoLs](https://youtu.be/8dXe5kVbQvQ?t=1298)
+18. [Link source code to technical debt... to financial cost](https://youtu.be/8dXe5kVbQvQ?t=1436)
+19. [Cartography implementation metaphores and paradigms](https://youtu.be/8dXe5kVbQvQ?t=1492)
+20. [The skills we got](https://youtu.be/8dXe5kVbQvQ?t=1616)
+21. [Impact the culture](https://youtu.be/8dXe5kVbQvQ?t=1672)
+22. [The questions that matter](https://youtu.be/8dXe5kVbQvQ?t=1711)
+23. [Questions and answers](https://youtu.be/8dXe5kVbQvQ?t=1843)
+
+
+## 🍿 Whole speech
+
+{% youtube 8dXe5kVbQvQ %}
+
+## 🔬 Zoom & discover data model
+
+{% youtube 2cOMB3s3Fuw %}
+
+## 📜 The story of our datas
+
+{% youtube zFrwXuzwXEo %} 
+
+## 📊 Technical debt dashboards
+
+{% youtube w9zAWPxMcPk %}
+
+## ↩️ Menti results
+
+During the speak I asked people to answer some simple questions, here are the results about what people did expect :
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i8iznihzumd1w1nabqzl.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/v3lsgoxadnfhb1ph15iv.png)
+
+
+## 🕮 "La brousse en folie"
+
+Below is the source code of one of my datasets :
+
+{% embed https://github.com/adriens/brousse-en-folie-network %}
+
+
+## 🔖 Complete playlist
+
+Neo4J has published all speeches, just pick the ones that interest you the most :
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0hye3g8fallr19ywzqns.png)](https://youtube.com/playlist?list=PL9Hl4pk2FsvWPcphew_GbLjCWvMpmh4mV)
+
+{% twitter 1597628959776292864 %}
+
+---
+
+---
+comments: 1
+id: 1298835
+is_dev_challenge: false
+published_at: '2022-12-20T06:22:42Z'
+reactions: 1
+reading_time_minutes: 2
+tags:
+- github
+- datascience
+- showdev
+- management
+title: 🏎️ Yearly GitHub.com repos review (as a movie) 📽️
+url: https://dev.to/optnc/yearly-githubcom-repos-review-as-a-movie-59dg
+---
+
+## 🎯 About this series
+
+What you'll discover in this series is **the knowledge we got by working on the data** our activity did generate on GitHub.com, only by using its [(always richer) set of APIs](https://docs.github.com/en/rest/issues?apiVersion=2022-11-28).
+
+## ❔ Intro
+
+GitHub.com is a complete platform on which people :
+
+- 🧑‍🤝‍🧑 Build & **socialize** around code
+- 🎁 **Contribute**
+- 📅 Manage **projects**
+- 📦 **Deliver** software
+- 🚀 Trigger **deployments**
+
+**Each of these activities generate structured data** that describe what you did, when, with who... and (hopefully 😅) why.
+
+Some reporting is already delivered through charts by GitHub:
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r7lfsnts4ro6eaunlsaf.png)
+
+... but sometimes you can be challenged by many questions, including (but not only) one of the most crucial one : 
+
+> _"How much time (and where) do you spend on `BUILD` vs. `RUN`"_
+
+or this one:
+
+> _"You talk about BOTs and third party services... but how can you tell me more about the ROI ... and how it helps achieve more things ?")_
+
+👉 **In this episode**, we'll only **focus on reporting which repositories have been the most active** during the past year... through a **format anyone can immediately understand.**
+
+## 🍿 Demo
+
+The **chart race of the most active repositories**, based on issues activity :
+
+{% youtube aFtJx-dEqug %}
+
+## 🧰 Stack
+
+Here is the flow we used to produce the content :
+
+1️⃣ Dump GitHub issues to `csv` with Python [`invoke`](https://www.pyinvoke.org/) tasks
+2️⃣ Use [`Jupyter Notebook`](https://jupyter.org/)
+3️⃣ Generate Race Chart with [`Bar Chart Race`](https://www.dexplo.org/bar_chart_race/)
+
+## 💰 Benefits
+
+By a **single movie** we could show how our most trendy activity evolved over the months since our migration from onPrem GitLab to GitHub.com... without having ever asked anyone to fill a single timesheet. 😅
+
+---
+
+---
+comments: 1
+id: 1302826
+is_dev_challenge: false
+published_at: '2022-12-27T06:56:50Z'
+reactions: 2
+reading_time_minutes: 2
+tags:
+- github
+- datascience
+- management
+- api
+title: 🎫 Let tag crowd do your GitHub {repo}rting ☁️
+url: https://dev.to/optnc/let-tag-crowd-do-your-github-reporting-2mik
+---
+
+## ❔ About
+
+Have you ever been challenged to explain/report within a few seconds what has been done on a project ?... and most important where did you actually put your efforts.
+
+**Based on the fact that your highly us issues** to manage any task on your project and has achieved some automation around them, then it's a treasure that only asks to be shown.
+
+## ☁️ Let the clouds help
+
+As part of our activities reporting we could produce some very useful content that **help understand a project activity within less than a second**... and even perform some classification.
+
+## 📊 Output samples
+
+### 🧑‍💼 Division activity
+
+Assuming you want to have a look at the issues accross all your repos, here is what we got: 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/514w70av256l05uzgu2z.png)
+
+### 🧰 Maintenance milestone (Angular App)
+
+We also wanted to focus on a specific project. You can immediately see that activity was focused on Angular upgrade:
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1f8rl1jqcde60qwf9m1m.png)
+
+### 🛤️ Quarkus app (standard maintenance phasis)
+
+Sometimes you have running projects with few or no enhancements, this is what you can immediately see:
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0qt9uioim1rea4eg4k8t.png)
+
+
+### 💦 Better understand stack and efforts
+
+On this one, we got a glance on what has been achieved and about the stack we used:
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ngfut6dttd8amoe74of8.png)
+
+## 💰 Conclusion
+
+These charts at first looked _futile_ but as soon as we saw them, we found them profoundly useful as they make it possible to 
+
+> _explain within a single image what kind of activity has been achieved, under which proportion and with which stack._
+
+Finally it really worth a thousand mails with explanations... and it's **fully driven by real code activity.**
+
+---
+
+---
+comments: 5
+id: 1308818
+is_dev_challenge: false
+published_at: '2023-01-03T10:02:31Z'
+reactions: 1
+reading_time_minutes: 2
+tags:
+- lowcode
+- nocode
+- cigref
+- cloud
+title: '⚖️ Low Code vs. No Code : unleash value while mastering risks ☁️'
+url: https://dev.to/optnc/low-code-vs-no-code-unleash-value-while-mastering-risks-1koc
+---
+
+## ❔ About
+
+[Cigref](https://www.cigref.fr/english) recently published a report called : 
+
+> "New Low Code/No Code dev practices : unleash value while keeping risks under control"
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/w7p0lo4509cfpv6q1pyt.png)](https://www.cigref.fr/nouvelles-pratiques-de-developpement-low-code-no-code)
+
+In this post, you'll find some remarkable points.
+
+## ℹ️ Remarkable points
+
+- 💰 **Opportunities** : it makes it possible to create apps at a very reduced cost
+- 📜 **Guidelines and rules** to maximize success : help document and implement process standardization (decision tree, HR process, document workflow management,...)
+- 🍝 **Urbanization** : create a shared responsibility between Information System and end-users
+
+## ⚖️ Low Code vs. No Code
+
+- `No Code`: _suited to prototype, create a MVP just by using ready to use components_
+- `Low Code`: _Suited to create apps that last longer but that aren't business critic (workflow, web pages,...)_
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/yri2fj7w48xjgew2diec.png)
+
+## 👮 `BUILD` & `RUN` guidelines
+
+- 📜 Setting a dedicated governance is a prerequisite for a good deployment
+- ⚖️ Define criteria to choose Low vs. No code solutions
+- 💸 Master costs (pay attention to _freemium_)
+- 🥇 Put the most successful ones under greater control
+- 🏙️ Master urbanization
+- 🛑 Explain where autonomy starts and ends
+- 🧑‍🤝‍🧑 Get a dedicated entity at the development side
+- 📊 Setup clear eligibility criteria : _"How business critic is the app, how many users,..."_, _"How complex is UI/UX"_, _"How long will the app last"_
+- 🔙 Reversibility
+- 🏬 Use **APIs by consulting API portfolio or Marketplace** 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/amhkepwpztfg7zv43wdg.png)
+
+
+## 🔖 Resources
+
+This post is a very (very) condensed version from the original version.
+Hopefully you'll be interested in consulting the whole report which has a very rich set of practices, examples and guidelines.
+
+Find below the original content:
+
+- [Nouvelles pratiques de développement Low Code / No Code : Libérer la valeur en maîtrisant les risques](https://www.cigref.fr/nouvelles-pratiques-de-developpement-low-code-no-code)
+- [Cigref activity report](https://www.cigref.fr/wp/wp-content/uploads/2022/05/@Cigref_EN_activity_report_2021.pdf)
+
+---
+
+---
+comments: 1
+id: 1312604
+is_dev_challenge: false
+published_at: '2023-01-11T19:29:17Z'
+reactions: 0
+reading_time_minutes: 2
+tags:
+- beginners
+- typescript
+- javascript
+title: 🔁 Browse Neo4J EoL versions inside Neo4J AuraDB 🤓
+url: https://dev.to/optnc/browse-neo4j-eol-versions-inside-neo4j-auradb-1ncb
+---
+
+## ❔ About
+
+Sometimes, you may need to know if the current Neo4J version you are running is up-to-date, **which versions are available**, supported... **or simply if you have the `latest` version of your release so you can achieve maintenance.**
+
+In this post, you'll discover how to achieve this in pure [`Cypher`](https://neo4j.com/developer/cypher/) with the help of [`APOC`](https://neo4j.com/developer/neo4j-apoc/).
+
+To show how easy the process is, we'll do this on [`AuraDB`](https://neo4j.com/cloud/platform/aura-graph-database/), from scratch.
+
+## 🍿 Demo for impatients
+
+{% youtube rpRDstHf-fk %}
+
+## 🕹️ Script time for geeks
+
+```cypher
+// Get the current version
+call dbms.components() yield name,
+  versions,
+  edition
+unwind versions as version
+return name, version, edition;
+```
+
+
+```cypher
+// Load all products
+CALL apoc.load.json("https://endoflife.date/api/all.json")
+  YIELD value
+  UNWIND value.result AS product
+MERGE (p:EOLProduct {name: product,
+  url: 'https://endoflife.date/' + product});
+
+// create unique index
+CREATE CONSTRAINT EOL_UNIQUE_PRODUCTS
+FOR (p:EOLProduct)
+REQUIRE p.product IS UNIQUE;
+
+MATCH (p:EOLProduct) RETURN p;
+
+
+MATCH (p:EOLProduct) 
+  CALL apoc.load.json('https://endoflife.date/api/neo4j.json')
+  YIELD value
+MERGE (c:EOLCycle {product: p.name,
+       cycle: value.cycle,
+       eol: value.eol,
+       //support: value.support,
+       latest: value.latest,
+       latestReleaseDate: value.latestReleaseDate,
+       releaseDate: value.releaseDate,
+       lts: value.lts//link: value.link
+       }
+       );
+
+// link cycles with products
+MATCH
+  (c:EOLCycle),
+  (p:EOLProduct)
+WHERE c.product = p.name
+  CREATE (c)-[r:EOL_CYCLE_OF]->(p)
+RETURN type(r);
+```
+
+... then get releases of `Neo4J` :
+
+```cypher
+MATCH (c:EOLCycle)-[r:EOL_CYCLE_OF]->(p:EOLProduct)
+  WHERE p.name = 'neo4j'
+RETURN c,r,p;
+```
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nc6xn1fk8rs5viclou2t.png)
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mvtks700humzbq3wek2r.png)
+
+
+## 🔖 Related content
+
+{% embed https://github.com/endoflife-date/endoflife.date/issues/2211 %}
+
+---
+
+---
+comments: 2
+id: 1224570
+is_dev_challenge: false
+published_at: '2023-02-06T20:30:44Z'
+reactions: 0
+reading_time_minutes: 1
+tags:
+- datascience
+- datavis
+- neo4j
+- cloud
+title: 📊 DOMAINE.nc on Neo4J AuraDB Neodash gallery 🎨
+url: https://dev.to/optnc/domainenc-on-neo4j-auradb-neodash-gallery-2dm7
+---
+
+## ❔ About
+
+We have release an API for [`DOMAINE.nc`](https://www.domaine.nc/) so we get a nice [`whois`](https://www.domaine.nc/whos) for New-Caledonia.
+
+This also makes it possible to make a full `csv` extract... and then to load it into Neo4J (see [ready-tu-use Neo4J dumps](https://github.com/opt-nc/domaine-nc-jupyter-notebook/tree/main/dump)).
+
+See following repo for more:
+
+{% github https://github.com/opt-nc/domaine-nc-jupyter-notebook %}
+
+## 💡 Inception
+
+While chating with [Niels de Jong](https://www.linkedin.com/in/nielsdjong/) about [`neodash`](https://neo4j.com/labs/neodash/), Niels offered me to develop and publish a deshboard on [NeoDash Dashboard Gallery 🎨](https://neodash-gallery.graphapp.io/).
+
+Finally, a dump could be imported in [Neo4j AuraDB](https://neo4j.com/cloud/platform/aura-graph-database/)
+
+## 🍿 What you'll discover
+
+Below you'll discover how it is now possible to interact (and even customize a lowcode [dashboard and stunning (and ever growing) visualizations ](https://neo4j.com/labs/neodash/2.1/developer-guide/component-overview/) on DOMAINE.nc datas)
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jduofro821ht7oa20mf3.png)
+](https://neodash-gallery.graphapp.io/)
+
+## 📑 Neodash resources & News
+
+- [🗞️ NeoDash 2.0 – A Brand New Way to Visualize Neo4j](https://neo4j.com/developer-blog/neodash-2-0-a-brand-new-way-to-visualize-neo4j/)
+- [🎨 NeoDash Dashboard Gallery](https://neodash-gallery.graphapp.io/)
+- [📝 Week 35 :  Discover AuraDB Free  – NODES 2022 Sessions](https://neo4j.com/developer-blog/week-35-discover-auradb-free-nodes-2022-sessions/)
+- [🤓 Neodash on GitHub](https://github.com/neo4j-labs/neodash)
+
+## 🍿 Show time
+
+{% youtube Exr_csN1Epc %}
+
+---
+
+---
+comments: 3
+id: 1358819
+is_dev_challenge: false
+published_at: '2023-02-08T23:06:41Z'
+reactions: 2
+reading_time_minutes: 1
+tags:
+- discuss
+title: 📜 Better collab flows w. (git) Conventional Commits
+url: https://dev.to/optnc/better-collab-flows-w-git-conventional-commits-49j8
+---
+
+## ❔ About
+
+When you create software, delivering it as fast as possible : 
+
+- 🛡️ Without impacting your end-users with breaking changes and deliver
+- ⚡ Consistently deliver features as soon as they are ready
+- 💡 Deliver on-purpose versions according to a coherent semantic
+- 📜 Deliver nice looking and auto-documented release notes
+
+🫵 You have no option : _"you have to automate that"_... and the best place to do that is just at the beginning of the pipeline :** within code activity, within the commits themselves.**
+
+## 🎯 What you'll learn (`< 15'`)
+
+In this post (and **without any `git` required knowledge**), you'll see how  this can be achieved within a simple yet very powerful demo that helps understand core concepts.
+
+## 🍿 Demo
+
+{% youtube Er-W5J5ky7Q %}
+
+## 📑 Resources
+
+- [Conventional Commits](https://www.conventionalcommits.org)
+- [`semantic-release`](https://semantic-release.gitbook.io/semantic-release/)
+- [Commitizen](https://github.com/commitizen)
+- [`IntelliJ` Conventional Commit plugin](https://plugins.jetbrains.com/plugin/13389-conventional-commit)
+- [`VS Code` Conventional Commits extension](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
+- [`maven-semantic-release`](https://github.com/conveyal/maven-semantic-release)
+- [`semantic-release-helm`](https://github.com/m1pl/semantic-release-helm)
+- [`semantic-release-pypi`](https://github.com/abichinger/semantic-release-pypi)
+- [`semantic-release-gh-pages-plugin`](https://github.com/qiwi/semantic-release-gh-pages-plugin)
+- [`@semantic-release/github`](https://github.com/semantic-release/github)
+- [`@semantic-release/release-notes-generator`](https://github.com/semantic-release/release-notes-generator)
+
+## 🙏 Acknowledgments
+
+`kudos` to @lschaeffer313 for the session, we had a great moment together... and the technique has been adopted on all our projects, for a daily usage.
+
+---
+
+---
+comments: 3
+id: 1358904
+is_dev_challenge: false
+published_at: '2023-02-13T20:10:36Z'
+reactions: 0
+reading_time_minutes: 1
+tags:
+- kotlin
+- multiplatform
+- mobile
+- productivity
+title: ♾️ Efficient stack management with eol on GitHub 🧑‍🤝‍🧑
+url: https://dev.to/optnc/efficient-stack-management-with-eol-on-github-24g8
+---
+
+## ❔ About
+
+🫵 Have you already been **challenged** with the following questions : 
+
+> _🤓 Hey... What's your stack ?_
+
+> _🤔 Is our version of `${product}` still supported ❔_
+
+> _😱 Since how many years are we out of support on `${product}` ⁉️_
+
+☝️ If yes... **this post is for you**.
+
+As we were asking ourselves these questions, we decided to industrialize this:
+
+- 🏗️ At scale
+- 🧰 With code and tools
+- ♾️ As part of our `DEVOPS` culture
+- 📊 `data-driven` (`APIs`, databases, quality & analysis tools...)
+- 🧑‍🤝‍🧑 With collaborative tools
+
+
+## 🍿 Demo (`< 30'`)
+
+{% youtube YmRxsOLqC7s %}
+
+## 📑 Resources
+
+- [Our courses on KillerCoda](https://killercoda.com/opt-labs/)
+- [`DEVOPS` tools on Killercoda](https://killercoda.com/opt-labs/course/devops-tools)
+- [`Manage End of Life from terminal with eol`](https://killercoda.com/opt-labs/course/devops-tools/eol)
+- [`eol`](https://github.com/hugovk/norwegianblue)
+
+## 🤓 Further with `eol`
+
+{% github https://github.com/hugovk/norwegianblue/issues/135 %}
+
+---
+
+---
+comments: 2
+id: 1365802
+is_dev_challenge: false
+published_at: '2023-02-14T21:26:19Z'
+reactions: 2
+reading_time_minutes: 1
+tags:
+- devops
+- community
+- motivation
+- management
+title: '💝 St Valentin 2023 : 🍰 & 💌'
+url: https://dev.to/optnc/st-valentin-2023--5762
+---
+
+## 💘 Contexte
+
+Hier matin, à la DSI, une personne créative (et hautement friande de MEMEs et de geekeries), [Emilie Houziaux](https://www.linkedin.com/in/emilie-houziaux-12621630/) (aka.
+@miloutux007) nous avait préparé une surprise à la sallé café:
+
+- 🍰 Des gâteaux
+- 💌 Des love letters très spéciales ❣️
+
+Dans ce petit post, vous y trouverez quelque'unes de ses créations.
+
+## ☝️ `RTFM` 🤓
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ztrsrjtpl11v9b7ks8dn.png)
+
+## 🔑 Sécurité et certificats
+
+{% embed https://youtube.com/shorts/tEyZ1xFhZuM?feature=share %}
+
+## 👌 `UX`
+
+{% embed https://youtube.com/shorts/nTSvWRh133w %}
+
+## 🐛 No bugs 
+
+{% embed https://youtube.com/shorts/oWUXwt4pU0M %}
+
+## ↔️ REST APIs
+
+{% embed https://youtube.com/shorts/0cGLHOY-E7I %}
+
+## 🔗 Network
+
+{% embed https://youtube.com/shorts/MzteDDVD7f4 %}
+
+## 🐘 Database
+
+{% embed https://youtube.com/shorts/Ebc6DqKwSGI %}
+
+## ♾️ Code Loops
+
+{% embed https://youtube.com/shorts/t2JAIQsAjoU %}
+
+## ⚙️ Code compilation
+
+{% embed https://youtube.com/shorts/kHOclUDPTlk %}
+
+---
+
+---
+comments: 5
+id: 1373109
+is_dev_challenge: false
+published_at: '2023-02-20T20:22:05Z'
+reactions: 1
+reading_time_minutes: 1
+tags:
+- welcome
+title: 📢 Unboxing Domaine NC mobile v1.3.0
+url: https://dev.to/optnc/unboxing-domaine-nc-mobile-v130-59pi
+---
+
+## 🗞️ About
+
+A new version ([`v1.3.0`](https://github.com/lschaeffer313/domaine-nc-mobile/releases/tag/v1.3.0)) of has landed on the Play Store:
+
+{% embed https://play.google.com/store/apps/details?id=nc.laurent.domaine_nc_mobile %}
+
+Let's see what's new 🤓
+
+## 🍿 Unboxing
+
+{% youtube wD2mH2LMrP0 %}
+
+## 🪝 What's next
+
+If you wonder how we do to release so fast on our side project, stay tuned as we'll release a dedicated content very (very) soon ❣️
+
+---
+
+---
+comments: 1
+id: 1377746
+is_dev_challenge: false
+published_at: '2023-03-01T22:58:36Z'
+reactions: 1
+reading_time_minutes: 2
+tags:
+- devops
+- security
+- docker
+- productivity
+title: 🔬 Gitlab 15.8 analysis w. endoflife.date, grype, (x)eol 🐋
+url: https://dev.to/optnc/gitlab-158-analysis-w-endoflifedate-grype-xeol-24b0
+---
+
+## ❔ About
+
+Gitlab recently [released `15.9`](https://github.com/endoflife-date/endoflife.date/pull/2566) version:
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/z0wq2jo7yj614alxxuxy.png)](https://endoflife.date/gitlab)
+
+This opens a opportunity to take a closer look at upgrade opportunities, security and End of Life concerns **as part of maintenance process.**
+
+> **so we can compare `15.8` w. `15.9` (ie. why we should invest time in upgrading).**
+
+## 🎯 What you'll learn
+
+With this live demo, you will:
+
+- Discover with me (live) [`xeol`](https://github.com/noqcks/xeol)
+- See the whole "behind the scene" process of maintenance and documentation process.
+- Learn how to produce charts from cli with [`grype-contribs`](https://github.com/opt-nc/grype-contribs) : 
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/64t7euzz2cmf0ijmaasj.png)](https://github.com/opt-nc/grype-contribs/blob/main/JQ_TRICKS.md)
+
+... and also deal with very efficient `DEVOPS`/ `DEVSECOPS` tools.
+
+## 🧰 Tools
+
+- [`eol`](https://github.com/hugovk/norwegianblue)
+- [`grype`](https://github.com/anchore/grype)
+- [`syft`](https://github.com/anchore/syft)
+- [`xeol`](https://github.com/noqcks/xeol)
+- [`opt-nc/grype-contribs`](https://github.com/opt-nc/grype-contribs)
+- [`jq`](https://stedolan.github.io/jq/)
+
+## 👆 (Noobs) Notice about `xeol`
+
+Wthin `xeol`, getting the message:
+
+> "No eol found"
+
+means **everything is fine** for you around end of life cycle management 😅
+
+{% embed https://github.com/noqcks/xeol/issues/38 %}
+
+## 🎞️ (Live) Demo
+
+{% youtube 2tTqo1TZCyA %}
+
+## 💡 `xeol` trick : `--fail-on-eol-found`
+
+We can trigger a fail on `xeol` when an `EOL` is found:
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/qneknrw3qylb8ea7ew0n.png)](https://github.com/noqcks/xeol/pull/12)
+
+## ♾️ `xeol` GitHub Action
+
+If you want to check `EoLs` as part of the CI, just check this:
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vaqj7b0737amol5cxabg.png)](https://github.com/marketplace/actions/xeol-end-of-life-eol-scan)
+
+## 📑 Related stuff
+
+- https://github.com/noqcks/xeol/issues/38
+- https://github.com/endoflife-date/endoflife.date/pull/2568
+- https://github.com/endoflife-date/endoflife.date/pull/2569
+
+---
+
+---
+comments: 1
+id: 1314511
+is_dev_challenge: false
+published_at: '2023-03-17T02:18:55Z'
+reactions: 1
+reading_time_minutes: 1
+tags:
+- github
+- datascience
+- api
+- python
+title: 📅 GitHub Calendar issue reporting 🎫
+url: https://dev.to/optnc/github-calendar-issue-reporting-1a05
+---
+
+## ❔ About
+
+Each end of year, managers need to produce a report of the activity to put in perspective the load of the organization.
+
+👉 This post will show you some datavisualisations that rely on GitHub issues... as this is, (**_I want to believe_**) the item that :
+
+- 👌 Reflects the **best our activity**
+- 🙏 Requires the **less effort to be maintained** by the team
+
+## 😭 The hassle of timesheets
+
+{% youtube HAVXFzZ5tKs %}
+## 🏋️ Daily `RUN` tagged issues
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/40817hkf1z1ofe1bq3su.png)
+
+
+## 🚨 Daily incidents 
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/byopkwr4yhg0iuo1juna.png)
+
+## 🎫 Daily issues
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/mponz2kirqfw4myl16ve.png)
+
+## 💰 Daily `BUILD` tagged issues
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rjqiymj0lcse7m55hkij.png)
+
+## 🐛 Daily bugs
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hiohajpyfdrmgv0lfe2w.png)
+
+## 🔖 Resources
+
+- [`calplot`](https://pypi.org/project/calplot/)
+
+## 🎀 Bonus : GitHub year in review 
+
+{% twitter 1612535936557916190 %}
+
+---
+
+---
+comments: 6
+id: 1423617
+is_dev_challenge: false
+published_at: '2023-04-05T05:59:02Z'
+reactions: 0
+reading_time_minutes: 1
+tags:
+- docker
+- datascience
+- python
+- jupyter
+title: 🐋 Effortless Docker images trends on Kaggle 📈
+url: https://dev.to/optnc/effortless-docker-images-trends-on-kaggle-5bg
+---
+
+## ❔ About
+
+As we are going more and more digital, we rely and release an ever increasing set of artifacts : 
+
+{% twitter 1638339730772316164 %}
+
+... and as we go _cloud native_, docker images are a crucial part of it.
+
+So it makes sense you want to get KPIs about their:
+
+- 📝 **Description** & documentation quality (for better indexation and get traction)
+- 📈 **Popularity**
+
+This post is dedicated to this concern, for public images on DockerHub.com.
+
+## 💡 Inception
+
+I recently ran a **manual internal reporting** job on docker images, and I discovered that some of them were lacking descriptions : 
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/1wzibmm47qhjd21po4ch.png)
+
+So I wanted, on an automated and daily basis to : 
+
+- 🛑 **Lint images description** : be sure metadatas are properly setup
+- 📈 **Get & share KPis** of the images popularity (nb. of downloads/Pulls) 
+- 🦥 **Effortless** : get notified as soon a requirements are not met
+- 📢 **Share** popularity
+
+👉 Fortunately, DockerHub has a public API so this can be **achieved without too much efforts.**
+
+
+## 🍿 Demo
+
+{% youtube 2tWFPIPBZM4 %}
+
+## 🔖 Resources
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3neohoz8yds9afxqbnzd.png)
+](https://www.kaggle.com/code/optnouvellecaldonie/opt-nc-public-docker-images)
+
+---
+
+---
+comments: 1
+id: 1302981
+is_dev_challenge: false
+published_at: '2023-04-12T00:28:39Z'
+reactions: 1
+reading_time_minutes: 1
+tags:
+- tailwindcss
+- discuss
+title: '⚖️ Sankey Diagram : how much do you juggle with BUILD & RUN (GitHub issues
+  API) 🎫'
+url: https://dev.to/optnc/sankey-diagram-how-much-do-you-juggle-with-build-run-github-issues-api-2lgh
+---
+
+## ❔ About
+
+As a manager, you need to have insights about your team activity, especially balance for : 
+
+- `BUILD` vs. `RUN`
+- Issue/workload dispatch across the team
+
+## 🍿 Demo
+
+{% youtube hURvEy-O2oc %}
+
+## 💰 Insights
+
+Below some classical insights you may need to be aware of while managing any team activity : 
+
+- Who creates the most issues ?
+- Who gets the most assigned
+- Issue assignment flows ?
+- BOT importance on maintenance tasks
+- How people assign issues to others ?
+- `BUILD` vs. `RUN` split
+- `BUILD` vs. `RUN` ratio per collaborator
+
+## 🖼️ Gallery
+
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3meld9k0fi7nmr2q5ml9.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rzizw4gflemj5g5inrcf.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5gyla1eu11k00y5l5jgg.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xeopp0nnrciyq248xhr3.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i9o0r07k7vrgxk35t7kf.png)
+
+---
+
+---
+comments: 5
+id: 1313323
+is_dev_challenge: false
+published_at: '2023-04-19T21:20:06Z'
+reactions: 0
+reading_time_minutes: 2
+tags:
+- wecoded
+- inclusion
+- diversity
+- community
+title: 🔖 Get started with Apigee Management ⏱️
+url: https://dev.to/optnc/get-started-with-apigee-management-55dg
+---
+
+## ❔ About
+
+In this post you'll find a set of **very useful intros** contents to [Google Apigee](https://cloud.google.com/apigee).
+
+Below are listed the episodes **I found the most useful** to explain around me what can (and will) be achieved during our Apigee journey at [`opt-nc`](https://dev.to/optnc).
+
+Hopefully you'll find as useful as I do 😅.
+
+## ☝️ Notice
+
+Transforming APIs from an "obscure developer concern" to an organizational strategic asset to achieve Digital Business Transformation can be a challenging task.
+
+👉 The main purpose of this post it to **help anyone engaged in this journey with helpful resources** by:
+
+🗣️ Being able to **share the knowledge** around you
+🛣️ Transforming an **API to a product**
+
+
+## 🎯 What you'll learn (in less than 20')
+
+You'll find the following topics:
+
+🛡️ Security
+🛑 Quotas
+⚡ Caching
+🦾 Transformations
+❗ Error handling
+🗠 Monitoring
+🪙 API product, service plan, monetization 
+➿ Lifecycle management
+
+
+## 🚀 Intro
+
+ℹ️ If you have to **talk about API management or explain what Apigee is**, this is the right content :
+
+{% youtube vGe38icp0n4 %}
+
+## 🏬 Developer portal
+
+ℹ️ If you have to explain what you can achieve and **how Apigee can help develop and share services with developers or partners**, this is the right content :
+
+{% youtube Zrxn247FqtM %}
+
+## 🧰 API proxy
+
+ℹ️ Learn how to **create and customize** an API proxy.
+
+{% youtube t_E2_xs6Nns %}
+
+## 📊  Monitoring
+
+ℹ️ Know **where developers are**, API popularity, traffic patterns, **detect customer issues**, cache performance, Error code analysis, **latency** (response time analysis), developers engagement, End users device driven statistics & Geomap
+
+{% youtube yDbYSj8XaT8 %}
+
+💡 You may also take a glance at [Apigee API Analytics](https://youtu.be/A2KQ3GJvb98)
+
+## ✏️ Apigee on `mingrammer/diagrams`
+
+As any other service, it is important to be **able to document architecture... with code.**
+
+Therefore, you can follow this dedicated issue:
+
+{% twitter 1646792983579344901 %}
+
+## 📑 Related resources
+
+- Dedicated and complete [Youtube playlist](https://goo.gle/386ZycJ)
+- [Full Apigee demo](https://youtu.be/58smxQu3P5k)
+- [Steps on how to create an API proxy](https://goo.gle/2UkN6Cr)
+- [Accessing your API proxies (create an internal virtual machine or external load balancer)](https://goo.gle/3x6hbEt)
+- [Go deeper with policies in API proxies](https://goo.gle/3y85vkC)
+- [Addressing your API use cases: Choosing between Apigee, API Gateway, and Cloud Endpoints](https://cloud.google.com/blog/products/application-modernization/choosing-between-apigee-api-gateway-and-cloud-endpoints/)
+
+---
+
+---
+comments: 2
+id: 1457897
+is_dev_challenge: false
+published_at: '2023-05-09T20:01:07Z'
+reactions: 0
+reading_time_minutes: 1
+tags:
+- datascience
+- neo4j
+- productivity
+- beginners
+title: 🌌 Digital identities journey w. Neo4J
+url: https://dev.to/optnc/digital-identities-journey-w-neo4j-5gep
+---
+
+## ❔ About
+
+More and more, as digtialization spreads in our organizations, the importance of digital identities becomes every day more crucial for many reasons.
+
+If you add the fact that we rely on hybrid platforms (SaaS & onPrem) and services, at a point in time, you will need to know what a digital identity looks like for :
+
+- 🛡️ **Security** (access management, Active Directory,...) governance
+- 💸 **Licences** management
+- 🧑‍💼 **HR knowledge** (management, roles, peoples skills balance, prevent mental health issues,...)
+- ☁️ Third party **cloud platforms** (eLearning, GitHub, Kaggle, Onlineformapro,...)
+
+👉 This post is about **showing how we implemented this as a data-driven solution with Neo4J and code to answer complex question on our digitalization journey.**
+
+## 🗺️ Digital identity... the data way
+
+To discover what digital entities (current state of the art), we query our Neo4J instance's data with introspection like follows with [`apoc.meta.subGraph`](https://neo4j.com/labs/apoc/4.4/overview/apoc.meta/apoc.meta.subGraph/):
+
+```cypher
+CALL apoc.meta.subGraph({
+  includeLabels: ["Person",
+                  "GhMember",
+                  "KaggleMember",
+                  "OnlineFormaProUser",
+                  "DevToAccount",
+                  "SumoAgent",
+                  "UO",
+                  "CigrefJob"],
+  includeRels: []
+});
+```
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vl6l285rrtc1b9jrks4a.png)
+
+Now, enought talk, let's see how it looks.
+
+## 📘 The digital identity metagraph
+
+{% youtube 2aMK7LLAv2E %}
+
+## 🧑‍🤝‍🧑 Browse identities & people
+
+{% youtube KWaId5i88Ks %}
+
+## 🔖 Related resources
+
+I hope you enjoyed this content and found inspiration.
+
+For more about our data journey, just watch the dedicated speak at `#NODES22` : 
+
+
+{% embed https://dev.to/optnc/our-speech-about-it-holism-at-nodes22-1bpl %}
+
+---
+
+---
+comments: 1
+id: 1451829
+is_dev_challenge: false
+published_at: '2023-05-16T00:18:33Z'
+reactions: 1
+reading_time_minutes: 2
+tags:
+- neo4j
+- datascience
+- security
+- devops
+title: 🕵️ Active Directory Groups audit w. Neo4J
+url: https://dev.to/optnc/active-directory-groups-audit-w-neo4j-483o
+---
+
+## 🧐 About
+
+Active Directory is a crucial part of many Information Systems as it manages both **authentication and access management.**
+
+In this article, we'll **focus on Active Directory group management** analysis.
+
+## 🍿 Demo
+
+{% youtube 4LCZbkkCyfQ %}
+
+## 💰 Return On Investment
+
+With this data, we are now able to :
+
+- 📏 Produce **classification**
+- 🔮 Make **predictions**
+- 🕸️ Cross checking with **third party identity management services**
+
+## 🔭 Further with groups 
+
+We will **link these datas** (ie. relationships) on top of our our digital identity  management, see below:
+
+{% embed https://dev.to/optnc/digital-identities-journey-w-neo4j-5gep %}
+
+## 💡 Group tuning & _Minimum spanning tree_
+
+Having large set of groups **has impacts on performances**. Getting this data as a graph makes it possible to **use graph algorithms** to see if we can improve group assignment design thanks to [Minimum spanning tree](https://neo4j.com/docs/graph-data-science/current/algorithms/minimum-weight-spanning-tree/).
+
+## 📷 Screenshots gallery
+
+We often ask ourselves the same questions
+Below some still screenshots of our experience:
+
+### 🔬 Drilling down into someone's groups
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/agv38o8f2c9sq95alfx0.png)
+
+### ⚖️ Member & Guest accounts
+
+> Guest users have default restricted directory permissions. They can manage their own profile, change their own password, and retrieve some information about other users, groups, and apps. However, they can't read all directory information. B2B guest users are not supported in Microsoft Teams shared channels.
+
+Let's see how they are implemented:
+
+```cypher
+// Groupes dont les 2 agents et les 2 guests du GLIA sont membres
+MATCH (a:AD_agent {name:"3004XXX"})-[ia:IS_MEMBER_OF]->(g:AD_group)
+<-[ig:IS_MEMBER_OF]-(b:AD_agent {name:"2999XXX"})
+OPTIONAL MATCH (gu:AD_guest {name:"pXXX"})-[ip:IS_MEMBER_OF]->(g)
+OPTIONAL MATCH (gue:AD_guest {name:"dXXX"})-[id:IS_MEMBER_OF]->(g)
+RETURN a,g,b,gu,gue,ia,ig,ip,id
+```
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/8s6llx1y9ecnf11q303x.png)
+
+### 🐘 Biggest groups
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/h1zagri685wfwq5qdqry.png)
+
+### 🏋️‍♂️ Account having the largest amount of groups
+
+Getting a large amount of groups can mean many things, so being able to analyze this is worth taking a glance:
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9cl3hks8fn726xdlhb4a.png)
+
+---
+
+---
+comments: 1
+id: 1157018
+is_dev_challenge: false
+published_at: '2023-06-12T20:46:50Z'
+reactions: 1
+reading_time_minutes: 1
+tags:
+- api
+- rapidapi
+- showdev
+- tutorial
+title: 🧑‍🎓 Follow 📦 delivery in New-Caledonia w/ Discord🤖
+url: https://dev.to/optnc/follow-delivery-in-new-caledonia-with-rapidapi-4bh9
+---
+
+## ❔ About
+
+OPT-NC is delivering some public APIs on its own [RapidAPI Marketplace.](https://rapidapi.com/organization/opt-nc).
+
+In this POST, you'll learn how to use [one of its API](https://rapidapi.com/opt-nc-opt-nc-default/api/suivi-colis/) by : 
+
+1. Finding the API with Google
+2. Authenticating yourself
+3. Running some queries from terminal with `httpie`
+4. Play with various `httpie` authentication options
+5. Discover an innovation made possible thanks to our Marketplace
+
+
+## 🍿 Demo
+
+{% youtube d_vWqNONjCM %}
+
+---
+
+---
+comments: 5
+id: 1515101
+is_dev_challenge: false
+published_at: '2023-06-26T20:33:01Z'
+reactions: 0
+reading_time_minutes: 1
+tags:
+- java
+- api
+- showdev
+- apigateway
+title: 🙌 API marketplace & Open Innovation w/ UNC students 🎓
+url: https://dev.to/optnc/api-marketplace-open-innovation-w-unc-students-50fc
+---
+
+## ℹ️ About
+
+Each year, students of [University of New Caledonia](https://unc.nc/en/) gives to students and enterprises the opportunity to work together on [_"projets tutorés"_](https://iut.unc.nc/espace-entreprises/projets-tutores/) so students can work on real life projects with IT professionals.
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/763oow4gkez5zk0khuvg.png)](https://iut.unc.nc/espace-entreprises/projets-tutores/)
+
+This project has been realized in this context.
+
+
+## 🎯 Pitch
+
+What you'll see in this article is how and what has been achieved to reach the following target:
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/q8ogjzu9060xxl2jtv24.png)
+
+## 🧑‍🤝‍🧑 Team
+
+Nothing can be done without a team, here we are:
+
+- 👦 Kevin @kpetit
+- 👦 David @davnox900 
+- 👦 Irwan @isoernc 
+- 👨 Adrien @adriens
+
+## 🍿 Showtime
+
+Enough talk, let's see whathas been delivered, and how:
+
+{% youtube QHfvUnJQDl0 %}
+
+## 🔖 Resources
+
+- [`opt-nc/template-projet-tutore-unc`](https://github.com/opt-nc/template-projet-tutore-unc) GitHub template repository
+
+{% github opt-nc/domaine-nc-javafx %}
+
+---
+
+---
+comments: 2
+id: 1528628
+is_dev_challenge: false
+published_at: '2023-07-10T20:32:56Z'
+reactions: 2
+reading_time_minutes: 2
+tags:
+- api
+- docker
+- opendata
+- showdev
+title: '🤯 ridet-nc-api : service mesh API on top of heterogeneous Open Data'
+url: https://dev.to/optnc/ridet-nc-api-service-mesh-api-on-top-of-heterogeneous-open-data-4c3b
+---
+
+## 🙋 About
+
+New-Caledonia has an [Open Data platform](https://data.gouv.nc) on which public organizations (aka. [partners](https://data.gouv.nc/pages/Partenaires/)) come and share data, on various topics like:
+
+- 🧑‍⚕️ Health
+- 🌳 Ecology, climate & environment
+- 🧾 Taxes incomes
+- 📍 Geographic Information System (streets,...)
+- 🥬 Agriculture
+- 🎭 Culture & art
+- 📈 Economy & employment
+- 🧑‍🎓 Education
+- ⚡ Energy
+- 🏟️ Youth, sports, 
+- 💻 Technology
+- 🚌 Mobility
+- ...
+
+☝️ Unfortunately, for now, **as these datasets are provided by various [data providers](https://data.gouv.nc/pages/Partenaires/)**:
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/snjw0aaxvs7gulljseup.png)](https://data.gouv.nc/pages/Partenaires/)
+
+, there is no real common **governance on top of all these datasets.**
+
+👉 The consequence of this is that, as a developer, you want to work on a specific transversal subject,...
+
+> you'll have to deal many datasets to bring some real value, ... then achieve higher business values.
+
+
+🐌 In a word, **before to be able to answser specific business driven questions**, you'll have to:
+
+1. 🔬 **Learn** about the dataset dictionary
+2. 💪 **Deal** with each dataset
+3. 🕸️ **Link datasets** between each others with universal keys (or maintain a referential set of keys)
+4. 🛍️ Make (**create, release, deploy & maintain**) this as a **nice & ready-to-use API**
+5. 🎯 (At last) do your stuff : **work on your primary business goal**
+
+## 🦥 The `DX` word
+
+The Developer Experience (`DX`) word is quite straightforward:
+
+> **Everyone would rather jump-start straight to step 5... and not care about the boilerplate data side.**
+
+## 🪝 Pitch
+
+This post is all about _"How to make it possible to **jump start to Step 5**... , and most of all, how to prepare & deliver it at scale."_
+
+## 🍿 Demo
+
+To discover how we handled the challenge, just enjoy the following dedicated content that will **explain the whole process within a dedicated live data story telling.**
+
+{% youtube RawJXW_Lwag %}
+
+## 🔖 Resources
+
+- 📘 [Learn it](https://opt-nc.github.io/ridet-nc-api/)
+- 🐋 Pull it : [`optnc/ridet-nc-api`](https://hub.docker.com/r/optnc/ridet-nc-api)
+- 🛒 Use it : [on our marketplace](https://rapidapi.com/opt-nc-opt-nc-default/api/ridet-nc)
+
+---
+
+---
+comments: 16
+id: 1525197
+is_dev_challenge: false
+published_at: '2023-07-18T04:21:46Z'
+reactions: 3
+reading_time_minutes: 3
+tags:
+- github
+- ai
+- productivity
+- learning
+title: 📑 GitHub Copilot playlist 🦥
+url: https://dev.to/optnc/github-copilot-playlist-5h72
+---
+
+## 🤔 What is GitHub Copilot ?
+
+According to [Wikipedia](https://en.wikipedia.org/wiki/GitHub_Copilot),
+
+> _"GitHub Copilot is a cloud-based artificial intelligence tool developed by GitHub and OpenAI to assist users of Visual Studio Code, Visual Studio, Neovim, and JetBrains integrated development environments by autocompleting code"_
+
+## 📈 AI’s impact on `DX` (Developer eXperience)
+
+{% embed https://github.blog/2023-06-13-survey-reveals-ais-impact-on-the-developer-experience/ %}
+
+## 🎯 About
+
+Since we have recently subscribed to GH Copilot at [`opt-nc`](https://dev.to/optnc), I rapidly saw that during onboarding process, we had two kind of programmers:
+
+- 🤓 **The one who were already** using it (and paid it for personal usage)
+- 👶 The one who did not really know **what to expect from GH Copilot**
+
+💭 As the **onboarding is a never-ending process** (temporary project newcomers, turnover, etc...), I found interesting to **get some content to welcome newcomers.**
+
+One of the easiest thing is to prepare some **ready to use content.**
+
+This is what this article is about : **a set of video resources with fine shortcuts.**
+
+## 👶 Getting started with GitHub Copilot
+
+{% embed https://docs.github.com/en/copilot/getting-started-with-github-copilot %}
+
+## 🦾 Discover GitHub Copilot
+
+1. Discover Gh Copilot : [settings](https://youtu.be/IavOJI5OV7g?t=235)
+2. [How it works](https://youtu.be/IavOJI5OV7g?t=291)
+3. Ask for more suggestions [(`Ctrl+ENTER`)](https://youtu.be/IavOJI5OV7g?t=351)
+4. Force GH Copilot to get a hint [(the `\` option](https://youtu.be/IavOJI5OV7g?t=378))
+5. Navigate through [completions](https://youtu.be/IavOJI5OV7g?t=405)
+6. Partial hinting ([inline hints editing](https://youtu.be/IavOJI5OV7g?t=440))
+7. Create [Unit tests](https://youtu.be/IavOJI5OV7g?t=582)
+8. Chat with Copilot (as an assistant, Q&A) with [GH Copilot Chat (Side Window)](https://youtu.be/IavOJI5OV7g?t=719)
+9. The [chat window](https://youtu.be/IavOJI5OV7g?t=783)
+10. Ask questions about [particular parts of the code](https://youtu.be/IavOJI5OV7g?t=822)
+11. Create a full project from a [single PROMPT](https://youtu.be/IavOJI5OV7g?t=952)
+
+## ⌨️ GH Copilot CLI
+
+GH Copilot CLI is...
+
+{% youtube W-TSak7TR4w %}
+
+
+- GH Copilot [preview (waitlist consideration)](https://youtu.be/pw0SH7AHIFI?t=19)
+- GH Copilot CLI setup ([`npm`](https://youtu.be/pw0SH7AHIFI?t=32))
+- git commands with [`git?`](https://youtu.be/pw0SH7AHIFI?t=101)
+- Better cli [interop with GH Services witht he `gh?` command](https://youtu.be/pw0SH7AHIFI?t=242) (list PRs, list gists and [`fzf`](https://github.com/junegunn/fzf)) : 
+- General help for [cli with `??`](https://youtu.be/pw0SH7AHIFI?t=381)
+
+Very practical introduction:
+
+{% embed https://www.builder.io/blog/github-copilot-cli-first-look %}
+
+## 👩‍🚀 GitHub Copilot `X` (`openai`/GPT-4)
+
+The most exciting feature (my own opinion) is GH Copilot for Pull Requests:
+
+{% embed https://githubnext.com/projects/copilot-for-pull-requests %}
+
+That said, here are some bookmark for:
+
+- [Context conversations](https://youtu.be/8_0DJ9FOlOM?t=334)
+- [(Copilot for) Docs](https://youtu.be/8_0DJ9FOlOM?t=376)
+- BY FAR My favorite one : [GH for Pull Requests](https://youtu.be/8_0DJ9FOlOM?t=464)
+- [Resolving issues (I mean...literaly _"Hey Copilot, do this for me"_) with AI](https://youtu.be/8_0DJ9FOlOM?t=606)
+- [Reviewing PRs with AI](https://youtu.be/8_0DJ9FOlOM?t=675)
+- [AI PR completion](https://youtu.be/8_0DJ9FOlOM?t=698)
+- GH next : [Copilot for Docs](https://youtu.be/8_0DJ9FOlOM?t=803)
+- [Code Brushes (Code formating, buggy snippets,...)](https://youtu.be/8_0DJ9FOlOM?t=901)
+- [GH Copilot Labs](https://youtu.be/8_0DJ9FOlOM?t=954)
+
+## 🔭 Even further w/ GH Next
+
+Although it is not really dedicated to GH Copilot, you probably take a glance at this page:
+
+{% embed https://githubnext.com/ %}
+
+and discover GH Blocks:
+
+{% github githubnext/universe-blocks-demo-blocks %}
+
+
+## 🎀 Outro
+
+That's all folks. Hopefully you'll found this post useful... and helped you jump start in your GH Copilot journey 😊.
+
+---
+
+---
+comments: 5
+id: 1536423
+is_dev_challenge: false
+published_at: '2023-07-20T03:32:29Z'
+reactions: 2
+reading_time_minutes: 4
+tags:
+- neo4j
+- datascience
+- openai
+- nocode
+title: 🗣️🤖 Ask to your Neo4J knowledge base in NLP & get KPIs
+url: https://dev.to/optnc/ask-to-your-neo4j-knowledge-base-in-nlp-get-kpis-5ebd
+---
+
+## 🤔 Food for thought
+
+With this content we'll start to uncover a fascinating subject, which is:
+
+> The **cost/value balance of a question/answer**... and "the illusion of gratuitousness"
+
+As you will see, `AI` (and especially `AGI`) throws a lot of worries about [task encroachment](https://www.oecd-ilibrary.org/sites/e39255bb-en/index.html?itemId=/content/component/e39255bb-en)... but also helps challenging **deep questions about what is the ratio between cost & intelligence**, the impact it does already have on our collaborations... and most important :
+
+> _"How we join our intelligence and creativity **into a hybrid Humain/AI taskforce**?"_
+
+## 🗞️ `Neo4j`, `LLMs` and data
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/14elqw7s1o53t98su5zm.png)
+](https://neo4j.com/generativeai/)
+
+In this context no-code integration has landed on [NeoDash](https://neo4j.com/labs/neodash/):
+
+{% twitter 1678866394480525314 %}
+
+This post will show up:
+
+- 🧐 **Why** it matters
+- 🎯 **What** can be achieved with this new feature (and its potential impact on our organizations & workflows)
+
+
+## 🚼 How it works
+
+Before going further, we need to understand that all that we are going to do is: 
+
+1. **Ask a question** in [`NLP`](https://en.wikipedia.org/wiki/Natural_language_processing) (in english for now)
+2. **Call openai's LLM API to query meta graph** [`APOC`](https://neo4j.com/labs/apoc/) and build the `cypher` query
+3. **Get** the `cypher` (the query)
+4. **Locally run** the cypher against the data
+5. Customize **reports**
+
+## 🤔 Questions
+
+On your **daily activities**, you may be challenged by the following kind of questions that _look like (ie. follow the same pattern)_ : 
+
+- **How many** GitHub users do we have ? (as it **involves costs**)
+- **Who are the people** managed by `Mr X`  ?
+- **How many** GitHub repositories does `Team X` maintain ? (involves **capacity to maintain a set of services**)
+- **How many** virtual machine do we have ? (**involves size of infrastructures and then costs,...**)
+- **How much** do we spend on...
+- etc...
+
+👉 Therefore we built an **omniscient knowledge graph that is able to answer a very wide amount of questions about our organization.**
+
+Below some zoom-in into graph topology, so you (as well as the `LLM` we will use later) can **understand how to deal with data**:
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a46ydaavata3qr48kalj.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nq5h47fzi9xl5j9qo200.png)
+
+Now we are able to **transform a question into a dashboard widget:**
+
+{% twitter 1679730751934464000 %}
+
+## 🍿 Demo
+
+{% youtube hq_ZvUTCRWQ %}
+
+## ⚖️ Further on strategies
+
+With that first experimentation started to appear new kind of concerns, in particular the following one:
+
+> "A big omniscient giant vs. a myriad of little agents equipped of custom tools."
+
+This section is dedicated to **very briefly summarize these questions** so we can talk about them and optimize the design of our solutions, the way we could manage & answer incoming questions... and **most of our own learning path** so we can delegate automated tasks to AI and...
+
+> **focus on the ones that can't or are not yet automated.**
+
+## 💰 Benefits
+
+As a matter of fact, pretty shortly you're willing to automate questions answering tasks and re-invest that time.
+
+In short:
+
+- 🔗‍💥 People don't wait answers from your part : **they go faster with more freedom**, they don't make issues, etc...
+- 🧑‍🚀 You can focus on higher value added activities : **you go further and faster & gain in expertise**
+
+
+### 📊 NO-Code `Neodash`
+
+- No **skill** required
+- **Plug & play** strategy
+- Could be quite **expensive during query prototyping** phasis (but keep in mnd that [`OpenAI` is regularly reducing the price of its APIs](https://venturebeat.com/ai/openai-is-reducing-the-price-of-the-gpt-3-api-heres-why-it-matters/) while improving them)
+- Put in evidence that **"_Time is money_"**
+- **Remove the data guys from a potential bottleneck** situations where people expect them to produce more knowledge at a faster pace
+- Very convenient to **prototype**
+- Great for high level questions and **technically affordable by non-tech people** (which sets them free)
+- **No need to know the knowledge** graph design
+- **`100%` AI driven** and meta-schema driven
+- Prone to make misunderstandings and `cypher` error generation **(beware of large contexts, see below)** and adequate `LLM` model setup
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3hdd3rqq5p9g8gh4wxgq.png)
+
+### 🦜🔗 `Langchain` & custom tools
+
+[Langchain](https://github.com/hwchase17/langchain) and the implementation of [Custom Tools](https://python.langchain.com/docs/modules/agents/tools/how_to/custom_tools) also is a great (and very efficient) way to **setup a dedicated Q&A (for example for chat purpose) agent**.
+
+Here are some few points to consider:
+
+- **Skills required** for implementation
+- Requires to **know a preset of questions**
+- Could fall back to the global approach when the chain is not able to find the answser...  simply throw _"I'm sorry, but with my current toolset, I was not able to find a suitable answer."_
+
+That's all for now, hopefully you'll have found this content useful and made you consider new use cases around AI adoption.
+
+## 📘 Book
+
+Last but not least, reading this book also highly helped considerate new way of thinking the work itself and prepare the ~~future~~ present:
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/htndir8yr347kt4wqqo6.png)](https://www.goodreads.com/book/show/51300408-a-world-without-work)
+
+---
+
+---
+comments: 10
+id: 1531531
+is_dev_challenge: false
+published_at: '2023-07-25T06:33:44Z'
+reactions: 3
+reading_time_minutes: 1
+tags:
+- duckdb
+- githubactions
+- data
+- automation
+title: 🦆 Effortless Data Quality w/duckdb on GitHub ♾️
+url: https://dev.to/optnc/effortless-data-quality-wduckdb-on-github-2mkb
+---
+
+## 🪝 Teaser (for the impatients)
+
+Do you have a repository that relies on `csv` files... and want to operate:
+
+- 🛡️ **Protect your data** with quality intergrity checks before to _corrupt your data_
+- 🔬 **Check data quality** as part of your project lifecycle
+- 📊 Get operational **KPIs reporting**
+- ♾️ **Automate release process to explain** your contributors what has been achieved
+- 📦 **Deliver** data
+- 🤯 **Endless** usages
+
+🫵 Don't look further, this sort post will cover all these aspects with a practical and highly understandable workflow.
+
+## 🍿 Demo
+
+Enough talks, let's jump'in:
+
+{% youtube 90RhOdxWNqo %}
+
+## 🦆💻🔁🔧♾️🦆 `opt-nc/setup-duckdb-action`
+
+{% github opt-nc/setup-duckdb-action %}
+
+## 🔭 Further 🎀
+
+Once **CI (Continuous Integration) has been done**... you can also think (without a lot of efforts) **to Deliver that data to third party services, as part of your DEVOPS pipeline.**
+
+A this point I see two easy options:
+
+- Upload to _minio_ [`S3 API` w/ `HTTPS`](https://duckdb.org/docs/extensions/httpfs.html)
+- Use [MotherDuck](https://motherduck.com/)
+
+... which make your data available for new usecases, at no additional effort:
+
+{% youtube NQgHrszyQWY %}
+
+---
+
+---
+comments: 2
+id: 1570623
+is_dev_challenge: false
+published_at: '2023-08-17T20:27:19Z'
+reactions: 2
+reading_time_minutes: 8
+tags:
+- api
+- interview
+- data
+- news
+title: 🎯 Data strategy for (not so) dummies
+url: https://dev.to/optnc/data-strategy-for-not-so-dummies-1b23
+---
+
+## ❔ About
+
+Sometimes ago, I saw this tweet from [`Cigref`](https://twitter.com/Crigref) in my thread:
+
+{% twitter 1665988346881908736 %}
+
+... and as they made it available as a `pdf` (recently available in English), it was quite comfortable to bring it with me on my e-reader.
+
+After a few lines, the content was so meaningful that I decided:
+
+- To **put things in perspective for myself** to better understand how my current topics intricate are
+- **Share some key points** so anyone could benefit of this document... and go further by reading the full version
+
+This post could hence be seen as a teaser for:
+
+{% embed https://www.cigref.fr/data-analytics-governance-and-architecture %}
+
+## 🎤 Intro : Live interview
+
+The _data strategy_, a tool to achieve enterprise goals like:
+
+- **Create** new services
+- Achieve Operational **excellence**
+- Corporate **social responsibility**
+- **Carbon** footprint reduction
+- ...
+
+{% embed https://www.bfmtv.com/economie/replay-emissions/01-business/elaborer-et-mettre-en-place-la-strategie-data-03-06_VN-202306030319.html %}
+
+So the big questions are:
+
+1. **How** do we handle it
+2. **What** for
+
+## 🤯 Change, change, change...
+
+First some context about [Expected 2021 IT FTE Change in IT Activities](https://www.gartner.com/en/newsroom/press-releases/2021-03-31-gartner-survey-reveals-over-half-of-cios-plan-to-increase-full-time-employees-in-it-to-accelerate-digital-business-initiatives-in-2021)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/g0it92u38ueogw7xx1gq.png)
+
+
+> _“While CIOs plan to hire more staff in several areas critical to meeting changed consumer and employee expectations, most **will not be able to meet their planned talent strategy goals without also upskilling or refocusing their existing teams**,”_ said Mr. Charlet.
+
+So, in my case, I could see the keypoints I invest a lot:
+
+- 🦾 Business workflow **automation**
+- 🔗 **Integration** (eg. APIs)
+- ☁️ **Cloud** platforms
+- 🤯 _"**upskilling or refocus** of existing teams"_
+
+## 📖 Develop and implement a data strategy
+
+> _"The data strategy **touches on the very image of the organization**, its values, its aspirations and projects
+for the future: it really is an issue of transforming the business."_
+
+> _"**Data is an asset for the entire organization**, not just for one department or business unit. This is why** companies and public administrations are transforming themselves** to make better use of this data, investing in building and implementing a data strategy that can serve their overall strategy."_
+
+## ☂️ The case of External risk of disruptive innovation
+
+> _"The **core business is being disrupted by the emergence of new players** on the periphery with a business model based on using data from the original business. The question for companies is how to react."_
+
+> _"The specificity of this **external or transversal threat** is that it changes the perception of customers, which **forces the company to adapt to better meet their expectations**."_
+
+💡 A good way to sensitize about that may be to bring internal - and kind - disruptive innovation as part of the data culture... so we could **make the enterprise adapt earlier thanks to "insiders".**
+
+### 📜 Develop a data strategy
+
+Below some the high level roadmap : seeing it so clearly explained helps **focus on the key points to help make things possible**.
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/eovfq977c8lujxxrn78z.png)
+
+As collaborators, our mission is to **help achieve the goal fixed by strategy** with skills and tools.
+
+For example, in my case a way to **transform this strategy into action plan** may be to:
+
+1. **🧑‍🤝‍🧑 Help develop employee's data culture** : by blogging and showing what can be achieved with data and APIs in a way so everyone may understand it
+2. 🎯 Get **Specific Business Objectives** : starting from our [Strategic Plan](https://office.opt.nc/fr/strategie/construire-demain-OPT-2025) is a great way to do this
+3. **🔬 Identifiy relevant data** to be used : as [we have an up-to date cartography knwoledgebase](https://dev.to/optnc/our-speech-about-it-holism-at-nodes22-1bpl), this is quite easy to achieve
+4. **🏗️ Prepare the architecture and technical bricks** : this is where innovation comes in as it makes it possible to **learn by doing** and start deliver services at low risk but still by deliver services (and helps develop employee's data culture)
+
+☝️ One of the objectives I want to achieve with my team is to :
+
+>  _"translate the data strategy into small steps that each bring value, in other words,quick wins."_
+
+So, a daily mantra could be:
+
+> _"Data strategy is not just a technical issue, it is part of business transformation"_
+
+... hence it's **our job to make it a daily concern**.
+
+## 📉 Time to market
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pgtmq8lv6fsq5gxux1aq.png)
+
+## 🏛️ Data strategy pillars
+
+- **Data Governance**: Establishing a framework for managing and protecting data, including defining roles and responsibilities, data quality standards, and data privacy and security measures.
+- **Data Architecture**: Designing the structure and organization of data, including data models, data storage, and data integration methods.
+- **Data Management**: Implementing processes and procedures for data collection, storage, cleansing, and maintenance to ensure data accuracy, consistency, and accessibility.
+- **Data Analytics**: Utilizing data to gain insights and make informed decisions, including data analysis, data visualization, and predictive modeling.
+- **Data Culture**: Fostering a data-driven mindset and promoting data literacy across the organization, encouraging employees to use data in their decision-making processes.
+- **Data Privacy and Security**: Ensuring compliance with data protection regulations and implementing measures to safeguard sensitive data from unauthorized access or breaches.
+
+These pillars work together to **establish a comprehensive data strategy that enables organizations** to effectively manage and leverage their data assets.
+
+## 🧪 Innovation role
+
+- **Increasing Market Share**: Innovation can help companies and public administrations identify new business opportunities and develop new services or products based on data. By leveraging innovative approaches and technologies, organizations can create unique value propositions that attract customers and increase their market share.
+- **Defending Against External Disruption**: Innovation is essential for organizations to respond to external threats and disruptive innovations. By continuously exploring and adopting new technologies and data-driven approaches, companies can stay ahead of the competition and protect their market position.
+- **Better Adjustment of Responses to Customers/Users**: Innovation enables organizations to better understand their customers or users by analyzing data and identifying patterns or trends. This understanding can lead to the development of personalized and tailored responses, improving customer satisfaction and loyalty.
+- **Improving Operational Excellence**: Innovation can drive operational excellence by optimizing processes, reducing costs, and improving overall efficiency. By leveraging data and analytics, organizations can identify areas for improvement, make data-driven decisions, and implement innovative solutions to enhance their operations.
+
+In summary, **innovation is a critical component of a data strategy** as it enables organizations to leverage data effectively, identify new opportunities, respond to external threats, enhance customer experiences, and improve operational efficiency. By embracing innovation, organizations can unlock the full potential of their data and drive sustainable growth and success.
+
+## ➿ Disruption and Open innovation ?
+
+Disruption and open innovation play a **significant role in shaping the pillars of a data strategy**.
+
+According to my understanding, here's how they contribute to different aspects of a data strategy:
+
+- **🧑‍🤝‍🧑 Data Governance**: Disruption and open innovation challenge traditional data governance practices by introducing new sources of data and collaboration models. They require organizations to establish flexible governance frameworks that can adapt to changing data landscapes and accommodate external data sources.
+- **🕸️ Data Architecture**: Disruption and open innovation often involve the integration of new technologies and platforms. This requires organizations to design scalable and agile data architectures that can accommodate diverse data sources, handle large volumes of data, and support real-time data processing.
+- **🏋️ Data Management**: Disruption and open innovation generate vast amounts of data from various sources. Effective data management practices are essential to ensure data quality, data integration, and data accessibility. Organizations need to implement robust data management processes and technologies to handle the influx of data and derive meaningful insights from it.
+- **📊 Data Analytics**: Disruption and open innovation provide organizations with access to new data sets and analytical techniques. This enables them to uncover valuable insights, identify emerging trends, and make data-driven decisions. Organizations need to invest in advanced analytics capabilities and develop a culture of data-driven decision-making to leverage the potential of disruption and open innovation.
+- **👐 Data Culture**: Disruption and open innovation foster a culture of experimentation, collaboration, and continuous learning. They encourage organizations to embrace data-driven approaches and empower employees to explore new ideas and solutions. Building a data culture is crucial for organizations to effectively leverage disruption and open innovation in their data strategy.
+- **🛡️ Data Privacy and Security**: Disruption and open innovation introduce new challenges in ensuring data privacy and security. With the increased use of external data sources and collaboration with external partners, organizations must prioritize data privacy and security measures. This includes implementing robust data protection measures, complying with relevant regulations, and establishing secure data sharing practices.
+
+To summarize, **disruption and open innovation are integral to a data strategy** as they drive organizations to adapt their data governance, architecture, management, analytics, culture, and privacy and security practices to **leverage the opportunities presented by these trends**.
+
+
+## ⚡ Risks around open innovation and disrupting case
+
+Open APIs, open innovation, and the** disruption of use cases by third parties** can pose several risks to organizations in terms of their data strategy.
+
+Below some of the risks associated with these factors:
+
+- **Data Security and Privacy Risks:** When organizations **open up their APIs and share data with third parties**, there is a risk of unauthorized access, data breaches, and misuse of sensitive information. This can lead to reputational damage, legal consequences, and loss of customer trust.
+- **Intellectual Property Risks**: Open innovation and the sharing of data with third parties can expose organizations to intellectual property risks. There is a possibility that third parties **may use the organization's data to develop similar or competing products/services**, potentially infringing on the organization's intellectual property rights.
+- **Loss of Control**: Opening up APIs and allowing third parties to access and use data can result in a loss of control over how the data is used, manipulated, and shared. Organizations may find it challenging to enforce data governance policies and ensure compliance with regulations.
+- **Competitive Disadvantage**: Third parties leveraging open APIs and open innovation **can disrupt traditional use cases and business models**. This can lead to a loss of market share, revenue, and competitive advantage for **organizations that are not able to adapt quickly** to the changing landscape.
+- **Quality and Accuracy of Data**: When third parties are involved in using an organization's data, there is a **risk of data quality and accuracy issues**. Organizations may have limited control over how the data is collected, processed, and validated by third parties, which can impact the reliability and integrity of the data.
+- **Dependency on Third Parties**: Organizations relying heavily on open APIs and third-party innovation **may become dependent on these external entities**. If a third-party provider experiences disruptions, discontinues their services, or changes their terms and conditions, it can **significantly impact the organization's operations and data strategy**.
+
+## 🛡️ Risk mitigation 🧑‍⚖️
+
+To mitigate these risks, organizations should implement  *robust data governance practices**, including:
+
+- Data access controls,
+- Encryption,
+- Monitoring mechanisms.
+
+They should also establish clear **agreements and contracts** with third parties to ensure:
+
+- Data security,
+- Intellectual property protection,
+- Compliance with regulations.
+
+Regular **audits and assessments of third-party partners** can help ensure their reliability and **adherence to data governance standards.**
+
+## 🚀 Last Words
+
+Disruption and open innovation foster a culture of:
+
+- 🧑‍🔬 Experimentation,
+- 🧑‍🤝‍🧑 Collaboration,
+- 📚 Continuous learning.
+
+They both encourage organizations to **embrace data-driven approaches and empower employees to explore new ideas and solutions.** 
+
+Building a **data culture is crucial for organizations** to effectively **leverage disruption and open innovation** in their data strategy.
+
+## 📑 Resources
+
+- [Data & Analytics Governance and Architecture: Developing and implementing a data strategy](https://www.cigref.fr/data-analytics-governance-and-architecture)
+- [Expected 2021 IT FTE Change in IT Activities, Gartner](https://www.gartner.com/en/newsroom/press-releases/2021-03-31-gartner-survey-reveals-over-half-of-cios-plan-to-increase-full-time-employees-in-it-to-accelerate-digital-business-initiatives-in-2021)
+
+Finally, below the way we have mapped our resources as data (used on a daily basis as part of our Digital Transformation Journey):
+
+{% embed https://dev.to/optnc/our-speech-about-it-holism-at-nodes22-1bpl %}
+
+---
+
+---
+comments: 8
+id: 1640284
+is_dev_challenge: false
+published_at: '2023-11-05T20:46:25Z'
+reactions: 4
+reading_time_minutes: 1
+tags:
+- api
+- apigateway
+- beginners
+- showdev
+title: 🛣️ API Marketplaces & innovation, explained and showcased
+url: https://dev.to/optnc/api-marketplaces-innovation-explained-and-showcased-li1
+---
+
+## ❔ Context
+
+Digital Transformation, Data Strategy, monetization, AI & chatBOTs... are all very trending topics.
+
+Yet,... to achieve these goals: 
+
+> **_we need to get nicely delivered, secured and easy to use APIs._**
+
+To achieve these goals, we need to get well suited _API Marketplaces_:
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/j30do4aiwvpjygmk4nws.png)](https://trends.google.com/trends/explore/TIMESERIES/1697755800?hl=en-US&tz=-660&hl=en-US&q=api+marketplace&sni=3 )
+
+**🤔 Yet, defining what an _API Marketplace_ is may not be so evident to all us... nor how to implement an efficient one.**
+
+
+👉 With this post and video, **you'll discover a practical approach, from the bottom-up, experience driven.**
+
+## 🎙️ Discover
+
+{% youtube cfwEP6Oqjew %}
+
+## 📑 Bookmarks
+
+### 🏛️ Data Strategy
+
+For more about data strategy, see:
+
+{% embed https://dev.to/optnc/data-strategy-for-not-so-dummies-1b23 %}
+
+---
+
+---
+comments: 1
+id: 1766021
+is_dev_challenge: false
+published_at: '2024-02-21T20:00:48Z'
+reactions: 0
+reading_time_minutes: 2
+tags:
+- datascience
+- opendata
+- python
+- showdev
+title: 📍 OPT-NC agencies on Kaggle
+url: https://dev.to/optnc/opt-nc-agencies-on-kaggle-4edd
+---
+
+## ❔ About
+
+OPT-NC has [many agencies in New-Caledonia](https://www.opt.nc/service/l-opt-pres-de-chez-moi-trouver-une-agence), but getting `csv` files was not as easy as that, and if you wanted to use data to build datascience, **you had to achieve manual tasks.**
+
+**👉 The purpose of this post is to show how we recently upgraded the [Developer experience](https://github.blog/2023-06-08-developer-experience-what-is-it-and-why-should-you-care/)... and the opportunities it does open.**
+
+## 🎯 What you'll learn
+
+You'll learn:
+
+- **🛍️ The various datasources** we used to build a consistent & up-to-date dataset
+- **🎁 Available dataformats** (`csv`, `duckdb`)
+- **🎀 How to use** the dataset with a dedicated Notebook
+
+## 🍿 Demo
+
+{% youtube Y5PWxaxz1_E %}
+
+## 📑 Related resources
+
+1. [⚙️ Notebook builder](https://www.kaggle.com/code/optnouvellecaldonie/open-data-agences-opt-nc) (where the data is prepared and aggregated)
+2. [🏤 Agences 📍 Dataset](https://www.kaggle.com/datasets/optnouvellecaldonie/agences-new)
+3. [👨‍🎓 Agences OPT-NC for dummies](https://www.kaggle.com/code/optnouvellecaldonie/agences-opt-nc-for-dummies)
+
+## 🤯 Opened perspectives
+
+Delivering data on Kagglle make it possible to play with them with free GPU and...
+
+Amazing Open Source AI models like `Mixtral` (see [Kaggle model card](https://www.kaggle.com/models/mistral-ai/mixtral))...
+
+and more recently `google/gemma` (see [Kaggle model card](https://www.kaggle.com/models/google/gemma)):
+
+{% twitter 1760289388204900633 %}
+
+... or many other open source LLM models, see :
+
+{% embed https://dev.to/adriens/local-open-source-ai-a-kind-ollama-llamaindex-intro-1nnc %}
+
+or simply use OpenAI from your notebook and the AI do the job for you so yo can focus on your storytelling:
+
+{% embed https://dev.to/adriens/put-magic-in-your-notebook-w-jupyter-ai-3co4 %}
+
+---
+
+---
+comments: 3
+id: 1775589
+is_dev_challenge: false
+published_at: '2024-03-04T22:25:21Z'
+reactions: 0
+reading_time_minutes: 3
+tags:
+- datascience
+- jupyter
+- dataengineering
+- opendata
+title: 📢 About job offers, innovation & data strategy 🔭
+url: https://dev.to/optnc/about-job-offers-innovation-data-strategy-4c3f
+---
+
+## 💡 _Shift-left_ thoughts
+
+In IT, we usually think about _Shift-left_ for our stack:
+
+> _"Shift left is the practice of moving testing, quality, and performance evaluation early in the development process, often before any code is written."_
+
+And what if I told you that you need people to write code... **and hence that you also have to shift left to embed recruitment process in your pipeline ?**
+
+**👉 That's the main idea I recently started to explore...which lead me to create this content, in the hope to increase my holistic  knowledge of the organization, at scale.**
+
+
+## 🎯 Context
+
+I'm currently about to launch an exciting recruitment for my department.
+
+In this context I decided to use this as an **opportunity to learn more about recruitment process**, with the ambition to have a **positive impact on its performances and outcomes, at scale.**
+
+My goals are to:
+
+- **🚀 Contribute** to _"become accelerator of economic and digital development in New Caledonia."_
+- **👨‍🚀 Help** _"reaching Reach High-level technologies and quality of service, innovation,"_
+- **🤩 Help implement** _"new customer-oriented organization,"_
+- **🪝 Help _"seeking talents"_** by putting in evidence our data & automation approach
+
+**👉 This post is all about that ambition and the resulting journey.**
+
+## 🔭 "Building tomorrow" `aka.  OPT 2025`
+
+> _The OPT-NC has embarked on a profound transformation to meet the challenges of the strategic plan "Building Tomorrow | OPT 2025" and to fulfill its ambition to become an accelerator of economic and digital development in New Caledonia._
+
+> _High-level technologies and quality of service, innovation, new collaborative ways of working and managing, performance management—OPT-NC is reinventing itself through its new strategic directions._
+
+> _In this vein, OPT-NC is proposing a new customer-oriented organization, and it is within this framework that it is seeking talents._
+
+> _The positions available are specified by department. The description of missions and skills is accessible on the OPT-NC website (www.office.opt.nc)._
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u6ainhlsriv9zua0lqma.png)](https://drhfpnc.gouv.nc/emplois-dans-la-fonction-publique-trouver-un-emploi/opt-avis-de-vacances-de-poste)
+
+## 🤔 About
+
+Working with the right people and the right skills is often seen by the end of the pipeline, I mean : you come to work in a team and everybody's already in place.
+
+**☝️ But all this starts with a crucial part : you need to get collaborators to build a team.**
+
+_"Getting collaborators"_ is indeed a process, with a start date, an end date, documents, people involved, tools, KPIs (how many candidates, how many skills, ...) and of course all these can be described with data.
+
+Today, I'll focus on these data, from many points of views:
+
+- **The recruiter (the customer of this process)** : _the manager who's looking for a new collaborator w/ a specific skillset_
+- **The HR Team** : _the team that manages the whole process that has to respect date and rules_
+- **The candidate** : _"The one who's looking for an appealing job"_
+- **External Third parties** that may benefit from this data for general purpose (researchers, government, public institutions,...)
+
+
+## 🦥 Must watch key points
+
+1. **Asking** [`groq`](https://wow.groq.com/why-groq/) why providing [job offers as an API do matter](https://youtu.be/HrZ8Txhgtig?si=yIFlirJ71ExTuNid&t=72)
+2. **Asking** [`groq`](https://wow.groq.com/why-groq/) why providing job offers as an [Open Source dataset matters](https://youtu.be/HrZ8Txhgtig?si=HZ8U5kh5OmHSLku6&t=314)
+3. **Unbox** [Kaggle dataset](https://youtu.be/HrZ8Txhgtig?si=GbKG4Ql1yP9Lv3pg&t=1791)
+4. **Build new customer experience** with data with a [first Kaggle Notebook](https://youtu.be/HrZ8Txhgtig?si=21eqZmGdV9j8ooXu&t=2037)
+5. **Disrupt Job offer browsing** customer experience w/ [unprecedented data visualizations](https://youtu.be/HrZ8Txhgtig?si=X2lqOfrR7bonmoG9&t=2292)
+
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0gphct6q64vrzc2gv4iz.png)](https://youtu.be/HrZ8Txhgtig?si=RPm1dENNskNV5pC7&t=2501)
+
+## 🍿 Demo
+
+At last, the demo:
+
+{% youtube HrZ8Txhgtig %}
+
+## 🎀 Gift
+
+Finally I added some more data about the `Province`:
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/84m4fg838qikt7qeh62q.png)](https://www.kaggle.com/code/optnouvellecaldonie/offres-emplois-opt-nc-for-dummies?scriptVersionId=165316197&cellId=15)
+
+see how with this 5' video:
+
+{% youtube DQOVxyqGYZY %}
+
+## 📑 Resources
+
+- [💼 Offres emplois OPT-NC](https://www.kaggle.com/datasets/optnouvellecaldonie/offres-emplois-opt-nc)
+- [👨‍🎓 Offres emplois OPT-NC for dummies](https://www.kaggle.com/code/optnouvellecaldonie/offres-emplois-opt-nc-for-dummies)
+
+## 🗣️ Speaking about _Tech Hiring in 2024_
+
+{% embed https://dev.to/devteam/how-will-tech-hiring-evolve-in-2024-58go %}
+
+---
+
+---
+comments: 5
+id: 1877483
+is_dev_challenge: false
+published_at: '2024-06-17T21:44:54Z'
+reactions: 8
+reading_time_minutes: 2
+tags:
+- apigateway
+- api
+- showdev
+- saas
+title: 🥳 Mobitag.nc... 25 ans plus tard, des sms en SaaS via API{GEE}
+url: https://dev.to/optnc/mobitagnc-25-ans-plus-tard-des-sms-en-saas-via-apigee-2h9e
+---
+
+## ❔ A propos
+
+Il y a [25 ans de cela, en 1999](https://scontent.fnou1-1.fna.fbcdn.net/v/t31.18172-8/14206112_1088604524599086_3925776389787353140_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=T4G1-ra0VQcQ7kNvgER-_pA&_nc_ht=scontent.fnou1-1.fna&oh=00_AYBy3G0LJCnnE1ow6xeGXzSVkODfjT_4zERdeOxxEQM1Pw&oe=66876EC5), via [Mobilis](https://www.facebook.com/Mobilis.NC) l'[OPT-NC](https://www.opt.nc/) lançait [la marque](https://office.opt.nc/fr/nous-connaitre/domaines-d-activites/marques) `Mobitag`: 
+
+> _"Mobitag.nc est un service gratuit d'envoi de SMS depuis un ordinateur, réservé aux particuliers et à destination des mobiles de Nouvelle-Calédonie."_
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gj2ubnj69h0uycrx3g1h.png)
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ih108vk60oagen2l6xwd.png)](https://scontent.fnou1-1.fna.fbcdn.net/v/t31.18172-8/14206112_1088604524599086_3925776389787353140_o.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=T4G1-ra0VQcQ7kNvgER-_pA&_nc_ht=scontent.fnou1-1.fna&oh=00_AYD-wXRPgsIbKVP-W7gxh8WBUKFfUbpVRb1zUKQYnH7dCA&oe=66873685)
+
+**25 ans plus tard, l'OPT-NC se dote d'une technologie de portail d'API**, d'abord sur RapidAPI, puis d'APIGEE, avec l'ambition d'accélerer la transition digitiale en proposant ses services digitaux... **directement en SaaS.**
+
+👉 Le but de cette démarche est de **permettre des intégrations aisées, en self-service** avec:
+
+- Des clients finaux (B2C),
+- Des partenaires (B2B) désireux de développer de nouveaus services sur ceux de l'OPT-NC
+- Des plateformes SaaS
+
+... ou tout simplement pour lui-même afin **d'accélérer ses projets en réduisant le _Time to Market_.**
+
+## 🎯 Objectif
+
+Le but de ce ce post est **d'illustrer concrétement un cas** autour de ce service gratuit tant apprécié des calédoniens.
+
+## 🪝 Ce que l'on va découvrir
+
+Dans la démo qui suit, on va voir, comment:
+
+- 🦥 Avec **très peu de code**,
+- ☁️ Directement **depuis le cloud** ([Kaggle](https://www.kaggle.com/code/optnouvellecaldonie/mobitag-nc-for-dummies))
+
+on peut envoyer un sms de la part de [`mobitag.nc`](www.mobitag.nc).
+
+## 🍿 Démo
+
+{% youtube KnRrtYKEtUc %} 
+
+## 🤔 Re-Contextualisation
+
+Lors de l'épisode précédent de cette série:
+
+{% embed https://dev.to/optnc/api-marketplaces-innovation-explained-and-showcased-li1 %}
+
+avait été présentées **les nombreurses opportunités et bénéfices** liés à cette technologie, ie. de délivrer du service directement sur le web et manière interopérable... dans le but de **faciliter les intégrations,... en SaaS** : 
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/feq05ybg00g3lu1p79ow.png)](https://youtu.be/cfwEP6Oqjew?si=7AUpC97hU1ZL71hL&t=2893)
+
+## 🔖 Ressources
+
+- [📲 Mobitag.nc for dummies](https://www.kaggle.com/code/optnouvellecaldonie/mobitag-nc-for-dummies)
+- http://www.mobitag.nc
+- [Marques - OPT-NC](https://office.opt.nc/fr/nous-connaitre/domaines-d-activites/marques)
+- [🛣️ API Marketplaces & innovation, explained and showcased](https://dev.to/optnc/api-marketplaces-innovation-explained-and-showcased-li1)
+
+---
+
+---
+comments: 2
+id: 1933906
+is_dev_challenge: false
+published_at: '2024-07-29T21:36:55Z'
+reactions: 2
+reading_time_minutes: 1
+tags:
+- powerplatform
+- googlecloud
+- nocode
+- apigateway
+title: '🧱 Custom components 💏 API{GEE} : sms automation w. Power Platform'
+url: https://dev.to/optnc/custom-components-apigee-sms-automation-w-power-platform-1mk7
+---
+
+## ❔ About
+
+When I was a kid, I loved to **create new toys with my lego bricks kits**.
+
+Today...
+
+> "I still (maybe even more) love to build new things on top of existing bricks"
+
+so I can:
+
+1. **💡 Ideate** something new
+2. **🧑‍🎨 Create** a playable/runnable artefact
+3. **🤗 Enjoy** the new tool/gadget
+4. **🏬 Share** (play with others)
+5. **🤯 Plug toys** & tools together to create something even bigger or newer 
+
+## 🎯 What we'll see
+
+👉 This post will show how **this pattern makes sense in a corporate environment (on a custom tenant) and why it really matters in terms of productivity.**
+
+We'll see how, with our SMS API available from the `www` we can : 
+
+- **📲 Unse our API** on APIGEE
+- **🧱 Build the core building block** : the Power Platform Custom Component
+- **🏗️ Run a custom scheduled workflow**
+
+## 🍿 Demo
+
+{% youtube rFA-vfbJaV4 %}
+
+## 📊 Further about process mining
+
+The Power Platform offers [process mining](https://learn.microsoft.com/en-us/power-automate/process-mining-overview) opportunities and tools:
+
+> _"The business value of the process mining capability lies in its ability to help organizations gain insights into their operational processes and identify areas for improvement."_
+
+Below some real life examples I could generate from my very simple workflow:
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hlf8rv6fh8ivq6aseb0o.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r8l5f4gjwsb6dhirozx8.png)
+
+![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/sehmkumtcyt0mt2k7ir6.png)
+
+---
+
+---
+comments: 2
+id: 1949025
+is_dev_challenge: false
+published_at: '2024-09-02T20:50:34Z'
+reactions: 4
+reading_time_minutes: 2
+tags:
+- api
+- gcp
+- googlecloud
+- tutorial
+title: '🔑 APIGEE 101: onboarding & authentication'
+url: https://dev.to/optnc/apigee-101-onboarding-authentication-1ghl
+---
+
+## 💭 forwords : _"From grocery to supermarkets"_
+
+In a few words : you cannot hope for people to use and pay for your APIs and put your digital products & strategy to the next level if you don't showcase them in a proper place : the _"developer portal"_.
+
+[![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/slaac7jtdg09d7b9k2ax.png)](https://www.lexpress.fr/diaporama/diapo-photo/actualite/societe/leclerc-un-epicier-mediatique-devenu-le-roi-des-supermarches_1162248.html)
+
+> Picture taken 17 February 1963 of Edouard Leclerc the French businessman in front of the first butcher's shop he opened in Paris. E. Leclerc wants to reform the distribution system in selling goods at wholesale prices, [...].
+> In the 80's Leclerc owns over 130 superstores, 350 supermarkets and about 50 specialized shops (sportswear, clothes, do-it-yourself, agricultural equipments stores). Moreover he his the biggest oil distributor in France after the national distributors.
+
+## 💡 It's all about Customer empowerment
+
+👉 Metaphorically, in the past people were going to the grocery and **were asking to an agent to pick the products** for themselves.
+The disruption came when **_Edouard Leclerc_  empowered customers so they could choose, carry and even pay by themselves.**
+
+This is what we want to achieve in the digital era : **putting self service as much as possible. Everywhere.**
+
+## ❔ About `APIs` "supermarkets"
+
+Developer portals are at the core the digital transformation as they are the **place where outer & inner software engineers/architects** will come, discover available API products, ideate - and hopefully prototype - on how they will build innovative solutions on top of them thanks to appealing free plans.
+
+ 
+## 🎯 What you'll learn
+
+In this content, you'll : 
+
+- 🥳 Discover the public developer portal thanks to [Apigee integrated portal](https://cloud.google.com/apigee/docs/api-platform/publish/intro-portals#integrated-portal) we recently kicked off, in its early - alpha - version,
+- 🔑 Learn how to **authenticate**
+- 🔓 Learn how to **create API keys**
+- 🚀 See how to **call APIs by yourself**
+
+## 🍿 Demo time
+
+{% youtube L56z2Vkht5E %}
+
+## 🔖 Resources
+
+- [Our portal (α version)](https://apigee-optnc-prd-api.apigee.io/)
+- [Apigee integrated portal](https://cloud.google.com/apigee/docs/api-platform/publish/intro-portals#integrated-portal)
+- [Developer portal solutions](https://cloud.google.com/apigee/docs/api-platform/publish/intro-portals)
+
+Further about the "Apigee API hub" to
+
+> _"consolidate and organize information about all of the APIs of interest to your organization."_:
+
+- [What is Apigee API hub? ](https://cloud.google.com/apigee/docs/apihub/what-is-api-hub)
+
+---
+
+---
+comments: 2
+id: 1998753
+is_dev_challenge: false
+published_at: '2024-09-18T20:30:38Z'
+reactions: 2
+reading_time_minutes: 3
+tags:
+- productivity
+- devops
+- kafka
+- showdev
+title: '🔁➡️📘 Kafka documentation automation : HUGO, gomplate, Github Actions & pages'
+url: https://dev.to/optnc/kafka-documentation-automation-hugo-gomplate-github-actions-pages-68a
+---
+
+## 💭 _"what's wrong with writing (and maintaining) docs ?"_
+
+> Very often **a single team has a privileged access to a set of data, services, middlewares** and you cannot grant access because of technical limitations (sometimes due to limited licences plans), costs, access control strategies
+ or so many other reasons : there may me plenty of them.
+
+👉 Still, it is not rare that **third parties need to have at least a partial access to these resources**, for example to develop new services on top of yours.
+
+## 💸 The cost of manual legacy documentation
+
+The consequence is that you may be asked to implement a Wiki (eg. on Confluence) that your **team will be charged to maintain in addition to its core activities.**
+
+Then you grant access to this wiki and **everyone is happy..or so you think**... as 
+
+> you have just increased the `RUN` load of your team... and then impacted your own _"Time to Market"_ to deliver new bankable services.
+
+To make simple, the problem with this strategy is that : 
+
+- 😫 It will cost you a **lot of time**
+- **🏋️ You have to stay up-to-date** with sometime - and hopefully for you - very fast changing systems
+- **📉 You waste your team skills** & workforce on writing most of the time outdated documentations
+
+## ♾️ Embracing continuous change
+
+> What we want is a [SchemaCrawler](https://www.schemacrawler.com/) like portable and static report of our onPrem Kafka so we can embrace the change comfortably and continuously.
+
+## 🎯 The _"What"_ & the _"How"_
+
+This post is about this common pattern and **how we delivered a scalable data-driven documentation pipeline around Kafka**, based on data & CI:
+
+1. **💰 We already have the automatically data prepared & delivered** as `csv` and `json` by scheduled GH Actions on a third party repository
+2. **🦥 On a dedicated Wiki-like repository** we `clone` the part of the data we need
+3. **🔁 Thanks to templates & [`gomplate`](https://docs.gomplate.ca/)** we transform `csv` and `json` into nice `markdown`
+4. **🎁 We build & deliver the resulting static site** with [HUGO Github Action](https://gohugo.io/hosting-and-deployment/hosting-on-github/) on GH Pages
+5. **🤩 We enjoy** the [`HUGO shadocs`](https://themes.gohugo.io/themes/shadocs/) theme
+
+## 💰 Benefits
+
+Below some benefits we immediately got
+
+- **🔄  Up-to-date** documentation
+- **🛡️ Data security** thanks to custom obfuscation so the doc can be shared with confidence to third parties
+- **⚡`DevEx` impact** : third parties get informations _"as a Service"_, whenever they need it 24/7 : no need to make an issue...
+- **🤩 Responsive wiki and amazing UI** (PC, tablet and even phone)
+- **🌟 Continuously improving documentations**, howtos and resources
+- **_"🎀 as a Service"_** delivery
+- **🔗 Linked to classical/legacy static documentations**... in both directions
+- **🔐 GitHub driven Access management** (Teams, SSO,...)
+
+## 🍿 Demo
+
+{% youtube JBlSaaiiS2w %}
+
+## 💪 The magic of `gomplate` : `csv` to `markdown`s
+
+The core magic that transforms **a single input `csv` file into more than 100 separate `markdown`**  (in less than 1' ) is below : 
+
+```yaml
+in: |
+  {{ $topics := (datasource "topics") | data.ToCSV | data.CSVByRow }}
+  
+  {{ range $i, $e := $topics }}
+    {{ $file := $e.name | strings.Slug }}
+    {{ tmpl.Exec "topicT" . | file.Write (print "outputs/topics/" $file ".md") }}
+  {{ end }}
+
+templates:
+  - topicT=template/topic.tmpl
+datasources:
+  topics:
+    url: source/import/auto/kafka/node_kafka_topic.csv
+outputFiles: ["csv"]
+
+suppressEmpty: true
+```
+
+🤩 Then `HUGO` does the rest within GitHub to **deliver a whole functional website  : the overall process takes less than a minute.**
+
+---
+
+---
+comments: 12
+id: 2385057
+is_dev_challenge: false
+published_at: '2025-04-14T21:48:18Z'
+reactions: 1
+reading_time_minutes: 2
+tags:
+- showdev
+- go
+- cli
+- learning
+title: 🥳 We built the cli of our dreams to send sms ❣️
+url: https://dev.to/optnc/we-built-the-cli-of-our-dreams-to-send-sms-3c7m
+---
+
+## 🤔 About the benefits of `cli`
+
+Since a few years now, we started to design various `cli` for internal batch usage, on our Java Stack on top of [`picocli`](https://picocli.info/) and [`quarkus`](https://quarkus.io/), delivered as images, and run on [`podman`](https://podman.io/).
+
+Our goal was to : 
+
+1. **Avoid as much as possible to write** unnecessary documentations : each tool should describe himself according to a common pattern
+2. **Rely on the best possible practices**
+3. And overall : **deliver a consistent first-class UX to OPS**
+
+Therefore I started to read and follow the following site to follow the best possible guidelines : 
+
+{% embed https://github.com/cli-guidelines/cli-guidelines %}
+
+## 🎯 Our `Go`(al)
+
+On my very own side I gave a try during a hackathon to Go and [`goreleaser`](https://goreleaser.com/) : 
+
+{% embed https://dev.to/adriens/github-copilot-1-day-build-challenge-eol-a-tiny-go-client-to-manage-eols-j %}
+
+Then, I wanted to bring my team to the Go experience at the office  as sometimes we need to deliver apps to **systems on which we don't want or can't install new softwares** : so delivering a static binary thanks to Go and [`goreleaser`](https://goreleaser.com/) seemed a good option for effortless cross-compilation... and of course build the best possible `UX` thanks to [Cobra](https://cobra.dev/).
+
+So I used this opportunity to sharpen our skill with my team : 
+
+{% twitter 1909597554590855170 %}
+
+And...
+
+> Build the best possible `cli` of our dreams to send `sms` from a terminal and see what we can deliver and learn from that.
+
+
+## 🍿 `v1.0.0` `brew` unboxing
+
+{% youtube jHg7Ydlo55E %}
+
+## 📜 The story behind the product development
+
+As I always say to my team & student, always ["Start with why"](https://www.goodreads.com/book/show/7108725-start-with-why?ref=nav_sb_ss_1_12) : 
+
+{% twitter 1910458188945867005 %}
+
+After having drafted my ideas : 
+
+{% twitter 1908757267941666914 %}
+
+Here are the motivations that kept us on track : 
+
+Do things extremely : 
+
+- 🧩 Interoperable
+- **🫴 Easy to integrate for anyone** (even on legacy systems)
+- ⚡ Efficient
+- **🦥 Useful : make people save time**, ie. make more with less effort
+- **📦 Easy to deliver** and install
+- 🤩 Beautiful
+- **📉 Fast to build** : for an improved Time to market
+- **🟢 Fast** to (learn to) use
+- **💡 Inspiring** for us and others, eg. create new business opportunities ideas
+- **😍 Desirable** : people should feel the desire to use the product and feel joy while using it
+- **🧑‍🤝‍🧑 Create new relationships with people** and discover new practices
+
+
+## 🔭 What's next
+
+Next, we'll focus on **showing and sharing** the benefits : 
+
+- **♾️ Continuous delivery tools** and automation
+- **📼 New ways of documentation** with next-gen tools
+- **🛡️ Security** (beacause it always matters)
+- **🦸 One liners** (because they're both a cool and efficient way to get things done)
+- **🐧 Classical linux** tools
+- **📚 General IT Culture**
+- **🧑‍🎨 Creative product design** and development
+
+Hopefully you'll like it as much as we do...and will engage yourself on the same kind of way : the [`#learnbydoing`](https://dev.to/t/learning) journey 🤗
+
+---
+
+
 ## Vidéos YouTube
 
-*284 vidéos au total*
+*293 vidéos au total*
 
 
-### Chaîne : devops-lab (284 vidéos)
+### Chaîne : devops-lab (293 vidéos)
 
 ---
 duration_seconds: 418
@@ -23501,10 +30578,300 @@ https://adriens.github.io/claude-commands/
 
 ---
 
+---
+duration_seconds: 150
+id: wUKko5sRwzQ
+lang: en
+likes: null
+published_at: '2026-05-28'
+tags: [helia, hermes, ai-agents, duckdb, latex, slas, qwen, mobile, opt-nc, dev-challenge]
+title: "🤯 QWEN 3.7 Max & HERMES annotating SLAs analytics LaTeX & DuckDb 📊"
+url: https://youtu.be/wUKko5sRwzQ
+views: 40
+---
+
+Short clip from the HERMES Dev Challenge session: Qwen 3.7 Max via HERMES
+annotating SLAs analytics, patching the LaTeX report with the latest DuckDB data,
+and running LLM textual analysis with a personal touch on timeout patterns.
+
+Article associé :
+- https://dev.to/adriens/i-reverse-engineered-my-mobile-operators-apk-then-hermes-agent-wrote-the-executive-report-2j3o
+
+---
+
+---
+duration_seconds: 1389
+id: KFfIgERRjA4
+lang: en
+likes: null
+published_at: '2026-05-31'
+tags: []
+title: '#NODES24 - Call For Paper (full edition)'
+url: https://youtu.be/KFfIgERRjA4
+views: 2
+---
+
+https://dev.to/adriens/nodes24-a-practical-path-to-cloud-native-knowledge-graph-automation-ai-agents-2ejh
+
+- 00:00 : Pitch
+- 00:44 : Short stack introduction
+- 01:14 : About me
+- 02:16 : Inception
+- 03:21 : Our journey : from data to ChatBOT
+- 04:32 : The vision
+- 05:30 : Who is Carto-GPT
+- 05:55 : Asking about an application
+- 06:58 : Where we come from : skills and data background
+- 09:29 : The "Demming" wheel of knowledge delivery
+- 11:03 : The delivery pipeline and stack
+- 12:49 : First Carto-GPT babbles
+- 14:39 : Making Carto-GPT say "I'm sorry I don't know"
+- 15:40 : AI UX (AI as first customer) & custom tools design strategy
+- 18:01 : Real life question examples
+- 20:08 : More about the pieces of the stack we built or used
+- 21:33 : Agentic perspectives
+- 22:11 : Conclusion
+
+---
+
+---
+duration_seconds: 1103
+id: 9MxVcMB_RWE
+lang: en
+likes: null
+published_at: '2026-05-31'
+tags: []
+title: '#NODES24 - Call For Paper (medium edition)'
+url: https://youtu.be/9MxVcMB_RWE
+views: 1
+---
+
+https://dev.to/adriens/nodes24-a-practical-path-to-cloud-native-knowledge-graph-automation-ai-agents-2ejh
+
+- 00:00 : Elevator Pitch
+- 00:43 : Global stack overview
+- 01:15 : About me, Neo4J Ninjas, NODES22 and NODES23
+- 02:17 : Start with Why : project inception
+- 03:21 : The "Yes but" moments that forged our journey
+- 03:54 : Product Vision
+- 04:30 : Let Carto-GPT present itself
+- 04:54 : Challenging Carto-GPT about service maintainership
+- 05:26 : Our journey to Carto-GPT
+- 07:24 : "The wheel of knowledge" : our Demming wheel to build knowledge and autonomous systems
+- 08:58 : The DevOps pipeline to deliver service : the path to knowledge delivery
+- 10:46 : First Carto-GPT babbles : about hybrid LLMs, configuration and custom tools
+- 12:03 : Managing the unknown : make it say "I'm sorry, I don't know"
+- 12:23 : AI User Experience Feedback Loop : Human designing tools for AI, iterative design
+- 14:46 : Some Real Life User Experience
+- 15:40 : The tools we built, the stack we used to build Carto-GPT
+- 16:49 : Going Agentic : secretary roles, etc.
+- 17:26 : Conclusion
+
+---
+
+---
+duration_seconds: 512
+id: 8H5msX4Qp1E
+lang: en
+likes: null
+published_at: '2026-05-31'
+tags: []
+title: '#NODES24 - Call For Paper (shortest edition)'
+url: https://youtu.be/8H5msX4Qp1E
+views: 4
+---
+
+https://dev.to/adriens/nodes24-a-practical-path-to-cloud-native-knowledge-graph-automation-ai-agents-2ejh
+
+- 00:00 : Elevator pitch
+- 00:40 : About the stack
+- 01:13 : Project inception, vision
+- 01:34 : Focusing on human creativity
+- 02:34 : The vision : deliver autonomous services
+- 03:12 : Introducing the "Wheel of knowledge"
+- 04:43 : First carto-GPT words and Custom Tools
+- 05:33 : AI-driven User Experience : Human designing tools for AI
+- 06:02 : Design self-correction and self-improvement systems
+- 06:40 : Underlying software/stack we used to build Carto-GPT
+- 07:25 : Agentic AI perspectives
+- 07:35 : Conclusion
+
+---
+
+---
+duration_seconds: 398
+id: hnn5J3qbDyU
+lang: fr
+likes: null
+published_at: '2026-05-31'
+tags: []
+title: "Reachy Mini s'inquiete pour mon forfait Telecom HELIA"
+url: https://youtu.be/hnn5J3qbDyU
+views: 5
+---
+
+Demonstration de l'integration entre Helia Monitor (SDK OPT-NC + DuckDB + KDE widgets)
+et Reachy Mini (Pollen Robotics) en mode simulation, sans LLM, 100% local CPU.
+Le robot alerte vocalement quand la consommation voix depasse 91,8%.
+
+- 00:00 : A propos des SDKs, d'interoperabilite et de la creativite
+- 00:27 : Decouverte rapide de Reachy Mini
+- 01:06 : Le store d'applications de Reachy Mini sur HuggingFace (AVP OPT-NC, MCP)
+- 01:59 : Integration de widgets de suivi au bureau KDE
+- 03:00 : Programmer le robot
+- 03:49 : Demarrage de Reachy Mini en simulation
+- 04:22 : On met Reachy Mini au travail — alerte vocale conso 91,8% voix
+- 05:16 : Conclusion
+
+---
+
+---
+duration_seconds: 3939
+id: tPihPZRfh2A
+lang: fr
+likes: null
+published_at: '2026-06-01'
+tags: [helia, open-innovation, apigee, duckdb, kde, iot, mcp, ai-agents, ux, design-thinking, frugal]
+title: "🤯 HELIA :Etude complète Open Innovation : télémétrie, éditiques, SLAs, DORA, B2B APIGEE, chatbot,IoT"
+url: https://youtu.be/tPihPZRfh2A
+views: 3
+---
+
+Étude complète de la stack Helia Monitor présentée comme cas d'open innovation :
+télémétrie personnelle, éditiques PDF multi-profils, SLAs, métriques DORA, vision B2B APIGEE,
+chatbot MCP, IoT (Reachy Mini), assistants vocaux et widgets KDE Plasma data-driven.
+
+Articles Dev.to associés :
+- https://dev.to/optnc/get-started-with-apigee-management-55dg
+- https://dev.to/adriens/i-reverse-engineered-my-mobile-operators-apk-then-hermes-agent-wrote-the-executive-report-2j3o
+- https://dev.to/optnc/apigee-101-onboarding-authentication-1ghl
+- https://dev.to/optnc/custom-components-apigee-sms-automation-w-power-platform-1mk7
+- https://dev.to/optnc/mobitagnc-25-ans-plus-tard-des-sms-en-saas-via-apigee-2h9e
+- https://dev.to/optnc/api-marketplaces-innovation-explained-and-showcased-li1
+- https://dev.to/optnc/data-strategy-for-not-so-dummies-1b23
+
+Chapitres :
+- 00:00 : A propos de l'Open Innovation, UX et Design Thinking
+- 03:48 : UX : Un bureau KDE connecté avec des widgets data-driven en live
+- 10:28 : L'abstract — Etat de l'art, objectifs, stratégie et bénéfices
+- 13:33 : Design Thinking et Customer Journey — rapports PDFs custom de conso stylés avec historisation
+- 17:55 : A propos d'Adrien Citizen Developer, l'interopérabilité, l'innovation frugale, l'approche startup et Apigee
+- 20:28 : Le Guide de lecture
+- 21:34 : Les 4 KPIs : disponibilité, timeouts, latence, et impact business
+- 22:28 : Conditions de réalisation de ce contenu et prototypes
+- 23:25 : La sécurité responsable
+- 26:18 : Contexte et impacts d'une API lente
+- 27:36 : Les feedbacks utilisateurs sur la page de l'appli HELIA sur le Play Store
+- 28:51 : La méthode de mesure
+- 29:49 : Analyse approfondie data-driven des performances — distribution bimodale des temps de réponse
+- 32:46 : Le profil des performances : temps de réponse et timeouts
+- 33:35 : Répartition des timeouts par jour et heure
+- 33:52 : La heatmap (à la GitHub) des latences sur les jours/heures
+- 34:22 : Hypothèses du dysfonctionnement
+- 34:32 : Revue de l'incident du 1er Juin 2026 : 06h36 - 08h20
+- 35:14 : Après avoir observé, les solutions !
+- 37:05 : Vision stratégique, bénéfices et opportunités de APIGEE API Gateway
+- 40:10 : L'API HELIA comme plateforme ouverte d'innovation, performances et modèle économique "à la Shopify, Twilio,..."
+- 42:22 : MCP, agents IA, chatbots
+- 42:58 : Les assistants vocaux Alexa, Siri, accessibilité et RSE
+- 43:49 : Les affichages et intégration IoT, pilotage continu customs
+- 44:06 : Intégrations à des robots physiques qui interagissent — Reachy Mini simulé
+- 46:09 : L'historisation des données et les perspectives d'UX et le Customer Journey
+- 46:37 : "Chaque client est différent"
+- 47:01 : Bénéfice de l'historique de consommation dans un SQLite dans l'appli mobile
+- 49:32 : Intégrations pour le B2B et gestion de flottes, optimisation des forfaits
+- 50:03 : Embarquer l'état du réseau dans l'appli mobile — les maintenances planifiées
+- 53:02 : Prédiction des temps de réponse et conso avec du ML
+- 54:52 : Le plan d'action
+- 56:04 : Références et réalisations
+- 58:30 : Les portails d'APIs — ex : Orange, Mastercard, AIR FRANCE KLM, FedEx,...
+- 59:00 : Conclusion, appel à l'action et aux feedbacks
+
+---
+
+---
+duration_seconds: 32
+id: 0QU79d9cqJg
+lang: fr
+likes: null
+published_at: '2026-06-02'
+tags: [pedagogie, transmission, mentorat, miage, unc-partnership, student-recommendation]
+title: 'MIAGE UNC - Témoignage Dévi Bergès sur méthode Montessori à l''Université'
+url: https://youtu.be/0QU79d9cqJg
+views: 0
+---
+
+Témoignage vidéo de Dévi Bergès (M2 MIAGE UNC, promo 2025) sur la méthode pédagogique d'Adrien
+inspirée de Montessori : liberté, confiance, challenge, projets réels.
+
+Reco LinkedIn associée : [[2026-05-28-devi-berges]]
+
+---
+
+---
+duration_seconds: 5126
+id: Zw-lfNFA0fQ
+lang: en
+likes: 1
+published_at: '2026-06-03'
+tags: [helia, hermes, ai-agents, duckdb, quarto, openrouter, qwen, mobile, opt-nc, dev-challenge, role-playing, report-generation]
+title: "🏆 I teached HERMES do report my phone plan usage report and hint me for the best plan"
+url: https://youtu.be/Zw-lfNFA0fQ
+views: 9
+---
+
+Soumission au DEV Challenge HERMES (Dev.to) : utilisation de HERMES Agent avec Qwen 3.7 Max
+(OpenRouter) sur les données Helia Monitor (DuckDB) pour générer un rapport Quarto multi-rôles
+(CEO, CIO, sysadmin, programmeur) sur la consommation mobile OPT-NC.
+
+Article associé :
+- https://dev.to/adriens/i-reverse-engineered-my-mobile-operators-apk-then-hermes-agent-wrote-the-executive-report-2j3o
+
+Chapitres :
+- 00:00 : Intro about the Dev.to HERMES Challenge
+- 00:44 : Open Models arena — choose Qwen 3.7 Max on Openrouter
+- 02:04 : Run HERMES and switch to Qwen
+- 02:44 : Import Claude skills
+- 03:23 : About the data I'm playing with : mobile phone package
+- 05:39 : HERMES importing Claude skills
+- 08:05 : Enjoying first answers
+- 10:05 : HERMES self improvement
+- 18:39 : Enjoy the first asciidoc report
+- 19:14 : Switching challenge to dataviz with Quarto notebook
+- 24:36 : Discover the out-of-the-box pdf version
+- 25:50 : Styling and theming the report
+- 37:18 : Drill down into API availability KPIs
+- 39:20 : Discover how HERMES annotated charts (and bimodal distribution discovery)
+- 47:53 : Discover the API sparkline
+- 49:02 : Role playing (CEO, CIO, sysadmin, programmer) simulation to improve report
+- 54:14 : Openrouter API refill
+- 56:30 : Reviewing the role playing game
+- 58:29 : Prepare the Executive report
+- 01:09:00 : Conclusion
+
+---
+
+---
+duration_seconds: 19
+id: DH0OXalt_F8
+lang: fr
+likes: null
+published_at: '2026-06-04'
+tags: [miage, unc, pedagogie, montessori, student-testimonial]
+title: 'MIAGE UNC - Témoignage Clémentine Galin sur méthode Montessori à l''Université'
+url: https://youtu.be/DH0OXalt_F8
+views: 1
+---
+
+https://dev.to/adriens/2025-unc-miage-demo-finale-508g
+https://dev.to/adriens/2025-teacher-journey-at-university-of-new-caledonia-cf2
+
+---
+
 
 ## Livres lus (Goodreads)
 
-*43 livres au total*
+*46 livres au total*
 
 ---
 author: Yamamoto Tsunetomo
@@ -24154,19 +31521,19 @@ id: '198340232'
 isbn: '1098145003'
 num_pages: '354'
 published_year: ''
-rating: '0'
+rating: '5'
 shelf: read
 title: 'Unifying Business, Data, and Code: Designing Data Products with JSON Schema'
 url: https://www.goodreads.com/review/show/7220060755?utm_medium=api&utm_source=rss
 ---
 
-How can we harness the powerful principles of intelligence to foster innovation and collaboration, especially among non-data scientists? This book outlines a practical methodology to help you learn fundamental concepts underlying the study of intelligence, including AI and human intelligence, so you can achieve goals faster. After conducting extensive research with data scientists, business analysts, and data engineers, authors Ron Itelman and Juan Cruz Viotti learned three specific key assess, analyze, and align, to augment innovation where Agile isn't meeting the specific needs of business, data, and code teams. This guide shows how to collaborate more effectively and design intelligent systems without having to become a data scientist. Map your team, objectives, data, actions, and outcomes as a holistic network and discover connections that may not always be obvious. You'll learn how to reveal hidden root problems and explain how information flows across your organizational networks in order to innovate better, faster.
+I won this book thanks to my speak at #NODES24. And it opened my eyes to a brand new field of innovations and knowledge.<br />Thanks to this book, its practical examples, I saw how important it is to take the time to carefully design and document each asset of an organization that really want to digitalize its activities.<br /><br />This book helps understand the difference bewteen developing applications and deigning a serious Information System from the core perspective : the object description.<br /><br />Since that, I take great care to know, search and use already existing schema (<a target="_blank" href="https://schema.org/" rel="nofollow noopener">https://schema.org/</a>) to describe things. When I get rando input data, I first consider how to attach it to given shemas, transform into this formalism, then inject it on various third party systems.<br />The resuls are tremendously efficients, even for the most modest piece of data. I even apy thi strategy for my resume, publications, etc... and get tools that parse them in return.<br /><br />This book is a must read if you want to take the best of any data. I highly recommand this book.
 
 ---
 
 ---
 author: Anthony Bonato
-average_rating: '4.08'
+average_rating: '4.07'
 date_read: '2025-09-23'
 id: '214637385'
 isbn: '1421451263'
@@ -24190,7 +31557,7 @@ id: '7108725'
 isbn: '1591842808'
 num_pages: '256'
 published_year: '2009'
-rating: '0'
+rating: '5'
 shelf: read
 title: 'Start with Why: How Great Leaders Inspire Everyone to Take Action'
 url: https://www.goodreads.com/review/show/5941375356?utm_medium=api&utm_source=rss
@@ -24288,6 +31655,68 @@ url: https://www.goodreads.com/review/show/8215477154?utm_medium=api&utm_source=
 ---
 
 Every chapter — databases, distributed architectures, consistency, replication, async patterns — reads like the UNIX philosophy at work, under the hood of modern systems.<br /><br />Highly recommend if you want to understand not just how things work, but *why* they're built that way.
+
+---
+
+---
+author: Antoine Visonneau
+average_rating: '5.00'
+date_read: '2026-05-31'
+id: '57974164'
+isbn: '2212397313'
+num_pages: '277'
+published_year: ''
+rating: '0'
+shelf: read
+title: 'Stratégies de design UX: Accélérer l''innovation et réduire l''incertitude
+  (French Edition)'
+url: https://www.goodreads.com/review/show/5080023469?utm_medium=api&utm_source=rss
+---
+
+Quels sont les secrets d'une expérience utilisateur réussie ? Découvrez les idées et les hommes qui ont défini les contours de la discipline UX telle qu'elle est pratiquée aujourd'hui par les entreprises les plus innovantes.<br /><br />Découvrez comment adapter les méthodes UX dans les contextes agiles avec le Design Thinking, le Lean UX et le Design Sprint.Apprenez à mettre en oeuvre les techniques UX qui caractérisent les produits exceptionnels (web, mobiles et IoT).Devenez stratège pour réussir la transformation UX de votre entreprise.Avec plus de 100 croquis et schémas accompagnés de textes courts, ce livre propose une approche très visuelle pour comprendre en un clin d'oeil les stratégies présentées. Il est organisé en onze chapitres indépendants qui répondent chacun à une question de fond, au moyen d'études de cas concrètes, argumentées et chiffrées.<br /><br />Cette nouvelle édition revue et augmentée propose, entre autres, un nouveau chapitre pour maximiser l'impact du design au quotidien.<br /><br />A qui s'adresse cet ouvrage ?<br /><br />Aux professionnels de la nouvelle économie opérationnelle qui souhaitent consolider leur maîtrise de l'UX.Aux étudiants en design, informatique et business qui savent que l'UX est devenue une compétence essentielle aux entreprises.Aux décideurs qui souhaitent adapter leur entreprise aux nouvelles attentes de leurs clients.
+
+---
+
+---
+author: Tim    Brown
+average_rating: '3.88'
+date_read: '2026-06-06'
+id: '6671664'
+isbn: 0061766089
+num_pages: '272'
+published_year: '2009'
+rating: '5'
+shelf: read
+tags: [design-thinking, innovation, creativity, human-centric, pedagogy, accessibility, civic-tech]
+title: 'Change by Design: How Design Thinking Transforms Organizations and Inspires
+  Innovation'
+url: https://www.goodreads.com/review/show/8451396127?utm_medium=api&utm_source=rss
+---
+
+This book did just put my brain and creativity on fire. To optimize its impact, I disciplined myself to read batches of 20 pages to let me time to repeat myself what I just read, make it mine, take notes to read them many times later.<br /><br />I started to read this book just before a marathon of hackathons and at a point of my life where I was looking to give more sense to my digital creations and storytellings. I mean : how to impact more the society and by its positive vibes, I just felt this book to a manifest for action, creativity in many fields.<br /><br />In my case I started to challenge myself on accessibilty issues triggered by technology. That book triggered the last bit to set me in action and believe I could have an impact. I finished by learn a lot about accessibility, create a dedicated app and organized a speak for the PMI institute.<br />It also had an impact on the way I'm teaching and how to interact with others, so I'll keep improving the way I'm collaborating with students... as soon as next month.<br /><br />If you want to get positive vibes and how to change things, this is a must-read, an ode to creativity.
+
+---
+
+---
+author: Tim Brown
+average_rating: '3.86'
+date_read: '2026-06-07'
+id: '6671664'
+isbn: '0061766089'
+num_pages: '272'
+published_year: '2009'
+rating: '5'
+shelf: read
+title: 'Change by Design: How Design Thinking Transforms Organizations and Inspires
+  Innovation'
+url: https://www.goodreads.com/review/show/8451396127
+---
+
+In Change by Design, Tim Brown, CEO of the celebrated innovation and design firm IDEO, shows how the techniques and strategies of design belong at every level of business. Change by Design is not a book by designers for designers; this is a book for creative leaders who seek to infuse design thinking into every level of an organization, product, or service to drive new alternatives for business and society.
+
+The myth of the lone genius inventor is just that—a myth. Innovation is most powerful when it emerges from the intersection of human desirability, technical feasibility, and economic viability. Design thinking—the methodology that IDEO has used to help dozens of the world's leading corporations including Apple, Samsung, Google, and Procter & Gamble—is the tool that unlocks these intersections. Brown shows how this approach has brought the world innovations as diverse as the computer mouse, Swiffer floor cleaners, and the patient-centered approach of the Mayo Clinic.
+
+Filled with vivid stories of how design thinking has helped companies like Kraft, Shimano, and the Thomas J. Watson Research Center rethink their products and services, this important book provides insight into the importance of developing a design culture throughout an organization—and how to do it.
 
 ---
 
@@ -25186,7 +32615,7 @@ vote_count: 4
 
 ## HuggingFace — Datasets & Spaces
 
-*1 datasets, 1 spaces au total*
+*1 datasets, 2 spaces au total*
 
 
 ### @rastadidi
@@ -25225,6 +32654,21 @@ Historique des recette du restaurant Au P'tit Café. Voir Au p'tit café Series'
 
 
 #### Spaces
+
+---
+author: ''
+id: rastadidi/aquavena
+last_modified: ''
+likes: 0
+sdk: gradio
+tags:
+- gradio
+- mcp-server
+- region:us
+url: https://huggingface.co/spaces/rastadidi/aquavena
+---
+
+---
 
 ---
 author: ''
@@ -26019,10 +33463,27 @@ summary: "Approach using Neo4j to create visual, queryable maps of complex infor
 
 ## Repos GitHub
 
-*164 repos au total*
+*169 repos au total*
 
 
-### @adriens (164 repos)
+### @adriens (169 repos)
+
+---
+name: adriens.github.io
+url: https://github.com/adriens/adriens.github.io
+description: "Personal homepage"
+language: CSS
+topics: []
+stars: 0
+created_at: 2015-07-13
+updated_at: 2015-07-13
+archived: false
+has_readme: false
+---
+
+*No README*
+
+---
 
 ---
 name: adriens
@@ -26191,6 +33652,143 @@ Application mobile en Flutter pour la qualité des eaux de baignade de Nouméa
 ---
 
 ---
+name: aquavena
+url: https://github.com/adriens/aquavena
+description: "SDK Python pour les menus aquavena"
+language: Astro
+topics: []
+stars: 0
+created_at: 2026-05-24
+updated_at: 2026-05-31
+archived: false
+has_readme: true
+---
+
+# aquavena
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Tests](https://github.com/adriens/aquavena/actions/workflows/tests.yml/badge.svg)](https://github.com/adriens/aquavena/actions/workflows/tests.yml)
+[![PyPI version](https://badge.fury.io/py/aquavena-sdk.svg)](https://pypi.org/project/aquavena-sdk/)
+
+[![Site GitHub Pages](https://img.shields.io/badge/Site-GitHub%20Pages-teal)](https://adriens.github.io/aquavena/)
+[![AIM Score](https://img.shields.io/badge/AIM%20Score-10%2F10-brightgreen)](https://adriens.github.io/aquavena/about/)
+[![WCAG AA](https://img.shields.io/badge/WCAG-AA-green)](https://adriens.github.io/aquavena/about/)
+[![Malvoyants](https://img.shields.io/badge/Optimis%C3%A9-Malvoyants-blueviolet)](https://adriens.github.io/aquavena/about/)
+
+[![RSS](https://img.shields.io/badge/RSS-Feed-orange)](https://adriens.github.io/aquavena/feed.xml)
+[![iCal](https://img.shields.io/badge/iCal-Calendrier-blue)](https://adriens.github.io/aquavena/cal.ics)
+
+[![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-MCP%20Space-FFD21E)](https://huggingface.co/spaces/rastadidi/aquavena)
+[![Claude Skill](https://img.shields.io/badge/Claude-Skill-8A2BE2)](https://adriens.github.io/claude-commands/skills/aquavena/)
+
+SDK Python + CLI pour scraper les menus et tarifs d'[Aquavena](https://www.aquavena.nc) — service de livraison de repas diététiques en Nouvelle-Calédonie.
+
+## Installation
+
+```bash
+pip install aquavena-sdk
+# ou avec uv
+uv add aquavena-sdk
+```
+
+## CLI
+
+```bash
+# Lister tous les régimes disponibles
+aquavena list
+
+# Menus d'un régime (toutes les semaines publiées)
+aquavena menus aqua-méditerranéen
+aquavena menus aqua-chrono-diet
+
+# Grille tarifaire complète (tous régimes)
+aquavena tarifs
+```
+
+## SDK
+
+```python
+from aquavena_sdk import AquavenaClient
+
+with AquavenaClient() as client:
+
+    # Lister les régimes
+    regimes = client.list_regimes()
+    for r in regimes:
+        print(r.name, r.slug, r.image_url)
+
+    # Menus d'un régime
+    menu = client.get_menus("aqua-méditerranéen")
+    print(menu.description)
+    for day in menu.days:
+        print(day.date, day.label)
+        for dish in day.midi():
+            print("  midi :", dish.description)
+        for dish in day.soir():
+            print("  soir :", dish.description)
+
+    # Tarifs
+    tarifs = client.get_tarifs()
+    for rt in tarifs:
+        print(rt.regime)
+        for item in rt.items:
+            print(f"  {item.label}: {item.price_ttc} XPF TTC")
+```
+
+### Filtrer les jours à venir
+
+```python
+from datetime import date
+from aquavena_sdk import AquavenaClient
+
+with AquavenaClient() as client:
+    menu = client.get_menus("aqua-chrono-diet")
+
+upcoming = [d for d in menu.days if date.fromisoformat(d.date) >= date.today()]
+```
+
+## Modèles
+
+| Classe | Champs principaux |
+|---|---|
+| `Regime` | `name`, `slug`, `description`, `url`, `image_url` |
+| `RegimeMenu` | `slug`, `description`, `days: list[DayMenu]` |
+| `DayMenu` | `date`, `label`, `formule`, `plats`, `supplements`, `boissons` |
+| `Dish` | `meal_time: MealTime`, `description` |
+| `MealTime` | `MIDI`, `SOIR`, `GOURMET_MIDI`, `GOURMET_SOIR` |
+| `RegimeTarif` | `regime`, `table_id`, `items: list[TarifItem]` |
+| `TarifItem` | `label`, `price_ht`, `price_ttc` (XPF) |
+
+## Régimes disponibles
+
+| Slug | Régime |
+|---|---|
+| `aqua-bien-être-family` | Aqua Bien Être / Family |
+| `aqua-chrono-diet` | Aqua Chrono Diet |
+| `aqua-chrono-végé` | Aqua Chrono Végé |
+| `aqua-méditerranéen` | Aqua Méditerranéen |
+| `aqua-gourmand` | Aqua Gourmand |
+| `aqua-végé` | Aqua Végé |
+| `aqua-low-carb` | Aqua Low Carb |
+| `aquasportif` | Aqua'Sportif |
+
+## Développement
+
+```bash
+git clone https://github.com/adriens/aquavena
+cd aquavena
+uv sync
+uv run pytest
+uv run aquavena list
+```
+
+## Licence
+
+MIT
+
+---
+
+---
 name: arduino-led-snake
 url: https://github.com/adriens/arduino-led-snake
 description: ""
@@ -26237,7 +33835,7 @@ language: Python
 topics: [csv, data-science, duckdb, duckdb-database, noumea, nouvelle-caledonie, opendata]
 stars: 0
 created_at: 2023-05-28
-updated_at: 2026-05-19
+updated_at: 2026-05-26
 archived: false
 has_readme: true
 ---
@@ -26462,7 +34060,7 @@ language: Python
 topics: []
 stars: 0
 created_at: 2026-04-28
-updated_at: 2026-05-24
+updated_at: 2026-06-01
 archived: false
 has_readme: true
 ---
@@ -27656,7 +35254,7 @@ language: HTML
 topics: []
 stars: 0
 created_at: 2026-05-15
-updated_at: 2026-05-24
+updated_at: 2026-05-29
 archived: false
 has_readme: true
 ---
@@ -27665,6 +35263,7 @@ has_readme: true
 
 [![Website](https://img.shields.io/badge/website-live-brightgreen)](https://adriens.github.io/claude-commands/)
 [![Built with Zensical](https://img.shields.io/badge/built%20with-Zensical-blue)](https://zensical.org/)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 Collection de slash commands (skills) pour [Claude Code](https://claude.ai/code).
 
@@ -28304,6 +35903,24 @@ Testing with docker images on Circle CI
 ---
 
 ---
+name: dpmmc
+url: https://github.com/adriens/dpmmc
+description: "Outil de gestion de la main courante de la Police Municipale de la Ville de Nouméa"
+language: 
+topics: []
+stars: 0
+created_at: 2015-08-19
+updated_at: 2018-11-15
+archived: false
+has_readme: true
+---
+
+# dpmmc
+Outil de gestion de la main courante de la Police Municipale de la Ville de Nouméa
+
+---
+
+---
 name: duckdb-brew
 url: https://github.com/adriens/duckdb-brew
 description: "duckdb extension to report installed brew packages/casks/formulas with SQL"
@@ -28311,7 +35928,7 @@ language: C++
 topics: [brew, community, duckdb, extension, homebrew, sql, csv, dataengineering, datascience, parquet, reporting]
 stars: 1
 created_at: 2026-01-25
-updated_at: 2026-03-24
+updated_at: 2026-05-31
 archived: false
 has_readme: true
 ---
@@ -28324,6 +35941,7 @@ This repository is based on https://github.com/duckdb/extension-template, check 
 
 This extension, `brew` is useful to query **locally installed** (making hence `brew` a prerequisite) information about Homebrew packages, formulas and casks.
 
+[![Watch the video](https://img.youtube.com/vi/7oVyu5jouxU/maxresdefault.jpg)](https://www.youtube.com/watch?v=7oVyu5jouxU)
 
 ## Building
 ### Managing dependencies
@@ -28579,7 +36197,7 @@ language: Python
 topics: [csv, noumea, opendata, water-quality-analysis]
 stars: 0
 created_at: 2025-09-24
-updated_at: 2026-05-22
+updated_at: 2026-05-29
 archived: false
 has_readme: true
 ---
@@ -33243,6 +40861,59 @@ https://adriens.github.io/presentation-ci-docker/
 ---
 
 ---
+name: presentation-idd-cloud
+url: https://github.com/adriens/presentation-idd-cloud
+description: "Rapide présentation de la stack du développeur mairie (maven, packages, git, repos mvn, test unitaire) et de l'écosystème cloud qui va autour."
+language: 
+topics: []
+stars: 1
+created_at: 2015-07-15
+updated_at: 2015-08-11
+archived: false
+has_readme: true
+---
+
+# Présentation de la stack du développeur
+
+[![Join the chat at https://gitter.im/adriens/presentation-idd-cloud](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/adriens/presentation-idd-cloud?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+Présentation de la stack complète du développeur mairie (maven, packages, git,
+  repos mvn, test unitaire) et de l'écosystème cloud qui va autour.
+
+Le but de cette présentation est de poser les éléments utilisés pour une
+industrialisation classique des dévelopements. Le but est de montrer,
+sur des exemples pratiques comment builder, packager, distribuer des
+applications, dans un contexte orienté SaaS en utilisant des produits du cloud.
+
+# Audience cible
+
+Cette présentation s'adresse à un public non développeur et a
+pour vocation à présenter les concepts et l'écosystème.
+
+En aucun cas il ne s'agit d'une présentation exhaustive, le but est de pouvoir,
+à terme, partager un minimum de language commun au sein de la DSI.
+
+# Outil de présentation
+
+Pour générer la présentation de manière à ce qu'elle puisse être éditée de
+manière collaborative (en markdown), j'ai utilisé npm et plus
+précisèment https://github.com/jdan/cleaver.
+
+# Builder la présentation
+
+1. Installer [cleaver](https://github.com/jdan/cleaver)
+2. Cloner la repo : `git clone https://github.com/adriens/presentation-idd-cloud.git`
+3. Aller dans le répertoire `cd presentation-idd-cloud`
+4. Builder la présentation : `cleaver presentation.md`
+
+
+# Accéder au dernier build de la présentation
+
+http://adriens.github.io/presentation-idd-cloud.
+
+---
+
+---
 name: presentation-izpack
 url: https://github.com/adriens/presentation-izpack
 description: "Litlle demo to show how izpack can help with workstation automation, with SCCM"
@@ -33580,6 +41251,115 @@ https://adriens.github.io/livre-or-collaborateurs-glia-slideshow/#/4
 
 La présentation est disponible ici:<br>
 https://adriens.github.io/presentation-stage-gbertherat/
+
+---
+
+---
+name: puppet-schemacrawler
+url: https://github.com/adriens/puppet-schemacrawler
+description: "Puppet module that installs schemacrawler"
+language: Puppet
+topics: []
+stars: 0
+created_at: 2015-10-07
+updated_at: 2016-03-12
+archived: false
+has_readme: true
+---
+
+# schemacrawler
+
+#### Table of Contents
+
+1. [Overview](#overview)
+2. [Module Description - What the module does and why it is useful](#module-description)
+3. [Setup - The basics of getting started with schemacrawler](#setup)
+    * [What schemacrawler affects](#what-schemacrawler-affects)
+    * [Setup requirements](#setup-requirements)
+    * [Beginning with schemacrawler](#beginning-with-schemacrawler)
+4. [Usage - Configuration options and additional functionality](#usage)
+5. [Reference - An under-the-hood peek at what the module is doing and how](#reference)
+5. [Limitations - OS compatibility, etc.](#limitations)
+6. [Development - Guide for contributing to the module](#development)
+
+## Overview
+
+Module that installs [schemacrawler](http://sualeh.github.io/SchemaCrawler/) on 'nix like systems.
+
+
+## Module Description
+
+This module :
+
+1. Download (by staging) the zip from [schemacrawler github releases page](https://github.com/sualeh/SchemaCrawler/releases/)
+3. Unzip in the proper directory (```/opt/apps/schemacrawler/```) and create symlinks so schemcrawler is
+immediatley in ```PATH```
+
+You may want to use this module if you want to install schemacrawler in a convenient way.
+
+For now, the only purpose of this module is to install schemacrawler.
+
+## Setup
+
+### Requirements
+
+* Puppet node must have web access to download the zip from github
+* Have at least Java 1.8 as [SchemaCrawler works with Java SE 8 and above](http://sualeh.github.io/SchemaCrawler/faq.html#supported-java), and set to alternatives.
+
+
+### What schemacrawler affects
+
+This module creates the following directories :
+
+* ```/opt/staging/schemacrawler/```
+* ```/opt/apps/schemacrawler/```
+* symbolic link ```/usr/bin/schemacrawler```
+* symbolic link ```/opt/schemacrawler```
+
+This module adds (if not present) the ```graphviz``` package) so schemacrawler will be able to draw relationships graphs.
+
+**Notice that this module WILL NOT install any Java runtime. You'll have to do this your way.**
+
+### Setup Requirements
+
+Java 1.8 (at least) **must** be installed, and ```java``` in the ```PATH```.
+
+### Beginning with schemacrawler
+
+To use this module, simply add this code in your manifest :
+
+	class {'schemacrawler::install':
+	}
+
+## Usage
+
+To use this module, simply add this code in your manifest : this module, simply add this code in your manifest :
+
+        class {'schemacrawler::install':
+        }
+
+If you are behind a corporate proxy, use the following code :
+
+        class {'schemacrawler::install':
+        environment => 'http_proxy="http://scott:tiger@myproxy:3128"'}
+
+
+## Limitations
+
+For now, this module **does not** work on Windows systems.
+
+## Development
+
+I'm a true beginner on puppet, so feel free to contribute to the project by creating PR that make
+the module better. You are welcome to donate code, or simply say thank you ;-p
+
+## Release Notes
+
+This the first release, for now it installs schemacrawler.
+
+## TODO
+
+* Make staging and install dir as parameters.
 
 ---
 
@@ -35979,11 +43759,11 @@ docker ps
 name: whoami
 url: https://github.com/adriens/whoami
 description: "Mon CV et profil en données structurées — knowledge graph personnel pour agents, embeddings et graph data science"
-language: Astro
+language: Python
 topics: [curriculum, curriculum-vitae, resume, resume-website]
 stars: 0
 created_at: 2026-05-22
-updated_at: 2026-05-24
+updated_at: 2026-06-01
 archived: false
 has_readme: true
 ---
@@ -36085,7 +43865,7 @@ has_readme: true
 
 ## IoT — Devices & Gadgets
 
-*22 devices au total*
+*25 devices au total*
 
 
 ### @adriens
@@ -36176,6 +43956,23 @@ ATSAMD21G18 ARM Cortex M0+ @ 48MHz, 256KB Flash, 32KB RAM. Form factor Arduino U
 ---
 
 ---
+slug: adafruit-neopixel-ring-24
+name: "Adafruit NeoPixel Ring 24 RGB LED"
+category: module
+brand: "Adafruit"
+connectivity: []
+status: shelved
+acquired: 2026
+use_case: "Anneau de 24 LEDs RGB adressables individuellement — prototypage maker, indicateurs visuels, effets lumineux. Compatible Arduino et CircuitPython via protocole WS2812B."
+project: ""
+tags: [iot, led, adafruit, neopixel, arduino, rgb, circuitpython, ws2812b]
+---
+
+Anneau de 24 LEDs RGB NeoPixel (WS2812B) d'Adafruit. Chaque LED est adressable individuellement en couleur et luminosité via un seul fil de données. Compatible avec la bibliothèque Adafruit NeoPixel (Arduino) et CircuitPython.
+
+---
+
+---
 slug: adafruit-pyportal
 name: "Adafruit PyPortal"
 category: kit
@@ -36189,6 +43986,23 @@ tags: [iot, wifi, esp32, circuitpython, adafruit, display, dashboard]
 ---
 
 ATSAMD51 (M4) + coprocesseur ESP32 WiFi, écran 3.2" IPS 320×240 résistif touch, speaker, capteur lumière, slot microSD. WiFi uniquement (BT non exposé). CircuitPython natif — conçu pour se connecter à des API REST et afficher des données en autonome. Accessoire associé : Adafruit eInk 2.13" (SPI).
+
+---
+
+---
+slug: alitov-led-strip
+name: "Alitov LED Strip"
+category: module
+brand: "Alitov"
+connectivity: []
+status: shelved
+acquired: 2026
+use_case: "Strip de LEDs RGB adressables — prototypage maker, éclairage d'ambiance, indicateurs lumineux. Compatible Arduino."
+project: ""
+tags: [iot, led, arduino, rgb, ws2812b]
+---
+
+Strip de LEDs RGB adressables de la marque Alitov. Compatible Arduino pour des projets d'éclairage, d'indicateurs visuels ou d'effets lumineux.
 
 ---
 
@@ -36308,6 +44122,25 @@ tags: [iot, arduino, microcontroller, prototyping]
 ---
 
 Deux unités du clone Arduino UNO R3 par Elegoo. ATmega328P @ 16MHz, 32KB Flash, 2KB RAM. Puce USB-Série CH340. 100% compatible Arduino IDE et shields. Accessoire associé : shield TFT 2.8" 240×320 touch résistif (ILI9341, slot microSD).
+
+---
+
+---
+slug: keyestudio-turbidity-sensor
+name: "Keyestudio Turbidity Sensor V1.0"
+category: sensor
+brand: "Keyestudio"
+connectivity: []
+status: active
+acquired: 2026
+use_case: "Mesure de la turbidité de l'eau — projet qualité des eaux de baignade EDB Nouméa (edb-noumea). Signal analogique et digital vers microcontrôleur Arduino."
+project: "edb-noumea"
+tags: [iot, sensors, arduino, water-quality, keyestudio, nouvelle-caledonie, civic-tech]
+---
+
+Capteur de turbidité analogique/digital compatible Arduino. Mesure la clarté de l'eau via la diffusion lumineuse — plus l'eau est trouble, plus la turbidité est élevée.
+
+Utilisé dans le cadre du projet edb-noumea : monitoring de la qualité des eaux de baignade à Nouméa, en complément des données open data publiées sur data.gouv.nc.
 
 ---
 
