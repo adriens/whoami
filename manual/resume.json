@@ -446,7 +446,22 @@
     },
     {
       "title": "Speaker — PMI Horizons Nouméa (Project Management Institute)",
-      "date": "2024-01",
+      "date": "2026-07",
+      "awarder": "PMI Nouvelle-Calédonie",
+      "x-tags": [
+        "speaker",
+        "design-thinking",
+        "human-centric",
+        "accessibility",
+        "civic-tech",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
+      "summary": "2ème participation consécutive au PMI Horizons Nouméa — Talk : Design Thinking & Accessibilité numérique. Déclenché par la lecture de *Change by Design* (Tim Brown) : exploration de l'accessibilité, développement d'une application dédiée, puis mise en pratique pédagogique. Prévu le 7 juillet 2026."
+    },
+    {
+      "title": "Speaker — PMI Horizons Nouméa (Project Management Institute)",
+      "date": "2024-11",
       "awarder": "PMI Nouvelle-Calédonie",
       "x-tags": [
         "speaker",
@@ -457,7 +472,7 @@
         "pacifique",
         "nouvelle-caledonie"
       ],
-      "summary": "Talk : Neo4j & AI Agents et impacts projets — présentation de l'usage des knowledge graphs et agents IA dans la gestion de projets SI. https://www.youtube.com/watch?v=ErBCyOrup3M"
+      "summary": "1ère participation au PMI Horizons Nouméa — Talk : Neo4j & AI Agents et impacts projets — présentation de l'usage des knowledge graphs et agents IA dans la gestion de projets SI. https://www.youtube.com/watch?v=ErBCyOrup3M"
     },
     {
       "title": "Speaker — NODES 2023 (Conférence internationale Neo4j)",
@@ -2414,7 +2429,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.25.2",
+    "version": "v1.26.0",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }
