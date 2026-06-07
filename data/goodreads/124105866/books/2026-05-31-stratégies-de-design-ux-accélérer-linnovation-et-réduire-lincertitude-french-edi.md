@@ -7,7 +7,12 @@ isbn: '2212397313'
 num_pages: '277'
 published_year: ''
 rating: '0'
+review: "Very pragmatic book, very exciting to read and help put enthousiasm and
+  bring people with you. I use this book with the team I manage, with my students
+  and to pitch new ideas for myself and others."
+review_url: https://www.goodreads.com/review/show/5080023469
 shelf: read
+tags: [ux, design-thinking, lean, innovation, human-centric, pedagogy, management]
 title: 'Stratégies de design UX: Accélérer l''innovation et réduire l''incertitude
   (French Edition)'
 url: https://www.goodreads.com/review/show/5080023469?utm_medium=api&utm_source=rss
