@@ -1847,7 +1847,8 @@
         "Intégration robot Reachy Mini (simulation, CPU-only, sans LLM) : alerte vocale sur seuil de consommation via HuggingFace app store — https://youtu.be/hnn5J3qbDyU",
         "Étude complète open innovation (65 min) — télémétrie, éditiques, SLAs, DORA, B2B APIGEE, MCP, IoT — https://youtu.be/tPihPZRfh2A",
         "Dev Challenge HERMES x Qwen 3.7 Max (OpenRouter) : rapport Quarto multi-rôles (CEO/CIO/Admin/Dev), role-playing simulation, bimodal distribution discovery — https://youtu.be/Zw-lfNFA0fQ",
-        "Clip : HERMES annotant les SLAs analytics LaTeX en direct depuis DuckDB — https://youtu.be/wUKko5sRwzQ"
+        "Clip : HERMES annotant les SLAs analytics LaTeX en direct depuis DuckDB — https://youtu.be/wUKko5sRwzQ",
+        "Manifeste Open Innovation NC (< 1') — appel à l'innovation collective pour tous les devs, makers et startups calédoniennes — https://youtu.be/krLwHwx1AeY"
       ],
       "url": "https://dev.to/adriens/i-reverse-engineered-my-mobile-operators-apk-then-hermes-agent-wrote-the-executive-report-2j3o"
     },
@@ -2471,7 +2472,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.27.0",
+    "version": "v1.27.1",
     "lastModified": "2026-06-02",
     "theme": "elegant"
   }
