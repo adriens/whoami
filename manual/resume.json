@@ -1878,6 +1878,7 @@
         "Étude complète open innovation (65 min) — télémétrie, éditiques, SLAs, DORA, B2B APIGEE, MCP, IoT — https://youtu.be/tPihPZRfh2A",
         "Dev Challenge HERMES x Qwen 3.7 Max (OpenRouter) : rapport Quarto multi-rôles (CEO/CIO/Admin/Dev), role-playing simulation, bimodal distribution discovery — https://youtu.be/Zw-lfNFA0fQ",
         "Clip : HERMES annotant les SLAs analytics LaTeX en direct depuis DuckDB — https://youtu.be/wUKko5sRwzQ",
+        "Clip role-playing dédié : personas lean/agile (CEO, CIO, CTO, sysadmin, dev, marketing, client final) joués par HERMES pour générer un executive summary one-pager — https://youtu.be/RxqDZKXxWyY",
         "Manifeste Open Innovation NC (< 1') — appel à l'innovation collective pour tous les devs, makers et startups calédoniennes — https://youtu.be/krLwHwx1AeY"
       ],
       "url": "https://dev.to/adriens/i-reverse-engineered-my-mobile-operators-apk-then-hermes-agent-wrote-the-executive-report-2j3o"
@@ -2502,7 +2503,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.28.0",
+    "version": "v1.28.1",
     "lastModified": "2026-06-14",
     "theme": "elegant"
   }
