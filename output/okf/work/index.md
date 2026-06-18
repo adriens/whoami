@@ -1,0 +1,16 @@
+---
+type: Index
+title: Work
+description: Index de la section work
+resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
+tags: []
+timestamp: '2026-06-19'
+---
+
+5 entrées.
+
+- [Architecte Logiciel / Chef de Section Développement & Maintenance @ DSI Ville de Nouméa](dsi-ville-de-noumea-architecte-logiciel-chef-de-section-developpement-maintenance.md) — 9 ans d'évolution dans une équipe de 2-3 développeurs, de la conception au leadership : chef de pro…
+- [Chef de Section GLIA — Génie Logiciel Inter-Applicatif @ OPT-NC (Office des Postes et Télécommunications de Nouvelle-Calédonie)](opt-nc-office-des-postes-et-telecommunications-de-nouvelle-caledonie-chef-de-section-glia-genie-logiciel-inter-applicatif.md) — Pilotage de la section GLIA (6 personnes) : interopérabilité du SI, data engineering, DevSecOps, ca…
+- [Consultant Développeur — Couche Base de Données @ Experian Decision Analytics](experian-decision-analytics-consultant-developpeur-couche-base-de-donnees.md) — Développement core sur le layer base de données et intégration en mode consultant chez de grands co…
+- [DBA — Oracle & PostgreSQL @ Docaposte](docaposte-dba-oracle-postgresql.md) — DBA expert sur des plateformes nationales à fort trafic et fort enjeu : HADOPI, Infogreffe, Jedecla…
+- [Professeur Vacataire de Mathématiques @ Vice-Rectorat de Nouvelle-Calédonie](vice-rectorat-de-nouvelle-caledonie-professeur-vacataire-de-mathematiques.md) — Enseignement des mathématiques en collège : collège de Bourail, puis collèges de Rivière Salée et K…

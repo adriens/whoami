@@ -154,6 +154,12 @@ tasks:
     cmds:
       - uv run scripts/build-okf.py
 
+  build-okf-viz:
+    desc: Generer output/okf/viz.html — graphe HTML interactif du bundle OKF
+    deps: [build-okf]
+    cmds:
+      - uv run --with pyyaml scripts/build-okf-viz.py
+
   fetch-all:
     desc: Fetch toutes les sources + genere le knowledge base
     cmds:

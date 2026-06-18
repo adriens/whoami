@@ -11,6 +11,10 @@ dist
 public
 output/*
 !output/knowledge-base.md
+!output/okf
+
+# OKF visualizer tool cache (cloned on demand)
+.cache
 
 # code coverage
 coverage
