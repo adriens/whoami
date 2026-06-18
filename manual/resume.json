@@ -1283,6 +1283,29 @@
       ]
     },
     {
+      "name": "Romain Pelizzo",
+      "reference": "Très bon formateur, grâce à lui, j'ai pu monter rapidement en compétences sur la création et le fonctionnement des API ainsi que sur leurs appels.\n\nJ'ai également acquis des connaissances sur de nouvelles technologies, notamment le framework Java Quarkus et SFTPGo, une technologie permettant de gérer des comptes SFTP.\n\nEt bien d'autres encore. 👌",
+      "x-position": "Concepteur / Développeur d'Applications",
+      "x-relationship": "Direct report d'Adrien (OPT-NC)",
+      "x-date": "2026-05-28",
+      "x-source": "LinkedIn",
+      "x-language": "fr",
+      "x-tags": [
+        "direct-report-recommendation",
+        "mentorat",
+        "transmission",
+        "pedagogie",
+        "api-fication",
+        "api-design",
+        "java",
+        "quarkus",
+        "exploration-techno",
+        "knowledge-sharing",
+        "tech-enthusiasm",
+        "opt-nc"
+      ]
+    },
+    {
       "name": "Guillaume Bertherat",
       "reference": "Adrien est une personne profondément passionnée par le développement et les nouvelles technologies. Son enthousiasme, sa curiosité et son envie de partager ses connaissances rendent le travail à ses côtés particulièrement motivant et enrichissant. Il sait transmettre sa passion avec beaucoup d'énergie et encourage toujours à explorer de nouvelles idées et à aller plus loin techniquement.\n\nC'est également un excellent tuteur, toujours disponible, à l'écoute et impliqué dans l'accompagnement des personnes avec qui il travaille. Il prend le temps d'expliquer, de conseiller et de challenger de manière constructive afin de faire progresser aussi bien techniquement qu'humainement.",
       "x-position": "Responsable technique & Développeur senior chez Sopra Steria",
@@ -2503,8 +2526,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.28.1",
-    "lastModified": "2026-06-14",
+    "version": "v1.29.0",
+    "lastModified": "2026-06-19",
     "theme": "elegant"
   }
 }
