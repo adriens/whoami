@@ -7,6 +7,7 @@ on:
       - 'site/**'
       - 'manual/resume.json'
       - 'data/**'
+      - 'output/okf/**'
   workflow_dispatch:
 
 permissions:
