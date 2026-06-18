@@ -149,6 +149,11 @@ tasks:
     cmds:
       - uv run scripts/build-knowledge-base.py --lite
 
+  build-okf:
+    desc: Generer output/okf/ — bundle Open Knowledge Format v0.1 (graphe x-tags)
+    cmds:
+      - uv run scripts/build-okf.py
+
   fetch-all:
     desc: Fetch toutes les sources + genere le knowledge base
     cmds:
