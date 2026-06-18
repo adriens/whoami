@@ -8,7 +8,7 @@ Site portfolio Astro déployé sur GitHub Pages : https://adriens.github.io/whoa
 - **uv** — gestion des dépendances Python (`pyproject.toml` + `uv.lock`)
 - **bun** — gestion des dépendances JS (`package.json` + `bun.lock`)
 - **task** (go-task) — interface unifiée pour toutes les tâches (`Taskfile.yml`)
-- **Astro 5.x** — site portfolio statique dans `site/`, déployé via GitHub Actions sur GitHub Pages
+- **Astro 6.x** — site portfolio statique dans `site/`, déployé via GitHub Actions sur GitHub Pages
 
 ## Fichiers clés
 
@@ -585,6 +585,15 @@ Suivre [Semantic Versioning](https://semver.org/) — `vMAJOR.MINOR.PATCH`. Sync
 | `PATCH` | Correction, précision, enrichissement mineur (tags, summary, URLs) |
 | `MINOR` | Ajout de contenu (nouvelle entrée dans une section) |
 | `MAJOR` | Refonte structurelle du resume |
+
+**Règle absolue — régénérer le bundle OKF à chaque tag.** Avant de poser le tag, régénérer et commiter le bundle OKF (artefact versionné, embarqué dans le commit taggé + déployé sur le site) :
+
+```sh
+task build-okf-viz   # régénère output/okf/ + viz.html (build-okf est en dépendance)
+git add output/okf && git commit -m "chore(kb): rebuild OKF bundle (vX.Y.Z)"
+```
+
+`build-okf-viz` exécute `build-okf` puis génère `output/okf/viz.html`. Le bundle est lié dans le footer du site (`/whoami/okf/viz.html`).
 
 **Règle absolue — pousser le tag et créer la release immédiatement.** `git push` ne pousse pas les tags. Après chaque `git tag vX.Y.Z`, enchaîner sans exception :
 
