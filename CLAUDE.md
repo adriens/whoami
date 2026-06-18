@@ -70,7 +70,14 @@ task fetch-dockerhub        # Images Docker Hub @rastadidi (Hub API v2)
 task fetch-pypi             # Packages PyPI @rastadidi (PyPI JSON API)
 task build-knowledge-base   # Générer output/knowledge-base.md (full)
 task build-knowledge-base-lite  # Générer output/knowledge-base.md (lite)
+task build-okf              # Générer output/okf/ — bundle Open Knowledge Format v0.1
 ```
+
+### Bundle OKF (Open Knowledge Format)
+
+`task build-okf` génère `output/okf/` : un bundle [Open Knowledge Format v0.1](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing) (arborescence de `.md` + frontmatter YAML reliés par liens markdown) depuis `manual/resume.json`. Artefact **généré** — `resume.json` reste la seule source de vérité ; ne jamais éditer `output/okf/` à la main. Local-only (gitignoré via `output/*`).
+
+Particularité : les `x-tags` deviennent des **nœuds-hub** `tags/<tag>.md` reliant les sections entre elles (le graphe de connaissances du profil, navigable sans Neo4j). `skills` et `interests` (sans `x-tags`) s'accrochent au graphe par correspondance `name`/`keywords` ↔ taxonomie `x-tags`. Le script vérifie en fin de run que tous les liens internes résolvent.
 
 ### CV JSON Resume classique
 
