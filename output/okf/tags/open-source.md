@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: open-source
-description: 39 entrées taguées « open-source »
+description: 40 entrées taguées « open-source »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-06-19'
 ---
 
-Concept transversal reliant 39 entrées du profil.
+Concept transversal reliant 40 entrées du profil.
 
 - [Arctic Code Vault Contributor — GitHub](../awards/arctic-code-vault-contributor-github.md) — *Award*
 - [Extension officielle DuckDB Community — brew](../awards/extension-officielle-duckdb-community-brew.md) — *Award*
@@ -42,6 +42,7 @@ Concept transversal reliant 39 entrées du profil.
 - [208 articles techniques — Dev.to](../publications/208-articles-techniques-dev-to.md) — *Publication*
 - [PostgreSQL Security Analysis — Zenodo](../publications/postgresql-security-analysis-zenodo.md) — *Publication*
 - [Bheem Reddy](../references/bheem-reddy.md) — *Reference*
+- [David BROUSTE](../references/david-brouste.md) — *Reference*
 - [David Kranitz](../references/david-kranitz.md) — *Reference*
 - [James Langeron](../references/james-langeron.md) — *Reference*
 - [Sualeh Fatehi](../references/sualeh-fatehi.md) — *Reference*

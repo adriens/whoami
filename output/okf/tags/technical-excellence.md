@@ -1,14 +1,15 @@
 ---
 type: Tag
 title: technical-excellence
-description: 7 entrées taguées « technical-excellence »
+description: 8 entrées taguées « technical-excellence »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-06-19'
 ---
 
-Concept transversal reliant 7 entrées du profil.
+Concept transversal reliant 8 entrées du profil.
 
+- [David BROUSTE](../references/david-brouste.md) — *Reference*
 - [David Kranitz](../references/david-kranitz.md) — *Reference*
 - [Jean Paul OLIVE](../references/jean-paul-olive.md) — *Reference*
 - [Julie Besson](../references/julie-besson.md) — *Reference*

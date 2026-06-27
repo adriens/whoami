@@ -1,15 +1,16 @@
 ---
 type: Tag
 title: tech-enthusiasm
-description: 9 entrées taguées « tech-enthusiasm »
+description: 10 entrées taguées « tech-enthusiasm »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-06-19'
 ---
 
-Concept transversal reliant 9 entrées du profil.
+Concept transversal reliant 10 entrées du profil.
 
 - [Clémentine Galin](../references/clementine-galin-2.md) — *Reference*
+- [David BROUSTE](../references/david-brouste.md) — *Reference*
 - [David Kranitz](../references/david-kranitz.md) — *Reference*
 - [Guillaume Bertherat](../references/guillaume-bertherat.md) — *Reference*
 - [James Langeron](../references/james-langeron.md) — *Reference*

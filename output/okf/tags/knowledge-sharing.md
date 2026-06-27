@@ -1,16 +1,17 @@
 ---
 type: Tag
 title: knowledge-sharing
-description: 9 entrées taguées « knowledge-sharing »
+description: 10 entrées taguées « knowledge-sharing »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-06-19'
 ---
 
-Concept transversal reliant 9 entrées du profil.
+Concept transversal reliant 10 entrées du profil.
 
 - [Alban Seurat](../references/alban-seurat.md) — *Reference*
 - [Clémentine Galin](../references/clementine-galin.md) — *Reference*
+- [David BROUSTE](../references/david-brouste.md) — *Reference*
 - [Guillaume Bertherat](../references/guillaume-bertherat.md) — *Reference*
 - [James Langeron](../references/james-langeron.md) — *Reference*
 - [Jean Paul OLIVE](../references/jean-paul-olive.md) — *Reference*
