@@ -6,7 +6,7 @@ import { resolve } from 'node:path';
 const root = resolve(process.cwd(), '..');
 
 const resume = JSON.parse(readFileSync(resolve(root, 'manual/resume.json'), 'utf-8'));
-const { basics, work = [], education = [], skills = [], projects = [], languages = [], publications = [], awards = [], volunteer = [], interests = [], certificates = [] } = resume;
+const { basics, work = [], education = [], skills = [], projects = [], languages = [], publications = [], awards = [], volunteer = [], interests = [], certificates = [], references = [] } = resume;
 
 const githubProfile   = basics.profiles?.find((p: any) => p.network.toLowerCase() === 'github');
 const linkedinProfile = basics.profiles?.find((p: any) => p.network.toLowerCase() === 'linkedin');
@@ -162,6 +162,27 @@ function interestIcon(name: string): string {
   return 'fa-solid fa-star';
 }
 
+const latestRefs = [...references]
+  .sort((a: any, b: any) => (b['x-date'] ?? '').localeCompare(a['x-date'] ?? ''))
+  .slice(0, 6);
+
+function refBadge(ref: any): { label: string; cls: string } {
+  const tags: string[] = ref['x-tags'] ?? [];
+  if (tags.includes('client-relationship'))           return { label: 'Client',       cls: 'ref-badge-client'  };
+  if (tags.includes('manager-recommendation'))        return { label: 'Manager',      cls: 'ref-badge-manager' };
+  if (tags.includes('direct-report-recommendation')) return { label: 'Direct report', cls: 'ref-badge-dr'     };
+  if (tags.includes('student-recommendation') || tags.includes('intern-recommendation')) return { label: 'Étudiant', cls: 'ref-badge-student' };
+  if (tags.includes('upstream-recognition'))          return { label: 'Upstream',     cls: 'ref-badge-peer'   };
+  if (tags.includes('peer-recognition'))              return { label: 'Collègue',     cls: 'ref-badge-peer'   };
+  return { label: 'Recommandation', cls: 'ref-badge-peer' };
+}
+
+function refExcerpt(text: string, len = 160): string {
+  if (!text) return '';
+  const clean = text.replace(/\n+/g, ' ');
+  return clean.length > len ? clean.substring(0, len).trimEnd() + '…' : clean;
+}
+
 function levelDots(level: string): number {
   const map: Record<string, number> = {
     'expert': 5, 'avancé': 4, 'intermédiaire': 3, 'débutant': 2, 'notions': 1
@@ -210,6 +231,7 @@ function levelDots(level: string): number {
       <a href="#articles"     class="snav-link" title="Articles DEV.to"><i class="fa-brands fa-dev"></i></a>
       <a href="#lectures"     class="snav-link" title="Lectures"><i class="fa-solid fa-book-open"></i></a>
       <a href="#interets"     class="snav-link" title="Intérêts"><i class="fa-solid fa-heart-pulse"></i></a>
+      <a href="#temoignages" class="snav-link" title="Témoignages"><i class="fa-solid fa-quote-right"></i></a>
     </nav>
     <button id="pdf-btn" aria-label="Exporter en PDF" title="Exporter en PDF">
       <i class="fa-solid fa-file-pdf"></i>
@@ -701,6 +723,45 @@ function levelDots(level: string): number {
           </div>
         </section>
       )}
+      {latestRefs.length > 0 && (
+        <section id="temoignages">
+          <h2><i class="fa-solid fa-quote-right"></i> Témoignages <span class="section-count">{references.length}</span></h2>
+          <div class="refs-grid">
+            {latestRefs.map((r: any) => {
+              const badge = refBadge(r);
+              const isYT = r['x-source'] === 'YouTube';
+              return (
+                <article class="ref-card">
+                  <div class="ref-header">
+                    <div class="ref-name-row">
+                      <strong class="ref-name">{r.name}</strong>
+                      <span class={`ref-badge ${badge.cls}`}>{badge.label}</span>
+                    </div>
+                    <div class="ref-date-row">
+                      {isYT
+                        ? <i class="fa-brands fa-youtube ref-src-yt"></i>
+                        : <i class="fa-brands fa-linkedin ref-src-li"></i>}
+                      {r['x-date'] && <time>{formatDate(r['x-date'])}</time>}
+                    </div>
+                  </div>
+                  {r['x-position'] && <p class="ref-position">{r['x-position']}</p>}
+                  <p class="ref-excerpt">« {refExcerpt(r.reference)} »</p>
+                  {r.reference?.length > 160 && (
+                    <details class="ref-expand">
+                      <summary><i class="fa-solid fa-chevron-down"></i> Lire le témoignage complet</summary>
+                      <p class="ref-full">{r.reference}</p>
+                    </details>
+                  )}
+                </article>
+              );
+            })}
+          </div>
+          <a href="https://www.linkedin.com/in/adrien-sales/details/recommendations/" target="_blank" rel="noopener" class="see-all">
+            Voir toutes les recommandations <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          </a>
+        </section>
+      )}
+
       <section class="cta-section">
         <p class="cta-title">Envie de collaborer ?</p>
         <p class="cta-sub">Toujours partant pour un projet data, une conférence, un échange open source ou une opportunité depuis la Nouvelle-Calédonie.</p>
@@ -1707,6 +1768,124 @@ function levelDots(level: string): number {
     color: var(--muted);
   }
 
+  /* ── Testimonials / References ── */
+  .refs-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .ref-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .ref-card:hover {
+    border-color: color-mix(in srgb, var(--accent) 40%, transparent);
+    box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 15%, transparent);
+  }
+
+  .ref-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .ref-name-row {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .ref-name { font-size: 0.9rem; color: var(--text); }
+
+  .ref-date-row {
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex-shrink: 0;
+  }
+
+  .ref-src-li { color: #0a66c2; font-size: 0.85rem; }
+  .ref-src-yt { color: #ff0000; font-size: 0.85rem; }
+
+  .ref-badge {
+    font-size: 0.63rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0.1rem 0.5rem;
+    border-radius: 999px;
+    flex-shrink: 0;
+  }
+
+  .ref-badge-client  { background: color-mix(in srgb, #f59e0b 15%, transparent); color: #f59e0b; border: 1px solid color-mix(in srgb, #f59e0b 35%, transparent); }
+  .ref-badge-manager { background: color-mix(in srgb, #a78bfa 15%, transparent); color: #a78bfa; border: 1px solid color-mix(in srgb, #a78bfa 35%, transparent); }
+  .ref-badge-dr      { background: color-mix(in srgb, var(--accent) 15%, transparent); color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent); }
+  .ref-badge-student { background: color-mix(in srgb, #22c55e 15%, transparent); color: #22c55e; border: 1px solid color-mix(in srgb, #22c55e 35%, transparent); }
+  .ref-badge-peer    { background: color-mix(in srgb, var(--muted) 20%, transparent); color: var(--muted); border: 1px solid color-mix(in srgb, var(--muted) 30%, transparent); }
+
+  .ref-position {
+    font-size: 0.75rem;
+    color: var(--muted);
+    line-height: 1.4;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+
+  .ref-excerpt {
+    font-size: 0.82rem;
+    color: var(--muted);
+    line-height: 1.6;
+    font-style: italic;
+  }
+
+  .ref-expand { margin-top: 0.1rem; }
+
+  .ref-expand > summary {
+    cursor: pointer;
+    list-style: none;
+    font-size: 0.72rem;
+    color: var(--accent);
+    opacity: 0.65;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    user-select: none;
+    transition: opacity 0.15s;
+  }
+
+  .ref-expand > summary::-webkit-details-marker { display: none; }
+  .ref-expand > summary:hover { opacity: 1; }
+
+  .ref-expand > summary i {
+    font-size: 0.6rem;
+    transition: transform 0.2s;
+  }
+
+  .ref-expand:not([open]) > summary i { transform: rotate(-90deg); }
+
+  .ref-full {
+    font-size: 0.82rem;
+    color: var(--muted);
+    line-height: 1.65;
+    font-style: italic;
+    margin-top: 0.5rem;
+    white-space: pre-line;
+  }
+
   /* ── Responsive ── */
   @media (max-width: 600px) {
     main { padding: 1.75rem 1rem 4rem; }
@@ -1717,6 +1896,7 @@ function levelDots(level: string): number {
     .skills-grid { grid-template-columns: 1fr; }
     .interests-grid { grid-template-columns: 1fr; }
     .content-grid { grid-template-columns: 1fr; }
+    .refs-grid { grid-template-columns: 1fr; }
     .lang-list { flex-direction: column; gap: 0.5rem; }
     .cta-links { flex-direction: column; align-items: stretch; }
     .cta-btn { justify-content: center; }
