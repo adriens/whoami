@@ -2,11 +2,11 @@
 name: aquavena
 url: https://github.com/adriens/aquavena
 description: "SDK Python pour les menus aquavena"
-language: Astro
+language: HTML
 topics: []
 stars: 0
 created_at: 2026-05-24
-updated_at: 2026-05-31
+updated_at: 2026-06-29
 archived: false
 has_readme: true
 ---

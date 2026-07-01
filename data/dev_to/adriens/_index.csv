@@ -1,7 +1,6 @@
 id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_challenge
 3735712,📊 I (finally) built the demo of my duckdb brew extension,https://dev.to/adriens/i-finally-built-the-demo-of-my-duckdb-brew-extension-c6o,2026-05-29T08:07:18Z,"devchallenge,githubchallenge,datascience,security",1,0,2,True
-3767131,⚚ I reverse-engineered my mobile operator's APK — then Hermes Agent wrote the executive report,https://dev.to/adriens/i-reverse-engineered-my-mobile-operators-apk-then-hermes-agent-wrote-the-executive-report-2j3o,2026-05-28T23:01:45Z,"hermesagentchallenge,devchallenge,agents,datascience",4,4,5,True
-3658489,🧞‍♂️Transform unstructured PDFs Job Offers into a dataset w. gemma4:2b,https://dev.to/adriens/transform-unstructured-pdfs-job-offers-into-a-dataset-w-gemma42b-4ggb,2026-05-17T22:47:08Z,"devchallenge,gemmachallenge,gemma,dataengineering",9,3,4,True
+3658489,🧞‍♂️Transform unstructured PDFs Job Offers into a dataset w. gemma4:2b,https://dev.to/adriens/transform-unstructured-pdfs-job-offers-into-a-dataset-w-gemma42b-4ggb,2026-05-17T22:47:08Z,"devchallenge,gemmachallenge,gemma,dataengineering",9,4,4,True
 3049555,💸 How $0 marketing budget boosted my creativity & automation opportunities,https://dev.to/adriens/how-0-marketing-budget-boosted-my-creativity-automation-opportunities-3n9j,2026-03-11T20:11:05Z,"automation,marketing,design,showdev",8,5,3,False
 3293201,🦈 Analyzing Open Data shark attacks with gemini-cli and Quarto 📊,https://dev.to/adriens/analyzing-open-data-shark-attacks-with-gemini-cli-and-quarto-3pe8,2026-02-28T06:55:37Z,"devchallenge,geminireflections,gemini,datascience",8,25,3,True
 3232987,🦆Built a duckdb community extension for brew,https://dev.to/adriens/built-a-duckdb-community-extension-for-brew-4k6f,2026-02-14T03:55:40Z,"devchallenge,githubchallenge,cli,githubcopilot",8,5,3,True
@@ -11,7 +10,7 @@ id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_ch
 2419332,🎬 2025 UNC MIAGE démo finale,https://dev.to/adriens/2025-unc-miage-demo-finale-508g,2025-05-18T20:57:50Z,"datascience,learning,machinelearning,python",1,27,3,False
 2385057,🥳 We built the cli of our dreams to send sms ❣️,https://dev.to/optnc/we-built-the-cli-of-our-dreams-to-send-sms-3c7m,2025-04-14T21:48:18Z,"showdev,go,cli,learning",1,12,2,False
 2356383,🔬Public docker images Trivy scans as duckdb datas on Kaggle,https://dev.to/adriens/public-docker-images-trivy-scans-as-duckdb-datas-on-kaggle-231n,2025-03-31T21:03:40Z,"cybersecurity,dataengineering,jupyter,datascience",0,7,1,False
-2352209,🎓 2025 Teacher journey at University of New-Caledonia,https://dev.to/adriens/2025-teacher-journey-at-university-of-new-caledonia-cf2,2025-03-23T21:13:59Z,"learning,datascience,ai,showdev",0,23,2,False
+2352209,🎓 2025 Teacher journey at University of New-Caledonia,https://dev.to/adriens/2025-teacher-journey-at-university-of-new-caledonia-cf2,2025-03-23T21:13:59Z,"learning,datascience,ai,showdev",0,24,2,False
 2223744,🔭 Compiling 2025 : growing technical skills for more creativity,https://dev.to/adriens/compiling-2025-pushing-technical-skills-for-more-creativity-290n,2025-01-31T03:33:23Z,"devchallenge,newyearchallenge,career,learning",8,5,3,True
 2223706,🤖 Job seeker agent.ai for Public Services in New-Caledonia,https://dev.to/adriens/job-seeker-agentai-for-public-services-in-new-caledonia-2d6b,2025-01-25T22:35:01Z,"devchallenge,agentaichallenge,ai,machinelearning",11,9,3,True
 2200466,"⏳GitHub Copilot 1-Day Build Challenge : eol, a tiny Go client to manage eols",https://dev.to/adriens/github-copilot-1-day-build-challenge-eol-a-tiny-go-client-to-manage-eols-j,2025-01-11T12:18:43Z,"devchallenge,githubchallenge,ai,go",17,9,2,True
@@ -63,7 +62,7 @@ id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_ch
 1686965,🎀 Domaine.nc data as Jupyter on Kaggle 📊,https://dev.to/adriens/domainenc-data-as-jupyter-on-kaggle-454n,2023-12-06T23:40:57Z,"datascience,dataengineering,api,jupyter",0,5,1,False
 1663312,"📑 GitHub Universe '23: BestOf Copilot at the ""Age of AI""",https://dev.to/adriens/github-universe-23-bestof-copilot-at-the-age-of-ai-1gib,2023-11-21T21:36:11Z,"github,news,ai,learning",0,21,3,False
 1656476,🇺🇳 Discover a country UN SDGs concerns w/ Open Metadata on Neo4J,https://dev.to/adriens/discover-a-country-un-sdgs-concerns-w-open-metadata-on-neo4j-13df,2023-11-13T21:02:42Z,"datascience,dataviz,opendata,ai",3,15,2,False
-1640284,"🛣️ API Marketplaces & innovation, explained and showcased",https://dev.to/optnc/api-marketplaces-innovation-explained-and-showcased-li1,2023-11-05T20:46:25Z,"api,apigateway,beginners,showdev",4,8,1,False
+1640284,"🛣️ API Marketplaces & innovation, explained and showcased",https://dev.to/optnc/api-marketplaces-innovation-explained-and-showcased-li1,2023-11-05T20:46:25Z,"api,apigateway,beginners,showdev",4,9,1,False
 1635646,🦙 Mistral 7B & Ollama: LLMs 💏 Apache 2.0 Open Source on small hardwares,https://dev.to/adriens/mistral-7b-ollama-llms-apache-20-open-source-on-small-hardwares-3ln3,2023-10-19T20:25:36Z,"ai,opensource,python,beginners",4,13,2,False
 1600629,🎉 My very own #PacificDatavizChallenge 2023,https://dev.to/adriens/my-very-own-pacificdatavizchallenge-5e37,2023-09-26T20:37:40Z,"datascience,opendata,dataviz,community",0,11,2,False
 1605448,🎉 Java 21 is out... and bookmarks 📑,https://dev.to/adriens/java-21-is-out-and-bookmarks-4h8k,2023-09-19T22:10:00Z,"java,news,programmers,jkd21",5,11,1,False
@@ -151,7 +150,7 @@ id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_ch
 1115785,📲 Inspired by Twilio we started to build our own (pico)cli to send sms,https://dev.to/optnc/inspired-by-twilio-we-started-to-build-our-own-picocli-to-send-sms-3f80,2022-07-28T07:06:04Z,"api,java,programming,showdev",1,2,3,False
 1153193,🪄 Introducing jq tricks to Grype-Contribs,https://dev.to/optnc/introducing-jq-tricks-to-grype-contribs-4663,2022-07-27T22:26:26Z,"devops,security,news,productivity",1,4,1,False
 1152437,🚀 opt-sms awakens 📲,https://dev.to/adriens/opt-sms-awakens-459d,2022-07-27T02:30:17Z,"java,showdev,news,ubuntu",1,2,1,False
-1139110,"🍿 Organizational Performance with Open Data, 5S & digital art",https://dev.to/optnc/organizational-performance-with-open-data-5s-digital-art-4mnp,2022-07-21T21:12:32Z,"showdev,api,management,leadership",4,2,1,False
+1139110,"🍿 Organizational Performance with Open Data, 5S & digital art",https://dev.to/optnc/organizational-performance-with-open-data-5s-digital-art-4mnp,2022-07-21T21:12:32Z,"showdev,api,management,leadership",4,3,1,False
 1132834,🎮 Bringing live data to life with Digital Art & Unity,https://dev.to/optnc/bringing-live-data-to-life-with-digital-art-unity-25jf,2022-07-20T07:37:27Z,"showdev,api,datascience,gamedev",4,2,2,False
 1144055,📢 Grype 0.42.0 is out... and hello grype-contribs 👶,https://dev.to/optnc/grype-0420-is-out-and-hello-grype-contribs-3g4i,2022-07-18T23:20:40Z,"docker,productivity,devops,security",7,1,1,False
 1142486,🥓 Vincent Vega et Jules discutent DEVOPS au resto,https://dev.to/devops-heroes/vincent-vega-et-jules-discutent-devops-au-resto-2pf,2022-07-16T22:20:10Z,"discuss,devops,career,fun",6,1,1,False
@@ -200,7 +199,7 @@ id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_ch
 996836,Let CI check & fix your yamls,https://dev.to/optnc/let-ci-check-fix-your-yamls-kfa,2022-03-10T02:32:02Z,"github,yaml,devops,docker",10,0,3,False
 974401,Speeding Up Time to Market with Custom Ansible GitHub Actions,https://dev.to/optnc/speeding-up-time-to-market-with-custom-github-actions-3md0,2022-02-02T03:59:21Z,"github,deployment,devops,docker",1,0,4,False
 848354,357686312646216567629137,https://dev.to/adriens/357686312646216567629137-2b70,2021-10-27T21:06:42Z,"maths,dataviz,gephi,datascience",3,0,2,False
-814880,"About the Collatz conjecture, Neo4J & cypher",https://dev.to/adriens/about-the-collatz-conjecture-neo4j-cypher-184h,2021-09-07T20:13:27Z,"cypher,neo4j,graph,tutorial",5,14,6,False
+814880,"About the Collatz conjecture, Neo4J & cypher",https://dev.to/adriens/about-the-collatz-conjecture-neo4j-cypher-184h,2021-09-07T20:13:27Z,"cypher,neo4j,graph,tutorial",5,15,6,False
 784896,🏢 Open Data & Ridets en Nouvelle-Calédonie,https://dev.to/adriens/open-data-ridets-en-nouvelle-caledonie-52pl,2021-08-08T04:18:26Z,"opendata,rest,opensource,docker",2,0,3,False
 747447,Deploy Neo4J's APOC plugin with code thanks to CARVEL vendir,https://dev.to/adriens/deploy-neo4j-s-apoc-plugin-with-code-thanks-to-carvel-vendir-33l4,2021-07-05T01:42:54Z,"docker,neo4j,devops,wecoded",6,3,3,False
 640194,Draw charts from terminal with psql and termgraph,https://dev.to/adriens/draw-charts-from-terminal-with-psql-and-termgraph-50k6,2021-03-21T20:08:34Z,"postgres,analytics,bash",4,0,1,False

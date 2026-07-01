@@ -2,11 +2,11 @@
 name: whoami
 url: https://github.com/adriens/whoami
 description: "Mon CV et profil en données structurées — knowledge graph personnel pour agents, embeddings et graph data science"
-language: Python
+language: HTML
 topics: [curriculum, curriculum-vitae, resume, resume-website]
 stars: 0
 created_at: 2026-05-22
-updated_at: 2026-06-01
+updated_at: 2026-06-29
 archived: false
 has_readme: true
 ---

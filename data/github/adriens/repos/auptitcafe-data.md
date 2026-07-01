@@ -6,7 +6,7 @@ language: Python
 topics: [csv, data-science, duckdb, duckdb-database, noumea, nouvelle-caledonie, opendata]
 stars: 0
 created_at: 2023-05-28
-updated_at: 2026-05-26
+updated_at: 2026-06-26
 archived: false
 has_readme: true
 ---
