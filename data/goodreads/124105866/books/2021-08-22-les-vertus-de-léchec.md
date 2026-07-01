@@ -1,6 +1,6 @@
 ---
 author: Charles Pépin
-average_rating: '3.94'
+average_rating: '3.95'
 date_read: '2021-08-22'
 id: '32192509'
 isbn: '2370730137'

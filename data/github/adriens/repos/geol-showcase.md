@@ -6,7 +6,7 @@ language: TeX
 topics: [devsecops, secops, security]
 stars: 0
 created_at: 2025-09-28
-updated_at: 2026-05-20
+updated_at: 2026-06-21
 archived: false
 has_readme: true
 ---

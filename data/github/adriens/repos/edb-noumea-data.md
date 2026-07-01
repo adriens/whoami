@@ -6,7 +6,7 @@ language: Python
 topics: [csv, noumea, opendata, water-quality-analysis]
 stars: 0
 created_at: 2025-09-24
-updated_at: 2026-05-29
+updated_at: 2026-06-30
 archived: false
 has_readme: true
 ---

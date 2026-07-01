@@ -1,6 +1,6 @@
 ---
 author: Reed Hastings
-average_rating: '4.15'
+average_rating: '4.12'
 date_read: '2021-11-17'
 id: '57254246'
 isbn: ''

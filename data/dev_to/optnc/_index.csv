@@ -6,7 +6,7 @@ id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_ch
 1877483,"🥳 Mobitag.nc... 25 ans plus tard, des sms en SaaS via API{GEE}",https://dev.to/optnc/mobitagnc-25-ans-plus-tard-des-sms-en-saas-via-apigee-2h9e,2024-06-17T21:44:54Z,"apigateway,api,showdev,saas",8,5,2,False
 1775589,"📢 About job offers, innovation & data strategy 🔭",https://dev.to/optnc/about-job-offers-innovation-data-strategy-4c3f,2024-03-04T22:25:21Z,"datascience,jupyter,dataengineering,opendata",0,3,3,False
 1766021,📍 OPT-NC agencies on Kaggle,https://dev.to/optnc/opt-nc-agencies-on-kaggle-4edd,2024-02-21T20:00:48Z,"datascience,opendata,python,showdev",0,1,2,False
-1640284,"🛣️ API Marketplaces & innovation, explained and showcased",https://dev.to/optnc/api-marketplaces-innovation-explained-and-showcased-li1,2023-11-05T20:46:25Z,"api,apigateway,beginners,showdev",4,8,1,False
+1640284,"🛣️ API Marketplaces & innovation, explained and showcased",https://dev.to/optnc/api-marketplaces-innovation-explained-and-showcased-li1,2023-11-05T20:46:25Z,"api,apigateway,beginners,showdev",4,9,1,False
 1570623,🎯 Data strategy for (not so) dummies,https://dev.to/optnc/data-strategy-for-not-so-dummies-1b23,2023-08-17T20:27:19Z,"api,interview,data,news",2,2,8,False
 1531531,🦆 Effortless Data Quality w/duckdb on GitHub ♾️,https://dev.to/optnc/effortless-data-quality-wduckdb-on-github-2mkb,2023-07-25T06:33:44Z,"duckdb,githubactions,data,automation",3,10,1,False
 1536423,🗣️🤖 Ask to your Neo4J knowledge base in NLP & get KPIs,https://dev.to/optnc/ask-to-your-neo4j-knowledge-base-in-nlp-get-kpis-5ebd,2023-07-20T03:32:29Z,"neo4j,datascience,openai,nocode",2,5,4,False
@@ -54,7 +54,7 @@ id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_ch
 1150431,🗺️ Delivering Information System cartography as a Graph with Neo4J,https://dev.to/optnc/delivering-information-system-cartography-as-a-graph-with-neo4j-5bhl,2022-07-31T20:56:26Z,"neo4j,datascience,algorithms,dataviz",2,1,9,False
 1115785,📲 Inspired by Twilio we started to build our own (pico)cli to send sms,https://dev.to/optnc/inspired-by-twilio-we-started-to-build-our-own-picocli-to-send-sms-3f80,2022-07-28T07:06:04Z,"api,java,programming,showdev",1,2,3,False
 1153193,🪄 Introducing jq tricks to Grype-Contribs,https://dev.to/optnc/introducing-jq-tricks-to-grype-contribs-4663,2022-07-27T22:26:26Z,"devops,security,news,productivity",1,4,1,False
-1139110,"🍿 Organizational Performance with Open Data, 5S & digital art",https://dev.to/optnc/organizational-performance-with-open-data-5s-digital-art-4mnp,2022-07-21T21:12:32Z,"showdev,api,management,leadership",4,2,1,False
+1139110,"🍿 Organizational Performance with Open Data, 5S & digital art",https://dev.to/optnc/organizational-performance-with-open-data-5s-digital-art-4mnp,2022-07-21T21:12:32Z,"showdev,api,management,leadership",4,3,1,False
 1132834,🎮 Bringing live data to life with Digital Art & Unity,https://dev.to/optnc/bringing-live-data-to-life-with-digital-art-unity-25jf,2022-07-20T07:37:27Z,"showdev,api,datascience,gamedev",4,2,2,False
 1144055,📢 Grype 0.42.0 is out... and hello grype-contribs 👶,https://dev.to/optnc/grype-0420-is-out-and-hello-grype-contribs-3g4i,2022-07-18T23:20:40Z,"docker,productivity,devops,security",7,1,1,False
 1137962,📑 #jfokus2022 : Quarkus [...] back from the Future,https://dev.to/optnc/jfokus2022-quarkus-back-from-the-future-445l,2022-07-12T21:31:18Z,"quarkus,java,kubernetes,showdev",7,6,3,False
