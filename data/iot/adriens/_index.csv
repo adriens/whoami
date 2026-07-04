@@ -1,4 +1,5 @@
 slug,name,category,connectivity,status,acquired,tags
+pollen-reachy-mini,"Reachy Mini",robot,"[wifi, usb]",active,2026,"[iot, wifi, ai-agents, robot, pollen-robotics, nouvelle-caledonie, accessibility, devrel]"
 keyestudio-turbidity-sensor,"Keyestudio Turbidity Sensor V1.0",sensor,[],active,2026,"[iot, sensors, arduino, water-quality, keyestudio, nouvelle-caledonie, civic-tech]"
 adafruit-neopixel-ring-24,"Adafruit NeoPixel Ring 24 RGB LED",module,[],shelved,2026,"[iot, led, adafruit, neopixel, arduino, rgb, circuitpython, ws2812b]"
 alitov-led-strip,"Alitov LED Strip",module,[],shelved,2026,"[iot, led, arduino, rgb, ws2812b]"
