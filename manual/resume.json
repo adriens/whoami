@@ -446,7 +446,7 @@
     },
     {
       "title": "Speaker — PMI Horizons Nouméa (Project Management Institute)",
-      "date": "2026-07",
+      "date": "2026-07-04",
       "awarder": "PMI France – Branche Horizons, Pôle Nouvelle-Calédonie",
       "x-tags": [
         "speaker",
@@ -460,10 +460,12 @@
         "open-source",
         "lean",
         "interoperability",
+        "iot",
+        "ai-agents",
         "pacifique",
         "nouvelle-caledonie"
       ],
-      "summary": "2ème participation consécutive — Exposé : \"Développer mieux. Plus vite. Plus inclusif.\" Thème de l'événement : \"L'innovation n'a de valeur que lorsqu'elle crée davantage d'inclusion, d'accessibilité et de capacité d'agir.\" Point de départ : un proche en perte d'autonomie incapable de lire un document pour passer commande — zéro expertise préalable en accessibilité. Approche Design Thinking outillée (Agile, DevOps/CI-CD, Data Science, ML, Graph Data Science, IA) pour concevoir un service accessible quel que soit le handicap ou le contexte. Métriques projet : LEAD Time & DORA. Framework data-driven, open source, avec démonstration live et témoignages utilisateur. Succès mesuré au gain d'autonomie (nul, partiel ou total). 3 juillet 2026."
+      "summary": "2ème participation consécutive — Exposé : \"Développer mieux. Plus vite. Plus inclusif.\" Thème de l'événement : \"L'innovation n'a de valeur que lorsqu'elle crée davantage d'inclusion, d'accessibilité et de capacité d'agir.\" Point de départ : un proche en perte d'autonomie incapable de lire un document pour passer commande — zéro expertise préalable en accessibilité. Approche Design Thinking outillée (Agile, DevOps/CI-CD, Data Science, ML, Graph Data Science, IA) pour concevoir un service accessible quel que soit le handicap ou le contexte. Métriques projet : LEAD Time & DORA. Framework data-driven, open source, avec démonstration live et témoignages utilisateur. Succès mesuré au gain d'autonomie (nul, partiel ou total). Avant-première du robot Reachy Mini (Pollen Robotics) : agent vocal recommandant des menus Aquavena à un profil sportif triathlon — démo live dédiée à Aquavena. 4 juillet 2026. Vidéo : https://www.youtube.com/watch?v=c_sMVO94ssY"
     },
     {
       "title": "Speaker — PMI Horizons Nouméa (Project Management Institute)",
@@ -2282,6 +2284,8 @@
         "scraping",
         "api-fication",
         "open-source",
+        "ai-agents",
+        "iot",
         "pacifique",
         "nouvelle-caledonie"
       ],
@@ -2290,7 +2294,8 @@
       "highlights": [
         "Package PyPI `aquavena-sdk` (Python ≥3.13) — SDK + CLI autonome",
         "8+ régimes : menus hebdomadaires détaillés (déjeuner/dîner, suppléments, boissons) + tarifs complets",
-        "HuggingFace MCP Space : rastadidi/aquavena — serveur MCP pour accès aux menus depuis les agents IA (créé mai 2026) + Claude Skill dédié + documentation GitHub Pages"
+        "HuggingFace MCP Space : rastadidi/aquavena — serveur MCP pour accès aux menus depuis les agents IA (créé mai 2026) + Claude Skill dédié + documentation GitHub Pages",
+        "Avant-première live au PMI Horizons Nouméa (4 juillet 2026) — robot Reachy Mini (Pollen Robotics) recommande un menu Aquavena à un sportif triathlon, démo dédiée — https://www.youtube.com/watch?v=c_sMVO94ssY"
       ],
       "url": "https://pypi.org/project/aquavena-sdk/"
     },
@@ -2556,7 +2561,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.30.0",
+    "version": "v1.30.1",
     "lastModified": "2026-06-19",
     "theme": "elegant"
   }
