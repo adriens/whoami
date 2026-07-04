@@ -1,15 +1,16 @@
 ---
 type: Tag
 title: ai-agents
-description: 15 entrées taguées « ai-agents »
+description: 17 entrées taguées « ai-agents »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-06-19'
 ---
 
-Concept transversal reliant 15 entrées du profil.
+Concept transversal reliant 17 entrées du profil.
 
 - [Speaker — NODES 2024 (Conférence internationale Neo4j)](../awards/speaker-nodes-2024-conference-internationale-neo4j.md) — *Award*
+- [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute-2.md) — *Award*
 - [API-fication calédonienne — SDKs Java & APIs REST](../projects/api-fication-caledonienne-sdks-java-apis-rest.md) — *Project*
 - [Helia Monitor — Stack monitoring consommation mobile OPT-NC](../projects/helia-monitor-stack-monitoring-consommation-mobile-opt-nc.md) — *Project*
@@ -17,6 +18,7 @@ Concept transversal reliant 15 entrées du profil.
 - [MCP OPT-NC — Offres d'emploi Hugging Face](../projects/mcp-opt-nc-offres-d-emploi-hugging-face.md) — *Project*
 - [Open Data RH OPT-NC — Expérience candidat augmentée par l'IA](../projects/open-data-rh-opt-nc-experience-candidat-augmentee-par-l-ia.md) — *Project*
 - [Person Counter — Comptage ML pour optimiser l'occupation des salles de réunion](../projects/person-counter-comptage-ml-pour-optimiser-l-occupation-des-salles-de-reunion.md) — *Project*
+- [aquavena — SDK Python scraping menus & tarifs Aquavena NC](../projects/aquavena-sdk-python-scraping-menus-tarifs-aquavena-nc.md) — *Project*
 - [ollama-models — Dataset stats téléchargements LLM](../projects/ollama-models-dataset-stats-telechargements-llm.md) — *Project*
 - [208 articles techniques — Dev.to](../publications/208-articles-techniques-dev-to.md) — *Publication*
 - [Open Data OPT-NC sur Kaggle et Hugging Face](../publications/open-data-opt-nc-sur-kaggle-et-hugging-face.md) — *Publication*
