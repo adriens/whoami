@@ -804,7 +804,11 @@
         "Shift-left security",
         "geol",
         "goreleaser",
-        "RGPD"
+        "RGPD",
+        "WCAG",
+        "Lighthouse",
+        "Accessibility CI checks",
+        "DORA metrics"
       ]
     },
     {
@@ -841,6 +845,7 @@
       "level": "Avancé",
       "keywords": [
         "Quarto",
+        "R",
         "Notebooks reproductibles",
         "Urbanisation SI",
         "Rapports de sécurité",
@@ -2286,16 +2291,21 @@
         "open-source",
         "ai-agents",
         "iot",
+        "accessibility",
+        "human-centric",
+        "lean",
+        "frugal",
         "pacifique",
         "nouvelle-caledonie"
       ],
       "startDate": "2025-01",
-      "description": "SDK Python + CLI pour scraper les menus et tarifs d'Aquavena, service de livraison de repas diététiques en Nouvelle-Calédonie. Support de 8+ régimes alimentaires (méditerranéen, low carb, végétarien, sportif…), tarifs en XPF, filtrage par jour. Intégration Claude Skill + HuggingFace Space.",
+      "description": "SDK Python + CLI pour scraper les menus et tarifs d'Aquavena, service de livraison de repas diététiques en Nouvelle-Calédonie. Support de 8+ régimes alimentaires (méditerranéen, low carb, végétarien, sportif…), tarifs en XPF, filtrage par jour. Intégration Claude Skill + HuggingFace Space. Déclencheur : un proche malvoyant incapable de lire les menus pour passer commande — zéro expertise accessibilité préalable, approche Design Thinking.",
       "highlights": [
         "Package PyPI `aquavena-sdk` (Python ≥3.13) — SDK + CLI autonome",
         "8+ régimes : menus hebdomadaires détaillés (déjeuner/dîner, suppléments, boissons) + tarifs complets",
         "HuggingFace MCP Space : rastadidi/aquavena — serveur MCP pour accès aux menus depuis les agents IA (créé mai 2026) + Claude Skill dédié + documentation GitHub Pages",
-        "Avant-première live au PMI Horizons Nouméa (4 juillet 2026) — robot Reachy Mini (Pollen Robotics) recommande un menu Aquavena à un sportif triathlon, démo dédiée — https://www.youtube.com/watch?v=c_sMVO94ssY"
+        "Score accessibilité Aquavena 90→100% / site PWA Astro 81→100% — 31 erreurs WCAG → 0 — DORA Scorecard élite (lead time 15 min, 2,5 déploiements/jour, MTTR <1h)",
+        "Avant-première live au PMI Horizons Nouméa (4 juillet 2026) — robot Reachy Mini (Pollen Robotics) recommande un menu Aquavena à un sportif triathlon, démo dédiée — https://www.youtube.com/watch?v=hcXYVpWKjqA"
       ],
       "url": "https://pypi.org/project/aquavena-sdk/"
     },
@@ -2561,7 +2571,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.30.2",
+    "version": "v1.30.3",
     "lastModified": "2026-06-19",
     "theme": "elegant"
   }
