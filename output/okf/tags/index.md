@@ -29,7 +29,7 @@ timestamp: '2026-06-19'
 - [architecture](architecture.md) — 14 entrées
 - [pedagogie](pedagogie.md) — 14 entrées
 - [java](java.md) — 13 entrées
-- [human-centric](human-centric.md) — 11 entrées
+- [human-centric](human-centric.md) — 12 entrées
 - [unc-partnership](unc-partnership.md) — 11 entrées
 - [knowledge-sharing](knowledge-sharing.md) — 10 entrées
 - [neo4j](neo4j.md) — 10 entrées
@@ -55,19 +55,19 @@ timestamp: '2026-06-19'
 - [recognition](recognition.md) — 7 entrées
 - [delivery-focus](delivery-focus.md) — 6 entrées
 - [direct-report-recommendation](direct-report-recommendation.md) — 6 entrées
+- [frugal](frugal.md) — 6 entrées
 - [mentor](mentor.md) — 6 entrées
 - [team-lead](team-lead.md) — 6 entrées
 - [trust-building](trust-building.md) — 6 entrées
 - [client-relationship](client-relationship.md) — 5 entrées
 - [force-de-proposition](force-de-proposition.md) — 5 entrées
-- [frugal](frugal.md) — 5 entrées
 - [huggingface](huggingface.md) — 5 entrées
+- [lean](lean.md) — 5 entrées
 - [mcp](mcp.md) — 5 entrées
 - [team-culture](team-culture.md) — 5 entrées
 - [architecture-logicielle](architecture-logicielle.md) — 4 entrées
 - [cross-company](cross-company.md) — 4 entrées
 - [dynamism](dynamism.md) — 4 entrées
-- [lean](lean.md) — 4 entrées
 - [mobile](mobile.md) — 4 entrées
 - [packaging](packaging.md) — 4 entrées
 - [pleasure-to-work-with](pleasure-to-work-with.md) — 4 entrées
@@ -90,6 +90,7 @@ timestamp: '2026-06-19'
 - [quarkus](quarkus.md) — 3 entrées
 - [scrum](scrum.md) — 3 entrées
 - [veille-technologique](veille-technologique.md) — 3 entrées
+- [accessibility](accessibility.md) — 2 entrées
 - [code-quality](code-quality.md) — 2 entrées
 - [community-contribution](community-contribution.md) — 2 entrées
 - [continuous-improvement](continuous-improvement.md) — 2 entrées
@@ -102,7 +103,6 @@ timestamp: '2026-06-19'
 - [services-web](services-web.md) — 2 entrées
 - [spring](spring.md) — 2 entrées
 - [stage](stage.md) — 2 entrées
-- [accessibility](accessibility.md) — 1 entrées
 - [autonomy](autonomy.md) — 1 entrées
 - [broad-skills](broad-skills.md) — 1 entrées
 - [business-acumen](business-acumen.md) — 1 entrées
