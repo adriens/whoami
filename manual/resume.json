@@ -970,6 +970,7 @@
         "Imagination",
         "Connexion de domaines éloignés",
         "Pensée transdisciplinaire",
+        "Pensée systémique (feedback loops, complexité)",
         "Expérimentation",
         "MIT Media Lab mindset",
         "Rendre l'invisible visible",
@@ -1085,7 +1086,8 @@
         "Design Thinking",
         "UX Strategy",
         "Start with Why",
-        "Data Products"
+        "Data Products",
+        "Systems Thinking"
       ],
       "x-context": "pro"
     }
@@ -2604,7 +2606,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.31.2",
+    "version": "v1.31.3",
     "lastModified": "2026-07-13",
     "theme": "elegant"
   }
