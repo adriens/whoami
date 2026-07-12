@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: nouvelle-caledonie
-description: 38 entrées taguées « nouvelle-caledonie »
+description: 39 entrées taguées « nouvelle-caledonie »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 38 entrées du profil.
+Concept transversal reliant 39 entrées du profil.
 
 - [Speaker — NODES 2024 (Conférence internationale Neo4j)](../awards/speaker-nodes-2024-conference-internationale-neo4j.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
@@ -35,6 +35,7 @@ Concept transversal reliant 38 entrées du profil.
 - [edb-noumea — SDK qualité eaux de baignade](../projects/edb-noumea-sdk-qualite-eaux-de-baignade.md) — *Project*
 - [mobitag — CLI Go pour l'envoi de SMS](../projects/mobitag-cli-go-pour-l-envoi-de-sms.md) — *Project*
 - [odata-ncl — Open Data Citoyenne Nouvelle-Calédonie](../projects/odata-ncl-open-data-citoyenne-nouvelle-caledonie.md) — *Project*
+- [resume-to-pokemon — CV en données × PokéAPI × embeddings](../projects/resume-to-pokemon-cv-en-donnees-pokeapi-embeddings.md) — *Project*
 - [Open Data OPT-NC sur Kaggle et Hugging Face](../publications/open-data-opt-nc-sur-kaggle-et-hugging-face.md) — *Publication*
 - [Paroles d'agent — Adrien SALES (OPT-NC)](../publications/paroles-d-agent-adrien-sales-opt-nc.md) — *Publication*
 - [David Kranitz](../references/david-kranitz.md) — *Reference*

@@ -5,7 +5,7 @@ description: Livre sur la data en entreprise, Recueil de nouvelles, Vulgarisatio
   tech
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
 Mots-clés : Livre sur la data en entreprise, Recueil de nouvelles, Vulgarisation tech

@@ -6,7 +6,7 @@ description: Livres tech, Livres management, Architecture SI, Intelligence artif
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags:
 - open-source
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
 Mots-clés : Livres tech, Livres management, Architecture SI, Intelligence artificielle, Open source, Vibe coding Go

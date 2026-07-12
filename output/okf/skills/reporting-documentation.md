@@ -5,7 +5,7 @@ description: Avancé — Quarto, R, Notebooks reproductibles, Urbanisation SI, R
   de sécurité, Reporting automatisé, Data-driven managemen…
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
 **Niveau : Avancé**

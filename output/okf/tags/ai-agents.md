@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: ai-agents
-description: 17 entrées taguées « ai-agents »
+description: 18 entrées taguées « ai-agents »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 17 entrées du profil.
+Concept transversal reliant 18 entrées du profil.
 
 - [Speaker — NODES 2024 (Conférence internationale Neo4j)](../awards/speaker-nodes-2024-conference-internationale-neo4j.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
@@ -20,6 +20,7 @@ Concept transversal reliant 17 entrées du profil.
 - [Person Counter — Comptage ML pour optimiser l'occupation des salles de réunion](../projects/person-counter-comptage-ml-pour-optimiser-l-occupation-des-salles-de-reunion.md) — *Project*
 - [aquavena — SDK Python scraping menus & tarifs Aquavena NC](../projects/aquavena-sdk-python-scraping-menus-tarifs-aquavena-nc.md) — *Project*
 - [ollama-models — Dataset stats téléchargements LLM](../projects/ollama-models-dataset-stats-telechargements-llm.md) — *Project*
+- [resume-to-pokemon — CV en données × PokéAPI × embeddings](../projects/resume-to-pokemon-cv-en-donnees-pokeapi-embeddings.md) — *Project*
 - [208 articles techniques — Dev.to](../publications/208-articles-techniques-dev-to.md) — *Publication*
 - [Open Data OPT-NC sur Kaggle et Hugging Face](../publications/open-data-opt-nc-sur-kaggle-et-hugging-face.md) — *Publication*
 - [PostgreSQL Security Analysis — Zenodo](../publications/postgresql-security-analysis-zenodo.md) — *Publication*

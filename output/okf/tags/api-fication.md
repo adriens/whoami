@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: api-fication
-description: 21 entrées taguées « api-fication »
+description: 22 entrées taguées « api-fication »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 21 entrées du profil.
+Concept transversal reliant 22 entrées du profil.
 
 - [API domaine.nc — Création de l'interopérabilité des noms de domaine .NC](../projects/api-domaine-nc-creation-de-l-interoperabilite-des-noms-de-domaine-nc.md) — *Project*
 - [API-fication calédonienne — SDKs Java & APIs REST](../projects/api-fication-caledonienne-sdks-java-apis-rest.md) — *Project*
@@ -24,6 +24,7 @@ Concept transversal reliant 21 entrées du profil.
 - [edb-noumea — SDK qualité eaux de baignade](../projects/edb-noumea-sdk-qualite-eaux-de-baignade.md) — *Project*
 - [mobitag — CLI Go pour l'envoi de SMS](../projects/mobitag-cli-go-pour-l-envoi-de-sms.md) — *Project*
 - [odata-ncl — Open Data Citoyenne Nouvelle-Calédonie](../projects/odata-ncl-open-data-citoyenne-nouvelle-caledonie.md) — *Project*
+- [resume-to-pokemon — CV en données × PokéAPI × embeddings](../projects/resume-to-pokemon-cv-en-donnees-pokeapi-embeddings.md) — *Project*
 - [Julie Besson](../references/julie-besson.md) — *Reference*
 - [Ludwig MARTIN](../references/ludwig-martin.md) — *Reference*
 - [Paul Monimeau](../references/paul-monimeau.md) — *Reference*

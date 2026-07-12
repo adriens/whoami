@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: interoperability
-description: 21 entrées taguées « interoperability »
+description: 22 entrées taguées « interoperability »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 21 entrées du profil.
+Concept transversal reliant 22 entrées du profil.
 
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
 - [API domaine.nc — Création de l'interopérabilité des noms de domaine .NC](../projects/api-domaine-nc-creation-de-l-interoperabilite-des-noms-de-domaine-nc.md) — *Project*
@@ -19,6 +19,7 @@ Concept transversal reliant 21 entrées du profil.
 - [Helia Monitor — Stack monitoring consommation mobile OPT-NC](../projects/helia-monitor-stack-monitoring-consommation-mobile-opt-nc.md) — *Project*
 - [OPT-NC Fiber Eligibility — Scraper Go + API REST + Swagger](../projects/opt-nc-fiber-eligibility-scraper-go-api-rest-swagger.md) — *Project*
 - [mobitag — CLI Go pour l'envoi de SMS](../projects/mobitag-cli-go-pour-l-envoi-de-sms.md) — *Project*
+- [resume-to-pokemon — CV en données × PokéAPI × embeddings](../projects/resume-to-pokemon-cv-en-donnees-pokeapi-embeddings.md) — *Project*
 - [rfc4180-validator — Validateur CSV strict pour CI/CD](../projects/rfc4180-validator-validateur-csv-strict-pour-ci-cd.md) — *Project*
 - [Clémentine Galin](../references/clementine-galin-2.md) — *Reference*
 - [Cédric Pitout](../references/cedric-pitout.md) — *Reference*

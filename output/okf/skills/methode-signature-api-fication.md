@@ -6,7 +6,7 @@ description: Expert — API-fication, Validée 3x en recommandations LinkedIn pa
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags:
 - api-fication
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
 **Niveau : Expert**

@@ -4,7 +4,7 @@ title: flutter
 description: 3 entrées taguées « flutter »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
 Concept transversal reliant 3 entrées du profil.

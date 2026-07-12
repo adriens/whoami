@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: open-source
-description: 40 entrées taguées « open-source »
+description: 41 entrées taguées « open-source »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 40 entrées du profil.
+Concept transversal reliant 41 entrées du profil.
 
 - [Arctic Code Vault Contributor — GitHub](../awards/arctic-code-vault-contributor-github.md) — *Award*
 - [Extension officielle DuckDB Community — brew](../awards/extension-officielle-duckdb-community-brew.md) — *Award*
@@ -38,6 +38,7 @@ Concept transversal reliant 40 entrées du profil.
 - [odata-ncl — Open Data Citoyenne Nouvelle-Calédonie](../projects/odata-ncl-open-data-citoyenne-nouvelle-caledonie.md) — *Project*
 - [ollama-models — Dataset stats téléchargements LLM](../projects/ollama-models-dataset-stats-telechargements-llm.md) — *Project*
 - [oracle-jutils — Framework PL/SQL Oracle 11g](../projects/oracle-jutils-framework-pl-sql-oracle-11g.md) — *Project*
+- [resume-to-pokemon — CV en données × PokéAPI × embeddings](../projects/resume-to-pokemon-cv-en-donnees-pokeapi-embeddings.md) — *Project*
 - [rfc4180-validator — Validateur CSV strict pour CI/CD](../projects/rfc4180-validator-validateur-csv-strict-pour-ci-cd.md) — *Project*
 - [208 articles techniques — Dev.to](../publications/208-articles-techniques-dev-to.md) — *Publication*
 - [PostgreSQL Security Analysis — Zenodo](../publications/postgresql-security-analysis-zenodo.md) — *Publication*

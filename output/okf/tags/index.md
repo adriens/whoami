@@ -4,26 +4,26 @@ title: Tags
 description: Graphe de concepts (x-tags)
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
 123 concepts transversaux (graphe de connaissances).
 
-- [open-source](open-source.md) — 40 entrées
-- [nouvelle-caledonie](nouvelle-caledonie.md) — 38 entrées
-- [data](data.md) — 35 entrées
-- [pacifique](pacifique.md) — 35 entrées
+- [open-source](open-source.md) — 41 entrées
+- [nouvelle-caledonie](nouvelle-caledonie.md) — 39 entrées
+- [data](data.md) — 36 entrées
+- [pacifique](pacifique.md) — 36 entrées
+- [api-fication](api-fication.md) — 22 entrées
 - [international](international.md) — 22 entrées
+- [interoperability](interoperability.md) — 22 entrées
 - [transmission](transmission.md) — 22 entrées
-- [api-fication](api-fication.md) — 21 entrées
 - [civic-tech](civic-tech.md) — 21 entrées
-- [interoperability](interoperability.md) — 21 entrées
 - [mentorat](mentorat.md) — 19 entrées
 - [opt-nc](opt-nc.md) — 19 entrées
+- [ai-agents](ai-agents.md) — 18 entrées
+- [devrel](devrel.md) — 18 entrées
 - [open-data](open-data.md) — 18 entrées
 - [pedagogy](pedagogy.md) — 18 entrées
-- [ai-agents](ai-agents.md) — 17 entrées
-- [devrel](devrel.md) — 17 entrées
 - [innovation](innovation.md) — 17 entrées
 - [devsecops](devsecops.md) — 15 entrées
 - [architecture](architecture.md) — 14 entrées
@@ -49,21 +49,21 @@ timestamp: '2026-06-19'
 - [technical-excellence](technical-excellence.md) — 8 entrées
 - [curiosite](curiosite.md) — 7 entrées
 - [duckdb](duckdb.md) — 7 entrées
+- [frugal](frugal.md) — 7 entrées
 - [leadership](leadership.md) — 7 entrées
 - [maintainer](maintainer.md) — 7 entrées
 - [peer-recognition](peer-recognition.md) — 7 entrées
 - [recognition](recognition.md) — 7 entrées
 - [delivery-focus](delivery-focus.md) — 6 entrées
 - [direct-report-recommendation](direct-report-recommendation.md) — 6 entrées
-- [frugal](frugal.md) — 6 entrées
+- [huggingface](huggingface.md) — 6 entrées
+- [mcp](mcp.md) — 6 entrées
 - [mentor](mentor.md) — 6 entrées
 - [team-lead](team-lead.md) — 6 entrées
 - [trust-building](trust-building.md) — 6 entrées
 - [client-relationship](client-relationship.md) — 5 entrées
 - [force-de-proposition](force-de-proposition.md) — 5 entrées
-- [huggingface](huggingface.md) — 5 entrées
 - [lean](lean.md) — 5 entrées
-- [mcp](mcp.md) — 5 entrées
 - [team-culture](team-culture.md) — 5 entrées
 - [architecture-logicielle](architecture-logicielle.md) — 4 entrées
 - [cross-company](cross-company.md) — 4 entrées

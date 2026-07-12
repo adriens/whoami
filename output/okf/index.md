@@ -9,7 +9,7 @@ description: Architecte et urbaniste des SI au croisement des maths (DEA INRIA S
   levier.
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
 Bundle Open Knowledge Format v0.1 — profil de Adrien Sales.
@@ -24,7 +24,7 @@ Architecte et urbaniste des SI au croisement des maths (DEA INRIA Sophia Antipol
 - [Education](education/index.md) — 6 entrées
 - [Interests](interests/index.md) — 7 entrées
 - [Profile](profile/index.md) — 1 entrées
-- [Projects](projects/index.md) — 30 entrées
+- [Projects](projects/index.md) — 31 entrées
 - [Publications](publications/index.md) — 7 entrées
 - [References](references/index.md) — 32 entrées
 - [Skills](skills/index.md) — 16 entrées

@@ -4,7 +4,7 @@ title: opt-nc
 description: 19 entrées taguées « opt-nc »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
 Concept transversal reliant 19 entrées du profil.

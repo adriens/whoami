@@ -4,7 +4,7 @@ title: Interests
 description: Index de la section interests
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-06-19'
+timestamp: '2026-07-13'
 ---
 
 7 entrées.
