@@ -633,6 +633,8 @@ tags: [design-thinking, innovation, creativity, human-centric, ...]
 
 Tags = thèmes du livre mappés à la taxonomie canonique `x-tags`.
 
+Le champ `tags` est **créé vide (`tags: []`) pour chaque livre** au fetch et **préservé d'un fetch à l'autre** (`scripts/fetch-goodreads.py` relit les tags existants avant de réécrire le fichier). C'est le seul enrichissement manuel qui survit au refetch — le corps (review) et le reste du frontmatter sont toujours réécrits depuis Goodreads.
+
 ### 4. Valider et commiter
 
 1. `task validate`
