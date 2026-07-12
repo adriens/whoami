@@ -1,5 +1,5 @@
 ---
-duration_seconds: 441
+duration_seconds: 440
 id: P1IEkb5g07I
 lang: en
 likes: null
@@ -7,7 +7,7 @@ published_at: '2026-07-12'
 tags: [data, interoperability, huggingface, api-fication, ai-agents, open-source, frugal, devrel, pacifique, nouvelle-caledonie]
 title: 'Discover the Pokemon you are thanks to your resume and PokéAPI & embeddings'
 url: https://youtu.be/P1IEkb5g07I
-views: null
+views: 7
 ---
 
 Démo réalisée pour le DEV.to Weekend Challenge (Passion edition), dimanche soir.
