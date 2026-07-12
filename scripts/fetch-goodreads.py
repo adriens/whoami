@@ -70,9 +70,35 @@ def extract_book(entry: dict) -> dict:
     }
 
 
+def read_existing_tags(path: Path) -> list | None:
+    """Récupère les tags manuels d'un fichier livre existant.
+
+    Les tags sont une enrichissement manuel (taxonomie thématique) : le fetch
+    réécrit le fichier à chaque run, il faut donc les préserver explicitement.
+    """
+    if not path.exists():
+        return None
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError:
+        return None
+    if not text.startswith("---"):
+        return None
+    parts = text.split("---", 2)
+    if len(parts) < 3:
+        return None
+    try:
+        fm = yaml.safe_load(parts[1]) or {}
+    except yaml.YAMLError:
+        return None
+    tags = fm.get("tags")
+    return tags if isinstance(tags, list) else None
+
+
 def write_book(books_dir: Path, book: dict):
     date = book["date_read"] or book["date_added"] or "0000-00-00"
     filename = f"{date}-{slugify(book['title'] or book['id'])}.md"
+    path = books_dir / filename
 
     frontmatter = {
         "id": book["id"],
@@ -86,9 +112,10 @@ def write_book(books_dir: Path, book: dict):
         "date_read": book["date_read"],
         "published_year": book["published_year"],
         "shelf": book["shelf"],
+        "tags": read_existing_tags(path) or [],
     }
 
-    with open(books_dir / filename, "w", encoding="utf-8") as f:
+    with open(path, "w", encoding="utf-8") as f:
         f.write("---\n")
         yaml.dump(frontmatter, f, allow_unicode=True, default_flow_style=False)
         f.write("---\n\n")
