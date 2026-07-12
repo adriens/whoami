@@ -324,7 +324,7 @@ Quand l'utilisateur indique qu'une ou plusieurs vidéos privées viennent d'êtr
 Pour chaque vidéo :
 
 ```sh
-yt-dlp --dump-json --skip-download <url>
+uv run yt-dlp --dump-json --skip-download <url>   # uv run — jamais le yt-dlp du PATH (voir règle CLI Python)
 uv run --with youtube-transcript-api scripts/yt-transcript.py <video_id>
 ```
 
