@@ -8,6 +8,7 @@ num_pages: '154'
 published_year: ''
 rating: '0'
 shelf: read
+tags: []
 title: Metadata Matters
 url: https://www.goodreads.com/review/show/6217627171?utm_medium=api&utm_source=rss
 ---

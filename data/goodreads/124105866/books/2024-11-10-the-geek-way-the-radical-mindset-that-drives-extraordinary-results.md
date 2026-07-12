@@ -8,6 +8,7 @@ num_pages: '336'
 published_year: ''
 rating: '5'
 shelf: read
+tags: []
 title: 'The Geek Way: The Radical Mindset that Drives Extraordinary Results'
 url: https://www.goodreads.com/review/show/6705395592?utm_medium=api&utm_source=rss
 ---

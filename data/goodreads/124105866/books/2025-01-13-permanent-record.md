@@ -8,6 +8,7 @@ num_pages: '339'
 published_year: '2019'
 rating: '5'
 shelf: read
+tags: []
 title: Permanent Record
 url: https://www.goodreads.com/review/show/6998135542?utm_medium=api&utm_source=rss
 ---

@@ -8,6 +8,7 @@ num_pages: '405'
 published_year: '2020'
 rating: '5'
 shelf: read
+tags: []
 title: 'La règle? pas de règles: Netflix et la culture de la réinvention'
 url: https://www.goodreads.com/review/show/4246620799?utm_medium=api&utm_source=rss
 ---

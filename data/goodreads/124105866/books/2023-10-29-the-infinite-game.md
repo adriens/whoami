@@ -8,6 +8,7 @@ num_pages: '251'
 published_year: '2017'
 rating: '5'
 shelf: read
+tags: []
 title: The Infinite Game
 url: https://www.goodreads.com/review/show/5880321983?utm_medium=api&utm_source=rss
 ---

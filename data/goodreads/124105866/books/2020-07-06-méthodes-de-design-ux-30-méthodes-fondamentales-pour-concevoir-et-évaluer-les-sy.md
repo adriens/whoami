@@ -8,6 +8,7 @@ num_pages: '807'
 published_year: ''
 rating: '4'
 shelf: read
+tags: []
 title: 'Méthodes de design UX: 30 méthodes fondamentales pour concevoir et évaluer
   les systèmes interactifs (Design web) (French Edition)'
 url: https://www.goodreads.com/review/show/3631126092?utm_medium=api&utm_source=rss

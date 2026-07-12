@@ -8,6 +8,7 @@ num_pages: '288'
 published_year: ''
 rating: '5'
 shelf: read
+tags: []
 title: 'Dots and Lines: Hidden Networks in Social Media, AI, and Nature'
 url: https://www.goodreads.com/review/show/7689949542?utm_medium=api&utm_source=rss
 ---

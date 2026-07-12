@@ -8,6 +8,7 @@ num_pages: '144'
 published_year: '2019'
 rating: '5'
 shelf: read
+tags: []
 title: The Science of Storytelling
 url: https://www.goodreads.com/review/show/5085625284?utm_medium=api&utm_source=rss
 ---

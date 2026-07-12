@@ -8,6 +8,7 @@ num_pages: '194'
 published_year: '2018'
 rating: '5'
 shelf: read
+tags: []
 title: 'The Artist''s Journey: The Wake of the Hero''s Journey and the Lifelong Pursuit
   of Meaning'
 url: https://www.goodreads.com/review/show/5209455670?utm_medium=api&utm_source=rss

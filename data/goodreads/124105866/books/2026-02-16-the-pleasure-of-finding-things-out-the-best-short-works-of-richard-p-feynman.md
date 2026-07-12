@@ -8,6 +8,7 @@ num_pages: '270'
 published_year: '1999'
 rating: '5'
 shelf: read
+tags: []
 title: 'The Pleasure of Finding Things Out: The Best Short Works of Richard P. Feynman'
 url: https://www.goodreads.com/review/show/7367275913?utm_medium=api&utm_source=rss
 ---

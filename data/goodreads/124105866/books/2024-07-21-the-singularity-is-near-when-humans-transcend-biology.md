@@ -8,6 +8,7 @@ num_pages: '652'
 published_year: '2005'
 rating: '5'
 shelf: read
+tags: []
 title: 'The Singularity is Near: When Humans Transcend Biology'
 url: https://www.goodreads.com/review/show/6391407254?utm_medium=api&utm_source=rss
 ---

@@ -8,6 +8,7 @@ num_pages: '159'
 published_year: ''
 rating: '0'
 shelf: read
+tags: []
 title: The Hundred-Page Machine Learning Book
 url: https://www.goodreads.com/review/show/3637015335?utm_medium=api&utm_source=rss
 ---

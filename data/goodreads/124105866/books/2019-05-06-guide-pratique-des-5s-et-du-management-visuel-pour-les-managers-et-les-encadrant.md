@@ -8,6 +8,7 @@ num_pages: '370'
 published_year: '2010'
 rating: '5'
 shelf: read
+tags: []
 title: 'Guide pratique des 5S et du management visuel : Pour les managers et les encadrants:
   Pour les managers et les encadrants. L''ouitl de base de la performance ... outils
   - Performance) (French Edition)'

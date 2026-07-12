@@ -8,6 +8,7 @@ num_pages: '168'
 published_year: '1928'
 rating: '0'
 shelf: read
+tags: []
 title: Propaganda
 url: https://www.goodreads.com/review/show/3646498195?utm_medium=api&utm_source=rss
 ---

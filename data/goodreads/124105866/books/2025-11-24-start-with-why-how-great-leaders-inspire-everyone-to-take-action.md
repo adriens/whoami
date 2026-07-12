@@ -8,6 +8,7 @@ num_pages: '256'
 published_year: '2009'
 rating: '5'
 shelf: read
+tags: []
 title: 'Start with Why: How Great Leaders Inspire Everyone to Take Action'
 url: https://www.goodreads.com/review/show/5941375356?utm_medium=api&utm_source=rss
 ---

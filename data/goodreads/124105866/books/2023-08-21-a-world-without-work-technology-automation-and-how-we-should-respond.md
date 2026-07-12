@@ -8,6 +8,7 @@ num_pages: '307'
 published_year: '2020'
 rating: '5'
 shelf: read
+tags: []
 title: 'A World Without Work: Technology, Automation, and How We Should Respond'
 url: https://www.goodreads.com/review/show/5288306632?utm_medium=api&utm_source=rss
 ---

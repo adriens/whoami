@@ -8,6 +8,7 @@ num_pages: '90'
 published_year: ''
 rating: '3'
 shelf: read
+tags: []
 title: 'APPRENDRE COMME EINSTEIN: Secrets et techniques pour apprendre quoi que ce
   soit, développer la créativité et découvrir le Génie en vous (Stratégies du Génie
   t. 1) (French Edition)'

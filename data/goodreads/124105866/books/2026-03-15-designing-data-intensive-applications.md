@@ -8,6 +8,7 @@ num_pages: '562'
 published_year: '2015'
 rating: '5'
 shelf: read
+tags: []
 title: Designing Data-Intensive Applications
 url: https://www.goodreads.com/review/show/8215477154?utm_medium=api&utm_source=rss
 ---

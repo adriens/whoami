@@ -8,6 +8,7 @@ num_pages: '308'
 published_year: ''
 rating: '5'
 shelf: read
+tags: []
 title: Et si le cerveau était bête ? (French Edition)
 url: https://www.goodreads.com/review/show/3668513953?utm_medium=api&utm_source=rss
 ---

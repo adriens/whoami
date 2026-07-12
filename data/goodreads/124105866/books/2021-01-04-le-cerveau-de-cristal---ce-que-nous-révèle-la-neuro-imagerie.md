@@ -8,6 +8,7 @@ num_pages: '221'
 published_year: '2012'
 rating: '4'
 shelf: read
+tags: []
 title: Le Cerveau de Cristal - Ce que nous révèle la neuro-imagerie
 url: https://www.goodreads.com/review/show/3678462069?utm_medium=api&utm_source=rss
 ---

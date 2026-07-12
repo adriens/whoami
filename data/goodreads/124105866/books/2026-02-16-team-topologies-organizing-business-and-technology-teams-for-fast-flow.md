@@ -8,6 +8,7 @@ num_pages: '240'
 published_year: '2019'
 rating: '5'
 shelf: read
+tags: []
 title: 'Team Topologies: Organizing Business and Technology Teams for Fast Flow'
 url: https://www.goodreads.com/review/show/7938821673?utm_medium=api&utm_source=rss
 ---

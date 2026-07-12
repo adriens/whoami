@@ -8,6 +8,13 @@ num_pages: '218'
 published_year: '2008'
 rating: '5'
 shelf: read
+tags:
+- systems-thinking
+- complexity
+- feedback-loops
+- transdisciplinary
+- curiosity
+- learning
 title: 'Thinking In Systems: A Primer'
 url: https://www.goodreads.com/review/show/8681687743?utm_medium=api&utm_source=rss
 ---

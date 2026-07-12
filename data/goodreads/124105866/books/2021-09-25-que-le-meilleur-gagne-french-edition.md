@@ -8,6 +8,7 @@ num_pages: '87'
 published_year: ''
 rating: '4'
 shelf: read
+tags: []
 title: Que le meilleur gagne ! (French Edition)
 url: https://www.goodreads.com/review/show/4255498717?utm_medium=api&utm_source=rss
 ---

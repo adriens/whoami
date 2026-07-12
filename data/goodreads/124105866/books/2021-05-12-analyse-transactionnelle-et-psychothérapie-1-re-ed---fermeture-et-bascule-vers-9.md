@@ -8,6 +8,7 @@ num_pages: '384'
 published_year: '1961'
 rating: '4'
 shelf: read
+tags: []
 title: Analyse transactionnelle et psychothérapie_1_re_ed - fermeture et bascule vers
   9782228916394
 url: https://www.goodreads.com/review/show/3763741689?utm_medium=api&utm_source=rss

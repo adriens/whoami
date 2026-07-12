@@ -8,6 +8,7 @@ num_pages: '252'
 published_year: ''
 rating: '5'
 shelf: read
+tags: []
 title: Les chimpanzés et le télétravail
 url: https://www.goodreads.com/review/show/4202632323?utm_medium=api&utm_source=rss
 ---

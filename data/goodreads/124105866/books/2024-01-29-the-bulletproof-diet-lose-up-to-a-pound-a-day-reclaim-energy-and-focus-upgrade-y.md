@@ -8,6 +8,7 @@ num_pages: '320'
 published_year: '2014'
 rating: '3'
 shelf: read
+tags: []
 title: 'The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus,
   Upgrade Your Life'
 url: https://www.goodreads.com/review/show/6186752762?utm_medium=api&utm_source=rss

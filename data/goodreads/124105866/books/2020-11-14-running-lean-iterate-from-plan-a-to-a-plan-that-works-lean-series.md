@@ -8,6 +8,7 @@ num_pages: '235'
 published_year: '2012'
 rating: '5'
 shelf: read
+tags: []
 title: 'Running Lean: Iterate from Plan A to a Plan That Works (Lean Series)'
 url: https://www.goodreads.com/review/show/3629672487?utm_medium=api&utm_source=rss
 ---

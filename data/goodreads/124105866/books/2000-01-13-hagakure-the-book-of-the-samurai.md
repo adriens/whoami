@@ -8,6 +8,7 @@ num_pages: '192'
 published_year: '1716'
 rating: '5'
 shelf: read
+tags: []
 title: 'Hagakure: The Book of the Samurai'
 url: https://www.goodreads.com/review/show/3631132758?utm_medium=api&utm_source=rss
 ---

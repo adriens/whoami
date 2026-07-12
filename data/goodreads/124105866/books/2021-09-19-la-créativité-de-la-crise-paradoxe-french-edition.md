@@ -8,6 +8,7 @@ num_pages: '128'
 published_year: ''
 rating: '5'
 shelf: read
+tags: []
 title: La Créativité de la crise (Paradoxe) (French Edition)
 url: https://www.goodreads.com/review/show/4230707147?utm_medium=api&utm_source=rss
 ---

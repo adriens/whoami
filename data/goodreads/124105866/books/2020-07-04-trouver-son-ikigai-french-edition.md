@@ -8,6 +8,7 @@ num_pages: '192'
 published_year: ''
 rating: '3'
 shelf: read
+tags: []
 title: Trouver son Ikigai (French Edition)
 url: https://www.goodreads.com/review/show/3631119302?utm_medium=api&utm_source=rss
 ---

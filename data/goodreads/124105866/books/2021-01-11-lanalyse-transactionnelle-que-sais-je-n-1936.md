@@ -8,6 +8,7 @@ num_pages: ''
 published_year: ''
 rating: '3'
 shelf: read
+tags: []
 title: 'L''analyse transactionnelle: « Que sais-je ? » n° 1936'
 url: https://www.goodreads.com/review/show/3763751505?utm_medium=api&utm_source=rss
 ---

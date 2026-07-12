@@ -8,6 +8,7 @@ num_pages: '157'
 published_year: ''
 rating: '5'
 shelf: read
+tags: []
 title: Les vertus de l'échec
 url: https://www.goodreads.com/review/show/3824765094?utm_medium=api&utm_source=rss
 ---

@@ -8,6 +8,7 @@ num_pages: '327'
 published_year: '2010'
 rating: '5'
 shelf: read
+tags: []
 title: 'La fabrique de la dépression: Observer, comprendre, agir (Hors Collection)
   (French Edition)'
 url: https://www.goodreads.com/review/show/4000057589?utm_medium=api&utm_source=rss

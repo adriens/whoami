@@ -8,6 +8,7 @@ num_pages: '225'
 published_year: '2014'
 rating: '5'
 shelf: read
+tags: []
 title: 'Open innovation : Développez une culture ouverte et collaborative pour mieux
   innover (Stratégies et management) (French Edition)'
 url: https://www.goodreads.com/review/show/3629447845?utm_medium=api&utm_source=rss

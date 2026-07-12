@@ -8,6 +8,7 @@ num_pages: '278'
 published_year: '2013'
 rating: '4'
 shelf: read
+tags: []
 title: 'Daily Rituals: How Artists Work'
 url: https://www.goodreads.com/review/show/3631130957?utm_medium=api&utm_source=rss
 ---

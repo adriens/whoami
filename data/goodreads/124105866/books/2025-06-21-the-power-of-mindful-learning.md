@@ -8,6 +8,7 @@ num_pages: '192'
 published_year: '1997'
 rating: '5'
 shelf: read
+tags: []
 title: The Power of Mindful Learning
 url: https://www.goodreads.com/review/show/7443617478?utm_medium=api&utm_source=rss
 ---

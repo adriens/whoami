@@ -8,6 +8,7 @@ num_pages: '116'
 published_year: ''
 rating: '4'
 shelf: read
+tags: []
 title: 'L''École de Palo Alto: « Que sais-je ? » n° 3954 (French Edition)'
 url: https://www.goodreads.com/review/show/3747490800?utm_medium=api&utm_source=rss
 ---

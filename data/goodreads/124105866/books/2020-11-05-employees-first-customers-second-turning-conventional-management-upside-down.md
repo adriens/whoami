@@ -8,6 +8,7 @@ num_pages: '208'
 published_year: '2010'
 rating: '5'
 shelf: read
+tags: []
 title: 'Employees First, Customers Second: Turning Conventional Management Upside
   Down'
 url: https://www.goodreads.com/review/show/3629439434?utm_medium=api&utm_source=rss

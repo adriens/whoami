@@ -8,6 +8,7 @@ num_pages: '483'
 published_year: '2012'
 rating: '5'
 shelf: read
+tags: []
 title: Liberté & cie
 url: https://www.goodreads.com/review/show/3629443080?utm_medium=api&utm_source=rss
 ---

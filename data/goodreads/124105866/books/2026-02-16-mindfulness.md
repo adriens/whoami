@@ -8,6 +8,7 @@ num_pages: '256'
 published_year: '1989'
 rating: '5'
 shelf: read
+tags: []
 title: Mindfulness
 url: https://www.goodreads.com/review/show/7443618045?utm_medium=api&utm_source=rss
 ---

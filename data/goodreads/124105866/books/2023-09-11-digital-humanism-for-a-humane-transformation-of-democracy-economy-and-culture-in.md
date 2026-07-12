@@ -8,6 +8,7 @@ num_pages: '142'
 published_year: ''
 rating: '0'
 shelf: read
+tags: []
 title: 'Digital Humanism: For a Humane Transformation of Democracy, Economy and Culture
   in the Digital Age'
 url: https://www.goodreads.com/review/show/5782846630?utm_medium=api&utm_source=rss

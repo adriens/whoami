@@ -8,6 +8,7 @@ num_pages: '183'
 published_year: ''
 rating: '5'
 shelf: read
+tags: []
 title: 'Ethique du samouraï moderne: Petit manuel de combat pour temps de désarroi
   (French Edition)'
 url: https://www.goodreads.com/review/show/3631121102?utm_medium=api&utm_source=rss

@@ -8,6 +8,7 @@ num_pages: '273'
 published_year: '1967'
 rating: '5'
 shelf: read
+tags: []
 title: Vendredi ou les limbes du Pacifique
 url: https://www.goodreads.com/review/show/5075609318?utm_medium=api&utm_source=rss
 ---

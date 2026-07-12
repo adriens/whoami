@@ -8,6 +8,7 @@ num_pages: '277'
 published_year: ''
 rating: '5'
 shelf: read
+tags: []
 title: 'Stratégies de design UX: Accélérer l''innovation et réduire l''incertitude
   (French Edition)'
 url: https://www.goodreads.com/review/show/5080023469?utm_medium=api&utm_source=rss
