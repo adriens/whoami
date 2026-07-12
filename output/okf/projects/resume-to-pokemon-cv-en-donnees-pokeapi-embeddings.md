@@ -11,6 +11,7 @@ tags:
 - huggingface
 - ai-agents
 - mcp
+- embeddings
 - frugal
 - open-source
 - devrel
@@ -27,4 +28,4 @@ Prototype d'automatisation autour du CV-en-données : mettre en interopérabilit
 
 *Type : open-source*
 
-**Tags :** [ai-agents](../tags/ai-agents.md), [api-fication](../tags/api-fication.md), [data](../tags/data.md), [devrel](../tags/devrel.md), [frugal](../tags/frugal.md), [huggingface](../tags/huggingface.md), [interoperability](../tags/interoperability.md), [mcp](../tags/mcp.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md)
+**Tags :** [ai-agents](../tags/ai-agents.md), [api-fication](../tags/api-fication.md), [data](../tags/data.md), [devrel](../tags/devrel.md), [embeddings](../tags/embeddings.md), [frugal](../tags/frugal.md), [huggingface](../tags/huggingface.md), [interoperability](../tags/interoperability.md), [mcp](../tags/mcp.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md)

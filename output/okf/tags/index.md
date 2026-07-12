@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-07-13'
 ---
 
-123 concepts transversaux (graphe de connaissances).
+124 concepts transversaux (graphe de connaissances).
 
 - [open-source](open-source.md) — 41 entrées
 - [nouvelle-caledonie](nouvelle-caledonie.md) — 39 entrées
@@ -109,6 +109,7 @@ timestamp: '2026-07-13'
 - [comprehension-besoins](comprehension-besoins.md) — 1 entrées
 - [curiosity](curiosity.md) — 1 entrées
 - [debian](debian.md) — 1 entrées
+- [embeddings](embeddings.md) — 1 entrées
 - [endorsement-court](endorsement-court.md) — 1 entrées
 - [expertise-technique](expertise-technique.md) — 1 entrées
 - [high-availability](high-availability.md) — 1 entrées
