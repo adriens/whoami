@@ -1,8 +1,9 @@
 id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_challenge
-3735712,📊 I (finally) built the demo of my duckdb brew extension,https://dev.to/adriens/i-finally-built-the-demo-of-my-duckdb-brew-extension-c6o,2026-05-29T08:07:18Z,"devchallenge,githubchallenge,datascience,security",1,0,2,True
+4124120,"🤗 Find the Pokemon you are w. PokéAPI, your resume & embeddings",https://dev.to/adriens/find-the-pokemon-you-are-w-pokeapi-your-resume-embeddings-3bb5,2026-07-12T08:00:47Z,"devchallenge,weekendchallenge,machinelearning,api",0,1,3,True
+3735712,📊 I (finally) built the demo of my duckdb brew extension,https://dev.to/adriens/i-finally-built-the-demo-of-my-duckdb-brew-extension-c6o,2026-05-29T08:07:18Z,"devchallenge,githubchallenge,datascience,security",1,1,2,True
 3658489,🧞‍♂️Transform unstructured PDFs Job Offers into a dataset w. gemma4:2b,https://dev.to/adriens/transform-unstructured-pdfs-job-offers-into-a-dataset-w-gemma42b-4ggb,2026-05-17T22:47:08Z,"devchallenge,gemmachallenge,gemma,dataengineering",9,4,4,True
 3049555,💸 How $0 marketing budget boosted my creativity & automation opportunities,https://dev.to/adriens/how-0-marketing-budget-boosted-my-creativity-automation-opportunities-3n9j,2026-03-11T20:11:05Z,"automation,marketing,design,showdev",8,5,3,False
-3293201,🦈 Analyzing Open Data shark attacks with gemini-cli and Quarto 📊,https://dev.to/adriens/analyzing-open-data-shark-attacks-with-gemini-cli-and-quarto-3pe8,2026-02-28T06:55:37Z,"devchallenge,geminireflections,gemini,datascience",8,25,3,True
+3293201,🦈 Analyzing Open Data shark attacks with gemini-cli and Quarto 📊,https://dev.to/adriens/analyzing-open-data-shark-attacks-with-gemini-cli-and-quarto-3pe8,2026-02-28T06:55:37Z,"devchallenge,geminireflections,gemini,datascience",8,28,3,True
 3232987,🦆Built a duckdb community extension for brew,https://dev.to/adriens/built-a-duckdb-community-extension-for-brew-4k6f,2026-02-14T03:55:40Z,"devchallenge,githubchallenge,cli,githubcopilot",8,5,3,True
 3083050,⏳ Managing EOLs w. geol: the impossible 1' Mux demo,https://dev.to/adriens/managing-eols-w-geol-the-impossible-1-mux-demo-cnl,2026-01-02T21:53:35Z,"devchallenge,muxchallenge,showandtell,video",4,4,3,True
 2951766,"⏳geol, the cli to efficiently manage EOLs like a boss",https://dev.to/adriens/geol-the-cli-to-efficiently-manage-eols-like-a-boss-3hne,2025-10-29T20:39:59Z,"devchallenge,hacktoberfest,opensource,devops",3,30,3,True
@@ -86,7 +87,7 @@ id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_ch
 1501246,🦑 Squid has landed on endoflife.date ⏳,https://dev.to/adriens/squid-has-landed-on-endoflifedate-16ic,2023-06-11T21:33:19Z,"devops,productivity,product,opensource",0,1,1,False
 1492961,"🏖️ Noumea's beach water quality data as git revisions, in DuckDb 🦆",https://dev.to/adriens/noumeas-beach-water-quality-data-as-git-revisions-in-duckdb-38hp,2023-06-08T01:30:32Z,"python,datascience,opendata,tutorial",0,5,1,False
 1467511,😋 AGI (bark 🐶) Smart waitress 🎙️,https://dev.to/adriens/agi-bark-smart-waitress-285h,2023-05-31T20:37:50Z,"ai,python,showdev,opensource",1,9,2,False
-1470573,"🐼 Restaurant menu, as data 😋",https://dev.to/adriens/restaurant-menu-as-data-1gpn,2023-05-24T21:37:33Z,"python,datascience,showdev,automation",0,12,2,False
+1470573,"🐼 Restaurant menu, as data 😋",https://dev.to/adriens/restaurant-menu-as-data-1gpn,2023-05-24T21:37:33Z,"python,datascience,showdev,automation",0,16,2,False
 1451829,🕵️ Active Directory Groups audit w. Neo4J,https://dev.to/optnc/active-directory-groups-audit-w-neo4j-483o,2023-05-16T00:18:33Z,"neo4j,datascience,security,devops",1,1,2,False
 1457897,🌌 Digital identities journey w. Neo4J,https://dev.to/optnc/digital-identities-journey-w-neo4j-5gep,2023-05-09T20:01:07Z,"datascience,neo4j,productivity,beginners",0,2,1,False
 1450646,🥷 Neo4J Ninjas & datascience,https://dev.to/adriens/neo4j-ninjas-datascience-8km,2023-05-01T21:38:01Z,"neo4j,datascience,github,jupyter",1,11,1,False
