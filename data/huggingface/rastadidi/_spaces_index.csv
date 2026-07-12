@@ -1,3 +1,4 @@
 id,author,url,sdk,likes,last_modified,tags
 rastadidi/edb-noumea,,https://huggingface.co/spaces/rastadidi/edb-noumea,gradio,0,,"gradio,region:us"
 rastadidi/aquavena,,https://huggingface.co/spaces/rastadidi/aquavena,gradio,0,,"gradio,mcp-server,region:us"
+rastadidi/resume-to-pokemon,,https://huggingface.co/spaces/rastadidi/resume-to-pokemon,gradio,0,,"gradio,mcp-server,region:us"
