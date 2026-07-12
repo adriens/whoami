@@ -462,6 +462,7 @@
         "interoperability",
         "iot",
         "ai-agents",
+        "embeddings",
         "pacifique",
         "nouvelle-caledonie"
       ],
@@ -2294,6 +2295,7 @@
         "api-fication",
         "open-source",
         "ai-agents",
+        "embeddings",
         "iot",
         "accessibility",
         "human-centric",
@@ -2309,7 +2311,7 @@
         "8+ régimes : menus hebdomadaires détaillés (déjeuner/dîner, suppléments, boissons) + tarifs complets",
         "HuggingFace MCP Space : rastadidi/aquavena — serveur MCP pour accès aux menus depuis les agents IA (créé mai 2026) + Claude Skill dédié + documentation GitHub Pages",
         "Score accessibilité Aquavena 90→100% / site PWA Astro 81→100% — 31 erreurs WCAG → 0 — DORA Scorecard élite (lead time 15 min, 2,5 déploiements/jour, MTTR <1h)",
-        "Avant-première live au PMI Horizons Nouméa (4 juillet 2026) — robot Reachy Mini (Pollen Robotics) recommande un menu Aquavena à un sportif triathlon, démo dédiée — https://www.youtube.com/watch?v=hcXYVpWKjqA"
+        "Avant-première live au PMI Horizons Nouméa (4 juillet 2026) — robot Reachy Mini (Pollen Robotics) recommande un menu Aquavena à un sportif triathlon, démo dédiée : recommandation par embeddings (matching sémantique profil ↔ menus) — https://www.youtube.com/watch?v=hcXYVpWKjqA"
       ],
       "url": "https://pypi.org/project/aquavena-sdk/"
     },
@@ -2602,7 +2604,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.31.1",
+    "version": "v1.31.2",
     "lastModified": "2026-07-13",
     "theme": "elegant"
   }
