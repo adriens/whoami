@@ -2,7 +2,7 @@
 type: Skill
 title: Créativité & Apprentissage autodidacte
 description: Expert — Imagination, Connexion de domaines éloignés, Pensée transdisciplinaire,
-  Expérimentation, MIT Media Lab mindset, Rendre…
+  Pensée systémique (feedback loops, complexité),…
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-07-13'
@@ -10,4 +10,4 @@ timestamp: '2026-07-13'
 
 **Niveau : Expert**
 
-Mots-clés : Imagination, Connexion de domaines éloignés, Pensée transdisciplinaire, Expérimentation, MIT Media Lab mindset, Rendre l'invisible visible, Détection d'inefficacités, Idéation en mouvement, Apprendre → construire → démontrer → enseigner, Curiosité naturelle, Observation du réel
+Mots-clés : Imagination, Connexion de domaines éloignés, Pensée transdisciplinaire, Pensée systémique (feedback loops, complexité), Expérimentation, MIT Media Lab mindset, Rendre l'invisible visible, Détection d'inefficacités, Idéation en mouvement, Apprendre → construire → démontrer → enseigner, Curiosité naturelle, Observation du réel
