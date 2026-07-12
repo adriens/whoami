@@ -415,7 +415,7 @@ Pour cohérence du filtrage **cross-section**, utiliser **uniquement** ces tags.
 
 - **Domaine** : `data`, `architecture`, `devsecops`, `devrel`, `management`, `pedagogy`, `interoperability`, `iot`, `mobile`, `fintech`, `civic-tech`, `ai-agents`
 - **Tech** : `neo4j`, `duckdb`, `airflow`, `kafka`, `python`, `go`, `java`, `quarkus`, `spring`, `flutter`, `huggingface`, `elk-stack`, `kibana`, `power-platform`, `oracle`
-- **Pattern** : `api-fication`, `open-source`, `open-data`, `scraping`, `knowledge-graph`, `mcp`, `lean`, `frugal`, `umbrella`, `packaging`, `saga` *(projet exploré progressivement sur plusieurs médias : articles Dev.to + playlist YouTube + composants multiples — ex: ColisNC, domaine.nc, temps d'attente, geol, auptitcafe)*
+- **Pattern** : `api-fication`, `open-source`, `open-data`, `scraping`, `knowledge-graph`, `mcp`, `embeddings` *(recherche sémantique, RAG, reranking cross-encoder, embeddings vectoriels — ex: resume-to-pokemon, aquavena MCP, OpenSearch vector search)*, `lean`, `frugal`, `umbrella`, `packaging`, `saga` *(projet exploré progressivement sur plusieurs médias : articles Dev.to + playlist YouTube + composants multiples — ex: ColisNC, domaine.nc, temps d'attente, geol, auptitcafe)*
 - **Géo** : `pacifique`, `nouvelle-caledonie`, `international`, `monaco`
 - **Rôle** : `solo`, `team-lead`, `mentor`, `speaker`, `maintainer`, `product`
 - **Recognition / Recos** : `recognition`, `peer-recognition`, `manager-recommendation`, `direct-report-recommendation`, `student-recommendation`, `intern-recommendation`, `upstream-recognition`, `client-relationship`, `cross-company`
@@ -657,6 +657,21 @@ uv run --with some-package script.py
 Cette règle s'applique à **tous les scripts** sans exception, y compris les one-liners `-c`.
 
 Si une lib est chargée via `--with` (usage ponctuel), l'ajouter immédiatement dans `pyproject.toml` pour la documenter et la tracer.
+
+### Outils CLI Python (yt-dlp) — même règle
+
+La règle vaut aussi pour les **outils CLI en Python**, `yt-dlp` en tête. Un `yt-dlp` système traîne dans `/usr/bin` (paquet distro, souvent périmé de plusieurs années → cassé par la détection bot YouTube). **Ne jamais appeler le `yt-dlp` du PATH sans savoir lequel répond.**
+
+```sh
+# À ÉVITER — peut résoudre vers /usr/bin/yt-dlp (périmé)
+yt-dlp --version
+
+# FIABLE — version pinnée du repo (celle qu'utilisent les fetchers)
+uv run yt-dlp --version
+```
+
+- La version qui fait foi est celle pinnée dans `pyproject.toml` (`yt-dlp>=…`) — la maintenir fraîche (YouTube casse yt-dlp très régulièrement ; bump + `uv lock` dès qu'un fetch échoue).
+- **`deno` est requis** : sans runtime JS, yt-dlp émet un warning de dépréciation et peut manquer des formats/métadonnées YouTube. Installé via `brew install deno`.
 
 ## Points importants
 
