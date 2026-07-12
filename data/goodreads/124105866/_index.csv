@@ -1,4 +1,5 @@
 id,title,author,url,isbn,rating,average_rating,num_pages,date_read,published_year,shelf
+3828902,Thinking In Systems: A Primer,Donella H. Meadows,https://www.goodreads.com/review/show/8681687743?utm_medium=api&utm_source=rss,1603580557,5,4.15,218,2026-07-12,2008,read
 57974164,Stratégies de design UX: Accélérer l'innovation et réduire l'incertitude (French Edition),Antoine Visonneau,https://www.goodreads.com/review/show/5080023469?utm_medium=api&utm_source=rss,2212397313,5,5.00,277,2026-05-31,,read
 6671664,Change by Design: How Design Thinking Transforms Organizations and Inspires Innovation,Tim    Brown,https://www.goodreads.com/review/show/8451396127?utm_medium=api&utm_source=rss,0061766089,5,3.88,272,2026-06-06,2009,read
 198340232,"Unifying Business, Data, and Code: Designing Data Products with JSON Schema",Ron Itelman,https://www.goodreads.com/review/show/7220060755?utm_medium=api&utm_source=rss,1098145003,5,5.00,354,2025-07-06,,read
@@ -39,7 +40,7 @@ id,title,author,url,isbn,rating,average_rating,num_pages,date_read,published_yea
 15799151,Daily Rituals: How Artists Work,Mason Currey,https://www.goodreads.com/review/show/3631130957?utm_medium=api&utm_source=rss,0307273601,4,3.67,278,2019-11-06,2013,read
 24468085,Guide pratique des 5S et du management visuel : Pour les managers et les encadrants: Pour les managers et les encadrants. L'ouitl de base de la performance ... outils - Performance) (French Edition),Christian Hohmann,https://www.goodreads.com/review/show/3631127172?utm_medium=api&utm_source=rss,2212867077,5,5.00,370,2019-05-06,2010,read
 28195713,Méthodes de design UX: 30 méthodes fondamentales pour concevoir et évaluer les systèmes interactifs (Design web) (French Edition),Carine Lallemand,https://www.goodreads.com/review/show/3631126092?utm_medium=api&utm_source=rss,,4,4.69,807,2020-07-06,,read
-43985260,Ethique du samouraï moderne: Petit manuel de combat pour temps de désarroi (French Edition),Patrice Franceschi,https://www.goodreads.com/review/show/3631121102?utm_medium=api&utm_source=rss,,5,4.03,183,2020-06-04,,read
+43985260,Ethique du samouraï moderne: Petit manuel de combat pour temps de désarroi (French Edition),Patrice Franceschi,https://www.goodreads.com/review/show/3631121102?utm_medium=api&utm_source=rss,,5,4.00,183,2020-06-04,,read
 37867963,Trouver son Ikigai (French Edition),Christie Vanbremeersch,https://www.goodreads.com/review/show/3631119302?utm_medium=api&utm_source=rss,2412036411,3,3.16,192,2020-07-04,,read
 25204011,Open innovation : Développez une culture ouverte et collaborative pour mieux innover (Stratégies et management) (French Edition),Martin Duval,https://www.goodreads.com/review/show/3629447845?utm_medium=api&utm_source=rss,,5,4.00,225,2020-04-05,2014,read
 35654633,Liberté & cie,Isaac Getz,https://www.goodreads.com/review/show/3629443080?utm_medium=api&utm_source=rss,2081379511,5,4.25,483,2020-04-05,2012,read
