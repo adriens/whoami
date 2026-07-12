@@ -2546,6 +2546,7 @@
         "huggingface",
         "ai-agents",
         "mcp",
+        "embeddings",
         "frugal",
         "open-source",
         "devrel",
@@ -2601,7 +2602,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.31.0",
+    "version": "v1.31.1",
     "lastModified": "2026-07-13",
     "theme": "elegant"
   }
