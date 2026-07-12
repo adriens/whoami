@@ -79,6 +79,7 @@ timestamp: '2026-07-13'
 - [design-thinking](design-thinking.md) — 3 entrées
 - [dsi-noumea](dsi-noumea.md) — 3 entrées
 - [elk-stack](elk-stack.md) — 3 entrées
+- [embeddings](embeddings.md) — 3 entrées
 - [exploration-techno](exploration-techno.md) — 3 entrées
 - [flutter](flutter.md) — 3 entrées
 - [geol](geol.md) — 3 entrées
@@ -109,7 +110,6 @@ timestamp: '2026-07-13'
 - [comprehension-besoins](comprehension-besoins.md) — 1 entrées
 - [curiosity](curiosity.md) — 1 entrées
 - [debian](debian.md) — 1 entrées
-- [embeddings](embeddings.md) — 1 entrées
 - [endorsement-court](endorsement-court.md) — 1 entrées
 - [expertise-technique](expertise-technique.md) — 1 entrées
 - [high-availability](high-availability.md) — 1 entrées

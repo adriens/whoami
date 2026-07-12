@@ -19,6 +19,7 @@ tags:
 - interoperability
 - iot
 - ai-agents
+- embeddings
 - pacifique
 - nouvelle-caledonie
 timestamp: '2026-07-04'
@@ -28,4 +29,4 @@ timestamp: '2026-07-04'
 
 *Décerné par : PMI France – Branche Horizons, Pôle Nouvelle-Calédonie*
 
-**Tags :** [accessibility](../tags/accessibility.md), [ai-agents](../tags/ai-agents.md), [civic-tech](../tags/civic-tech.md), [data](../tags/data.md), [design-thinking](../tags/design-thinking.md), [devsecops](../tags/devsecops.md), [human-centric](../tags/human-centric.md), [interoperability](../tags/interoperability.md), [iot](../tags/iot.md), [knowledge-graph](../tags/knowledge-graph.md), [lean](../tags/lean.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md), [speaker](../tags/speaker.md)
+**Tags :** [accessibility](../tags/accessibility.md), [ai-agents](../tags/ai-agents.md), [civic-tech](../tags/civic-tech.md), [data](../tags/data.md), [design-thinking](../tags/design-thinking.md), [devsecops](../tags/devsecops.md), [embeddings](../tags/embeddings.md), [human-centric](../tags/human-centric.md), [interoperability](../tags/interoperability.md), [iot](../tags/iot.md), [knowledge-graph](../tags/knowledge-graph.md), [lean](../tags/lean.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md), [speaker](../tags/speaker.md)
