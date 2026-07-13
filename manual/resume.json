@@ -272,7 +272,7 @@
       ],
       "url": "https://unc.nc",
       "startDate": "2025-03",
-      "summary": "Enseignement exercé entièrement sur temps personnel, le soir après le travail. Conception et animation du module Interopérabilité des Systèmes d'Information en Master MIAGE. Approche pédagogique inspirée de Montessori : learning by doing, projets réels open source et open data, syllabus public sur GitHub, ressources cloud publiques. Feedbacks et suivi de promotion gérés en données (repo GitHub dédié).",
+      "summary": "Enseignement exercé entièrement sur temps personnel, le soir après le travail. Conception et animation du module Interopérabilité des Systèmes d'Information en Master MIAGE. Approche pédagogique inspirée de Montessori : learning by doing, projets réels open source et open data, syllabus public sur GitHub, ressources cloud publiques. Feedbacks et suivi de promotion gérés en données (repo GitHub dédié). Renouvelé pour une 2ème session, août → décembre 2026.",
       "highlights": [
         "Encadrement de ~12 étudiants sur des projets réels open source et open data — première promotion Mars 2025",
         "Conception intégrale du module et du syllabus (public sur GitHub : adriens/unc_iae_miage_interop_si_feedbacks)",
@@ -280,7 +280,8 @@
         "Posture de mentor praticien : on construit ensemble sur de vrais projets, jamais d'explication théorique seule — chaque étudiant repart avec du code en prod",
         "Expo des réalisations étudiantes en fin d'année documentée sur dev.to (23 commentaires)",
         "Suivi de la promotion et des feedbacks entièrement gérés en données via un repo GitHub dédié",
-        "Approche Why-first systématique (Sinek) — partir du problème métier avant d'aborder la solution technique"
+        "Approche Why-first systématique (Sinek) — partir du problème métier avant d'aborder la solution technique",
+        "Renouvelé par l'IAE-UNC pour une 2ème session (août → décembre 2026) — reconduction qui valide l'impact de la 1ère promotion (2 placements en institution publique calédonienne)"
       ]
     },
     {
@@ -1853,14 +1854,15 @@
       ],
       "startDate": "2025-03",
       "url": "https://github.com/adriens/unc_iae_miage_interop_si_feedbacks",
-      "description": "Conception et animation du module Interopérabilité des SI en Master MIAGE, IAE-UNC, sur temps personnel. Pédagogie Montessori appliquée à l'université : learning by doing, projets open source réels, syllabus public sur GitHub. 12 étudiants, promo 2025.",
+      "description": "Conception et animation du module Interopérabilité des SI en Master MIAGE, IAE-UNC, sur temps personnel. Pédagogie Montessori appliquée à l'université : learning by doing, projets open source réels, syllabus public sur GitHub. 12 étudiants, promo 2025. Renouvelé pour une 2ème session, août → décembre 2026.",
       "highlights": [
         "Pédagogie double ancrage : Montessori (manipulation, autonomie) + Mindful Learning d'Ellen Langer — chaque étudiant repart avec du code en prod",
         "Dévi Bergès (M2 2025) : témoignage vidéo spontané sur la méthode + recruté à l'OPT-NC sur recommandation active — https://youtu.be/0QU79d9cqJg",
         "Thouraya Sakis (M2 2025) : retenue à l'ISEE-NC après recommandation avec entretien",
         "Deux placements en institution publique calédonienne en juin 2026 — preuve d'impact au-delà du cours",
         "Expo des réalisations étudiantes en fin d'année documentée sur Dev.to (23 commentaires)",
-        "Syllabus public sur GitHub — transparence totale de la méthode"
+        "Syllabus public sur GitHub — transparence totale de la méthode",
+        "Renouvelé par l'IAE-UNC pour une 2ème session (août → décembre 2026)"
       ]
     },
     {
@@ -2606,7 +2608,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.31.4",
+    "version": "v1.31.5",
     "lastModified": "2026-07-13",
     "theme": "elegant"
   }
