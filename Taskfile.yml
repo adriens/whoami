@@ -27,6 +27,11 @@ tasks:
     cmds:
       - uv run scripts/validate-json-resume.py
 
+  audit-tags:
+    desc: Auditer les tags du repo contre la taxonomie canonique (CLAUDE.md)
+    cmds:
+      - uv run scripts/audit-tags.py
+
   install:
     desc: Installer les dependances JS (bun)
     cmds:
