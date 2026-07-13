@@ -781,12 +781,12 @@ function levelDots(level: string): number {
                       {r['x-date'] && <time>{formatDate(r['x-date'])}</time>}
                     </div>
                   </div>
-                  {r['x-position'] && <p class="ref-position">{r['x-position']}</p>}
-                  <p class="ref-excerpt">« {refExcerpt(r.reference)} »</p>
+                  {r['x-position'] && <p class="ref-position" lang={r['x-language'] || 'fr'}>{r['x-position']}</p>}
+                  <p class="ref-excerpt">« <span lang={r['x-language'] || 'fr'}>{refExcerpt(r.reference)}</span> »</p>
                   {r.reference?.length > 160 && (
                     <details class="ref-expand">
                       <summary><i class="fa-solid fa-chevron-down"></i> Lire le témoignage complet</summary>
-                      <p class="ref-full">{r.reference}</p>
+                      <p class="ref-full" lang={r['x-language'] || 'fr'}>{r.reference}</p>
                     </details>
                   )}
                 </article>
