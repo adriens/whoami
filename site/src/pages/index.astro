@@ -220,6 +220,13 @@ function levelDots(level: string): number {
   <body>
     <div id="progress-bar"></div>
     <div id="toast" role="status" aria-live="polite"></div>
+    <div id="tag-filter" role="status" aria-live="polite" hidden>
+      <i class="fa-solid fa-filter"></i>
+      <span>Filtre : <strong id="tag-filter-name"></strong> <span id="tag-filter-count"></span></span>
+      <button id="tag-filter-clear" aria-label="Effacer le filtre" title="Effacer le filtre">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
     <nav class="side-nav" aria-label="Navigation sections">
       <a href="#experience"   class="snav-link" title="Expérience"><i class="fa-solid fa-briefcase"></i></a>
       <a href="#benevolat"    class="snav-link" title="Bénévolat"><i class="fa-solid fa-heart"></i></a>
@@ -355,7 +362,7 @@ function levelDots(level: string): number {
             {work.map((w: any) => (
               <div class="tl-item">
                 <div class="tl-dot"></div>
-                <article class="entry">
+                <article class="entry" data-tags={(w['x-tags'] ?? []).join(',')}>
                   <div class="entry-header">
                     <div class="entry-title">
                       <strong>{w.position}</strong>
@@ -377,6 +384,11 @@ function levelDots(level: string): number {
                       </ul>
                     </details>
                   )}
+                  {w['x-tags']?.length > 0 && (
+                    <div class="tags xtags">
+                      {w['x-tags'].map((t: string) => <button class="tag tag-chip" data-tag={t} title={`Filtrer par ${t}`}>{t}</button>)}
+                    </div>
+                  )}
                 </article>
               </div>
             ))}
@@ -391,7 +403,7 @@ function levelDots(level: string): number {
             {volunteer.map((v: any) => (
               <div class="tl-item">
                 <div class="tl-dot"></div>
-                <article class="entry">
+                <article class="entry" data-tags={(v['x-tags'] ?? []).join(',')}>
                   <div class="entry-header">
                     <div class="entry-title">
                       <strong>{v.position}</strong>
@@ -412,6 +424,11 @@ function levelDots(level: string): number {
                         {v.highlights.map((h: string) => <li>{h}</li>)}
                       </ul>
                     </details>
+                  )}
+                  {v['x-tags']?.length > 0 && (
+                    <div class="tags xtags">
+                      {v['x-tags'].map((t: string) => <button class="tag tag-chip" data-tag={t} title={`Filtrer par ${t}`}>{t}</button>)}
+                    </div>
                   )}
                 </article>
               </div>
@@ -488,7 +505,7 @@ function levelDots(level: string): number {
         <section id="open-source">
           <h2><i class="fa-brands fa-github"></i> Projets open source <span class="section-count">{openSourceProjects.length}</span></h2>
           {openSourceProjects.map((p: any) => (
-            <article class="entry">
+            <article class="entry" data-tags={(p['x-tags'] ?? []).join(',')}>
               <div class="entry-header">
                 <div class="entry-title">
                   <strong>{p.name}</strong>
@@ -508,6 +525,11 @@ function levelDots(level: string): number {
                 <ul>
                   {p.highlights.map((h: string) => <li>{h}</li>)}
                 </ul>
+              )}
+              {p['x-tags']?.length > 0 && (
+                <div class="tags xtags">
+                  {p['x-tags'].map((t: string) => <button class="tag tag-chip" data-tag={t} title={`Filtrer par ${t}`}>{t}</button>)}
+                </div>
               )}
             </article>
           ))}
@@ -518,7 +540,7 @@ function levelDots(level: string): number {
         <section id="professionnel">
           <h2><i class="fa-solid fa-building"></i> Réalisations professionnelles <span class="section-count">{professionalProjects.length}</span></h2>
           {professionalProjects.map((p: any) => (
-            <article class="entry">
+            <article class="entry" data-tags={(p['x-tags'] ?? []).join(',')}>
               <div class="entry-header">
                 <div class="entry-title">
                   <strong>{p.name}</strong>
@@ -539,6 +561,11 @@ function levelDots(level: string): number {
                   {p.highlights.map((h: string) => <li>{h}</li>)}
                 </ul>
               )}
+              {p['x-tags']?.length > 0 && (
+                <div class="tags xtags">
+                  {p['x-tags'].map((t: string) => <button class="tag tag-chip" data-tag={t} title={`Filtrer par ${t}`}>{t}</button>)}
+                </div>
+              )}
             </article>
           ))}
         </section>
@@ -548,7 +575,7 @@ function levelDots(level: string): number {
         <section id="publications">
           <h2><i class="fa-solid fa-file-lines"></i> Publications</h2>
           {publications.map((p: any) => (
-            <article class="entry">
+            <article class="entry" data-tags={(p['x-tags'] ?? []).join(',')}>
               <div class="entry-header">
                 <div class="entry-title">
                   <strong>{p.name}</strong>
@@ -561,6 +588,11 @@ function levelDots(level: string): number {
                 {p.releaseDate && <time>{p.releaseDate}</time>}
               </div>
               {p.summary && <p class="muted">{p.summary}</p>}
+              {p['x-tags']?.length > 0 && (
+                <div class="tags xtags">
+                  {p['x-tags'].map((t: string) => <button class="tag tag-chip" data-tag={t} title={`Filtrer par ${t}`}>{t}</button>)}
+                </div>
+              )}
             </article>
           ))}
         </section>
@@ -570,7 +602,7 @@ function levelDots(level: string): number {
         <section id="distinctions">
           <h2><i class="fa-solid fa-trophy"></i> Distinctions</h2>
           {sortedAwards.map((a: any) => (
-            <article class="entry">
+            <article class="entry" data-tags={(a['x-tags'] ?? []).join(',')}>
               <div class="entry-header">
                 <div class="entry-title">
                   <strong>{a.title}</strong>
@@ -580,6 +612,11 @@ function levelDots(level: string): number {
                 {a.date && <span class={awardBadgeClass(a.date)}>{a.date.substring(0, 4)}</span>}
               </div>
               {a.summary && <p class="muted">{a.summary}</p>}
+              {a['x-tags']?.length > 0 && (
+                <div class="tags xtags">
+                  {a['x-tags'].map((t: string) => <button class="tag tag-chip" data-tag={t} title={`Filtrer par ${t}`}>{t}</button>)}
+                </div>
+              )}
             </article>
           ))}
         </section>
@@ -731,7 +768,7 @@ function levelDots(level: string): number {
               const badge = refBadge(r);
               const isYT = r['x-source'] === 'YouTube';
               return (
-                <article class="ref-card">
+                <article class="ref-card" data-tags={(r['x-tags'] ?? []).join(',')}>
                   <div class="ref-header">
                     <div class="ref-name-row">
                       <strong class="ref-name">{r.name}</strong>
@@ -884,6 +921,56 @@ function levelDots(level: string): number {
         });
       }, { rootMargin: '-20% 0px -70% 0px' });
       sections.forEach(s => sectionObs.observe(s));
+
+      // ── Tag filtering (x-tags) — filtre cross-section du graphe de connaissances ──
+      const taggedCards = Array.from(document.querySelectorAll<HTMLElement>('[data-tags]'));
+      const filterBar = document.getElementById('tag-filter');
+      const filterName = document.getElementById('tag-filter-name');
+      const filterCount = document.getElementById('tag-filter-count');
+      let activeTag: string | null = null;
+
+      // Les cartes de la timeline doivent masquer leur .tl-item (sinon le point reste)
+      const cardContainer = (el: HTMLElement): HTMLElement =>
+        (el.closest('.tl-item') as HTMLElement) ?? el;
+
+      const cardTags = (el: HTMLElement): string[] =>
+        (el.dataset.tags || '').split(',').filter(Boolean);
+
+      function applyTagFilter(tag: string | null) {
+        activeTag = tag;
+        let visible = 0;
+        taggedCards.forEach(card => {
+          const show = !tag || cardTags(card).includes(tag);
+          cardContainer(card).classList.toggle('tag-hidden', !show);
+          if (tag && show) visible++;
+        });
+        // masquer les sections sans aucune carte visible
+        document.querySelectorAll<HTMLElement>('section').forEach(sec => {
+          const cards = Array.from(sec.querySelectorAll<HTMLElement>('[data-tags]'));
+          if (!cards.length) return;
+          const any = !tag || cards.some(c => cardTags(c).includes(tag));
+          sec.classList.toggle('tag-hidden', !any);
+        });
+        document.querySelectorAll<HTMLElement>('.tag-chip').forEach(ch =>
+          ch.classList.toggle('active', !!tag && ch.dataset.tag === tag));
+        if (filterBar) filterBar.hidden = !tag;
+        if (tag && filterName) filterName.textContent = tag;
+        if (tag && filterCount) filterCount.textContent = `— ${visible} entrée${visible > 1 ? 's' : ''}`;
+        const url = new URL(location.href);
+        if (tag) url.searchParams.set('tag', tag); else url.searchParams.delete('tag');
+        history.replaceState(null, '', url);
+      }
+
+      document.addEventListener('click', e => {
+        const chip = (e.target as HTMLElement).closest<HTMLElement>('.tag-chip');
+        if (!chip) return;
+        const t = chip.dataset.tag;
+        if (t) applyTagFilter(t === activeTag ? null : t);
+      });
+      document.getElementById('tag-filter-clear')?.addEventListener('click', () => applyTagFilter(null));
+
+      const initialTag = new URL(location.href).searchParams.get('tag');
+      if (initialTag) applyTagFilter(initialTag);
     </script>
   </body>
 </html>
@@ -1227,6 +1314,66 @@ function levelDots(level: string): number {
     padding: 0.15rem 0.55rem;
     border-radius: 999px;
   }
+
+  /* ── x-tags cliquables : filtre cross-section ── */
+  .xtags { margin-top: 0.6rem; }
+
+  .tag-chip {
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-family: inherit;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
+  }
+
+  .tag-chip:hover {
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 12%, transparent);
+    border-color: color-mix(in srgb, var(--accent) 30%, transparent);
+  }
+
+  .tag-chip.active {
+    color: var(--bg, #0b1120);
+    background: var(--accent);
+    border-color: var(--accent);
+    font-weight: 600;
+  }
+
+  .tag-hidden { display: none !important; }
+
+  #tag-filter {
+    position: fixed;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    background: color-mix(in srgb, var(--accent) 15%, var(--border));
+    border: 1px solid color-mix(in srgb, var(--accent) 40%, transparent);
+    color: var(--text);
+    font-size: 0.85rem;
+    z-index: 50;
+    box-shadow: 0 4px 20px rgb(0 0 0 / 0.25);
+    backdrop-filter: blur(6px);
+  }
+
+  #tag-filter[hidden] { display: none; }
+
+  #tag-filter i.fa-filter { color: var(--accent); }
+
+  #tag-filter-clear {
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: var(--muted);
+    font-size: 1rem;
+    padding: 0 0.15rem;
+    transition: color 0.15s;
+  }
+
+  #tag-filter-clear:hover { color: var(--accent); }
 
   /* ── Article / Video lists ── */
   .article-list { list-style: none; display: flex; flex-direction: column; gap: 0.1rem; }
@@ -1679,7 +1826,7 @@ function levelDots(level: string): number {
 
   /* ── B: Print styles ── */
   @media print {
-    #progress-bar, #theme-toggle, #pdf-btn, #toast, .side-nav, footer, .see-all { display: none !important; }
+    #progress-bar, #theme-toggle, #pdf-btn, #toast, #tag-filter, .xtags, .side-nav, footer, .see-all { display: none !important; }
     body { background: white !important; color: black !important; font-size: 11pt; }
     main { max-width: 100%; padding: 0.5cm 1cm; }
     header { border-bottom-color: #333; }
