@@ -83,6 +83,7 @@ Particularité : les `x-tags` deviennent des **nœuds-hub** `tags/<tag>.md` reli
 
 ```sh
 task validate    # Valider manual/resume.json contre le schéma
+task audit-tags  # Auditer les tags du repo contre la taxonomie canonique
 task build       # Générer public/index.html (thème elegant)
 task serve       # Prévisualiser (localhost:4000)
 task export-html # Exporter resume.html autonome
@@ -411,15 +412,17 @@ Une **saga** est un projet ou thème exploré progressivement sur plusieurs méd
 
 Pour cohérence du filtrage **cross-section**, utiliser **uniquement** ces tags. Avant d'introduire un nouveau tag, vérifier qu'aucun équivalent n'existe.
 
+**La taxonomie est appliquée mécaniquement** : `task audit-tags` (`scripts/audit-tags.py`, aussi en CI via `validate.yml`) parse cette section et échoue si `resume.json` contient un tag hors-taxonomie ou si la liste contient un doublon. Les sources `data/` (recos, vidéos, books, stagiaires) sont scannées en warning (vocabulaire thématique libre toléré) ; `data/iot/` est hors périmètre (vocabulaire matériel dédié). Introduire un tag = l'ajouter ici **et** l'utiliser dans `resume.json` dans le même commit.
+
 **Convention** : anglais par défaut (`interoperability`, `pedagogy`). Français admis pour soft skills sans équivalent immédiat (`mentorat`, `transmission`, `curiosite`).
 
-- **Domaine** : `data`, `architecture`, `devsecops`, `devrel`, `management`, `pedagogy`, `interoperability`, `iot`, `mobile`, `fintech`, `civic-tech`, `ai-agents`
-- **Tech** : `neo4j`, `duckdb`, `airflow`, `kafka`, `python`, `go`, `java`, `quarkus`, `spring`, `flutter`, `huggingface`, `elk-stack`, `kibana`, `power-platform`, `oracle`
-- **Pattern** : `api-fication`, `open-source`, `open-data`, `scraping`, `knowledge-graph`, `mcp`, `embeddings` *(recherche sémantique, RAG, reranking cross-encoder, embeddings vectoriels — ex: resume-to-pokemon, aquavena MCP, OpenSearch vector search)*, `lean`, `frugal`, `umbrella`, `packaging`, `saga` *(projet exploré progressivement sur plusieurs médias : articles Dev.to + playlist YouTube + composants multiples — ex: ColisNC, domaine.nc, temps d'attente, geol, auptitcafe)*
+- **Domaine** : `data`, `architecture`, `devsecops`, `devrel`, `management`, `pedagogy`, `interoperability`, `iot`, `mobile`, `fintech`, `civic-tech`, `ai-agents`, `accessibility`
+- **Tech** : `neo4j`, `duckdb`, `airflow`, `kafka`, `python`, `go`, `java`, `quarkus`, `spring`, `flutter`, `huggingface`, `elk-stack`, `kibana`, `power-platform`, `oracle`, `schemacrawler`, `geol`
+- **Pattern** : `api-fication`, `open-source`, `open-data`, `scraping`, `knowledge-graph`, `mcp`, `embeddings` *(recherche sémantique, RAG, reranking cross-encoder, embeddings vectoriels — ex: resume-to-pokemon, aquavena MCP, OpenSearch vector search)*, `lean`, `scrum`, `design-thinking`, `frugal`, `umbrella`, `packaging`, `saga` *(projet exploré progressivement sur plusieurs médias : articles Dev.to + playlist YouTube + composants multiples — ex: ColisNC, domaine.nc, temps d'attente, geol, auptitcafe)*
 - **Géo** : `pacifique`, `nouvelle-caledonie`, `international`, `monaco`
 - **Rôle** : `solo`, `team-lead`, `mentor`, `speaker`, `maintainer`, `product`
 - **Recognition / Recos** : `recognition`, `peer-recognition`, `manager-recommendation`, `direct-report-recommendation`, `student-recommendation`, `intern-recommendation`, `upstream-recognition`, `client-relationship`, `cross-company`
-- **Soft skills (refs)** : `leadership`, `mentorat`, `transmission`, `pedagogie`, `innovation`, `communication`, `curiosite`, `team-culture`, `human-centric`, `business-acumen`, `delivery-focus`, `force-de-proposition`, `responsiveness`, `disponibilite`, `autonomy`, `trust-building`, `knowledge-sharing`, `continuous-improvement`, `pragmatisme-techno`, `polyvalence`, `tech-enthusiasm`, `exploration-techno`, `comprehension-besoins`, `multi-technology`, `industrialisation`, `interim-management`, `long-term-collaboration`, `qualites-humaines`, `endorsement-court`, `lasting-impact`, `internship-to-hire`, `team-fit`, `dynamism`, `pleasure-to-work-with`, `broad-skills`, `technical-expertise`, `technical-excellence`, `code-quality`, `performance`, `services-web`, `api-design`, `architecture-logicielle`, `management-agile`, `veille-technologique`, `unc-partnership`, `projet-tutore`, `polytech-nice`, `premiere-experience-pro`, `stage`, `linux`, `debian`, `community-contribution`, `networking`, `geomatique`, `sig`, `dsi-noumea`, `opt-nc`, `data-science`, `database`, `curiosity`, `business-acumen`
+- **Soft skills (refs)** : `leadership`, `mentorat`, `transmission`, `pedagogie`, `innovation`, `communication`, `curiosite`, `team-culture`, `human-centric`, `business-acumen`, `delivery-focus`, `force-de-proposition`, `responsiveness`, `disponibilite`, `autonomy`, `trust-building`, `knowledge-sharing`, `continuous-improvement`, `pragmatisme-techno`, `polyvalence`, `tech-enthusiasm`, `exploration-techno`, `comprehension-besoins`, `multi-technology`, `industrialisation`, `interim-management`, `long-term-collaboration`, `qualites-humaines`, `endorsement-court`, `lasting-impact`, `internship-to-hire`, `team-fit`, `dynamism`, `pleasure-to-work-with`, `broad-skills`, `technical-expertise`, `technical-excellence`, `code-quality`, `performance`, `services-web`, `api-design`, `architecture-logicielle`, `management-agile`, `veille-technologique`, `unc-partnership`, `projet-tutore`, `polytech-nice`, `premiere-experience-pro`, `stage`, `linux`, `debian`, `community-contribution`, `networking`, `geomatique`, `sig`, `dsi-noumea`, `opt-nc`, `isee-nc`, `data-science`, `database`, `high-availability`, `interview`
 
 ## Conventions Git — Taxonomie et ontologie des commits
 
