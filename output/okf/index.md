@@ -31,4 +31,4 @@ Architecte et urbaniste des SI au croisement des maths (DEA INRIA Sophia Antipol
 - [Volunteer](volunteer/index.md) — 4 entrées
 - [Work](work/index.md) — 5 entrées
 
-- [Tags](tags/index.md) — 124 concepts (graphe)
+- [Tags](tags/index.md) — 122 concepts (graphe)

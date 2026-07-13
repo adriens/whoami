@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-07-13'
 ---
 
-124 concepts transversaux (graphe de connaissances).
+122 concepts transversaux (graphe de connaissances).
 
 - [open-source](open-source.md) — 41 entrées
 - [nouvelle-caledonie](nouvelle-caledonie.md) — 39 entrées
@@ -35,19 +35,19 @@ timestamp: '2026-07-13'
 - [neo4j](neo4j.md) — 10 entrées
 - [python](python.md) — 10 entrées
 - [tech-enthusiasm](tech-enthusiasm.md) — 10 entrées
+- [technical-expertise](technical-expertise.md) — 10 entrées
 - [knowledge-graph](knowledge-graph.md) — 9 entrées
 - [lasting-impact](lasting-impact.md) — 9 entrées
 - [management](management.md) — 9 entrées
 - [speaker](speaker.md) — 9 entrées
 - [student-recommendation](student-recommendation.md) — 9 entrées
-- [technical-expertise](technical-expertise.md) — 9 entrées
+- [curiosite](curiosite.md) — 8 entrées
 - [disponibilite](disponibilite.md) — 8 entrées
 - [go](go.md) — 8 entrées
 - [iot](iot.md) — 8 entrées
 - [saga](saga.md) — 8 entrées
 - [scraping](scraping.md) — 8 entrées
 - [technical-excellence](technical-excellence.md) — 8 entrées
-- [curiosite](curiosite.md) — 7 entrées
 - [duckdb](duckdb.md) — 7 entrées
 - [frugal](frugal.md) — 7 entrées
 - [leadership](leadership.md) — 7 entrées
@@ -108,10 +108,8 @@ timestamp: '2026-07-13'
 - [broad-skills](broad-skills.md) — 1 entrées
 - [business-acumen](business-acumen.md) — 1 entrées
 - [comprehension-besoins](comprehension-besoins.md) — 1 entrées
-- [curiosity](curiosity.md) — 1 entrées
 - [debian](debian.md) — 1 entrées
 - [endorsement-court](endorsement-court.md) — 1 entrées
-- [expertise-technique](expertise-technique.md) — 1 entrées
 - [high-availability](high-availability.md) — 1 entrées
 - [industrialisation](industrialisation.md) — 1 entrées
 - [interim-management](interim-management.md) — 1 entrées

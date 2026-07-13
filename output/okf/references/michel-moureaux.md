@@ -9,7 +9,7 @@ tags:
 - peer-recognition
 - technical-expertise
 - database
-- curiosity
+- curiosite
 - broad-skills
 - pleasure-to-work-with
 timestamp: '2015-07-02'
@@ -22,4 +22,4 @@ And beyond his skills he's someone it's a pleasure to work with.
 *RSSI, Département des Alpes-Maritimes*
 *Collègue — même équipe · LinkedIn · 2015-07-02*
 
-**Tags :** [broad-skills](../tags/broad-skills.md), [curiosity](../tags/curiosity.md), [database](../tags/database.md), [peer-recognition](../tags/peer-recognition.md), [pleasure-to-work-with](../tags/pleasure-to-work-with.md), [technical-expertise](../tags/technical-expertise.md)
+**Tags :** [broad-skills](../tags/broad-skills.md), [curiosite](../tags/curiosite.md), [database](../tags/database.md), [peer-recognition](../tags/peer-recognition.md), [pleasure-to-work-with](../tags/pleasure-to-work-with.md), [technical-expertise](../tags/technical-expertise.md)
