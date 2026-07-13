@@ -1438,7 +1438,7 @@
         "leadership",
         "innovation",
         "client-relationship",
-        "expertise-technique",
+        "technical-expertise",
         "business-acumen"
       ]
     },
@@ -1512,7 +1512,7 @@
         "peer-recognition",
         "technical-expertise",
         "database",
-        "curiosity",
+        "curiosite",
         "broad-skills",
         "pleasure-to-work-with"
       ]
@@ -2606,7 +2606,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.31.3",
+    "version": "v1.31.4",
     "lastModified": "2026-07-13",
     "theme": "elegant"
   }
