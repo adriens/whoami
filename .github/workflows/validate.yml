@@ -5,10 +5,16 @@ on:
     paths:
       - "manual/resume.json"
       - "scripts/validate-json-resume.py"
+      - "scripts/audit-tags.py"
+      - "CLAUDE.md"
+      - "data/**/*.md"
   pull_request:
     paths:
       - "manual/resume.json"
       - "scripts/validate-json-resume.py"
+      - "scripts/audit-tags.py"
+      - "CLAUDE.md"
+      - "data/**/*.md"
   workflow_dispatch:
 
 jobs:
@@ -22,3 +28,6 @@ jobs:
 
       - name: Validate resume.json
         run: uv run scripts/validate-json-resume.py
+
+      - name: Audit x-tags taxonomy
+        run: uv run scripts/audit-tags.py
