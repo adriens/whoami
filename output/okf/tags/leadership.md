@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: leadership
-description: 7 entrées taguées « leadership »
+description: 8 entrées taguées « leadership »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 7 entrées du profil.
+Concept transversal reliant 8 entrées du profil.
 
 - [Ida Carapelle Goossens](../references/ida-carapelle-goossens.md) — *Reference*
 - [Jean Paul OLIVE](../references/jean-paul-olive.md) — *Reference*
@@ -16,3 +16,4 @@ Concept transversal reliant 7 entrées du profil.
 - [Richard DEPLANQUE](../references/richard-deplanque.md) — *Reference*
 - [Ronny Soutart](../references/ronny-soutart.md) — *Reference*
 - [Sébastien Bourlart](../references/sebastien-bourlart.md) — *Reference*
+- [Yolande Poirier](../references/yolande-poirier.md) — *Reference*

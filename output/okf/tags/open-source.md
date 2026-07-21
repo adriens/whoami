@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: open-source
-description: 41 entrées taguées « open-source »
+description: 42 entrées taguées « open-source »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 41 entrées du profil.
+Concept transversal reliant 42 entrées du profil.
 
 - [Arctic Code Vault Contributor — GitHub](../awards/arctic-code-vault-contributor-github.md) — *Award*
 - [Extension officielle DuckDB Community — brew](../awards/extension-officielle-duckdb-community-brew.md) — *Award*
@@ -47,6 +47,7 @@ Concept transversal reliant 41 entrées du profil.
 - [David Kranitz](../references/david-kranitz.md) — *Reference*
 - [James Langeron](../references/james-langeron.md) — *Reference*
 - [Sualeh Fatehi](../references/sualeh-fatehi.md) — *Reference*
+- [Yolande Poirier](../references/yolande-poirier.md) — *Reference*
 - [Open Source](../skills/open-source.md) — *Skill*
 - [Contributeur de données @ endoflife.date — Projet open source communautaire](../volunteer/endoflife-date-projet-open-source-communautaire-contributeur-de-donnees.md) — *Volunteer*
 - [Enseignant vacataire — Module Interopérabilité des SI @ Université de Nouvelle-Calédonie — Master MIAGE (IAE)](../volunteer/universite-de-nouvelle-caledonie-master-miage-iae-enseignant-vacataire-module-interoperabilite-des-si.md) — *Volunteer*

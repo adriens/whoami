@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: nouvelle-caledonie
-description: 39 entrées taguées « nouvelle-caledonie »
+description: 40 entrées taguées « nouvelle-caledonie »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 39 entrées du profil.
+Concept transversal reliant 40 entrées du profil.
 
 - [Speaker — NODES 2024 (Conférence internationale Neo4j)](../awards/speaker-nodes-2024-conference-internationale-neo4j.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
@@ -42,6 +42,7 @@ Concept transversal reliant 39 entrées du profil.
 - [José GOUE](../references/jose-goue.md) — *Reference*
 - [Ludwig MARTIN](../references/ludwig-martin.md) — *Reference*
 - [Stéphanie BOUVET](../references/stephanie-bouvet.md) — *Reference*
+- [Yolande Poirier](../references/yolande-poirier.md) — *Reference*
 - [Contributeur civic data — Réutilisations open data @ data.gouv.nc — Portail open data officiel de Nouvelle-Calédonie](../volunteer/data-gouv-nc-portail-open-data-officiel-de-nouvelle-caledonie-contributeur-civic-data-reutilisations-open-data.md) — *Volunteer*
 - [Enseignant vacataire — Module Interopérabilité des SI @ Université de Nouvelle-Calédonie — Master MIAGE (IAE)](../volunteer/universite-de-nouvelle-caledonie-master-miage-iae-enseignant-vacataire-module-interoperabilite-des-si.md) — *Volunteer*
 - [Membre actif — Conférencier @ Station N — Commission Data & IA](../volunteer/station-n-commission-data-ia-membre-actif-conferencier.md) — *Volunteer*

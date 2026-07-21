@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: neo4j
-description: 10 entrées taguées « neo4j »
+description: 11 entrées taguées « neo4j »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 10 entrées du profil.
+Concept transversal reliant 11 entrées du profil.
 
 - [Speaker — NODES 2022 (Conférence internationale Neo4j)](../awards/speaker-nodes-2022-conference-internationale-neo4j.md) — *Award*
 - [Speaker — NODES 2023 (Conférence internationale Neo4j)](../awards/speaker-nodes-2023-conference-internationale-neo4j.md) — *Award*
@@ -17,5 +17,6 @@ Concept transversal reliant 10 entrées du profil.
 - [Knowledge Graph SI OPT-NC — Neo4j](../projects/knowledge-graph-si-opt-nc-neo4j.md) — *Project*
 - [Chaîne YouTube DevOPS-LAB](../publications/chaine-youtube-devops-lab.md) — *Publication*
 - [Bheem Reddy](../references/bheem-reddy.md) — *Reference*
+- [Yolande Poirier](../references/yolande-poirier.md) — *Reference*
 - [Graph & Knowledge Engineering](../skills/graph-knowledge-engineering.md) — *Skill*
 - [Contributeur de données @ endoflife.date — Projet open source communautaire](../volunteer/endoflife-date-projet-open-source-communautaire-contributeur-de-donnees.md) — *Volunteer*

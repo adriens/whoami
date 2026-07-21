@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: transmission
-description: 22 entrées taguées « transmission »
+description: 23 entrées taguées « transmission »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 22 entrées du profil.
+Concept transversal reliant 23 entrées du profil.
 
 - [Mentor Pépite NC 2025 — équipe WAZA lauréate](../awards/mentor-pepite-nc-2025-equipe-waza-laureate.md) — *Award*
 - [Enseignement MIAGE UNC — Module Interopérabilité SI](../projects/enseignement-miage-unc-module-interoperabilite-si.md) — *Project*
@@ -31,3 +31,4 @@ Concept transversal reliant 22 entrées du profil.
 - [Ronny Soutart](../references/ronny-soutart.md) — *Reference*
 - [Sabrina Vérolle](../references/sabrina-verolle.md) — *Reference*
 - [Thouraya Sakis](../references/thouraya-sakis.md) — *Reference*
+- [Yolande Poirier](../references/yolande-poirier.md) — *Reference*
