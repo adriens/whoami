@@ -1095,6 +1095,33 @@
   ],
   "references": [
     {
+      "name": "Yolande Poirier",
+      "reference": "Adrien Sales's impact in the global technology space is not just his impressive technical capability, but his fundamental drive to create, teach, and connect people and things. Based in Nouméa, New Caledonia, Adrien acts as a vital bridge between complex systems and human collaboration, demonstrating that the best technology is the one that brings communities together.\n\nAs an active and prominent member of the Neo4j Ninjas Program, Adrien was recognized as a Featured Community Member. His contributions include writing code and mentoring, committed to sharing his love for graphs through prolific blogging, releasing open-source projects, and participating in community forums to ensure that nobody in his network has to solve a problem in isolation. For Adrien, being a Ninja is not a badge of exclusivity; it is a commitment to lift others up.\n\nAdrien's presentations at Neo4j's flagship NODES conferences highlight his unique talent for \"Data Culture and Management Storytelling\". Rather than presenting dry technical slides, Adrien constructs engaging narratives that make complex concepts universally accessible:\nNODES 2022 - \"From Game of Thrones to Information System Cartography\"\nNODES 24 - \"Cloud-Native Knowledge Graph Automation to Deliver AI Agents API\"\n\nAt his core, Adrien is a builder of human connections. Whether he is guiding students as a Teacher at the University of New Caledonia, contributing over 200 articles and 1,500 interactive discussions on the DEV Community platform, or sharing open datasets on Kaggle, his work is always defined by generosity. Adrien does not just manage projects; he cultivates a warm, inclusive, and sharing-focused culture wherever he goes.\n\nAny organization, community, or academic program would be incredibly fortunate to have Adrien as a leader, mentor, and advocate. He does not just build data networks; he builds networks of people.",
+      "x-position": "Senior Manager, Developer Community (Neo4j)",
+      "x-relationship": "Responsable Developer Community chez Neo4j — reconnaissance upstream via le programme Neo4j Ninjas ; relation cross-company, équipes différentes",
+      "x-date": "2026-07-22",
+      "x-source": "LinkedIn",
+      "x-language": "en",
+      "x-tags": [
+        "upstream-recognition",
+        "neo4j",
+        "community-contribution",
+        "mentorat",
+        "transmission",
+        "pedagogy",
+        "open-source",
+        "devrel",
+        "human-centric",
+        "leadership",
+        "communication",
+        "speaker",
+        "international",
+        "nouvelle-caledonie",
+        "knowledge-sharing",
+        "cross-company"
+      ]
+    },
+    {
       "name": "David BROUSTE",
       "reference": "J'ai eu l'occasion de travailler avec Adrien dans le cadre d'une prestation pour l'OPT, sur la refonte d'une application technique à forte volumétrie, reposant notamment sur Quarkus, Microcks et Kafka.\n\nAdrien a joué un rôle important dans la réussite du projet. Il a su me transmettre une compréhension claire de l'existant, partager les pratiques mises en place dans son service et fournir les orientations nécessaires pour avancer rapidement, tout en me laissant une réelle autonomie dans la réalisation.\n\nJ'ai particulièrement apprécié sa disponibilité, sa réactivité et la qualité du suivi qu'il assure auprès de son équipe. Il sait aussi reconnaître et valoriser régulièrement le travail accompli, un aspect essentiel et particulièrement motivant. L'organisation du travail est pragmatique et efficace : des échanges réguliers mais timeboxés, des démonstrations hebdomadaires pour suivre concrètement les avancées et peu de réunions inutiles.\n\nAdrien accorde une grande importance au partage de connaissances. Chaque membre de son équipe est encouragé à présenter les sujets intéressants sur lesquels il a travaillé afin de faire progresser collectivement le service. Cette culture du partage s'étend également au-delà de l'équipe, notamment par la remontée de problèmes ou de besoins auprès des communautés open source concernées.\n\nTechnophile passionné, il possède une connaissance très large de nombreux domaines. C'est toujours un véritable plaisir d'échanger avec lui, aussi bien sur des sujets simples que sur des problématiques techniques complexes. Il sait partager sa passion, susciter la curiosité et donner envie d'aller plus loin.\n\nIl sait également se montrer exigeant lorsque cela est nécessaire, en veillant au respect des bonnes pratiques, à la qualité des réalisations et à la pérennité des choix techniques. Sur ce projet, sa volonté était claire : moderniser l'application, réduire son coût de maintenance et reprendre le contrôle sur les processus de livraison afin de limiter les dépendances externes.\n\nCette collaboration a été particulièrement enrichissante, aussi bien sur le plan technique que dans la manière d'aborder un projet. Adrien fait partie des personnes avec lesquelles les échanges font réellement progresser et avec qui j'aurais grand plaisir à retravailler.",
       "x-position": "Managing Partner, Team Leader & Fullstack Developer at DEVEO.NC | Java · Spring Boot · Quarkus · Angular · Mobile · CI/CD | Embedded Systems · Protocol Reverse Engineering · Agentic AI Workflows",
@@ -2608,7 +2635,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.31.5",
+    "version": "v1.32.0",
     "lastModified": "2026-07-13",
     "theme": "elegant"
   }
