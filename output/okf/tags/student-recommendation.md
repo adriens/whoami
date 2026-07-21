@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: student-recommendation
-description: 9 entrées taguées « student-recommendation »
+description: 10 entrées taguées « student-recommendation »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 9 entrées du profil.
+Concept transversal reliant 10 entrées du profil.
 
 - [Clémentine Galin](../references/clementine-galin.md) — *Reference*
 - [Clémentine Galin](../references/clementine-galin-2.md) — *Reference*
@@ -17,4 +17,5 @@ Concept transversal reliant 9 entrées du profil.
 - [José GOUE](../references/jose-goue.md) — *Reference*
 - [Malcolm Bertaina](../references/malcolm-bertaina.md) — *Reference*
 - [Morgan Carré](../references/morgan-carre.md) — *Reference*
+- [Raimanu Pain](../references/raimanu-pain.md) — *Reference*
 - [Thouraya Sakis](../references/thouraya-sakis.md) — *Reference*

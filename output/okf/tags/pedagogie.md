@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: pedagogie
-description: 14 entrées taguées « pedagogie »
+description: 15 entrées taguées « pedagogie »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 14 entrées du profil.
+Concept transversal reliant 15 entrées du profil.
 
 - [Clémentine Galin](../references/clementine-galin.md) — *Reference*
 - [Clémentine Galin](../references/clementine-galin-2.md) — *Reference*
@@ -21,5 +21,6 @@ Concept transversal reliant 14 entrées du profil.
 - [Julie Besson](../references/julie-besson.md) — *Reference*
 - [Malcolm Bertaina](../references/malcolm-bertaina.md) — *Reference*
 - [Morgan Carré](../references/morgan-carre.md) — *Reference*
+- [Raimanu Pain](../references/raimanu-pain.md) — *Reference*
 - [Romain Pelizzo](../references/romain-pelizzo.md) — *Reference*
 - [Thouraya Sakis](../references/thouraya-sakis.md) — *Reference*

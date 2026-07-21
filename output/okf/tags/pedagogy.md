@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: pedagogy
-description: 19 entrées taguées « pedagogy »
+description: 20 entrées taguées « pedagogy »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 19 entrées du profil.
+Concept transversal reliant 20 entrées du profil.
 
 - [Admissible au CAPES externe de Mathématiques](../awards/admissible-au-capes-externe-de-mathematiques.md) — *Award*
 - [Mentor Pépite NC 2025 — équipe WAZA lauréate](../awards/mentor-pepite-nc-2025-equipe-waza-laureate.md) — *Award*
@@ -24,6 +24,7 @@ Concept transversal reliant 19 entrées du profil.
 - [Jean Paul OLIVE](../references/jean-paul-olive.md) — *Reference*
 - [José GOUE](../references/jose-goue.md) — *Reference*
 - [Julie Besson](../references/julie-besson.md) — *Reference*
+- [Raimanu Pain](../references/raimanu-pain.md) — *Reference*
 - [Thouraya Sakis](../references/thouraya-sakis.md) — *Reference*
 - [Yolande Poirier](../references/yolande-poirier.md) — *Reference*
 - [Enseignant vacataire — Module Interopérabilité des SI @ Université de Nouvelle-Calédonie — Master MIAGE (IAE)](../volunteer/universite-de-nouvelle-caledonie-master-miage-iae-enseignant-vacataire-module-interoperabilite-des-si.md) — *Volunteer*

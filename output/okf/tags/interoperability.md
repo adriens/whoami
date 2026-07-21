@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: interoperability
-description: 22 entrées taguées « interoperability »
+description: 23 entrées taguées « interoperability »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 22 entrées du profil.
+Concept transversal reliant 23 entrées du profil.
 
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
 - [API domaine.nc — Création de l'interopérabilité des noms de domaine .NC](../projects/api-domaine-nc-creation-de-l-interoperabilite-des-noms-de-domaine-nc.md) — *Project*
@@ -25,6 +25,7 @@ Concept transversal reliant 22 entrées du profil.
 - [Cédric Pitout](../references/cedric-pitout.md) — *Reference*
 - [Dévi Bergès](../references/devi-berges-2.md) — *Reference*
 - [James Langeron](../references/james-langeron.md) — *Reference*
+- [Raimanu Pain](../references/raimanu-pain.md) — *Reference*
 - [Sabrina Vérolle](../references/sabrina-verolle.md) — *Reference*
 - [Stéphanie BOUVET](../references/stephanie-bouvet.md) — *Reference*
 - [Thouraya Sakis](../references/thouraya-sakis.md) — *Reference*

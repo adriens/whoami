@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: mentorat
-description: 20 entrées taguées « mentorat »
+description: 21 entrées taguées « mentorat »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 20 entrées du profil.
+Concept transversal reliant 21 entrées du profil.
 
 - [Mentor Pépite NC 2025 — équipe WAZA lauréate](../awards/mentor-pepite-nc-2025-equipe-waza-laureate.md) — *Award*
 - [Enseignement MIAGE UNC — Module Interopérabilité SI](../projects/enseignement-miage-unc-module-interoperabilite-si.md) — *Project*
@@ -24,6 +24,7 @@ Concept transversal reliant 20 entrées du profil.
 - [Malcolm Bertaina](../references/malcolm-bertaina.md) — *Reference*
 - [Morgan Carré](../references/morgan-carre.md) — *Reference*
 - [Paul Monimeau](../references/paul-monimeau.md) — *Reference*
+- [Raimanu Pain](../references/raimanu-pain.md) — *Reference*
 - [Romain Pelizzo](../references/romain-pelizzo.md) — *Reference*
 - [Ronny Soutart](../references/ronny-soutart.md) — *Reference*
 - [Sabrina Vérolle](../references/sabrina-verolle.md) — *Reference*
