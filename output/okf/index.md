@@ -26,7 +26,7 @@ Architecte et urbaniste des SI au croisement des maths (DEA INRIA Sophia Antipol
 - [Profile](profile/index.md) — 1 entrées
 - [Projects](projects/index.md) — 31 entrées
 - [Publications](publications/index.md) — 7 entrées
-- [References](references/index.md) — 32 entrées
+- [References](references/index.md) — 33 entrées
 - [Skills](skills/index.md) — 16 entrées
 - [Volunteer](volunteer/index.md) — 4 entrées
 - [Work](work/index.md) — 5 entrées

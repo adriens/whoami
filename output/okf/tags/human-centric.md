@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: human-centric
-description: 12 entrées taguées « human-centric »
+description: 13 entrées taguées « human-centric »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-07-13'
 ---
 
-Concept transversal reliant 12 entrées du profil.
+Concept transversal reliant 13 entrées du profil.
 
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
 - [aquavena — SDK Python scraping menus & tarifs Aquavena NC](../projects/aquavena-sdk-python-scraping-menus-tarifs-aquavena-nc.md) — *Project*
@@ -21,3 +21,4 @@ Concept transversal reliant 12 entrées du profil.
 - [Marc RODRIGUES](../references/marc-rodrigues.md) — *Reference*
 - [Ronny Soutart](../references/ronny-soutart.md) — *Reference*
 - [Thouraya Sakis](../references/thouraya-sakis.md) — *Reference*
+- [Yolande Poirier](../references/yolande-poirier.md) — *Reference*
