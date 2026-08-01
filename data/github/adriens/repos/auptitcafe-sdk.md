@@ -6,7 +6,7 @@ language: Python
 topics: [datascience, opendata-api, pypi-package, python, restaurant-menu, noumea, nouvelle-caledonie, menu]
 stars: 1
 created_at: 2023-05-07
-updated_at: 2025-12-13
+updated_at: 2026-07-24
 archived: false
 has_readme: true
 ---

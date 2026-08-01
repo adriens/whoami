@@ -1,6 +1,6 @@
 ---
 author: Ash Maurya
-average_rating: '4.10'
+average_rating: '4.11'
 date_read: '2020-11-14'
 id: '13078769'
 isbn: '1449305172'
