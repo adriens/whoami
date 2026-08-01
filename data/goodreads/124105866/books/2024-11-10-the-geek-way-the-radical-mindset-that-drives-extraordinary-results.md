@@ -1,6 +1,6 @@
 ---
 author: Andrew McAfee
-average_rating: '3.79'
+average_rating: '3.80'
 date_read: '2024-11-10'
 id: '59456366'
 isbn: '0316436704'

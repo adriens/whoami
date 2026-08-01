@@ -1,6 +1,6 @@
 ---
 author: Andriy Burkov
-average_rating: '4.25'
+average_rating: '4.24'
 date_read: ''
 id: '43190851'
 isbn: ''
