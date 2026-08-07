@@ -4,7 +4,7 @@ title: technical-expertise
 description: 10 entrées taguées « technical-expertise »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
 Concept transversal reliant 10 entrées du profil.

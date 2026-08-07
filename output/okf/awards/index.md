@@ -4,10 +4,10 @@ title: Awards
 description: Index de la section awards
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
-13 entrées.
+14 entrées.
 
 - [Admissible au CAPES externe de Mathématiques](admissible-au-capes-externe-de-mathematiques.md) — Admissible au CAPES externe de Mathématiques (concours national sélectif) pendant la période d'ense…
 - [Arctic Code Vault Contributor — GitHub](arctic-code-vault-contributor-github.md) — Code archivé dans le GitHub Arctic Code Vault pour préservation millénaire.
@@ -22,3 +22,4 @@ timestamp: '2026-07-13'
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](speaker-pmi-horizons-noumea-project-management-institute.md) — 2ème participation consécutive — Exposé : "Développer mieux. Plus vite. Plus inclusif." Thème de l'…
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](speaker-pmi-horizons-noumea-project-management-institute-2.md) — 1ère participation au PMI Horizons Nouméa — Talk : Neo4j & AI Agents et impacts projets — présentat…
 - [Speaker — Talanoa 2022 / Pacific DataViz Challenge (SPC)](speaker-talanoa-2022-pacific-dataviz-challenge-spc.md) — Présentation sur la puissance de la dataviz pour le Pacific DataViz Challenge, événement régional o…
+- [Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)](speaker-geol-station-n-commissions-data-ia-cybersecurite.md) — Présentation de geol devant les commissions Data & IA et Cybersécurité réunies de la Station N — pr…

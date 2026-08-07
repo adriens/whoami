@@ -1,15 +1,16 @@
 ---
 type: Tag
 title: devrel
-description: 19 entrées taguées « devrel »
+description: 20 entrées taguées « devrel »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
-Concept transversal reliant 19 entrées du profil.
+Concept transversal reliant 20 entrées du profil.
 
 - [Speaker — NODES 2024 (Conférence internationale Neo4j)](../awards/speaker-nodes-2024-conference-internationale-neo4j.md) — *Award*
+- [Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)](../awards/speaker-geol-station-n-commissions-data-ia-cybersecurite.md) — *Award*
 - [Catalogue d'APIs publiques OPT-NC — Vitrine & produit d'appel](../projects/catalogue-d-apis-publiques-opt-nc-vitrine-produit-d-appel.md) — *Project*
 - [Generative Art — Temps d'attente agences OPT-NC](../projects/generative-art-temps-d-attente-agences-opt-nc.md) — *Project*
 - [HELIA État Réseaux — SDK & cartographie des maintenances réseau OPT-NC](../projects/helia-etat-reseaux-sdk-cartographie-des-maintenances-reseau-opt-nc.md) — *Project*

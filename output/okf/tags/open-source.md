@@ -1,18 +1,19 @@
 ---
 type: Tag
 title: open-source
-description: 42 entrées taguées « open-source »
+description: 44 entrées taguées « open-source »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
-Concept transversal reliant 42 entrées du profil.
+Concept transversal reliant 44 entrées du profil.
 
 - [Arctic Code Vault Contributor — GitHub](../awards/arctic-code-vault-contributor-github.md) — *Award*
 - [Extension officielle DuckDB Community — brew](../awards/extension-officielle-duckdb-community-brew.md) — *Award*
 - [Hacktoberfest Maintainer Spotlight — geol](../awards/hacktoberfest-maintainer-spotlight-geol.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
+- [Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)](../awards/speaker-geol-station-n-commissions-data-ia-cybersecurite.md) — *Award*
 - [Veille technologique & innovation](../interests/veille-technologique-innovation.md) — *Interest*
 - [API domaine.nc — Création de l'interopérabilité des noms de domaine .NC](../projects/api-domaine-nc-creation-de-l-interoperabilite-des-noms-de-domaine-nc.md) — *Project*
 - [API-fication calédonienne — SDKs Java & APIs REST](../projects/api-fication-caledonienne-sdks-java-apis-rest.md) — *Project*
@@ -51,3 +52,4 @@ Concept transversal reliant 42 entrées du profil.
 - [Open Source](../skills/open-source.md) — *Skill*
 - [Contributeur de données @ endoflife.date — Projet open source communautaire](../volunteer/endoflife-date-projet-open-source-communautaire-contributeur-de-donnees.md) — *Volunteer*
 - [Enseignant vacataire — Module Interopérabilité des SI @ Université de Nouvelle-Calédonie — Master MIAGE (IAE)](../volunteer/universite-de-nouvelle-caledonie-master-miage-iae-enseignant-vacataire-module-interoperabilite-des-si.md) — *Volunteer*
+- [Membre actif — Conférencier @ Station N — Commission Data & IA](../volunteer/station-n-commission-data-ia-membre-actif-conferencier.md) — *Volunteer*

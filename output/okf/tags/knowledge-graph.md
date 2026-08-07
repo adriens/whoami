@@ -4,7 +4,7 @@ title: knowledge-graph
 description: 9 entrées taguées « knowledge-graph »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
 Concept transversal reliant 9 entrées du profil.

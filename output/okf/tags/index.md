@@ -4,28 +4,28 @@ title: Tags
 description: Graphe de concepts (x-tags)
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
 122 concepts transversaux (graphe de connaissances).
 
-- [open-source](open-source.md) — 42 entrées
-- [nouvelle-caledonie](nouvelle-caledonie.md) — 40 entrées
-- [data](data.md) — 36 entrées
-- [pacifique](pacifique.md) — 36 entrées
-- [transmission](transmission.md) — 24 entrées
+- [open-source](open-source.md) — 44 entrées
+- [nouvelle-caledonie](nouvelle-caledonie.md) — 41 entrées
+- [data](data.md) — 37 entrées
+- [pacifique](pacifique.md) — 37 entrées
+- [transmission](transmission.md) — 25 entrées
 - [international](international.md) — 23 entrées
 - [interoperability](interoperability.md) — 23 entrées
 - [api-fication](api-fication.md) — 22 entrées
 - [civic-tech](civic-tech.md) — 21 entrées
 - [mentorat](mentorat.md) — 21 entrées
-- [pedagogy](pedagogy.md) — 20 entrées
-- [devrel](devrel.md) — 19 entrées
+- [pedagogy](pedagogy.md) — 21 entrées
+- [devrel](devrel.md) — 20 entrées
 - [opt-nc](opt-nc.md) — 19 entrées
 - [ai-agents](ai-agents.md) — 18 entrées
 - [open-data](open-data.md) — 18 entrées
+- [devsecops](devsecops.md) — 17 entrées
 - [innovation](innovation.md) — 17 entrées
-- [devsecops](devsecops.md) — 15 entrées
 - [pedagogie](pedagogie.md) — 15 entrées
 - [architecture](architecture.md) — 14 entrées
 - [human-centric](human-centric.md) — 14 entrées
@@ -33,25 +33,26 @@ timestamp: '2026-07-13'
 - [knowledge-sharing](knowledge-sharing.md) — 12 entrées
 - [unc-partnership](unc-partnership.md) — 12 entrées
 - [neo4j](neo4j.md) — 11 entrées
+- [speaker](speaker.md) — 11 entrées
 - [lasting-impact](lasting-impact.md) — 10 entrées
 - [python](python.md) — 10 entrées
-- [speaker](speaker.md) — 10 entrées
 - [student-recommendation](student-recommendation.md) — 10 entrées
 - [tech-enthusiasm](tech-enthusiasm.md) — 10 entrées
 - [technical-expertise](technical-expertise.md) — 10 entrées
+- [go](go.md) — 9 entrées
 - [knowledge-graph](knowledge-graph.md) — 9 entrées
 - [management](management.md) — 9 entrées
 - [curiosite](curiosite.md) — 8 entrées
 - [disponibilite](disponibilite.md) — 8 entrées
-- [go](go.md) — 8 entrées
+- [frugal](frugal.md) — 8 entrées
 - [iot](iot.md) — 8 entrées
 - [leadership](leadership.md) — 8 entrées
 - [saga](saga.md) — 8 entrées
 - [scraping](scraping.md) — 8 entrées
 - [technical-excellence](technical-excellence.md) — 8 entrées
 - [duckdb](duckdb.md) — 7 entrées
-- [frugal](frugal.md) — 7 entrées
 - [maintainer](maintainer.md) — 7 entrées
+- [mentor](mentor.md) — 7 entrées
 - [peer-recognition](peer-recognition.md) — 7 entrées
 - [recognition](recognition.md) — 7 entrées
 - [trust-building](trust-building.md) — 7 entrées
@@ -59,7 +60,6 @@ timestamp: '2026-07-13'
 - [direct-report-recommendation](direct-report-recommendation.md) — 6 entrées
 - [huggingface](huggingface.md) — 6 entrées
 - [mcp](mcp.md) — 6 entrées
-- [mentor](mentor.md) — 6 entrées
 - [team-lead](team-lead.md) — 6 entrées
 - [client-relationship](client-relationship.md) — 5 entrées
 - [communication](communication.md) — 5 entrées

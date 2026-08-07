@@ -1,17 +1,18 @@
 ---
 type: Tag
 title: nouvelle-caledonie
-description: 40 entrées taguées « nouvelle-caledonie »
+description: 41 entrées taguées « nouvelle-caledonie »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
-Concept transversal reliant 40 entrées du profil.
+Concept transversal reliant 41 entrées du profil.
 
 - [Speaker — NODES 2024 (Conférence internationale Neo4j)](../awards/speaker-nodes-2024-conference-internationale-neo4j.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute-2.md) — *Award*
+- [Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)](../awards/speaker-geol-station-n-commissions-data-ia-cybersecurite.md) — *Award*
 - [API domaine.nc — Création de l'interopérabilité des noms de domaine .NC](../projects/api-domaine-nc-creation-de-l-interoperabilite-des-noms-de-domaine-nc.md) — *Project*
 - [API-fication calédonienne — SDKs Java & APIs REST](../projects/api-fication-caledonienne-sdks-java-apis-rest.md) — *Project*
 - [BP connectée — Monitoring rack boîtes postales OPT-NC](../projects/bp-connectee-monitoring-rack-boites-postales-opt-nc.md) — *Project*

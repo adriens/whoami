@@ -1,17 +1,18 @@
 ---
 type: Tag
 title: pacifique
-description: 36 entrées taguées « pacifique »
+description: 37 entrées taguées « pacifique »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
-Concept transversal reliant 36 entrées du profil.
+Concept transversal reliant 37 entrées du profil.
 
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute-2.md) — *Award*
 - [Speaker — Talanoa 2022 / Pacific DataViz Challenge (SPC)](../awards/speaker-talanoa-2022-pacific-dataviz-challenge-spc.md) — *Award*
+- [Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)](../awards/speaker-geol-station-n-commissions-data-ia-cybersecurite.md) — *Award*
 - [API domaine.nc — Création de l'interopérabilité des noms de domaine .NC](../projects/api-domaine-nc-creation-de-l-interoperabilite-des-noms-de-domaine-nc.md) — *Project*
 - [API-fication calédonienne — SDKs Java & APIs REST](../projects/api-fication-caledonienne-sdks-java-apis-rest.md) — *Project*
 - [BP connectée — Monitoring rack boîtes postales OPT-NC](../projects/bp-connectee-monitoring-rack-boites-postales-opt-nc.md) — *Project*

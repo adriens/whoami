@@ -22,6 +22,9 @@ Outil open source (Go) pour gérer les end-of-life des composants logiciels en t
 - Hacktoberfest 2025 Maintainer Spotlight officiel
 - Rapport HTML Quarto : score de dette technique, charts visuels et calendrier EOL — généré automatiquement, partageable directement à des décideurs
 - Approche marketing $0 — démos vidéo sur Mux/YouTube et articles dev.to uniquement, zéro budget pub
+- Août 2026 — présenté à la Station N devant les commissions Data & IA et Cybersécurité réunies (RSSI, DSI, chefs de projets, développeurs, enseignants et étudiants Licence Info UNC) : 3 démos live, dont l'onboarding d'un repo vierge avec CI en moins de 3 minutes ; feedbacks collectés pour orienter la roadmap produit (https://github.com/opt-nc/geol/issues/469)
+- Sujet de stage ML dérivé du projet : classification des messages de commits sémantiques sur le code source de geol — le repo comme terrain de recherche appliquée pour la Licence Info UNC
+- Onboarding sans friction : scénario interactif Killercoda, image Docker et intégration CI — trois portes d'entrée selon le persona (developer, devops, RSSI/sysadmin)
 
 *Type : open-source*
 

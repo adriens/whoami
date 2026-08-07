@@ -1,15 +1,16 @@
 ---
 type: Tag
 title: go
-description: 8 entrées taguées « go »
+description: 9 entrées taguées « go »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
-Concept transversal reliant 8 entrées du profil.
+Concept transversal reliant 9 entrées du profil.
 
 - [Hacktoberfest Maintainer Spotlight — geol](../awards/hacktoberfest-maintainer-spotlight-geol.md) — *Award*
+- [Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)](../awards/speaker-geol-station-n-commissions-data-ia-cybersecurite.md) — *Award*
 - [Helia Monitor — Stack monitoring consommation mobile OPT-NC](../projects/helia-monitor-stack-monitoring-consommation-mobile-opt-nc.md) — *Project*
 - [OPT-NC Fiber Eligibility — Scraper Go + API REST + Swagger](../projects/opt-nc-fiber-eligibility-scraper-go-api-rest-swagger.md) — *Project*
 - [edb-noumea — SDK qualité eaux de baignade](../projects/edb-noumea-sdk-qualite-eaux-de-baignade.md) — *Project*

@@ -4,7 +4,7 @@ title: neo4j
 description: 11 entrées taguées « neo4j »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
 Concept transversal reliant 11 entrées du profil.

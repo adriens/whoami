@@ -10,7 +10,7 @@ tags:
 - design-thinking
 - innovation
 - management
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
 Mots-clés : Management, Architecture logicielle, Data science, Innovation, Design Thinking, UX Strategy, Start with Why, Data Products, Systems Thinking

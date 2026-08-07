@@ -1,16 +1,17 @@
 ---
 type: Tag
 title: pedagogy
-description: 20 entrées taguées « pedagogy »
+description: 21 entrées taguées « pedagogy »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
-Concept transversal reliant 20 entrées du profil.
+Concept transversal reliant 21 entrées du profil.
 
 - [Admissible au CAPES externe de Mathématiques](../awards/admissible-au-capes-externe-de-mathematiques.md) — *Award*
 - [Mentor Pépite NC 2025 — équipe WAZA lauréate](../awards/mentor-pepite-nc-2025-equipe-waza-laureate.md) — *Award*
+- [Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)](../awards/speaker-geol-station-n-commissions-data-ia-cybersecurite.md) — *Award*
 - [BP connectée — Monitoring rack boîtes postales OPT-NC](../projects/bp-connectee-monitoring-rack-boites-postales-opt-nc.md) — *Project*
 - [Enseignement MIAGE UNC — Module Interopérabilité SI](../projects/enseignement-miage-unc-module-interoperabilite-si.md) — *Project*
 - [Mailbox Notifier — Boîte aux lettres connectée OPT-NC](../projects/mailbox-notifier-boite-aux-lettres-connectee-opt-nc.md) — *Project*

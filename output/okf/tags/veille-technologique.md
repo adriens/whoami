@@ -4,7 +4,7 @@ title: veille-technologique
 description: 3 entrées taguées « veille-technologique »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
 Concept transversal reliant 3 entrées du profil.

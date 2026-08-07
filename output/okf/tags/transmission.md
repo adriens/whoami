@@ -1,15 +1,16 @@
 ---
 type: Tag
 title: transmission
-description: 24 entrées taguées « transmission »
+description: 25 entrées taguées « transmission »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-07-13'
+timestamp: '2026-08-08'
 ---
 
-Concept transversal reliant 24 entrées du profil.
+Concept transversal reliant 25 entrées du profil.
 
 - [Mentor Pépite NC 2025 — équipe WAZA lauréate](../awards/mentor-pepite-nc-2025-equipe-waza-laureate.md) — *Award*
+- [Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)](../awards/speaker-geol-station-n-commissions-data-ia-cybersecurite.md) — *Award*
 - [Enseignement MIAGE UNC — Module Interopérabilité SI](../projects/enseignement-miage-unc-module-interoperabilite-si.md) — *Project*
 - [Programme stages & projets tutorés OPT-NC × UNC](../projects/programme-stages-projets-tutores-opt-nc-unc.md) — *Project*
 - [Clémentine Galin](../references/clementine-galin.md) — *Reference*
