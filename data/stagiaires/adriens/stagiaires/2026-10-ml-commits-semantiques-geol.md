@@ -1,6 +1,6 @@
 ---
 slug: 2026-10-ml-commits-semantiques-geol
-name: "Lucas"
+name: "Lucas Katjawan"
 school: "Université de Nouvelle-Calédonie"
 formation: "Licence Informatique"
 type: stage
@@ -10,9 +10,9 @@ date_cadrage: 2026-07-22
 date_debut: 2026-10
 date_soutenance: ""
 status: planned
-etudiants: ["Lucas"]
+etudiants: ["Lucas Katjawan"]
 origins:
-  "Lucas": "Nouméa"
+  "Lucas Katjawan": "Nouméa"
 subject: "ML/NLP — classification des messages de commits sémantiques sur le code source de geol"
 current_position: "Étudiant — Licence Informatique UNC"
 url_git: "https://github.com/opt-nc/geol"
@@ -21,7 +21,7 @@ url_article: ""
 tags: [ml, data-science, nlp, embeddings, python, huggingface, kaggle, open-source, open-data, devsecops, go, pedagogy, unc-partnership, opt-nc, nouvelle-caledonie]
 ---
 
-Stage à démarrer en octobre 2026. Cadrage présenté à Lucas lors de l'entrevue du **22 juillet 2026**, puis sujet rendu public devant la Licence Info UNC lors de la présentation de `geol` à la Station N le 6 août 2026 (commissions Data-IA et Cyber réunies) — l'auditoire comptait des étudiants et enseignants de la Licence Informatique de l'UNC.
+Stage à démarrer en octobre 2026. Cadrage présenté à Lucas Katjawan lors de l'entrevue du **22 juillet 2026**, puis sujet rendu public devant la Licence Info UNC lors de la présentation de `geol` à la Station N le 6 août 2026 (commissions Data-IA et Cyber réunies) — l'auditoire comptait des étudiants et enseignants de la Licence Informatique de l'UNC.
 
 ## Sujet
 
