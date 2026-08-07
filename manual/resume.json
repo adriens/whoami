@@ -246,6 +246,8 @@
         "ai-agents",
         "speaker",
         "knowledge-graph",
+        "devsecops",
+        "open-source",
         "pacifique",
         "nouvelle-caledonie"
       ],
@@ -255,7 +257,8 @@
       "highlights": [
         "Présentation de la cartographie du SI OPT-NC par knowledge graph Neo4j",
         "Démonstration de l'agent IA de cartographie du SI",
-        "Présentation des réalisations des étudiants Master MIAGE"
+        "Présentation des réalisations des étudiants Master MIAGE",
+        "Août 2026 — présentation de geol devant les commissions Data & IA et Cybersécurité réunies (RSSI, DSI, chefs de projets, développeurs, enseignants et étudiants Licence Info UNC) : 3 démos live, dont la mise en œuvre de l'outil sur un repo vierge avec CI en moins de 3 minutes, et un sujet de stage ML issu de l'auditoire"
       ]
     },
     {
@@ -377,6 +380,26 @@
     }
   ],
   "awards": [
+    {
+      "title": "Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)",
+      "date": "2026-08-06",
+      "awarder": "Station N — Commissions Data & IA / Cybersécurité",
+      "x-tags": [
+        "speaker",
+        "devrel",
+        "devsecops",
+        "open-source",
+        "go",
+        "frugal",
+        "pedagogy",
+        "transmission",
+        "mentor",
+        "data",
+        "pacifique",
+        "nouvelle-caledonie"
+      ],
+      "summary": "Présentation de geol devant les commissions Data & IA et Cybersécurité réunies de la Station N — première session croisant les deux commissions. Public mixte : RSSI, DSI, chefs de projets, développeurs, ainsi qu'enseignants et étudiants de la Licence Informatique UNC. Format court : présentation de l'outil puis trois démonstrations live enchaînées — scénario interactif Killercoda de la CLI (https://killercoda.com/opt-labs), image Docker, et mise en œuvre complète de geol sur un repo vierge avec CI en moins de 3 minutes. Le time-to-first-value sous 3 minutes comme argument d'adoption, démontré devant un public de décideurs sécurité. Événement cadré et tracé en open source de bout en bout (proposition, personas ciblés, collecte de feedbacks pour orienter la roadmap produit) : https://github.com/opt-nc/geol/issues/469. Retombée directe côté transmission : un futur stagiaire identifié dans l'auditoire Licence Info UNC, sur un sujet ML de classification des messages de commits sémantiques du code source de geol — le talk comme point d'entrée d'un pipeline recherche appliquée / stage."
+    },
     {
       "title": "Mentor Pépite NC 2025 — équipe WAZA lauréate",
       "date": "2025",
@@ -1964,7 +1987,10 @@
         "1 300+ downloads, 11 stars, v2.7.1 activement maintenue",
         "Hacktoberfest 2025 Maintainer Spotlight officiel",
         "Rapport HTML Quarto : score de dette technique, charts visuels et calendrier EOL — généré automatiquement, partageable directement à des décideurs",
-        "Approche marketing $0 — démos vidéo sur Mux/YouTube et articles dev.to uniquement, zéro budget pub"
+        "Approche marketing $0 — démos vidéo sur Mux/YouTube et articles dev.to uniquement, zéro budget pub",
+        "Août 2026 — présenté à la Station N devant les commissions Data & IA et Cybersécurité réunies (RSSI, DSI, chefs de projets, développeurs, enseignants et étudiants Licence Info UNC) : 3 démos live, dont l'onboarding d'un repo vierge avec CI en moins de 3 minutes ; feedbacks collectés pour orienter la roadmap produit (https://github.com/opt-nc/geol/issues/469)",
+        "Sujet de stage ML dérivé du projet : classification des messages de commits sémantiques sur le code source de geol — le repo comme terrain de recherche appliquée pour la Licence Info UNC",
+        "Onboarding sans friction : scénario interactif Killercoda, image Docker et intégration CI — trois portes d'entrée selon le persona (developer, devops, RSSI/sysadmin)"
       ],
       "url": "https://github.com/opt-nc/geol"
     },
@@ -2662,8 +2688,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.33.1",
-    "lastModified": "2026-07-13",
+    "version": "v1.34.0",
+    "lastModified": "2026-08-08",
     "theme": "elegant"
   }
 }
