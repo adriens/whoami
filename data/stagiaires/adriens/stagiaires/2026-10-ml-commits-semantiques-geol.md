@@ -54,4 +54,63 @@ Le repo sert de terrain de recherche appliquée : historique de commits suivant 
 - Document et vidéo dédiés à produire par Adrien avant le démarrage, pour inspirer le travail à venir
 - Lignée directe avec le stage de Thomas Quillet (2022) — dataviz & ML sur les tickets GitHub avec BERT ([2022-12-01-thomas-quillet](2022-12-01-thomas-quillet.md))
 
-Nom complet du stagiaire et dates précises à compléter au démarrage.
+## Corpus — état au 2026-08-08
+
+Mesure faite sur `opt-nc/geol` (branche par défaut) avant le démarrage du stage. Le repo étant actif, ces chiffres auront évolué en octobre — la commande de reproduction est donnée plus bas.
+
+| Catégorie | N | Statut |
+|---|---:|---|
+| Commits bruts | 877 | — |
+| Merges + « Auto-merge main back to dev » | 405 | Bruit d'automatisation — à exclure |
+| `chore(deps)` dependabot | 127 | Template généré — à exclure ou isoler |
+| Non-conventionnels humains | ~35 | Non étiquetés |
+| **Commits conventionnels humains** | **310** | **Corpus étiqueté exploitable** |
+
+Répartition des 310 commits étiquetés :
+
+| Type | N | Part |
+|---|---:|---:|
+| `fix` | 104 | 34 % |
+| `feat` | 97 | 31 % |
+| `doc` | 45 | 15 % |
+| `chore` | 45 | 15 % |
+| `ci` | 9 | 3 % |
+| `refactor` | 6 | 2 % |
+| `docs` / `site` | 4 | 1 % |
+
+### À cadrer avant la première expérimentation
+
+1. **Écarter ou isoler les 127 commits dependabot.** Tous de la forme `chore(deps): bump X from A to B` — classés à 100 % sans rien apprendre, ils gonflent artificiellement l'accuracy globale. Mesurer et publier l'écart avec/sans bots est un résultat en soi.
+2. **Quatre classes exploitables, pas six.** `fix`, `feat`, `doc` et `chore` ont 45 à 104 exemples. `ci` (9) et `refactor` (6) sont sous le seuil d'apprentissage : les fusionner dans `chore` ou les écarter en annonçant la limite. Normaliser `docs` → `doc` (variante orthographique) et statuer sur `site` (type hors convention).
+3. **Neutraliser la fuite de signal.** Les messages contiennent souvent le verbe en clair (`add`, `fix`, `enrich`). Masquer le préfixe **et** le verbe canonique, sinon la tâche est triviale et le benchmark ne mesure rien.
+
+### Volume et choix de méthode
+
+310 exemples, c'est peu pour un fine-tuning complet (sur-apprentissage probable) mais correct pour des embeddings pré-entraînés suivis d'un classifieur léger (kNN, régression logistique). Le benchmark TF-IDF vs embeddings vs fine-tuning a d'autant plus d'intérêt qu'à ce volume, l'approche la plus simple peut gagner.
+
+### Piste corpus multi-repos
+
+`whoami` (taxonomie encore plus stricte : `type(scope): verb entity`, verbes fermés), `domaine-nc`, `colis-nc` et les autres repos opt-nc partagent la convention. Un corpus agrégé dépasse largement le millier de commits humains étiquetés, et surtout permet un **test de généralisation mesurable dès le départ** — entraîner sur geol, tester sur un autre repo — au lieu de le réserver à la fin du stage.
+
+### Reproduire ces chiffres
+
+```sh
+git clone --filter=blob:none --no-checkout https://github.com/opt-nc/geol.git
+cd geol
+git rev-list --count HEAD                       # total brut
+git log --pretty=format:'%an|%s' | uv run python -c "
+import sys, re
+from collections import Counter
+bots, humans = Counter(), Counter()
+for l in sys.stdin:
+    an, _, s = l.strip().partition('|')
+    m = re.match(r'^([a-zA-Z]+)(\([^)]*\))?!?:', s)
+    if not m: continue
+    (bots if '[bot]' in an else humans)[m.group(1).lower()] += 1
+print('type      bot   humain')
+for t in sorted(set(bots) | set(humans), key=lambda x: -(bots[x] + humans[x])):
+    print(f'{t:10} {bots[t]:4d}   {humans[t]:4d}')
+"
+```
+
+Dates précises de début et de soutenance à compléter au démarrage.
