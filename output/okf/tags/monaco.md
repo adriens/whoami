@@ -4,7 +4,7 @@ title: monaco
 description: 1 entrées taguées « monaco »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-08'
+timestamp: '2026-08-10'
 ---
 
 Concept transversal reliant 1 entrées du profil.

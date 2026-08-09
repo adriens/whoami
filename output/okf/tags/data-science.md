@@ -4,7 +4,7 @@ title: data-science
 description: 3 entrées taguées « data-science »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-08'
+timestamp: '2026-08-10'
 ---
 
 Concept transversal reliant 3 entrées du profil.
