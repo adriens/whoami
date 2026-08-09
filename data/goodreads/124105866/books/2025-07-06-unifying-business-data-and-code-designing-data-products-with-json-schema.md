@@ -8,7 +8,15 @@ num_pages: '354'
 published_year: ''
 rating: '5'
 shelf: read
-tags: []
+tags:
+- json-schema
+- schema-org
+- interoperability
+- architecture
+- api-fication
+- data
+- knowledge-graph
+- data-products
 title: 'Unifying Business, Data, and Code: Designing Data Products with JSON Schema'
 url: https://www.goodreads.com/review/show/7220060755?utm_medium=api&utm_source=rss
 ---
