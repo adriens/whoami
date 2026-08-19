@@ -2354,17 +2354,19 @@
         "python",
         "scraping",
         "api-fication",
+        "open-data",
         "open-source",
         "pacifique",
         "nouvelle-caledonie",
         "saga"
       ],
       "startDate": "2023-05",
-      "description": "Package PyPI de scraping des données de cafés et restaurants en Nouvelle-Calédonie : prix, noms de plats, recettes et images. Pipeline complet de données avec GitHub Actions pour l'archivage live, dataset et notebooks Kaggle, agent chat HuggingFace et série dédiée sur Dev.to.",
+      "description": "Package PyPI de scraping des données de cafés et restaurants en Nouvelle-Calédonie : prix, noms de plats, recettes et images. Pipeline complet de données avec GitHub Actions pour l'archivage live, dataset et notebooks Kaggle, agent chat HuggingFace, landing page data-driven et série dédiée sur Dev.to.",
       "highlights": [
         "Package PyPI maintenu avec GitHub Action d'archivage des données en continu",
         "Dataset Kaggle + notebooks d'analyse explorée",
         "Agent HuggingFace Chat pour interroger les données en langage naturel",
+        "Landing page GitHub Pages générée depuis l'historique des menus (statistiques de diversité, navigation temporelle) — https://adriens.github.io/auptitcafe-landing/ — soumise au DEV.to Frontend Challenge (Comfort Food Edition)",
         "Série dédiée sur Dev.to : https://dev.to/adriens/series/23071"
       ],
       "url": "https://pypi.org/project/auptitcafe/"
@@ -2689,7 +2691,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.34.1",
+    "version": "v1.34.2",
     "lastModified": "2026-08-10",
     "theme": "elegant"
   }
