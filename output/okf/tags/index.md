@@ -21,9 +21,9 @@ timestamp: '2026-08-10'
 - [mentorat](mentorat.md) — 21 entrées
 - [pedagogy](pedagogy.md) — 21 entrées
 - [devrel](devrel.md) — 20 entrées
+- [open-data](open-data.md) — 19 entrées
 - [opt-nc](opt-nc.md) — 19 entrées
 - [ai-agents](ai-agents.md) — 18 entrées
-- [open-data](open-data.md) — 18 entrées
 - [devsecops](devsecops.md) — 17 entrées
 - [innovation](innovation.md) — 17 entrées
 - [pedagogie](pedagogie.md) — 15 entrées

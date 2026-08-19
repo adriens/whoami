@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: open-data
-description: 18 entrées taguées « open-data »
+description: 19 entrées taguées « open-data »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-08-10'
 ---
 
-Concept transversal reliant 18 entrées du profil.
+Concept transversal reliant 19 entrées du profil.
 
 - [Speaker — NODES 2023 (Conférence internationale Neo4j)](../awards/speaker-nodes-2023-conference-internationale-neo4j.md) — *Award*
 - [Speaker — Talanoa 2022 / Pacific DataViz Challenge (SPC)](../awards/speaker-talanoa-2022-pacific-dataviz-challenge-spc.md) — *Award*
@@ -16,6 +16,7 @@ Concept transversal reliant 18 entrées du profil.
 - [HELIA État Réseaux — SDK & cartographie des maintenances réseau OPT-NC](../projects/helia-etat-reseaux-sdk-cartographie-des-maintenances-reseau-opt-nc.md) — *Project*
 - [Open Data RH OPT-NC — Expérience candidat augmentée par l'IA](../projects/open-data-rh-opt-nc-experience-candidat-augmentee-par-l-ia.md) — *Project*
 - [Programme stages & projets tutorés OPT-NC × UNC](../projects/programme-stages-projets-tutores-opt-nc-unc.md) — *Project*
+- [auptitcafe — SDK scraping cafés & restaurants NC](../projects/auptitcafe-sdk-scraping-cafes-restaurants-nc.md) — *Project*
 - [edb-noumea — SDK qualité eaux de baignade](../projects/edb-noumea-sdk-qualite-eaux-de-baignade.md) — *Project*
 - [odata-ncl — Open Data Citoyenne Nouvelle-Calédonie](../projects/odata-ncl-open-data-citoyenne-nouvelle-caledonie.md) — *Project*
 - [ollama-models — Dataset stats téléchargements LLM](../projects/ollama-models-dataset-stats-telechargements-llm.md) — *Project*
