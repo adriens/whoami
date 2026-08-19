@@ -4,7 +4,7 @@ title: ai-agents
 description: 18 entrées taguées « ai-agents »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-10'
+timestamp: '2026-08-20'
 ---
 
 Concept transversal reliant 18 entrées du profil.

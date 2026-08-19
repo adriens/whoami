@@ -4,7 +4,7 @@ title: force-de-proposition
 description: 5 entrées taguées « force-de-proposition »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-10'
+timestamp: '2026-08-20'
 ---
 
 Concept transversal reliant 5 entrées du profil.
