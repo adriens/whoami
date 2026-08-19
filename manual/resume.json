@@ -1962,10 +1962,11 @@
       "startDate": "2019",
       "description": "Programme informel mais documenté d'encadrement de stagiaires et projets tutorés en partenariat avec l'Université de la Nouvelle-Calédonie (UNC). Chaque projet part d'un problème réel OPT-NC, expose un étudiant à des technologies modernes, et livre un artefact concret et publié — article Dev.to, vidéo YouTube, repo GitHub. Technologies couvertes : ML/IA, Flutter, Unity, Streamlit, Next.js, ELK Stack, IoT/LED matrix, Java/JavaFX, APIs REST conteneurisées.",
       "highlights": [
-        "14 projets encadrés (2019→2026) — 9 stages + 5 projets tutorés",
-        "18 étudiants distincts — majoritairement locaux (Nouméa), avec des étudiants de France métropolitaine en échange à l'UNC (Toulouse, Paris, Toulon)",
+        "15 projets encadrés (2019→2026) — 10 stages + 5 projets tutorés",
+        "19 étudiants distincts — majoritairement locaux (Nouméa), avec des étudiants de France métropolitaine en échange à l'UNC (Toulouse, Paris, Toulon)",
         "100% des projets livrés avec au moins un artefact public : article Dev.to, vidéo YouTube ou repo GitHub open source",
-        "Fil conducteur : un problème réel OPT-NC → open data ou API → livrable concret → publication — reproductible sur 6 ans"
+        "Fil conducteur : un problème réel OPT-NC → open data ou API → livrable concret → publication — reproductible sur 6 ans",
+        "Olivier Dinan (07/07→11/08/2026) : structuration interopérable du référentiel des métiers OPT-NC — DuckDB/SQLite, SchemaCrawler, site Hugo, CI/CD semantic-release (https://youtu.be/yeuByq3sgdM)"
       ],
       "url": "https://github.com/opt-nc/odata-stages-projets-tutores-unc"
     },
@@ -2125,12 +2126,17 @@
         "open-data",
         "team-lead",
         "pacifique",
-        "nouvelle-caledonie"
+        "nouvelle-caledonie",
+        "duckdb",
+        "schemacrawler",
+        "interoperability",
+        "mentorat"
       ],
       "startDate": "2024-01",
       "description": "Programme open data autour des données RH de l'OPT-NC : référentiel des métiers, offres d'emploi, AVPS (avis de vacances de poste) et organigramme publiés en open data pour créer une expérience candidat unique. Datasets Hugging Face, agents IA et MCPs pour rendre ces données exploitables par Claude et d'autres LLMs.",
       "highlights": [
         "Référentiel des métiers OPT-NC : dataset HuggingFace + application Gradio",
+        "Référentiel des métiers OPT-NC restructuré en interopérable (stage Olivier Dinan, 07/07→11/08/2026) : DuckDB/SQLite, documentation SchemaCrawler, export PDF, site Hugo publié sur GitHub Pages, CI/CD semantic-release — https://opt-nc.github.io/odata-referentiel-metiers/",
         "AVPS (avis de vacances de poste) : dataset HuggingFace + agent IA de matching compétences/poste",
         "Objectif : expérience candidat d'excellence — trouver, comprendre et candidater à un poste en quelques minutes via IA"
       ],
@@ -2691,8 +2697,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.34.2",
-    "lastModified": "2026-08-10",
+    "version": "v1.34.3",
+    "lastModified": "2026-08-20",
     "theme": "elegant"
   }
 }
