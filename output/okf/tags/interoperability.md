@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: interoperability
-description: 23 entrées taguées « interoperability »
+description: 24 entrées taguées « interoperability »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-10'
+timestamp: '2026-08-20'
 ---
 
-Concept transversal reliant 23 entrées du profil.
+Concept transversal reliant 24 entrées du profil.
 
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
 - [API domaine.nc — Création de l'interopérabilité des noms de domaine .NC](../projects/api-domaine-nc-creation-de-l-interoperabilite-des-noms-de-domaine-nc.md) — *Project*
@@ -18,6 +18,7 @@ Concept transversal reliant 23 entrées du profil.
 - [HELIA État Réseaux — SDK & cartographie des maintenances réseau OPT-NC](../projects/helia-etat-reseaux-sdk-cartographie-des-maintenances-reseau-opt-nc.md) — *Project*
 - [Helia Monitor — Stack monitoring consommation mobile OPT-NC](../projects/helia-monitor-stack-monitoring-consommation-mobile-opt-nc.md) — *Project*
 - [OPT-NC Fiber Eligibility — Scraper Go + API REST + Swagger](../projects/opt-nc-fiber-eligibility-scraper-go-api-rest-swagger.md) — *Project*
+- [Open Data RH OPT-NC — Expérience candidat augmentée par l'IA](../projects/open-data-rh-opt-nc-experience-candidat-augmentee-par-l-ia.md) — *Project*
 - [mobitag — CLI Go pour l'envoi de SMS](../projects/mobitag-cli-go-pour-l-envoi-de-sms.md) — *Project*
 - [resume-to-pokemon — CV en données × PokéAPI × embeddings](../projects/resume-to-pokemon-cv-en-donnees-pokeapi-embeddings.md) — *Project*
 - [rfc4180-validator — Validateur CSV strict pour CI/CD](../projects/rfc4180-validator-validateur-csv-strict-pour-ci-cd.md) — *Project*

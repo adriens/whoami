@@ -4,7 +4,7 @@ title: Tags
 description: Graphe de concepts (x-tags)
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-10'
+timestamp: '2026-08-20'
 ---
 
 122 concepts transversaux (graphe de connaissances).
@@ -14,11 +14,11 @@ timestamp: '2026-08-10'
 - [data](data.md) — 37 entrées
 - [pacifique](pacifique.md) — 37 entrées
 - [transmission](transmission.md) — 25 entrées
+- [interoperability](interoperability.md) — 24 entrées
 - [international](international.md) — 23 entrées
-- [interoperability](interoperability.md) — 23 entrées
 - [api-fication](api-fication.md) — 22 entrées
+- [mentorat](mentorat.md) — 22 entrées
 - [civic-tech](civic-tech.md) — 21 entrées
-- [mentorat](mentorat.md) — 21 entrées
 - [pedagogy](pedagogy.md) — 21 entrées
 - [devrel](devrel.md) — 20 entrées
 - [open-data](open-data.md) — 19 entrées
@@ -44,13 +44,13 @@ timestamp: '2026-08-10'
 - [management](management.md) — 9 entrées
 - [curiosite](curiosite.md) — 8 entrées
 - [disponibilite](disponibilite.md) — 8 entrées
+- [duckdb](duckdb.md) — 8 entrées
 - [frugal](frugal.md) — 8 entrées
 - [iot](iot.md) — 8 entrées
 - [leadership](leadership.md) — 8 entrées
 - [saga](saga.md) — 8 entrées
 - [scraping](scraping.md) — 8 entrées
 - [technical-excellence](technical-excellence.md) — 8 entrées
-- [duckdb](duckdb.md) — 7 entrées
 - [maintainer](maintainer.md) — 7 entrées
 - [mentor](mentor.md) — 7 entrées
 - [peer-recognition](peer-recognition.md) — 7 entrées
@@ -66,6 +66,7 @@ timestamp: '2026-08-10'
 - [cross-company](cross-company.md) — 5 entrées
 - [force-de-proposition](force-de-proposition.md) — 5 entrées
 - [lean](lean.md) — 5 entrées
+- [schemacrawler](schemacrawler.md) — 5 entrées
 - [team-culture](team-culture.md) — 5 entrées
 - [architecture-logicielle](architecture-logicielle.md) — 4 entrées
 - [dynamism](dynamism.md) — 4 entrées
@@ -73,7 +74,6 @@ timestamp: '2026-08-10'
 - [packaging](packaging.md) — 4 entrées
 - [pleasure-to-work-with](pleasure-to-work-with.md) — 4 entrées
 - [projet-tutore](projet-tutore.md) — 4 entrées
-- [schemacrawler](schemacrawler.md) — 4 entrées
 - [api-design](api-design.md) — 3 entrées
 - [community-contribution](community-contribution.md) — 3 entrées
 - [continuous-improvement](continuous-improvement.md) — 3 entrées

@@ -4,7 +4,7 @@ title: open-data
 description: 19 entrées taguées « open-data »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-10'
+timestamp: '2026-08-20'
 ---
 
 Concept transversal reliant 19 entrées du profil.

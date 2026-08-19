@@ -4,7 +4,7 @@ title: Profile
 description: Index de la section profile
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-10'
+timestamp: '2026-08-20'
 ---
 
 1 entrées.

@@ -7,7 +7,7 @@ resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.js
 tags:
 - duckdb
 - schemacrawler
-timestamp: '2026-08-10'
+timestamp: '2026-08-20'
 ---
 
 **Niveau : Avancé**

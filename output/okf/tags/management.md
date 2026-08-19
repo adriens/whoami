@@ -4,7 +4,7 @@ title: management
 description: 9 entrées taguées « management »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-10'
+timestamp: '2026-08-20'
 ---
 
 Concept transversal reliant 9 entrées du profil.

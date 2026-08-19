@@ -15,14 +15,19 @@ tags:
 - team-lead
 - pacifique
 - nouvelle-caledonie
+- duckdb
+- schemacrawler
+- interoperability
+- mentorat
 timestamp: 2024-01
 ---
 
 Programme open data autour des données RH de l'OPT-NC : référentiel des métiers, offres d'emploi, AVPS (avis de vacances de poste) et organigramme publiés en open data pour créer une expérience candidat unique. Datasets Hugging Face, agents IA et MCPs pour rendre ces données exploitables par Claude et d'autres LLMs.
 - Référentiel des métiers OPT-NC : dataset HuggingFace + application Gradio
+- Référentiel des métiers OPT-NC restructuré en interopérable (stage Olivier Dinan, 07/07→11/08/2026) : DuckDB/SQLite, documentation SchemaCrawler, export PDF, site Hugo publié sur GitHub Pages, CI/CD semantic-release — https://opt-nc.github.io/odata-referentiel-metiers/
 - AVPS (avis de vacances de poste) : dataset HuggingFace + agent IA de matching compétences/poste
 - Objectif : expérience candidat d'excellence — trouver, comprendre et candidater à un poste en quelques minutes via IA
 
 *Type : professional*
 
-**Tags :** [ai-agents](../tags/ai-agents.md), [civic-tech](../tags/civic-tech.md), [data](../tags/data.md), [huggingface](../tags/huggingface.md), [mcp](../tags/mcp.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-data](../tags/open-data.md), [pacifique](../tags/pacifique.md), [team-lead](../tags/team-lead.md)
+**Tags :** [ai-agents](../tags/ai-agents.md), [civic-tech](../tags/civic-tech.md), [data](../tags/data.md), [duckdb](../tags/duckdb.md), [huggingface](../tags/huggingface.md), [interoperability](../tags/interoperability.md), [mcp](../tags/mcp.md), [mentorat](../tags/mentorat.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-data](../tags/open-data.md), [pacifique](../tags/pacifique.md), [schemacrawler](../tags/schemacrawler.md), [team-lead](../tags/team-lead.md)

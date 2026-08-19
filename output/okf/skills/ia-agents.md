@@ -5,7 +5,7 @@ description: Avancé — MCP (Model Context Protocol), Hugging Face, Gradio, Age
   RAG, Embeddings (BAAI/bge-m3), Cross-encoder reranking (…
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-10'
+timestamp: '2026-08-20'
 ---
 
 **Niveau : Avancé**

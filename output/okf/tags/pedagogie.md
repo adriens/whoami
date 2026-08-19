@@ -4,7 +4,7 @@ title: pedagogie
 description: 15 entrées taguées « pedagogie »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-10'
+timestamp: '2026-08-20'
 ---
 
 Concept transversal reliant 15 entrées du profil.

@@ -4,7 +4,7 @@ title: packaging
 description: 4 entrées taguées « packaging »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-10'
+timestamp: '2026-08-20'
 ---
 
 Concept transversal reliant 4 entrées du profil.
