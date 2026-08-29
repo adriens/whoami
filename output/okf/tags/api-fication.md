@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: api-fication
-description: 22 entrées taguées « api-fication »
+description: 23 entrées taguées « api-fication »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-08-20'
 ---
 
-Concept transversal reliant 22 entrées du profil.
+Concept transversal reliant 23 entrées du profil.
 
 - [API domaine.nc — Création de l'interopérabilité des noms de domaine .NC](../projects/api-domaine-nc-creation-de-l-interoperabilite-des-noms-de-domaine-nc.md) — *Project*
 - [API-fication calédonienne — SDKs Java & APIs REST](../projects/api-fication-caledonienne-sdks-java-apis-rest.md) — *Project*
@@ -17,6 +17,7 @@ Concept transversal reliant 22 entrées du profil.
 - [HELIA État Réseaux — SDK & cartographie des maintenances réseau OPT-NC](../projects/helia-etat-reseaux-sdk-cartographie-des-maintenances-reseau-opt-nc.md) — *Project*
 - [Helia Monitor — Stack monitoring consommation mobile OPT-NC](../projects/helia-monitor-stack-monitoring-consommation-mobile-opt-nc.md) — *Project*
 - [OPT-NC Fiber Eligibility — Scraper Go + API REST + Swagger](../projects/opt-nc-fiber-eligibility-scraper-go-api-rest-swagger.md) — *Project*
+- [Open Data RH OPT-NC — Expérience candidat augmentée par l'IA](../projects/open-data-rh-opt-nc-experience-candidat-augmentee-par-l-ia.md) — *Project*
 - [Post-Office Wait Time LED Matrix — Affichage temps d'attente IoT OPT-NC](../projects/post-office-wait-time-led-matrix-affichage-temps-d-attente-iot-opt-nc.md) — *Project*
 - [Programme stages & projets tutorés OPT-NC × UNC](../projects/programme-stages-projets-tutores-opt-nc-unc.md) — *Project*
 - [aquavena — SDK Python scraping menus & tarifs Aquavena NC](../projects/aquavena-sdk-python-scraping-menus-tarifs-aquavena-nc.md) — *Project*

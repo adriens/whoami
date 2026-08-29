@@ -13,6 +13,7 @@ tags:
 - devrel
 - pacifique
 - nouvelle-caledonie
+- saga
 timestamp: 2025-01
 ---
 
@@ -23,4 +24,4 @@ Model Context Protocol exposant les offres d'emploi de l'OPT-NC depuis Hugging F
 
 *Type : professional*
 
-**Tags :** [ai-agents](../tags/ai-agents.md), [devrel](../tags/devrel.md), [huggingface](../tags/huggingface.md), [mcp](../tags/mcp.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md)
+**Tags :** [ai-agents](../tags/ai-agents.md), [devrel](../tags/devrel.md), [huggingface](../tags/huggingface.md), [mcp](../tags/mcp.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md), [saga](../tags/saga.md)

@@ -15,12 +15,12 @@ timestamp: '2026-08-20'
 - [pacifique](pacifique.md) — 37 entrées
 - [transmission](transmission.md) — 25 entrées
 - [interoperability](interoperability.md) — 24 entrées
+- [api-fication](api-fication.md) — 23 entrées
 - [international](international.md) — 23 entrées
-- [api-fication](api-fication.md) — 22 entrées
 - [mentorat](mentorat.md) — 22 entrées
 - [civic-tech](civic-tech.md) — 21 entrées
+- [devrel](devrel.md) — 21 entrées
 - [pedagogy](pedagogy.md) — 21 entrées
-- [devrel](devrel.md) — 20 entrées
 - [open-data](open-data.md) — 19 entrées
 - [opt-nc](opt-nc.md) — 19 entrées
 - [ai-agents](ai-agents.md) — 18 entrées
@@ -36,6 +36,7 @@ timestamp: '2026-08-20'
 - [speaker](speaker.md) — 11 entrées
 - [lasting-impact](lasting-impact.md) — 10 entrées
 - [python](python.md) — 10 entrées
+- [saga](saga.md) — 10 entrées
 - [student-recommendation](student-recommendation.md) — 10 entrées
 - [tech-enthusiasm](tech-enthusiasm.md) — 10 entrées
 - [technical-expertise](technical-expertise.md) — 10 entrées
@@ -48,7 +49,6 @@ timestamp: '2026-08-20'
 - [frugal](frugal.md) — 8 entrées
 - [iot](iot.md) — 8 entrées
 - [leadership](leadership.md) — 8 entrées
-- [saga](saga.md) — 8 entrées
 - [scraping](scraping.md) — 8 entrées
 - [technical-excellence](technical-excellence.md) — 8 entrées
 - [maintainer](maintainer.md) — 7 entrées
