@@ -23,6 +23,7 @@ tags:
 - mcp
 - civic-tech
 - saga
+- hackathon
 timestamp: 2025-06
 ---
 
@@ -40,4 +41,4 @@ Stack personnelle de monitoring de l'offre mobile Helia (OPT-NC) : APK reverse-e
 
 *Type : open-source*
 
-**Tags :** [ai-agents](../tags/ai-agents.md), [api-fication](../tags/api-fication.md), [civic-tech](../tags/civic-tech.md), [devrel](../tags/devrel.md), [duckdb](../tags/duckdb.md), [frugal](../tags/frugal.md), [go](../tags/go.md), [huggingface](../tags/huggingface.md), [interoperability](../tags/interoperability.md), [iot](../tags/iot.md), [mcp](../tags/mcp.md), [mobile](../tags/mobile.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [opt-nc](../tags/opt-nc.md), [pacifique](../tags/pacifique.md), [python](../tags/python.md), [saga](../tags/saga.md)
+**Tags :** [ai-agents](../tags/ai-agents.md), [api-fication](../tags/api-fication.md), [civic-tech](../tags/civic-tech.md), [devrel](../tags/devrel.md), [duckdb](../tags/duckdb.md), [frugal](../tags/frugal.md), [go](../tags/go.md), [hackathon](../tags/hackathon.md), [huggingface](../tags/huggingface.md), [interoperability](../tags/interoperability.md), [iot](../tags/iot.md), [mcp](../tags/mcp.md), [mobile](../tags/mobile.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [opt-nc](../tags/opt-nc.md), [pacifique](../tags/pacifique.md), [python](../tags/python.md), [saga](../tags/saga.md)

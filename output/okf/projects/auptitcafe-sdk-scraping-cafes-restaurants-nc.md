@@ -15,6 +15,7 @@ tags:
 - pacifique
 - nouvelle-caledonie
 - saga
+- hackathon
 timestamp: 2023-05
 ---
 
@@ -27,4 +28,4 @@ Package PyPI de scraping des données de cafés et restaurants en Nouvelle-Calé
 
 *Type : open-source*
 
-**Tags :** [api-fication](../tags/api-fication.md), [civic-tech](../tags/civic-tech.md), [data](../tags/data.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-data](../tags/open-data.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md), [python](../tags/python.md), [saga](../tags/saga.md), [scraping](../tags/scraping.md)
+**Tags :** [api-fication](../tags/api-fication.md), [civic-tech](../tags/civic-tech.md), [data](../tags/data.md), [hackathon](../tags/hackathon.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-data](../tags/open-data.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md), [python](../tags/python.md), [saga](../tags/saga.md), [scraping](../tags/scraping.md)

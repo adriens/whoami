@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-08-30'
 ---
 
-122 concepts transversaux (graphe de connaissances).
+123 concepts transversaux (graphe de connaissances).
 
 - [open-source](open-source.md) — 44 entrées
 - [nouvelle-caledonie](nouvelle-caledonie.md) — 41 entrées
@@ -65,6 +65,7 @@ timestamp: '2026-08-30'
 - [communication](communication.md) — 5 entrées
 - [cross-company](cross-company.md) — 5 entrées
 - [force-de-proposition](force-de-proposition.md) — 5 entrées
+- [hackathon](hackathon.md) — 5 entrées
 - [lean](lean.md) — 5 entrées
 - [schemacrawler](schemacrawler.md) — 5 entrées
 - [team-culture](team-culture.md) — 5 entrées

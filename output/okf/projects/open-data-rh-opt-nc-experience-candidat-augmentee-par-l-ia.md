@@ -22,6 +22,7 @@ tags:
 - mentorat
 - devrel
 - saga
+- hackathon
 timestamp: 2024-01
 ---
 
@@ -35,4 +36,4 @@ Programme open data autour des données RH de l'OPT-NC : référentiel des méti
 
 *Type : professional*
 
-**Tags :** [ai-agents](../tags/ai-agents.md), [api-fication](../tags/api-fication.md), [civic-tech](../tags/civic-tech.md), [data](../tags/data.md), [devrel](../tags/devrel.md), [duckdb](../tags/duckdb.md), [huggingface](../tags/huggingface.md), [interoperability](../tags/interoperability.md), [mcp](../tags/mcp.md), [mentorat](../tags/mentorat.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-data](../tags/open-data.md), [pacifique](../tags/pacifique.md), [saga](../tags/saga.md), [schemacrawler](../tags/schemacrawler.md), [team-lead](../tags/team-lead.md)
+**Tags :** [ai-agents](../tags/ai-agents.md), [api-fication](../tags/api-fication.md), [civic-tech](../tags/civic-tech.md), [data](../tags/data.md), [devrel](../tags/devrel.md), [duckdb](../tags/duckdb.md), [hackathon](../tags/hackathon.md), [huggingface](../tags/huggingface.md), [interoperability](../tags/interoperability.md), [mcp](../tags/mcp.md), [mentorat](../tags/mentorat.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-data](../tags/open-data.md), [pacifique](../tags/pacifique.md), [saga](../tags/saga.md), [schemacrawler](../tags/schemacrawler.md), [team-lead](../tags/team-lead.md)

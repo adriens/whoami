@@ -17,6 +17,7 @@ tags:
 - devrel
 - pacifique
 - nouvelle-caledonie
+- hackathon
 timestamp: 2026-07
 ---
 
@@ -28,4 +29,4 @@ Prototype d'automatisation autour du CV-en-données : mettre en interopérabilit
 
 *Type : open-source*
 
-**Tags :** [ai-agents](../tags/ai-agents.md), [api-fication](../tags/api-fication.md), [data](../tags/data.md), [devrel](../tags/devrel.md), [embeddings](../tags/embeddings.md), [frugal](../tags/frugal.md), [huggingface](../tags/huggingface.md), [interoperability](../tags/interoperability.md), [mcp](../tags/mcp.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md)
+**Tags :** [ai-agents](../tags/ai-agents.md), [api-fication](../tags/api-fication.md), [data](../tags/data.md), [devrel](../tags/devrel.md), [embeddings](../tags/embeddings.md), [frugal](../tags/frugal.md), [hackathon](../tags/hackathon.md), [huggingface](../tags/huggingface.md), [interoperability](../tags/interoperability.md), [mcp](../tags/mcp.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md)

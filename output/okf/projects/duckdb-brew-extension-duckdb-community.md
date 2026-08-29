@@ -13,6 +13,7 @@ tags:
 - international
 - packaging
 - saga
+- hackathon
 timestamp: 2026-02
 ---
 
@@ -24,4 +25,4 @@ Extension officielle DuckDB Community permettant de requêter les packages Homeb
 
 *Type : open-source*
 
-**Tags :** [data](../tags/data.md), [duckdb](../tags/duckdb.md), [international](../tags/international.md), [maintainer](../tags/maintainer.md), [open-source](../tags/open-source.md), [packaging](../tags/packaging.md), [saga](../tags/saga.md)
+**Tags :** [data](../tags/data.md), [duckdb](../tags/duckdb.md), [hackathon](../tags/hackathon.md), [international](../tags/international.md), [maintainer](../tags/maintainer.md), [open-source](../tags/open-source.md), [packaging](../tags/packaging.md), [saga](../tags/saga.md)
