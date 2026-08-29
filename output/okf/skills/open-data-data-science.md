@@ -8,7 +8,7 @@ tags:
 - duckdb
 - open-data
 - python
-timestamp: '2026-08-20'
+timestamp: '2026-08-30'
 ---
 
 **Niveau : Avancé**

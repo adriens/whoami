@@ -4,7 +4,7 @@ title: client-relationship
 description: 5 entrées taguées « client-relationship »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-20'
+timestamp: '2026-08-30'
 ---
 
 Concept transversal reliant 5 entrées du profil.

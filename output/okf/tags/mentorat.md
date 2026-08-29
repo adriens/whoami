@@ -4,7 +4,7 @@ title: mentorat
 description: 22 entrées taguées « mentorat »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-20'
+timestamp: '2026-08-30'
 ---
 
 Concept transversal reliant 22 entrées du profil.

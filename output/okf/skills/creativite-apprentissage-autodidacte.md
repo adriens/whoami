@@ -5,7 +5,7 @@ description: Expert — Imagination, Connexion de domaines éloignés, Pensée t
   Pensée systémique (feedback loops, complexité),…
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-20'
+timestamp: '2026-08-30'
 ---
 
 **Niveau : Expert**

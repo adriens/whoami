@@ -4,7 +4,7 @@ title: saga
 description: 10 entrées taguées « saga »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-20'
+timestamp: '2026-08-30'
 ---
 
 Concept transversal reliant 10 entrées du profil.

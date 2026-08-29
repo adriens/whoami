@@ -12,6 +12,7 @@ tags:
 - mentor
 - open-source
 - open-data
+- civic-tech
 - pacifique
 - nouvelle-caledonie
 timestamp: 2025-03
@@ -27,5 +28,6 @@ Enseignement exercé entièrement sur temps personnel, le soir après le travail
 - Approche Why-first systématique (Sinek) — partir du problème métier avant d'aborder la solution technique
 - Renouvelé par l'IAE-UNC pour une 2ème session (août → décembre 2026) — reconduction qui valide l'impact de la 1ère promotion (2 placements en institution publique calédonienne)
 - Projet fil rouge PRIX.NC : équipes en compétition mais interdépendantes sur des données réelles, feedback hebdomadaire versionné sur GitHub — dispositif confirmé par 3 témoignages étudiants indépendants (Dévi Bergès, Clémentine Galin, Raimanu Pain) comme moteur de la collaboration cross-équipes et de la communication
+- Pitch #HackAVP au module (2ème session, août→décembre 2026) : les étudiants de la promotion concourent au hackathon en tant qu'équipes candidates — le module s'articule directement sur un cas réel d'ouverture de données publiques (OPT-NC/Station N/OPEN NC)
 
-**Tags :** [interoperability](../tags/interoperability.md), [mentor](../tags/mentor.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-data](../tags/open-data.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md), [pedagogy](../tags/pedagogy.md)
+**Tags :** [civic-tech](../tags/civic-tech.md), [interoperability](../tags/interoperability.md), [mentor](../tags/mentor.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-data](../tags/open-data.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md), [pedagogy](../tags/pedagogy.md)

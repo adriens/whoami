@@ -4,7 +4,7 @@ title: spring
 description: 2 entrées taguées « spring »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-20'
+timestamp: '2026-08-30'
 ---
 
 Concept transversal reliant 2 entrées du profil.

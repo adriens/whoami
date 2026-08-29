@@ -7,7 +7,7 @@ resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.js
 tags:
 - knowledge-graph
 - neo4j
-timestamp: '2026-08-20'
+timestamp: '2026-08-30'
 ---
 
 **Niveau : Expert**

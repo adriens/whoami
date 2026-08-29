@@ -4,7 +4,7 @@ title: design-thinking
 description: 3 entrées taguées « design-thinking »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-20'
+timestamp: '2026-08-30'
 ---
 
 Concept transversal reliant 3 entrées du profil.

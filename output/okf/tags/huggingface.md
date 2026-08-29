@@ -4,7 +4,7 @@ title: huggingface
 description: 6 entrées taguées « huggingface »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-20'
+timestamp: '2026-08-30'
 ---
 
 Concept transversal reliant 6 entrées du profil.
