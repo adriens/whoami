@@ -270,6 +270,7 @@
         "mentor",
         "open-source",
         "open-data",
+        "civic-tech",
         "pacifique",
         "nouvelle-caledonie"
       ],
@@ -285,7 +286,8 @@
         "Suivi de la promotion et des feedbacks entièrement gérés en données via un repo GitHub dédié",
         "Approche Why-first systématique (Sinek) — partir du problème métier avant d'aborder la solution technique",
         "Renouvelé par l'IAE-UNC pour une 2ème session (août → décembre 2026) — reconduction qui valide l'impact de la 1ère promotion (2 placements en institution publique calédonienne)",
-        "Projet fil rouge PRIX.NC : équipes en compétition mais interdépendantes sur des données réelles, feedback hebdomadaire versionné sur GitHub — dispositif confirmé par 3 témoignages étudiants indépendants (Dévi Bergès, Clémentine Galin, Raimanu Pain) comme moteur de la collaboration cross-équipes et de la communication"
+        "Projet fil rouge PRIX.NC : équipes en compétition mais interdépendantes sur des données réelles, feedback hebdomadaire versionné sur GitHub — dispositif confirmé par 3 témoignages étudiants indépendants (Dévi Bergès, Clémentine Galin, Raimanu Pain) comme moteur de la collaboration cross-équipes et de la communication",
+        "Pitch #HackAVP au module (2ème session, août→décembre 2026) : les étudiants de la promotion concourent au hackathon en tant qu'équipes candidates — le module s'articule directement sur un cas réel d'ouverture de données publiques (OPT-NC/Station N/OPEN NC)"
       ]
     },
     {
@@ -2142,7 +2144,8 @@
         "Référentiel des métiers OPT-NC restructuré en interopérable (stage Olivier Dinan, 07/07→11/08/2026) : DuckDB/SQLite, documentation SchemaCrawler, export PDF, site Hugo publié sur GitHub Pages, CI/CD semantic-release — https://opt-nc.github.io/odata-referentiel-metiers/",
         "AVPS (avis de vacances de poste) : dataset HuggingFace + agent IA de matching compétences/poste, désormais normalisées schema.org/JobPosting et exposées par API + serveur MCP",
         "Objectif : expérience candidat d'excellence — trouver, comprendre et candidater à un poste en quelques minutes via IA",
-        "#HackAVP : premier hackathon calédonien dédié à l'emploi dans la fonction publique, co-organisé avec la Station N et la commission Data & IA du cluster OPEN NC — lancement 09/09/2026, finale le 04/11/2026 à TECH'N CO — https://dev.to/adriens/hackavp-premier-hackathon-dedie-a-lemploi-dans-la-fonction-publique-en-ncl-3oj0"
+        "#HackAVP : premier hackathon calédonien dédié à l'emploi dans la fonction publique, co-organisé avec la Station N et la commission Data & IA du cluster OPEN NC — lancement 09/09/2026, finale le 04/11/2026 à TECH'N CO — https://dev.to/adriens/hackavp-premier-hackathon-dedie-a-lemploi-dans-la-fonction-publique-en-ncl-3oj0",
+        "Jury #HackAVP constitué (29/08/2026) — pilotage du recrutement et de la composition du jury du hackathon"
       ],
       "url": "https://huggingface.co/opt-nc"
     },
@@ -2702,8 +2705,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.34.4",
-    "lastModified": "2026-08-20",
+    "version": "v1.34.5",
+    "lastModified": "2026-08-30",
     "theme": "elegant"
   }
 }
