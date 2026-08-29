@@ -1,5 +1,6 @@
 id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_challenge
-4283721,😋 I used historical restaurant menus to build a nice landing page,https://dev.to/adriens/i-used-historical-restaurant-menus-to-build-a-nice-landing-page-1hfl,2026-08-16T07:26:49Z,"devchallenge,frontendchallenge,webdev,javascript",2,2,1,True
+4400434,"🏆 #HackAVP, premier hackathon dédié à l'emploi dans la fonction publique en NCL",https://dev.to/adriens/hackavp-premier-hackathon-dedie-a-lemploi-dans-la-fonction-publique-en-ncl-3oj0,2026-08-26T22:49:06Z,"hackathon,career,opensource,ai",1,7,15,False
+4283721,😋 I used historical restaurant menus to build a nice landing page,https://dev.to/adriens/i-used-historical-restaurant-menus-to-build-a-nice-landing-page-1hfl,2026-08-16T07:26:49Z,"devchallenge,frontendchallenge,webdev,javascript",3,2,1,True
 4124120,"🤗 Find the Pokemon you are w. PokéAPI, your resume & embeddings",https://dev.to/adriens/find-the-pokemon-you-are-w-pokeapi-your-resume-embeddings-3bb5,2026-07-12T08:00:47Z,"devchallenge,weekendchallenge,machinelearning,api",5,2,3,True
 3735712,📊 I (finally) built the demo of my duckdb brew extension,https://dev.to/adriens/i-finally-built-the-demo-of-my-duckdb-brew-extension-c6o,2026-05-29T08:07:18Z,"devchallenge,githubchallenge,datascience,security",1,1,2,True
 3658489,🧞‍♂️Transform unstructured PDFs Job Offers into a dataset w. gemma4:2b,https://dev.to/adriens/transform-unstructured-pdfs-job-offers-into-a-dataset-w-gemma42b-4ggb,2026-05-17T22:47:08Z,"devchallenge,gemmachallenge,gemma,dataengineering",9,4,4,True
@@ -7,7 +8,7 @@ id,title,url,published_at,tags,reactions,comments,reading_time_minutes,is_dev_ch
 3293201,🦈 Analyzing Open Data shark attacks with gemini-cli and Quarto 📊,https://dev.to/adriens/analyzing-open-data-shark-attacks-with-gemini-cli-and-quarto-3pe8,2026-02-28T06:55:37Z,"devchallenge,geminireflections,gemini,datascience",8,30,3,True
 3232987,🦆Built a duckdb community extension for brew,https://dev.to/adriens/built-a-duckdb-community-extension-for-brew-4k6f,2026-02-14T03:55:40Z,"devchallenge,githubchallenge,cli,githubcopilot",8,5,3,True
 3083050,⏳ Managing EOLs w. geol: the impossible 1' Mux demo,https://dev.to/adriens/managing-eols-w-geol-the-impossible-1-mux-demo-cnl,2026-01-02T21:53:35Z,"devchallenge,muxchallenge,showandtell,video",4,4,3,True
-2951766,"⏳geol, the cli to efficiently manage EOLs like a boss",https://dev.to/adriens/geol-the-cli-to-efficiently-manage-eols-like-a-boss-3hne,2025-10-29T20:39:59Z,"devchallenge,hacktoberfest,opensource,devops",3,31,3,True
+2951766,"⏳geol, the cli to efficiently manage EOLs like a boss",https://dev.to/adriens/geol-the-cli-to-efficiently-manage-eols-like-a-boss-3hne,2025-10-29T20:39:59Z,"devchallenge,hacktoberfest,opensource,devops",3,32,3,True
 2823283,"🛡️ Data quality, SQL, duckdb and http_client on CI🦆",https://dev.to/adriens/data-quality-sql-duckdb-and-httpclient-on-ci-22,2025-09-08T04:02:44Z,"devops,ci,database,productivity",2,4,2,False
 2419332,🎬 2025 UNC MIAGE démo finale,https://dev.to/adriens/2025-unc-miage-demo-finale-508g,2025-05-18T20:57:50Z,"datascience,learning,machinelearning,python",1,27,3,False
 2385057,🥳 We built the cli of our dreams to send sms ❣️,https://dev.to/optnc/we-built-the-cli-of-our-dreams-to-send-sms-3c7m,2025-04-14T21:48:18Z,"showdev,go,cli,learning",1,12,2,False
