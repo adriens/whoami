@@ -2019,7 +2019,8 @@
         "devrel",
         "mcp",
         "civic-tech",
-        "saga"
+        "saga",
+        "hackathon"
       ],
       "startDate": "2025-06",
       "description": "Stack personnelle de monitoring de l'offre mobile Helia (OPT-NC) : APK reverse-engineered pour extraire les appels HTTP privés, Go CLI qui snapshote voice/data/SMS dans DuckDB toutes les 5 minutes, widgets KDE Plasma Python/PyQt live. Hermes Agent génère un rapport PDF 17 pages multi-parties prenantes (CEO/CIO/Admin réseau) via LaTeX pour $19.57 vs une semaine de travail manuel. Inscrit au DEV Challenge (Dev.to). Repo : https://github.com/adriens/helia",
@@ -2080,7 +2081,8 @@
         "maintainer",
         "international",
         "packaging",
-        "saga"
+        "saga",
+        "hackathon"
       ],
       "startDate": "2026-02",
       "description": "Extension officielle DuckDB Community permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge avec vibe coding + CI/CD. Listée sur duckdb.org. Demo Quarto publiée en 2026 : notebook PDF avec Graph Data Science et charts de sécurité.",
@@ -2136,7 +2138,8 @@
         "interoperability",
         "mentorat",
         "devrel",
-        "saga"
+        "saga",
+        "hackathon"
       ],
       "startDate": "2024-01",
       "description": "Programme open data autour des données RH de l'OPT-NC : référentiel des métiers, offres d'emploi, AVPS (avis de vacances de poste) et organigramme publiés en open data pour créer une expérience candidat unique. Datasets Hugging Face, agents IA et MCPs pour rendre ces données exploitables par Claude et d'autres LLMs.",
@@ -2373,7 +2376,8 @@
         "open-source",
         "pacifique",
         "nouvelle-caledonie",
-        "saga"
+        "saga",
+        "hackathon"
       ],
       "startDate": "2023-05",
       "description": "Package PyPI de scraping des données de cafés et restaurants en Nouvelle-Calédonie : prix, noms de plats, recettes et images. Pipeline complet de données avec GitHub Actions pour l'archivage live, dataset et notebooks Kaggle, agent chat HuggingFace, landing page data-driven et série dédiée sur Dev.to.",
@@ -2655,7 +2659,8 @@
         "open-source",
         "devrel",
         "pacifique",
-        "nouvelle-caledonie"
+        "nouvelle-caledonie",
+        "hackathon"
       ],
       "startDate": "2026-07",
       "description": "Prototype d'automatisation autour du CV-en-données : mettre en interopérabilité le resume.json (JSON Resume, livré en continu sur registry.jsonresume.org/adriens) avec la PokéAPI v2 pour découvrir « quel Pokémon on est » et pourquoi. 100% open source, on-premise, sans GPU (Core i5, 8 Gio). Réalisé pour le DEV.to Weekend Challenge (Passion edition, juillet 2026) — l'innovation frugale qui relie art, data et fun.",
@@ -2706,7 +2711,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.34.6",
+    "version": "v1.34.7",
     "lastModified": "2026-08-30",
     "theme": "elegant"
   }
