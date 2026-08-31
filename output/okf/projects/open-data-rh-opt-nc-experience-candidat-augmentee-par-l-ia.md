@@ -33,6 +33,7 @@ Programme open data autour des données RH de l'OPT-NC : référentiel des méti
 - Objectif : expérience candidat d'excellence — trouver, comprendre et candidater à un poste en quelques minutes via IA
 - #HackAVP : premier hackathon calédonien dédié à l'emploi dans la fonction publique, co-organisé avec la Station N et la commission Data & IA du cluster OPEN NC — lancement 09/09/2026, finale le 04/11/2026 à TECH'N CO — https://dev.to/adriens/hackavp-premier-hackathon-dedie-a-lemploi-dans-la-fonction-publique-en-ncl-3oj0
 - Jury #HackAVP constitué (29/08/2026) — pilotage du recrutement et de la composition du jury du hackathon
+- Vidéo teaser #HackAVP (31/08/2026) : démonstration des ressources open data mises à disposition des candidats — API et MCP des AVPs, dataset HuggingFace, site web, flux RSS, API et open data des métiers — https://youtu.be/jHE-4l2Gwbk
 
 *Type : professional*
 
