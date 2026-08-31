@@ -288,7 +288,8 @@
         "Renouvelé par l'IAE-UNC pour une 2ème session (août → décembre 2026) — reconduction qui valide l'impact de la 1ère promotion (2 placements en institution publique calédonienne)",
         "Projet fil rouge PRIX.NC : équipes en compétition mais interdépendantes sur des données réelles, feedback hebdomadaire versionné sur GitHub — dispositif confirmé par 3 témoignages étudiants indépendants (Dévi Bergès, Clémentine Galin, Raimanu Pain) comme moteur de la collaboration cross-équipes et de la communication",
         "Renouvellement délibéré du terrain pédagogique d'une session sur l'autre — préparation en amont d'un jeu de données open data réel différent à chaque fois : PRIX.NC (1ère promotion, 2025) → données AVP OPT-NC / #HackAVP (2ème promotion, 2026)",
-        "Pitch #HackAVP au module (2ème session, août→décembre 2026) : les étudiants de la promotion concourent au hackathon en tant qu'équipes candidates — le module s'articule directement sur un cas réel d'ouverture de données publiques (OPT-NC/Station N/OPEN NC)"
+        "Pitch #HackAVP au module (2ème session, août→décembre 2026) : les étudiants de la promotion concourent au hackathon en tant qu'équipes candidates — le module s'articule directement sur un cas réel d'ouverture de données publiques (OPT-NC/Station N/OPEN NC)",
+        "Projection de la vidéo teaser #HackAVP (31/08/2026) en cours le soir même — démonstration des ressources open data (API, MCP, dataset HuggingFace) directement au groupe d'étudiants concourant au hackathon"
       ]
     },
     {
@@ -2712,7 +2713,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.34.8",
+    "version": "v1.34.9",
     "lastModified": "2026-08-30",
     "theme": "elegant"
   }
