@@ -1,6 +1,6 @@
 ---
 author: Évelyne Grossman
-average_rating: '3.11'
+average_rating: '3.20'
 date_read: '2021-09-19'
 id: '54250559'
 isbn: '2707346136'

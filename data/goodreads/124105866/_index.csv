@@ -10,9 +10,9 @@ id,title,author,url,isbn,rating,average_rating,num_pages,date_read,published_yea
 40725353,The Artist's Journey: The Wake of the Hero's Journey and the Lifelong Pursuit of Meaning,Steven Pressfield,https://www.goodreads.com/review/show/5209455670?utm_medium=api&utm_source=rss,1936891565,5,4.12,194,2026-02-16,2018,read
 44135420,Team Topologies: Organizing Business and Technology Teams for Fast Flow,Matthew    Skelton,https://www.goodreads.com/review/show/7938821673?utm_medium=api&utm_source=rss,1942788827,5,4.14,240,2026-02-16,2019,read
 421728,The Power of Mindful Learning,Ellen J. Langer,https://www.goodreads.com/review/show/7443617478?utm_medium=api&utm_source=rss,0201339919,5,3.76,192,2025-06-21,1997,read
-214637385,"Dots and Lines: Hidden Networks in Social Media, AI, and Nature",Anthony Bonato,https://www.goodreads.com/review/show/7689949542?utm_medium=api&utm_source=rss,1421451263,5,4.07,288,2025-09-23,,read
+214637385,"Dots and Lines: Hidden Networks in Social Media, AI, and Nature",Anthony Bonato,https://www.goodreads.com/review/show/7689949542?utm_medium=api&utm_source=rss,1421451263,5,4.04,288,2025-09-23,,read
 46223297,Permanent Record,Edward Snowden,https://www.goodreads.com/review/show/6998135542?utm_medium=api&utm_source=rss,1250237238,5,4.29,339,2025-01-13,2019,read
-59456366,The Geek Way: The Radical Mindset that Drives Extraordinary Results,Andrew McAfee,https://www.goodreads.com/review/show/6705395592?utm_medium=api&utm_source=rss,0316436704,5,3.80,336,2024-11-10,,read
+59456366,The Geek Way: The Radical Mindset that Drives Extraordinary Results,Andrew McAfee,https://www.goodreads.com/review/show/6705395592?utm_medium=api&utm_source=rss,0316436704,5,3.79,336,2024-11-10,,read
 83518,The Singularity is Near: When Humans Transcend Biology,Ray Kurzweil,https://www.goodreads.com/review/show/6391407254?utm_medium=api&utm_source=rss,0143037889,5,3.92,652,2024-07-21,2005,read
 59858988,Metadata Matters,John Horodyski,https://www.goodreads.com/review/show/6217627171?utm_medium=api&utm_source=rss,1000597393,0,3.86,154,2024-04-01,,read
 22299976,"The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life",Dave Asprey,https://www.goodreads.com/review/show/6186752762?utm_medium=api&utm_source=rss,162336518X,3,3.67,320,2024-01-29,2014,read
@@ -24,7 +24,7 @@ id,title,author,url,isbn,rating,average_rating,num_pages,date_read,published_yea
 57254246,La règle? pas de règles: Netflix et la culture de la réinvention,Reed Hastings,https://www.goodreads.com/review/show/4246620799?utm_medium=api&utm_source=rss,,5,4.12,405,2021-11-17,2020,read
 57635541,Que le meilleur gagne ! (French Edition),André Comte-Sponville,https://www.goodreads.com/review/show/4255498717?utm_medium=api&utm_source=rss,2221255747,4,3.81,87,2021-09-25,,read
 54018081,"APPRENDRE COMME EINSTEIN: Secrets et techniques pour apprendre quoi que ce soit, développer la créativité et découvrir le Génie en vous (Stratégies du Génie t. 1) (French Edition)",Robert Mercier,https://www.goodreads.com/review/show/4245610068?utm_medium=api&utm_source=rss,,3,3.71,90,2021-09-19,,read
-54250559,La Créativité de la crise (Paradoxe) (French Edition),Évelyne Grossman,https://www.goodreads.com/review/show/4230707147?utm_medium=api&utm_source=rss,2707346136,5,3.11,128,2021-09-19,,read
+54250559,La Créativité de la crise (Paradoxe) (French Edition),Évelyne Grossman,https://www.goodreads.com/review/show/4230707147?utm_medium=api&utm_source=rss,2707346136,5,3.20,128,2021-09-19,,read
 58379432,Les chimpanzés et le télétravail,Pascal Picq,https://www.goodreads.com/review/show/4202632323?utm_medium=api&utm_source=rss,2416003895,5,5.00,252,2021-09-07,,read
 32192509,Les vertus de l'échec,Charles Pépin,https://www.goodreads.com/review/show/3824765094?utm_medium=api&utm_source=rss,2370730137,5,3.95,157,2021-08-22,,read
 36203937,"La fabrique de la dépression: Observer, comprendre, agir (Hors Collection) (French Edition)",Xavier Briffault,https://www.goodreads.com/review/show/4000057589?utm_medium=api&utm_source=rss,2200256140,5,4.50,327,2021-06-06,2010,read
@@ -43,5 +43,5 @@ id,title,author,url,isbn,rating,average_rating,num_pages,date_read,published_yea
 43985260,Ethique du samouraï moderne: Petit manuel de combat pour temps de désarroi (French Edition),Patrice Franceschi,https://www.goodreads.com/review/show/3631121102?utm_medium=api&utm_source=rss,,5,4.00,183,2020-06-04,,read
 37867963,Trouver son Ikigai (French Edition),Christie Vanbremeersch,https://www.goodreads.com/review/show/3631119302?utm_medium=api&utm_source=rss,2412036411,3,3.16,192,2020-07-04,,read
 25204011,Open innovation : Développez une culture ouverte et collaborative pour mieux innover (Stratégies et management) (French Edition),Martin Duval,https://www.goodreads.com/review/show/3629447845?utm_medium=api&utm_source=rss,,5,4.00,225,2020-04-05,2014,read
-35654633,Liberté & cie,Isaac Getz,https://www.goodreads.com/review/show/3629443080?utm_medium=api&utm_source=rss,2081379511,5,4.25,483,2020-04-05,2012,read
+35654633,Liberté & cie,Isaac Getz,https://www.goodreads.com/review/show/3629443080?utm_medium=api&utm_source=rss,2081379511,5,4.24,483,2020-04-05,2012,read
 8038126,"Employees First, Customers Second: Turning Conventional Management Upside Down",Vineet Nayar,https://www.goodreads.com/review/show/3629439434?utm_medium=api&utm_source=rss,1422139069,5,3.82,208,2020-11-05,2010,read

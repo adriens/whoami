@@ -6,7 +6,7 @@ language: Python
 topics: [opendata, pandas, pandas-dataframe, water-quality]
 stars: 0
 created_at: 2025-09-06
-updated_at: 2026-05-17
+updated_at: 2026-08-28
 archived: false
 has_readme: true
 ---
