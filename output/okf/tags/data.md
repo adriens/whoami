@@ -4,7 +4,7 @@ title: data
 description: 37 entrées taguées « data »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-30'
+timestamp: '2026-09-02'
 ---
 
 Concept transversal reliant 37 entrées du profil.

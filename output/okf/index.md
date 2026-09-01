@@ -9,7 +9,7 @@ description: Architecte et urbaniste des SI au croisement des maths (DEA INRIA S
   levier.
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-30'
+timestamp: '2026-09-02'
 ---
 
 Bundle Open Knowledge Format v0.1 — profil de Adrien Sales.

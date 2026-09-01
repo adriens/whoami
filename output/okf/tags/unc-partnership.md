@@ -4,7 +4,7 @@ title: unc-partnership
 description: 12 entrées taguées « unc-partnership »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-30'
+timestamp: '2026-09-02'
 ---
 
 Concept transversal reliant 12 entrées du profil.

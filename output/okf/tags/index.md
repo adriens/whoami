@@ -4,7 +4,7 @@ title: Tags
 description: Graphe de concepts (x-tags)
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-30'
+timestamp: '2026-09-02'
 ---
 
 123 concepts transversaux (graphe de connaissances).

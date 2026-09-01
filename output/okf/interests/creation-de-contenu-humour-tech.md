@@ -5,7 +5,7 @@ description: Détournements vidéo, Films VO russe/allemand sous-titrés frança
   tech, Storytelling technique
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-30'
+timestamp: '2026-09-02'
 ---
 
 Mots-clés : Détournements vidéo, Films VO russe/allemand sous-titrés français, Mèmes tech, Storytelling technique

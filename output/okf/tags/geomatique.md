@@ -4,7 +4,7 @@ title: geomatique
 description: 2 entrées taguées « geomatique »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-30'
+timestamp: '2026-09-02'
 ---
 
 Concept transversal reliant 2 entrées du profil.

@@ -4,7 +4,7 @@ title: mobile
 description: 4 entrées taguées « mobile »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-30'
+timestamp: '2026-09-02'
 ---
 
 Concept transversal reliant 4 entrées du profil.

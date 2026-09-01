@@ -8,7 +8,7 @@ tags:
 - design-thinking
 - lean
 - scrum
-timestamp: '2026-08-30'
+timestamp: '2026-09-02'
 ---
 
 **Niveau : Expert**

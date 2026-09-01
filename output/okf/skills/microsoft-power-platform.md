@@ -5,7 +5,7 @@ description: Intermédiaire — Power BI, Power Automate, Microsoft Flow, Custom
   APIGEE, No-code automation, Data storytelling
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-08-30'
+timestamp: '2026-09-02'
 ---
 
 **Niveau : Intermédiaire**
