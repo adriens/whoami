@@ -1,6 +1,6 @@
 ---
 author: Isaac Getz
-average_rating: '4.25'
+average_rating: '4.24'
 date_read: '2020-04-05'
 id: '35654633'
 isbn: '2081379511'
