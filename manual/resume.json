@@ -1009,7 +1009,8 @@
         "Idéation en mouvement",
         "Apprendre → construire → démontrer → enseigner",
         "Curiosité naturelle",
-        "Observation du réel"
+        "Observation du réel",
+        "Flow & performance cognitive (S. Kotler)"
       ]
     }
   ],
@@ -1118,7 +1119,8 @@
         "UX Strategy",
         "Start with Why",
         "Data Products",
-        "Systems Thinking"
+        "Systems Thinking",
+        "Peak Performance"
       ],
       "x-context": "pro"
     }
@@ -2715,7 +2717,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.34.11",
+    "version": "v1.34.12",
     "lastModified": "2026-09-02",
     "theme": "elegant"
   }
