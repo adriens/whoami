@@ -728,7 +728,8 @@
         "schema.org — attachement de données à des schémas existants avant exposition",
         "Catalogue d'APIs publiques (APIGEE)",
         "Démultiplication communautaire (apps mobiles, bots, AR, MCPs, dashboards)",
-        "Pattern validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa"
+        "Pattern validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa",
+        "Schema-first data design (R. Itelman, Designing Data Products with JSON Schema)"
       ]
     },
     {
@@ -789,7 +790,8 @@
         "picocli",
         "Cobra (Go)",
         "BubbleTea",
-        "Flutter"
+        "Flutter",
+        "Distributed systems design (M. Kleppmann, Designing Data-Intensive Applications)"
       ]
     },
     {
@@ -2719,7 +2721,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.34.13",
+    "version": "v1.34.14",
     "lastModified": "2026-09-02",
     "theme": "elegant"
   }
