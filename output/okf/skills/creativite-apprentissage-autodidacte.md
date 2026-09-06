@@ -10,4 +10,4 @@ timestamp: '2026-09-02'
 
 **Niveau : Expert**
 
-Mots-clés : Imagination, Connexion de domaines éloignés, Pensée transdisciplinaire, Pensée systémique (feedback loops, complexité), Expérimentation, MIT Media Lab mindset, Rendre l'invisible visible, Détection d'inefficacités, Idéation en mouvement, Apprendre → construire → démontrer → enseigner, Curiosité naturelle, Observation du réel
+Mots-clés : Imagination, Connexion de domaines éloignés, Pensée transdisciplinaire, Pensée systémique (feedback loops, complexité), Expérimentation, MIT Media Lab mindset, Rendre l'invisible visible, Détection d'inefficacités, Idéation en mouvement, Apprendre → construire → démontrer → enseigner, Curiosité naturelle, Observation du réel, Flow & performance cognitive (S. Kotler)

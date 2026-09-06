@@ -2,7 +2,7 @@
 type: Interest
 title: Lecture
 description: Management, Architecture logicielle, Data science, Innovation, Design
-  Thinking, UX Strategy, Start with Why, Data Products, Systems Thinking
+  Thinking, UX Strategy, Start with Why, Data Products, Systems Thinking, Peak Performance
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags:
 - architecture-logicielle
@@ -13,7 +13,7 @@ tags:
 timestamp: '2026-09-02'
 ---
 
-Mots-clés : Management, Architecture logicielle, Data science, Innovation, Design Thinking, UX Strategy, Start with Why, Data Products, Systems Thinking
+Mots-clés : Management, Architecture logicielle, Data science, Innovation, Design Thinking, UX Strategy, Start with Why, Data Products, Systems Thinking, Peak Performance
 
 *Contexte : pro*
 
