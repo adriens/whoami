@@ -939,7 +939,8 @@
         "Pilotage de prestataires (BI, cloud, intégration SI)",
         "Management full-remote async (GitHub issues uniquement)",
         "Serious games et rétrospectives créatives",
-        "Transition & onboarding entrant"
+        "Transition & onboarding entrant",
+        "Facilitation UX & conduite de l'innovation (Visonneau) — outil de pitch et d'alignement d'équipe"
       ]
     },
     {
@@ -958,7 +959,8 @@
         "Why-first (Sinek)",
         "Construction du raisonnement plutôt que dictée de la solution",
         "Conception de stages sur mesure (datascience → APIs → mobile, art génératif, IoT)",
-        "Mentorat à distance full-remote (GitHub issues comme seul canal)"
+        "Mentorat à distance full-remote (GitHub issues comme seul canal)",
+        "Facilitation UX (Visonneau)"
       ]
     },
     {
@@ -2717,7 +2719,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.34.12",
+    "version": "v1.34.13",
     "lastModified": "2026-09-02",
     "theme": "elegant"
   }
