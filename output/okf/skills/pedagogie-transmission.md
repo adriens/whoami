@@ -11,6 +11,6 @@ timestamp: '2026-09-02'
 
 **Niveau : Expert**
 
-Mots-clés : Enseignement universitaire (Master MIAGE), Pédagogie Montessori, Mindful Learning (Ellen Langer), Learning by doing, Mentorat de stagiaires, Tuteur industriel (projets tutorés UNC), Pédagogie par projets réels open source / open data, Knowledge sharing, Vulgarisation technique, Why-first (Sinek), Construction du raisonnement plutôt que dictée de la solution, Conception de stages sur mesure (datascience → APIs → mobile, art génératif, IoT), Mentorat à distance full-remote (GitHub issues comme seul canal)
+Mots-clés : Enseignement universitaire (Master MIAGE), Pédagogie Montessori, Mindful Learning (Ellen Langer), Learning by doing, Mentorat de stagiaires, Tuteur industriel (projets tutorés UNC), Pédagogie par projets réels open source / open data, Knowledge sharing, Vulgarisation technique, Why-first (Sinek), Construction du raisonnement plutôt que dictée de la solution, Conception de stages sur mesure (datascience → APIs → mobile, art génératif, IoT), Mentorat à distance full-remote (GitHub issues comme seul canal), Facilitation UX (Visonneau)
 
 **Tags :** [knowledge-sharing](../tags/knowledge-sharing.md)
