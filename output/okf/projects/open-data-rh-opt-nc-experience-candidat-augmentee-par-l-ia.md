@@ -35,6 +35,7 @@ Programme open data autour des données RH de l'OPT-NC : référentiel des méti
 - Jury #HackAVP constitué (29/08/2026) — pilotage du recrutement et de la composition du jury du hackathon
 - Vidéo teaser #HackAVP (31/08/2026) : démonstration des ressources open data mises à disposition des candidats — API et MCP des AVPs, dataset HuggingFace, site web, flux RSS, API et open data des métiers — https://youtu.be/jHE-4l2Gwbk
 - Vidéo « Who am I pipeline - Recevoir une recommendation » (01/09/2026) : ressource candidat #HackAVP illustrant l'industrialisation du CV — transformation en direct d'une recommandation LinkedIn reçue en données versionnées du resume.json via Claude — https://youtu.be/pi3kmAfxIGw
+- Vidéo « HackAVP - Le slideshow des AVPs et la candidate experience sur TV et mobile » (07/09/2026, J-2 du lancement) : site des AVPs généré avec Hugo exploité en diaporama plein écran pour la valorisation des offres d'emploi sur écran de télévision/projection, avec transfert de l'expérience candidat vers mobile via QR code — https://youtu.be/dZHvKJ1OTRs
 
 *Type : professional*
 
