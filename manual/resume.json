@@ -2147,7 +2147,8 @@
         "mentorat",
         "devrel",
         "saga",
-        "hackathon"
+        "hackathon",
+        "product"
       ],
       "startDate": "2024-01",
       "description": "Programme open data autour des données RH de l'OPT-NC : référentiel des métiers, offres d'emploi, AVPS (avis de vacances de poste) et organigramme publiés en open data pour créer une expérience candidat unique. Datasets Hugging Face, agents IA et MCPs pour rendre ces données exploitables par Claude et d'autres LLMs.",
@@ -2722,7 +2723,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.34.15",
+    "version": "v1.34.16",
     "lastModified": "2026-09-02",
     "theme": "elegant"
   }
