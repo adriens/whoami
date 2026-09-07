@@ -102,6 +102,7 @@ timestamp: '2026-09-02'
 - [kibana](kibana.md) — 2 entrées
 - [multi-technology](multi-technology.md) — 2 entrées
 - [networking](networking.md) — 2 entrées
+- [product](product.md) — 2 entrées
 - [responsiveness](responsiveness.md) — 2 entrées
 - [services-web](services-web.md) — 2 entrées
 - [spring](spring.md) — 2 entrées
@@ -128,7 +129,6 @@ timestamp: '2026-09-02'
 - [polyvalence](polyvalence.md) — 1 entrées
 - [power-platform](power-platform.md) — 1 entrées
 - [premiere-experience-pro](premiere-experience-pro.md) — 1 entrées
-- [product](product.md) — 1 entrées
 - [sig](sig.md) — 1 entrées
 - [team-fit](team-fit.md) — 1 entrées
 - [umbrella](umbrella.md) — 1 entrées
