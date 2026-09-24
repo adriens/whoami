@@ -24,6 +24,7 @@ tags:
 - saga
 - hackathon
 - product
+- pedagogy
 timestamp: 2024-01
 ---
 
@@ -38,7 +39,8 @@ Programme open data autour des données RH de l'OPT-NC : référentiel des méti
 - Vidéo « Who am I pipeline - Recevoir une recommendation » (01/09/2026) : ressource candidat #HackAVP illustrant l'industrialisation du CV — transformation en direct d'une recommandation LinkedIn reçue en données versionnées du resume.json via Claude — https://youtu.be/pi3kmAfxIGw
 - Vidéo « HackAVP - Le slideshow des AVPs et la candidate experience sur TV et mobile » (07/09/2026, J-2 du lancement) : site des AVPs généré avec Hugo exploité en diaporama plein écran pour la valorisation des offres d'emploi sur écran de télévision/projection, avec transfert de l'expérience candidat vers mobile via QR code — https://youtu.be/dZHvKJ1OTRs
 - Article + démo #HackAVP « Trouver un poste sans rien coder avec le feed RSS » (11/09/2026) : soumission personnelle sur la track SaaS, en conditions réelles — veille automatisée sur le flux RSS des AVPs via Claude CoWork (filtrage hebdomadaire par compétences/appétences), ayant permis de détecter une offre de CDO alignée avec son propre profil, avec génération assistée du CV, de la lettre de motivation et du document de préparation à l'entretien — https://dev.to/adriens/pendant-un-hackathon-data-je-trouve-une-opportunite-de-cdo-dans-ma-propre-entreprise-4bp9
+- Vidéo tutoriel #HackAVP « Je soumets ma réalisation » (22/09/2026) : pédagogie candidat — parcours de soumission filmé de bout en bout (prérequis article Dev.to public, remplissage du formulaire), en s'appuyant sur sa propre soumission CDO comme exemple concret — https://youtu.be/3QG_BndMt6o
 
 *Type : professional*
 
-**Tags :** [ai-agents](../tags/ai-agents.md), [api-fication](../tags/api-fication.md), [civic-tech](../tags/civic-tech.md), [data](../tags/data.md), [devrel](../tags/devrel.md), [duckdb](../tags/duckdb.md), [hackathon](../tags/hackathon.md), [huggingface](../tags/huggingface.md), [interoperability](../tags/interoperability.md), [mcp](../tags/mcp.md), [mentorat](../tags/mentorat.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-data](../tags/open-data.md), [pacifique](../tags/pacifique.md), [product](../tags/product.md), [saga](../tags/saga.md), [schemacrawler](../tags/schemacrawler.md), [team-lead](../tags/team-lead.md)
+**Tags :** [ai-agents](../tags/ai-agents.md), [api-fication](../tags/api-fication.md), [civic-tech](../tags/civic-tech.md), [data](../tags/data.md), [devrel](../tags/devrel.md), [duckdb](../tags/duckdb.md), [hackathon](../tags/hackathon.md), [huggingface](../tags/huggingface.md), [interoperability](../tags/interoperability.md), [mcp](../tags/mcp.md), [mentorat](../tags/mentorat.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-data](../tags/open-data.md), [pacifique](../tags/pacifique.md), [pedagogy](../tags/pedagogy.md), [product](../tags/product.md), [saga](../tags/saga.md), [schemacrawler](../tags/schemacrawler.md), [team-lead](../tags/team-lead.md)

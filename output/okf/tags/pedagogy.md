@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: pedagogy
-description: 21 entrées taguées « pedagogy »
+description: 22 entrées taguées « pedagogy »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-09-02'
 ---
 
-Concept transversal reliant 21 entrées du profil.
+Concept transversal reliant 22 entrées du profil.
 
 - [Admissible au CAPES externe de Mathématiques](../awards/admissible-au-capes-externe-de-mathematiques.md) — *Award*
 - [Mentor Pépite NC 2025 — équipe WAZA lauréate](../awards/mentor-pepite-nc-2025-equipe-waza-laureate.md) — *Award*
@@ -15,6 +15,7 @@ Concept transversal reliant 21 entrées du profil.
 - [BP connectée — Monitoring rack boîtes postales OPT-NC](../projects/bp-connectee-monitoring-rack-boites-postales-opt-nc.md) — *Project*
 - [Enseignement MIAGE UNC — Module Interopérabilité SI](../projects/enseignement-miage-unc-module-interoperabilite-si.md) — *Project*
 - [Mailbox Notifier — Boîte aux lettres connectée OPT-NC](../projects/mailbox-notifier-boite-aux-lettres-connectee-opt-nc.md) — *Project*
+- [Open Data RH OPT-NC — Expérience candidat augmentée par l'IA](../projects/open-data-rh-opt-nc-experience-candidat-augmentee-par-l-ia.md) — *Project*
 - [Programme stages & projets tutorés OPT-NC × UNC](../projects/programme-stages-projets-tutores-opt-nc-unc.md) — *Project*
 - [MIT Media Lab, créativité & jeux — LinkedIn Pulse](../publications/mit-media-lab-creativite-jeux-linkedin-pulse.md) — *Publication*
 - [Clémentine Galin](../references/clementine-galin.md) — *Reference*

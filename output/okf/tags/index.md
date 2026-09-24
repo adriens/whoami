@@ -19,8 +19,8 @@ timestamp: '2026-09-02'
 - [international](international.md) — 23 entrées
 - [civic-tech](civic-tech.md) — 22 entrées
 - [mentorat](mentorat.md) — 22 entrées
+- [pedagogy](pedagogy.md) — 22 entrées
 - [devrel](devrel.md) — 21 entrées
-- [pedagogy](pedagogy.md) — 21 entrées
 - [open-data](open-data.md) — 19 entrées
 - [opt-nc](opt-nc.md) — 19 entrées
 - [ai-agents](ai-agents.md) — 18 entrées
