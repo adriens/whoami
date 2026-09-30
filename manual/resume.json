@@ -927,6 +927,7 @@
         "5S",
         "Management visuel",
         "Management libéré",
+        "Intelligence collective au centre du processus — faire progresser l'équipe collectivement (Lean & Learn, J. Chaize)",
         "Running Lean",
         "Innovation frugale",
         "Open Innovation",
@@ -963,7 +964,7 @@
         "Conception de stages sur mesure (datascience → APIs → mobile, art génératif, IoT)",
         "Mentorat à distance full-remote (GitHub issues comme seul canal)",
         "Facilitation UX (Visonneau)",
-        "Apprenance — l'apprentissage au centre (Lean & Learn, J. Chaize)"
+        "Apprenance & intelligence collective — l'apprentissage et le groupe au centre (Lean & Learn, J. Chaize)"
       ]
     },
     {
@@ -2728,7 +2729,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.34.19",
+    "version": "v1.34.20",
     "lastModified": "2026-09-02",
     "theme": "elegant"
   }
