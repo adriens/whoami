@@ -962,7 +962,8 @@
         "Construction du raisonnement plutôt que dictée de la solution",
         "Conception de stages sur mesure (datascience → APIs → mobile, art génératif, IoT)",
         "Mentorat à distance full-remote (GitHub issues comme seul canal)",
-        "Facilitation UX (Visonneau)"
+        "Facilitation UX (Visonneau)",
+        "Apprenance — l'apprentissage au centre (Lean & Learn, J. Chaize)"
       ]
     },
     {
@@ -1124,7 +1125,8 @@
         "Start with Why",
         "Data Products",
         "Systems Thinking",
-        "Peak Performance"
+        "Peak Performance",
+        "Lean & Apprenance"
       ],
       "x-context": "pro"
     }
@@ -2726,7 +2728,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.34.18",
+    "version": "v1.34.19",
     "lastModified": "2026-09-02",
     "theme": "elegant"
   }
