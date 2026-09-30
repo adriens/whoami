@@ -636,7 +636,9 @@ tags: [design-thinking, innovation, creativity, human-centric, ...]
 
 Tags = thèmes du livre mappés à la taxonomie canonique `x-tags`.
 
-Le champ `tags` est **créé vide (`tags: []`) pour chaque livre** au fetch et **préservé d'un fetch à l'autre** (`scripts/fetch-goodreads.py` relit les tags existants avant de réécrire le fichier). C'est le seul enrichissement manuel qui survit au refetch — le corps (review) et le reste du frontmatter sont toujours réécrits depuis Goodreads.
+Le champ `tags` est **créé vide (`tags: []`) pour chaque livre** au fetch et **préservé d'un fetch à l'autre** (`scripts/fetch-goodreads.py` relit les tags existants avant de réécrire le fichier). Le reste du frontmatter est toujours réécrit depuis Goodreads.
+
+**Corps (review)** : le RSS Goodreads met parfois plusieurs heures à exposer une review fraîchement écrite (`user_review` vide → le fetch retomberait sur `book_description`). Dans ce cas, coller la review fournie par Adrien à la main dans le corps du `.md` : le fetch la **préserve** tant que le RSS ne renvoie pas de review (corps existant ≠ description), puis la remplace par la version Goodreads dès qu'elle est exposée.
 
 ### 4. Valider et commiter
 
