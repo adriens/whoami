@@ -4,9 +4,9 @@ url: https://github.com/adriens/duckdb-brew
 description: "duckdb extension to report installed brew packages/casks/formulas with SQL"
 language: C++
 topics: [brew, community, duckdb, extension, homebrew, sql, csv, dataengineering, datascience, parquet, reporting]
-stars: 1
+stars: 2
 created_at: 2026-01-25
-updated_at: 2026-05-31
+updated_at: 2026-09-09
 archived: false
 has_readme: true
 ---
