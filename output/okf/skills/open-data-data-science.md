@@ -13,7 +13,7 @@ timestamp: '2026-10-09'
 
 **Niveau : Avancé**
 
-Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création et publication de datasets open data (Kaggle, Hugging Face), Hackathons, uv, poetry, PyPI, PyPI maintainer, Détection d'anomalies (XGBoost, k-means — PRIX.NC)
+Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création et publication de datasets open data (Kaggle, Hugging Face), Hackathons, uv, poetry, PyPI, PyPI maintainer, Détection d'anomalies (XGBoost, k-means — PRIX.NC), Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face)
 
 **Compétences ESCO :**
 - [Python (programmation informatique)](../esco/python-programmation-informatique.md) — *knowledge*

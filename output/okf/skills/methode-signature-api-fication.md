@@ -11,7 +11,7 @@ timestamp: '2026-10-09'
 
 **Niveau : Expert**
 
-Mots-clés : API-fication, Validée 3x en recommandations LinkedIn par des pairs indépendants, Identification de manques d'interopérabilité, Scraping de sources sans API, Exploitation open data, Packaging SDK (Java, Python, Go), Exposition API REST + OpenAPI/Swagger, schema.org — attachement de données à des schémas existants avant exposition, Catalogue d'APIs publiques (APIGEE), Démultiplication communautaire (apps mobiles, bots, AR, MCPs, dashboards), Pattern validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa, Schema-first data design (R. Itelman, Designing Data Products with JSON Schema), Publication sur marketplaces (RapidAPI, APIGEE, GitHub Marketplace)
+Mots-clés : API-fication, Validée 3x en recommandations LinkedIn par des pairs indépendants, Identification de manques d'interopérabilité, Scraping de sources sans API, Exploitation open data, Packaging SDK (Java, Python, Go), Exposition API REST + OpenAPI/Swagger, schema.org — attachement de données à des schémas existants avant exposition, Catalogue d'APIs publiques (APIGEE), Démultiplication communautaire (apps mobiles, bots, AR, MCPs, dashboards), Pattern validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa, Schema-first data design (R. Itelman, Designing Data Products with JSON Schema), Publication sur marketplaces (RapidAPI, APIGEE, GitHub Marketplace), Intégration par flux RSS & automatisation no-code (Feedly, Zapier)
 
 **Compétences ESCO :**
 - [concevoir des interfaces d’application](../esco/concevoir-des-interfaces-dapplication.md) — *skill/competence*
@@ -24,5 +24,9 @@ Mots-clés : API-fication, Validée 3x en recommandations LinkedIn par des pairs
 - [utiliser des patrons de conception](../esco/utiliser-des-patrons-de-conception.md) — *skill/competence*
 - [bibliothèques de composants logiciels](../esco/bibliotheques-de-composants-logiciels.md) — *knowledge*
 - [développer un prototype de logiciel](../esco/developper-un-prototype-de-logiciel.md) — *skill/competence*
+- [proposer des solutions TIC aux problèmes des entreprises](../esco/proposer-des-solutions-tic-aux-problemes-des-entreprises.md) — *skill/competence*
+- [trouver des solutions à des problèmes d'information](../esco/trouver-des-solutions-a-des-problemes-d-information.md) — *skill/competence*
+- [analyser les exigences des entreprises](../esco/analyser-les-exigences-des-entreprises.md) — *skill/competence*
+- [développer un flux de travail de TIC](../esco/developper-un-flux-de-travail-de-tic.md) — *skill/competence*
 
 **Tags :** [api-fication](../tags/api-fication.md)

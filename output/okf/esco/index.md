@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-215 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+218 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -46,6 +46,7 @@ timestamp: '2026-10-09'
 - [aligner le logiciel sur l’architecture du système](aligner-le-logiciel-sur-larchitecture-du-systeme.md) — 1 entrées
 - [allemand](allemand.md) — 1 entrées
 - [analyser des mégadonnées](analyser-des-megadonnees.md) — 1 entrées
+- [analyser les exigences des entreprises](analyser-les-exigences-des-entreprises.md) — 1 entrées
 - [anglais](anglais.md) — 1 entrées
 - [appliquer des stratégies pédagogiques](appliquer-des-strategies-pedagogiques.md) — 1 entrées
 - [appliquer des techniques de publication assistée par ordinateur](appliquer-des-techniques-de-publication-assistee-par-ordinateur.md) — 1 entrées
@@ -92,7 +93,7 @@ timestamp: '2026-10-09'
 - [développer des idées créatives](developper-des-idees-creatives.md) — 1 entrées
 - [développer des tests logiciels automatisés](developper-des-tests-logiciels-automatises.md) — 1 entrées
 - [développer l’architecture d’une communauté en ligne](developper-larchitecture-dune-communaute-en-ligne.md) — 2 entrées
-- [développer un flux de travail de TIC](developper-un-flux-de-travail-de-tic.md) — 1 entrées
+- [développer un flux de travail de TIC](developper-un-flux-de-travail-de-tic.md) — 2 entrées
 - [développer un prototype de logiciel](developper-un-prototype-de-logiciel.md) — 1 entrées
 - [effectuer des présentations publiques](effectuer-des-presentations-publiques.md) — 1 entrées
 - [effectuer des recherches dans des bases de données](effectuer-des-recherches-dans-des-bases-de-donnees.md) — 2 entrées
@@ -132,7 +133,7 @@ timestamp: '2026-10-09'
 - [gérer les conséquences de l’obsolescence des TIC](gerer-les-consequences-de-lobsolescence-des-tic.md) — 1 entrées
 - [gérer les données](gerer-les-donnees.md) — 1 entrées
 - [gérer les métadonnées de contenu](gerer-les-metadonnees-de-contenu.md) — 1 entrées
-- [gérer les normes d’échange de données](gerer-les-normes-dechange-de-donnees.md) — 1 entrées
+- [gérer les normes d’échange de données](gerer-les-normes-dechange-de-donnees.md) — 2 entrées
 - [gérer les retours d’information](gerer-les-retours-dinformation.md) — 1 entrées
 - [gérer l’architecture des données TIC](gerer-larchitecture-des-donnees-tic.md) — 1 entrées
 - [gérer l’intégration sémantique des TIC](gerer-lintegration-semantique-des-tic.md) — 1 entrées
@@ -176,6 +177,7 @@ timestamp: '2026-10-09'
 - [procéder à l’extraction de données](proceder-a-lextraction-de-donnees.md) — 2 entrées
 - [programmation informatique](programmation-informatique.md) — 1 entrées
 - [programmer un micrologiciel](programmer-un-micrologiciel.md) — 1 entrées
+- [proposer des solutions TIC aux problèmes des entreprises](proposer-des-solutions-tic-aux-problemes-des-entreprises.md) — 1 entrées
 - [protection des données](protection-des-donnees.md) — 1 entrées
 - [présenter des rapports](presenter-des-rapports.md) — 1 entrées
 - [pédagogie](pedagogie.md) — 1 entrées
@@ -209,6 +211,7 @@ timestamp: '2026-10-09'
 - [transmettre les techniques d’un métier](transmettre-les-techniques-dun-metier.md) — 1 entrées
 - [travailler de manière autonome](travailler-de-maniere-autonome.md) — 1 entrées
 - [travailler en équipe](travailler-en-equipe.md) — 6 entrées
+- [trouver des solutions à des problèmes d'information](trouver-des-solutions-a-des-problemes-d-information.md) — 1 entrées
 - [utiliser des bibliothèques logicielles](utiliser-des-bibliotheques-logicielles.md) — 1 entrées
 - [utiliser des langages de balisage](utiliser-des-langages-de-balisage.md) — 1 entrées
 - [utiliser des langages de requête](utiliser-des-langages-de-requete.md) — 1 entrées
