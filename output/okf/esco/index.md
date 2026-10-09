@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-156 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+160 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -52,6 +52,7 @@ timestamp: '2026-10-09'
 - [combiner plusieurs domaines de connaissances](combiner-plusieurs-domaines-de-connaissances.md) — 1 entrées
 - [concevoir des interfaces d’application](concevoir-des-interfaces-dapplication.md) — 3 entrées
 - [concevoir des prototypes](concevoir-des-prototypes.md) — 1 entrées
+- [concevoir un logiciel](concevoir-un-logiciel.md) — 1 entrées
 - [concevoir un schéma de base de données](concevoir-un-schema-de-base-de-donnees.md) — 1 entrées
 - [concevoir un système d’information](concevoir-un-systeme-dinformation.md) — 1 entrées
 - [coordonner des événements](coordonner-des-evenements.md) — 1 entrées
@@ -92,7 +93,7 @@ timestamp: '2026-10-09'
 - [faire preuve d’esprit d’entreprise](faire-preuve-desprit-dentreprise.md) — 1 entrées
 - [favoriser le travail en équipe entre élèves](favoriser-le-travail-en-equipe-entre-eleves.md) — 1 entrées
 - [fournir du contenu multimédia](fournir-du-contenu-multimedia.md) — 1 entrées
-- [fournir une documentation technique](fournir-une-documentation-technique.md) — 2 entrées
+- [fournir une documentation technique](fournir-une-documentation-technique.md) — 3 entrées
 - [fournir une présentation visuelle des données](fournir-une-presentation-visuelle-des-donnees.md) — 3 entrées
 - [gestion de projets allégée](gestion-de-projets-allegee.md) — 1 entrées
 - [gestion de projets par méthode Agile](gestion-de-projets-par-methode-agile.md) — 1 entrées
@@ -128,7 +129,7 @@ timestamp: '2026-10-09'
 - [normes de sécurité des TIC](normes-de-securite-des-tic.md) — 1 entrées
 - [normes d’accessibilité TIC](normes-daccessibilite-tic.md) — 1 entrées
 - [outils de développement de bases de données](outils-de-developpement-de-bases-de-donnees.md) — 1 entrées
-- [outils de gestion de configuration logicielle](outils-de-gestion-de-configuration-logicielle.md) — 1 entrées
+- [outils de gestion de configuration logicielle](outils-de-gestion-de-configuration-logicielle.md) — 2 entrées
 - [outils d’extraction de transformation et de chargement](outils-dextraction-de-transformation-et-de-chargement.md) — 1 entrées
 - [pensée systémique](pensee-systemique.md) — 1 entrées
 - [philosophies d’amélioration continue](philosophies-damelioration-continue.md) — 1 entrées
@@ -148,6 +149,7 @@ timestamp: '2026-10-09'
 - [rédiger un article scientifique](rediger-un-article-scientifique.md) — 1 entrées
 - [standards du World Wide Web Consortium](standards-du-world-wide-web-consortium.md) — 1 entrées
 - [stockage de données](stockage-de-donnees.md) — 1 entrées
+- [stratégie de crowdsourcing](strategie-de-crowdsourcing.md) — 1 entrées
 - [stratégie de marketing de contenu](strategie-de-marketing-de-contenu.md) — 1 entrées
 - [stratégie d’externalisation](strategie-dexternalisation.md) — 1 entrées
 - [suivre des indicateurs clés de performance](suivre-des-indicateurs-cles-de-performance.md) — 1 entrées
@@ -159,8 +161,10 @@ timestamp: '2026-10-09'
 - [technologies émergentes](technologies-emergentes.md) — 1 entrées
 - [traitement automatique du langage naturel](traitement-automatique-du-langage-naturel.md) — 1 entrées
 - [transmettre les techniques d’un métier](transmettre-les-techniques-dun-metier.md) — 1 entrées
+- [utiliser des bibliothèques logicielles](utiliser-des-bibliotheques-logicielles.md) — 1 entrées
 - [utiliser des langages de requête](utiliser-des-langages-de-requete.md) — 1 entrées
 - [utiliser des méthodes de conception centrée sur l’utilisateur](utiliser-des-methodes-de-conception-centree-sur-lutilisateur.md) — 2 entrées
+- [utiliser des outils en ligne pour collaborer](utiliser-des-outils-en-ligne-pour-collaborer.md) — 1 entrées
 - [utiliser des techniques de communication](utiliser-des-techniques-de-communication.md) — 1 entrées
 - [utiliser la programmation orientée objet](utiliser-la-programmation-orientee-objet.md) — 1 entrées
 - [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 1 entrées
