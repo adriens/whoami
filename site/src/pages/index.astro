@@ -15,6 +15,27 @@ const openSourceProjects   = projects.filter((p: any) => p.type === 'open-source
 const professionalProjects = projects.filter((p: any) => p.type === 'professional');
 const sortedAwards = [...awards].sort((a: any, b: any) => (b.date ?? '').localeCompare(a.date ?? ''));
 
+// ── ESCO : profil JSON-LD (schema.org) + libellé court des métiers ──────────
+const escoShort = (label: string) => label.split('/')[0].trim();
+const escoTerm = (e: any, scheme: string) => ({
+  '@type': 'DefinedTerm', '@id': e.uri, termCode: e.uri.split('/').pop(), name: e.label,
+  inDefinedTermSet: `http://data.europa.eu/esco/concept-scheme/${scheme}`,
+});
+const escoSkills = [...new Map(skills.flatMap((s: any) => s['x-esco'] ?? []).map((e: any) => [e.uri, e])).values()];
+const escoJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: basics.name,
+  jobTitle: basics.label,
+  url: 'https://adriens.github.io/whoami/',
+  hasOccupation: [
+    ...(basics['x-esco-occupations'] ?? []),
+    ...work.flatMap((w: any) => w['x-esco-occupations'] ?? []),
+  ].filter((o: any, i: number, all: any[]) => all.findIndex((x: any) => x.uri === o.uri) === i)
+   .map((o: any) => ({ '@type': 'Occupation', name: escoShort(o.label), occupationalCategory: escoTerm(o, 'occupations') })),
+  knowsAbout: escoSkills.map((e: any) => escoTerm(e, 'skills')),
+};
+
 function awardBadgeClass(date: string): string {
   const year = parseInt(date?.substring(0, 4) ?? '2000');
   if (year >= 2025) return 'award-badge award-badge-accent';
@@ -213,6 +234,7 @@ function levelDots(level: string): number {
     <meta name="twitter:title" content={`${basics.name} — CV & profil`} />
     <meta name="twitter:description" content={basics.summary?.split('\n\n')[0]?.substring(0, 160)} />
     <link rel="icon" type="image/svg+xml" href="/whoami/favicon.svg" />
+    <script type="application/ld+json" set:html={JSON.stringify(escoJsonLd)} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet" />
@@ -375,6 +397,14 @@ function levelDots(level: string): number {
                     </div>
                     <time>{w.startDate} → {w.endDate ?? 'présent'}</time>
                   </div>
+                  {w['x-esco-occupations']?.length > 0 && (
+                    <div class="esco-row">
+                      <span class="esco-label" title="Métier(s) du référentiel européen ESCO">ESCO</span>
+                      {w['x-esco-occupations'].map((o: any) => (
+                        <a class="tag tag-esco" href={o.uri} target="_blank" rel="noopener" title={`${o.label} — ISCO ${o.code}`}>{escoShort(o.label)}</a>
+                      ))}
+                    </div>
+                  )}
                   {w.summary && <p class="muted">{w.summary}</p>}
                   {w.highlights?.length > 0 && (
                     <details class="highlights-toggle" open>
@@ -454,6 +484,14 @@ function levelDots(level: string): number {
                 {s.keywords?.length > 0 && (
                   <div class="tags">
                     {s.keywords.map((k: string) => <span class="tag">{k}</span>)}
+                  </div>
+                )}
+                {s['x-esco']?.length > 0 && (
+                  <div class="esco-row">
+                    <span class="esco-label" title="Concepts du référentiel européen ESCO">ESCO</span>
+                    {s['x-esco'].map((e: any) => (
+                      <a class="tag tag-esco" href={e.uri} target="_blank" rel="noopener" title={e.covers?.length ? `Couvre : ${e.covers.join(', ')}` : e.label}>{e.label}</a>
+                    ))}
                   </div>
                 )}
               </div>
@@ -1313,6 +1351,34 @@ function levelDots(level: string): number {
     color: var(--muted);
     padding: 0.15rem 0.55rem;
     border-radius: 999px;
+  }
+
+  /* ── Concepts / métiers ESCO (liens vers le référentiel européen) ── */
+  .esco-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.3rem;
+    margin-top: 0.5rem;
+  }
+
+  .esco-label {
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+  }
+
+  .tag-esco {
+    background: transparent;
+    border: 1px solid var(--border);
+    text-decoration: none;
+    transition: color 0.15s, border-color 0.15s;
+  }
+
+  .tag-esco:hover {
+    color: var(--accent);
+    border-color: var(--accent);
   }
 
   /* ── x-tags cliquables : filtre cross-section ── */
