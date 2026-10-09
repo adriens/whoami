@@ -1,0 +1,1993 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Candidate xmlns="http://www.europass.eu/1.0" xmlns:eures="http://www.europass_eures.eu/1.0" xmlns:hr="http://www.hr-xml.org/3" xmlns:oa="http://www.openapplications.org/oagis/9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.europass.eu/1.0 Candidate.xsd">
+  <hr:DocumentID schemeID="whoami-v1.38.3" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
+  <CandidateSupplier>
+    <hr:PartyID schemeID="whoami-v1.38.3" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
+    <hr:PartyName>Owner</hr:PartyName>
+    <PersonContact>
+      <PersonName>
+        <oa:GivenName>Adrien</oa:GivenName>
+        <hr:FamilyName>Sales</hr:FamilyName>
+      </PersonName>
+      <Communication>
+        <ChannelCode>Email</ChannelCode>
+        <oa:URI>adrien.sales@gmail.com</oa:URI>
+      </Communication>
+    </PersonContact>
+    <hr:PrecedenceCode>1</hr:PrecedenceCode>
+  </CandidateSupplier>
+  <CandidatePerson>
+    <PersonName>
+      <oa:GivenName>Adrien</oa:GivenName>
+      <hr:FamilyName>Sales</hr:FamilyName>
+    </PersonName>
+    <Communication>
+      <ChannelCode>Email</ChannelCode>
+      <oa:URI>adrien.sales@gmail.com</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Telephone</ChannelCode>
+      <UseCode>mobile</UseCode>
+      <CountryDialing>687</CountryDialing>
+      <oa:DialNumber>842984</oa:DialNumber>
+      <CountryCode>nc</CountryCode>
+    </Communication>
+    <Communication>
+      <ChannelCode>Web</ChannelCode>
+      <oa:URI>https://adriens.github.io/whoami/</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Web</ChannelCode>
+      <oa:URI>https://github.com/adriens/</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Social Media</ChannelCode>
+      <UseCode>linkedin</UseCode>
+      <oa:URI>https://linkedin.com/in/adrien-sales/</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Web</ChannelCode>
+      <oa:URI>https://dev.to/adriens/</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Social Media</ChannelCode>
+      <UseCode>youtube</UseCode>
+      <oa:URI>https://www.youtube.com/channel/UCcbQ_euR84DKOf_-ksI5_GQ</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Web</ChannelCode>
+      <oa:URI>https://www.kaggle.com/adriensales</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Social Media</ChannelCode>
+      <UseCode>twitter</UseCode>
+      <oa:URI>https://twitter.com/rastadidi</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Web</ChannelCode>
+      <oa:URI>https://pypi.org/user/rastadidi/</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Web</ChannelCode>
+      <oa:URI>https://www.goodreads.com/user/show/124105866-adrien</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Web</ChannelCode>
+      <oa:URI>https://huggingface.co/rastadidi</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Web</ChannelCode>
+      <oa:URI>https://community.chocolatey.org/profiles/adriens</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Web</ChannelCode>
+      <oa:URI>https://www.hackster.io/adriensales</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Web</ChannelCode>
+      <oa:URI>https://hub.docker.com/u/rastadidi</oa:URI>
+    </Communication>
+    <Communication>
+      <ChannelCode>Web</ChannelCode>
+      <oa:URI>https://ko-fi.com/rastadidi</oa:URI>
+    </Communication>
+    <Communication>
+      <UseCode>home</UseCode>
+      <Address type="home">
+        <oa:CityName>Nouméa</oa:CityName>
+        <CountryCode>nc</CountryCode>
+        <oa:PostalCode>98800</oa:PostalCode>
+      </Address>
+    </Communication>
+    <PrimaryLanguageCode name="NORMAL">fra</PrimaryLanguageCode>
+  </CandidatePerson>
+  <CandidateProfile languageCode="fr">
+    <hr:ExecutiveSummary>&lt;p&gt;Ma spécificité : face à n&amp;#x27;importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j&amp;#x27;en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu&amp;#x27;ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis) puis en data science (Mastère Spécialisé MSBDS — labellisé Conférence des Grandes Écoles, stage data mining avec l&amp;#x27;I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte. Méthode signature : l&amp;#x27;API-fication — identifier un manque d&amp;#x27;interopérabilité, scraper ou exploiter l&amp;#x27;open data, packager en SDK, exposer en API, laisser émerger l&amp;#x27;écosystème communautaire (apps mobiles, AR, bots, MCPs, dashboards). Validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa.&lt;/p&gt;&lt;p&gt;Ingénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA. Ma boussole : l&amp;#x27;expertise technique au service du besoin métier et du time-to-market — chaque choix d&amp;#x27;architecture se mesure à la valeur livrée.&lt;/p&gt;&lt;p&gt;25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd&amp;#x27;hui Chef de Section GLIA à l&amp;#x27;OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 &amp;amp; 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood. Outcomes mesurables : deux étudiants de la promo 2025 recrutés dans des institutions publiques calédoniennes (OPT-NC, ISEE-NC) sur recommandation active — la pédagogie comme levier de placement, pas seulement de formation. La boucle se referme : la transmission, premier métier en 1999 (professeur de mathématiques en collège), revient au premier plan 25 ans plus tard — fil rouge plus que parenthèse.&lt;/p&gt;&lt;p&gt;Conviction transversale, valable pour moi comme pour les collaborateurs et stagiaires que j&amp;#x27;encadre : un rythme soutenable sur la durée prime sur le sprint. Six ans de projets tutorés sans interruption, des séries d&amp;#x27;articles régulières, des contributions open source continues — l&amp;#x27;endurance comme méthode, pas comme contrainte.&lt;/p&gt;&lt;p&gt;Ambitions parallèles : construire un produit data/IA ancré dans les problématiques du Pacifique, contribuer à la recherche appliquée (knowledge graphs, data science), et étendre une présence DevRel internationale — conférences, open source, communauté.&lt;/p&gt;</hr:ExecutiveSummary>
+    <EmploymentHistory>
+      <EmployerHistory>
+        <hr:OrganizationName>OPT-NC (Office des Postes et Télécommunications de Nouvelle-Calédonie)</hr:OrganizationName>
+        <Link>https://www.opt.nc</Link>
+        <PositionHistory>
+          <PositionTitle typeCode="FREETEXT">Chef de Section GLIA — Génie Logiciel Inter-Applicatif</PositionTitle>
+          <eures:EmploymentPeriod>
+            <eures:StartDate>
+              <hr:FormattedDateTime>2019-04</hr:FormattedDateTime>
+            </eures:StartDate>
+            <hr:CurrentIndicator>true</hr:CurrentIndicator>
+          </eures:EmploymentPeriod>
+          <oa:Description>&lt;p&gt;Pilotage de la section GLIA (6 personnes) : interopérabilité du SI, data engineering, DevSecOps, cartographie du SI par knowledge graph, Developer Relations et innovation. Management d&amp;#x27;équipe, formation de stagiaires et mentorat. L&amp;#x27;interopérabilité comme posture est une signature de carrière depuis 2013+ — déjà identifiée par mes pairs à la DSI de Nouméa, formalisée aujourd&amp;#x27;hui dans le rôle GLIA (Génie Logiciel Inter-Applicatif) et l&amp;#x27;enseignement en Master MIAGE.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stack data complète en production : Airflow conteneurisé sur Kubernetes, Lakehouse DuckLake, Superset (dataviz), MinIO (stockage) — pipeline bout en bout opérationnel&lt;/li&gt;&lt;li&gt;Cartographie du SI par knowledge graph Neo4j avec release automatisée via GitHub Actions — présenté à NODES 2022 et NODES 2024 (conférence internationale Neo4j), enrichi d&amp;#x27;agents IA&lt;/li&gt;&lt;li&gt;Stabilisation et rationalisation du bus applicatif Kafka pour un SI hautement disponible et performant&lt;/li&gt;&lt;li&gt;Culture DevSecOps complète : GitHub Actions, Quarkus, conteneurisation Podman/Docker, shift-left security avec geol (open source, 1 300+ downloads) intégrant Trivy, Quarto et DuckDB&lt;/li&gt;&lt;li&gt;Déploiement et animation du portail API APIGEE grand public : conception, DevRel, vidéos et documentation&lt;/li&gt;&lt;li&gt;Animation des organisations OPT-NC sur GitHub (https://github.com/opt-nc), Dev.to (https://dev.to/optnc), Kaggle (https://www.kaggle.com/optnouvellecaldonie) et Hugging Face (https://huggingface.co/opt-nc) : code open source, articles techniques, datasets, notebooks, applications Gradio et MCPs — démo publique : candidature via MCP Claude en 20 minutes&lt;/li&gt;&lt;li&gt;CLI mobitag en Go pour envoyer des SMS via l&amp;#x27;API Mobitag — distribué via Homebrew/goreleaser, conçu avec l&amp;#x27;équipe comme exercice pédagogique&lt;/li&gt;&lt;li&gt;Design, développement et livraison de l&amp;#x27;API domaine.nc (noms de domaine .NC) exposée sur la marketplace APIGEE — a permis la création d&amp;#x27;une application mobile open source Flutter par la communauté, publiée sur le Google Play Store, testée en crowdtesting via Hightest/Testeum, avec 25 releases et une playlist YouTube dédiée&lt;/li&gt;&lt;li&gt;Mentorat de proximité : stagiaires accueillis dans le bureau, embarqués sur de vrais projets dès le premier jour — plusieurs recrutés en CDI à l&amp;#x27;issue&lt;/li&gt;&lt;li&gt;Tuteur industriel (OPT-NC) de projets tutorés UNC : dataviz temps d&amp;#x27;attente en agence sur matrice LED IoT Pimoroni Cosmic Unicorn 32×32 pixels (Python/MicroPython, API APIGEE) — publié sur Hackster.io, vidéo YouTube, article Dev.to&lt;/li&gt;&lt;li&gt;Tuteur industriel (OPT-NC) de projets tutorés UNC : dashboard Streamlit temps d&amp;#x27;attente API-driven (Docker, API APIGEE) — affichage du temps réel et tendance journalière pour optimiser la venue en agence&lt;/li&gt;&lt;li&gt;Évangélisation technique auprès des collègues : faire découvrir et adopter des pratiques et technologies actionnables au quotidien — par la démonstration et le faire ensemble, jamais par la théorie seule&lt;/li&gt;&lt;/ul&gt;</oa:Description>
+        </PositionHistory>
+      </EmployerHistory>
+      <EmployerHistory>
+        <hr:OrganizationName>DSI Ville de Nouméa</hr:OrganizationName>
+        <Link>https://www.noumea.nc</Link>
+        <PositionHistory>
+          <PositionTitle typeCode="FREETEXT">Architecte Logiciel / Chef de Section Développement &amp; Maintenance</PositionTitle>
+          <eures:EmploymentPeriod>
+            <eures:StartDate>
+              <hr:FormattedDateTime>2010-12</hr:FormattedDateTime>
+            </eures:StartDate>
+            <eures:EndDate>
+              <hr:FormattedDateTime>2019-03</hr:FormattedDateTime>
+            </eures:EndDate>
+            <hr:CurrentIndicator>false</hr:CurrentIndicator>
+          </eures:EmploymentPeriod>
+          <oa:Description>&lt;p&gt;9 ans d&amp;#x27;évolution dans une équipe de 2-3 développeurs, de la conception au leadership : chef de projet, chef de section, puis architecte logiciel. Plusieurs applications livrées entre 2012 et 2015 sont toujours en production et en évolution en 2026.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Conception et développement de l&amp;#x27;application permis de construire de la Ville de Nouméa — toujours en exploitation et en évolution 10+ ans après sa livraison&lt;/li&gt;&lt;li&gt;Conception et développement de la main courante de la police municipale de Nouméa — toujours en exploitation 10+ ans après sa livraison&lt;/li&gt;&lt;li&gt;Briques logicielles de base (composants réutilisables) toujours intégrées dans le SI de la collectivité à ce jour&lt;/li&gt;&lt;li&gt;Mise en place de la gestion de versions : déploiement SVN on-premise puis migration intégrale vers GitHub&lt;/li&gt;&lt;li&gt;Migration complète du SI applicatif : WebSphere/Windows/Oracle → Tomcat/Spring Boot/Linux/PostgreSQL — modernisation end-to-end de l&amp;#x27;infrastructure et des applications métier de la collectivité&lt;/li&gt;&lt;li&gt;Introduction de Spring Framework puis Spring Boot et ZK Framework en remplacement des frameworks maison&lt;/li&gt;&lt;li&gt;4 ans de SCRUM : montée en compétences progressive de chef de projet à chef de section — succès et échecs documentés et présentés au séminaire DSI 2015&lt;/li&gt;&lt;li&gt;Intérim assuré du Chargé d&amp;#x27;études d&amp;#x27;architecture et qualité de la DSI lors de ses absences — extension de la confiance hiérarchique au-delà du rôle d&amp;#x27;architecte&lt;/li&gt;&lt;li&gt;Introduction des pratiques DevOps : continuous delivery pour logiciels Windows via Chocolatey et AppVeyor, migration cloud hybride expérimentée dès 2016&lt;/li&gt;&lt;li&gt;Analytics RGPD sur les bases de données via SchemaCrawler et ELK Stack — cartographie dynamique des colonnes à données personnelles en dashboard Kibana&lt;/li&gt;&lt;/ul&gt;</oa:Description>
+        </PositionHistory>
+      </EmployerHistory>
+      <EmployerHistory>
+        <hr:OrganizationName>Docaposte</hr:OrganizationName>
+        <Link>https://www.docaposte.com</Link>
+        <PositionHistory>
+          <PositionTitle typeCode="FREETEXT">DBA — Oracle &amp; PostgreSQL</PositionTitle>
+          <eures:EmploymentPeriod>
+            <eures:StartDate>
+              <hr:FormattedDateTime>2008-10</hr:FormattedDateTime>
+            </eures:StartDate>
+            <eures:EndDate>
+              <hr:FormattedDateTime>2010-11</hr:FormattedDateTime>
+            </eures:EndDate>
+            <hr:CurrentIndicator>false</hr:CurrentIndicator>
+          </eures:EmploymentPeriod>
+          <oa:Description>&lt;p&gt;DBA expert sur des plateformes nationales à fort trafic et fort enjeu : HADOPI, Infogreffe, Jedeclare.com — infrastructure critique, données sensibles, millions d&amp;#x27;utilisateurs. Filiale numérique du groupe La Poste.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Développement d&amp;#x27;un CLI Java mesurant l&amp;#x27;écart de synchronisation entre bases primaires et standby — outil de monitoring de la réplication en production&lt;/li&gt;&lt;li&gt;Tuning avancé de bases de données Oracle et PostgreSQL sur des plateformes nationales à fort trafic&lt;/li&gt;&lt;li&gt;Automatisation des scripts de production et introduction des premières pratiques DevOps&lt;/li&gt;&lt;/ul&gt;</oa:Description>
+        </PositionHistory>
+      </EmployerHistory>
+      <EmployerHistory>
+        <hr:OrganizationName>Experian Decision Analytics</hr:OrganizationName>
+        <Link>https://www.experian.com/decision-analytics/</Link>
+        <PositionHistory>
+          <PositionTitle typeCode="FREETEXT">Consultant Développeur — Couche Base de Données</PositionTitle>
+          <eures:EmploymentPeriod>
+            <eures:StartDate>
+              <hr:FormattedDateTime>2003-09</hr:FormattedDateTime>
+            </eures:StartDate>
+            <eures:EndDate>
+              <hr:FormattedDateTime>2008-09</hr:FormattedDateTime>
+            </eures:EndDate>
+            <hr:CurrentIndicator>false</hr:CurrentIndicator>
+          </eures:EmploymentPeriod>
+          <oa:Description>&lt;p&gt;Développement core sur le layer base de données et intégration en mode consultant chez de grands comptes. Basé à Monaco.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stage de fin de Mastère Spécialisé en data mining, en collaboration avec l&amp;#x27;I3S (laboratoire CNRS — Sophia Antipolis) — transformé en embauche directe dès la fin du stage&lt;/li&gt;&lt;li&gt;Développement du layer base de données des composants Decision Analytics, déployés chez Orange, Bank of America et Le Crédit Lyonnais&lt;/li&gt;&lt;li&gt;Tuning Oracle avancé (indexes, tablespaces, partitionnement) pour maximiser les performances du logiciel en production chez les grands comptes&lt;/li&gt;&lt;li&gt;Conception du système de monitoring JMX des bases de données, outillé via ManageEngine — avancée majeure en observabilité et intégration pour les clients (Orange, BofA, Crédit Lyonnais), initiative innovante pour l&amp;#x27;époque&lt;/li&gt;&lt;/ul&gt;</oa:Description>
+        </PositionHistory>
+      </EmployerHistory>
+      <EmployerHistory>
+        <hr:OrganizationName>Vice-Rectorat de Nouvelle-Calédonie</hr:OrganizationName>
+        <Link>https://www.ac-noumea.nc</Link>
+        <PositionHistory>
+          <PositionTitle typeCode="FREETEXT">Professeur Vacataire de Mathématiques</PositionTitle>
+          <eures:EmploymentPeriod>
+            <eures:StartDate>
+              <hr:FormattedDateTime>1999-09</hr:FormattedDateTime>
+            </eures:StartDate>
+            <eures:EndDate>
+              <hr:FormattedDateTime>2001-08</hr:FormattedDateTime>
+            </eures:EndDate>
+            <hr:CurrentIndicator>false</hr:CurrentIndicator>
+          </eures:EmploymentPeriod>
+          <oa:Description>&lt;p&gt;Enseignement des mathématiques en collège : collège de Bourail, puis collèges de Rivière Salée et Kaméré à Nouméa. Admissible au CAPES externe de Mathématiques (session 2000). Période fondatrice pour la pédagogie et la transmission, aujourd&amp;#x27;hui prolongée dans l&amp;#x27;enseignement en Master MIAGE à l&amp;#x27;UNC.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Première expérience d&amp;#x27;enseignement qui ancre une posture pédagogique durable, 25 ans avant les cours en Master MIAGE&lt;/li&gt;&lt;li&gt;Découverte de la transmission comme discipline : concevoir des stratégies pour ancrer le raisonnement — dérouler une démonstration de géométrie, organiser des jeux de calcul mental — apprendre à faire construire une pensée plutôt qu&amp;#x27;à la dicter&lt;/li&gt;&lt;/ul&gt;</oa:Description>
+        </PositionHistory>
+      </EmployerHistory>
+    </EmploymentHistory>
+    <EducationHistory>
+      <EducationOrganizationAttendance>
+        <hr:OrganizationName>CERAM Business School (Skema) — Sophia Antipolis</hr:OrganizationName>
+        <Link>https://www.skema.edu</Link>
+        <AttendancePeriod>
+          <StartDate>
+            <hr:FormattedDateTime>2002-09</hr:FormattedDateTime>
+          </StartDate>
+          <EndDate>
+            <hr:FormattedDateTime>2003-09</hr:FormattedDateTime>
+          </EndDate>
+          <Ongoing>false</Ongoing>
+        </AttendancePeriod>
+        <EducationDegree>
+          <hr:DegreeName>Mastère Spécialisé MSBDS — labellisé Conférence des Grandes Écoles — Bases de données et Progiciels / ERP</hr:DegreeName>
+          <OccupationalSkillsCovered>&lt;ul&gt;&lt;li&gt;Stage de fin d&amp;#x27;études en data mining, en collaboration avec l&amp;#x27;I3S (laboratoire CNRS — Sophia Antipolis) et Experian Decision Analytics — transformé en embauche directe dès la fin du stage&lt;/li&gt;&lt;/ul&gt;</OccupationalSkillsCovered>
+        </EducationDegree>
+        <EducationLevelCode>7</EducationLevelCode>
+      </EducationOrganizationAttendance>
+      <EducationOrganizationAttendance>
+        <hr:OrganizationName>Université de Nice Sophia-Antipolis</hr:OrganizationName>
+        <Link>https://univ-cotedazur.fr</Link>
+        <AttendancePeriod>
+          <StartDate>
+            <hr:FormattedDateTime>2001-09</hr:FormattedDateTime>
+          </StartDate>
+          <EndDate>
+            <hr:FormattedDateTime>2002-07</hr:FormattedDateTime>
+          </EndDate>
+          <Ongoing>false</Ongoing>
+        </AttendancePeriod>
+        <EducationDegree>
+          <hr:DegreeName>DEA (Diplôme d'Études Approfondies) — Mathématiques Appliquées</hr:DegreeName>
+          <OccupationalSkillsCovered>&lt;ul&gt;&lt;li&gt;Stage de recherche : INRIA Sophia Antipolis (https://www.inria.fr) — implémentation C++ de LINPACK, bibliothèque de référence en algèbre linéaire numérique haute performance&lt;/li&gt;&lt;/ul&gt;</OccupationalSkillsCovered>
+        </EducationDegree>
+        <EducationLevelCode>7</EducationLevelCode>
+      </EducationOrganizationAttendance>
+      <EducationOrganizationAttendance>
+        <hr:OrganizationName>Université de Nice Sophia-Antipolis</hr:OrganizationName>
+        <Link>https://univ-cotedazur.fr</Link>
+        <AttendancePeriod>
+          <StartDate>
+            <hr:FormattedDateTime>1998-09</hr:FormattedDateTime>
+          </StartDate>
+          <EndDate>
+            <hr:FormattedDateTime>1999-06</hr:FormattedDateTime>
+          </EndDate>
+          <Ongoing>false</Ongoing>
+        </AttendancePeriod>
+        <EducationDegree>
+          <hr:DegreeName>Maîtrise — Mathématiques Fondamentales</hr:DegreeName>
+        </EducationDegree>
+        <EducationLevelCode>6</EducationLevelCode>
+      </EducationOrganizationAttendance>
+      <EducationOrganizationAttendance>
+        <hr:OrganizationName>Université de la Nouvelle-Calédonie</hr:OrganizationName>
+        <Link>https://unc.nc</Link>
+        <AttendancePeriod>
+          <StartDate>
+            <hr:FormattedDateTime>1997-09</hr:FormattedDateTime>
+          </StartDate>
+          <EndDate>
+            <hr:FormattedDateTime>1998-09</hr:FormattedDateTime>
+          </EndDate>
+          <Ongoing>false</Ongoing>
+        </AttendancePeriod>
+        <EducationDegree>
+          <hr:DegreeName>Licence — Mathématiques</hr:DegreeName>
+        </EducationDegree>
+        <EducationLevelCode>6</EducationLevelCode>
+      </EducationOrganizationAttendance>
+      <EducationOrganizationAttendance>
+        <hr:OrganizationName>Université de Nice Sophia-Antipolis</hr:OrganizationName>
+        <Link>https://univ-cotedazur.fr</Link>
+        <AttendancePeriod>
+          <StartDate>
+            <hr:FormattedDateTime>1994-09</hr:FormattedDateTime>
+          </StartDate>
+          <EndDate>
+            <hr:FormattedDateTime>1996-06</hr:FormattedDateTime>
+          </EndDate>
+          <Ongoing>false</Ongoing>
+        </AttendancePeriod>
+        <EducationDegree>
+          <hr:DegreeName>DEUG MIASS — Mathématiques - Informatique et Applications aux Sciences</hr:DegreeName>
+        </EducationDegree>
+        <EducationLevelCode>5</EducationLevelCode>
+      </EducationOrganizationAttendance>
+      <EducationOrganizationAttendance>
+        <hr:OrganizationName>École Montessori Les Pouces Verts — Mouans-Sartoux</hr:OrganizationName>
+        <Link>https://www.mouans-sartoux.net</Link>
+        <AttendancePeriod>
+          <StartDate>
+            <hr:FormattedDateTime>1978-09</hr:FormattedDateTime>
+          </StartDate>
+          <EndDate>
+            <hr:FormattedDateTime>1980-06</hr:FormattedDateTime>
+          </EndDate>
+          <Ongoing>false</Ongoing>
+        </AttendancePeriod>
+        <EducationDegree>
+          <hr:DegreeName>École primaire — Pédagogie Montessori</hr:DegreeName>
+          <OccupationalSkillsCovered>&lt;ul&gt;&lt;li&gt;Fondation d&amp;#x27;une posture cognitive durable : apprendre par la manipulation, progresser à son rythme, construire sa propre compréhension&lt;/li&gt;&lt;li&gt;Fil rouge pédagogique : la même philosophie — autonomie, projets réels, apprendre en faisant — se retrouve 45 ans plus tard dans l&amp;#x27;enseignement en Master MIAGE et le mentorat de stagiaires&lt;/li&gt;&lt;/ul&gt;</OccupationalSkillsCovered>
+        </EducationDegree>
+        <EducationLevelCode>1</EducationLevelCode>
+      </EducationOrganizationAttendance>
+    </EducationHistory>
+    <Certifications />
+    <PublicationHistory>
+      <Publication>
+        <Title>Paroles d'agent — Adrien SALES (OPT-NC)</Title>
+        <Year>2020</Year>
+        <Publisher>YouTube / OPT-NC</Publisher>
+        <DOI>
+          <Link>https://www.youtube.com/watch?v=g2JuEcwPvgE</Link>
+        </DOI>
+        <hr:FormattedPublicationDescription>&lt;p&gt;Épisode de la série interne &amp;#x27;Paroles d&amp;#x27;agent&amp;#x27; publiée sur la chaîne YouTube officielle de l&amp;#x27;OPT-NC. Présente son rôle d&amp;#x27;intégrateur de données à la DSI, sa vision de la collaboration métier/IT, son meilleur succès (débloquer l&amp;#x27;adoption d&amp;#x27;un logiciel en travaillant main dans la main avec les métiers) et sa devise : &amp;#x27;No excuse&amp;#x27;.&lt;/p&gt;</hr:FormattedPublicationDescription>
+      </Publication>
+      <Publication>
+        <Title>Analyse de l'historique Netflix avec Power BI — LinkedIn Pulse</Title>
+        <Year>2019</Year>
+        <Publisher>LinkedIn Pulse</Publisher>
+        <DOI>
+          <Link>https://www.linkedin.com/pulse/so-i-can-download-my-netflix-activity-csv-what-adrien-sales/</Link>
+        </DOI>
+        <hr:FormattedPublicationDescription>&lt;p&gt;Article explorant l&amp;#x27;analyse de son historique de visionnage Netflix (export CSV) : Power Automate pour le traitement des données, IMDbPY pour l&amp;#x27;enrichissement en genres, Power BI pour les visualisations (genres préférés, fidélité aux séries, sessions intensives). Illustre la valeur des données personnelles et l&amp;#x27;enjeu du RGPD.&lt;/p&gt;</hr:FormattedPublicationDescription>
+      </Publication>
+      <Publication>
+        <Title>MIT Media Lab, créativité &amp; jeux — LinkedIn Pulse</Title>
+        <Year>2019</Year>
+        <Publisher>LinkedIn Pulse</Publisher>
+        <DOI>
+          <Link>https://www.linkedin.com/pulse/how-did-netflix-put-my-heart-brain-fire-abstract-art-design-sales/</Link>
+        </DOI>
+        <hr:FormattedPublicationDescription>&lt;p&gt;Réflexion sur la créativité, le jeu et le design inspirée du MIT Media Lab. À partir d&amp;#x27;un documentaire Netflix sur l&amp;#x27;art abstrait, l&amp;#x27;article explore comment les principes du jeu et du design peuvent nourrir la pensée créative et l&amp;#x27;innovation en entreprise.&lt;/p&gt;</hr:FormattedPublicationDescription>
+      </Publication>
+      <Publication>
+        <Title>208 articles techniques — Dev.to</Title>
+        <Year>2020</Year>
+        <Publisher>Dev.to</Publisher>
+        <DOI>
+          <Link>https://dev.to/adriens/</Link>
+        </DOI>
+        <hr:FormattedPublicationDescription>&lt;p&gt;Publication régulière d&amp;#x27;articles techniques en anglais et français sur le data engineering, Neo4j, DevOps, open data, IA et l&amp;#x27;interopérabilité des SI. 25 badges dont Five Year Club, Hacktoberfest 2025, Google Gemini Challenge, GitHub Copilot Challenge. 1 463 commentaires écrits.&lt;/p&gt;</hr:FormattedPublicationDescription>
+      </Publication>
+      <Publication>
+        <Title>Chaîne YouTube DevOPS-LAB</Title>
+        <Year>2020</Year>
+        <Publisher>YouTube</Publisher>
+        <DOI>
+          <Link>https://www.youtube.com/channel/UCcbQ_euR84DKOf_-ksI5_GQ</Link>
+        </DOI>
+        <hr:FormattedPublicationDescription>&lt;p&gt;284 vidéos techniques en français et anglais : démonstrations live, DevOps, data engineering, Neo4j, MCP, open data. 189 abonnés. Inclut des détournements humoristiques de films (VO russe/allemand sous-titrés) pour vulgariser des concepts tech.&lt;/p&gt;</hr:FormattedPublicationDescription>
+      </Publication>
+      <Publication>
+        <Title>Open Data OPT-NC sur Kaggle et Hugging Face</Title>
+        <Year>2022</Year>
+        <Publisher>Kaggle / Hugging Face</Publisher>
+        <DOI>
+          <Link>https://www.kaggle.com/optnouvellecaldonie</Link>
+        </DOI>
+        <hr:FormattedPublicationDescription>&lt;p&gt;Animation des organisations OPT-NC sur Kaggle (kaggle.com/optnouvellecaldonie) et Hugging Face (huggingface.co/opt-nc) : datasets open data, notebooks, applications Gradio et MCPs. 27 datasets publiés, 81 notebooks de démonstration. SDKs Python de scraping publiés sur PyPI (edb-noumea, auptitcafe, aquavena-sdk).&lt;/p&gt;</hr:FormattedPublicationDescription>
+      </Publication>
+      <Publication>
+        <Title>PostgreSQL Security Analysis — Zenodo</Title>
+        <Year>2026</Year>
+        <Publisher>Zenodo</Publisher>
+        <DOI>
+          <Link>https://zenodo.org/records/20467660</Link>
+        </DOI>
+        <hr:FormattedPublicationDescription>&lt;p&gt;Première publication scientifique sur Zenodo (DOI : 10.5281/zenodo.20467660). Analyse de sécurité des versions PostgreSQL via trois outils CLI : geol (End-of-Life), Trivy (scan de vulnérabilités Docker), skopeo (inspection d&amp;#x27;images). Démontre comment combiner IA générative et outils CLI pour automatiser l&amp;#x27;analyse de risques sur des images de base de données.&lt;/p&gt;</hr:FormattedPublicationDescription>
+      </Publication>
+    </PublicationHistory>
+    <PersonQualifications>
+      <PersonCompetency>
+        <CompetencyID schemeName="NORMAL">eng</CompetencyID>
+        <hr:TaxonomyID>language</hr:TaxonomyID>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Understanding-Listening</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>C1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Understanding-Reading</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>C1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Speaking-Interaction</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>C1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Speaking-Production</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>C1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Writing-Production</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>C1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+      </PersonCompetency>
+      <PersonCompetency>
+        <CompetencyID schemeName="NORMAL">deu</CompetencyID>
+        <hr:TaxonomyID>language</hr:TaxonomyID>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Understanding-Listening</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>A1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Understanding-Reading</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>A1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Speaking-Interaction</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>A1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Speaking-Production</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>A1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Writing-Production</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>A1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+      </PersonCompetency>
+      <PersonCompetency>
+        <CompetencyID schemeName="NORMAL">spa</CompetencyID>
+        <hr:TaxonomyID>language</hr:TaxonomyID>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Understanding-Listening</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>A1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Understanding-Reading</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>A1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Speaking-Interaction</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>A1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Speaking-Production</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>A1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+        <eures:CompetencyDimension>
+          <hr:CompetencyDimensionTypeCode>CEF-Writing-Production</hr:CompetencyDimensionTypeCode>
+          <eures:Score>
+            <hr:ScoreText>A1</hr:ScoreText>
+          </eures:Score>
+        </eures:CompetencyDimension>
+      </PersonCompetency>
+    </PersonQualifications>
+    <Skills>
+      <SkillsGroup>
+        <Title>Méthode signature : API-fication (Expert)</Title>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>API-fication</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Validée 3x en recommandations LinkedIn par des pairs indépendants</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Identification de manques d'interopérabilité</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Scraping de sources sans API</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Exploitation open data</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Packaging SDK (Java, Python, Go)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Exposition API REST + OpenAPI/Swagger</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>schema.org — attachement de données à des schémas existants avant exposition</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Catalogue d'APIs publiques (APIGEE)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Démultiplication communautaire (apps mobiles, bots, AR, MCPs, dashboards)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Pattern validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Schema-first data design (R. Itelman, Designing Data Products with JSON Schema)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Publication sur marketplaces (RapidAPI, APIGEE, GitHub Marketplace)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Intégration par flux RSS &amp; automatisation no-code (Feedly, Zapier)</hr:CompetencyName>
+        </PersonCompetency>
+      </SkillsGroup>
+      <SkillsGroup>
+        <Title>Graph &amp; Knowledge Engineering (Expert)</Title>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Neo4j</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Graph Data Science</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Cypher</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Knowledge Graph</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>GDS Library</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>NetworkX</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>endoflife.date-neo4j</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Théorie des graphes</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Analyse de réseaux</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Centralité &amp; clustering</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Réseaux cachés</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>JSON-LD</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>schema.org</hr:CompetencyName>
+        </PersonCompetency>
+      </SkillsGroup>
+      <SkillsGroup>
+        <Title>IA &amp; Agents (Avancé)</Title>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>MCP (Model Context Protocol)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Hugging Face</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Gradio</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Agents IA</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>RAG</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Embeddings (BAAI/bge-m3)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Cross-encoder reranking (bge-reranker-v2-m3)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Recherche sémantique (retrieve → rerank)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>ML frugal on-prem (sans GPU)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Ollama</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>LangChain</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Semantic Router</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Vibe coding</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>OpenSearch vector search</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Rapports maintenus par agent IA (CLAUDE.md, Claude Code)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>CV-as-code (JSON Resume, enrichissement par agent IA, ESCO)</hr:CompetencyName>
+        </PersonCompetency>
+      </SkillsGroup>
+      <SkillsGroup>
+        <Title>Architecture &amp; Développement (Expert)</Title>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Architecture SI</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Domain-Driven Design</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Spring Boot</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Quarkus</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Java</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Go</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Maven</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Interopérabilité (signature de carrière depuis 12+ ans, validée par pairs DSI Nouméa 2018)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>API Design</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>JSON Schema</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>APIGEE</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>ZK Framework</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>picocli</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Cobra (Go)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>BubbleTea</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Flutter</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Distributed systems design (M. Kleppmann, Designing Data-Intensive Applications)</hr:CompetencyName>
+        </PersonCompetency>
+      </SkillsGroup>
+      <SkillsGroup>
+        <Title>Data Engineering (Avancé)</Title>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Apache Airflow</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Apache Kafka</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>MinIO</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Apache Superset</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Lakehouse</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>ETL/ELT</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Debezium</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>OpenSearch</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>ELK Stack</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Elasticsearch</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Kibana</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Gouvernance des métadonnées</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Data Products</hr:CompetencyName>
+        </PersonCompetency>
+      </SkillsGroup>
+      <SkillsGroup>
+        <Title>Bases de données (Avancé)</Title>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>PostgreSQL</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>DuckDB</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>DuckLake</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Oracle</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>SQL</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Tuning</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>SchemaCrawler</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Analyse sécurité &amp; lifecycle</hr:CompetencyName>
+        </PersonCompetency>
+      </SkillsGroup>
+      <SkillsGroup>
+        <Title>DevSecOps (Avancé)</Title>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>GitHub Actions</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>GitHub Issues</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Docker</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Podman</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Kubernetes</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Trivy</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>skopeo</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Shift-left security</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>geol</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>goreleaser</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>RGPD</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>WCAG</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Lighthouse</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Accessibility CI checks</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>DORA metrics</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Scripts Bash</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Grype (scanner de vulnérabilités, grype-contribs)</hr:CompetencyName>
+        </PersonCompetency>
+      </SkillsGroup>
+      <SkillsGroup>
+        <Title>Microsoft Power Platform (Intermédiaire)</Title>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Power BI</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Power Automate</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Microsoft Flow</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Custom connectors APIGEE</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>No-code automation</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Data storytelling</hr:CompetencyName>
+        </PersonCompetency>
+      </SkillsGroup>
+      <SkillsGroup>
+        <Title>Open Data &amp; Data Science (Avancé)</Title>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Kaggle</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Python</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Pandas</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Web scraping</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Open Data</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Création et publication de datasets open data (Kaggle, Hugging Face)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Hackathons</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>uv</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>poetry</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>PyPI</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>PyPI maintainer</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Détection d'anomalies (XGBoost, k-means — PRIX.NC)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Référentiel métiers &amp; compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face)</hr:CompetencyName>
+        </PersonCompetency>
+      </SkillsGroup>
+      <SkillsGroup>
+        <Title>Reporting &amp; Documentation (Avancé)</Title>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Quarto</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>R</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Notebooks reproductibles</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Urbanisation SI</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Rapports de sécurité</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Reporting automatisé</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Data-driven management</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Markdown</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>GitHub Pages</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>LaTeX</hr:CompetencyName>
+        </PersonCompetency>
+      </SkillsGroup>
+      <SkillsGroup>
+        <Title>Open Source (Avancé)</Title>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>endoflife.date</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Chocolatey</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>DuckDB brew extension</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>oracle-jutils</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>mobitag</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>liquibase</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Attraction et fidélisation de contributors externes</hr:CompetencyName>
+        </PersonCompetency>
+      </SkillsGroup>
+      <SkillsGroup>
+        <Title>IoT &amp; Hardware (Intermédiaire)</Title>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Arduino</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>ESP8266 / NodeMCU</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Arduino MKR1000</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Raspberry Pi Pico W</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Pimoroni Cosmic Unicorn</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Arduino IoT Cloud</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>IFTTT / Maker service</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>HC-SR04 (capteur ultrason)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>LED matrix</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Adafruit (FunHouse, PyPortal, MagTag)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>CircuitPython</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Hackster.io</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Robot Reachy Mini (Pollen Robotics)</hr:CompetencyName>
+        </PersonCompetency>
+      </SkillsGroup>
+    </Skills>
+    <Others>
+      <Title>Compétences transversales</Title>
+      <Other>
+        <Title>Developer Relations &amp; Communication (Expert)</Title>
+        <Description>&lt;p&gt;Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation, Storytelling, Data Storytelling, Community building, Marketing $0, Mux, Détournements vidéo tech, Tech advocacy interne, Pitching interne, Évangélisation par la pratique, Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC), Démos live &amp;amp; unboxings de releases&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Compétences transversales</Title>
+      <Other>
+        <Title>Management &amp; Leadership (Expert)</Title>
+        <Description>&lt;p&gt;Management d&amp;#x27;équipe, Management par la confiance, l&amp;#x27;autonomie et les objectifs clairs, Why-first (Sinek) en réflexe d&amp;#x27;équipe — arbitrer où mettre l&amp;#x27;effort, questionner les évidences avant d&amp;#x27;engager, Scrum, Product Owner, Gestion de projet, Jira, LEAN, 5S, Management visuel, Management libéré, Intelligence collective au centre du processus — faire progresser l&amp;#x27;équipe collectivement (Lean &amp;amp; Learn, J. Chaize), Running Lean, Innovation frugale, Open Innovation, Design thinking, Lean UX, Design Sprint, Team Topologies, Transparence radicale, Culture de feedback, Intérim de direction, Recrutement — détection de talent sur dossier, Pilotage de prestataires (BI, cloud, intégration SI), Management full-remote async (GitHub issues uniquement), Serious games et rétrospectives créatives, Transition &amp;amp; onboarding entrant, Facilitation UX &amp;amp; conduite de l&amp;#x27;innovation (Visonneau) — outil de pitch et d&amp;#x27;alignement d&amp;#x27;équipe&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Compétences transversales</Title>
+      <Other>
+        <Title>Pédagogie &amp; Transmission (Expert)</Title>
+        <Description>&lt;p&gt;Enseignement universitaire (Master MIAGE), Pédagogie Montessori, Mindful Learning (Ellen Langer), Learning by doing, Mentorat de stagiaires, Tuteur industriel (projets tutorés UNC), Pédagogie par projets réels open source / open data, Knowledge sharing, Vulgarisation technique, Why-first (Sinek), Construction du raisonnement plutôt que dictée de la solution, Conception de stages sur mesure (datascience → APIs → mobile, art génératif, IoT), Mentorat à distance full-remote (GitHub issues comme seul canal), Facilitation UX (Visonneau), Apprenance &amp;amp; intelligence collective — l&amp;#x27;apprentissage et le groupe au centre (Lean &amp;amp; Learn, J. Chaize), Supports pédagogiques vidéo (tutoriels HackAVP, séries MIAGE), Scénarios interactifs Killercoda&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Compétences transversales</Title>
+      <Other>
+        <Title>Créativité &amp; Apprentissage autodidacte (Expert)</Title>
+        <Description>&lt;p&gt;Imagination, Connexion de domaines éloignés, Pensée transdisciplinaire, Pensée systémique (feedback loops, complexité), Expérimentation, MIT Media Lab mindset, Rendre l&amp;#x27;invisible visible, Détection d&amp;#x27;inefficacités, Idéation en mouvement, Apprendre → construire → démontrer → enseigner, Curiosité naturelle, Observation du réel, Flow &amp;amp; performance cognitive (S. Kotler)&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Compétences transversales</Title>
+      <Other>
+        <Title>Savoir-être validé par les pairs (Expert)</Title>
+        <Description>&lt;p&gt;Approche centrée sur l&amp;#x27;humain (12 recos), Enthousiasme &amp;amp; dynamisme (14 recos), Disponibilité &amp;amp; réactivité (9 recos), Relations de confiance durables (7 recos), Sens de la livraison (6 recos), Culture d&amp;#x27;équipe (5 recos), Écoute des besoins clients (5 recos), Communication (5 recos), Force de proposition (5 recos)&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Certifications</Title>
+      <Other>
+        <Title>Scrum Master — Scrum Alliance</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2013-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Certifications</Title>
+      <Other>
+        <Title>Product Owner — Scrum Alliance</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2014-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Bénévolat</Title>
+      <Other>
+        <Title>Contributeur de données — endoflife.date — Projet open source communautaire</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2021-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Contribution de données au projet endoflife.date, référence mondiale collaborative pour le suivi des dates de fin de vie des logiciels et composants. Développement de l&amp;#x27;intégration Neo4j (endoflife.date-neo4j) référencée dans le wiki officiel du projet aux côtés de Dynatrace et Shodan.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;endoflife.date-neo4j référencé dans le wiki officiel aux côtés de Dynatrace et Shodan&lt;/li&gt;&lt;li&gt;Contributions YAML de données de fin de vie pour plusieurs composants open source, datasets Kaggle automatisés depuis l&amp;#x27;API endoflife.date, rapports et fonctionnalités geol — écosystème complet bâti autour du projet&lt;/li&gt;&lt;li&gt;Intégration utilisée dans la stack DevSecOps de l&amp;#x27;OPT-NC&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://endoflife.date</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Bénévolat</Title>
+      <Other>
+        <Title>Membre actif — Conférencier — Station N — Commission Data &amp; IA</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2022-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Participation active à la commission Data &amp;amp; IA de la Station N, hub d&amp;#x27;open innovation et écosystème tech de référence en Nouvelle-Calédonie. Présentations régulières sur les projets data et IA de l&amp;#x27;OPT-NC et de l&amp;#x27;université, contribution à la diffusion des pratiques data engineering et IA dans l&amp;#x27;écosystème local dans une démarche d&amp;#x27;open innovation.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Présentation de la cartographie du SI OPT-NC par knowledge graph Neo4j&lt;/li&gt;&lt;li&gt;Démonstration de l&amp;#x27;agent IA de cartographie du SI&lt;/li&gt;&lt;li&gt;Présentation des réalisations des étudiants Master MIAGE&lt;/li&gt;&lt;li&gt;Août 2026 — présentation de geol devant les commissions Data &amp;amp; IA et Cybersécurité réunies (RSSI, DSI, chefs de projets, développeurs, enseignants et étudiants Licence Info UNC) : 3 démos live, dont la mise en œuvre de l&amp;#x27;outil sur un repo vierge avec CI en moins de 3 minutes, et un sujet de stage ML issu de l&amp;#x27;auditoire&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://www.station-n.nc</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Bénévolat</Title>
+      <Other>
+        <Title>Enseignant vacataire — Module Interopérabilité des SI — Université de Nouvelle-Calédonie — Master MIAGE (IAE)</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2025-03</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Enseignement exercé entièrement sur temps personnel, le soir après le travail. Conception et animation du module Interopérabilité des Systèmes d&amp;#x27;Information en Master MIAGE. Approche pédagogique inspirée de Montessori : learning by doing, projets réels open source et open data, syllabus public sur GitHub, ressources cloud publiques. Un jeu de données open data réel différent est préparé en amont pour chaque session — jamais de rejeu à l&amp;#x27;identique d&amp;#x27;une année sur l&amp;#x27;autre. Feedbacks et suivi de promotion gérés en données (repo GitHub dédié). Renouvelé pour une 2ème session, août → décembre 2026.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Encadrement de ~12 étudiants sur des projets réels open source et open data — première promotion Mars 2025&lt;/li&gt;&lt;li&gt;Conception intégrale du module et du syllabus (public sur GitHub : adriens/unc_iae_miage_interop_si_feedbacks)&lt;/li&gt;&lt;li&gt;Pédagogie double ancrage : Montessori (apprendre par la manipulation, autonomie) + Mindful Learning d&amp;#x27;Ellen Langer (apprendre sans certitudes, questionner les règles établies, présence au processus plutôt qu&amp;#x27;au résultat) — les deux convergent vers la même posture : construire sa propre compréhension sur de vrais projets&lt;/li&gt;&lt;li&gt;Posture de mentor praticien : on construit ensemble sur de vrais projets, jamais d&amp;#x27;explication théorique seule — chaque étudiant repart avec du code en prod&lt;/li&gt;&lt;li&gt;Expo des réalisations étudiantes en fin d&amp;#x27;année documentée sur dev.to (23 commentaires)&lt;/li&gt;&lt;li&gt;Suivi de la promotion et des feedbacks entièrement gérés en données via un repo GitHub dédié&lt;/li&gt;&lt;li&gt;Approche Why-first systématique (Sinek) — partir du problème métier avant d&amp;#x27;aborder la solution technique&lt;/li&gt;&lt;li&gt;Renouvelé par l&amp;#x27;IAE-UNC pour une 2ème session (août → décembre 2026) — reconduction qui valide l&amp;#x27;impact de la 1ère promotion (2 placements en institution publique calédonienne)&lt;/li&gt;&lt;li&gt;Projet fil rouge PRIX.NC : équipes en compétition mais interdépendantes sur des données réelles, feedback hebdomadaire versionné sur GitHub — dispositif confirmé par 3 témoignages étudiants indépendants (Dévi Bergès, Clémentine Galin, Raimanu Pain) comme moteur de la collaboration cross-équipes et de la communication&lt;/li&gt;&lt;li&gt;Renouvellement délibéré du terrain pédagogique d&amp;#x27;une session sur l&amp;#x27;autre — préparation en amont d&amp;#x27;un jeu de données open data réel différent à chaque fois : PRIX.NC (1ère promotion, 2025) → données AVP OPT-NC / #HackAVP (2ème promotion, 2026)&lt;/li&gt;&lt;li&gt;Pitch #HackAVP au module (2ème session, août→décembre 2026) : les étudiants de la promotion concourent au hackathon en tant qu&amp;#x27;équipes candidates — le module s&amp;#x27;articule directement sur un cas réel d&amp;#x27;ouverture de données publiques (OPT-NC/Station N/OPEN NC)&lt;/li&gt;&lt;li&gt;Projection de la vidéo teaser #HackAVP (31/08/2026) en cours le soir même — démonstration des ressources open data (API, MCP, dataset HuggingFace) directement au groupe d&amp;#x27;étudiants concourant au hackathon&lt;/li&gt;&lt;li&gt;Inscription effective des étudiants au #HackAVP (31/08/2026, le soir même de la projection) — passage de l&amp;#x27;intention pédagogique à la participation concrète, en amont du lancement du 09/09/2026&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://unc.nc</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Bénévolat</Title>
+      <Other>
+        <Title>Contributeur civic data — Réutilisations open data — data.gouv.nc — Portail open data officiel de Nouvelle-Calédonie</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2024-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Publication de réutilisations sur le portail open data officiel de Nouvelle-Calédonie : analyse et visualisation de données publiques locales à fort impact sociétal (sécurité maritime, qualité des eaux de baignade, sécurité routière). Démarche #techforgood et innovation frugale.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Attaques de requins NC : dataset Kaggle, 3 notebooks d&amp;#x27;analyse géospatiale, rapport PDF généré via Quarto — sécurité maritime citoyenne documentée en data science&lt;/li&gt;&lt;li&gt;Eaux de baignade Nouméa : package Python edb-noumea (PyPI v0.4.0), TUI Go, données live — réutilisation publiée et maintenue sur data.gouv.nc&lt;/li&gt;&lt;li&gt;Pattern reproductible #techforgood : open data → scraping → dataset Kaggle → notebooks → rapport Quarto&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://data.gouv.nc</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Speaker — geol @ Station N (Commissions Data &amp; IA + Cybersécurité)</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2026-08-06</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Station N — Commissions Data &amp;amp; IA / Cybersécurité&lt;/p&gt;&lt;p&gt;Présentation de geol devant les commissions Data &amp;amp; IA et Cybersécurité réunies de la Station N — première session croisant les deux commissions. Public mixte : RSSI, DSI, chefs de projets, développeurs, ainsi qu&amp;#x27;enseignants et étudiants de la Licence Informatique UNC. Format court : présentation de l&amp;#x27;outil puis trois démonstrations live enchaînées — scénario interactif Killercoda de la CLI (https://killercoda.com/opt-labs), image Docker, et mise en œuvre complète de geol sur un repo vierge avec CI en moins de 3 minutes. Le time-to-first-value sous 3 minutes comme argument d&amp;#x27;adoption, démontré devant un public de décideurs sécurité. Événement cadré et tracé en open source de bout en bout (proposition, personas ciblés, collecte de feedbacks pour orienter la roadmap produit) : https://github.com/opt-nc/geol/issues/469. Retombée directe côté transmission : un futur stagiaire identifié dans l&amp;#x27;auditoire Licence Info UNC, sur un sujet ML de classification des messages de commits sémantiques du code source de geol — le talk comme point d&amp;#x27;entrée d&amp;#x27;un pipeline recherche appliquée / stage.&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Speaker — PMI Horizons Nouméa (Project Management Institute)</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2026-07-04</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;PMI France – Branche Horizons, Pôle Nouvelle-Calédonie&lt;/p&gt;&lt;p&gt;2ème participation consécutive — Exposé : &amp;quot;Développer mieux. Plus vite. Plus inclusif.&amp;quot; Thème de l&amp;#x27;événement : &amp;quot;L&amp;#x27;innovation n&amp;#x27;a de valeur que lorsqu&amp;#x27;elle crée davantage d&amp;#x27;inclusion, d&amp;#x27;accessibilité et de capacité d&amp;#x27;agir.&amp;quot; Point de départ : un proche en perte d&amp;#x27;autonomie incapable de lire un document pour passer commande — zéro expertise préalable en accessibilité. Approche Design Thinking outillée (Agile, DevOps/CI-CD, Data Science, ML, Graph Data Science, IA) pour concevoir un service accessible quel que soit le handicap ou le contexte. Métriques projet : LEAD Time &amp;amp; DORA. Framework data-driven, open source, avec démonstration live et témoignages utilisateur. Succès mesuré au gain d&amp;#x27;autonomie (nul, partiel ou total). Avant-première du robot Reachy Mini (Pollen Robotics) : agent vocal recommandant des menus Aquavena à un profil sportif triathlon — démo live dédiée à Aquavena. 4 juillet 2026. Vidéo : https://www.youtube.com/watch?v=hcXYVpWKjqA&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Extension officielle DuckDB Community — brew</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2026-02</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;DuckDB&lt;/p&gt;&lt;p&gt;Extension brew listée sur duckdb.org/community_extensions permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge, activement maintenue. https://duckdb.org/community_extensions/extensions/brew&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Hacktoberfest Maintainer Spotlight — geol</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2025-10</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;DEV Community / Hacktoberfest&lt;/p&gt;&lt;p&gt;Mise en avant officielle comme mainteneur open source pour le projet geol lors du Hacktoberfest 2025. https://dev.to/adriens/geol-the-cli-to-efficiently-manage-eols-like-a-boss-3hne&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Mentor Pépite NC 2025 — équipe WAZA lauréate</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2025</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Pépite NC / Bpifrance / Prix Lagoon&lt;/p&gt;&lt;p&gt;Mentor du programme Pépite NC 2025 auprès de l&amp;#x27;équipe WAZA (Dévi Bergès, Tina Nak, James Langeron, Raimanu Pain — étudiants MIAGE UNC). Application de mise en relation chauffeurs/passagers. 3ème place + Prix spécial Lagoon (100 000 CFP). Mentorat sollicité directement par les étudiants.&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Speaker — NODES 2024 (Conférence internationale Neo4j)</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2024-11</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Neo4j&lt;/p&gt;&lt;p&gt;3ème participation consécutive (NODES22 → NODES23 → NODES24) — CFP sélectionné : Cloud-Native Knowledge Graph Automation &amp;amp; AI Agents. Cartographie du SI OPT-NC avec Neo4j, release automatisée et agents IA. Vidéos CFP publiques : https://youtu.be/KFfIgERRjA4 (full) · https://youtu.be/9MxVcMB_RWE (medium) · https://youtu.be/8H5msX4Qp1E (shortest). Article : https://dev.to/adriens/nodes24-a-practical-path-to-cloud-native-knowledge-graph-automation-ai-agents-2ejh&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Speaker — PMI Horizons Nouméa (Project Management Institute)</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2024-11</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;PMI Nouvelle-Calédonie&lt;/p&gt;&lt;p&gt;1ère participation au PMI Horizons Nouméa — Talk : Neo4j &amp;amp; AI Agents et impacts projets — présentation de l&amp;#x27;usage des knowledge graphs et agents IA dans la gestion de projets SI. https://www.youtube.com/watch?v=ErBCyOrup3M&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Notebooks Expert — Kaggle</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2024-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Kaggle (Google)&lt;/p&gt;&lt;p&gt;Top 5% mondial des contributeurs Kaggle — rang 3 005 / 62 173. 6 médailles de bronze, 27 datasets publiés, 81 notebooks, participation régulière aux hackathons.&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Speaker — NODES 2023 (Conférence internationale Neo4j)</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2023-11</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Neo4j&lt;/p&gt;&lt;p&gt;Présentation : Discover a Country&amp;#x27;s UN SDGs Concerns w/ Open Metadata on Neo4j — analyse des préoccupations ODD des Nations Unies via open data et knowledge graph. https://dev.to/adriens/discover-a-country-un-sdgs-concerns-w-open-metadata-on-neo4j-13df&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Speaker — Elastic Paris Meetup #58</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2023-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Elastic&lt;/p&gt;&lt;p&gt;Talk : Linter et cartographier ses bases de données en continu avec SchemaCrawler et Elasticsearch. https://www.youtube.com/watch?v=5B5mGAeaHwA&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Speaker — NODES 2022 (Conférence internationale Neo4j)</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2022-11</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Neo4j&lt;/p&gt;&lt;p&gt;Talk : IT Holism at NODES 2022 — première présentation du knowledge graph SI de l&amp;#x27;OPT-NC, vision holistique du SI par le graphe. https://dev.to/optnc/our-speech-about-it-holism-at-nodes22-1bpl&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Speaker — Talanoa 2022 / Pacific DataViz Challenge (SPC)</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2022-11</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Pacific Community — SPC&lt;/p&gt;&lt;p&gt;Présentation sur la puissance de la dataviz pour le Pacific DataViz Challenge, événement régional organisé par la Commission du Pacifique Sud. Talk sur Neo4j et Gephi comme outils de visualisation de données au service de la prise de décision. https://dev.to/optnc/talanoa-2022-the-power-of-data-visualization-1fgn&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Arctic Code Vault Contributor — GitHub</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2020-07</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;GitHub&lt;/p&gt;&lt;p&gt;Code archivé dans le GitHub Arctic Code Vault pour préservation millénaire.&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Admissible au CAPES externe de Mathématiques</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2000-07</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Ministère de l&amp;#x27;Éducation Nationale&lt;/p&gt;&lt;p&gt;Admissible au CAPES externe de Mathématiques (concours national sélectif) pendant la période d&amp;#x27;enseignement en collège en Nouvelle-Calédonie (1999–2001).&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>Enseignement MIAGE UNC — Module Interopérabilité SI</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2025-03</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Conception et animation du module Interopérabilité des SI en Master MIAGE, IAE-UNC, sur temps personnel. Pédagogie Montessori appliquée à l&amp;#x27;université : learning by doing, projets open source réels, syllabus public sur GitHub. 12 étudiants, promo 2025. Renouvelé pour une 2ème session, août → décembre 2026.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Pédagogie double ancrage : Montessori (manipulation, autonomie) + Mindful Learning d&amp;#x27;Ellen Langer — chaque étudiant repart avec du code en prod&lt;/li&gt;&lt;li&gt;Dévi Bergès (M2 2025) : témoignage vidéo spontané sur la méthode + recruté à l&amp;#x27;OPT-NC sur recommandation active — https://youtu.be/0QU79d9cqJg&lt;/li&gt;&lt;li&gt;Thouraya Sakis (M2 2025) : retenue à l&amp;#x27;ISEE-NC après recommandation avec entretien&lt;/li&gt;&lt;li&gt;Deux placements en institution publique calédonienne en juin 2026 — preuve d&amp;#x27;impact au-delà du cours&lt;/li&gt;&lt;li&gt;Expo des réalisations étudiantes en fin d&amp;#x27;année documentée sur Dev.to (23 commentaires)&lt;/li&gt;&lt;li&gt;Syllabus public sur GitHub — transparence totale de la méthode&lt;/li&gt;&lt;li&gt;Renouvelé par l&amp;#x27;IAE-UNC pour une 2ème session (août → décembre 2026)&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/adriens/unc_iae_miage_interop_si_feedbacks</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>Programme stages &amp; projets tutorés OPT-NC × UNC</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2019</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Programme informel mais documenté d&amp;#x27;encadrement de stagiaires et projets tutorés en partenariat avec l&amp;#x27;Université de la Nouvelle-Calédonie (UNC). Chaque projet part d&amp;#x27;un problème réel OPT-NC, expose un étudiant à des technologies modernes, et livre un artefact concret et publié — article Dev.to, vidéo YouTube, repo GitHub. Technologies couvertes : ML/IA, Flutter, Unity, Streamlit, Next.js, ELK Stack, IoT/LED matrix, Java/JavaFX, APIs REST conteneurisées.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;15 projets encadrés (2019→2026) — 10 stages + 5 projets tutorés&lt;/li&gt;&lt;li&gt;19 étudiants distincts — majoritairement locaux (Nouméa), avec des étudiants de France métropolitaine en échange à l&amp;#x27;UNC (Toulouse, Paris, Toulon)&lt;/li&gt;&lt;li&gt;100% des projets livrés avec au moins un artefact public : article Dev.to, vidéo YouTube ou repo GitHub open source&lt;/li&gt;&lt;li&gt;Fil conducteur : un problème réel OPT-NC → open data ou API → livrable concret → publication — reproductible sur 6 ans&lt;/li&gt;&lt;li&gt;Olivier Dinan (07/07→11/08/2026) : structuration interopérable du référentiel des métiers OPT-NC — DuckDB/SQLite, SchemaCrawler, site Hugo, CI/CD semantic-release (https://youtu.be/yeuByq3sgdM)&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/opt-nc/odata-stages-projets-tutores-unc</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>geol — CLI de gestion des End-of-Life</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2025-08</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Outil open source (Go) pour gérer les end-of-life des composants logiciels en terminal et CI. Intègre Trivy pour le scan de vulnérabilités. Reporting Quarto intégré : rapport HTML avec charts visuels (score de dette, calendrier EOL) — instantané, partageable à des décideurs non-techniques. Conçu le week-end sur temps personnel. Hacktoberfest Maintainer Spotlight 2025.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;1 300+ downloads, 11 stars, v2.7.1 activement maintenue&lt;/li&gt;&lt;li&gt;Hacktoberfest 2025 Maintainer Spotlight officiel&lt;/li&gt;&lt;li&gt;Rapport HTML Quarto : score de dette technique, charts visuels et calendrier EOL — généré automatiquement, partageable directement à des décideurs&lt;/li&gt;&lt;li&gt;Approche marketing $0 — démos vidéo sur Mux/YouTube et articles dev.to uniquement, zéro budget pub&lt;/li&gt;&lt;li&gt;Août 2026 — présenté à la Station N devant les commissions Data &amp;amp; IA et Cybersécurité réunies (RSSI, DSI, chefs de projets, développeurs, enseignants et étudiants Licence Info UNC) : 3 démos live, dont l&amp;#x27;onboarding d&amp;#x27;un repo vierge avec CI en moins de 3 minutes ; feedbacks collectés pour orienter la roadmap produit (https://github.com/opt-nc/geol/issues/469)&lt;/li&gt;&lt;li&gt;Sujet de stage ML dérivé du projet : classification des messages de commits sémantiques sur le code source de geol — le repo comme terrain de recherche appliquée pour la Licence Info UNC&lt;/li&gt;&lt;li&gt;Onboarding sans friction : scénario interactif Killercoda, image Docker et intégration CI — trois portes d&amp;#x27;entrée selon le persona (developer, devops, RSSI/sysadmin)&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/opt-nc/geol</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>geol-showcase — Rapports d'évolution de sécurité (OpenBao, PostgreSQL)</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2025-09</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Vitrine de ce que permet geol combiné à la data science, à l&amp;#x27;IA et aux outils DevSecOps : rapports PDF d&amp;#x27;évolution de sécurité d&amp;#x27;images conteneurs, générés en LaTeX à partir de scans Trivy, de métadonnées skopeo et des cycles de vie geol. Chaque rapport est maintenu par un agent IA (Claude Code) guidé par un CLAUDE.md qui documente la méthodologie de mise à jour.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;OpenBao v2.4.0 → v2.7.0 (15 versions, rapport 17 pages) : 235 → 1 vulnérabilité (-99,6 %), score de sécurité 29,1 → 100/100, recommandation de production v2.6.3+&lt;/li&gt;&lt;li&gt;Scoring CVE pondéré (Critical 10, High 5, Medium 2, Low 1) à dénominateur fixe — scores stables d&amp;#x27;une édition à l&amp;#x27;autre et comparables entre produits&lt;/li&gt;&lt;li&gt;Analyse de la dérive de la base CVE : mêmes images re-scannées à 5 dates pour séparer le vrai travail de sécurité de l&amp;#x27;artefact de mesure&lt;/li&gt;&lt;li&gt;Fraîcheur de l&amp;#x27;OS de base : croisement geol × historique des tags Docker Hub pour vérifier si chaque image embarquait la dernière Alpine disponible&lt;/li&gt;&lt;li&gt;Rapport PostgreSQL (versions supportées et EOL) : à l&amp;#x27;origine de la publication Zenodo PostgreSQL Security Analysis&lt;/li&gt;&lt;li&gt;Méthodologie reproductible : Taskfile (rescan de toutes les versions sur une même base Trivy), scripts Bash d&amp;#x27;extraction et de scoring&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/adriens/geol-showcase</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>Helia Monitor — Stack monitoring consommation mobile OPT-NC</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2025-06</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Stack personnelle de monitoring de l&amp;#x27;offre mobile Helia (OPT-NC) : APK reverse-engineered pour extraire les appels HTTP privés, Go CLI qui snapshote voice/data/SMS dans DuckDB toutes les 5 minutes, widgets KDE Plasma Python/PyQt live. Hermes Agent génère un rapport PDF 17 pages multi-parties prenantes (CEO/CIO/Admin réseau) via LaTeX pour $19.57 vs une semaine de travail manuel. Inscrit au DEV Challenge (Dev.to). Repo : https://github.com/adriens/helia&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Reverse-engineering de l&amp;#x27;APK Helia — extraction des appels HTTP privés, reconstruits en Go CLI&lt;/li&gt;&lt;li&gt;DuckDB comme base locale : historique de consommation, burn rate, alertes — données non disponibles dans l&amp;#x27;app officielle&lt;/li&gt;&lt;li&gt;Widgets KDE Plasma Python/PyQt lisant DuckDB en temps réel avec icône system tray&lt;/li&gt;&lt;li&gt;Rapport PDF 17 pages généré par Hermes Agent + LaTeX : 3 profils (CEO/CIO/Admin), 326 requêtes, 61.4M tokens, $19.57&lt;/li&gt;&lt;li&gt;Intégration robot Reachy Mini (simulation, CPU-only, sans LLM) : alerte vocale sur seuil de consommation via HuggingFace app store — https://youtu.be/hnn5J3qbDyU&lt;/li&gt;&lt;li&gt;Étude complète open innovation (65 min) — télémétrie, éditiques, SLAs, DORA, B2B APIGEE, MCP, IoT — https://youtu.be/tPihPZRfh2A&lt;/li&gt;&lt;li&gt;Dev Challenge HERMES x Qwen 3.7 Max (OpenRouter) : rapport Quarto multi-rôles (CEO/CIO/Admin/Dev), role-playing simulation, bimodal distribution discovery — https://youtu.be/Zw-lfNFA0fQ&lt;/li&gt;&lt;li&gt;Clip : HERMES annotant les SLAs analytics LaTeX en direct depuis DuckDB — https://youtu.be/wUKko5sRwzQ&lt;/li&gt;&lt;li&gt;Clip role-playing dédié : personas lean/agile (CEO, CIO, CTO, sysadmin, dev, marketing, client final) joués par HERMES pour générer un executive summary one-pager — https://youtu.be/RxqDZKXxWyY&lt;/li&gt;&lt;li&gt;Manifeste Open Innovation NC (&amp;lt; 1&amp;#x27;) — appel à l&amp;#x27;innovation collective pour tous les devs, makers et startups calédoniennes — https://youtu.be/krLwHwx1AeY&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://dev.to/adriens/i-reverse-engineered-my-mobile-operators-apk-then-hermes-agent-wrote-the-executive-report-2j3o</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>HELIA État Réseaux — SDK &amp; cartographie des maintenances réseau OPT-NC</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2026-06</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;SDK Python open source helia-etat-reseaux (PyPI, LGPL-3.0) pour scraper les maintenances programmées réseau OPT-NC/HELIA (helia.nc/etat-du-reseau). Enrichissement avec les référentiels open data NC : communes (datavenc), provinces et population légale. Dépôt de données GitHub accumule les interventions actives et archivées. Application web Astro déployée sur GitHub Pages : carte interactive géolocalisée (bulles proportionnelles à la population impactée), vue Kanban des maintenances imminentes, analytics, flux RSS et abonnement calendrier par commune. &amp;quot;Tour des maintenances&amp;quot; : animation spectacle data-art des interventions OPT-NC sur fond cartographique. Lien explicite avec la méthode 5S data-driven.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;SDK helia-etat-reseaux (PyPI v0.6.1, LGPL-3.0) — scraping + enrichissement référentiels communes/provinces/population — https://github.com/adriens/helia-etat-reseau&lt;/li&gt;&lt;li&gt;Data repo GitHub : accumulation maintenances actives et archivées — https://github.com/adriens/helia-etat-reseau-data&lt;/li&gt;&lt;li&gt;Carte interactive géolocalisée : interventions OPT-NC avec bulles proportionnelles à la population impactée par commune&lt;/li&gt;&lt;li&gt;Vue Kanban : maintenances imminentes avec durée, type d&amp;#x27;impact et population concernée&lt;/li&gt;&lt;li&gt;RSS par commune + export calendrier (.ics) : alertes proactives avant coupure planifiée&lt;/li&gt;&lt;li&gt;&amp;quot;Tour des maintenances&amp;quot; : animation data-art spectacle des interventions sur carte — https://youtu.be/P0Q0DY8sCn0&lt;/li&gt;&lt;li&gt;Rétrospective saga temps d&amp;#x27;attente OPT-NC : visualisations reprises dans le plan stratégique, Unity 3D et matrices LED&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://adriens.github.io/helia-etat-reseau-data/</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>duckdb-brew — Extension DuckDB Community</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2026-02</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Extension officielle DuckDB Community permettant de requêter les packages Homebrew installés directement en SQL. Construite pendant le GitHub Copilot CLI Challenge avec vibe coding + CI/CD. Listée sur duckdb.org. Demo Quarto publiée en 2026 : notebook PDF avec Graph Data Science et charts de sécurité.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Listée officiellement sur duckdb.org/community_extensions/extensions/brew&lt;/li&gt;&lt;li&gt;Construite en hackathon, activement maintenue — 824 téléchargements/mois&lt;/li&gt;&lt;li&gt;Permet analyses de dépendances, centralité de graphe et rapports de sécurité en SQL pur&lt;/li&gt;&lt;li&gt;Demo Quarto : notebook Python génère un rapport PDF professionnel via GitHub Copilot en 2h&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/adriens/duckdb-brew</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>Knowledge Graph SI OPT-NC — Neo4j</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2021-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Système de cartographie du SI de l&amp;#x27;OPT-NC basé sur Neo4j avec release automatisée via GitHub Actions. Présenté à NODES 2022, 2023 et 2024. Enrichi d&amp;#x27;agents IA.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Speaker NODES 2022 : Cartographie du SI OPT-NC — première version du knowledge graph&lt;/li&gt;&lt;li&gt;Speaker NODES 2023 : Discover a Country&amp;#x27;s UN SDGs Concerns w/ Open Metadata on Neo4j&lt;/li&gt;&lt;li&gt;Speaker NODES 2024 : Cloud-Native Knowledge Graph Automation &amp;amp; AI Agents&lt;/li&gt;&lt;li&gt;Release automatisée via GitHub Actions&lt;/li&gt;&lt;li&gt;endoflife.date-neo4j référencé dans le wiki officiel endoflife.date aux côtés de Dynatrace et Shodan&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/opt-nc</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>Open Data RH OPT-NC — Expérience candidat augmentée par l'IA</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2024-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Programme open data autour des données RH de l&amp;#x27;OPT-NC : référentiel des métiers, offres d&amp;#x27;emploi, AVPS (avis de vacances de poste) et organigramme publiés en open data pour créer une expérience candidat unique. Datasets Hugging Face, agents IA et MCPs pour rendre ces données exploitables par Claude et d&amp;#x27;autres LLMs.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Référentiel des métiers OPT-NC : dataset HuggingFace + application Gradio&lt;/li&gt;&lt;li&gt;Référentiel des métiers OPT-NC restructuré en interopérable (stage Olivier Dinan, 07/07→11/08/2026) : DuckDB/SQLite, documentation SchemaCrawler, export PDF, site Hugo publié sur GitHub Pages, CI/CD semantic-release — https://opt-nc.github.io/odata-referentiel-metiers/&lt;/li&gt;&lt;li&gt;AVPS (avis de vacances de poste) : dataset HuggingFace + agent IA de matching compétences/poste, désormais normalisées schema.org/JobPosting et exposées par API + serveur MCP&lt;/li&gt;&lt;li&gt;Objectif : expérience candidat d&amp;#x27;excellence — trouver, comprendre et candidater à un poste en quelques minutes via IA&lt;/li&gt;&lt;li&gt;#HackAVP : premier hackathon calédonien dédié à l&amp;#x27;emploi dans la fonction publique, co-organisé avec la Station N et la commission Data &amp;amp; IA du cluster OPEN NC — lancement 09/09/2026, finale le 04/11/2026 à TECH&amp;#x27;N CO — https://dev.to/adriens/hackavp-premier-hackathon-dedie-a-lemploi-dans-la-fonction-publique-en-ncl-3oj0&lt;/li&gt;&lt;li&gt;Jury #HackAVP constitué (29/08/2026) — pilotage du recrutement et de la composition du jury du hackathon&lt;/li&gt;&lt;li&gt;Vidéo teaser #HackAVP (31/08/2026) : démonstration des ressources open data mises à disposition des candidats — API et MCP des AVPs, dataset HuggingFace, site web, flux RSS, API et open data des métiers — https://youtu.be/jHE-4l2Gwbk&lt;/li&gt;&lt;li&gt;Vidéo « Who am I pipeline - Recevoir une recommendation » (01/09/2026) : ressource candidat #HackAVP illustrant l&amp;#x27;industrialisation du CV — transformation en direct d&amp;#x27;une recommandation LinkedIn reçue en données versionnées du resume.json via Claude — https://youtu.be/pi3kmAfxIGw&lt;/li&gt;&lt;li&gt;Vidéo « HackAVP - Le slideshow des AVPs et la candidate experience sur TV et mobile » (07/09/2026, J-2 du lancement) : site des AVPs généré avec Hugo exploité en diaporama plein écran pour la valorisation des offres d&amp;#x27;emploi sur écran de télévision/projection, avec transfert de l&amp;#x27;expérience candidat vers mobile via QR code — https://youtu.be/dZHvKJ1OTRs&lt;/li&gt;&lt;li&gt;Article + démo #HackAVP « Trouver un poste sans rien coder avec le feed RSS » (11/09/2026) : soumission personnelle sur la track SaaS, en conditions réelles — veille automatisée sur le flux RSS des AVPs via Claude CoWork (filtrage hebdomadaire par compétences/appétences), ayant permis de détecter une offre de CDO alignée avec son propre profil, avec génération assistée du CV, de la lettre de motivation et du document de préparation à l&amp;#x27;entretien — https://dev.to/adriens/pendant-un-hackathon-data-je-trouve-une-opportunite-de-cdo-dans-ma-propre-entreprise-4bp9&lt;/li&gt;&lt;li&gt;Vidéo tutoriel #HackAVP « Je soumets ma réalisation » (22/09/2026) : pédagogie candidat — parcours de soumission filmé de bout en bout (prérequis article Dev.to public, remplissage du formulaire), en s&amp;#x27;appuyant sur sa propre soumission CDO comme exemple concret — https://youtu.be/3QG_BndMt6o&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://huggingface.co/opt-nc</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>MCP OPT-NC — Offres d'emploi Hugging Face</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2025-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Model Context Protocol exposant les offres d&amp;#x27;emploi de l&amp;#x27;OPT-NC depuis Hugging Face. Démo publique : trouver et candidater à un poste avec Claude en 20 minutes.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Démo YouTube : candidature complète (lettre, préparation entretien) en 20 minutes&lt;/li&gt;&lt;li&gt;Stack 100% open source et open data&lt;/li&gt;&lt;li&gt;Gradio + Hugging Face Spaces + Claude&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://www.youtube.com/watch?v=yfkjFV42FmY</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>mobitag — CLI Go pour l'envoi de SMS</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2024-06</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;CLI en Go pour envoyer des SMS via l&amp;#x27;API Mobitag de l&amp;#x27;OPT-NC. Distribué via Homebrew et goreleaser. Conçu avec l&amp;#x27;équipe comme exercice pédagogique CLI-first. Série de 4 articles sur dev.to.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Commenté par Jess Lee, co-fondatrice de DEV/Forem&lt;/li&gt;&lt;li&gt;Philosophie CLI-guidelines : UX first, binaire statique cross-platform, Cobra&lt;/li&gt;&lt;li&gt;Distribué via Homebrew/goreleaser&lt;/li&gt;&lt;li&gt;Custom connector Power Automate développé pour appeler l&amp;#x27;API Mobitag exposée sur APIGEE — rend l&amp;#x27;envoi de SMS possible depuis n&amp;#x27;importe quel workflow, gratuitement pour l&amp;#x27;OPT-NC, et démontre la valeur bankable de ce type de composant&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/opt-nc/mobitag</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>ollama-models — Dataset stats téléchargements LLM</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2024-10</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Dataset Kaggle exposant les statistiques de téléchargement des modèles Ollama : données collectées, stockées dans une base DuckDB, exportées en Parquet. Notebook d&amp;#x27;exploration fourni. Croise data engineering frugal et veille sur l&amp;#x27;écosystème LLM open source.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stack DuckDB + Parquet — pipeline analytique léger et reproductible&lt;/li&gt;&lt;li&gt;Notebook Kaggle intégré pour l&amp;#x27;exploration immédiate des données&lt;/li&gt;&lt;li&gt;Indicateur de tendance sur l&amp;#x27;adoption des LLM open source via Ollama&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://www.kaggle.com/datasets/adriensales/ollama-models</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>edb-noumea — SDK qualité eaux de baignade</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2025-09</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Package PyPI (stack uv) scraper de la qualité des eaux de baignade à Nouméa. Écosystème complet : TUI Go/BubbleTea, dataset Kaggle, live CSV data, graphiques automatiques. v0.4.0 mai 2026.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Activement maintenu — v0.4.0 mai 2026&lt;/li&gt;&lt;li&gt;HuggingFace MCP Space : rastadidi/edb-noumea — serveur MCP pour accès direct aux données de qualité des eaux depuis les agents IA&lt;/li&gt;&lt;li&gt;Écosystème complet : PyPI + Kaggle + GitHub Actions + TUI Go&lt;/li&gt;&lt;li&gt;Exemple de data citizen appliqué au quotidien&lt;/li&gt;&lt;li&gt;Genèse documentée dans une série LinkedIn Pulse 2019 : API REST → SVG badges → Twitter bot → AR → smart city (5 articles)&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://pypi.org/project/edb-noumea/</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>odata-ncl — Open Data Citoyenne Nouvelle-Calédonie</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2024-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Umbrella de projets data citoyenne sur les données ouvertes de Nouvelle-Calédonie. Objectif : collecter, analyser et publier des données locales à fort impact sociétal — sécurité maritime, qualité des eaux, sécurité routière. Stack complète : Python/uv, Quarto, Kaggle, GitHub Actions, TUI Go/BubbleTea.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Attaques de requins NC : dataset Kaggle, 3 notebooks d&amp;#x27;analyse, rapport PDF Quarto, article Dev.to avec Gemini CLI&lt;/li&gt;&lt;li&gt;Eaux de baignade Nouméa (edb-noumea) : PyPI v0.4.0, TUI Go, live CSV, graphiques automatiques&lt;/li&gt;&lt;li&gt;Pattern reproductible : open data → scraping → dataset Kaggle → notebooks → rapport Quarto&lt;/li&gt;&lt;li&gt;Réutilisations publiées sur data.gouv.nc, portail open data officiel de Nouvelle-Calédonie&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/adriens/odata-ncl</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>Catalogue d'APIs publiques OPT-NC — Vitrine &amp; produit d'appel</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2021-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Conception et pilotage d&amp;#x27;un catalogue d&amp;#x27;APIs publiques gratuites exposées sur le portail APIGEE de l&amp;#x27;OPT-NC (https://apigee-optnc-prd-api.apigee.io/). Toutes en lecture seule. Sources hétérogènes selon l&amp;#x27;API : données statiques gérées en interne, scraping de sites sans API officielle, ou croisement avec de l&amp;#x27;open data (data.gouv.nc). Stratégie vitrine : prouver la valeur de l&amp;#x27;interopérabilité, attirer développeurs et entreprises, créer l&amp;#x27;appétit pour des APIs supplémentaires ou sur-mesure. Rôle : Product Owner &amp;amp; architecte — l&amp;#x27;équipe GLIA développe.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Localisation des boîtes postales : géolocalisation de toutes les BP en NC — a donné lieu à une réutilisation applicative par la communauté&lt;/li&gt;&lt;li&gt;Suivi de colis : API de tracking OPT-NC exposée publiquement — genèse de l&amp;#x27;écosystème colisnc (SDK Java, webapp, AR, Discord, mobile Flutter)&lt;/li&gt;&lt;li&gt;Noms de domaine .NC : scraping du site domaine.nc → première et unique API publique sur les domaines .NC — app mobile Flutter tierce (25 releases, Google Play Store)&lt;/li&gt;&lt;li&gt;Pharmacies de garde : scraping → API exposant les pharmacies d&amp;#x27;astreinte en NC — information critique pour les usagers en dehors des heures ouvrées&lt;/li&gt;&lt;li&gt;Validateur de numéro de téléphone : validation des numéros NC (format, opérateur) — donnée interne OPT-NC&lt;/li&gt;&lt;li&gt;RIDET : API sur le registre des entreprises actives en NC — données data.gouv.nc, 2 articles DEV.to&lt;/li&gt;&lt;li&gt;Référentiel des agences : localisation et informations de toutes les agences OPT-NC&lt;/li&gt;&lt;li&gt;Transitaires : API listant les transitaires habilités à gérer les taxes de colis de fret en NC — usage professionnel direct&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://apigee-optnc-prd-api.apigee.io/</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>oracle-jutils — Framework PL/SQL Oracle 11g</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2009-03</hr:FormattedDateTime>
+          </StartDate>
+          <EndDate>
+            <hr:FormattedDateTime>2012-12</hr:FormattedDateTime>
+          </EndDate>
+        </Date>
+        <Description>&lt;p&gt;Framework open source de packages PL/SQL pour Oracle 11g (dump LOB, CRC, MIME type, XMPP, QR codes, Twitter...). Première et unique implémentation libre. Découvert et reconnu par des équipes Oracle APEX au Texas.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;6 509 téléchargements sur SourceForge (2009-2026)&lt;/li&gt;&lt;li&gt;Note 5/5 étoiles par la communauté&lt;/li&gt;&lt;li&gt;Reconnu par des équipes Oracle APEX basées au Texas&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://sourceforge.net/projects/oracle-jutils/</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>API domaine.nc — Création de l'interopérabilité des noms de domaine .NC</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2022-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Avant ce projet : aucune API, aucune interopérabilité possible sur les données des noms de domaine .NC. Scraping du site domaine.nc (aucune API officielle) → API exposée sur la marketplace APIGEE grand public de l&amp;#x27;OPT-NC + dataset open data Kaggle. Effet multiplicateur : une application mobile Flutter open source développée par la communauté, publiée sur le Google Play Store et testée en crowdtesting.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Zéro interopérabilité avant ce projet — scraping du site domaine.nc (pas d&amp;#x27;API officielle) → première et unique API publique des noms de domaine .NC&lt;/li&gt;&lt;li&gt;Dataset open data Kaggle : New Caledonia .NC Domains Database — notebooks Jupyter, graph Neo4j AuraDB + tableau de bord NeoDash&lt;/li&gt;&lt;li&gt;App mobile Flutter open source tierce : 25 releases (v1.4.2 oct. 2025), 7 stars, 2 forks, Google PlayStore&lt;/li&gt;&lt;li&gt;Testée en crowdtesting professionnel via Hightest/Testeum — témoignage publié&lt;/li&gt;&lt;li&gt;**Saga complète : 12 articles Dev.to** (avr. 2022 → déc. 2023) — Docker, GH Actions, RapidAPI, Killercoda, Neo4j/NeoDash, mobile PlayStore, Kaggle + série mobile&lt;/li&gt;&lt;li&gt;**21 vidéos playlist DOMAINE.nc** — https://www.youtube.com/playlist?list=PL7GdrgVAWcDgTfeJKnrK2MyeKCxJWNs03 | **5 vidéos playlist Mobile** — https://www.youtube.com/playlist?list=PL7GdrgVAWcDilGJGeNuVdvCM-lSmt5DNT&lt;/li&gt;&lt;li&gt;Pattern complet : problème identifié → API → open data → app mobile → écosystème communautaire&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/lschaeffer313/domaine-nc-mobile</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>liquibase — Package Chocolatey</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2013-05</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Création du package Chocolatey officiel pour Liquibase, l&amp;#x27;outil de migration de bases de données de référence. Package ensuite repris et maintenu par les ingénieurs DevOps de Liquibase eux-mêmes — validation directe par l&amp;#x27;éditeur de la qualité du travail.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;37 250 downloads sur la communauté Chocolatey&lt;/li&gt;&lt;li&gt;Repris par les ingénieurs DevOps de Liquibase — adoption officielle par l&amp;#x27;éditeur&lt;/li&gt;&lt;li&gt;Première version publiée le 10 mai 2013 (Liquibase 2.0.5.1)&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://community.chocolatey.org/packages/liquibase</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>auptitcafe — SDK scraping cafés &amp; restaurants NC</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2023-05</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Package PyPI de scraping des données de cafés et restaurants en Nouvelle-Calédonie : prix, noms de plats, recettes et images. Pipeline complet de données avec GitHub Actions pour l&amp;#x27;archivage live, dataset et notebooks Kaggle, agent chat HuggingFace, landing page data-driven et série dédiée sur Dev.to.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Package PyPI maintenu avec GitHub Action d&amp;#x27;archivage des données en continu&lt;/li&gt;&lt;li&gt;Dataset Kaggle + notebooks d&amp;#x27;analyse explorée&lt;/li&gt;&lt;li&gt;Agent HuggingFace Chat pour interroger les données en langage naturel&lt;/li&gt;&lt;li&gt;Landing page GitHub Pages générée depuis l&amp;#x27;historique des menus (statistiques de diversité, navigation temporelle) — https://adriens.github.io/auptitcafe-landing/ — soumise au DEV.to Frontend Challenge (Comfort Food Edition)&lt;/li&gt;&lt;li&gt;Série dédiée sur Dev.to : https://dev.to/adriens/series/23071&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://pypi.org/project/auptitcafe/</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>aquavena — SDK Python scraping menus &amp; tarifs Aquavena NC</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2025-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;SDK Python + CLI pour scraper les menus et tarifs d&amp;#x27;Aquavena, service de livraison de repas diététiques en Nouvelle-Calédonie. Support de 8+ régimes alimentaires (méditerranéen, low carb, végétarien, sportif…), tarifs en XPF, filtrage par jour. Intégration Claude Skill + HuggingFace Space. Déclencheur : un proche malvoyant incapable de lire les menus pour passer commande — zéro expertise accessibilité préalable, approche Design Thinking.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Package PyPI `aquavena-sdk` (Python ≥3.13) — SDK + CLI autonome&lt;/li&gt;&lt;li&gt;8+ régimes : menus hebdomadaires détaillés (déjeuner/dîner, suppléments, boissons) + tarifs complets&lt;/li&gt;&lt;li&gt;HuggingFace MCP Space : rastadidi/aquavena — serveur MCP pour accès aux menus depuis les agents IA (créé mai 2026) + Claude Skill dédié + documentation GitHub Pages&lt;/li&gt;&lt;li&gt;Score accessibilité Aquavena 90→100% / site PWA Astro 81→100% — 31 erreurs WCAG → 0 — DORA Scorecard élite (lead time 15 min, 2,5 déploiements/jour, MTTR &amp;lt;1h)&lt;/li&gt;&lt;li&gt;Avant-première live au PMI Horizons Nouméa (4 juillet 2026) — robot Reachy Mini (Pollen Robotics) recommande un menu Aquavena à un sportif triathlon, démo dédiée : recommandation par embeddings (matching sémantique profil ↔ menus) — https://www.youtube.com/watch?v=hcXYVpWKjqA&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://pypi.org/project/aquavena-sdk/</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>SchemaCrawler — Contribution open source</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2022-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Contributeur actif sur SchemaCrawler : packaging RPM/DEB, package Chocolatey (23 048 downloads), intégration Neo4j.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;23 048 downloads du package Chocolatey maintenu&lt;/li&gt;&lt;li&gt;Packaging multi-format : Chocolatey, RPM et DEB — distribution sur les principaux gestionnaires de paquets&lt;/li&gt;&lt;li&gt;Intégration Neo4j pour visualisation des schémas&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://community.chocolatey.org/packages/schemacrawler/17.6.1</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>Person Counter — Comptage ML pour optimiser l'occupation des salles de réunion</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2020-11</hr:FormattedDateTime>
+          </StartDate>
+          <EndDate>
+            <hr:FormattedDateTime>2020-12</hr:FormattedDateTime>
+          </EndDate>
+        </Date>
+        <Description>&lt;p&gt;API Java de détection et comptage d&amp;#x27;entités par vision par ordinateur, basée sur DJL (Deep Java Library) et TensorFlow. Alimentait un dashboard ELK Stack en KPIs temps réel et heatmaps pour optimiser l&amp;#x27;occupation des salles de réunion à l&amp;#x27;OPT-NC. Distribuée en image Docker sur DockerHub. Documentée dans un article LinkedIn Pulse.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;DJL + TensorFlow : inférence ML en Java sans dépendance Python — intégration native Spring Boot, image Docker publique sur DockerHub&lt;/li&gt;&lt;li&gt;Dashboard Kibana temps réel : KPIs d&amp;#x27;occupation + heatmaps issues des flux API — aide à la décision sur la gestion des espaces de travail&lt;/li&gt;&lt;li&gt;API REST avec filtres par classe d&amp;#x27;objet et seuil de confiance, endpoints de visualisation, métadonnées et analyse&lt;/li&gt;&lt;li&gt;Article LinkedIn Pulse publié : démonstration de la valeur métier du ML appliqué à l&amp;#x27;optimisation des espaces&lt;/li&gt;&lt;li&gt;API conteneurisée (person-counter-api) : **91 pulls** Docker Hub&lt;/li&gt;&lt;li&gt;Système d&amp;#x27;alerte from scratch sur Raspberry Pi 4 + caméra : détection temps réel + appels webhooks — implémenté avec un stagiaire (Guillaume Bertherat, 2021)&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/adriens/person-counter-api</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>ColisNC — Écosystème open source suivi de colis OPT-NC</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2019-09</hr:FormattedDateTime>
+          </StartDate>
+          <EndDate>
+            <hr:FormattedDateTime>2021-06</hr:FormattedDateTime>
+          </EndDate>
+        </Date>
+        <Description>&lt;p&gt;Écosystème complet de 6 composants open source construits autour du suivi de colis de l&amp;#x27;OPT-NC : SDK Java distribué sur JitPack avec CI Travis, webapp responsive déployée en production, assistant en réalité augmentée, borne Angular 11 + Docker, bot Discord Java et prototype mobile Flutter. Illustration concrète du potentiel multiplicateur d&amp;#x27;une API bien exposée.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;colisnc-sdk : SDK Java publié sur JitPack avec CI Travis — première brique permettant aux développeurs d&amp;#x27;intégrer le suivi de colis NC sans scraping&lt;/li&gt;&lt;li&gt;colisnc-webapp : application web responsive déployée en production sur colisnc.redstone.nc&lt;/li&gt;&lt;li&gt;colisnc-AR : assistant en réalité augmentée pour suivre la livraison de ses colis — présenté dans la communauté OPT-NC&lt;/li&gt;&lt;li&gt;colisnc-borne : application borne Angular 11 + Docker pour affichage en agence&lt;/li&gt;&lt;li&gt;colisnc-discord : bot Discord Java (Javacord) pour interroger l&amp;#x27;API OPT-NC depuis n&amp;#x27;importe quel serveur Discord&lt;/li&gt;&lt;li&gt;Progression SDK → webapp → AR → borne → Discord → mobile (Flutter) : pattern de démultiplication autour d&amp;#x27;une API exposée&lt;/li&gt;&lt;li&gt;Impact Docker Hub : colisnc-api — **132 pulls**&lt;/li&gt;&lt;li&gt;**Playlist YouTube Colis NC : 9 vidéos** — https://www.youtube.com/playlist?list=PL7GdrgVAWcDjRyCWzfueG9GZqe9M2Lqxe&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/adriens/colisnc-sdk</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>OPT-NC Fiber Eligibility — Scraper Go + API REST + Swagger</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2025-12</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Scraper Go (Chromium headless) exposant l&amp;#x27;éligibilité fibre et ADSL de l&amp;#x27;OPT-NC sous forme d&amp;#x27;API REST avec documentation Swagger/OpenAPI 3.0 interactive. Architecture clean (cmd/internal/pkg), dual mode CLI + API, image Docker Hub publique, Taskfile. Fait sur temps personnel — data citizen.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Scraping Chromium headless en Go — approche plus robuste que HtmlUnit Java (2017), gère le JavaScript des formulaires OPT-NC&lt;/li&gt;&lt;li&gt;API REST sémantique : 200 (numéro trouvé), 404 (inconnu), 400 (format invalide) — retourne fibre, ADSL, liste des FAIs NC disponibles&lt;/li&gt;&lt;li&gt;Swagger UI embarqué (OpenAPI 3.0) : documentation interactive générée depuis annotations Go&lt;/li&gt;&lt;li&gt;**439 pulls** Docker Hub — image publique rastadidi/optnc-fiber-eligibility + Taskfile pour build/run/test/logs&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/adriens/optnc-fiber-eligibility</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>rfc4180-validator — Validateur CSV strict pour CI/CD</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2018-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Image Docker validant strictement la conformité d&amp;#x27;un fichier CSV à la RFC 4180. Conçu pour s&amp;#x27;intégrer dans des pipelines CI/CD afin de garantir la qualité des exports CSV avant ingestion ou publication open data.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;**219 pulls** Docker Hub — adoption communauté internationale&lt;/li&gt;&lt;li&gt;Validation stricte RFC 4180 : séparateurs, guillemets, fins de ligne, encodage&lt;/li&gt;&lt;li&gt;Intégration CI/CD native : retour code 0 (valide) / 1 (non-conforme) exploitable par tout pipeline&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://hub.docker.com/r/rastadidi/rfc4180-validator</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>Generative Art — Temps d'attente agences OPT-NC</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2020-01</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Écosystème complet autour des temps d&amp;#x27;attente en agence OPT-NC : API REST conteneurisée (opt-temps-attente-agences-api), front-end generative art data-driven (p5.js, Docker), expérience Unity interactive, dashboard Streamlit historique et LED Matrix IoT. Documenté dans une série de 7 articles Dev.to (@adriens + @optnc) de juin 2022 à décembre 2024.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;opt-temps-attente-agences-api : API REST conteneurisée — **102 pulls** Docker Hub&lt;/li&gt;&lt;li&gt;web-generative-art-temps-attente-opt : front-end p5.js generative art data-driven — **278 pulls** Docker Hub&lt;/li&gt;&lt;li&gt;Stack créative : p5.js (simulations orbitales, balles, gravité) + Unity (expérience interactive)&lt;/li&gt;&lt;li&gt;API publiée sur RapidAPI marketplace (2022) — exposition internationale&lt;/li&gt;&lt;li&gt;Dashboard Streamlit historique via Apigee Developer Portal (2024)&lt;/li&gt;&lt;li&gt;Série Dev.to 7 articles (juin 2022 → déc. 2024) : https://dev.to/adriens/series/18414&lt;/li&gt;&lt;li&gt;**20 vidéos playlist Temps d&amp;#x27;attente en agences** — https://www.youtube.com/playlist?list=PL7GdrgVAWcDgN1QV5tbPRCa1f5Q83yRMi&lt;/li&gt;&lt;li&gt;Même source de données réutilisée dans le LED Matrix IoT Hackster.io (2024) et projets tutorés UNC&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://dev.to/adriens/series/18414</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>Post-Office Wait Time LED Matrix — Affichage temps d'attente IoT OPT-NC</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2024-11</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Matrice LED animée (Pimoroni Cosmic Unicorn / Raspberry Pi Pico W) affichant en temps réel les temps d&amp;#x27;attente en agence OPT-NC, pilotée par l&amp;#x27;API publique OPT-NC via Google Apigee. Preuve de concept IoT mêlant données publiques et expérience client physique.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Intégration directe de l&amp;#x27;API temps d&amp;#x27;attente OPT-NC Developer Portal dans un objet physique&lt;/li&gt;&lt;li&gt;Hardware : Pimoroni Cosmic Unicorn (Raspberry Pi Pico W) — affichage LED matrix animé&lt;/li&gt;&lt;li&gt;Publié sur Hackster.io — niveau Beginner, 192 vues&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://www.hackster.io/adriensales/post-office-wait-time-api-driven-waiting-time-led-matrix-39c00b</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>Mailbox Notifier — Boîte aux lettres connectée OPT-NC</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2020-08</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Dispositif IoT co-conçu avec l&amp;#x27;équipe OPT-NC (compte boiteconnecteeopt) détectant l&amp;#x27;arrivée du courrier par capteur ultrason et envoyant des notifications WiFi via IFTTT. Tutorat industriel d&amp;#x27;un étudiant (Mathéo Moinet) sur ce projet hardware.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Co-auteur avec boiteconnecteeopt (OPT-NC) et Mathéo Moinet — projet encadré en tutorat&lt;/li&gt;&lt;li&gt;Stack : NodeMCU ESP-12E + HC-SR04 + Arduino IDE + IFTTT Maker service&lt;/li&gt;&lt;li&gt;5 400+ vues sur Hackster.io — niveau Intermédiaire, rayonnement communauté maker mondiale&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://www.hackster.io/354529/mailbox-notifier-ed6dba</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>BP connectée — Monitoring rack boîtes postales OPT-NC</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2020</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;PoC IoT instrumentant un rack complet de boîtes postales (BP) OPT-NC : détection laser par case + communication Zigbee basse consommation → génération d&amp;#x27;events dans le SI → notification client à la dépose du courrier. Co-conçu avec des élèves de la filière numérique et électronique du Lycée du Mont-Dore. Démonstration interne DSI en présence du DSI, du professeur, des élèves et de la section GLIA. PoC sans suite décisionnelle de l&amp;#x27;OPT.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Monitoring à l&amp;#x27;échelle du rack : un capteur laser par case, mesh Zigbee basse consommation — zéro câblage réseau supplémentaire&lt;/li&gt;&lt;li&gt;Valeur métier : notification client à la dépose du courrier → élimine les déplacements inutiles sans effort supplémentaire pour le personnel postal&lt;/li&gt;&lt;li&gt;Co-conception pédagogique avec élèves filière numérique &amp;amp; électronique, Lycée du Mont-Dore&lt;/li&gt;&lt;li&gt;Démonstration interne validée (DSI, professeur, élèves, section GLIA) — PoC techniquement abouti, sans suite décisionnelle OPT&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>Legacy Mailbox SMS Notifier — Proto boîte aux lettres connectée</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2019-05</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Prototype personnel transformant une boîte aux lettres classique en objet connecté envoyant un SMS à chaque arrivée de courrier sans modification mécanique. Stack Arduino MKR1000 + Arduino IoT Cloud + IFTTT — point de départ du Mailbox Notifier OPT-NC.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Concept &amp;#x27;high-low tech&amp;#x27; : hack de boîte standard, aucune modification mécanique requise&lt;/li&gt;&lt;li&gt;Stack : Arduino MKR1000 + capteur ultrason HC-SR04 + Arduino IoT Cloud + IFTTT&lt;/li&gt;&lt;li&gt;4 600+ vues sur Hackster.io — genèse directe du projet professionnel OPT-NC (2020)&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://www.hackster.io/adriensales/legacy-mailbox-sms-notifier-ec6d4b</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>resume-to-pokemon — CV en données × PokéAPI × embeddings</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2026-07</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Prototype d&amp;#x27;automatisation autour du CV-en-données : mettre en interopérabilité le resume.json (JSON Resume, livré en continu sur registry.jsonresume.org/adriens) avec la PokéAPI v2 pour découvrir « quel Pokémon on est » et pourquoi. 100% open source, on-premise, sans GPU (Core i5, 8 Gio). Réalisé pour le DEV.to Weekend Challenge (Passion edition, juillet 2026) — l&amp;#x27;innovation frugale qui relie art, data et fun.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;HuggingFace Space `rastadidi/resume-to-pokemon` (Gradio + serveur MCP) — pur open source, aucune dépendance GPU&lt;/li&gt;&lt;li&gt;Pipeline : dataset PokéAPI construit une fois (types, stats, profil-archétype métier dérivé) → embeddings `BAAI/bge-m3` → reranking cross-encoder `BAAI/bge-reranker-v2-m3` → cartes de matching partageables avec explication du score et confiance calibrée (z-score sur la shortlist)&lt;/li&gt;&lt;li&gt;Interopérabilité : le CV JSON Resume publié en continu sur le registry sert de source d&amp;#x27;entrée directe — démonstration concrète de la valeur d&amp;#x27;un CV en données structurées&lt;/li&gt;&lt;li&gt;Soumission DEV.to Weekend Challenge : https://dev.to/adriens/find-the-pokemon-you-are-w-pokeapi-your-resume-embeddings-3bb5 + démo vidéo : https://youtu.be/P1IEkb5g07I&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://huggingface.co/spaces/rastadidi/resume-to-pokemon</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>API-fication calédonienne — SDKs Java &amp; APIs REST</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2017-04</hr:FormattedDateTime>
+          </StartDate>
+          <EndDate>
+            <hr:FormattedDateTime>2023-07</hr:FormattedDateTime>
+          </EndDate>
+        </Date>
+        <Description>&lt;p&gt;Démarche systématique de création d&amp;#x27;interopérabilité là où elle n&amp;#x27;existe pas — deux familles. Scraping : reverse-engineering de sites sans API → SDK Java (JitPack/Travis CI) → API REST Spring Boot (Heroku) → intégrations mobiles et no-code. Open data &amp;amp; original : sources officielles (data.gouv.nc) ou contenu original → même stack, données durables. Série LinkedIn Pulse API-fication S01/S02 + plusieurs articles DEV.to.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Scraping — tickets-resto-nc-sdk (HtmlUnit, JitPack) + API Spring Boot : tickets restaurant NC (neocarte.nc) — aboutit à une app mobile Kotlin/Android en 3 week-ends de dev lean (LinkedIn S02E01)&lt;/li&gt;&lt;li&gt;Scraping — carte-conso-plus : SDK Java (JitPack) + API Spring Boot (Heroku) pour la carte Conso+ NC — solde, partenaires, magazines, Google Sheets ; puis app mobile Kotlin/Android MVP (2019) et refonte Flutter open innovation (2020)&lt;/li&gt;&lt;li&gt;Scraping — cine-city-noumea : SDK Java (JitPack) + API REST Spring Boot pour le cinéma CineCity NC. Aujourd&amp;#x27;hui hors service (refonte upstream — même cause que mon-1012-nc)&lt;/li&gt;&lt;li&gt;Scraping — eaux-baignade-noumea : scraping données publiques Ville de Nouméa + SDK Java + BeachCagouBot (bot Twitter CircleCI cron) — genèse directe du projet edb-noumea (LinkedIn S01E04)&lt;/li&gt;&lt;li&gt;Scraping — mon-1012-nc : API Spring Boot sur l&amp;#x27;annuaire 1012.nc (numéros Mobilis) — prototypée pour une app React/React Native (LinkedIn S01E04). Aujourd&amp;#x27;hui hors service : refonte complète du site source ayant cassé le scraper — illustration concrète du coût de maintenance des approches scraping vs API officielle (et argument fort pour la stratégie catalogue APIGEE OPT-NC)&lt;/li&gt;&lt;li&gt;Scraping — scalair4j (JitPack) + noumea-smartcity-api (Heroku) : SDK Java + hub d&amp;#x27;APIs agrégeant la qualité de l&amp;#x27;air NC (Scal-Air) et autres endpoints smart city Nouméa. Statut actuel : hébergement Heroku abandonné. Évolution prévue : refonte Python (uv) + app HuggingFace Spaces + MCP — modernisation complète de la stack avec les outils data/IA actuels&lt;/li&gt;&lt;li&gt;Open data — ridetnc4j (JitPack) + ridetnc-api : SDK Java + API REST sur le registre RIDET officiel (data.gouv.nc) — **136 pulls** Docker Hub — 2 articles DEV.to (2021, 2023)&lt;/li&gt;&lt;li&gt;Original — kalolo-api / kalolo-2.0 : API d&amp;#x27;expressions caldoches publiée sur la marketplace RapidAPI — **127 pulls** Docker Hub — article DEV.to + LinkedIn 2020. Évolution prévue : dataset open d&amp;#x27;expressions caldoches + MCP (Model Context Protocol) — exposition directe aux clients LLM (Claude, etc.) pour conversations localisées NC, démarche d&amp;#x27;inclusivité culturelle Pacifique dans les agents IA&lt;/li&gt;&lt;li&gt;Original — excuses-sdk (JitPack) + excuses-api : SDK Java + API REST, même pattern appliqué à du contenu humoristique. Évolution prévue : dataset open d&amp;#x27;excuses + MCP — donner du caractère/humour aux agents IA via Model Context Protocol, exemple typique d&amp;#x27;augmentation conversationnelle ludique&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/adriens/tickets-resto-nc-sdk</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Centres d'intérêt</Title>
+      <Other>
+        <Title>Maker &amp; IoT</Title>
+        <Description>&lt;p&gt;Lo-tech, Arduino, ESP8266 / NodeMCU, Arduino MKR1000, Raspberry Pi Pico W, Pimoroni Cosmic Unicorn, LED matrix, API vers IoT, Meshtastic, MeshCore, LoRa mesh networking, IoT outdoor, Fablab UNC, Adafruit / CircuitPython, eInk displays, BBC micro:bit, Hackster.io&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Centres d'intérêt</Title>
+      <Other>
+        <Title>Veille technologique &amp; innovation</Title>
+        <Description>&lt;p&gt;Livres tech, Livres management, Architecture SI, Intelligence artificielle, Open source, Vibe coding Go&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Centres d'intérêt</Title>
+      <Other>
+        <Title>Création de contenu &amp; humour tech</Title>
+        <Description>&lt;p&gt;Détournements vidéo, Films VO russe/allemand sous-titrés français, Mèmes tech, Storytelling technique&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Centres d'intérêt</Title>
+      <Other>
+        <Title>Écriture</Title>
+        <Description>&lt;p&gt;Livre sur la data en entreprise, Recueil de nouvelles, Vulgarisation tech&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Centres d'intérêt</Title>
+      <Other>
+        <Title>Lecture</Title>
+        <Description>&lt;p&gt;Management, Architecture logicielle, Data science, Innovation, Design Thinking, UX Strategy, Start with Why, Data Products, Systems Thinking, Peak Performance, Lean &amp;amp; Apprenance&lt;/p&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Métiers ESCO</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;architecte d’entreprise (ISCO 2511.5)&lt;/li&gt;&lt;li&gt;concepteur de systèmes informatiques/conceptrice de systèmes informatiques (ISCO 2511.13)&lt;/li&gt;&lt;li&gt;responsable des logiciels (ISCO 1330.5.1)&lt;/li&gt;&lt;li&gt;chargé de cours/chargée de cours (ISCO 2310.1.42)&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Méthode signature : API-fication</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;concevoir des interfaces d’application&lt;/li&gt;&lt;li&gt;intégration de systèmes de TIC&lt;/li&gt;&lt;li&gt;gérer les normes d’échange de données&lt;/li&gt;&lt;li&gt;procéder à l’extraction de données&lt;/li&gt;&lt;li&gt;modélisation orientée services&lt;/li&gt;&lt;li&gt;intégrer des données TIC&lt;/li&gt;&lt;li&gt;définir une stratégie d’intégration&lt;/li&gt;&lt;li&gt;utiliser des patrons de conception&lt;/li&gt;&lt;li&gt;bibliothèques de composants logiciels&lt;/li&gt;&lt;li&gt;développer un prototype de logiciel&lt;/li&gt;&lt;li&gt;proposer des solutions TIC aux problèmes des entreprises&lt;/li&gt;&lt;li&gt;trouver des solutions à des problèmes d&amp;#x27;information&lt;/li&gt;&lt;li&gt;analyser les exigences des entreprises&lt;/li&gt;&lt;li&gt;développer un flux de travail de TIC&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Graph &amp; Knowledge Engineering</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;NoSQL&lt;/li&gt;&lt;li&gt;utiliser des langages de requête&lt;/li&gt;&lt;li&gt;exploration de données&lt;/li&gt;&lt;li&gt;gérer l’intégration sémantique des TIC&lt;/li&gt;&lt;li&gt;standards du World Wide Web Consortium&lt;/li&gt;&lt;li&gt;créer des modèles de données&lt;/li&gt;&lt;li&gt;modèles de données&lt;/li&gt;&lt;li&gt;algorithmes&lt;/li&gt;&lt;li&gt;mathématiques&lt;/li&gt;&lt;li&gt;architecture de l’information&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>IA &amp; Agents</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;principes de l’intelligence artificielle&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;li&gt;traitement automatique du langage naturel&lt;/li&gt;&lt;li&gt;effectuer des recherches dans des bases de données&lt;/li&gt;&lt;li&gt;technologies émergentes&lt;/li&gt;&lt;li&gt;développer des applications de traitement des données&lt;/li&gt;&lt;li&gt;gérer les normes d’échange de données&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Architecture &amp; Développement</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;définir l’architecture logicielle&lt;/li&gt;&lt;li&gt;créer une architecture d’entreprise&lt;/li&gt;&lt;li&gt;aligner le logiciel sur l’architecture du système&lt;/li&gt;&lt;li&gt;concevoir des interfaces d’application&lt;/li&gt;&lt;li&gt;Java (programmation informatique)&lt;/li&gt;&lt;li&gt;Apache Maven&lt;/li&gt;&lt;li&gt;programmation informatique&lt;/li&gt;&lt;li&gt;concevoir un système d’information&lt;/li&gt;&lt;li&gt;cadres d&amp;#x27;architecture TIC&lt;/li&gt;&lt;li&gt;modèles d’architecture logicielle&lt;/li&gt;&lt;li&gt;utiliser la programmation orientée objet&lt;/li&gt;&lt;li&gt;superviser le développement d’un logiciel&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Data Engineering</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;outils d’extraction de transformation et de chargement&lt;/li&gt;&lt;li&gt;entrepôt de données&lt;/li&gt;&lt;li&gt;intégrer des données TIC&lt;/li&gt;&lt;li&gt;gérer l’architecture des données TIC&lt;/li&gt;&lt;li&gt;fournir une présentation visuelle des données&lt;/li&gt;&lt;li&gt;effectuer des recherches dans des bases de données&lt;/li&gt;&lt;li&gt;créer des traitements de données&lt;/li&gt;&lt;li&gt;gérer les données&lt;/li&gt;&lt;li&gt;stockage de données&lt;/li&gt;&lt;li&gt;respect de la gouvernance de l&amp;#x27;information&lt;/li&gt;&lt;li&gt;mettre en œuvre des processus de qualité des données&lt;/li&gt;&lt;li&gt;analyser des mégadonnées&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Bases de données</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;PostgreSQL&lt;/li&gt;&lt;li&gt;Oracle Relational Database&lt;/li&gt;&lt;li&gt;SQL&lt;/li&gt;&lt;li&gt;administrer un système de gestion de bases de données relationnelles&lt;/li&gt;&lt;li&gt;gérer une base de données&lt;/li&gt;&lt;li&gt;créer des schémas de base de données&lt;/li&gt;&lt;li&gt;concevoir un schéma de base de données&lt;/li&gt;&lt;li&gt;appliquer la rétro-ingénierie&lt;/li&gt;&lt;li&gt;écrire la documentation d’une base de données&lt;/li&gt;&lt;li&gt;outils de développement de bases de données&lt;/li&gt;&lt;li&gt;équilibrer les ressources d’une base de données&lt;/li&gt;&lt;li&gt;définir la structure physique de la base de données&lt;/li&gt;&lt;li&gt;maintenir la sécurité d’une base de données&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>DevSecOps</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;DevOps&lt;/li&gt;&lt;li&gt;outils de gestion de configuration logicielle&lt;/li&gt;&lt;li&gt;procéder à des évaluations de la vulnérabilité en matière de sécurité&lt;/li&gt;&lt;li&gt;protection des données&lt;/li&gt;&lt;li&gt;normes d’accessibilité TIC&lt;/li&gt;&lt;li&gt;développer des tests logiciels automatisés&lt;/li&gt;&lt;li&gt;normes de sécurité des TIC&lt;/li&gt;&lt;li&gt;gérer les conséquences de l’obsolescence des TIC&lt;/li&gt;&lt;li&gt;identifier les risques de sécurité des TIC&lt;/li&gt;&lt;li&gt;gérer la conformité en matière de sécurité des TIC&lt;/li&gt;&lt;li&gt;gérer le déploiement d’un système de TIC&lt;/li&gt;&lt;li&gt;suivre des indicateurs clés de performance&lt;/li&gt;&lt;li&gt;mesurer l’ergonomie d’un logiciel&lt;/li&gt;&lt;li&gt;effectuer une analyse de données de sécurité&lt;/li&gt;&lt;li&gt;réaliser des audits informatiques&lt;/li&gt;&lt;li&gt;rédiger une évaluation des risques&lt;/li&gt;&lt;li&gt;utiliser la programmation de scripts&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Microsoft Power Platform</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;développer un flux de travail de TIC&lt;/li&gt;&lt;li&gt;concevoir des interfaces d’application&lt;/li&gt;&lt;li&gt;fournir une présentation visuelle des données&lt;/li&gt;&lt;li&gt;informatique décisionnelle&lt;/li&gt;&lt;li&gt;techniques de présentation visuelle&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Open Data &amp; Data Science</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;Python (programmation informatique)&lt;/li&gt;&lt;li&gt;effectuer une analyse de données&lt;/li&gt;&lt;li&gt;procéder à l’extraction de données&lt;/li&gt;&lt;li&gt;créer des ensembles de données&lt;/li&gt;&lt;li&gt;gérer les métadonnées de contenu&lt;/li&gt;&lt;li&gt;participer à des échanges au moyen de technologies numériques&lt;/li&gt;&lt;li&gt;normaliser les données&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Reporting &amp; Documentation</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;R&lt;/li&gt;&lt;li&gt;fournir une documentation technique&lt;/li&gt;&lt;li&gt;présenter des rapports&lt;/li&gt;&lt;li&gt;créer une architecture d’entreprise&lt;/li&gt;&lt;li&gt;rédiger des rapports techniques&lt;/li&gt;&lt;li&gt;rédiger des rapports sur le travail&lt;/li&gt;&lt;li&gt;utiliser des langages de balisage&lt;/li&gt;&lt;li&gt;appliquer des techniques d’analyse statistique&lt;/li&gt;&lt;li&gt;appliquer des techniques de publication assistée par ordinateur&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Developer Relations &amp; Communication</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;effectuer des présentations publiques&lt;/li&gt;&lt;li&gt;gérer du contenu en ligne&lt;/li&gt;&lt;li&gt;fournir une documentation technique&lt;/li&gt;&lt;li&gt;fournir une présentation visuelle des données&lt;/li&gt;&lt;li&gt;développer l’architecture d’une communauté en ligne&lt;/li&gt;&lt;li&gt;créer un réseau professionnel&lt;/li&gt;&lt;li&gt;rédiger un article scientifique&lt;/li&gt;&lt;li&gt;coordonner des événements&lt;/li&gt;&lt;li&gt;planifier des évènements&lt;/li&gt;&lt;li&gt;élaborer des contenus numériques&lt;/li&gt;&lt;li&gt;fournir du contenu multimédia&lt;/li&gt;&lt;li&gt;techniques d&amp;#x27;écriture&lt;/li&gt;&lt;li&gt;rédiger des textes professionnels&lt;/li&gt;&lt;li&gt;utiliser des techniques de communication&lt;/li&gt;&lt;li&gt;stratégie de marketing de contenu&lt;/li&gt;&lt;li&gt;faire preuve d&amp;#x27;humour&lt;/li&gt;&lt;li&gt;susciter des émotions dans le public&lt;/li&gt;&lt;li&gt;effectuer un montage vidéo&lt;/li&gt;&lt;li&gt;démontrer la fonctionnalité de produits logiciels&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Management &amp; Leadership</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;gérer une équipe&lt;/li&gt;&lt;li&gt;assurer un leadership&lt;/li&gt;&lt;li&gt;gestion de projets par méthode Agile&lt;/li&gt;&lt;li&gt;gestion de projets allégée&lt;/li&gt;&lt;li&gt;encourager des équipes à rechercher l’amélioration continue&lt;/li&gt;&lt;li&gt;processus d’innovation&lt;/li&gt;&lt;li&gt;utiliser des méthodes de conception centrée sur l’utilisateur&lt;/li&gt;&lt;li&gt;recruter des employés&lt;/li&gt;&lt;li&gt;motiver des employés&lt;/li&gt;&lt;li&gt;entretenir des relations avec des fournisseurs&lt;/li&gt;&lt;li&gt;stratégie d’externalisation&lt;/li&gt;&lt;li&gt;appliquer la gestion du changement&lt;/li&gt;&lt;li&gt;élaborer la conception d&amp;#x27;un produit&lt;/li&gt;&lt;li&gt;interagir avec les utilisateurs pour définir leurs exigences&lt;/li&gt;&lt;li&gt;cycle de vie d’un produit&lt;/li&gt;&lt;li&gt;philosophies d’amélioration continue&lt;/li&gt;&lt;li&gt;faire preuve d’esprit d’entreprise&lt;/li&gt;&lt;li&gt;diriger d’autres personnes&lt;/li&gt;&lt;li&gt;endosser vis-à-vis de collègues un rôle de meneur, cherchant avant tout à atteindre les objectifs&lt;/li&gt;&lt;li&gt;jouer un rôle de meneur exemplaire au sein d’une organisation&lt;/li&gt;&lt;li&gt;diriger une équipe&lt;/li&gt;&lt;li&gt;faire des commentaires constructifs&lt;/li&gt;&lt;li&gt;gérer les retours d’information&lt;/li&gt;&lt;li&gt;déléguer des tâches&lt;/li&gt;&lt;li&gt;interagir au moyen de technologies numériques&lt;/li&gt;&lt;li&gt;évaluer les performances de collaborateurs de l’organisation&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Pédagogie &amp; Transmission</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;enseigner à l&amp;#x27;université&lt;/li&gt;&lt;li&gt;pédagogie&lt;/li&gt;&lt;li&gt;aider des étudiants dans leur apprentissage&lt;/li&gt;&lt;li&gt;guider ses collègues&lt;/li&gt;&lt;li&gt;élaborer un plan de cours&lt;/li&gt;&lt;li&gt;transmettre les techniques d’un métier&lt;/li&gt;&lt;li&gt;utiliser des méthodes de conception centrée sur l’utilisateur&lt;/li&gt;&lt;li&gt;encourager le renforcement d’équipe&lt;/li&gt;&lt;li&gt;enseigner l’informatique&lt;/li&gt;&lt;li&gt;appliquer la pédagogie Montessori&lt;/li&gt;&lt;li&gt;appliquer des stratégies pédagogiques&lt;/li&gt;&lt;li&gt;enseigner en présentant des exemples personnels&lt;/li&gt;&lt;li&gt;adapter l’enseignement au marché du travail&lt;/li&gt;&lt;li&gt;adapter l’enseignement aux capacités des élèves&lt;/li&gt;&lt;li&gt;favoriser le travail en équipe entre élèves&lt;/li&gt;&lt;li&gt;recommander des méthodes d&amp;#x27;apprentissage&lt;/li&gt;&lt;li&gt;concevoir du matériel pédagogique numérique&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Open Source</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;modèle en code source ouverte&lt;/li&gt;&lt;li&gt;gérer des versions d’un logiciel&lt;/li&gt;&lt;li&gt;développer l’architecture d’une communauté en ligne&lt;/li&gt;&lt;li&gt;effectuer l’examen du code source&lt;/li&gt;&lt;li&gt;outils de gestion de configuration logicielle&lt;/li&gt;&lt;li&gt;utiliser des outils en ligne pour collaborer&lt;/li&gt;&lt;li&gt;stratégie de crowdsourcing&lt;/li&gt;&lt;li&gt;concevoir un logiciel&lt;/li&gt;&lt;li&gt;fournir une documentation technique&lt;/li&gt;&lt;li&gt;utiliser des bibliothèques logicielles&lt;/li&gt;&lt;li&gt;déboguer un logiciel&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>IoT &amp; Hardware</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;Internet des objets&lt;/li&gt;&lt;li&gt;systèmes embarqués&lt;/li&gt;&lt;li&gt;capteurs&lt;/li&gt;&lt;li&gt;concevoir des prototypes&lt;/li&gt;&lt;li&gt;programmer un micrologiciel&lt;/li&gt;&lt;li&gt;Python (programmation informatique)&lt;/li&gt;&lt;li&gt;C++&lt;/li&gt;&lt;li&gt;robotique&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Créativité &amp; Apprentissage autodidacte</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;avoir un esprit créatif&lt;/li&gt;&lt;li&gt;combiner plusieurs domaines de connaissances&lt;/li&gt;&lt;li&gt;pensée systémique&lt;/li&gt;&lt;li&gt;faire preuve de curiosité&lt;/li&gt;&lt;li&gt;démontrer une volonté d’apprendre&lt;/li&gt;&lt;li&gt;gérer le développement professionnel personnel&lt;/li&gt;&lt;li&gt;suivre les tendances technologiques&lt;/li&gt;&lt;li&gt;développer des idées créatives&lt;/li&gt;&lt;li&gt;identifier des améliorations de procédés&lt;/li&gt;&lt;li&gt;réfléchir de manière analytique&lt;/li&gt;&lt;li&gt;penser de manière proactive&lt;/li&gt;&lt;li&gt;travailler de manière autonome&lt;/li&gt;&lt;li&gt;rester concentré pendant de longues périodes&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Référentiel ESCO</Title>
+      <Other>
+        <Title>Savoir-être validé par les pairs</Title>
+        <Description>&lt;ul&gt;&lt;li&gt;faire preuve d’empathie&lt;/li&gt;&lt;li&gt;écouter activement&lt;/li&gt;&lt;li&gt;faire preuve d’enthousiasme&lt;/li&gt;&lt;li&gt;agir de manière fiable&lt;/li&gt;&lt;li&gt;entretenir de bonnes relations de travail&lt;/li&gt;&lt;li&gt;établir des relations de collaboration&lt;/li&gt;&lt;li&gt;respecter des délais&lt;/li&gt;&lt;li&gt;travailler en équipe&lt;/li&gt;&lt;li&gt;identifier les besoins des clients&lt;/li&gt;&lt;li&gt;utiliser des techniques de communication&lt;/li&gt;&lt;li&gt;penser de manière proactive&lt;/li&gt;&lt;/ul&gt;</Description>
+      </Other>
+    </Others>
+  </CandidateProfile>
+  <RenderingInformation>
+    <Design>
+      <Template>Template1</Template>
+      <Color>Default</Color>
+      <FontSize>Medium</FontSize>
+      <Logo>FirstPage</Logo>
+      <PageNumbers>true</PageNumbers>
+      <SectionsOrder>
+        <Section>
+          <Title>work-experience</Title>
+        </Section>
+        <Section>
+          <Title>education-training</Title>
+        </Section>
+        <Section>
+          <Title>language</Title>
+        </Section>
+        <Section>
+          <Title>profile-skills</Title>
+        </Section>
+        <Section>
+          <Title>publication</Title>
+        </Section>
+      </SectionsOrder>
+    </Design>
+  </RenderingInformation>
+</Candidate>
