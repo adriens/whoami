@@ -874,7 +874,8 @@
         "Démultiplication communautaire (apps mobiles, bots, AR, MCPs, dashboards)",
         "Pattern validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa",
         "Schema-first data design (R. Itelman, Designing Data Products with JSON Schema)",
-        "Publication sur marketplaces (RapidAPI, APIGEE, GitHub Marketplace)"
+        "Publication sur marketplaces (RapidAPI, APIGEE, GitHub Marketplace)",
+        "Intégration par flux RSS & automatisation no-code (Feedly, Zapier)"
       ],
       "x-esco": [
         {
@@ -930,7 +931,8 @@
           "type": "skill/competence",
           "covers": [
             "Exploitation open data",
-            "Scraping de sources sans API"
+            "Scraping de sources sans API",
+            "Intégration par flux RSS & automatisation no-code (Feedly, Zapier)"
           ]
         },
         {
@@ -966,6 +968,38 @@
           "type": "skill/competence",
           "covers": [
             "Démultiplication communautaire (apps mobiles, bots, AR, MCPs, dashboards)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/07e51c60-763a-4335-b4ec-70a15f66d328",
+          "label": "proposer des solutions TIC aux problèmes des entreprises",
+          "type": "skill/competence",
+          "covers": [
+            "Identification de manques d'interopérabilité"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/4539aeca-b56f-4d03-ba86-8f675a7f2536",
+          "label": "trouver des solutions à des problèmes d'information",
+          "type": "skill/competence",
+          "covers": [
+            "Identification de manques d'interopérabilité"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b04f377b-ee80-4b38-aca1-19d266a23b17",
+          "label": "analyser les exigences des entreprises",
+          "type": "skill/competence",
+          "covers": [
+            "Identification de manques d'interopérabilité"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/751941a0-5645-4f8b-b97e-b252909d5edb",
+          "label": "développer un flux de travail de TIC",
+          "type": "skill/competence",
+          "covers": [
+            "Intégration par flux RSS & automatisation no-code (Feedly, Zapier)"
           ]
         }
       ]
@@ -1104,7 +1138,8 @@
         "Semantic Router",
         "Vibe coding",
         "OpenSearch vector search",
-        "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)"
+        "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)",
+        "CV-as-code (JSON Resume, enrichissement par agent IA, ESCO)"
       ],
       "x-esco": [
         {
@@ -1170,7 +1205,16 @@
           "covers": [
             "Gradio",
             "MCP (Model Context Protocol)",
-            "LangChain"
+            "LangChain",
+            "CV-as-code (JSON Resume, enrichissement par agent IA, ESCO)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/cb5cccc9-abe4-4b11-abe6-d27e5cd85fb1",
+          "label": "gérer les normes d’échange de données",
+          "type": "skill/competence",
+          "covers": [
+            "CV-as-code (JSON Resume, enrichissement par agent IA, ESCO)"
           ]
         }
       ]
@@ -1826,7 +1870,8 @@
         "poetry",
         "PyPI",
         "PyPI maintainer",
-        "Détection d'anomalies (XGBoost, k-means — PRIX.NC)"
+        "Détection d'anomalies (XGBoost, k-means — PRIX.NC)",
+        "Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face)"
       ],
       "x-esco": [
         {
@@ -1867,7 +1912,8 @@
           "label": "créer des ensembles de données",
           "type": "skill/competence",
           "covers": [
-            "Création et publication de datasets open data (Kaggle, Hugging Face)"
+            "Création et publication de datasets open data (Kaggle, Hugging Face)",
+            "Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face)"
           ]
         },
         {
@@ -1875,7 +1921,8 @@
           "label": "gérer les métadonnées de contenu",
           "type": "skill/competence",
           "covers": [
-            "Création et publication de datasets open data (Kaggle, Hugging Face)"
+            "Création et publication de datasets open data (Kaggle, Hugging Face)",
+            "Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face)"
           ]
         },
         {
@@ -1891,7 +1938,8 @@
           "label": "normaliser les données",
           "type": "skill/competence",
           "covers": [
-            "Création et publication de datasets open data (Kaggle, Hugging Face)"
+            "Création et publication de datasets open data (Kaggle, Hugging Face)",
+            "Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face)"
           ]
         },
         {
@@ -5428,7 +5476,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.38.0",
+    "version": "v1.38.1",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
