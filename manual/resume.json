@@ -1649,6 +1649,7 @@
         "DuckDB",
         "Web scraping",
         "Open Data",
+        "Création et publication de datasets open data (Kaggle, Hugging Face)",
         "Hackathons",
         "uv",
         "poetry",
@@ -1686,6 +1687,38 @@
           "type": "skill/competence",
           "covers": [
             "Web scraping"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/906323f4-00c4-4c3b-ab5a-8af77be3456e",
+          "label": "créer des ensembles de données",
+          "type": "skill/competence",
+          "covers": [
+            "Création et publication de datasets open data (Kaggle, Hugging Face)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/9710092c-f174-4e84-95bf-2064d39ad7a0",
+          "label": "gérer les métadonnées de contenu",
+          "type": "skill/competence",
+          "covers": [
+            "Création et publication de datasets open data (Kaggle, Hugging Face)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/40001d93-8937-4859-89d5-2dca53290ff4",
+          "label": "participer à des échanges au moyen de technologies numériques",
+          "type": "skill/competence",
+          "covers": [
+            "Création et publication de datasets open data (Kaggle, Hugging Face)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/07889c08-7220-47c8-96f7-6068fbea00dc",
+          "label": "normaliser les données",
+          "type": "skill/competence",
+          "covers": [
+            "Création et publication de datasets open data (Kaggle, Hugging Face)"
           ]
         }
       ]
@@ -2386,6 +2419,7 @@
       "name": "Open Source",
       "level": "Avancé",
       "keywords": [
+        "Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey)",
         "endoflife.date",
         "SchemaCrawler",
         "Chocolatey",
@@ -2409,7 +2443,8 @@
             "geol",
             "oracle-jutils",
             "mobitag",
-            "liquibase"
+            "liquibase",
+            "Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey)"
           ]
         },
         {
@@ -2437,7 +2472,8 @@
           "covers": [
             "Attraction et fidélisation de contributors externes",
             "SchemaCrawler",
-            "endoflife.date"
+            "endoflife.date",
+            "Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey)"
           ]
         },
         {
@@ -2447,7 +2483,8 @@
           "covers": [
             "geol",
             "liquibase",
-            "endoflife.date"
+            "endoflife.date",
+            "Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey)"
           ]
         },
         {
@@ -2456,7 +2493,8 @@
           "type": "skill/competence",
           "covers": [
             "Attraction et fidélisation de contributors externes",
-            "endoflife.date"
+            "endoflife.date",
+            "Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey)"
           ]
         },
         {
@@ -2494,6 +2532,14 @@
           "covers": [
             "oracle-jutils",
             "liquibase"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1",
+          "label": "déboguer un logiciel",
+          "type": "skill/competence",
+          "covers": [
+            "Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey)"
           ]
         }
       ]
@@ -4365,7 +4411,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.35.8",
+    "version": "v1.35.9",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
