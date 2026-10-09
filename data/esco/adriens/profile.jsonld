@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.38.1",
+  "x-resume-version": "v1.38.2",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -1001,7 +1001,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
       "x-profile-skills": [
-        "IA & Agents"
+        "IA & Agents",
+        "interest: Veille technologique & innovation"
       ]
     },
     {
@@ -2529,7 +2530,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Developer Relations & Communication"
+        "Developer Relations & Communication",
+        "interest: Création de contenu & humour tech"
       ]
     },
     {
@@ -2569,7 +2571,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
       "x-profile-skills": [
-        "Developer Relations & Communication"
+        "Developer Relations & Communication",
+        "interest: Écriture"
       ]
     },
     {
@@ -2589,7 +2592,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Developer Relations & Communication"
+        "Developer Relations & Communication",
+        "interest: Écriture"
       ]
     },
     {
@@ -2655,7 +2659,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Developer Relations & Communication"
+        "Developer Relations & Communication",
+        "interest: Création de contenu & humour tech"
       ]
     },
     {
@@ -2695,7 +2700,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Developer Relations & Communication"
+        "Developer Relations & Communication",
+        "interest: Création de contenu & humour tech"
       ]
     },
     {
@@ -3741,7 +3747,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
       "x-profile-skills": [
-        "IoT & Hardware"
+        "IoT & Hardware",
+        "interest: Maker & IoT"
       ]
     },
     {
@@ -3761,7 +3768,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
       "x-profile-skills": [
-        "IoT & Hardware"
+        "IoT & Hardware",
+        "interest: Maker & IoT"
       ]
     },
     {
@@ -3981,7 +3989,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Créativité & Apprentissage autodidacte"
+        "Créativité & Apprentissage autodidacte",
+        "interest: Lecture"
       ]
     },
     {
@@ -4001,7 +4010,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Créativité & Apprentissage autodidacte"
+        "Créativité & Apprentissage autodidacte",
+        "interest: Veille technologique & innovation"
       ]
     },
     {
@@ -4665,6 +4675,66 @@
       "x-esco-type": "knowledge",
       "x-profile-skills": [
         "certificate: Scrum Master"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/71f81e1a-e2ca-48d6-b7b8-7a34c56c51f8",
+      "termCode": "71f81e1a-e2ca-48d6-b7b8-7a34c56c51f8",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "technologie de transmission"
+        },
+        {
+          "@language": "en",
+          "@value": "transmission technology"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "interest: Maker & IoT"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/c2f70431-2cc5-4552-bcb7-6564512c15bd",
+      "termCode": "c2f70431-2cc5-4552-bcb7-6564512c15bd",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "utiliser des techniques d’écriture spécifiques"
+        },
+        {
+          "@language": "en",
+          "@value": "use specific writing techniques"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "interest: Écriture"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b9fa8c6d-a837-45e3-84ac-848defae9f50",
+      "termCode": "b9fa8c6d-a837-45e3-84ac-848defae9f50",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "lire des livres"
+        },
+        {
+          "@language": "en",
+          "@value": "read books"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "interest: Lecture"
       ]
     }
   ],
