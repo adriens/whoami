@@ -42,20 +42,13 @@ for prefix, uri in NS.items():
 
 # Codifications Europass
 SOCIAL = {"linkedin": "linkedin", "youtube": "youtube", "x (twitter)": "twitter", "twitter": "twitter"}
-LANG_ISO = {"Français": "fra", "Anglais": "eng", "Allemand": "deu", "Espagnol": "spa"}
-# Premier mot de `fluency` → niveau CECRL (identique sur les 5 dimensions)
-CEFR = {"Professionnel": "C1", "Courant": "C1", "Intermédiaire": "B1", "Notions": "A1"}
-CEF_DIMENSIONS = [
-    "CEF-Understanding-Listening", "CEF-Understanding-Reading",
-    "CEF-Speaking-Interaction", "CEF-Speaking-Production", "CEF-Writing-Production",
-]
-# studyType → niveau EQF (premier motif trouvé)
-EQF = [("Mastère", 7), ("DEA", 7), ("Master", 7), ("Maîtrise", 6), ("Licence", 6), ("DEUG", 5), ("primaire", 1)]
-# Groupes de skills non numériques → section libre plutôt que « Compétences numériques »
-SOFT_SKILLS = {
-    "Developer Relations & Communication", "Management & Leadership", "Pédagogie & Transmission",
-    "Créativité & Apprentissage autodidacte", "Savoir-être validé par les pairs",
+# Clés de languages[].x-cefr → dimensions CECRL Europass
+CEF_DIMENSIONS = {
+    "listening": "CEF-Understanding-Listening", "reading": "CEF-Understanding-Reading",
+    "spokenInteraction": "CEF-Speaking-Interaction", "spokenProduction": "CEF-Speaking-Production",
+    "writing": "CEF-Writing-Production",
 }
+CEFR_LEVELS = {"A1", "A2", "B1", "B2", "C1", "C2"}
 SECTIONS = ["work-experience", "education-training", "language", "profile-skills", "publication"]
 
 
@@ -174,9 +167,9 @@ def main():
     person = candidate_person(root, b)
     warnings = []
     for lang in r.get("languages", []):
-        if lang.get("fluency", "").startswith("Natif"):
-            sub(person, "PrimaryLanguageCode", LANG_ISO.get(lang["language"], lang["language"]),
-                name="NORMAL" if lang["language"] in LANG_ISO else "FREE_TEXT")
+        if lang.get("x-cefr") == "native":
+            iso = lang.get("x-iso639")
+            sub(person, "PrimaryLanguageCode", iso or lang["language"], name="NORMAL" if iso else "FREE_TEXT")
 
     profile = sub(root, "CandidateProfile", languageCode="fr")
     # Pas de champ « titre » dans Europass : basics.label en gras en tête de « À propos »
@@ -220,11 +213,10 @@ def main():
         sub(deg, "hr:DegreeName", f"{e.get('studyType', '')} — {e.get('area', '')}".strip(" —"))
         if e.get("courses"):
             sub(deg, "OccupationalSkillsCovered", rich(items=e["courses"]))
-        level = next((lvl for pat, lvl in EQF if pat in e.get("studyType", "")), None)
-        if level:
-            sub(att, "EducationLevelCode", level)
+        if e.get("x-eqf") in range(1, 9):
+            sub(att, "EducationLevelCode", e["x-eqf"])
         else:
-            warnings.append(f"education « {e.get('studyType')} » : niveau EQF inconnu")
+            warnings.append(f"education « {e.get('studyType')} » : x-eqf absent ou invalide (1 à 8)")
 
     sub(profile, "Certifications")
 
@@ -245,27 +237,26 @@ def main():
     # Langues étrangères (CECRL)
     quals = sub(profile, "PersonQualifications")
     for lang in r.get("languages", []):
-        fluency = lang.get("fluency", "")
-        if fluency.startswith("Natif"):
+        cefr = lang.get("x-cefr")
+        if cefr == "native":
             continue
-        level = CEFR.get(fluency.split()[0].strip("—,") if fluency else "")
-        if not level:
-            warnings.append(f"langue « {lang['language']} » : niveau CECRL inconnu pour {fluency!r}")
+        if not isinstance(cefr, dict) or set(cefr) != set(CEF_DIMENSIONS) or not set(cefr.values()) <= CEFR_LEVELS:
+            warnings.append(f"langue « {lang['language']} » : x-cefr absent ou invalide ({cefr!r})")
             continue
         pc = sub(quals, "PersonCompetency")
-        iso = LANG_ISO.get(lang["language"])
+        iso = lang.get("x-iso639")
         sub(pc, "CompetencyID", iso or lang["language"], schemeName="NORMAL" if iso else "FREE_TEXT")
         sub(pc, "hr:TaxonomyID", "language")
-        for dim in CEF_DIMENSIONS:
+        for key, dim in CEF_DIMENSIONS.items():
             d = sub(pc, "eures:CompetencyDimension")
             sub(d, "hr:CompetencyDimensionTypeCode", dim)
-            sub(sub(d, "eures:Score"), "hr:ScoreText", level)
+            sub(sub(d, "eures:Score"), "hr:ScoreText", cefr[key])
 
     # Compétences numériques : un groupe par skill technique, keywords dédoublonnés (≤ 99 car.)
     skills = sub(profile, "Skills")
     seen = set()
     for s in r.get("skills", []):
-        if s["name"] in SOFT_SKILLS:
+        if s.get("x-europass") != "digital":
             continue
         group = sub(skills, "SkillsGroup")
         sub(group, "Title", f"{s['name']} ({s['level']})" if s.get("level") else s["name"])
@@ -280,7 +271,7 @@ def main():
 
     # Sections libres
     for s in r.get("skills", []):
-        if s["name"] in SOFT_SKILLS:
+        if s.get("x-europass") == "transversal":
             other(profile, "Compétences transversales", f"{s['name']} ({s.get('level', '')})".replace(" ()", ""),
                   rich(", ".join(s.get("keywords", []))))
     for c in r.get("certificates", []):
@@ -322,6 +313,12 @@ def main():
     xml = ET.tostring(root, encoding="unicode")
     OUT.write_text('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' + xml + "\n", encoding="utf-8")
 
+    for s in r.get("skills", []):
+        if s.get("x-europass") not in ("digital", "transversal"):
+            warnings.append(f"skill « {s['name']} » : x-europass absent (ni digital ni transversal → non exporté)")
+    for lang in r.get("languages", []):
+        if not re.fullmatch(r"[a-z]{3}", lang.get("x-iso639", "")):
+            warnings.append(f"langue « {lang['language']} » : x-iso639 absent (exportée en texte libre)")
     for section, key in (("work", "name"), ("education", "institution")):
         for item in r.get(section, []):
             if not item.get("x-location"):
