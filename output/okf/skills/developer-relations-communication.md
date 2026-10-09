@@ -10,7 +10,7 @@ timestamp: '2026-10-09'
 
 **Niveau : Expert**
 
-Mots-clés : Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation, Storytelling, Data Storytelling, Community building, Marketing $0, Mux, Détournements vidéo tech, Tech advocacy interne, Pitching interne, Évangélisation par la pratique, Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC)
+Mots-clés : Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation, Storytelling, Data Storytelling, Community building, Marketing $0, Mux, Détournements vidéo tech, Tech advocacy interne, Pitching interne, Évangélisation par la pratique, Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC), Démos live & unboxings de releases
 
 **Compétences ESCO :**
 - [effectuer des présentations publiques](../esco/effectuer-des-presentations-publiques.md) — *skill/competence*
@@ -31,3 +31,4 @@ Mots-clés : Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation
 - [faire preuve d'humour](../esco/faire-preuve-d-humour.md) — *skill/competence*
 - [susciter des émotions dans le public](../esco/susciter-des-emotions-dans-le-public.md) — *skill/competence*
 - [effectuer un montage vidéo](../esco/effectuer-un-montage-video.md) — *skill/competence*
+- [démontrer la fonctionnalité de produits logiciels](../esco/demontrer-la-fonctionnalite-de-produits-logiciels.md) — *skill/competence*

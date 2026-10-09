@@ -12,7 +12,7 @@ timestamp: '2026-10-09'
 
 **Niveau : Avancé**
 
-Mots-clés : GitHub Actions, GitHub Issues, Docker, Podman, Kubernetes, Trivy, skopeo, Shift-left security, geol, goreleaser, RGPD, WCAG, Lighthouse, Accessibility CI checks, DORA metrics, Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase, Scripts Bash
+Mots-clés : GitHub Actions, GitHub Issues, Docker, Podman, Kubernetes, Trivy, skopeo, Shift-left security, geol, goreleaser, RGPD, WCAG, Lighthouse, Accessibility CI checks, DORA metrics, Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase, Scripts Bash, Grype (scanner de vulnérabilités, grype-contribs)
 
 **Compétences ESCO :**
 - [DevOps](../esco/devops.md) — *knowledge*

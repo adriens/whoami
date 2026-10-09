@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-203 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+205 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -65,6 +65,7 @@ timestamp: '2026-10-09'
 - [comprendre l’anglais écrit](comprendre-langlais-ecrit.md) — 1 entrées
 - [concevoir des interfaces d’application](concevoir-des-interfaces-dapplication.md) — 3 entrées
 - [concevoir des prototypes](concevoir-des-prototypes.md) — 1 entrées
+- [concevoir du matériel pédagogique numérique](concevoir-du-materiel-pedagogique-numerique.md) — 1 entrées
 - [concevoir un logiciel](concevoir-un-logiciel.md) — 1 entrées
 - [concevoir un schéma de base de données](concevoir-un-schema-de-base-de-donnees.md) — 1 entrées
 - [concevoir un système d’information](concevoir-un-systeme-dinformation.md) — 1 entrées
@@ -83,6 +84,7 @@ timestamp: '2026-10-09'
 - [définir l’architecture logicielle](definir-larchitecture-logicielle.md) — 1 entrées
 - [définir une stratégie d’intégration](definir-une-strategie-dintegration.md) — 1 entrées
 - [déléguer des tâches](deleguer-des-taches.md) — 1 entrées
+- [démontrer la fonctionnalité de produits logiciels](demontrer-la-fonctionnalite-de-produits-logiciels.md) — 1 entrées
 - [démontrer une volonté d’apprendre](demontrer-une-volonte-dapprendre.md) — 1 entrées
 - [développement par méthode agile](developpement-par-methode-agile.md) — 1 entrées
 - [développer des applications de traitement des données](developper-des-applications-de-traitement-des-donnees.md) — 1 entrées
