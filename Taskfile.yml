@@ -42,6 +42,11 @@ tasks:
     cmds:
       - uv run scripts/export-esco.py
 
+  export-europass:
+    desc: Exporter le CV au format Europass → data/europass/adriens/europass-cv.xml (validé XSD)
+    cmds:
+      - uv run scripts/export-europass.py
+
   install:
     desc: Installer les dependances JS (bun)
     cmds:
