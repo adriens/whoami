@@ -1,19 +1,20 @@
 ---
 type: Tag
 title: devsecops
-description: 17 entrées taguées « devsecops »
+description: 18 entrées taguées « devsecops »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-10-09'
 ---
 
-Concept transversal reliant 17 entrées du profil.
+Concept transversal reliant 18 entrées du profil.
 
 - [Hacktoberfest Maintainer Spotlight — geol](../awards/hacktoberfest-maintainer-spotlight-geol.md) — *Award*
 - [Speaker — Elastic Paris Meetup #58](../awards/speaker-elastic-paris-meetup-58.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
 - [Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)](../awards/speaker-geol-station-n-commissions-data-ia-cybersecurite.md) — *Award*
 - [geol — CLI de gestion des End-of-Life](../projects/geol-cli-de-gestion-des-end-of-life.md) — *Project*
+- [geol-showcase — Rapports d'évolution de sécurité (OpenBao, PostgreSQL)](../projects/geol-showcase-rapports-d-evolution-de-securite-openbao-postgresql.md) — *Project*
 - [liquibase — Package Chocolatey](../projects/liquibase-package-chocolatey.md) — *Project*
 - [rfc4180-validator — Validateur CSV strict pour CI/CD](../projects/rfc4180-validator-validateur-csv-strict-pour-ci-cd.md) — *Project*
 - [Chaîne YouTube DevOPS-LAB](../publications/chaine-youtube-devops-lab.md) — *Publication*

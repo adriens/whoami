@@ -7,9 +7,9 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-123 concepts transversaux (graphe de connaissances).
+124 concepts transversaux (graphe de connaissances).
 
-- [open-source](open-source.md) — 44 entrées
+- [open-source](open-source.md) — 45 entrées
 - [nouvelle-caledonie](nouvelle-caledonie.md) — 41 entrées
 - [data](data.md) — 37 entrées
 - [pacifique](pacifique.md) — 37 entrées
@@ -21,10 +21,10 @@ timestamp: '2026-10-09'
 - [mentorat](mentorat.md) — 22 entrées
 - [pedagogy](pedagogy.md) — 22 entrées
 - [devrel](devrel.md) — 21 entrées
+- [ai-agents](ai-agents.md) — 19 entrées
 - [open-data](open-data.md) — 19 entrées
 - [opt-nc](opt-nc.md) — 19 entrées
-- [ai-agents](ai-agents.md) — 18 entrées
-- [devsecops](devsecops.md) — 17 entrées
+- [devsecops](devsecops.md) — 18 entrées
 - [innovation](innovation.md) — 17 entrées
 - [pedagogie](pedagogie.md) — 15 entrées
 - [architecture](architecture.md) — 14 entrées
@@ -71,6 +71,7 @@ timestamp: '2026-10-09'
 - [team-culture](team-culture.md) — 5 entrées
 - [architecture-logicielle](architecture-logicielle.md) — 4 entrées
 - [dynamism](dynamism.md) — 4 entrées
+- [geol](geol.md) — 4 entrées
 - [mobile](mobile.md) — 4 entrées
 - [packaging](packaging.md) — 4 entrées
 - [pleasure-to-work-with](pleasure-to-work-with.md) — 4 entrées
@@ -86,7 +87,6 @@ timestamp: '2026-10-09'
 - [embeddings](embeddings.md) — 3 entrées
 - [exploration-techno](exploration-techno.md) — 3 entrées
 - [flutter](flutter.md) — 3 entrées
-- [geol](geol.md) — 3 entrées
 - [management-agile](management-agile.md) — 3 entrées
 - [manager-recommendation](manager-recommendation.md) — 3 entrées
 - [pragmatisme-techno](pragmatisme-techno.md) — 3 entrées
@@ -130,5 +130,6 @@ timestamp: '2026-10-09'
 - [power-platform](power-platform.md) — 1 entrées
 - [premiere-experience-pro](premiere-experience-pro.md) — 1 entrées
 - [sig](sig.md) — 1 entrées
+- [solo](solo.md) — 1 entrées
 - [team-fit](team-fit.md) — 1 entrées
 - [umbrella](umbrella.md) — 1 entrées

@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-198 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+203 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -47,6 +47,7 @@ timestamp: '2026-10-09'
 - [analyser des mégadonnées](analyser-des-megadonnees.md) — 1 entrées
 - [anglais](anglais.md) — 1 entrées
 - [appliquer des stratégies pédagogiques](appliquer-des-strategies-pedagogiques.md) — 1 entrées
+- [appliquer des techniques de publication assistée par ordinateur](appliquer-des-techniques-de-publication-assistee-par-ordinateur.md) — 1 entrées
 - [appliquer des techniques d’analyse statistique](appliquer-des-techniques-danalyse-statistique.md) — 1 entrées
 - [appliquer la gestion du changement](appliquer-la-gestion-du-changement.md) — 1 entrées
 - [appliquer la pédagogie Montessori](appliquer-la-pedagogie-montessori.md) — 1 entrées
@@ -95,6 +96,7 @@ timestamp: '2026-10-09'
 - [effectuer l’examen du code source](effectuer-lexamen-du-code-source.md) — 1 entrées
 - [effectuer un montage vidéo](effectuer-un-montage-video.md) — 1 entrées
 - [effectuer une analyse de données](effectuer-une-analyse-de-donnees.md) — 1 entrées
+- [effectuer une analyse de données de sécurité](effectuer-une-analyse-de-donnees-de-securite.md) — 1 entrées
 - [encourager des équipes à rechercher l’amélioration continue](encourager-des-equipes-a-rechercher-lamelioration-continue.md) — 1 entrées
 - [encourager le renforcement d’équipe](encourager-le-renforcement-dequipe.md) — 1 entrées
 - [endosser vis-à-vis de collègues un rôle de meneur, cherchant avant tout à atteindre les objectifs](endosser-vis-a-vis-de-collegues-un-role-de-meneur-cherchant-avant-tout-a-atteindre-les-objectifs.md) — 1 entrées
@@ -174,10 +176,12 @@ timestamp: '2026-10-09'
 - [recruter des employés](recruter-des-employes.md) — 1 entrées
 - [respect de la gouvernance de l'information](respect-de-la-gouvernance-de-l-information.md) — 1 entrées
 - [rester concentré pendant de longues périodes](rester-concentre-pendant-de-longues-periodes.md) — 1 entrées
+- [réaliser des audits informatiques](realiser-des-audits-informatiques.md) — 1 entrées
 - [rédiger des rapports sur le travail](rediger-des-rapports-sur-le-travail.md) — 1 entrées
 - [rédiger des rapports techniques](rediger-des-rapports-techniques.md) — 1 entrées
 - [rédiger des textes professionnels](rediger-des-textes-professionnels.md) — 1 entrées
 - [rédiger un article scientifique](rediger-un-article-scientifique.md) — 1 entrées
+- [rédiger une évaluation des risques](rediger-une-evaluation-des-risques.md) — 1 entrées
 - [réfléchir de manière analytique](reflechir-de-maniere-analytique.md) — 1 entrées
 - [standards du World Wide Web Consortium](standards-du-world-wide-web-consortium.md) — 1 entrées
 - [stockage de données](stockage-de-donnees.md) — 1 entrées
@@ -202,6 +206,7 @@ timestamp: '2026-10-09'
 - [utiliser des outils en ligne pour collaborer](utiliser-des-outils-en-ligne-pour-collaborer.md) — 1 entrées
 - [utiliser des patrons de conception](utiliser-des-patrons-de-conception.md) — 1 entrées
 - [utiliser des techniques de communication](utiliser-des-techniques-de-communication.md) — 1 entrées
+- [utiliser la programmation de scripts](utiliser-la-programmation-de-scripts.md) — 1 entrées
 - [utiliser la programmation orientée objet](utiliser-la-programmation-orientee-objet.md) — 1 entrées
 - [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 1 entrées
 - [écrire en anglais](ecrire-en-anglais.md) — 1 entrées

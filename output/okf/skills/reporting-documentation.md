@@ -10,7 +10,7 @@ timestamp: '2026-10-09'
 
 **Niveau : Avancé**
 
-Mots-clés : Quarto, R, Notebooks reproductibles, Urbanisation SI, Rapports de sécurité, Reporting automatisé, Data-driven management, Markdown, GitHub Pages
+Mots-clés : Quarto, R, Notebooks reproductibles, Urbanisation SI, Rapports de sécurité, Reporting automatisé, Data-driven management, Markdown, GitHub Pages, LaTeX
 
 **Compétences ESCO :**
 - [R](../esco/r.md) — *knowledge*
@@ -21,3 +21,4 @@ Mots-clés : Quarto, R, Notebooks reproductibles, Urbanisation SI, Rapports de s
 - [rédiger des rapports sur le travail](../esco/rediger-des-rapports-sur-le-travail.md) — *skill/competence*
 - [utiliser des langages de balisage](../esco/utiliser-des-langages-de-balisage.md) — *skill/competence*
 - [appliquer des techniques d’analyse statistique](../esco/appliquer-des-techniques-danalyse-statistique.md) — *skill/competence*
+- [appliquer des techniques de publication assistée par ordinateur](../esco/appliquer-des-techniques-de-publication-assistee-par-ordinateur.md) — *skill/competence*
