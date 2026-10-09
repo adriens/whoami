@@ -102,10 +102,18 @@
     <PrimaryLanguageCode name="NORMAL">fra</PrimaryLanguageCode>
   </CandidatePerson>
   <CandidateProfile languageCode="fr">
-    <hr:ExecutiveSummary>&lt;p&gt;Ma spécificité : face à n&amp;#x27;importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j&amp;#x27;en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu&amp;#x27;ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis) puis en data science (Mastère Spécialisé MSBDS — labellisé Conférence des Grandes Écoles, stage data mining avec l&amp;#x27;I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte. Méthode signature : l&amp;#x27;API-fication — identifier un manque d&amp;#x27;interopérabilité, scraper ou exploiter l&amp;#x27;open data, packager en SDK, exposer en API, laisser émerger l&amp;#x27;écosystème communautaire (apps mobiles, AR, bots, MCPs, dashboards). Validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa.&lt;/p&gt;&lt;p&gt;Ingénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA. Ma boussole : l&amp;#x27;expertise technique au service du besoin métier et du time-to-market — chaque choix d&amp;#x27;architecture se mesure à la valeur livrée.&lt;/p&gt;&lt;p&gt;25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd&amp;#x27;hui Chef de Section GLIA à l&amp;#x27;OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 &amp;amp; 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood. Outcomes mesurables : deux étudiants de la promo 2025 recrutés dans des institutions publiques calédoniennes (OPT-NC, ISEE-NC) sur recommandation active — la pédagogie comme levier de placement, pas seulement de formation. La boucle se referme : la transmission, premier métier en 1999 (professeur de mathématiques en collège), revient au premier plan 25 ans plus tard — fil rouge plus que parenthèse.&lt;/p&gt;&lt;p&gt;Conviction transversale, valable pour moi comme pour les collaborateurs et stagiaires que j&amp;#x27;encadre : un rythme soutenable sur la durée prime sur le sprint. Six ans de projets tutorés sans interruption, des séries d&amp;#x27;articles régulières, des contributions open source continues — l&amp;#x27;endurance comme méthode, pas comme contrainte.&lt;/p&gt;&lt;p&gt;Ambitions parallèles : construire un produit data/IA ancré dans les problématiques du Pacifique, contribuer à la recherche appliquée (knowledge graphs, data science), et étendre une présence DevRel internationale — conférences, open source, communauté.&lt;/p&gt;</hr:ExecutiveSummary>
+    <hr:ExecutiveSummary>&lt;p&gt;&lt;strong&gt;Architecte SI &amp;amp; Product Builder | Modélisation · Data · IA Agents | LEAN &amp;amp; Innovation frugale | DevRel&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Ma spécificité : face à n&amp;#x27;importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j&amp;#x27;en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu&amp;#x27;ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis) puis en data science (Mastère Spécialisé MSBDS — labellisé Conférence des Grandes Écoles, stage data mining avec l&amp;#x27;I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte. Méthode signature : l&amp;#x27;API-fication — identifier un manque d&amp;#x27;interopérabilité, scraper ou exploiter l&amp;#x27;open data, packager en SDK, exposer en API, laisser émerger l&amp;#x27;écosystème communautaire (apps mobiles, AR, bots, MCPs, dashboards). Validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa.&lt;/p&gt;&lt;p&gt;Ingénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA. Ma boussole : l&amp;#x27;expertise technique au service du besoin métier et du time-to-market — chaque choix d&amp;#x27;architecture se mesure à la valeur livrée.&lt;/p&gt;&lt;p&gt;25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd&amp;#x27;hui Chef de Section GLIA à l&amp;#x27;OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 &amp;amp; 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood. Outcomes mesurables : deux étudiants de la promo 2025 recrutés dans des institutions publiques calédoniennes (OPT-NC, ISEE-NC) sur recommandation active — la pédagogie comme levier de placement, pas seulement de formation. La boucle se referme : la transmission, premier métier en 1999 (professeur de mathématiques en collège), revient au premier plan 25 ans plus tard — fil rouge plus que parenthèse.&lt;/p&gt;&lt;p&gt;Conviction transversale, valable pour moi comme pour les collaborateurs et stagiaires que j&amp;#x27;encadre : un rythme soutenable sur la durée prime sur le sprint. Six ans de projets tutorés sans interruption, des séries d&amp;#x27;articles régulières, des contributions open source continues — l&amp;#x27;endurance comme méthode, pas comme contrainte.&lt;/p&gt;&lt;p&gt;Ambitions parallèles : construire un produit data/IA ancré dans les problématiques du Pacifique, contribuer à la recherche appliquée (knowledge graphs, data science), et étendre une présence DevRel internationale — conférences, open source, communauté.&lt;/p&gt;</hr:ExecutiveSummary>
     <EmploymentHistory>
       <EmployerHistory>
         <hr:OrganizationName>OPT-NC (Office des Postes et Télécommunications de Nouvelle-Calédonie)</hr:OrganizationName>
+        <OrganizationContact>
+          <Communication>
+            <Address>
+              <oa:CityName>Nouméa</oa:CityName>
+              <CountryCode>nc</CountryCode>
+            </Address>
+          </Communication>
+        </OrganizationContact>
         <Link>https://www.opt.nc</Link>
         <PositionHistory>
           <PositionTitle typeCode="FREETEXT">Chef de Section GLIA — Génie Logiciel Inter-Applicatif</PositionTitle>
@@ -116,10 +124,20 @@
             <hr:CurrentIndicator>true</hr:CurrentIndicator>
           </eures:EmploymentPeriod>
           <oa:Description>&lt;p&gt;Pilotage de la section GLIA (6 personnes) : interopérabilité du SI, data engineering, DevSecOps, cartographie du SI par knowledge graph, Developer Relations et innovation. Management d&amp;#x27;équipe, formation de stagiaires et mentorat. L&amp;#x27;interopérabilité comme posture est une signature de carrière depuis 2013+ — déjà identifiée par mes pairs à la DSI de Nouméa, formalisée aujourd&amp;#x27;hui dans le rôle GLIA (Génie Logiciel Inter-Applicatif) et l&amp;#x27;enseignement en Master MIAGE.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stack data complète en production : Airflow conteneurisé sur Kubernetes, Lakehouse DuckLake, Superset (dataviz), MinIO (stockage) — pipeline bout en bout opérationnel&lt;/li&gt;&lt;li&gt;Cartographie du SI par knowledge graph Neo4j avec release automatisée via GitHub Actions — présenté à NODES 2022 et NODES 2024 (conférence internationale Neo4j), enrichi d&amp;#x27;agents IA&lt;/li&gt;&lt;li&gt;Stabilisation et rationalisation du bus applicatif Kafka pour un SI hautement disponible et performant&lt;/li&gt;&lt;li&gt;Culture DevSecOps complète : GitHub Actions, Quarkus, conteneurisation Podman/Docker, shift-left security avec geol (open source, 1 300+ downloads) intégrant Trivy, Quarto et DuckDB&lt;/li&gt;&lt;li&gt;Déploiement et animation du portail API APIGEE grand public : conception, DevRel, vidéos et documentation&lt;/li&gt;&lt;li&gt;Animation des organisations OPT-NC sur GitHub (https://github.com/opt-nc), Dev.to (https://dev.to/optnc), Kaggle (https://www.kaggle.com/optnouvellecaldonie) et Hugging Face (https://huggingface.co/opt-nc) : code open source, articles techniques, datasets, notebooks, applications Gradio et MCPs — démo publique : candidature via MCP Claude en 20 minutes&lt;/li&gt;&lt;li&gt;CLI mobitag en Go pour envoyer des SMS via l&amp;#x27;API Mobitag — distribué via Homebrew/goreleaser, conçu avec l&amp;#x27;équipe comme exercice pédagogique&lt;/li&gt;&lt;li&gt;Design, développement et livraison de l&amp;#x27;API domaine.nc (noms de domaine .NC) exposée sur la marketplace APIGEE — a permis la création d&amp;#x27;une application mobile open source Flutter par la communauté, publiée sur le Google Play Store, testée en crowdtesting via Hightest/Testeum, avec 25 releases et une playlist YouTube dédiée&lt;/li&gt;&lt;li&gt;Mentorat de proximité : stagiaires accueillis dans le bureau, embarqués sur de vrais projets dès le premier jour — plusieurs recrutés en CDI à l&amp;#x27;issue&lt;/li&gt;&lt;li&gt;Tuteur industriel (OPT-NC) de projets tutorés UNC : dataviz temps d&amp;#x27;attente en agence sur matrice LED IoT Pimoroni Cosmic Unicorn 32×32 pixels (Python/MicroPython, API APIGEE) — publié sur Hackster.io, vidéo YouTube, article Dev.to&lt;/li&gt;&lt;li&gt;Tuteur industriel (OPT-NC) de projets tutorés UNC : dashboard Streamlit temps d&amp;#x27;attente API-driven (Docker, API APIGEE) — affichage du temps réel et tendance journalière pour optimiser la venue en agence&lt;/li&gt;&lt;li&gt;Évangélisation technique auprès des collègues : faire découvrir et adopter des pratiques et technologies actionnables au quotidien — par la démonstration et le faire ensemble, jamais par la théorie seule&lt;/li&gt;&lt;/ul&gt;</oa:Description>
+          <City>Nouméa</City>
+          <Country>nc</Country>
         </PositionHistory>
       </EmployerHistory>
       <EmployerHistory>
         <hr:OrganizationName>DSI Ville de Nouméa</hr:OrganizationName>
+        <OrganizationContact>
+          <Communication>
+            <Address>
+              <oa:CityName>Nouméa</oa:CityName>
+              <CountryCode>nc</CountryCode>
+            </Address>
+          </Communication>
+        </OrganizationContact>
         <Link>https://www.noumea.nc</Link>
         <PositionHistory>
           <PositionTitle typeCode="FREETEXT">Architecte Logiciel / Chef de Section Développement &amp; Maintenance</PositionTitle>
@@ -133,10 +151,20 @@
             <hr:CurrentIndicator>false</hr:CurrentIndicator>
           </eures:EmploymentPeriod>
           <oa:Description>&lt;p&gt;9 ans d&amp;#x27;évolution dans une équipe de 2-3 développeurs, de la conception au leadership : chef de projet, chef de section, puis architecte logiciel. Plusieurs applications livrées entre 2012 et 2015 sont toujours en production et en évolution en 2026.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Conception et développement de l&amp;#x27;application permis de construire de la Ville de Nouméa — toujours en exploitation et en évolution 10+ ans après sa livraison&lt;/li&gt;&lt;li&gt;Conception et développement de la main courante de la police municipale de Nouméa — toujours en exploitation 10+ ans après sa livraison&lt;/li&gt;&lt;li&gt;Briques logicielles de base (composants réutilisables) toujours intégrées dans le SI de la collectivité à ce jour&lt;/li&gt;&lt;li&gt;Mise en place de la gestion de versions : déploiement SVN on-premise puis migration intégrale vers GitHub&lt;/li&gt;&lt;li&gt;Migration complète du SI applicatif : WebSphere/Windows/Oracle → Tomcat/Spring Boot/Linux/PostgreSQL — modernisation end-to-end de l&amp;#x27;infrastructure et des applications métier de la collectivité&lt;/li&gt;&lt;li&gt;Introduction de Spring Framework puis Spring Boot et ZK Framework en remplacement des frameworks maison&lt;/li&gt;&lt;li&gt;4 ans de SCRUM : montée en compétences progressive de chef de projet à chef de section — succès et échecs documentés et présentés au séminaire DSI 2015&lt;/li&gt;&lt;li&gt;Intérim assuré du Chargé d&amp;#x27;études d&amp;#x27;architecture et qualité de la DSI lors de ses absences — extension de la confiance hiérarchique au-delà du rôle d&amp;#x27;architecte&lt;/li&gt;&lt;li&gt;Introduction des pratiques DevOps : continuous delivery pour logiciels Windows via Chocolatey et AppVeyor, migration cloud hybride expérimentée dès 2016&lt;/li&gt;&lt;li&gt;Analytics RGPD sur les bases de données via SchemaCrawler et ELK Stack — cartographie dynamique des colonnes à données personnelles en dashboard Kibana&lt;/li&gt;&lt;/ul&gt;</oa:Description>
+          <City>Nouméa</City>
+          <Country>nc</Country>
         </PositionHistory>
       </EmployerHistory>
       <EmployerHistory>
         <hr:OrganizationName>Docaposte</hr:OrganizationName>
+        <OrganizationContact>
+          <Communication>
+            <Address>
+              <oa:CityName>Sophia Antipolis</oa:CityName>
+              <CountryCode>fr</CountryCode>
+            </Address>
+          </Communication>
+        </OrganizationContact>
         <Link>https://www.docaposte.com</Link>
         <PositionHistory>
           <PositionTitle typeCode="FREETEXT">DBA — Oracle &amp; PostgreSQL</PositionTitle>
@@ -150,10 +178,20 @@
             <hr:CurrentIndicator>false</hr:CurrentIndicator>
           </eures:EmploymentPeriod>
           <oa:Description>&lt;p&gt;DBA expert sur des plateformes nationales à fort trafic et fort enjeu : HADOPI, Infogreffe, Jedeclare.com — infrastructure critique, données sensibles, millions d&amp;#x27;utilisateurs. Filiale numérique du groupe La Poste.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Développement d&amp;#x27;un CLI Java mesurant l&amp;#x27;écart de synchronisation entre bases primaires et standby — outil de monitoring de la réplication en production&lt;/li&gt;&lt;li&gt;Tuning avancé de bases de données Oracle et PostgreSQL sur des plateformes nationales à fort trafic&lt;/li&gt;&lt;li&gt;Automatisation des scripts de production et introduction des premières pratiques DevOps&lt;/li&gt;&lt;/ul&gt;</oa:Description>
+          <City>Sophia Antipolis</City>
+          <Country>fr</Country>
         </PositionHistory>
       </EmployerHistory>
       <EmployerHistory>
         <hr:OrganizationName>Experian Decision Analytics</hr:OrganizationName>
+        <OrganizationContact>
+          <Communication>
+            <Address>
+              <oa:CityName>Monaco</oa:CityName>
+              <CountryCode>mc</CountryCode>
+            </Address>
+          </Communication>
+        </OrganizationContact>
         <Link>https://www.experian.com/decision-analytics/</Link>
         <PositionHistory>
           <PositionTitle typeCode="FREETEXT">Consultant Développeur — Couche Base de Données</PositionTitle>
@@ -167,10 +205,20 @@
             <hr:CurrentIndicator>false</hr:CurrentIndicator>
           </eures:EmploymentPeriod>
           <oa:Description>&lt;p&gt;Développement core sur le layer base de données et intégration en mode consultant chez de grands comptes. Basé à Monaco.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Stage de fin de Mastère Spécialisé en data mining, en collaboration avec l&amp;#x27;I3S (laboratoire CNRS — Sophia Antipolis) — transformé en embauche directe dès la fin du stage&lt;/li&gt;&lt;li&gt;Développement du layer base de données des composants Decision Analytics, déployés chez Orange, Bank of America et Le Crédit Lyonnais&lt;/li&gt;&lt;li&gt;Tuning Oracle avancé (indexes, tablespaces, partitionnement) pour maximiser les performances du logiciel en production chez les grands comptes&lt;/li&gt;&lt;li&gt;Conception du système de monitoring JMX des bases de données, outillé via ManageEngine — avancée majeure en observabilité et intégration pour les clients (Orange, BofA, Crédit Lyonnais), initiative innovante pour l&amp;#x27;époque&lt;/li&gt;&lt;/ul&gt;</oa:Description>
+          <City>Monaco</City>
+          <Country>mc</Country>
         </PositionHistory>
       </EmployerHistory>
       <EmployerHistory>
         <hr:OrganizationName>Vice-Rectorat de Nouvelle-Calédonie</hr:OrganizationName>
+        <OrganizationContact>
+          <Communication>
+            <Address>
+              <oa:CityName>Nouméa</oa:CityName>
+              <CountryCode>nc</CountryCode>
+            </Address>
+          </Communication>
+        </OrganizationContact>
         <Link>https://www.ac-noumea.nc</Link>
         <PositionHistory>
           <PositionTitle typeCode="FREETEXT">Professeur Vacataire de Mathématiques</PositionTitle>
@@ -184,12 +232,22 @@
             <hr:CurrentIndicator>false</hr:CurrentIndicator>
           </eures:EmploymentPeriod>
           <oa:Description>&lt;p&gt;Enseignement des mathématiques en collège : collège de Bourail, puis collèges de Rivière Salée et Kaméré à Nouméa. Admissible au CAPES externe de Mathématiques (session 2000). Période fondatrice pour la pédagogie et la transmission, aujourd&amp;#x27;hui prolongée dans l&amp;#x27;enseignement en Master MIAGE à l&amp;#x27;UNC.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Première expérience d&amp;#x27;enseignement qui ancre une posture pédagogique durable, 25 ans avant les cours en Master MIAGE&lt;/li&gt;&lt;li&gt;Découverte de la transmission comme discipline : concevoir des stratégies pour ancrer le raisonnement — dérouler une démonstration de géométrie, organiser des jeux de calcul mental — apprendre à faire construire une pensée plutôt qu&amp;#x27;à la dicter&lt;/li&gt;&lt;/ul&gt;</oa:Description>
+          <City>Nouméa</City>
+          <Country>nc</Country>
         </PositionHistory>
       </EmployerHistory>
     </EmploymentHistory>
     <EducationHistory>
       <EducationOrganizationAttendance>
         <hr:OrganizationName>CERAM Business School (Skema) — Sophia Antipolis</hr:OrganizationName>
+        <OrganizationContact>
+          <Communication>
+            <Address>
+              <oa:CityName>Sophia Antipolis</oa:CityName>
+              <CountryCode>fr</CountryCode>
+            </Address>
+          </Communication>
+        </OrganizationContact>
         <Link>https://www.skema.edu</Link>
         <AttendancePeriod>
           <StartDate>
@@ -208,6 +266,14 @@
       </EducationOrganizationAttendance>
       <EducationOrganizationAttendance>
         <hr:OrganizationName>Université de Nice Sophia-Antipolis</hr:OrganizationName>
+        <OrganizationContact>
+          <Communication>
+            <Address>
+              <oa:CityName>Nice</oa:CityName>
+              <CountryCode>fr</CountryCode>
+            </Address>
+          </Communication>
+        </OrganizationContact>
         <Link>https://univ-cotedazur.fr</Link>
         <AttendancePeriod>
           <StartDate>
@@ -226,6 +292,14 @@
       </EducationOrganizationAttendance>
       <EducationOrganizationAttendance>
         <hr:OrganizationName>Université de Nice Sophia-Antipolis</hr:OrganizationName>
+        <OrganizationContact>
+          <Communication>
+            <Address>
+              <oa:CityName>Nice</oa:CityName>
+              <CountryCode>fr</CountryCode>
+            </Address>
+          </Communication>
+        </OrganizationContact>
         <Link>https://univ-cotedazur.fr</Link>
         <AttendancePeriod>
           <StartDate>
@@ -243,6 +317,14 @@
       </EducationOrganizationAttendance>
       <EducationOrganizationAttendance>
         <hr:OrganizationName>Université de la Nouvelle-Calédonie</hr:OrganizationName>
+        <OrganizationContact>
+          <Communication>
+            <Address>
+              <oa:CityName>Nouméa</oa:CityName>
+              <CountryCode>nc</CountryCode>
+            </Address>
+          </Communication>
+        </OrganizationContact>
         <Link>https://unc.nc</Link>
         <AttendancePeriod>
           <StartDate>
@@ -260,6 +342,14 @@
       </EducationOrganizationAttendance>
       <EducationOrganizationAttendance>
         <hr:OrganizationName>Université de Nice Sophia-Antipolis</hr:OrganizationName>
+        <OrganizationContact>
+          <Communication>
+            <Address>
+              <oa:CityName>Nice</oa:CityName>
+              <CountryCode>fr</CountryCode>
+            </Address>
+          </Communication>
+        </OrganizationContact>
         <Link>https://univ-cotedazur.fr</Link>
         <AttendancePeriod>
           <StartDate>
@@ -277,6 +367,14 @@
       </EducationOrganizationAttendance>
       <EducationOrganizationAttendance>
         <hr:OrganizationName>École Montessori Les Pouces Verts — Mouans-Sartoux</hr:OrganizationName>
+        <OrganizationContact>
+          <Communication>
+            <Address>
+              <oa:CityName>Mouans-Sartoux</oa:CityName>
+              <CountryCode>fr</CountryCode>
+            </Address>
+          </Communication>
+        </OrganizationContact>
         <Link>https://www.mouans-sartoux.net</Link>
         <AttendancePeriod>
           <StartDate>
