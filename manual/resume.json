@@ -1838,6 +1838,86 @@
             "Innovation frugale",
             "Running Lean"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/75d8e5d9-bef3-418b-9011-01bff9f27207",
+          "label": "diriger d’autres personnes",
+          "type": "skill/competence",
+          "covers": [
+            "Why-first (Sinek) en réflexe d'équipe — arbitrer où mettre l'effort, questionner les évidences avant d'engager",
+            "Management d'équipe"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/0fc0cb61-f44d-4fd0-afd1-18506380b55e",
+          "label": "endosser vis-à-vis de collègues un rôle de meneur, cherchant avant tout à atteindre les objectifs",
+          "type": "skill/competence",
+          "covers": [
+            "Management par la confiance, l'autonomie et les objectifs clairs",
+            "Intérim de direction"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/5be1c5fb-3833-4983-949c-b77fbfad26d9",
+          "label": "jouer un rôle de meneur exemplaire au sein d’une organisation",
+          "type": "skill/competence",
+          "covers": [
+            "Transparence radicale",
+            "Management libéré",
+            "Why-first (Sinek) en réflexe d'équipe — arbitrer où mettre l'effort, questionner les évidences avant d'engager"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb",
+          "label": "diriger une équipe",
+          "type": "skill/competence",
+          "covers": [
+            "Management d'équipe",
+            "Team Topologies"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b",
+          "label": "faire des commentaires constructifs",
+          "type": "skill/competence",
+          "covers": [
+            "Culture de feedback",
+            "Transparence radicale"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/08e2ff26-88ff-47b5-9d37-d19ace01b075",
+          "label": "gérer les retours d’information",
+          "type": "skill/competence",
+          "covers": [
+            "Culture de feedback",
+            "Serious games et rétrospectives créatives"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b00e948c-19be-4951-8cff-60f88f1046e9",
+          "label": "déléguer des tâches",
+          "type": "skill/competence",
+          "covers": [
+            "Management par la confiance, l'autonomie et les objectifs clairs",
+            "Management libéré"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a12057b4-6d11-4a12-ab8e-15a028ef0a6d",
+          "label": "interagir au moyen de technologies numériques",
+          "type": "skill/competence",
+          "covers": [
+            "Management full-remote async (GitHub issues uniquement)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/5cfd2ec5-ef34-4e3b-9397-e580b903d716",
+          "label": "évaluer les performances de collaborateurs de l’organisation",
+          "type": "skill/competence",
+          "covers": [
+            "Management d'équipe"
+          ]
         }
       ]
     },
@@ -3864,7 +3944,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.35.3",
+    "version": "v1.35.4",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
