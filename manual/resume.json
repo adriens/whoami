@@ -924,6 +924,52 @@
           "covers": [
             "JSON-LD"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/fbafa41f-cd05-4109-a649-8b44d306d779",
+          "label": "créer des modèles de données",
+          "type": "skill/competence",
+          "covers": [
+            "Neo4j",
+            "Knowledge Graph"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5",
+          "label": "modèles de données",
+          "type": "knowledge",
+          "covers": [
+            "Knowledge Graph",
+            "schema.org",
+            "JSON-LD"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38",
+          "label": "algorithmes",
+          "type": "knowledge",
+          "covers": [
+            "Théorie des graphes",
+            "Centralité & clustering",
+            "GDS Library"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/4339176e-3acd-4f7f-a5d9-445bee3d23f2",
+          "label": "mathématiques",
+          "type": "knowledge",
+          "covers": [
+            "Théorie des graphes"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/1bba98a7-92b9-450b-9235-e0c905f8f3c4",
+          "label": "architecture de l’information",
+          "type": "knowledge",
+          "covers": [
+            "Knowledge Graph",
+            "Réseaux cachés"
+          ]
         }
       ]
     },
@@ -989,6 +1035,26 @@
           "covers": [
             "Recherche sémantique (retrieve → rerank)",
             "OpenSearch vector search"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/42cb7669-c371-4903-9c0b-13db67b2e4bb",
+          "label": "technologies émergentes",
+          "type": "knowledge",
+          "covers": [
+            "Agents IA",
+            "MCP (Model Context Protocol)",
+            "Vibe coding"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/f9670490-8aa4-4540-b121-d440a8294aab",
+          "label": "développer des applications de traitement des données",
+          "type": "skill/competence",
+          "covers": [
+            "Gradio",
+            "MCP (Model Context Protocol)",
+            "LangChain"
           ]
         }
       ]
@@ -1081,6 +1147,50 @@
             "Cobra (Go)",
             "BubbleTea"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a47d194d-0ffd-4aaa-b695-fbbe0255000e",
+          "label": "concevoir un système d’information",
+          "type": "skill/competence",
+          "covers": [
+            "Architecture SI",
+            "Interopérabilité (signature de carrière depuis 12+ ans, validée par pairs DSI Nouméa 2018)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/c453cf81-6197-428e-84c6-70c773b63f27",
+          "label": "cadres d'architecture TIC",
+          "type": "knowledge",
+          "covers": [
+            "Architecture SI"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/2450c3b3-e78e-435b-b84d-e05d984e71dc",
+          "label": "modèles d’architecture logicielle",
+          "type": "knowledge",
+          "covers": [
+            "Domain-Driven Design",
+            "Distributed systems design (M. Kleppmann, Designing Data-Intensive Applications)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/5b9cde20-f1b9-4adc-bfb3-dbf70b14138d",
+          "label": "utiliser la programmation orientée objet",
+          "type": "skill/competence",
+          "covers": [
+            "Java",
+            "Spring Boot",
+            "Quarkus"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/83b33952-3872-46ec-9a2e-b28f91303a7e",
+          "label": "superviser le développement d’un logiciel",
+          "type": "skill/competence",
+          "covers": [
+            "Architecture SI"
+          ]
         }
       ]
     },
@@ -1160,6 +1270,59 @@
             "Elasticsearch",
             "ELK Stack"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/2daec0e6-f0c1-43e8-8178-aedba99130ec",
+          "label": "créer des traitements de données",
+          "type": "skill/competence",
+          "covers": [
+            "Apache Airflow",
+            "ETL/ELT",
+            "Debezium"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/9ff9db9d-d14b-426e-83f3-e7449af6c79f",
+          "label": "gérer les données",
+          "type": "skill/competence",
+          "covers": [
+            "Data Products",
+            "Gouvernance des métadonnées"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a7f0fbe0-c546-4f30-8e41-34a58c64567e",
+          "label": "stockage de données",
+          "type": "knowledge",
+          "covers": [
+            "MinIO",
+            "Lakehouse"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/9a0d0abc-010d-440b-8242-7e31510471ba",
+          "label": "respect de la gouvernance de l'information",
+          "type": "knowledge",
+          "covers": [
+            "Gouvernance des métadonnées"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/713fb616-118e-40bc-9366-4a69879a49d5",
+          "label": "mettre en œuvre des processus de qualité des données",
+          "type": "skill/competence",
+          "covers": [
+            "Data Products"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/47a49cd6-097d-457a-9f7b-c290c14930d5",
+          "label": "analyser des mégadonnées",
+          "type": "skill/competence",
+          "covers": [
+            "Lakehouse",
+            "Apache Superset"
+          ]
         }
       ]
     },
@@ -1235,6 +1398,55 @@
           "covers": [
             "SQL",
             "SchemaCrawler"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a7a14be2-78b5-4b4a-ba77-2658285e2756",
+          "label": "appliquer la rétro-ingénierie",
+          "type": "skill/competence",
+          "covers": [
+            "SchemaCrawler"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/64db87c7-2360-4e20-88d3-d222402e477c",
+          "label": "écrire la documentation d’une base de données",
+          "type": "skill/competence",
+          "covers": [
+            "SchemaCrawler"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/9ef0f3a0-9ce2-4ef1-a987-0366b5cb2dbe",
+          "label": "outils de développement de bases de données",
+          "type": "knowledge",
+          "covers": [
+            "SchemaCrawler",
+            "DuckDB"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/9ba8fd27-275d-4bad-8c48-f668aa99a578",
+          "label": "équilibrer les ressources d’une base de données",
+          "type": "skill/competence",
+          "covers": [
+            "Tuning"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/022dc430-872a-473a-9cf4-fed4895e58ad",
+          "label": "définir la structure physique de la base de données",
+          "type": "skill/competence",
+          "covers": [
+            "Tuning"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/ec85cc63-4e24-4631-bf92-8789db2605c0",
+          "label": "maintenir la sécurité d’une base de données",
+          "type": "skill/competence",
+          "covers": [
+            "Analyse sécurité & lifecycle"
           ]
         }
       ]
@@ -1327,6 +1539,61 @@
           "covers": [
             "Shift-left security",
             "Trivy"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/861313ba-3a1a-4d33-842a-1b8e45e2415b",
+          "label": "gérer les conséquences de l’obsolescence des TIC",
+          "type": "skill/competence",
+          "covers": [
+            "geol"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/fe1c2b32-7fe9-4668-affa-07ff658a68cf",
+          "label": "identifier les risques de sécurité des TIC",
+          "type": "skill/competence",
+          "covers": [
+            "Trivy",
+            "Shift-left security"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/06358891-8424-43c5-891e-d40f226bef40",
+          "label": "gérer la conformité en matière de sécurité des TIC",
+          "type": "skill/competence",
+          "covers": [
+            "RGPD",
+            "WCAG",
+            "Shift-left security"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/71c2f41e-14de-4b23-82ad-5dbcd54ba5b0",
+          "label": "gérer le déploiement d’un système de TIC",
+          "type": "skill/competence",
+          "covers": [
+            "GitHub Actions",
+            "goreleaser",
+            "Docker",
+            "Kubernetes"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/8dcbcabe-09f7-4d11-940d-125af57bbc40",
+          "label": "suivre des indicateurs clés de performance",
+          "type": "skill/competence",
+          "covers": [
+            "DORA metrics"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/be0ff6d8-5e61-4021-9c89-e40cf0b75cc6",
+          "label": "mesurer l’ergonomie d’un logiciel",
+          "type": "skill/competence",
+          "covers": [
+            "Lighthouse",
+            "Accessibility CI checks"
           ]
         }
       ]
@@ -4015,7 +4282,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.35.5",
+    "version": "v1.35.6",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
