@@ -309,6 +309,17 @@ def main():
     for p in r.get("projects", []):
         other(profile, "Projets", p["name"], rich(p.get("description", ""), items=p.get("highlights", [])),
               start=p.get("startDate"), end=p.get("endDate"), links=[p.get("url")])
+    # Recommandations mises en avant (x-featured), texte intégral, plus récentes d'abord
+    linkedin = next((pr["url"] for pr in b.get("profiles", []) if pr["network"].lower() == "linkedin"), None)
+    featured = [x for x in r.get("references", []) if x.get("x-featured")]
+    for ref in sorted(featured, key=lambda x: x.get("x-date", ""), reverse=True):
+        attests = [e["label"] for e in ref.get("x-esco", [])]
+        desc = rich(ref.get("x-relationship", ""), *ref["reference"].split("\n"))
+        if attests:
+            desc += rich("Compétences attestées (ESCO) : " + " · ".join(attests))
+        link = ref.get("x-url") or (f"{linkedin.rstrip('/')}/details/recommendations/" if linkedin else None)
+        other(profile, "Recommandations", f"{ref['name']} — {ref.get('x-position', '')}".rstrip(" —"), desc,
+              start=ref.get("x-date"), links=[link])
     for i in r.get("interests", []):
         if i.get("x-context") in ("pro", "mixed"):
             other(profile, "Centres d'intérêt", i["name"], rich(", ".join(i.get("keywords", []))))
