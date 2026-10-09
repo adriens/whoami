@@ -22,5 +22,13 @@ Mots-clés : Enseignement universitaire (Master MIAGE), Pédagogie Montessori, M
 - [transmettre les techniques d’un métier](../esco/transmettre-les-techniques-dun-metier.md) — *skill/competence*
 - [utiliser des méthodes de conception centrée sur l’utilisateur](../esco/utiliser-des-methodes-de-conception-centree-sur-lutilisateur.md) — *skill/competence*
 - [encourager le renforcement d’équipe](../esco/encourager-le-renforcement-dequipe.md) — *skill/competence*
+- [enseigner l’informatique](../esco/enseigner-linformatique.md) — *skill/competence*
+- [appliquer la pédagogie Montessori](../esco/appliquer-la-pedagogie-montessori.md) — *skill/competence*
+- [appliquer des stratégies pédagogiques](../esco/appliquer-des-strategies-pedagogiques.md) — *skill/competence*
+- [enseigner en présentant des exemples personnels](../esco/enseigner-en-presentant-des-exemples-personnels.md) — *skill/competence*
+- [adapter l’enseignement au marché du travail](../esco/adapter-lenseignement-au-marche-du-travail.md) — *skill/competence*
+- [adapter l’enseignement aux capacités des élèves](../esco/adapter-lenseignement-aux-capacites-des-eleves.md) — *skill/competence*
+- [favoriser le travail en équipe entre élèves](../esco/favoriser-le-travail-en-equipe-entre-eleves.md) — *skill/competence*
+- [recommander des méthodes d'apprentissage](../esco/recommander-des-methodes-d-apprentissage.md) — *skill/competence*
 
 **Tags :** [knowledge-sharing](../tags/knowledge-sharing.md)

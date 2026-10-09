@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-115 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+123 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -33,10 +33,14 @@ timestamp: '2026-10-09'
 - [Python (programmation informatique)](python-programmation-informatique.md) — 1 entrées
 - [R](r.md) — 1 entrées
 - [SQL](sql.md) — 1 entrées
+- [adapter l’enseignement au marché du travail](adapter-lenseignement-au-marche-du-travail.md) — 1 entrées
+- [adapter l’enseignement aux capacités des élèves](adapter-lenseignement-aux-capacites-des-eleves.md) — 1 entrées
 - [administrer un système de gestion de bases de données relationnelles](administrer-un-systeme-de-gestion-de-bases-de-donnees-relationnelles.md) — 1 entrées
 - [aider des étudiants dans leur apprentissage](aider-des-etudiants-dans-leur-apprentissage.md) — 1 entrées
 - [aligner le logiciel sur l’architecture du système](aligner-le-logiciel-sur-larchitecture-du-systeme.md) — 1 entrées
+- [appliquer des stratégies pédagogiques](appliquer-des-strategies-pedagogiques.md) — 1 entrées
 - [appliquer la gestion du changement](appliquer-la-gestion-du-changement.md) — 1 entrées
+- [appliquer la pédagogie Montessori](appliquer-la-pedagogie-montessori.md) — 1 entrées
 - [assurer un leadership](assurer-un-leadership.md) — 1 entrées
 - [avoir un esprit créatif](avoir-un-esprit-creatif.md) — 1 entrées
 - [capteurs](capteurs.md) — 1 entrées
@@ -65,6 +69,8 @@ timestamp: '2026-10-09'
 - [encourager des équipes à rechercher l’amélioration continue](encourager-des-equipes-a-rechercher-lamelioration-continue.md) — 1 entrées
 - [encourager le renforcement d’équipe](encourager-le-renforcement-dequipe.md) — 1 entrées
 - [endosser vis-à-vis de collègues un rôle de meneur, cherchant avant tout à atteindre les objectifs](endosser-vis-a-vis-de-collegues-un-role-de-meneur-cherchant-avant-tout-a-atteindre-les-objectifs.md) — 1 entrées
+- [enseigner en présentant des exemples personnels](enseigner-en-presentant-des-exemples-personnels.md) — 1 entrées
+- [enseigner l’informatique](enseigner-linformatique.md) — 1 entrées
 - [enseigner à l'université](enseigner-a-l-universite.md) — 1 entrées
 - [entrepôt de données](entrepot-de-donnees.md) — 1 entrées
 - [entretenir des relations avec des fournisseurs](entretenir-des-relations-avec-des-fournisseurs.md) — 1 entrées
@@ -72,6 +78,7 @@ timestamp: '2026-10-09'
 - [faire des commentaires constructifs](faire-des-commentaires-constructifs.md) — 1 entrées
 - [faire preuve de curiosité](faire-preuve-de-curiosite.md) — 1 entrées
 - [faire preuve d’esprit d’entreprise](faire-preuve-desprit-dentreprise.md) — 1 entrées
+- [favoriser le travail en équipe entre élèves](favoriser-le-travail-en-equipe-entre-eleves.md) — 1 entrées
 - [fournir du contenu multimédia](fournir-du-contenu-multimedia.md) — 1 entrées
 - [fournir une documentation technique](fournir-une-documentation-technique.md) — 2 entrées
 - [fournir une présentation visuelle des données](fournir-une-presentation-visuelle-des-donnees.md) — 3 entrées
@@ -110,6 +117,7 @@ timestamp: '2026-10-09'
 - [protection des données](protection-des-donnees.md) — 1 entrées
 - [présenter des rapports](presenter-des-rapports.md) — 1 entrées
 - [pédagogie](pedagogie.md) — 1 entrées
+- [recommander des méthodes d'apprentissage](recommander-des-methodes-d-apprentissage.md) — 1 entrées
 - [recruter des employés](recruter-des-employes.md) — 1 entrées
 - [rédiger des textes professionnels](rediger-des-textes-professionnels.md) — 1 entrées
 - [rédiger un article scientifique](rediger-un-article-scientifique.md) — 1 entrées
