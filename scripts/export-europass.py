@@ -158,6 +158,10 @@ def candidate_person(root, b):
     sub(a, "oa:CityName", loc.get("city", ""))
     sub(a, "CountryCode", loc.get("countryCode", "").lower())
     sub(a, "oa:PostalCode", loc.get("postalCode", ""))
+    for nat in b.get("x-nationality", []):
+        sub(p, "NationalityCode", nat.lower())
+    if b.get("x-gender") in ("male", "female", "other", "do_not_indicate"):
+        sub(p, "GenderCode", b["x-gender"])
     return p
 
 
