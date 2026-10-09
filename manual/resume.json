@@ -2014,6 +2014,77 @@
           "covers": [
             "Apprenance & intelligence collective — l'apprentissage et le groupe au centre (Lean & Learn, J. Chaize)"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b820c9de-4d00-4e79-9af9-33f26044ff42",
+          "label": "enseigner l’informatique",
+          "type": "skill/competence",
+          "covers": [
+            "Enseignement universitaire (Master MIAGE)",
+            "Tuteur industriel (projets tutorés UNC)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/20c2011f-c389-49cd-972e-a4809db0476c",
+          "label": "appliquer la pédagogie Montessori",
+          "type": "skill/competence",
+          "covers": [
+            "Pédagogie Montessori"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/59eb177a-2f30-4943-8b30-5f87dd51a80d",
+          "label": "appliquer des stratégies pédagogiques",
+          "type": "skill/competence",
+          "covers": [
+            "Learning by doing",
+            "Construction du raisonnement plutôt que dictée de la solution",
+            "Vulgarisation technique"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b32e593b-cc7f-4f38-bf50-e69431ec7ada",
+          "label": "enseigner en présentant des exemples personnels",
+          "type": "skill/competence",
+          "covers": [
+            "Learning by doing",
+            "Pédagogie par projets réels open source / open data"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b4832996-b36c-40b2-b54e-780325b2546e",
+          "label": "adapter l’enseignement au marché du travail",
+          "type": "skill/competence",
+          "covers": [
+            "Pédagogie par projets réels open source / open data",
+            "Conception de stages sur mesure (datascience → APIs → mobile, art génératif, IoT)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/573d3f91-c81c-407e-a56d-0f3a63272b43",
+          "label": "adapter l’enseignement aux capacités des élèves",
+          "type": "skill/competence",
+          "covers": [
+            "Conception de stages sur mesure (datascience → APIs → mobile, art génératif, IoT)",
+            "Mindful Learning (Ellen Langer)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/229b10cf-6f3a-490c-9706-01c107df0562",
+          "label": "favoriser le travail en équipe entre élèves",
+          "type": "skill/competence",
+          "covers": [
+            "Apprenance & intelligence collective — l'apprentissage et le groupe au centre (Lean & Learn, J. Chaize)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/f78877d1-99f3-4649-addc-2d09c9183a1e",
+          "label": "recommander des méthodes d'apprentissage",
+          "type": "skill/competence",
+          "covers": [
+            "Mindful Learning (Ellen Langer)",
+            "Why-first (Sinek)"
+          ]
         }
       ]
     },
@@ -3944,7 +4015,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.35.4",
+    "version": "v1.35.5",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
