@@ -24,7 +24,7 @@ Format : document **Europass Candidate** (HR-XML 3 + extensions Europass/EURES),
 ## Import
 
 1. Se connecter sur https://europa.eu/europass (EU Login)
-2. Mon Europass → Créer un CV (ou le profil) → **importer** `europass-cv.xml`
+2. Mon Europass → Créer un CV (ou le profil) **en français** → **importer** `europass-cv.xml` (le XML est en français, `languageCode="fr"` ; pas de version anglaise pour l'instant)
 3. Relire, ajuster la mise en page, exporter en PDF (le PDF embarque le XML : réimportable)
 
 ## Schéma — `schema/`
