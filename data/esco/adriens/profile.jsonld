@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.35.5",
+  "x-resume-version": "v1.35.6",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -525,6 +525,106 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/fbafa41f-cd05-4109-a649-8b44d306d779",
+      "termCode": "fbafa41f-cd05-4109-a649-8b44d306d779",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "créer des modèles de données"
+        },
+        {
+          "@language": "en",
+          "@value": "create data models"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Graph & Knowledge Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5",
+      "termCode": "fecf8a0d-62c4-4e71-9b03-0f4fc2ad7bf5",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "modèles de données"
+        },
+        {
+          "@language": "en",
+          "@value": "data models"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Graph & Knowledge Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38",
+      "termCode": "54924a2c-daca-40d3-9716-4b38ceb04f38",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "algorithmes"
+        },
+        {
+          "@language": "en",
+          "@value": "algorithms"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Graph & Knowledge Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/4339176e-3acd-4f7f-a5d9-445bee3d23f2",
+      "termCode": "4339176e-3acd-4f7f-a5d9-445bee3d23f2",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "mathématiques"
+        },
+        {
+          "@language": "en",
+          "@value": "mathematics"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Graph & Knowledge Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/1bba98a7-92b9-450b-9235-e0c905f8f3c4",
+      "termCode": "1bba98a7-92b9-450b-9235-e0c905f8f3c4",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "architecture de l’information"
+        },
+        {
+          "@language": "en",
+          "@value": "information architecture"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Graph & Knowledge Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2",
       "termCode": "e465a154-93f7-4973-9ce1-31659fe16dd2",
       "name": [
@@ -602,6 +702,46 @@
       "x-profile-skills": [
         "IA & Agents",
         "Data Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/42cb7669-c371-4903-9c0b-13db67b2e4bb",
+      "termCode": "42cb7669-c371-4903-9c0b-13db67b2e4bb",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "technologies émergentes"
+        },
+        {
+          "@language": "en",
+          "@value": "emergent technologies"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "IA & Agents"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/f9670490-8aa4-4540-b121-d440a8294aab",
+      "termCode": "f9670490-8aa4-4540-b121-d440a8294aab",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "développer des applications de traitement des données"
+        },
+        {
+          "@language": "en",
+          "@value": "develop data processing applications"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "IA & Agents"
       ]
     },
     {
@@ -727,6 +867,106 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/a47d194d-0ffd-4aaa-b695-fbbe0255000e",
+      "termCode": "a47d194d-0ffd-4aaa-b695-fbbe0255000e",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "concevoir un système d’information"
+        },
+        {
+          "@language": "en",
+          "@value": "design information system"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Architecture & Développement"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/c453cf81-6197-428e-84c6-70c773b63f27",
+      "termCode": "c453cf81-6197-428e-84c6-70c773b63f27",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "cadres d'architecture TIC"
+        },
+        {
+          "@language": "en",
+          "@value": "ICT architectural frameworks"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Architecture & Développement"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/2450c3b3-e78e-435b-b84d-e05d984e71dc",
+      "termCode": "2450c3b3-e78e-435b-b84d-e05d984e71dc",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "modèles d’architecture logicielle"
+        },
+        {
+          "@language": "en",
+          "@value": "software architecture models"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Architecture & Développement"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/5b9cde20-f1b9-4adc-bfb3-dbf70b14138d",
+      "termCode": "5b9cde20-f1b9-4adc-bfb3-dbf70b14138d",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "utiliser la programmation orientée objet"
+        },
+        {
+          "@language": "en",
+          "@value": "use object-oriented programming"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Architecture & Développement"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/83b33952-3872-46ec-9a2e-b28f91303a7e",
+      "termCode": "83b33952-3872-46ec-9a2e-b28f91303a7e",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "superviser le développement d’un logiciel"
+        },
+        {
+          "@language": "en",
+          "@value": "oversee development of software"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Architecture & Développement"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/9d0d89be-bffa-4393-b6f6-8d05bea49051",
       "termCode": "9d0d89be-bffa-4393-b6f6-8d05bea49051",
       "name": [
@@ -825,6 +1065,126 @@
         "Data Engineering",
         "Microsoft Power Platform",
         "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/2daec0e6-f0c1-43e8-8178-aedba99130ec",
+      "termCode": "2daec0e6-f0c1-43e8-8178-aedba99130ec",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "créer des traitements de données"
+        },
+        {
+          "@language": "en",
+          "@value": "establish data processes"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Data Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/9ff9db9d-d14b-426e-83f3-e7449af6c79f",
+      "termCode": "9ff9db9d-d14b-426e-83f3-e7449af6c79f",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "gérer les données"
+        },
+        {
+          "@language": "en",
+          "@value": "manage data"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Data Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/a7f0fbe0-c546-4f30-8e41-34a58c64567e",
+      "termCode": "a7f0fbe0-c546-4f30-8e41-34a58c64567e",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "stockage de données"
+        },
+        {
+          "@language": "en",
+          "@value": "data storage"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Data Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/9a0d0abc-010d-440b-8242-7e31510471ba",
+      "termCode": "9a0d0abc-010d-440b-8242-7e31510471ba",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "respect de la gouvernance de l'information"
+        },
+        {
+          "@language": "en",
+          "@value": "information governance compliance"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Data Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/713fb616-118e-40bc-9366-4a69879a49d5",
+      "termCode": "713fb616-118e-40bc-9366-4a69879a49d5",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "mettre en œuvre des processus de qualité des données"
+        },
+        {
+          "@language": "en",
+          "@value": "implement data quality processes"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Data Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/47a49cd6-097d-457a-9f7b-c290c14930d5",
+      "termCode": "47a49cd6-097d-457a-9f7b-c290c14930d5",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "analyser des mégadonnées"
+        },
+        {
+          "@language": "en",
+          "@value": "analyse big data"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Data Engineering"
       ]
     },
     {
@@ -969,6 +1329,126 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/a7a14be2-78b5-4b4a-ba77-2658285e2756",
+      "termCode": "a7a14be2-78b5-4b4a-ba77-2658285e2756",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "appliquer la rétro-ingénierie"
+        },
+        {
+          "@language": "en",
+          "@value": "apply reverse engineering"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Bases de données"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/64db87c7-2360-4e20-88d3-d222402e477c",
+      "termCode": "64db87c7-2360-4e20-88d3-d222402e477c",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "écrire la documentation d’une base de données"
+        },
+        {
+          "@language": "en",
+          "@value": "write database documentation"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Bases de données"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/9ef0f3a0-9ce2-4ef1-a987-0366b5cb2dbe",
+      "termCode": "9ef0f3a0-9ce2-4ef1-a987-0366b5cb2dbe",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "outils de développement de bases de données"
+        },
+        {
+          "@language": "en",
+          "@value": "database development tools"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Bases de données"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/9ba8fd27-275d-4bad-8c48-f668aa99a578",
+      "termCode": "9ba8fd27-275d-4bad-8c48-f668aa99a578",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "équilibrer les ressources d’une base de données"
+        },
+        {
+          "@language": "en",
+          "@value": "balance database resources"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Bases de données"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/022dc430-872a-473a-9cf4-fed4895e58ad",
+      "termCode": "022dc430-872a-473a-9cf4-fed4895e58ad",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "définir la structure physique de la base de données"
+        },
+        {
+          "@language": "en",
+          "@value": "define database physical structure"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Bases de données"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/ec85cc63-4e24-4631-bf92-8789db2605c0",
+      "termCode": "ec85cc63-4e24-4631-bf92-8789db2605c0",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "maintenir la sécurité d’une base de données"
+        },
+        {
+          "@language": "en",
+          "@value": "maintain database security"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Bases de données"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/f0de4973-0a70-4644-8fd4-3a97080476f4",
       "termCode": "f0de4973-0a70-4644-8fd4-3a97080476f4",
       "name": [
@@ -1103,6 +1583,126 @@
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/861313ba-3a1a-4d33-842a-1b8e45e2415b",
+      "termCode": "861313ba-3a1a-4d33-842a-1b8e45e2415b",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "gérer les conséquences de l’obsolescence des TIC"
+        },
+        {
+          "@language": "en",
+          "@value": "manage ICT legacy implication"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/fe1c2b32-7fe9-4668-affa-07ff658a68cf",
+      "termCode": "fe1c2b32-7fe9-4668-affa-07ff658a68cf",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "identifier les risques de sécurité des TIC"
+        },
+        {
+          "@language": "en",
+          "@value": "identify ICT security risks"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/06358891-8424-43c5-891e-d40f226bef40",
+      "termCode": "06358891-8424-43c5-891e-d40f226bef40",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "gérer la conformité en matière de sécurité des TIC"
+        },
+        {
+          "@language": "en",
+          "@value": "manage IT security compliances"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/71c2f41e-14de-4b23-82ad-5dbcd54ba5b0",
+      "termCode": "71c2f41e-14de-4b23-82ad-5dbcd54ba5b0",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "gérer le déploiement d’un système de TIC"
+        },
+        {
+          "@language": "en",
+          "@value": "manage ICT system deployment"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/8dcbcabe-09f7-4d11-940d-125af57bbc40",
+      "termCode": "8dcbcabe-09f7-4d11-940d-125af57bbc40",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "suivre des indicateurs clés de performance"
+        },
+        {
+          "@language": "en",
+          "@value": "track key performance indicators"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/be0ff6d8-5e61-4021-9c89-e40cf0b75cc6",
+      "termCode": "be0ff6d8-5e61-4021-9c89-e40cf0b75cc6",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "mesurer l’ergonomie d’un logiciel"
+        },
+        {
+          "@language": "en",
+          "@value": "measure software usability"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "DevSecOps"
       ]
