@@ -8,7 +8,7 @@ Site portfolio Astro déployé sur GitHub Pages : https://adriens.github.io/whoa
 - **uv** — gestion des dépendances Python (`pyproject.toml` + `uv.lock`)
 - **bun** — gestion des dépendances JS (`package.json` + `bun.lock`)
 - **task** (go-task) — interface unifiée pour toutes les tâches (`Taskfile.yml`)
-- **Astro 6.x** — site portfolio statique dans `site/`, déployé via GitHub Actions sur GitHub Pages
+- **Astro 7.x** — site portfolio statique dans `site/`, déployé via GitHub Actions sur GitHub Pages
 
 ## Fichiers clés
 
