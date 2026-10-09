@@ -17,6 +17,9 @@ const sortedAwards = [...awards].sort((a: any, b: any) => (b.date ?? '').localeC
 
 // ── ESCO : profil JSON-LD (schema.org) + libellé court des métiers ──────────
 const escoShort = (label: string) => label.split('/')[0].trim();
+// Lien direct vers la fiche FR du portail : la redirection de l'URI data.europa.eu perd le concept
+const escoHref = (uri: string) =>
+  `https://esco.ec.europa.eu/fr/classification/${uri.split('/').at(-2)}?uri=${encodeURIComponent(uri)}`;
 const escoTerm = (e: any, scheme: string) => ({
   '@type': 'DefinedTerm', '@id': e.uri, termCode: e.uri.split('/').pop(), name: e.label,
   inDefinedTermSet: `http://data.europa.eu/esco/concept-scheme/${scheme}`,
@@ -415,7 +418,7 @@ function levelDots(level: string): number {
                     <div class="esco-row">
                       <span class="esco-label" title="Métier(s) du référentiel européen ESCO">ESCO</span>
                       {w['x-esco-occupations'].map((o: any) => (
-                        <a class="tag tag-esco" href={o.uri} target="_blank" rel="noopener" title={`${o.label} — ISCO ${o.code}`}>{escoShort(o.label)}</a>
+                        <a class="tag tag-esco" href={escoHref(o.uri)} target="_blank" rel="noopener" title={`${o.label} — ISCO ${o.code}`}>{escoShort(o.label)}</a>
                       ))}
                     </div>
                   )}
@@ -504,7 +507,7 @@ function levelDots(level: string): number {
                   <div class="esco-row">
                     <span class="esco-label" title="Concepts du référentiel européen ESCO">ESCO</span>
                     {s['x-esco'].map((e: any) => (
-                      <a class="tag tag-esco" href={e.uri} target="_blank" rel="noopener" title={e.covers?.length ? `Couvre : ${e.covers.join(', ')}` : e.label}>{e.label}</a>
+                      <a class="tag tag-esco" href={escoHref(e.uri)} target="_blank" rel="noopener" title={e.covers?.length ? `Couvre : ${e.covers.join(', ')}` : e.label}>{e.label}</a>
                     ))}
                   </div>
                 )}
