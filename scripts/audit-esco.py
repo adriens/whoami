@@ -7,7 +7,8 @@ Vérifie hors-ligne (pas d'appel à l'API ESCO, compatible CI) :
   - URI mal formée (`http://data.europa.eu/esco/(skill|occupation)/<uuid>`)
   - `label` vide, `type` hors {knowledge, skill/competence}
   - `covers` qui cite un keyword absent des `keywords` du skill (mapping périmé)
-  - occupation (`basics` / `work[]`) sans `code` ISCO-ESCO
+  - occupation (`basics` / `work[]` / `volunteer[]`) sans `code` ISCO-ESCO
+  - `languages[].x-esco` / `certificates[].x-esco` mal formés (URI, label, type)
 - RAPPORT : couverture des keywords par groupe — chaque keyword est soit
   couvert par au moins un concept ESCO (`covers`), soit listé comme non couvert
   (typiquement une techno de niche absente d'ESCO).
@@ -33,6 +34,17 @@ def check_occupations(where, occs, errors):
             errors.append(f"{where}: label vide pour {o.get('uri')}")
         if not o.get("code"):
             errors.append(f"{where}: code ISCO manquant pour {o.get('uri')}")
+
+
+def check_skill_links(where, links, errors):
+    for e in links:
+        uri = e.get("uri", "")
+        if not URI_RE.match(uri) or "/skill/" not in uri:
+            errors.append(f"{where} : URI invalide {uri!r}")
+        if not e.get("label"):
+            errors.append(f"{where} : label vide pour {uri}")
+        if e.get("type") not in TYPES:
+            errors.append(f"{where} : type {e.get('type')!r} pour {uri}")
 
 
 def main():
@@ -75,6 +87,15 @@ def main():
         if not occs:
             print(f"\n  ⚠ work « {w.get('name')} » : aucune occupation ESCO")
         check_occupations(f"work « {w.get('name')} »", occs, errors)
+    for v in r.get("volunteer", []):
+        check_occupations(f"volunteer « {v.get('organization')} »", v.get("x-esco-occupations", []), errors)
+    for section, key in (("languages", "language"), ("certificates", "name")):
+        for item in r.get(section, []):
+            links = item.get("x-esco", [])
+            if not links:
+                print(f"  ⚠ {section} « {item.get(key)} » : aucun x-esco")
+            check_skill_links(f"{section} « {item.get(key)} »", links, errors)
+            concepts.update(e.get("uri", "") for e in links)
 
     pct = covered_total / total if total else 0
     print(f"\nTotal : {covered_total}/{total} keywords couverts ({pct:.0%}), {len(concepts)} concepts ESCO uniques")

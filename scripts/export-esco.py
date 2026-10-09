@@ -63,6 +63,16 @@ def main():
         entry = f"{w.get('position', '')} @ {w.get('name', '')}"
         for o in w.get("x-esco-occupations", []):
             links.append(("occupation", o["uri"], o["label"], o["code"], entry, "", []))
+    for v in r.get("volunteer", []):
+        entry = f"volunteer: {v.get('position', '')} @ {v.get('organization', '')}"
+        for o in v.get("x-esco-occupations", []):
+            links.append(("occupation", o["uri"], o["label"], o["code"], entry, "", []))
+    for l in r.get("languages", []):
+        for e in l.get("x-esco", []):
+            links.append(("skill", e["uri"], e["label"], e["type"], f"language: {l['language']}", l.get("fluency", ""), []))
+    for c in r.get("certificates", []):
+        for e in c.get("x-esco", []):
+            links.append(("skill", e["uri"], e["label"], e["type"], f"certificate: {c['name']}", "", []))
 
     uris = sorted({l[1] for l in links})
     print(f"Fetching EN labels for {len(uris)} ESCO concepts...")
@@ -92,6 +102,13 @@ def main():
         return occ
 
     occupations = [occupation(o) for o in b.get("x-esco-occupations", [])]
+    for v in r.get("volunteer", []):
+        for o in v.get("x-esco-occupations", []):
+            occupations.append(occupation(o, {
+                "x-position": v.get("position", ""),
+                "x-organization": v.get("organization", ""),
+                "x-volunteer": True,
+            }))
     for w in r.get("work", []):
         for o in w.get("x-esco-occupations", []):
             occupations.append(occupation(o, {
@@ -113,6 +130,17 @@ def main():
         "x-resume-version": r.get("meta", {}).get("version", ""),
         "hasOccupation": occupations,
         "knowsAbout": list(skill_terms.values()),
+        "knowsLanguage": [
+            {"@type": "Language", "name": l["language"], "x-fluency": l.get("fluency", ""),
+             "x-esco": [defined_term(e["uri"], e["label"], en[e["uri"]]) for e in l.get("x-esco", [])]}
+            for l in r.get("languages", [])
+        ],
+        "hasCredential": [
+            {"@type": "EducationalOccupationalCredential", "name": c["name"],
+             "recognizedBy": {"@type": "Organization", "name": c.get("issuer", "")},
+             "about": [defined_term(e["uri"], e["label"], en[e["uri"]]) for e in c.get("x-esco", [])]}
+            for c in r.get("certificates", [])
+        ],
     }
     (OUT / "profile.jsonld").write_text(json.dumps(profile, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 

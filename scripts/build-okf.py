@@ -164,11 +164,13 @@ def main():
         slug = slugify(f"{v.get('organization','')}-{v.get('position','')}")
         body = [v.get("summary", "")]
         body += [f"- {h}" for h in v.get("highlights", [])]
-        reg(Record("volunteer", slug, "Volunteer",
-                   f"{v.get('position','')} @ {v.get('organization','')}",
-                   truncate(v.get("summary", "")),
-                   v.get("url", CANONICAL), v.get("x-tags", []),
-                   v.get("startDate", DEFAULT_TS), body))
+        rec = Record("volunteer", slug, "Volunteer",
+                     f"{v.get('position','')} @ {v.get('organization','')}",
+                     truncate(v.get("summary", "")),
+                     v.get("url", CANONICAL), v.get("x-tags", []),
+                     v.get("startDate", DEFAULT_TS), body)
+        body += esco_links(rec, v.get("x-esco-occupations", []), "occupation")
+        reg(rec)
 
     # references
     for ref in r.get("references", []):
@@ -189,10 +191,12 @@ def main():
     for c in r.get("certificates", []):
         slug = slugify(c.get("name", ""))
         body = [f"*Émetteur : {c.get('issuer','')}*"]
-        reg(Record("certificates", slug, "Certificate", c.get("name", ""),
-                   f"Certificat — {c.get('issuer','')}",
-                   c.get("url", CANONICAL), c.get("x-tags", []),
-                   c.get("date", DEFAULT_TS), body))
+        rec = Record("certificates", slug, "Certificate", c.get("name", ""),
+                     f"Certificat — {c.get('issuer','')}",
+                     c.get("url", CANONICAL), c.get("x-tags", []),
+                     c.get("date", DEFAULT_TS), body)
+        body += esco_links(rec, c.get("x-esco", []), "skill")
+        reg(rec)
 
     # 2e passe : skills & interests s'accrochent au graphe via name/keywords
     def matched_tags(*candidates):
@@ -251,6 +255,10 @@ def main():
                  b.get("x-summary-short", truncate(b.get("summary", ""))),
                  b.get("url", CANONICAL), [], DEFAULT_TS, prof_body)
     prof_body += esco_links(rec, b.get("x-esco-occupations", []), "occupation")
+    for l in r.get("languages", []):
+        if l.get("x-esco"):
+            prof_body += ["", f"*Langue : {l['language']} — {l.get('fluency', '')}*"]
+            prof_body += esco_links(rec, l["x-esco"], "skill")[1:]
     records.append(rec)
 
     # --- Écriture ---------------------------------------------------------
