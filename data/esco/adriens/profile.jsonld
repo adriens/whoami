@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.36.0",
+  "x-resume-version": "v1.36.1",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -515,6 +515,107 @@
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Méthode signature : API-fication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/46ec0033-3c71-415e-bcff-b065675ba2dc",
+      "termCode": "46ec0033-3c71-415e-bcff-b065675ba2dc",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "intégrer des données TIC"
+        },
+        {
+          "@language": "en",
+          "@value": "integrate ICT data"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Méthode signature : API-fication",
+        "Data Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/a4a882a1-0263-4dd2-b29a-f0028cac2393",
+      "termCode": "a4a882a1-0263-4dd2-b29a-f0028cac2393",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "définir une stratégie d’intégration"
+        },
+        {
+          "@language": "en",
+          "@value": "define integration strategy"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Méthode signature : API-fication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/2b7a79e5-84d8-4880-be66-3d9bb05bea17",
+      "termCode": "2b7a79e5-84d8-4880-be66-3d9bb05bea17",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "utiliser des patrons de conception"
+        },
+        {
+          "@language": "en",
+          "@value": "use software design patterns"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Méthode signature : API-fication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/484df271-bb52-49f1-8f50-f19624bf4df2",
+      "termCode": "484df271-bb52-49f1-8f50-f19624bf4df2",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "bibliothèques de composants logiciels"
+        },
+        {
+          "@language": "en",
+          "@value": "software components libraries"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Méthode signature : API-fication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/797a4416-0b8d-44f3-8fcd-eb10bd0be6b4",
+      "termCode": "797a4416-0b8d-44f3-8fcd-eb10bd0be6b4",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "développer un prototype de logiciel"
+        },
+        {
+          "@language": "en",
+          "@value": "develop software prototype"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "Méthode signature : API-fication"
       ]
@@ -1097,26 +1198,6 @@
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
-      "x-profile-skills": [
-        "Data Engineering"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/46ec0033-3c71-415e-bcff-b065675ba2dc",
-      "termCode": "46ec0033-3c71-415e-bcff-b065675ba2dc",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "intégrer des données TIC"
-        },
-        {
-          "@language": "en",
-          "@value": "integrate ICT data"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "Data Engineering"
       ]
@@ -1826,6 +1907,46 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/143769cb-b61e-47d8-a61e-eedfbec1016c",
+      "termCode": "143769cb-b61e-47d8-a61e-eedfbec1016c",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "informatique décisionnelle"
+        },
+        {
+          "@language": "en",
+          "@value": "business intelligence"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Microsoft Power Platform"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213",
+      "termCode": "348b74cd-49ce-4844-8bdf-ec188b497213",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "techniques de présentation visuelle"
+        },
+        {
+          "@language": "en",
+          "@value": "visual presentation techniques"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Microsoft Power Platform"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
       "termCode": "ccd0a1d9-afda-43d9-b901-96344886e14d",
       "name": [
@@ -1841,7 +1962,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
       "x-profile-skills": [
-        "Open Data & Data Science"
+        "Open Data & Data Science",
+        "IoT & Hardware"
       ]
     },
     {
@@ -1998,6 +2120,86 @@
         {
           "@language": "en",
           "@value": "present reports"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Reporting & Documentation"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/941364b9-1375-4add-9889-d67bae99bc8c",
+      "termCode": "941364b9-1375-4add-9889-d67bae99bc8c",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "rédiger des rapports techniques"
+        },
+        {
+          "@language": "en",
+          "@value": "write technical reports"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Reporting & Documentation"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/918f5211-b99f-4b29-9a34-6e475583ef55",
+      "termCode": "918f5211-b99f-4b29-9a34-6e475583ef55",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "rédiger des rapports sur le travail"
+        },
+        {
+          "@language": "en",
+          "@value": "write work-related reports"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Reporting & Documentation"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/0af062de-eb43-41e9-9b96-249e2cd22d26",
+      "termCode": "0af062de-eb43-41e9-9b96-249e2cd22d26",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "utiliser des langages de balisage"
+        },
+        {
+          "@language": "en",
+          "@value": "use markup languages"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Reporting & Documentation"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c",
+      "termCode": "382c11ed-20d5-4ae7-b60e-15fec527fa6c",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "appliquer des techniques d’analyse statistique"
+        },
+        {
+          "@language": "en",
+          "@value": "apply statistical analysis techniques"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
@@ -3395,6 +3597,46 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/cf200547-25b5-47c8-9eda-bca4aedc13fb",
+      "termCode": "cf200547-25b5-47c8-9eda-bca4aedc13fb",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "programmer un micrologiciel"
+        },
+        {
+          "@language": "en",
+          "@value": "program firmware"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "IoT & Hardware"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b633eb55-8f1f-4ae6-ab4c-2022ffe2cb7f",
+      "termCode": "b633eb55-8f1f-4ae6-ab4c-2022ffe2cb7f",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "C++"
+        },
+        {
+          "@language": "en",
+          "@value": "C++"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "IoT & Hardware"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/c624c6a3-b0ba-4a31-a296-0d433fe47e41",
       "termCode": "c624c6a3-b0ba-4a31-a296-0d433fe47e41",
       "name": [
@@ -3545,6 +3787,106 @@
         {
           "@language": "en",
           "@value": "develop creative ideas"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Créativité & Apprentissage autodidacte"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/958b8802-ec3e-4813-97f7-6c8f48610dbd",
+      "termCode": "958b8802-ec3e-4813-97f7-6c8f48610dbd",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "identifier des améliorations de procédés"
+        },
+        {
+          "@language": "en",
+          "@value": "identify process improvements"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Créativité & Apprentissage autodidacte"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/4707da90-9cfc-46ca-8de0-38a0b7bfb137",
+      "termCode": "4707da90-9cfc-46ca-8de0-38a0b7bfb137",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "réfléchir de manière analytique"
+        },
+        {
+          "@language": "en",
+          "@value": "think analytically"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Créativité & Apprentissage autodidacte"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec",
+      "termCode": "e186976a-64f0-4052-a25b-297d19e1d0ec",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "penser de manière proactive"
+        },
+        {
+          "@language": "en",
+          "@value": "think proactively"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Créativité & Apprentissage autodidacte"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/c29aa9d2-4da8-4bdd-831c-8d4a2fb51730",
+      "termCode": "c29aa9d2-4da8-4bdd-831c-8d4a2fb51730",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "travailler de manière autonome"
+        },
+        {
+          "@language": "en",
+          "@value": "work independently"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Créativité & Apprentissage autodidacte"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/9cfd2219-553c-4d67-81e5-951e87c65135",
+      "termCode": "9cfd2219-553c-4d67-81e5-951e87c65135",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "rester concentré pendant de longues périodes"
+        },
+        {
+          "@language": "en",
+          "@value": "maintain concentration for long periods"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
