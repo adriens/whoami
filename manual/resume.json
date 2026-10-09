@@ -1584,7 +1584,8 @@
         "Accessibility CI checks",
         "DORA metrics",
         "Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase",
-        "Scripts Bash"
+        "Scripts Bash",
+        "Grype (scanner de vulnérabilités, grype-contribs)"
       ],
       "x-esco": [
         {
@@ -1618,7 +1619,8 @@
             "Trivy",
             "Shift-left security",
             "geol",
-            "Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase"
+            "Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase",
+            "Grype (scanner de vulnérabilités, grype-contribs)"
           ]
         },
         {
@@ -1671,7 +1673,8 @@
           "type": "skill/competence",
           "covers": [
             "Trivy",
-            "Shift-left security"
+            "Shift-left security",
+            "Grype (scanner de vulnérabilités, grype-contribs)"
           ]
         },
         {
@@ -2008,7 +2011,8 @@
         "Tech advocacy interne",
         "Pitching interne",
         "Évangélisation par la pratique",
-        "Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC)"
+        "Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC)",
+        "Démos live & unboxings de releases"
       ],
       "x-esco": [
         {
@@ -2018,7 +2022,8 @@
           "covers": [
             "Talks internationaux",
             "Pitching interne",
-            "Tech advocacy interne"
+            "Tech advocacy interne",
+            "Démos live & unboxings de releases"
           ]
         },
         {
@@ -2178,6 +2183,14 @@
           "covers": [
             "Détournements vidéo tech",
             "YouTube"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/5c8aa481-9e7c-4f32-8197-a8b0fd7ca186",
+          "label": "démontrer la fonctionnalité de produits logiciels",
+          "type": "skill/competence",
+          "covers": [
+            "Démos live & unboxings de releases"
           ]
         }
       ]
@@ -2479,7 +2492,8 @@
         "Conception de stages sur mesure (datascience → APIs → mobile, art génératif, IoT)",
         "Mentorat à distance full-remote (GitHub issues comme seul canal)",
         "Facilitation UX (Visonneau)",
-        "Apprenance & intelligence collective — l'apprentissage et le groupe au centre (Lean & Learn, J. Chaize)"
+        "Apprenance & intelligence collective — l'apprentissage et le groupe au centre (Lean & Learn, J. Chaize)",
+        "Supports pédagogiques vidéo (tutoriels HackAVP, séries MIAGE)"
       ],
       "x-esco": [
         {
@@ -2624,6 +2638,14 @@
           "covers": [
             "Mindful Learning (Ellen Langer)",
             "Why-first (Sinek)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b6d14ab8-3441-4cbe-8a0e-5b4f7f994730",
+          "label": "concevoir du matériel pédagogique numérique",
+          "type": "skill/competence",
+          "covers": [
+            "Supports pédagogiques vidéo (tutoriels HackAVP, séries MIAGE)"
           ]
         }
       ]
@@ -4784,7 +4806,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.37.0",
+    "version": "v1.37.1",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
