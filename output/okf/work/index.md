@@ -4,7 +4,7 @@ title: Work
 description: Index de la section work
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-09-02'
+timestamp: '2026-10-09'
 ---
 
 5 entrées.

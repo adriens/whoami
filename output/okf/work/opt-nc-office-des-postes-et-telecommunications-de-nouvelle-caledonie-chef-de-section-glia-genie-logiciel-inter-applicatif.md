@@ -38,4 +38,8 @@ Pilotage de la section GLIA (6 personnes) : interopérabilité du SI, data engin
 
 *Période : 2019-04 → présent*
 
+**Métiers ESCO :**
+- [responsable des logiciels](../esco/responsable-des-logiciels.md) — *ISCO 1330.5.1*
+- [concepteur de systèmes informatiques](../esco/concepteur-de-systemes-informatiques.md) — *ISCO 2511.13*
+
 **Tags :** [ai-agents](../tags/ai-agents.md), [architecture](../tags/architecture.md), [data](../tags/data.md), [devrel](../tags/devrel.md), [devsecops](../tags/devsecops.md), [interoperability](../tags/interoperability.md), [knowledge-graph](../tags/knowledge-graph.md), [management](../tags/management.md), [mentor](../tags/mentor.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [pacifique](../tags/pacifique.md), [team-lead](../tags/team-lead.md)

@@ -4,7 +4,7 @@ title: lasting-impact
 description: 10 entrées taguées « lasting-impact »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-09-02'
+timestamp: '2026-10-09'
 ---
 
 Concept transversal reliant 10 entrées du profil.

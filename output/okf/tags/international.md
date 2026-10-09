@@ -4,7 +4,7 @@ title: international
 description: 23 entrées taguées « international »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-09-02'
+timestamp: '2026-10-09'
 ---
 
 Concept transversal reliant 23 entrées du profil.

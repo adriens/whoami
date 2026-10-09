@@ -7,11 +7,18 @@ resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.js
 tags:
 - knowledge-graph
 - neo4j
-timestamp: '2026-09-02'
+timestamp: '2026-10-09'
 ---
 
 **Niveau : Expert**
 
 Mots-clés : Neo4j, Graph Data Science, Cypher, Knowledge Graph, GDS Library, NetworkX, endoflife.date-neo4j, Théorie des graphes, Analyse de réseaux, Centralité & clustering, Réseaux cachés, JSON-LD, schema.org
+
+**Compétences ESCO :**
+- [NoSQL](../esco/nosql.md) — *knowledge*
+- [utiliser des langages de requête](../esco/utiliser-des-langages-de-requete.md) — *skill/competence*
+- [exploration de données](../esco/exploration-de-donnees.md) — *knowledge*
+- [gérer l’intégration sémantique des TIC](../esco/gerer-lintegration-semantique-des-tic.md) — *skill/competence*
+- [standards du World Wide Web Consortium](../esco/standards-du-world-wide-web-consortium.md) — *knowledge*
 
 **Tags :** [knowledge-graph](../tags/knowledge-graph.md), [neo4j](../tags/neo4j.md)

@@ -4,7 +4,7 @@ title: scraping
 description: 8 entrées taguées « scraping »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-09-02'
+timestamp: '2026-10-09'
 ---
 
 Concept transversal reliant 8 entrées du profil.

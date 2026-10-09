@@ -34,4 +34,8 @@ timestamp: 2010-12
 
 *Période : 2010-12 → 2019-03*
 
+**Métiers ESCO :**
+- [concepteur de logiciels](../esco/concepteur-de-logiciels.md) — *ISCO 2512.2*
+- [responsable des logiciels](../esco/responsable-des-logiciels.md) — *ISCO 1330.5.1*
+
 **Tags :** [architecture](../tags/architecture.md), [data](../tags/data.md), [devsecops](../tags/devsecops.md), [interoperability](../tags/interoperability.md), [java](../tags/java.md), [management](../tags/management.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [pacifique](../tags/pacifique.md), [spring](../tags/spring.md), [team-lead](../tags/team-lead.md)

@@ -4,7 +4,7 @@ title: dynamism
 description: 4 entrées taguées « dynamism »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-09-02'
+timestamp: '2026-10-09'
 ---
 
 Concept transversal reliant 4 entrées du profil.

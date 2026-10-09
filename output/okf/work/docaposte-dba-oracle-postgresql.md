@@ -22,4 +22,8 @@ DBA expert sur des plateformes nationales à fort trafic et fort enjeu : HADOPI,
 
 *Période : 2008-10 → 2010-11*
 
+**Métiers ESCO :**
+- [administrateur de base de données](../esco/administrateur-de-base-de-donnees.md) — *ISCO 2521.1*
+- [développeur de base de données](../esco/developpeur-de-base-de-donnees.md) — *ISCO 2521.3*
+
 **Tags :** [architecture](../tags/architecture.md), [data](../tags/data.md), [devsecops](../tags/devsecops.md), [high-availability](../tags/high-availability.md), [international](../tags/international.md), [java](../tags/java.md)

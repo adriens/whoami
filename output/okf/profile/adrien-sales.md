@@ -9,7 +9,7 @@ description: Architecte et urbaniste des SI au croisement des maths (DEA INRIA S
   levier.
 resource: https://adriens.github.io/whoami/
 tags: []
-timestamp: '2026-09-02'
+timestamp: '2026-10-09'
 ---
 
 Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis) puis en data science (Mastère Spécialisé MSBDS — labellisé Conférence des Grandes Écoles, stage data mining avec l'I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte. Méthode signature : l'API-fication — identifier un manque d'interopérabilité, scraper ou exploiter l'open data, packager en SDK, exposer en API, laisser émerger l'écosystème communautaire (apps mobiles, AR, bots, MCPs, dashboards). Validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa.
@@ -39,3 +39,9 @@ Ambitions parallèles : construire un produit data/IA ancré dans les problémat
 - [Docker Hub](https://hub.docker.com/u/rastadidi)
 - [Ko-fi](https://ko-fi.com/rastadidi)
 - Zenodo: adriens
+
+**Métiers ESCO :**
+- [architecte d’entreprise](../esco/architecte-dentreprise.md) — *ISCO 2511.5*
+- [concepteur de systèmes informatiques](../esco/concepteur-de-systemes-informatiques.md) — *ISCO 2511.13*
+- [responsable des logiciels](../esco/responsable-des-logiciels.md) — *ISCO 1330.5.1*
+- [chargé de cours](../esco/charge-de-cours.md) — *ISCO 2310.1.42*

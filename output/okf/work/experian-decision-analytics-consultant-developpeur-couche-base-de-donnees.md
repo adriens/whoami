@@ -22,4 +22,8 @@ Développement core sur le layer base de données et intégration en mode consul
 
 *Période : 2003-09 → 2008-09*
 
+**Métiers ESCO :**
+- [développeur de base de données](../esco/developpeur-de-base-de-donnees.md) — *ISCO 2521.3*
+- [développeur de logiciels](../esco/developpeur-de-logiciels.md) — *ISCO 2512.3*
+
 **Tags :** [architecture](../tags/architecture.md), [data](../tags/data.md), [fintech](../tags/fintech.md), [international](../tags/international.md), [java](../tags/java.md), [monaco](../tags/monaco.md)

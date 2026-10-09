@@ -4,7 +4,7 @@ title: direct-report-recommendation
 description: 6 entrées taguées « direct-report-recommendation »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-09-02'
+timestamp: '2026-10-09'
 ---
 
 Concept transversal reliant 6 entrées du profil.

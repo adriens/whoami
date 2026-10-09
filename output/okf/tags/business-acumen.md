@@ -4,7 +4,7 @@ title: business-acumen
 description: 1 entrées taguées « business-acumen »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-09-02'
+timestamp: '2026-10-09'
 ---
 
 Concept transversal reliant 1 entrées du profil.

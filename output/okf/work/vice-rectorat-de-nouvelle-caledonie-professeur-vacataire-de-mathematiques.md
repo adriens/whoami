@@ -17,4 +17,7 @@ Enseignement des mathématiques en collège : collège de Bourail, puis collège
 
 *Période : 1999-09 → 2001-08*
 
+**Métiers ESCO :**
+- [professeur de mathématiques](../esco/professeur-de-mathematiques.md) — *ISCO 2330.1.11*
+
 **Tags :** [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [pacifique](../tags/pacifique.md), [pedagogy](../tags/pedagogy.md)
