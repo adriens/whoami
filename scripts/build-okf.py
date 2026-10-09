@@ -7,7 +7,9 @@ description, resource, tags, timestamp.
 
 Ici : chaque entrée de resume.json devient un document. Les `x-tags` deviennent
 des nœuds-hub `tags/<tag>.md` qui relient les sections entre elles — le graphe
-de connaissances du profil, navigable sans Neo4j.
+de connaissances du profil, navigable sans Neo4j. Les concepts ESCO (`x-esco`,
+`x-esco-occupations`) deviennent des nœuds-hub `esco/<concept>.md` dont la
+`resource` est l'URI officielle ESCO — pont vers le référentiel européen.
 
 resume.json reste la seule source de vérité ; ce bundle est un artefact généré.
 """
@@ -66,6 +68,30 @@ def tag_links(tags, depth_to_root=".."):
     return ["", f"**Tags :** {links}"]
 
 
+# --- ESCO ------------------------------------------------------------------
+# uri → {label, kind, detail, recs} ; rempli pendant la construction des records,
+# les hubs esco/ sont écrits après la dé-duplication des slugs.
+esco_map: dict[str, dict] = {}
+
+
+def esco_slug(label: str) -> str:
+    return slugify(label.split("/")[0])
+
+
+def esco_links(rec, concepts, kind):
+    """Rattache rec aux concepts ESCO et renvoie les lignes markdown du body."""
+    if not concepts:
+        return []
+    title = "Compétences ESCO" if kind == "skill" else "Métiers ESCO"
+    lines = ["", f"**{title} :**"]
+    for c in concepts:
+        detail = c.get("type") or f"ISCO {c.get('code', '')}"
+        entry = esco_map.setdefault(c["uri"], {"label": c["label"], "kind": kind, "detail": detail, "recs": []})
+        entry["recs"].append(rec)
+        lines.append(f"- [{c['label'].split('/')[0].strip()}](../esco/{esco_slug(c['label'])}.md) — *{detail}*")
+    return lines
+
+
 def main():
     parser = argparse.ArgumentParser(description="Générer un bundle OKF depuis resume.json")
     parser.add_argument("--with-data", action="store_true", help="(non implémenté) miroir de data/**")
@@ -94,11 +120,13 @@ def main():
             period = f"{w.get('startDate','')} → {w.get('endDate','présent')}"
         body.append("")
         body.append(f"*Période : {period}*")
-        reg(Record("work", slug, "Work Experience",
-                   f"{w.get('position','')} @ {w.get('name','')}",
-                   truncate(w.get("summary", "")),
-                   w.get("url", CANONICAL), w.get("x-tags", []),
-                   w.get("startDate", DEFAULT_TS), body))
+        rec = Record("work", slug, "Work Experience",
+                     f"{w.get('position','')} @ {w.get('name','')}",
+                     truncate(w.get("summary", "")),
+                     w.get("url", CANONICAL), w.get("x-tags", []),
+                     w.get("startDate", DEFAULT_TS), body)
+        body += esco_links(rec, w.get("x-esco-occupations", []), "occupation")
+        reg(rec)
 
     # projects
     for p in r.get("projects", []):
@@ -177,9 +205,11 @@ def main():
         body = [f"**Niveau : {s.get('level','')}**", ""]
         if kws:
             body.append("Mots-clés : " + ", ".join(kws))
-        records.append(Record("skills", slug, "Skill", s.get("name", ""),
-                              f"{s.get('level','')} — {truncate(', '.join(kws), 120)}",
-                              CANONICAL, tags, DEFAULT_TS, body))
+        rec = Record("skills", slug, "Skill", s.get("name", ""),
+                     f"{s.get('level','')} — {truncate(', '.join(kws), 120)}",
+                     CANONICAL, tags, DEFAULT_TS, body)
+        body += esco_links(rec, s.get("x-esco", []), "skill")
+        records.append(rec)
 
     for i in r.get("interests", []):
         slug = slugify(i.get("name", ""))
@@ -216,9 +246,11 @@ def main():
             f"- [{p['network']}]({p['url']})" if p.get("url") else f"- {p['network']}: {p.get('username','')}"
             for p in b["profiles"]
         ]
-    records.append(Record("profile", slugify(b["name"]), "Profile", b["name"],
-                          b.get("x-summary-short", truncate(b.get("summary", ""))),
-                          b.get("url", CANONICAL), [], DEFAULT_TS, prof_body))
+    rec = Record("profile", slugify(b["name"]), "Profile", b["name"],
+                 b.get("x-summary-short", truncate(b.get("summary", ""))),
+                 b.get("url", CANONICAL), [], DEFAULT_TS, prof_body)
+    prof_body += esco_links(rec, b.get("x-esco-occupations", []), "occupation")
+    records.append(rec)
 
     # --- Écriture ---------------------------------------------------------
     if OUTPUT.exists():
@@ -276,6 +308,36 @@ def main():
             "timestamp": DEFAULT_TS,
         }, body)
 
+    # esco/<concept>.md — nœuds-hub vers le référentiel européen (resource = URI ESCO)
+    esco_dir = OUTPUT / "esco"
+    esco_slugs = {}
+    for uri, e in esco_map.items():
+        slug = esco_slug(e["label"])
+        assert esco_slugs.setdefault(slug, uri) == uri, f"collision de slug ESCO : {slug}"
+        recs = sorted({id(x): x for x in e["recs"]}.values(), key=lambda x: (x.section, x.title))
+        label = e["label"].split("/")[0].strip()
+        body = [f"Concept du référentiel européen ESCO ({e['detail']}) relié à {len(recs)} entrées du profil.",
+                "", f"URI : <{uri}>", ""]
+        body += [f"- [{x.title}](../{x.section}/{x.slug}.md) — *{x.type}*" for x in recs]
+        write_doc(esco_dir / f"{slug}.md", {
+            "type": "EscoSkill" if e["kind"] == "skill" else "EscoOccupation",
+            "title": label,
+            "description": f"ESCO {e['kind']} — {e['detail']}",
+            "resource": uri,
+            "tags": [],
+            "timestamp": META.get("x-esco-retrieved", DEFAULT_TS),
+        }, body)
+    if esco_map:
+        body = [f"{len(esco_map)} concepts ESCO rattachés au profil (retrieved {META.get('x-esco-retrieved', '?')}).", ""]
+        for kind, title in (("occupation", "Métiers"), ("skill", "Compétences & connaissances")):
+            items = sorted((e["label"].split("/")[0].strip(), esco_slug(e["label"]), len(e["recs"]))
+                           for e in esco_map.values() if e["kind"] == kind)
+            body += [f"## {title}", ""] + [f"- [{l}]({s}.md) — {n} entrées" for l, s, n in items] + [""]
+        write_doc(esco_dir / "index.md", {
+            "type": "Index", "title": "ESCO", "description": "Concepts du référentiel européen ESCO",
+            "resource": "https://esco.ec.europa.eu/", "tags": [], "timestamp": DEFAULT_TS,
+        }, body)
+
     # index.md par section
     for section, recs in by_section.items():
         body = [f"{len(recs)} entrées.", ""]
@@ -306,6 +368,8 @@ def main():
     for section in sorted(by_section):
         body.append(f"- [{section.capitalize()}]({section}/index.md) — {len(by_section[section])} entrées")
     body += ["", f"- [Tags]({'tags'}/index.md) — {len(tag_map)} concepts (graphe)"]
+    if esco_map:
+        body.append(f"- [ESCO](esco/index.md) — {len(esco_map)} concepts du référentiel européen")
     write_doc(OUTPUT / "index.md", {
         "type": "Index", "title": f"{b['name']} — OKF Bundle",
         "description": b.get("x-summary-short", b.get("label", "")),
