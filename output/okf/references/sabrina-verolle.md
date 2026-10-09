@@ -27,4 +27,8 @@ Je retiens sa capacité à faire avancer des sujets complexes, à explorer de no
 *Cheffe de section SI Postal, OPT-NC*
 *Collègue — même équipe (DSI OPT-NC) · LinkedIn · 2026-05-25*
 
+**Compétences ESCO :**
+- [respecter des délais](../esco/respecter-des-delais.md) — *skill/competence*
+- [penser de manière proactive](../esco/penser-de-maniere-proactive.md) — *skill/competence*
+
 **Tags :** [api-fication](../tags/api-fication.md), [delivery-focus](../tags/delivery-focus.md), [force-de-proposition](../tags/force-de-proposition.md), [innovation](../tags/innovation.md), [interoperability](../tags/interoperability.md), [knowledge-sharing](../tags/knowledge-sharing.md), [mentorat](../tags/mentorat.md), [open-data](../tags/open-data.md), [opt-nc](../tags/opt-nc.md), [peer-recognition](../tags/peer-recognition.md), [technical-expertise](../tags/technical-expertise.md), [transmission](../tags/transmission.md)

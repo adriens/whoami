@@ -40,4 +40,13 @@ He is also a great person to work with: reliable, positive, supportive, and alwa
 *AI & CyberSecurity Enterprise Architect | Cloud, Governance & Risk | POC-First & Pragmatic by Design | CISSP • TOGAF • PMP • ITIL • COBIT*
 *Collègue — même équipe (OPT-NC) · LinkedIn · 2026-05-28*
 
+**Compétences ESCO :**
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+- [faire preuve d’empathie](../esco/faire-preuve-dempathie.md) — *skill/competence*
+- [écouter activement](../esco/ecouter-activement.md) — *skill/competence*
+- [entretenir de bonnes relations de travail](../esco/entretenir-de-bonnes-relations-de-travail.md) — *skill/competence*
+- [établir des relations de collaboration](../esco/etablir-des-relations-de-collaboration.md) — *skill/competence*
+- [agir de manière fiable](../esco/agir-de-maniere-fiable.md) — *skill/competence*
+- [respecter des délais](../esco/respecter-des-delais.md) — *skill/competence*
+
 **Tags :** [api-fication](../tags/api-fication.md), [curiosite](../tags/curiosite.md), [delivery-focus](../tags/delivery-focus.md), [disponibilite](../tags/disponibilite.md), [exploration-techno](../tags/exploration-techno.md), [human-centric](../tags/human-centric.md), [innovation](../tags/innovation.md), [knowledge-sharing](../tags/knowledge-sharing.md), [mentorat](../tags/mentorat.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [opt-nc](../tags/opt-nc.md), [peer-recognition](../tags/peer-recognition.md), [pleasure-to-work-with](../tags/pleasure-to-work-with.md), [pragmatisme-techno](../tags/pragmatisme-techno.md), [tech-enthusiasm](../tags/tech-enthusiasm.md), [technical-excellence](../tags/technical-excellence.md), [technical-expertise](../tags/technical-expertise.md), [transmission](../tags/transmission.md), [trust-building](../tags/trust-building.md), [veille-technologique](../tags/veille-technologique.md)

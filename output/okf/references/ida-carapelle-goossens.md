@@ -26,4 +26,7 @@ Avoir le plaisir de nouveau collaborer en groupe de travail de veille ou en miss
 *Gérante R.O.I. Nouméa-Tahiti — Senior Consultant BI, Open Data & Innovation Numérique*
 *Prestataire — Adrien était son client (DSI Ville de Nouméa) · LinkedIn · 2019-05-05*
 
+**Compétences ESCO :**
+- [identifier les besoins des clients](../esco/identifier-les-besoins-des-clients.md) — *skill/competence*
+
 **Tags :** [client-relationship](../tags/client-relationship.md), [data-science](../tags/data-science.md), [leadership](../tags/leadership.md), [management-agile](../tags/management-agile.md), [mentorat](../tags/mentorat.md), [networking](../tags/networking.md), [qualites-humaines](../tags/qualites-humaines.md)

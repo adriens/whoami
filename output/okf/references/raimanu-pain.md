@@ -38,4 +38,11 @@ Globalement, Adrien ne fait pas les choses à moitié ; Il les accomplit avec pa
 *Développeur AS400 / ADELIA & Support Applicatif — CALINFO*
 *Étudiant M2 MIAGE UNC — Adrien intervenant pédagogique et tuteur projet Pépite · LinkedIn · 2026-07-21*
 
+**Compétences ESCO :**
+- [faire preuve d’empathie](../esco/faire-preuve-dempathie.md) — *skill/competence*
+- [écouter activement](../esco/ecouter-activement.md) — *skill/competence*
+- [entretenir de bonnes relations de travail](../esco/entretenir-de-bonnes-relations-de-travail.md) — *skill/competence*
+- [établir des relations de collaboration](../esco/etablir-des-relations-de-collaboration.md) — *skill/competence*
+- [utiliser des techniques de communication](../esco/utiliser-des-techniques-de-communication.md) — *skill/competence*
+
 **Tags :** [communication](../tags/communication.md), [continuous-improvement](../tags/continuous-improvement.md), [human-centric](../tags/human-centric.md), [interoperability](../tags/interoperability.md), [knowledge-sharing](../tags/knowledge-sharing.md), [lasting-impact](../tags/lasting-impact.md), [mentorat](../tags/mentorat.md), [networking](../tags/networking.md), [pedagogie](../tags/pedagogie.md), [pedagogy](../tags/pedagogy.md), [projet-tutore](../tags/projet-tutore.md), [student-recommendation](../tags/student-recommendation.md), [transmission](../tags/transmission.md), [trust-building](../tags/trust-building.md), [unc-partnership](../tags/unc-partnership.md)

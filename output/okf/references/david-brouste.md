@@ -44,4 +44,11 @@ Cette collaboration a été particulièrement enrichissante, aussi bien sur le p
 *Managing Partner, Team Leader & Fullstack Developer at DEVEO.NC | Java · Spring Boot · Quarkus · Angular · Mobile · CI/CD | Embedded Systems · Protocol Reverse Engineering · Agentic AI Workflows*
 *Prestataire — Adrien était son client · LinkedIn · 2026-06-27*
 
+**Compétences ESCO :**
+- [identifier les besoins des clients](../esco/identifier-les-besoins-des-clients.md) — *skill/competence*
+- [agir de manière fiable](../esco/agir-de-maniere-fiable.md) — *skill/competence*
+- [respecter des délais](../esco/respecter-des-delais.md) — *skill/competence*
+- [travailler en équipe](../esco/travailler-en-equipe.md) — *skill/competence*
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+
 **Tags :** [client-relationship](../tags/client-relationship.md), [community-contribution](../tags/community-contribution.md), [continuous-improvement](../tags/continuous-improvement.md), [curiosite](../tags/curiosite.md), [delivery-focus](../tags/delivery-focus.md), [disponibilite](../tags/disponibilite.md), [kafka](../tags/kafka.md), [knowledge-sharing](../tags/knowledge-sharing.md), [lean](../tags/lean.md), [management-agile](../tags/management-agile.md), [multi-technology](../tags/multi-technology.md), [open-source](../tags/open-source.md), [opt-nc](../tags/opt-nc.md), [quarkus](../tags/quarkus.md), [responsiveness](../tags/responsiveness.md), [team-culture](../tags/team-culture.md), [tech-enthusiasm](../tags/tech-enthusiasm.md), [technical-excellence](../tags/technical-excellence.md), [transmission](../tags/transmission.md)

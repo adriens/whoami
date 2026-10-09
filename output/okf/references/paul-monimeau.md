@@ -32,4 +32,10 @@ Je recommande Adrien avec grand plaisir et serais ravi de collaborer à nouveau 
 *Ingénieur en Informatique*
 *Direct report d'Adrien · LinkedIn · 2026-06-04*
 
+**Compétences ESCO :**
+- [entretenir de bonnes relations de travail](../esco/entretenir-de-bonnes-relations-de-travail.md) — *skill/competence*
+- [établir des relations de collaboration](../esco/etablir-des-relations-de-collaboration.md) — *skill/competence*
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+- [travailler en équipe](../esco/travailler-en-equipe.md) — *skill/competence*
+
 **Tags :** [api-fication](../tags/api-fication.md), [data](../tags/data.md), [data-science](../tags/data-science.md), [direct-report-recommendation](../tags/direct-report-recommendation.md), [dynamism](../tags/dynamism.md), [innovation](../tags/innovation.md), [leadership](../tags/leadership.md), [management-agile](../tags/management-agile.md), [mentorat](../tags/mentorat.md), [mobile](../tags/mobile.md), [team-culture](../tags/team-culture.md), [technical-excellence](../tags/technical-excellence.md), [technical-expertise](../tags/technical-expertise.md), [transmission](../tags/transmission.md), [trust-building](../tags/trust-building.md)

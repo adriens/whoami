@@ -40,4 +40,12 @@ Pour finir, c'est un collègue comme on en croise peu, et quelqu'un qui me manqu
 *Software Architect*
 *Collègue — même équipe · LinkedIn · 2026-05-26*
 
+**Compétences ESCO :**
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+- [respecter des délais](../esco/respecter-des-delais.md) — *skill/competence*
+- [faire preuve d’empathie](../esco/faire-preuve-dempathie.md) — *skill/competence*
+- [écouter activement](../esco/ecouter-activement.md) — *skill/competence*
+- [entretenir de bonnes relations de travail](../esco/entretenir-de-bonnes-relations-de-travail.md) — *skill/competence*
+- [établir des relations de collaboration](../esco/etablir-des-relations-de-collaboration.md) — *skill/competence*
+
 **Tags :** [architecture](../tags/architecture.md), [data](../tags/data.md), [delivery-focus](../tags/delivery-focus.md), [devsecops](../tags/devsecops.md), [dynamism](../tags/dynamism.md), [human-centric](../tags/human-centric.md), [lasting-impact](../tags/lasting-impact.md), [lean](../tags/lean.md), [opt-nc](../tags/opt-nc.md), [peer-recognition](../tags/peer-recognition.md), [pleasure-to-work-with](../tags/pleasure-to-work-with.md), [pragmatisme-techno](../tags/pragmatisme-techno.md), [technical-excellence](../tags/technical-excellence.md), [trust-building](../tags/trust-building.md)

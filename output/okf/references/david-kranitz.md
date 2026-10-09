@@ -32,4 +32,7 @@ C'est un fervent partisan du DIY et des technologies Arduino.
 *Développeur Java / Kotlin*
 *Direct report d'Adrien · LinkedIn · 2026-05-27*
 
+**Compétences ESCO :**
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+
 **Tags :** [architecture-logicielle](../tags/architecture-logicielle.md), [civic-tech](../tags/civic-tech.md), [database](../tags/database.md), [direct-report-recommendation](../tags/direct-report-recommendation.md), [dsi-noumea](../tags/dsi-noumea.md), [iot](../tags/iot.md), [java](../tags/java.md), [mentorat](../tags/mentorat.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-data](../tags/open-data.md), [open-source](../tags/open-source.md), [pedagogie](../tags/pedagogie.md), [spring](../tags/spring.md), [tech-enthusiasm](../tags/tech-enthusiasm.md), [technical-excellence](../tags/technical-excellence.md), [transmission](../tags/transmission.md)

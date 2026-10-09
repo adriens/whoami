@@ -34,4 +34,8 @@ Merci Adrien pour cette expérience marquante !
 *Concepteur Développeur, Province Nord — Nouvelle-Calédonie*
 *Étudiant M2 MIAGE UNC — Adrien intervenant pédagogique (UE Interopérabilité des SI) · LinkedIn · 2026-05-25*
 
+**Compétences ESCO :**
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+- [agir de manière fiable](../esco/agir-de-maniere-fiable.md) — *skill/competence*
+
 **Tags :** [devrel](../tags/devrel.md), [disponibilite](../tags/disponibilite.md), [innovation](../tags/innovation.md), [interoperability](../tags/interoperability.md), [knowledge-sharing](../tags/knowledge-sharing.md), [lasting-impact](../tags/lasting-impact.md), [open-source](../tags/open-source.md), [pedagogie](../tags/pedagogie.md), [pedagogy](../tags/pedagogy.md), [student-recommendation](../tags/student-recommendation.md), [tech-enthusiasm](../tags/tech-enthusiasm.md), [technical-expertise](../tags/technical-expertise.md), [transmission](../tags/transmission.md), [unc-partnership](../tags/unc-partnership.md)

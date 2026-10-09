@@ -40,4 +40,9 @@ Any organization, community, or academic program would be incredibly fortunate t
 *Senior Manager, Developer Community (Neo4j)*
 *Responsable Developer Community chez Neo4j — reconnaissance upstream via le programme Neo4j Ninjas ; relation cross-company, équipes différentes · LinkedIn · 2026-07-22*
 
+**Compétences ESCO :**
+- [faire preuve d’empathie](../esco/faire-preuve-dempathie.md) — *skill/competence*
+- [écouter activement](../esco/ecouter-activement.md) — *skill/competence*
+- [utiliser des techniques de communication](../esco/utiliser-des-techniques-de-communication.md) — *skill/competence*
+
 **Tags :** [communication](../tags/communication.md), [community-contribution](../tags/community-contribution.md), [cross-company](../tags/cross-company.md), [devrel](../tags/devrel.md), [human-centric](../tags/human-centric.md), [international](../tags/international.md), [knowledge-sharing](../tags/knowledge-sharing.md), [leadership](../tags/leadership.md), [mentorat](../tags/mentorat.md), [neo4j](../tags/neo4j.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-source](../tags/open-source.md), [pedagogy](../tags/pedagogy.md), [speaker](../tags/speaker.md), [transmission](../tags/transmission.md), [upstream-recognition](../tags/upstream-recognition.md)

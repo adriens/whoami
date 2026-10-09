@@ -29,4 +29,11 @@ C'est également un excellent tuteur, toujours disponible, à l'écoute et impli
 *Responsable technique & Développeur senior chez Sopra Steria*
 *Stagiaire — direct report d'Adrien · LinkedIn · 2026-05-26*
 
+**Compétences ESCO :**
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+- [agir de manière fiable](../esco/agir-de-maniere-fiable.md) — *skill/competence*
+- [faire preuve d’empathie](../esco/faire-preuve-dempathie.md) — *skill/competence*
+- [écouter activement](../esco/ecouter-activement.md) — *skill/competence*
+- [penser de manière proactive](../esco/penser-de-maniere-proactive.md) — *skill/competence*
+
 **Tags :** [curiosite](../tags/curiosite.md), [direct-report-recommendation](../tags/direct-report-recommendation.md), [disponibilite](../tags/disponibilite.md), [force-de-proposition](../tags/force-de-proposition.md), [human-centric](../tags/human-centric.md), [intern-recommendation](../tags/intern-recommendation.md), [knowledge-sharing](../tags/knowledge-sharing.md), [mentorat](../tags/mentorat.md), [opt-nc](../tags/opt-nc.md), [pedagogie](../tags/pedagogie.md), [stage](../tags/stage.md), [tech-enthusiasm](../tags/tech-enthusiasm.md), [transmission](../tags/transmission.md)

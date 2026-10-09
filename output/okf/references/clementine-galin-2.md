@@ -32,4 +32,9 @@ Ce que je retiens surtout, c'est sa passion, sa pédagogie et sa capacité à do
 *Valoriser la donnée, éclairer la décision*
 *Étudiante M2 MIAGE UNC — Adrien intervenant pédagogique (UE Interopérabilité des SI) · LinkedIn · 2026-05-25*
 
+**Compétences ESCO :**
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+- [faire preuve d’empathie](../esco/faire-preuve-dempathie.md) — *skill/competence*
+- [écouter activement](../esco/ecouter-activement.md) — *skill/competence*
+
 **Tags :** [civic-tech](../tags/civic-tech.md), [curiosite](../tags/curiosite.md), [data](../tags/data.md), [human-centric](../tags/human-centric.md), [innovation](../tags/innovation.md), [interoperability](../tags/interoperability.md), [lasting-impact](../tags/lasting-impact.md), [open-data](../tags/open-data.md), [pedagogie](../tags/pedagogie.md), [pedagogy](../tags/pedagogy.md), [student-recommendation](../tags/student-recommendation.md), [tech-enthusiasm](../tags/tech-enthusiasm.md), [transmission](../tags/transmission.md), [unc-partnership](../tags/unc-partnership.md)

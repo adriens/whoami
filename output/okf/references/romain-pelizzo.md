@@ -29,4 +29,7 @@ Et bien d'autres encore. 👌
 *Concepteur / Développeur d'Applications*
 *Direct report d'Adrien (OPT-NC) · LinkedIn · 2026-05-28*
 
+**Compétences ESCO :**
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+
 **Tags :** [api-design](../tags/api-design.md), [api-fication](../tags/api-fication.md), [direct-report-recommendation](../tags/direct-report-recommendation.md), [exploration-techno](../tags/exploration-techno.md), [java](../tags/java.md), [knowledge-sharing](../tags/knowledge-sharing.md), [mentorat](../tags/mentorat.md), [opt-nc](../tags/opt-nc.md), [pedagogie](../tags/pedagogie.md), [quarkus](../tags/quarkus.md), [tech-enthusiasm](../tags/tech-enthusiasm.md), [transmission](../tags/transmission.md)

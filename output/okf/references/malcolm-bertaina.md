@@ -28,4 +28,8 @@ Je remercie grandement Adrien pour cette collaboration et les connaissances qu'i
 *Étudiant ingénieur 2ème année — Architecture Systèmes & Réseaux, ENSEEIHT (Toulouse)*
 *Étudiant — tuteur industriel d'Adrien (OPT-NC) sur projet tutoré UNC × OPT-NC · LinkedIn · 2025-03-16*
 
+**Compétences ESCO :**
+- [agir de manière fiable](../esco/agir-de-maniere-fiable.md) — *skill/competence*
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+
 **Tags :** [innovation](../tags/innovation.md), [mentorat](../tags/mentorat.md), [opt-nc](../tags/opt-nc.md), [pedagogie](../tags/pedagogie.md), [projet-tutore](../tags/projet-tutore.md), [responsiveness](../tags/responsiveness.md), [student-recommendation](../tags/student-recommendation.md), [tech-enthusiasm](../tags/tech-enthusiasm.md), [transmission](../tags/transmission.md), [unc-partnership](../tags/unc-partnership.md)

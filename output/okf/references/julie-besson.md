@@ -34,4 +34,10 @@ Adrien ce fut un plaisir de collaborer avec toi ! Je te souhaite le meilleur pou
 *AI GTM Lead - CPG, Energy, Luxe & Life Sciences - Google Cloud France*
 *Prestataire — Adrien était son client (Google Cloud France) · LinkedIn · 2026-06-14*
 
+**Compétences ESCO :**
+- [identifier les besoins des clients](../esco/identifier-les-besoins-des-clients.md) — *skill/competence*
+- [utiliser des techniques de communication](../esco/utiliser-des-techniques-de-communication.md) — *skill/competence*
+- [respecter des délais](../esco/respecter-des-delais.md) — *skill/competence*
+- [travailler en équipe](../esco/travailler-en-equipe.md) — *skill/competence*
+
 **Tags :** [ai-agents](../tags/ai-agents.md), [api-fication](../tags/api-fication.md), [architecture](../tags/architecture.md), [client-relationship](../tags/client-relationship.md), [communication](../tags/communication.md), [cross-company](../tags/cross-company.md), [data](../tags/data.md), [delivery-focus](../tags/delivery-focus.md), [devrel](../tags/devrel.md), [innovation](../tags/innovation.md), [international](../tags/international.md), [pedagogie](../tags/pedagogie.md), [pedagogy](../tags/pedagogy.md), [pleasure-to-work-with](../tags/pleasure-to-work-with.md), [team-culture](../tags/team-culture.md), [technical-excellence](../tags/technical-excellence.md), [technical-expertise](../tags/technical-expertise.md), [transmission](../tags/transmission.md)

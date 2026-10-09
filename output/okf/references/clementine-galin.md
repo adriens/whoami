@@ -24,4 +24,8 @@ Avant-dernier point, l'enrichissement personnel. On a eu la chance de choisir ch
 *Valoriser la donnée, éclairer la décision*
 *Étudiante M2 MIAGE UNC — Adrien intervenant pédagogique (UE Interopérabilité des SI) · YouTube · 2026-06-04*
 
+**Compétences ESCO :**
+- [faire preuve d’empathie](../esco/faire-preuve-dempathie.md) — *skill/competence*
+- [écouter activement](../esco/ecouter-activement.md) — *skill/competence*
+
 **Tags :** [curiosite](../tags/curiosite.md), [human-centric](../tags/human-centric.md), [knowledge-sharing](../tags/knowledge-sharing.md), [lasting-impact](../tags/lasting-impact.md), [mentorat](../tags/mentorat.md), [pedagogie](../tags/pedagogie.md), [pedagogy](../tags/pedagogy.md), [student-recommendation](../tags/student-recommendation.md), [transmission](../tags/transmission.md), [unc-partnership](../tags/unc-partnership.md)

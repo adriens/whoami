@@ -36,4 +36,11 @@ C'est un professionnel inspirant qui donne du sens à ce qu'il transmet et qui d
 *Chargé de projets / Étudiant-entrepreneur*
 *Étudiant M2 MIAGE UNC — Adrien intervenant pédagogique et tuteur PEPITE 2025 · LinkedIn · 2026-05-28*
 
+**Compétences ESCO :**
+- [faire preuve d’empathie](../esco/faire-preuve-dempathie.md) — *skill/competence*
+- [écouter activement](../esco/ecouter-activement.md) — *skill/competence*
+- [agir de manière fiable](../esco/agir-de-maniere-fiable.md) — *skill/competence*
+- [entretenir de bonnes relations de travail](../esco/entretenir-de-bonnes-relations-de-travail.md) — *skill/competence*
+- [établir des relations de collaboration](../esco/etablir-des-relations-de-collaboration.md) — *skill/competence*
+
 **Tags :** [disponibilite](../tags/disponibilite.md), [human-centric](../tags/human-centric.md), [innovation](../tags/innovation.md), [interoperability](../tags/interoperability.md), [lasting-impact](../tags/lasting-impact.md), [mentorat](../tags/mentorat.md), [opt-nc](../tags/opt-nc.md), [pedagogie](../tags/pedagogie.md), [pedagogy](../tags/pedagogy.md), [projet-tutore](../tags/projet-tutore.md), [qualites-humaines](../tags/qualites-humaines.md), [student-recommendation](../tags/student-recommendation.md), [technical-expertise](../tags/technical-expertise.md), [transmission](../tags/transmission.md), [trust-building](../tags/trust-building.md), [unc-partnership](../tags/unc-partnership.md)

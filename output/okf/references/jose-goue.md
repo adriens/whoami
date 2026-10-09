@@ -29,4 +29,9 @@ Je suis vraiment impressionné par la façon dont Adrien a pu s'adapter à chaqu
 *Étudiant M2 MIAGE, Université de la Nouvelle-Calédonie*
 *Étudiant M2 MIAGE UNC — Adrien intervenant pédagogique · YouTube · 2025-11-24*
 
+**Compétences ESCO :**
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+- [faire preuve d’empathie](../esco/faire-preuve-dempathie.md) — *skill/competence*
+- [écouter activement](../esco/ecouter-activement.md) — *skill/competence*
+
 **Tags :** [human-centric](../tags/human-centric.md), [innovation](../tags/innovation.md), [mentorat](../tags/mentorat.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [pacifique](../tags/pacifique.md), [pedagogie](../tags/pedagogie.md), [pedagogy](../tags/pedagogy.md), [student-recommendation](../tags/student-recommendation.md), [tech-enthusiasm](../tags/tech-enthusiasm.md), [transmission](../tags/transmission.md), [unc-partnership](../tags/unc-partnership.md)

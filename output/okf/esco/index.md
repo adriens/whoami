@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-206 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+215 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -40,6 +40,7 @@ timestamp: '2026-10-09'
 - [adapter l’enseignement au marché du travail](adapter-lenseignement-au-marche-du-travail.md) — 1 entrées
 - [adapter l’enseignement aux capacités des élèves](adapter-lenseignement-aux-capacites-des-eleves.md) — 1 entrées
 - [administrer un système de gestion de bases de données relationnelles](administrer-un-systeme-de-gestion-de-bases-de-donnees-relationnelles.md) — 1 entrées
+- [agir de manière fiable](agir-de-maniere-fiable.md) — 10 entrées
 - [aider des étudiants dans leur apprentissage](aider-des-etudiants-dans-leur-apprentissage.md) — 1 entrées
 - [algorithmes](algorithmes.md) — 1 entrées
 - [aligner le logiciel sur l’architecture du système](aligner-le-logiciel-sur-larchitecture-du-systeme.md) — 1 entrées
@@ -106,12 +107,15 @@ timestamp: '2026-10-09'
 - [enseigner l’informatique](enseigner-linformatique.md) — 1 entrées
 - [enseigner à l'université](enseigner-a-l-universite.md) — 1 entrées
 - [entrepôt de données](entrepot-de-donnees.md) — 1 entrées
+- [entretenir de bonnes relations de travail](entretenir-de-bonnes-relations-de-travail.md) — 8 entrées
 - [entretenir des relations avec des fournisseurs](entretenir-des-relations-avec-des-fournisseurs.md) — 1 entrées
 - [espagnol](espagnol.md) — 1 entrées
 - [exploration de données](exploration-de-donnees.md) — 1 entrées
 - [faire des commentaires constructifs](faire-des-commentaires-constructifs.md) — 1 entrées
 - [faire preuve d'humour](faire-preuve-d-humour.md) — 1 entrées
 - [faire preuve de curiosité](faire-preuve-de-curiosite.md) — 1 entrées
+- [faire preuve d’empathie](faire-preuve-dempathie.md) — 13 entrées
+- [faire preuve d’enthousiasme](faire-preuve-denthousiasme.md) — 15 entrées
 - [faire preuve d’esprit d’entreprise](faire-preuve-desprit-dentreprise.md) — 1 entrées
 - [favoriser le travail en équipe entre élèves](favoriser-le-travail-en-equipe-entre-eleves.md) — 1 entrées
 - [fournir du contenu multimédia](fournir-du-contenu-multimedia.md) — 1 entrées
@@ -135,6 +139,7 @@ timestamp: '2026-10-09'
 - [gérer une base de données](gerer-une-base-de-donnees.md) — 1 entrées
 - [gérer une équipe](gerer-une-equipe.md) — 1 entrées
 - [identifier des améliorations de procédés](identifier-des-ameliorations-de-procedes.md) — 1 entrées
+- [identifier les besoins des clients](identifier-les-besoins-des-clients.md) — 6 entrées
 - [identifier les risques de sécurité des TIC](identifier-les-risques-de-securite-des-tic.md) — 1 entrées
 - [informatique décisionnelle](informatique-decisionnelle.md) — 1 entrées
 - [interagir au moyen de technologies numériques](interagir-au-moyen-de-technologies-numeriques.md) — 1 entrées
@@ -161,7 +166,7 @@ timestamp: '2026-10-09'
 - [outils de gestion de configuration logicielle](outils-de-gestion-de-configuration-logicielle.md) — 2 entrées
 - [outils d’extraction de transformation et de chargement](outils-dextraction-de-transformation-et-de-chargement.md) — 1 entrées
 - [participer à des échanges au moyen de technologies numériques](participer-a-des-echanges-au-moyen-de-technologies-numeriques.md) — 1 entrées
-- [penser de manière proactive](penser-de-maniere-proactive.md) — 1 entrées
+- [penser de manière proactive](penser-de-maniere-proactive.md) — 7 entrées
 - [pensée systémique](pensee-systemique.md) — 1 entrées
 - [philosophies d’amélioration continue](philosophies-damelioration-continue.md) — 1 entrées
 - [planifier des évènements](planifier-des-evenements.md) — 1 entrées
@@ -177,6 +182,7 @@ timestamp: '2026-10-09'
 - [recommander des méthodes d'apprentissage](recommander-des-methodes-d-apprentissage.md) — 1 entrées
 - [recruter des employés](recruter-des-employes.md) — 1 entrées
 - [respect de la gouvernance de l'information](respect-de-la-gouvernance-de-l-information.md) — 1 entrées
+- [respecter des délais](respecter-des-delais.md) — 7 entrées
 - [rester concentré pendant de longues périodes](rester-concentre-pendant-de-longues-periodes.md) — 1 entrées
 - [robotique](robotique.md) — 1 entrées
 - [réaliser des audits informatiques](realiser-des-audits-informatiques.md) — 1 entrées
@@ -202,16 +208,18 @@ timestamp: '2026-10-09'
 - [traitement automatique du langage naturel](traitement-automatique-du-langage-naturel.md) — 1 entrées
 - [transmettre les techniques d’un métier](transmettre-les-techniques-dun-metier.md) — 1 entrées
 - [travailler de manière autonome](travailler-de-maniere-autonome.md) — 1 entrées
+- [travailler en équipe](travailler-en-equipe.md) — 6 entrées
 - [utiliser des bibliothèques logicielles](utiliser-des-bibliotheques-logicielles.md) — 1 entrées
 - [utiliser des langages de balisage](utiliser-des-langages-de-balisage.md) — 1 entrées
 - [utiliser des langages de requête](utiliser-des-langages-de-requete.md) — 1 entrées
 - [utiliser des méthodes de conception centrée sur l’utilisateur](utiliser-des-methodes-de-conception-centree-sur-lutilisateur.md) — 2 entrées
 - [utiliser des outils en ligne pour collaborer](utiliser-des-outils-en-ligne-pour-collaborer.md) — 1 entrées
 - [utiliser des patrons de conception](utiliser-des-patrons-de-conception.md) — 1 entrées
-- [utiliser des techniques de communication](utiliser-des-techniques-de-communication.md) — 1 entrées
+- [utiliser des techniques de communication](utiliser-des-techniques-de-communication.md) — 7 entrées
 - [utiliser la programmation de scripts](utiliser-la-programmation-de-scripts.md) — 1 entrées
 - [utiliser la programmation orientée objet](utiliser-la-programmation-orientee-objet.md) — 1 entrées
 - [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 2 entrées
+- [écouter activement](ecouter-activement.md) — 13 entrées
 - [écrire en anglais](ecrire-en-anglais.md) — 1 entrées
 - [écrire en français](ecrire-en-francais.md) — 1 entrées
 - [écrire la documentation d’une base de données](ecrire-la-documentation-dune-base-de-donnees.md) — 1 entrées
@@ -219,4 +227,5 @@ timestamp: '2026-10-09'
 - [élaborer la conception d'un produit](elaborer-la-conception-d-un-produit.md) — 2 entrées
 - [élaborer un plan de cours](elaborer-un-plan-de-cours.md) — 1 entrées
 - [équilibrer les ressources d’une base de données](equilibrer-les-ressources-dune-base-de-donnees.md) — 1 entrées
+- [établir des relations de collaboration](etablir-des-relations-de-collaboration.md) — 8 entrées
 - [évaluer les performances de collaborateurs de l’organisation](evaluer-les-performances-de-collaborateurs-de-lorganisation.md) — 1 entrées

@@ -37,4 +37,10 @@ Un grand merci à Adrien pour avoir partagé ses connaissances et convictions du
 *Software Developer chez Skazy (aujourd'hui) — à l'époque membre de l'équipe d'Adrien*
 *Direct report d'Adrien (équipe GLIA, OPT-NC) · LinkedIn · 2021-04-14*
 
+**Compétences ESCO :**
+- [travailler en équipe](../esco/travailler-en-equipe.md) — *skill/competence*
+- [faire preuve d’empathie](../esco/faire-preuve-dempathie.md) — *skill/competence*
+- [écouter activement](../esco/ecouter-activement.md) — *skill/competence*
+- [utiliser des techniques de communication](../esco/utiliser-des-techniques-de-communication.md) — *skill/competence*
+
 **Tags :** [communication](../tags/communication.md), [curiosite](../tags/curiosite.md), [direct-report-recommendation](../tags/direct-report-recommendation.md), [human-centric](../tags/human-centric.md), [innovation](../tags/innovation.md), [leadership](../tags/leadership.md), [management](../tags/management.md), [mentorat](../tags/mentorat.md), [opt-nc](../tags/opt-nc.md), [team-culture](../tags/team-culture.md), [transmission](../tags/transmission.md)

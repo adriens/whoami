@@ -27,4 +27,7 @@ Je serais d'ailleurs très heureux d'avoir l'opportunité de retravailler avec l
 *Étudiant à Polytech Nice Sophia*
 *Étudiant puis stagiaire — Adrien tuteur de projet de licence puis manager de stage (OPT-NC) · LinkedIn · 2025-03-17*
 
+**Compétences ESCO :**
+- [agir de manière fiable](../esco/agir-de-maniere-fiable.md) — *skill/competence*
+
 **Tags :** [disponibilite](../tags/disponibilite.md), [intern-recommendation](../tags/intern-recommendation.md), [mentorat](../tags/mentorat.md), [opt-nc](../tags/opt-nc.md), [pedagogie](../tags/pedagogie.md), [polytech-nice](../tags/polytech-nice.md), [premiere-experience-pro](../tags/premiere-experience-pro.md), [stage](../tags/stage.md), [student-recommendation](../tags/student-recommendation.md), [transmission](../tags/transmission.md)

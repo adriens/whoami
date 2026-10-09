@@ -26,4 +26,7 @@ Mais par-dessus tout, Adrien est un collaborateur très consciencieux et au fort
 *Chargé études d'architecture et qualité à la DSI (Ville de Nouméa)*
 *Manager direct d'Adrien pendant 7+ ans (DSI Ville de Nouméa) · LinkedIn · 2018-10-23*
 
+**Compétences ESCO :**
+- [respecter des délais](../esco/respecter-des-delais.md) — *skill/competence*
+
 **Tags :** [architecture-logicielle](../tags/architecture-logicielle.md), [delivery-focus](../tags/delivery-focus.md), [industrialisation](../tags/industrialisation.md), [innovation](../tags/innovation.md), [interim-management](../tags/interim-management.md), [leadership](../tags/leadership.md), [long-term-collaboration](../tags/long-term-collaboration.md), [management](../tags/management.md), [manager-recommendation](../tags/manager-recommendation.md)

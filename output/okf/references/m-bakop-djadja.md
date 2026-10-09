@@ -25,4 +25,7 @@ That's why I strongly recommend Adrien for his dynamism, his seriousness, his hi
 *Software Development Manager, Experian Decision Analytics*
 *Manager direct d'Adrien (Experian Decision Analytics) · LinkedIn · 2018-10-21*
 
+**Compétences ESCO :**
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+
 **Tags :** [dynamism](../tags/dynamism.md), [innovation](../tags/innovation.md), [internship-to-hire](../tags/internship-to-hire.md), [java](../tags/java.md), [lasting-impact](../tags/lasting-impact.md), [manager-recommendation](../tags/manager-recommendation.md), [team-fit](../tags/team-fit.md), [technical-excellence](../tags/technical-excellence.md)

@@ -35,4 +35,9 @@ Je garderai une excellente expérience de ses cours et le recommanderai sans hé
 *Collaboratrice ISEE-NC*
 *Étudiante — Adrien intervenant pédagogique universitaire · LinkedIn · 2026-05-28*
 
+**Compétences ESCO :**
+- [agir de manière fiable](../esco/agir-de-maniere-fiable.md) — *skill/competence*
+- [faire preuve d’empathie](../esco/faire-preuve-dempathie.md) — *skill/competence*
+- [écouter activement](../esco/ecouter-activement.md) — *skill/competence*
+
 **Tags :** [civic-tech](../tags/civic-tech.md), [data](../tags/data.md), [disponibilite](../tags/disponibilite.md), [human-centric](../tags/human-centric.md), [interoperability](../tags/interoperability.md), [isee-nc](../tags/isee-nc.md), [lasting-impact](../tags/lasting-impact.md), [mentorat](../tags/mentorat.md), [pedagogie](../tags/pedagogie.md), [pedagogy](../tags/pedagogy.md), [student-recommendation](../tags/student-recommendation.md), [transmission](../tags/transmission.md), [unc-partnership](../tags/unc-partnership.md)

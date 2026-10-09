@@ -19,4 +19,7 @@ Je recommande vivement Adrien pour son expertise technique et son engagement pas
 *Consultant en stratégie et transformation numérique*
 *Prestataire — Adrien était son client · LinkedIn · 2024-08-01*
 
+**Compétences ESCO :**
+- [identifier les besoins des clients](../esco/identifier-les-besoins-des-clients.md) — *skill/competence*
+
 **Tags :** [business-acumen](../tags/business-acumen.md), [client-relationship](../tags/client-relationship.md), [innovation](../tags/innovation.md), [leadership](../tags/leadership.md), [technical-expertise](../tags/technical-expertise.md)

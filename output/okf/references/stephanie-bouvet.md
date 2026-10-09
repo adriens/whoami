@@ -23,4 +23,8 @@ Son désir de faire progresser les services publics, son dynamisme et son expér
 *Cheffe de produit service-public.nc - Coordinatrice téléservices chez Direction du Numérique et de la Modernisation*
 *Collaboration cross-company (Direction du Numérique et de la Modernisation) · LinkedIn · 2026-06-01*
 
+**Compétences ESCO :**
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+- [penser de manière proactive](../esco/penser-de-maniere-proactive.md) — *skill/competence*
+
 **Tags :** [civic-tech](../tags/civic-tech.md), [cross-company](../tags/cross-company.md), [dynamism](../tags/dynamism.md), [force-de-proposition](../tags/force-de-proposition.md), [interoperability](../tags/interoperability.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [services-web](../tags/services-web.md), [technical-expertise](../tags/technical-expertise.md)

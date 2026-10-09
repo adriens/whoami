@@ -38,4 +38,9 @@ Je peux dire sans hésiter que c'est dans sa section que j'ai appris le plus ces
 *Software Engineer — CEO @ DEVEO NC*
 *Prestataire — Adrien était son client · LinkedIn · 2026-05-25*
 
+**Compétences ESCO :**
+- [identifier les besoins des clients](../esco/identifier-les-besoins-des-clients.md) — *skill/competence*
+- [faire preuve d’enthousiasme](../esco/faire-preuve-denthousiasme.md) — *skill/competence*
+- [penser de manière proactive](../esco/penser-de-maniere-proactive.md) — *skill/competence*
+
 **Tags :** [architecture](../tags/architecture.md), [client-relationship](../tags/client-relationship.md), [code-quality](../tags/code-quality.md), [devrel](../tags/devrel.md), [devsecops](../tags/devsecops.md), [force-de-proposition](../tags/force-de-proposition.md), [innovation](../tags/innovation.md), [knowledge-sharing](../tags/knowledge-sharing.md), [lasting-impact](../tags/lasting-impact.md), [leadership](../tags/leadership.md), [mentorat](../tags/mentorat.md), [opt-nc](../tags/opt-nc.md), [pedagogie](../tags/pedagogie.md), [pedagogy](../tags/pedagogy.md), [tech-enthusiasm](../tags/tech-enthusiasm.md), [technical-excellence](../tags/technical-excellence.md), [transmission](../tags/transmission.md), [unc-partnership](../tags/unc-partnership.md), [veille-technologique](../tags/veille-technologique.md)

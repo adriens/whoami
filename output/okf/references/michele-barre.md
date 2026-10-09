@@ -33,4 +33,10 @@ Pour conclure, je peux dire que j'apprécie de travailler avec Adrien et je ne p
 *Software Engineer at OPT New Caledonia (aujourd'hui) — à l'époque membre de l'équipe d'Adrien à la DSI Ville de Nouméa*
 *Direct report d'Adrien pendant 4 ans (DSI Ville de Nouméa) · LinkedIn · 2018-10-24*
 
+**Compétences ESCO :**
+- [entretenir de bonnes relations de travail](../esco/entretenir-de-bonnes-relations-de-travail.md) — *skill/competence*
+- [établir des relations de collaboration](../esco/etablir-des-relations-de-collaboration.md) — *skill/competence*
+- [travailler en équipe](../esco/travailler-en-equipe.md) — *skill/competence*
+- [penser de manière proactive](../esco/penser-de-maniere-proactive.md) — *skill/competence*
+
 **Tags :** [architecture-logicielle](../tags/architecture-logicielle.md), [autonomy](../tags/autonomy.md), [direct-report-recommendation](../tags/direct-report-recommendation.md), [dsi-noumea](../tags/dsi-noumea.md), [force-de-proposition](../tags/force-de-proposition.md), [innovation](../tags/innovation.md), [leadership](../tags/leadership.md), [management](../tags/management.md), [team-culture](../tags/team-culture.md), [trust-building](../tags/trust-building.md), [veille-technologique](../tags/veille-technologique.md)

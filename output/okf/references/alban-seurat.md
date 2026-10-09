@@ -24,4 +24,7 @@ Je recommande chaudement Adrien et j'aimerai pouvoir de nouveau travailler avec 
 *Co-founder & Senior Architect, Kleis Technology Sàrl*
 *Collègue — même équipe (Experian Decision Analytics) · LinkedIn · 2018-11-28*
 
+**Compétences ESCO :**
+- [utiliser des techniques de communication](../esco/utiliser-des-techniques-de-communication.md) — *skill/competence*
+
 **Tags :** [communication](../tags/communication.md), [continuous-improvement](../tags/continuous-improvement.md), [fintech](../tags/fintech.md), [knowledge-sharing](../tags/knowledge-sharing.md), [peer-recognition](../tags/peer-recognition.md), [pragmatisme-techno](../tags/pragmatisme-techno.md), [technical-expertise](../tags/technical-expertise.md)
