@@ -41,6 +41,7 @@ data/
   stagiaires/adriens/    # inventaire stagiaires et projets tutorés encadrés (stagiaires/*.md + _index.csv + _stats.json)
   zenodo/adriens/        # publications scientifiques Zenodo (publications/*.json + _index.csv) — JSON-LD schema.org/ScholarlyArticle, saisie manuelle
   esco/adriens/          # export ESCO généré depuis resume.json (_index.csv + profile.jsonld) — `task export-esco`, voir data/esco/README.md
+  europass/adriens/      # CV Europass généré depuis resume.json (europass-cv.xml, à importer sur europa.eu/europass) — `task export-europass`, voir data/europass/README.md
 manual/resume.json        # source de vérité CV
 ```
 
@@ -74,6 +75,7 @@ task build-knowledge-base   # Générer output/knowledge-base.md (full)
 task build-knowledge-base-lite  # Générer output/knowledge-base.md (lite)
 task build-okf              # Générer output/okf/ — bundle Open Knowledge Format v0.1
 task export-esco            # Générer data/esco/adriens/ (CSV + JSON-LD, labels EN via API ESCO)
+task export-europass        # Générer data/europass/adriens/europass-cv.xml (CV Europass importable, validé XSD)
 ```
 
 ### Bundle OKF (Open Knowledge Format)
@@ -569,6 +571,7 @@ Ces scopes correspondent aux dossiers `data/<source>/`. Commits quasi-exclusivem
 | `stagiaires` | `data/stagiaires/` | `chore(stagiaires): add Thomas Quillet` |
 | `zenodo` | `data/zenodo/` | `chore(zenodo): add publication JSON-LD` |
 | `esco` | `data/esco/` | `chore(esco): add ESCO profile export` |
+| `europass` | `data/europass/` | `chore(europass): rebuild Europass CV export` |
 
 ### Scopes — Famille 3 : infra et méta
 
