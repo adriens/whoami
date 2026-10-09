@@ -15,6 +15,7 @@ resume.json reste la seule source de vérité ; ce bundle est un artefact géné
 """
 
 import argparse
+from urllib.parse import quote
 import re
 import unicodedata
 from collections import defaultdict
@@ -317,7 +318,8 @@ def main():
         recs = sorted({id(x): x for x in e["recs"]}.values(), key=lambda x: (x.section, x.title))
         label = e["label"].split("/")[0].strip()
         body = [f"Concept du référentiel européen ESCO ({e['detail']}) relié à {len(recs)} entrées du profil.",
-                "", f"URI : <{uri}>", ""]
+                "", f"URI : <{uri}>", "",
+                f"Fiche : <https://esco.ec.europa.eu/fr/classification/{uri.split('/')[-2]}?uri={quote(uri, safe='')}>", ""]
         body += [f"- [{x.title}](../{x.section}/{x.slug}.md) — *{x.type}*" for x in recs]
         write_doc(esco_dir / f"{slug}.md", {
             "type": "EscoSkill" if e["kind"] == "skill" else "EscoOccupation",
