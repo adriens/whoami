@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.37.0",
+  "x-resume-version": "v1.37.1",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -2631,6 +2631,26 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/5c8aa481-9e7c-4f32-8197-a8b0fd7ca186",
+      "termCode": "5c8aa481-9e7c-4f32-8197-a8b0fd7ca186",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "démontrer la fonctionnalité de produits logiciels"
+        },
+        {
+          "@language": "en",
+          "@value": "demonstrate functionality of software products"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/cb668e89-6ef5-4ff3-ab4a-506010e7e70b",
       "termCode": "cb668e89-6ef5-4ff3-ab4a-506010e7e70b",
       "name": [
@@ -3447,6 +3467,26 @@
         {
           "@language": "en",
           "@value": "advise on learning methods"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Pédagogie & Transmission"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b6d14ab8-3441-4cbe-8a0e-5b4f7f994730",
+      "termCode": "b6d14ab8-3441-4cbe-8a0e-5b4f7f994730",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "concevoir du matériel pédagogique numérique"
+        },
+        {
+          "@language": "en",
+          "@value": "develop digital educational materials"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
