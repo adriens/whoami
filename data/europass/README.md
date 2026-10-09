@@ -10,14 +10,14 @@ Format : document **Europass Candidate** (HR-XML 3 + extensions Europass/EURES),
 
 | Section Europass | Source `resume.json` |
 |---|---|
-| Informations personnelles | `basics` (nom, e-mail, téléphone, site, profils sociaux, adresse) ; langue maternelle = langue `Natif` |
-| À propos | `basics.summary` |
-| Expérience professionnelle | `work[]` (summary + highlights) |
-| Éducation et formation | `education[]` (+ niveau EQF déduit du `studyType`) |
-| Compétences linguistiques | `languages[]` hors langue maternelle, niveau CECRL déduit de `fluency` (Professionnel → C1, Notions → A1) |
-| Compétences numériques | `skills[]` techniques : un groupe par skill, keywords dédoublonnés |
+| Informations personnelles | `basics` (nom, e-mail, téléphone, site, profils sociaux, adresse) ; langue maternelle = `x-cefr: "native"` |
+| À propos | `basics.label` en gras + `basics.summary` |
+| Expérience professionnelle | `work[]` (summary + highlights, `x-location`, secteur `x-nace`) |
+| Éducation et formation | `education[]` (`x-location`, niveau `x-eqf`) |
+| Compétences linguistiques | `languages[]` : code `x-iso639`, niveaux CECRL par dimension `x-cefr` |
+| Compétences numériques | `skills[]` en `x-europass: digital` : un groupe par skill, keywords dédoublonnés |
 | Publications | `publications[]` |
-| Sections libres | Compétences transversales (skills non numériques), Certifications, Bénévolat, Distinctions & interventions, Projets, Centres d'intérêt (`pro`/`mixed`), Référentiel ESCO |
+| Sections libres | Compétences transversales (`x-europass: transversal`), Certifications, Bénévolat, Distinctions & interventions, Projets, Centres d'intérêt (`pro`/`mixed`), Référentiel ESCO |
 
 **ESCO** : le format ne porte pas d'URI. Les concepts sont repris en texte (libellés FR exacts) dans la section libre « Référentiel ESCO » ; pour des compétences *reliées* à ESCO dans le profil Europass, les re-sélectionner dans l'éditeur à partir de ces libellés (ou de `data/esco/_index.csv`).
 
