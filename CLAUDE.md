@@ -118,6 +118,7 @@ Le schéma JSON Resume accepte des propriétés additionnelles. Les champs `x-*`
 | `x-summary-short` | `basics` | Version synthétique du `summary` (1 phrase) pour LinkedIn headline / signature email / header version light |
 | `x-esco` | `skills` | Concepts ESCO `{uri, label, type, covers}` — `type` ∈ `knowledge` / `skill/competence`, `covers` = keywords du skill couverts |
 | `x-esco-occupations` | `basics`, `work`, `volunteer` | Métiers ESCO `{uri, label, code}` (code ISCO-ESCO) |
+| `x-esco` | `references` | Concepts ESCO `{uri, label, type}` **attestés par le recommandant**, déduits des `x-tags` via la table « Tags de recos → ESCO » ci-dessous |
 | `x-esco` | `languages`, `certificates` | Concepts ESCO `{uri, label, type}` (sans `covers`) — langue : concept parent + aptitudes (comprendre oral/écrit, écrire, interagir) ; certificat : compétences attestées |
 | `x-esco-retrieved` | `meta` | Date de récupération des concepts depuis l'API ESCO (l'API n'expose pas de version) |
 
@@ -158,6 +159,7 @@ Combiner :
 ### 4. Après chaque ajout
 
 1. `task validate` — toujours
+1bis. **ESCO** : renseigner `x-esco` de la reco à partir de ses `x-tags` (table « Tags de recos → ESCO ») et mettre à jour le compteur `(N recos)` du keyword correspondant dans la skill « Savoir-être validé par les pairs » ; nouveau tag de savoir-être récurrent (≥ 2 recos) → proposer un concept ESCO + l'ajouter à la table
 2. Audit cohérence des tags : `grep -oP '"x-tags": \[\K[^\]]+' manual/resume.json | grep -oP '"[^"]+"' | sort | uniq -c | sort -rn`
 3. **Analyser l'apport metadata de la nouvelle reco** — deux cas distincts :
    - **Tag en 1ère occurrence** : nouvelle facette du profil jamais validée par un tiers (ex: `api-fication` et `open-data` apparus pour la 1ère fois avec Sabrina Vérolle en 2026) → signal fort, potentiellement à promouvoir en skill ou keyword
@@ -630,6 +632,24 @@ La release note doit lister : les changements de contenu (`resume.json`), les do
 | Nouveau rôle/compétence révélé par une entrée (`awards`, `projects`, `volunteer`…) sans keyword correspondant | Proposer le keyword + le concept ESCO (ex : co-organisation #HackAVP → *coordonner des événements*) |
 
 Toujours : proposer le mapping à Adrien **entrée par entrée** (tableau concept FR / EN, type, ce qui est couvert) avant d'écrire, puis `task audit-esco` + `task export-esco` (commit `chore(esco)`), et signaler dans le feedback final ce qui a été rattaché à ESCO.
+
+### Tags de recos → ESCO
+
+Table de correspondance utilisée pour `references[].x-esco` et la skill « Savoir-être validé par les pairs » (keywords suffixés du nombre de recos qui les attestent) :
+
+| Tag(s) `x-tags` | Keyword (skill Savoir-être) | Concepts ESCO |
+|---|---|---|
+| `human-centric` | Approche centrée sur l'humain | faire preuve d'empathie (`77b636e8…`), écouter activement (`a17286c5…`) |
+| `tech-enthusiasm`, `dynamism` | Enthousiasme & dynamisme | faire preuve d'enthousiasme (`22b7d99d…`) |
+| `disponibilite`, `responsiveness` | Disponibilité & réactivité | agir de manière fiable (`25e16679…`) |
+| `trust-building` | Relations de confiance durables | entretenir de bonnes relations de travail (`18119ac9…`), établir des relations de collaboration (`326809fc…`) |
+| `delivery-focus` | Sens de la livraison | respecter des délais (`91abe492…`) |
+| `team-culture` | Culture d'équipe | travailler en équipe (`60c78287…`) |
+| `client-relationship` | Écoute des besoins clients | identifier les besoins des clients (`68698869…`) |
+| `communication` | Communication | utiliser des techniques de communication (`7ff2c668…`) |
+| `force-de-proposition` | Force de proposition | penser de manière proactive (`e186976a…`) |
+
+Les tags déjà couverts par d'autres skills (transmission, mentorat, pédagogie, innovation, curiosité, leadership…) ne sont pas dupliqués ici.
 
 ## Workflow : mapper un skill à ESCO
 
