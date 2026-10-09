@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.35.9",
+  "x-resume-version": "v1.36.0",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -92,6 +92,102 @@
         "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/occupations",
         "x-isco-code": "2310.1.42"
       }
+    },
+    {
+      "@type": "Occupation",
+      "name": "développeur de logiciels/développeuse de logiciels",
+      "occupationalCategory": {
+        "@type": "DefinedTerm",
+        "@id": "http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1",
+        "termCode": "f2b15a0e-e65a-438a-affb-29b9d50b77d1",
+        "name": [
+          {
+            "@language": "fr",
+            "@value": "développeur de logiciels/développeuse de logiciels"
+          },
+          {
+            "@language": "en",
+            "@value": "software developer"
+          }
+        ],
+        "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "x-isco-code": "2512.3"
+      },
+      "x-position": "Contributeur de données",
+      "x-organization": "endoflife.date — Projet open source communautaire",
+      "x-volunteer": true
+    },
+    {
+      "@type": "Occupation",
+      "name": "scientifique des données",
+      "occupationalCategory": {
+        "@type": "DefinedTerm",
+        "@id": "http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30",
+        "termCode": "258e46f9-0075-4a2e-adae-1ff0477e0f30",
+        "name": [
+          {
+            "@language": "fr",
+            "@value": "scientifique des données"
+          },
+          {
+            "@language": "en",
+            "@value": "data scientist"
+          }
+        ],
+        "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "x-isco-code": "2511.3"
+      },
+      "x-position": "Membre actif — Conférencier",
+      "x-organization": "Station N — Commission Data & IA",
+      "x-volunteer": true
+    },
+    {
+      "@type": "Occupation",
+      "name": "chargé de cours/chargée de cours",
+      "occupationalCategory": {
+        "@type": "DefinedTerm",
+        "@id": "http://data.europa.eu/esco/occupation/1092dd4c-b96b-4b3f-87fe-4a9e8d1937fb",
+        "termCode": "1092dd4c-b96b-4b3f-87fe-4a9e8d1937fb",
+        "name": [
+          {
+            "@language": "fr",
+            "@value": "chargé de cours/chargée de cours"
+          },
+          {
+            "@language": "en",
+            "@value": "university teaching assistant"
+          }
+        ],
+        "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "x-isco-code": "2310.1.42"
+      },
+      "x-position": "Enseignant vacataire — Module Interopérabilité des SI",
+      "x-organization": "Université de Nouvelle-Calédonie — Master MIAGE (IAE)",
+      "x-volunteer": true
+    },
+    {
+      "@type": "Occupation",
+      "name": "analyste de données",
+      "occupationalCategory": {
+        "@type": "DefinedTerm",
+        "@id": "http://data.europa.eu/esco/occupation/d3edb8f8-3a06-47a0-8fb9-9b212c006aa2",
+        "termCode": "d3edb8f8-3a06-47a0-8fb9-9b212c006aa2",
+        "name": [
+          {
+            "@language": "fr",
+            "@value": "analyste de données"
+          },
+          {
+            "@language": "en",
+            "@value": "data analyst"
+          }
+        ],
+        "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "x-isco-code": "2511.2"
+      },
+      "x-position": "Contributeur civic data — Réutilisations open data",
+      "x-organization": "data.gouv.nc — Portail open data officiel de Nouvelle-Calédonie",
+      "x-volunteer": true
     },
     {
       "@type": "Occupation",
@@ -2288,7 +2384,9 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
       "x-profile-skills": [
-        "Management & Leadership"
+        "Management & Leadership",
+        "certificate: Scrum Master",
+        "certificate: Product Owner"
       ]
     },
     {
@@ -2489,7 +2587,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Management & Leadership"
+        "Management & Leadership",
+        "certificate: Product Owner"
       ]
     },
     {
@@ -2509,7 +2608,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Management & Leadership"
+        "Management & Leadership",
+        "certificate: Product Owner"
       ]
     },
     {
@@ -2529,7 +2629,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
       "x-profile-skills": [
-        "Management & Leadership"
+        "Management & Leadership",
+        "certificate: Product Owner"
       ]
     },
     {
@@ -3450,6 +3551,642 @@
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "Créativité & Apprentissage autodidacte"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/e747e77e-0ea1-4001-8b07-1d11946b5f1b",
+      "termCode": "e747e77e-0ea1-4001-8b07-1d11946b5f1b",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "Français"
+        },
+        {
+          "@language": "en",
+          "@value": "French"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "language: Français"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/2ce713f2-c684-4fa3-8e56-939e4bfbf4a2",
+      "termCode": "2ce713f2-c684-4fa3-8e56-939e4bfbf4a2",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "comprendre le français parlé"
+        },
+        {
+          "@language": "en",
+          "@value": "understand spoken French"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "language: Français"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/4ff6df71-6988-4300-8966-9fabb2b59186",
+      "termCode": "4ff6df71-6988-4300-8966-9fabb2b59186",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "comprendre le français écrit"
+        },
+        {
+          "@language": "en",
+          "@value": "understand written French"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "language: Français"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/5dfc81aa-c395-4e88-a0e0-a2fbb681ecc0",
+      "termCode": "5dfc81aa-c395-4e88-a0e0-a2fbb681ecc0",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "écrire en français"
+        },
+        {
+          "@language": "en",
+          "@value": "write French"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "language: Français"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/bfb5f0b8-0ea0-4e44-a48d-7d876f966758",
+      "termCode": "bfb5f0b8-0ea0-4e44-a48d-7d876f966758",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "interagir verbalement en français"
+        },
+        {
+          "@language": "en",
+          "@value": "interact verbally in French"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "language: Français"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+      "termCode": "6d3edede-8951-4621-a835-e04323300fa0",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "anglais"
+        },
+        {
+          "@language": "en",
+          "@value": "English"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "language: Anglais"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/64ff8d5f-58a8-4efb-af5a-e161854b3e9a",
+      "termCode": "64ff8d5f-58a8-4efb-af5a-e161854b3e9a",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "comprendre l'anglais parlé"
+        },
+        {
+          "@language": "en",
+          "@value": "understand spoken English"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "language: Anglais"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/7ee20fe2-facd-4cc5-837b-927429e0e7ac",
+      "termCode": "7ee20fe2-facd-4cc5-837b-927429e0e7ac",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "comprendre l’anglais écrit"
+        },
+        {
+          "@language": "en",
+          "@value": "understand written English"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "language: Anglais"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/3993c87c-7719-4186-811b-8ddfb40e76be",
+      "termCode": "3993c87c-7719-4186-811b-8ddfb40e76be",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "écrire en anglais"
+        },
+        {
+          "@language": "en",
+          "@value": "write English"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "language: Anglais"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/0ee9e985-0ee5-4a73-8a12-78b53b261bb2",
+      "termCode": "0ee9e985-0ee5-4a73-8a12-78b53b261bb2",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "interagir verbalement en anglais"
+        },
+        {
+          "@language": "en",
+          "@value": "interact verbally in English"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "language: Anglais"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647",
+      "termCode": "4812a4ea-dc55-4dc6-b9b0-4a59bba2c647",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "allemand"
+        },
+        {
+          "@language": "en",
+          "@value": "German"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "language: Allemand"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/14ee9f76-3524-43d5-8a1a-5ba8283f8bd7",
+      "termCode": "14ee9f76-3524-43d5-8a1a-5ba8283f8bd7",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "espagnol"
+        },
+        {
+          "@language": "en",
+          "@value": "Spanish"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "language: Espagnol"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/bec4359e-cb92-468f-a997-8fb28e32fba9",
+      "termCode": "bec4359e-cb92-468f-a997-8fb28e32fba9",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "méthodes de gestion de projets TIC"
+        },
+        {
+          "@language": "en",
+          "@value": "ICT project management methodologies"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "certificate: Scrum Master"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/dba46f87-0831-49cd-a1c7-340a653c0221",
+      "termCode": "dba46f87-0831-49cd-a1c7-340a653c0221",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "développement par méthode agile"
+        },
+        {
+          "@language": "en",
+          "@value": "Agile development"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "certificate: Scrum Master"
+      ]
+    }
+  ],
+  "knowsLanguage": [
+    {
+      "@type": "Language",
+      "name": "Français",
+      "x-fluency": "Natif",
+      "x-esco": [
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/e747e77e-0ea1-4001-8b07-1d11946b5f1b",
+          "termCode": "e747e77e-0ea1-4001-8b07-1d11946b5f1b",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "Français"
+            },
+            {
+              "@language": "en",
+              "@value": "French"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/2ce713f2-c684-4fa3-8e56-939e4bfbf4a2",
+          "termCode": "2ce713f2-c684-4fa3-8e56-939e4bfbf4a2",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "comprendre le français parlé"
+            },
+            {
+              "@language": "en",
+              "@value": "understand spoken French"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/4ff6df71-6988-4300-8966-9fabb2b59186",
+          "termCode": "4ff6df71-6988-4300-8966-9fabb2b59186",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "comprendre le français écrit"
+            },
+            {
+              "@language": "en",
+              "@value": "understand written French"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/5dfc81aa-c395-4e88-a0e0-a2fbb681ecc0",
+          "termCode": "5dfc81aa-c395-4e88-a0e0-a2fbb681ecc0",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "écrire en français"
+            },
+            {
+              "@language": "en",
+              "@value": "write French"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/bfb5f0b8-0ea0-4e44-a48d-7d876f966758",
+          "termCode": "bfb5f0b8-0ea0-4e44-a48d-7d876f966758",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "interagir verbalement en français"
+            },
+            {
+              "@language": "en",
+              "@value": "interact verbally in French"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        }
+      ]
+    },
+    {
+      "@type": "Language",
+      "name": "Anglais",
+      "x-fluency": "Professionnel — articles, talks et vidéos en live",
+      "x-esco": [
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+          "termCode": "6d3edede-8951-4621-a835-e04323300fa0",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "anglais"
+            },
+            {
+              "@language": "en",
+              "@value": "English"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/64ff8d5f-58a8-4efb-af5a-e161854b3e9a",
+          "termCode": "64ff8d5f-58a8-4efb-af5a-e161854b3e9a",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "comprendre l'anglais parlé"
+            },
+            {
+              "@language": "en",
+              "@value": "understand spoken English"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/7ee20fe2-facd-4cc5-837b-927429e0e7ac",
+          "termCode": "7ee20fe2-facd-4cc5-837b-927429e0e7ac",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "comprendre l’anglais écrit"
+            },
+            {
+              "@language": "en",
+              "@value": "understand written English"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/3993c87c-7719-4186-811b-8ddfb40e76be",
+          "termCode": "3993c87c-7719-4186-811b-8ddfb40e76be",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "écrire en anglais"
+            },
+            {
+              "@language": "en",
+              "@value": "write English"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/0ee9e985-0ee5-4a73-8a12-78b53b261bb2",
+          "termCode": "0ee9e985-0ee5-4a73-8a12-78b53b261bb2",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "interagir verbalement en anglais"
+            },
+            {
+              "@language": "en",
+              "@value": "interact verbally in English"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        }
+      ]
+    },
+    {
+      "@type": "Language",
+      "name": "Allemand",
+      "x-fluency": "Notions",
+      "x-esco": [
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647",
+          "termCode": "4812a4ea-dc55-4dc6-b9b0-4a59bba2c647",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "allemand"
+            },
+            {
+              "@language": "en",
+              "@value": "German"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        }
+      ]
+    },
+    {
+      "@type": "Language",
+      "name": "Espagnol",
+      "x-fluency": "Notions",
+      "x-esco": [
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/14ee9f76-3524-43d5-8a1a-5ba8283f8bd7",
+          "termCode": "14ee9f76-3524-43d5-8a1a-5ba8283f8bd7",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "espagnol"
+            },
+            {
+              "@language": "en",
+              "@value": "Spanish"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        }
+      ]
+    }
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Scrum Master",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Scrum Alliance"
+      },
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4",
+          "termCode": "0a9acb6b-1139-4be9-b431-3a80a959f2f4",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "gestion de projets par méthode Agile"
+            },
+            {
+              "@language": "en",
+              "@value": "Agile project management"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/bec4359e-cb92-468f-a997-8fb28e32fba9",
+          "termCode": "bec4359e-cb92-468f-a997-8fb28e32fba9",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "méthodes de gestion de projets TIC"
+            },
+            {
+              "@language": "en",
+              "@value": "ICT project management methodologies"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/dba46f87-0831-49cd-a1c7-340a653c0221",
+          "termCode": "dba46f87-0831-49cd-a1c7-340a653c0221",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "développement par méthode agile"
+            },
+            {
+              "@language": "en",
+              "@value": "Agile development"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        }
+      ]
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Product Owner",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Scrum Alliance"
+      },
+      "about": [
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4",
+          "termCode": "0a9acb6b-1139-4be9-b431-3a80a959f2f4",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "gestion de projets par méthode Agile"
+            },
+            {
+              "@language": "en",
+              "@value": "Agile project management"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/fd4386c5-96f0-4c6e-970c-c08729ae0cc6",
+          "termCode": "fd4386c5-96f0-4c6e-970c-c08729ae0cc6",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "élaborer la conception d'un produit"
+            },
+            {
+              "@language": "en",
+              "@value": "develop product design"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/a8797f21-1af0-4c5e-98ca-bf1442929363",
+          "termCode": "a8797f21-1af0-4c5e-98ca-bf1442929363",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "interagir avec les utilisateurs pour définir leurs exigences"
+            },
+            {
+              "@language": "en",
+              "@value": "interact with users to gather requirements"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        },
+        {
+          "@type": "DefinedTerm",
+          "@id": "http://data.europa.eu/esco/skill/21e0cad8-4eef-42be-b18b-0f8e37f0dbd0",
+          "termCode": "21e0cad8-4eef-42be-b18b-0f8e37f0dbd0",
+          "name": [
+            {
+              "@language": "fr",
+              "@value": "cycle de vie d’un produit"
+            },
+            {
+              "@language": "en",
+              "@value": "product life-cycle"
+            }
+          ],
+          "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
+        }
       ]
     }
   ]
