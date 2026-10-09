@@ -24,4 +24,7 @@ Participation active à la commission Data & IA de la Station N, hub d'open inno
 - Présentation des réalisations des étudiants Master MIAGE
 - Août 2026 — présentation de geol devant les commissions Data & IA et Cybersécurité réunies (RSSI, DSI, chefs de projets, développeurs, enseignants et étudiants Licence Info UNC) : 3 démos live, dont la mise en œuvre de l'outil sur un repo vierge avec CI en moins de 3 minutes, et un sujet de stage ML issu de l'auditoire
 
+**Métiers ESCO :**
+- [scientifique des données](../esco/scientifique-des-donnees.md) — *ISCO 2511.3*
+
 **Tags :** [ai-agents](../tags/ai-agents.md), [data](../tags/data.md), [devrel](../tags/devrel.md), [devsecops](../tags/devsecops.md), [knowledge-graph](../tags/knowledge-graph.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md), [speaker](../tags/speaker.md)

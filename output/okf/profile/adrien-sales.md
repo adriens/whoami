@@ -45,3 +45,27 @@ Ambitions parallèles : construire un produit data/IA ancré dans les problémat
 - [concepteur de systèmes informatiques](../esco/concepteur-de-systemes-informatiques.md) — *ISCO 2511.13*
 - [responsable des logiciels](../esco/responsable-des-logiciels.md) — *ISCO 1330.5.1*
 - [chargé de cours](../esco/charge-de-cours.md) — *ISCO 2310.1.42*
+
+*Langue : Français — Natif*
+**Compétences ESCO :**
+- [Français](../esco/francais.md) — *knowledge*
+- [comprendre le français parlé](../esco/comprendre-le-francais-parle.md) — *skill/competence*
+- [comprendre le français écrit](../esco/comprendre-le-francais-ecrit.md) — *skill/competence*
+- [écrire en français](../esco/ecrire-en-francais.md) — *skill/competence*
+- [interagir verbalement en français](../esco/interagir-verbalement-en-francais.md) — *skill/competence*
+
+*Langue : Anglais — Professionnel — articles, talks et vidéos en live*
+**Compétences ESCO :**
+- [anglais](../esco/anglais.md) — *knowledge*
+- [comprendre l'anglais parlé](../esco/comprendre-l-anglais-parle.md) — *skill/competence*
+- [comprendre l’anglais écrit](../esco/comprendre-langlais-ecrit.md) — *skill/competence*
+- [écrire en anglais](../esco/ecrire-en-anglais.md) — *skill/competence*
+- [interagir verbalement en anglais](../esco/interagir-verbalement-en-anglais.md) — *skill/competence*
+
+*Langue : Allemand — Notions*
+**Compétences ESCO :**
+- [allemand](../esco/allemand.md) — *knowledge*
+
+*Langue : Espagnol — Notions*
+**Compétences ESCO :**
+- [espagnol](../esco/espagnol.md) — *knowledge*

@@ -33,4 +33,7 @@ Enseignement exercé entièrement sur temps personnel, le soir après le travail
 - Projection de la vidéo teaser #HackAVP (31/08/2026) en cours le soir même — démonstration des ressources open data (API, MCP, dataset HuggingFace) directement au groupe d'étudiants concourant au hackathon
 - Inscription effective des étudiants au #HackAVP (31/08/2026, le soir même de la projection) — passage de l'intention pédagogique à la participation concrète, en amont du lancement du 09/09/2026
 
+**Métiers ESCO :**
+- [chargé de cours](../esco/charge-de-cours.md) — *ISCO 2310.1.42*
+
 **Tags :** [civic-tech](../tags/civic-tech.md), [interoperability](../tags/interoperability.md), [mentor](../tags/mentor.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-data](../tags/open-data.md), [open-source](../tags/open-source.md), [pacifique](../tags/pacifique.md), [pedagogy](../tags/pedagogy.md)

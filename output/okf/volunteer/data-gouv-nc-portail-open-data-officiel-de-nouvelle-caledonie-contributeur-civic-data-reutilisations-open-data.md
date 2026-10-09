@@ -20,4 +20,7 @@ Publication de réutilisations sur le portail open data officiel de Nouvelle-Cal
 - Eaux de baignade Nouméa : package Python edb-noumea (PyPI v0.4.0), TUI Go, données live — réutilisation publiée et maintenue sur data.gouv.nc
 - Pattern reproductible #techforgood : open data → scraping → dataset Kaggle → notebooks → rapport Quarto
 
+**Métiers ESCO :**
+- [analyste de données](../esco/analyste-de-donnees.md) — *ISCO 2511.2*
+
 **Tags :** [civic-tech](../tags/civic-tech.md), [data](../tags/data.md), [frugal](../tags/frugal.md), [nouvelle-caledonie](../tags/nouvelle-caledonie.md), [open-data](../tags/open-data.md), [pacifique](../tags/pacifique.md)

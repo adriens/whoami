@@ -19,4 +19,7 @@ Contribution de données au projet endoflife.date, référence mondiale collabor
 - Contributions YAML de données de fin de vie pour plusieurs composants open source, datasets Kaggle automatisés depuis l'API endoflife.date, rapports et fonctionnalités geol — écosystème complet bâti autour du projet
 - Intégration utilisée dans la stack DevSecOps de l'OPT-NC
 
+**Métiers ESCO :**
+- [développeur de logiciels](../esco/developpeur-de-logiciels.md) — *ISCO 2512.3*
+
 **Tags :** [devsecops](../tags/devsecops.md), [international](../tags/international.md), [maintainer](../tags/maintainer.md), [neo4j](../tags/neo4j.md), [open-source](../tags/open-source.md)
