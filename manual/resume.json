@@ -460,7 +460,8 @@
       "x-location": {
         "city": "Sophia Antipolis",
         "countryCode": "FR"
-      }
+      },
+      "x-eqf": 7
     },
     {
       "institution": "Université de Nice Sophia-Antipolis",
@@ -476,7 +477,8 @@
       "x-location": {
         "city": "Nice",
         "countryCode": "FR"
-      }
+      },
+      "x-eqf": 7
     },
     {
       "institution": "Université de Nice Sophia-Antipolis",
@@ -490,7 +492,8 @@
       "x-location": {
         "city": "Nice",
         "countryCode": "FR"
-      }
+      },
+      "x-eqf": 6
     },
     {
       "institution": "Université de la Nouvelle-Calédonie",
@@ -504,7 +507,8 @@
       "x-location": {
         "city": "Nouméa",
         "countryCode": "NC"
-      }
+      },
+      "x-eqf": 6
     },
     {
       "institution": "Université de Nice Sophia-Antipolis",
@@ -518,7 +522,8 @@
       "x-location": {
         "city": "Nice",
         "countryCode": "FR"
-      }
+      },
+      "x-eqf": 5
     },
     {
       "institution": "École Montessori Les Pouces Verts — Mouans-Sartoux",
@@ -535,7 +540,8 @@
       "x-location": {
         "city": "Mouans-Sartoux",
         "countryCode": "FR"
-      }
+      },
+      "x-eqf": 1
     }
   ],
   "awards": [
@@ -1051,7 +1057,8 @@
             "Intégration par flux RSS & automatisation no-code (Feedly, Zapier)"
           ]
         }
-      ]
+      ],
+      "x-europass": "digital"
     },
     {
       "name": "Graph & Knowledge Engineering",
@@ -1167,7 +1174,8 @@
             "Réseaux cachés"
           ]
         }
-      ]
+      ],
+      "x-europass": "digital"
     },
     {
       "name": "IA & Agents",
@@ -1266,7 +1274,8 @@
             "CV-as-code (JSON Resume, enrichissement par agent IA, ESCO)"
           ]
         }
-      ]
+      ],
+      "x-europass": "digital"
     },
     {
       "name": "Architecture & Développement",
@@ -1401,7 +1410,8 @@
             "Architecture SI"
           ]
         }
-      ]
+      ],
+      "x-europass": "digital"
     },
     {
       "name": "Data Engineering",
@@ -1533,7 +1543,8 @@
             "Apache Superset"
           ]
         }
-      ]
+      ],
+      "x-europass": "digital"
     },
     {
       "name": "Bases de données",
@@ -1658,7 +1669,8 @@
             "Analyse sécurité & lifecycle"
           ]
         }
-      ]
+      ],
+      "x-europass": "digital"
     },
     {
       "name": "DevSecOps",
@@ -1843,7 +1855,8 @@
             "Scripts Bash"
           ]
         }
-      ]
+      ],
+      "x-europass": "digital"
     },
     {
       "name": "Microsoft Power Platform",
@@ -1901,7 +1914,8 @@
             "Data storytelling"
           ]
         }
-      ]
+      ],
+      "x-europass": "digital"
     },
     {
       "name": "Open Data & Data Science",
@@ -1999,7 +2013,8 @@
             "Détection d'anomalies (XGBoost, k-means — PRIX.NC)"
           ]
         }
-      ]
+      ],
+      "x-europass": "digital"
     },
     {
       "name": "Reporting & Documentation",
@@ -2101,7 +2116,8 @@
             "LaTeX"
           ]
         }
-      ]
+      ],
+      "x-europass": "digital"
     },
     {
       "name": "Developer Relations & Communication",
@@ -2303,7 +2319,8 @@
             "Démos live & unboxings de releases"
           ]
         }
-      ]
+      ],
+      "x-europass": "transversal"
     },
     {
       "name": "Management & Leadership",
@@ -2582,7 +2599,8 @@
             "Management d'équipe"
           ]
         }
-      ]
+      ],
+      "x-europass": "transversal"
     },
     {
       "name": "Pédagogie & Transmission",
@@ -2760,7 +2778,8 @@
             "Scénarios interactifs Killercoda"
           ]
         }
-      ]
+      ],
+      "x-europass": "transversal"
     },
     {
       "name": "Open Source",
@@ -2889,7 +2908,8 @@
             "Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey)"
           ]
         }
-      ]
+      ],
+      "x-europass": "digital"
     },
     {
       "name": "IoT & Hardware",
@@ -2988,7 +3008,8 @@
             "Robot Reachy Mini (Pollen Robotics)"
           ]
         }
-      ]
+      ],
+      "x-europass": "digital"
     },
     {
       "name": "Créativité & Apprentissage autodidacte",
@@ -3125,7 +3146,8 @@
             "Flow & performance cognitive (S. Kotler)"
           ]
         }
-      ]
+      ],
+      "x-europass": "transversal"
     },
     {
       "name": "Savoir-être validé par les pairs",
@@ -3230,7 +3252,8 @@
             "Force de proposition (5 recos)"
           ]
         }
-      ]
+      ],
+      "x-europass": "transversal"
     }
   ],
   "languages": [
@@ -3263,7 +3286,9 @@
           "label": "interagir verbalement en français",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-cefr": "native",
+      "x-iso639": "fra"
     },
     {
       "language": "Anglais",
@@ -3294,7 +3319,15 @@
           "label": "interagir verbalement en anglais",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-cefr": {
+        "listening": "C1",
+        "reading": "C1",
+        "spokenInteraction": "C1",
+        "spokenProduction": "C1",
+        "writing": "C1"
+      },
+      "x-iso639": "eng"
     },
     {
       "language": "Allemand",
@@ -3305,7 +3338,15 @@
           "label": "allemand",
           "type": "knowledge"
         }
-      ]
+      ],
+      "x-cefr": {
+        "listening": "A1",
+        "reading": "A1",
+        "spokenInteraction": "A1",
+        "spokenProduction": "A1",
+        "writing": "A1"
+      },
+      "x-iso639": "deu"
     },
     {
       "language": "Espagnol",
@@ -3316,7 +3357,15 @@
           "label": "espagnol",
           "type": "knowledge"
         }
-      ]
+      ],
+      "x-cefr": {
+        "listening": "A1",
+        "reading": "A1",
+        "spokenInteraction": "A1",
+        "spokenProduction": "A1",
+        "writing": "A1"
+      },
+      "x-iso639": "spa"
     }
   ],
   "interests": [
