@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.35.8",
+  "x-resume-version": "v1.35.9",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -1770,6 +1770,86 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/906323f4-00c4-4c3b-ab5a-8af77be3456e",
+      "termCode": "906323f4-00c4-4c3b-ab5a-8af77be3456e",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "créer des ensembles de données"
+        },
+        {
+          "@language": "en",
+          "@value": "create data sets"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Data & Data Science"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/9710092c-f174-4e84-95bf-2064d39ad7a0",
+      "termCode": "9710092c-f174-4e84-95bf-2064d39ad7a0",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "gérer les métadonnées de contenu"
+        },
+        {
+          "@language": "en",
+          "@value": "manage content metadata"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Data & Data Science"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/40001d93-8937-4859-89d5-2dca53290ff4",
+      "termCode": "40001d93-8937-4859-89d5-2dca53290ff4",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "participer à des échanges au moyen de technologies numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "share through digital technologies"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Data & Data Science"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/07889c08-7220-47c8-96f7-6068fbea00dc",
+      "termCode": "07889c08-7220-47c8-96f7-6068fbea00dc",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "normaliser les données"
+        },
+        {
+          "@language": "en",
+          "@value": "normalise data"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Data & Data Science"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/51586df8-1c46-4b47-8583-773cb63bf00b",
       "termCode": "51586df8-1c46-4b47-8583-773cb63bf00b",
       "name": [
@@ -3104,6 +3184,26 @@
         {
           "@language": "en",
           "@value": "use software libraries"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Source"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1",
+      "termCode": "2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "déboguer un logiciel"
+        },
+        {
+          "@language": "en",
+          "@value": "debug software"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
