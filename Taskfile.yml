@@ -73,6 +73,11 @@ tasks:
     cmds:
       - uv run scripts/fetch-youtube-playlists.py --channel devops-lab
 
+  fetch-youtube-transcripts:
+    desc: Transcriptions YouTube devops-lab → data/youtube/devops-lab/transcripts/ (reprise auto, 15 s entre requêtes)
+    cmds:
+      - uv run scripts/fetch-youtube-transcripts.py --data-dir data/youtube/devops-lab
+
   fetch-youtube-playlists:
     desc: Provisionner les playlists de toutes les chaines YouTube (sequentiel)
     cmds:
