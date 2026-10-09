@@ -29,6 +29,7 @@ ROOT = Path(__file__).resolve().parent.parent
 RESUME = ROOT / "manual" / "resume.json"
 OUT = ROOT / "data" / "europass" / "europass-cv.xml"
 XSD = ROOT / "data" / "europass" / "schema" / "europass-candidate.xsd"
+ZENODO = ROOT / "data" / "zenodo" / "adriens" / "publications"
 
 NS = {
     "": "http://www.europass.eu/1.0",
@@ -107,6 +108,21 @@ def other(profile, section, title, description="", start=None, end=None, links=(
     for link in links:
         if link:
             sub(entry, "Link", link)
+
+
+def zenodo_index():
+    """URL Zenodo → {doi, authors}, depuis les JSON-LD schema.org/ScholarlyArticle de data/zenodo/."""
+    index = {}
+    for f in sorted(ZENODO.glob("*.json")):
+        d = json.loads(f.read_text(encoding="utf-8"))
+        ident = d.get("identifier") or {}
+        authors = d.get("author") or []
+        authors = authors if isinstance(authors, list) else [authors]
+        index[d.get("url")] = {
+            "doi": ident.get("value") if ident.get("propertyID") == "doi" else None,
+            "authors": [a["name"] for a in authors if a.get("name")],
+        }
+    return index
 
 
 def candidate_person(root, b):
@@ -221,16 +237,22 @@ def main():
     sub(profile, "Certifications")
 
     # Publications
+    # Auteurs : x-authors > JSON-LD Zenodo > basics.name ; DOI : JSON-LD Zenodo (jointure par URL)
+    zenodo = zenodo_index()
     pubs = sub(profile, "PublicationHistory")
     for p in r.get("publications", []):
+        z = zenodo.get(p.get("url"), {})
         pub = sub(pubs, "Publication")
         sub(pub, "Title", p["name"])
+        sub(pub, "Authors", ", ".join(p.get("x-authors") or z.get("authors") or [b["name"]]))
         if p.get("releaseDate"):
             sub(pub, "Year", p["releaseDate"][:4])
         if p.get("publisher"):
             sub(pub, "Publisher", p["publisher"])
-        if p.get("url"):
-            sub(sub(pub, "DOI"), "Link", p["url"])
+        if z.get("doi"):
+            sub(sub(pub, "DOI"), "Link", f"https://doi.org/{z['doi']}")
+        elif p.get("url"):
+            sub(pub, "Reference", p["url"])  # pas de DOI : le lien va en référence, pas dans le champ DOI
         if p.get("summary"):
             sub(pub, "hr:FormattedPublicationDescription", rich(p["summary"]))
 
