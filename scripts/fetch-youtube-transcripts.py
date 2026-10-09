@@ -53,7 +53,7 @@ def main():
         time.sleep(args.delay)
 
     with open(unavailable_csv, "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         w.writerow(["id", "reason"])
         w.writerows(sorted(unavailable.items()))
     done = len(list(out.glob("*.txt")))
