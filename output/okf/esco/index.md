@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-218 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+221 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -29,7 +29,7 @@ timestamp: '2026-10-09'
 - [C++](c.md) — 1 entrées
 - [DevOps](devops.md) — 1 entrées
 - [Français](francais.md) — 1 entrées
-- [Internet des objets](internet-des-objets.md) — 1 entrées
+- [Internet des objets](internet-des-objets.md) — 2 entrées
 - [Java (programmation informatique)](java-programmation-informatique.md) — 1 entrées
 - [NoSQL](nosql.md) — 1 entrées
 - [Oracle Relational Database](oracle-relational-database.md) — 1 entrées
@@ -98,7 +98,7 @@ timestamp: '2026-10-09'
 - [effectuer des présentations publiques](effectuer-des-presentations-publiques.md) — 1 entrées
 - [effectuer des recherches dans des bases de données](effectuer-des-recherches-dans-des-bases-de-donnees.md) — 2 entrées
 - [effectuer l’examen du code source](effectuer-lexamen-du-code-source.md) — 1 entrées
-- [effectuer un montage vidéo](effectuer-un-montage-video.md) — 1 entrées
+- [effectuer un montage vidéo](effectuer-un-montage-video.md) — 2 entrées
 - [effectuer une analyse de données](effectuer-une-analyse-de-donnees.md) — 1 entrées
 - [effectuer une analyse de données de sécurité](effectuer-une-analyse-de-donnees-de-securite.md) — 1 entrées
 - [encourager des équipes à rechercher l’amélioration continue](encourager-des-equipes-a-rechercher-lamelioration-continue.md) — 1 entrées
@@ -113,7 +113,7 @@ timestamp: '2026-10-09'
 - [espagnol](espagnol.md) — 1 entrées
 - [exploration de données](exploration-de-donnees.md) — 1 entrées
 - [faire des commentaires constructifs](faire-des-commentaires-constructifs.md) — 1 entrées
-- [faire preuve d'humour](faire-preuve-d-humour.md) — 1 entrées
+- [faire preuve d'humour](faire-preuve-d-humour.md) — 2 entrées
 - [faire preuve de curiosité](faire-preuve-de-curiosite.md) — 1 entrées
 - [faire preuve d’empathie](faire-preuve-dempathie.md) — 13 entrées
 - [faire preuve d’enthousiasme](faire-preuve-denthousiasme.md) — 15 entrées
@@ -129,7 +129,7 @@ timestamp: '2026-10-09'
 - [gérer du contenu en ligne](gerer-du-contenu-en-ligne.md) — 1 entrées
 - [gérer la conformité en matière de sécurité des TIC](gerer-la-conformite-en-matiere-de-securite-des-tic.md) — 1 entrées
 - [gérer le déploiement d’un système de TIC](gerer-le-deploiement-dun-systeme-de-tic.md) — 1 entrées
-- [gérer le développement professionnel personnel](gerer-le-developpement-professionnel-personnel.md) — 1 entrées
+- [gérer le développement professionnel personnel](gerer-le-developpement-professionnel-personnel.md) — 2 entrées
 - [gérer les conséquences de l’obsolescence des TIC](gerer-les-consequences-de-lobsolescence-des-tic.md) — 1 entrées
 - [gérer les données](gerer-les-donnees.md) — 1 entrées
 - [gérer les métadonnées de contenu](gerer-les-metadonnees-de-contenu.md) — 1 entrées
@@ -150,6 +150,7 @@ timestamp: '2026-10-09'
 - [intégration de systèmes de TIC](integration-de-systemes-de-tic.md) — 1 entrées
 - [intégrer des données TIC](integrer-des-donnees-tic.md) — 2 entrées
 - [jouer un rôle de meneur exemplaire au sein d’une organisation](jouer-un-role-de-meneur-exemplaire-au-sein-dune-organisation.md) — 1 entrées
+- [lire des livres](lire-des-livres.md) — 1 entrées
 - [maintenir la sécurité d’une base de données](maintenir-la-securite-dune-base-de-donnees.md) — 1 entrées
 - [mathématiques](mathematiques.md) — 1 entrées
 - [mesurer l’ergonomie d’un logiciel](mesurer-lergonomie-dun-logiciel.md) — 1 entrées
@@ -190,7 +191,7 @@ timestamp: '2026-10-09'
 - [réaliser des audits informatiques](realiser-des-audits-informatiques.md) — 1 entrées
 - [rédiger des rapports sur le travail](rediger-des-rapports-sur-le-travail.md) — 1 entrées
 - [rédiger des rapports techniques](rediger-des-rapports-techniques.md) — 1 entrées
-- [rédiger des textes professionnels](rediger-des-textes-professionnels.md) — 1 entrées
+- [rédiger des textes professionnels](rediger-des-textes-professionnels.md) — 2 entrées
 - [rédiger un article scientifique](rediger-un-article-scientifique.md) — 1 entrées
 - [rédiger une évaluation des risques](rediger-une-evaluation-des-risques.md) — 1 entrées
 - [réfléchir de manière analytique](reflechir-de-maniere-analytique.md) — 1 entrées
@@ -200,13 +201,14 @@ timestamp: '2026-10-09'
 - [stratégie de marketing de contenu](strategie-de-marketing-de-contenu.md) — 1 entrées
 - [stratégie d’externalisation](strategie-dexternalisation.md) — 1 entrées
 - [suivre des indicateurs clés de performance](suivre-des-indicateurs-cles-de-performance.md) — 1 entrées
-- [suivre les tendances technologiques](suivre-les-tendances-technologiques.md) — 1 entrées
+- [suivre les tendances technologiques](suivre-les-tendances-technologiques.md) — 2 entrées
 - [superviser le développement d’un logiciel](superviser-le-developpement-dun-logiciel.md) — 1 entrées
 - [susciter des émotions dans le public](susciter-des-emotions-dans-le-public.md) — 1 entrées
-- [systèmes embarqués](systemes-embarques.md) — 1 entrées
-- [techniques d'écriture](techniques-d-ecriture.md) — 1 entrées
+- [systèmes embarqués](systemes-embarques.md) — 2 entrées
+- [techniques d'écriture](techniques-d-ecriture.md) — 2 entrées
 - [techniques de présentation visuelle](techniques-de-presentation-visuelle.md) — 1 entrées
-- [technologies émergentes](technologies-emergentes.md) — 1 entrées
+- [technologie de transmission](technologie-de-transmission.md) — 1 entrées
+- [technologies émergentes](technologies-emergentes.md) — 2 entrées
 - [traitement automatique du langage naturel](traitement-automatique-du-langage-naturel.md) — 1 entrées
 - [transmettre les techniques d’un métier](transmettre-les-techniques-dun-metier.md) — 1 entrées
 - [travailler de manière autonome](travailler-de-maniere-autonome.md) — 1 entrées
@@ -219,6 +221,7 @@ timestamp: '2026-10-09'
 - [utiliser des outils en ligne pour collaborer](utiliser-des-outils-en-ligne-pour-collaborer.md) — 1 entrées
 - [utiliser des patrons de conception](utiliser-des-patrons-de-conception.md) — 1 entrées
 - [utiliser des techniques de communication](utiliser-des-techniques-de-communication.md) — 7 entrées
+- [utiliser des techniques d’écriture spécifiques](utiliser-des-techniques-decriture-specifiques.md) — 1 entrées
 - [utiliser la programmation de scripts](utiliser-la-programmation-de-scripts.md) — 1 entrées
 - [utiliser la programmation orientée objet](utiliser-la-programmation-orientee-objet.md) — 1 entrées
 - [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 2 entrées
@@ -226,7 +229,7 @@ timestamp: '2026-10-09'
 - [écrire en anglais](ecrire-en-anglais.md) — 1 entrées
 - [écrire en français](ecrire-en-francais.md) — 1 entrées
 - [écrire la documentation d’une base de données](ecrire-la-documentation-dune-base-de-donnees.md) — 1 entrées
-- [élaborer des contenus numériques](elaborer-des-contenus-numeriques.md) — 1 entrées
+- [élaborer des contenus numériques](elaborer-des-contenus-numeriques.md) — 2 entrées
 - [élaborer la conception d'un produit](elaborer-la-conception-d-un-produit.md) — 2 entrées
 - [élaborer un plan de cours](elaborer-un-plan-de-cours.md) — 1 entrées
 - [équilibrer les ressources d’une base de données](equilibrer-les-ressources-dune-base-de-donnees.md) — 1 entrées

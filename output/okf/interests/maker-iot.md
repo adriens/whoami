@@ -12,3 +12,8 @@ timestamp: '2026-10-09'
 Mots-clés : Lo-tech, Arduino, ESP8266 / NodeMCU, Arduino MKR1000, Raspberry Pi Pico W, Pimoroni Cosmic Unicorn, LED matrix, API vers IoT, Meshtastic, MeshCore, LoRa mesh networking, IoT outdoor, Fablab UNC, Adafruit / CircuitPython, eInk displays, BBC micro:bit, Hackster.io
 
 *Contexte : mixed*
+
+**Compétences ESCO :**
+- [Internet des objets](../esco/internet-des-objets.md) — *knowledge*
+- [systèmes embarqués](../esco/systemes-embarques.md) — *knowledge*
+- [technologie de transmission](../esco/technologie-de-transmission.md) — *knowledge*

@@ -13,4 +13,8 @@ Mots-clés : Livres tech, Livres management, Architecture SI, Intelligence artif
 
 *Contexte : pro*
 
+**Compétences ESCO :**
+- [suivre les tendances technologiques](../esco/suivre-les-tendances-technologiques.md) — *skill/competence*
+- [technologies émergentes](../esco/technologies-emergentes.md) — *knowledge*
+
 **Tags :** [open-source](../tags/open-source.md)

@@ -17,4 +17,8 @@ Mots-clés : Management, Architecture logicielle, Data science, Innovation, Desi
 
 *Contexte : pro*
 
+**Compétences ESCO :**
+- [lire des livres](../esco/lire-des-livres.md) — *skill/competence*
+- [gérer le développement professionnel personnel](../esco/gerer-le-developpement-professionnel-personnel.md) — *skill/competence*
+
 **Tags :** [architecture-logicielle](../tags/architecture-logicielle.md), [data-science](../tags/data-science.md), [design-thinking](../tags/design-thinking.md), [innovation](../tags/innovation.md), [management](../tags/management.md)
