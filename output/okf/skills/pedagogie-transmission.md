@@ -11,7 +11,7 @@ timestamp: '2026-10-09'
 
 **Niveau : Expert**
 
-Mots-clés : Enseignement universitaire (Master MIAGE), Pédagogie Montessori, Mindful Learning (Ellen Langer), Learning by doing, Mentorat de stagiaires, Tuteur industriel (projets tutorés UNC), Pédagogie par projets réels open source / open data, Knowledge sharing, Vulgarisation technique, Why-first (Sinek), Construction du raisonnement plutôt que dictée de la solution, Conception de stages sur mesure (datascience → APIs → mobile, art génératif, IoT), Mentorat à distance full-remote (GitHub issues comme seul canal), Facilitation UX (Visonneau), Apprenance & intelligence collective — l'apprentissage et le groupe au centre (Lean & Learn, J. Chaize), Supports pédagogiques vidéo (tutoriels HackAVP, séries MIAGE)
+Mots-clés : Enseignement universitaire (Master MIAGE), Pédagogie Montessori, Mindful Learning (Ellen Langer), Learning by doing, Mentorat de stagiaires, Tuteur industriel (projets tutorés UNC), Pédagogie par projets réels open source / open data, Knowledge sharing, Vulgarisation technique, Why-first (Sinek), Construction du raisonnement plutôt que dictée de la solution, Conception de stages sur mesure (datascience → APIs → mobile, art génératif, IoT), Mentorat à distance full-remote (GitHub issues comme seul canal), Facilitation UX (Visonneau), Apprenance & intelligence collective — l'apprentissage et le groupe au centre (Lean & Learn, J. Chaize), Supports pédagogiques vidéo (tutoriels HackAVP, séries MIAGE), Scénarios interactifs Killercoda
 
 **Compétences ESCO :**
 - [enseigner à l'université](../esco/enseigner-a-l-universite.md) — *skill/competence*

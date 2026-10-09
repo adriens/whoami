@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-205 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+206 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -178,6 +178,7 @@ timestamp: '2026-10-09'
 - [recruter des employés](recruter-des-employes.md) — 1 entrées
 - [respect de la gouvernance de l'information](respect-de-la-gouvernance-de-l-information.md) — 1 entrées
 - [rester concentré pendant de longues périodes](rester-concentre-pendant-de-longues-periodes.md) — 1 entrées
+- [robotique](robotique.md) — 1 entrées
 - [réaliser des audits informatiques](realiser-des-audits-informatiques.md) — 1 entrées
 - [rédiger des rapports sur le travail](rediger-des-rapports-sur-le-travail.md) — 1 entrées
 - [rédiger des rapports techniques](rediger-des-rapports-techniques.md) — 1 entrées
@@ -210,7 +211,7 @@ timestamp: '2026-10-09'
 - [utiliser des techniques de communication](utiliser-des-techniques-de-communication.md) — 1 entrées
 - [utiliser la programmation de scripts](utiliser-la-programmation-de-scripts.md) — 1 entrées
 - [utiliser la programmation orientée objet](utiliser-la-programmation-orientee-objet.md) — 1 entrées
-- [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 1 entrées
+- [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 2 entrées
 - [écrire en anglais](ecrire-en-anglais.md) — 1 entrées
 - [écrire en français](ecrire-en-francais.md) — 1 entrées
 - [écrire la documentation d’une base de données](ecrire-la-documentation-dune-base-de-donnees.md) — 1 entrées

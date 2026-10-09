@@ -10,7 +10,7 @@ timestamp: '2026-10-09'
 
 **Niveau : Intermédiaire**
 
-Mots-clés : Arduino, ESP8266 / NodeMCU, Arduino MKR1000, Raspberry Pi Pico W, Pimoroni Cosmic Unicorn, Arduino IoT Cloud, IFTTT / Maker service, HC-SR04 (capteur ultrason), LED matrix, Adafruit (FunHouse, PyPortal, MagTag), CircuitPython, Hackster.io
+Mots-clés : Arduino, ESP8266 / NodeMCU, Arduino MKR1000, Raspberry Pi Pico W, Pimoroni Cosmic Unicorn, Arduino IoT Cloud, IFTTT / Maker service, HC-SR04 (capteur ultrason), LED matrix, Adafruit (FunHouse, PyPortal, MagTag), CircuitPython, Hackster.io, Robot Reachy Mini (Pollen Robotics)
 
 **Compétences ESCO :**
 - [Internet des objets](../esco/internet-des-objets.md) — *knowledge*
@@ -20,3 +20,4 @@ Mots-clés : Arduino, ESP8266 / NodeMCU, Arduino MKR1000, Raspberry Pi Pico W, P
 - [programmer un micrologiciel](../esco/programmer-un-micrologiciel.md) — *skill/competence*
 - [Python (programmation informatique)](../esco/python-programmation-informatique.md) — *knowledge*
 - [C++](../esco/c.md) — *knowledge*
+- [robotique](../esco/robotique.md) — *knowledge*
