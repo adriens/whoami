@@ -401,64 +401,59 @@
     <PublicationHistory>
       <Publication>
         <Title>Paroles d'agent — Adrien SALES (OPT-NC)</Title>
+        <Authors>OPT-NC</Authors>
         <Year>2020</Year>
         <Publisher>YouTube / OPT-NC</Publisher>
-        <DOI>
-          <Link>https://www.youtube.com/watch?v=g2JuEcwPvgE</Link>
-        </DOI>
+        <Reference>https://www.youtube.com/watch?v=g2JuEcwPvgE</Reference>
         <hr:FormattedPublicationDescription>&lt;p&gt;Épisode de la série interne &amp;#x27;Paroles d&amp;#x27;agent&amp;#x27; publiée sur la chaîne YouTube officielle de l&amp;#x27;OPT-NC. Présente son rôle d&amp;#x27;intégrateur de données à la DSI, sa vision de la collaboration métier/IT, son meilleur succès (débloquer l&amp;#x27;adoption d&amp;#x27;un logiciel en travaillant main dans la main avec les métiers) et sa devise : &amp;#x27;No excuse&amp;#x27;.&lt;/p&gt;</hr:FormattedPublicationDescription>
       </Publication>
       <Publication>
         <Title>Analyse de l'historique Netflix avec Power BI — LinkedIn Pulse</Title>
+        <Authors>Adrien Sales</Authors>
         <Year>2019</Year>
         <Publisher>LinkedIn Pulse</Publisher>
-        <DOI>
-          <Link>https://www.linkedin.com/pulse/so-i-can-download-my-netflix-activity-csv-what-adrien-sales/</Link>
-        </DOI>
+        <Reference>https://www.linkedin.com/pulse/so-i-can-download-my-netflix-activity-csv-what-adrien-sales/</Reference>
         <hr:FormattedPublicationDescription>&lt;p&gt;Article explorant l&amp;#x27;analyse de son historique de visionnage Netflix (export CSV) : Power Automate pour le traitement des données, IMDbPY pour l&amp;#x27;enrichissement en genres, Power BI pour les visualisations (genres préférés, fidélité aux séries, sessions intensives). Illustre la valeur des données personnelles et l&amp;#x27;enjeu du RGPD.&lt;/p&gt;</hr:FormattedPublicationDescription>
       </Publication>
       <Publication>
         <Title>MIT Media Lab, créativité &amp; jeux — LinkedIn Pulse</Title>
+        <Authors>Adrien Sales</Authors>
         <Year>2019</Year>
         <Publisher>LinkedIn Pulse</Publisher>
-        <DOI>
-          <Link>https://www.linkedin.com/pulse/how-did-netflix-put-my-heart-brain-fire-abstract-art-design-sales/</Link>
-        </DOI>
+        <Reference>https://www.linkedin.com/pulse/how-did-netflix-put-my-heart-brain-fire-abstract-art-design-sales/</Reference>
         <hr:FormattedPublicationDescription>&lt;p&gt;Réflexion sur la créativité, le jeu et le design inspirée du MIT Media Lab. À partir d&amp;#x27;un documentaire Netflix sur l&amp;#x27;art abstrait, l&amp;#x27;article explore comment les principes du jeu et du design peuvent nourrir la pensée créative et l&amp;#x27;innovation en entreprise.&lt;/p&gt;</hr:FormattedPublicationDescription>
       </Publication>
       <Publication>
         <Title>208 articles techniques — Dev.to</Title>
+        <Authors>Adrien Sales</Authors>
         <Year>2020</Year>
         <Publisher>Dev.to</Publisher>
-        <DOI>
-          <Link>https://dev.to/adriens/</Link>
-        </DOI>
+        <Reference>https://dev.to/adriens/</Reference>
         <hr:FormattedPublicationDescription>&lt;p&gt;Publication régulière d&amp;#x27;articles techniques en anglais et français sur le data engineering, Neo4j, DevOps, open data, IA et l&amp;#x27;interopérabilité des SI. 25 badges dont Five Year Club, Hacktoberfest 2025, Google Gemini Challenge, GitHub Copilot Challenge. 1 463 commentaires écrits.&lt;/p&gt;</hr:FormattedPublicationDescription>
       </Publication>
       <Publication>
         <Title>Chaîne YouTube DevOPS-LAB</Title>
+        <Authors>Adrien Sales</Authors>
         <Year>2020</Year>
         <Publisher>YouTube</Publisher>
-        <DOI>
-          <Link>https://www.youtube.com/channel/UCcbQ_euR84DKOf_-ksI5_GQ</Link>
-        </DOI>
+        <Reference>https://www.youtube.com/channel/UCcbQ_euR84DKOf_-ksI5_GQ</Reference>
         <hr:FormattedPublicationDescription>&lt;p&gt;284 vidéos techniques en français et anglais : démonstrations live, DevOps, data engineering, Neo4j, MCP, open data. 189 abonnés. Inclut des détournements humoristiques de films (VO russe/allemand sous-titrés) pour vulgariser des concepts tech.&lt;/p&gt;</hr:FormattedPublicationDescription>
       </Publication>
       <Publication>
         <Title>Open Data OPT-NC sur Kaggle et Hugging Face</Title>
+        <Authors>Adrien Sales</Authors>
         <Year>2022</Year>
         <Publisher>Kaggle / Hugging Face</Publisher>
-        <DOI>
-          <Link>https://www.kaggle.com/optnouvellecaldonie</Link>
-        </DOI>
+        <Reference>https://www.kaggle.com/optnouvellecaldonie</Reference>
         <hr:FormattedPublicationDescription>&lt;p&gt;Animation des organisations OPT-NC sur Kaggle (kaggle.com/optnouvellecaldonie) et Hugging Face (huggingface.co/opt-nc) : datasets open data, notebooks, applications Gradio et MCPs. 27 datasets publiés, 81 notebooks de démonstration. SDKs Python de scraping publiés sur PyPI (edb-noumea, auptitcafe, aquavena-sdk).&lt;/p&gt;</hr:FormattedPublicationDescription>
       </Publication>
       <Publication>
         <Title>PostgreSQL Security Analysis — Zenodo</Title>
+        <Authors>Adrien Sales</Authors>
         <Year>2026</Year>
         <Publisher>Zenodo</Publisher>
         <DOI>
-          <Link>https://zenodo.org/records/20467660</Link>
+          <Link>https://doi.org/10.5281/zenodo.20467660</Link>
         </DOI>
         <hr:FormattedPublicationDescription>&lt;p&gt;Première publication scientifique sur Zenodo (DOI : 10.5281/zenodo.20467660). Analyse de sécurité des versions PostgreSQL via trois outils CLI : geol (End-of-Life), Trivy (scan de vulnérabilités Docker), skopeo (inspection d&amp;#x27;images). Démontre comment combiner IA générative et outils CLI pour automatiser l&amp;#x27;analyse de risques sur des images de base de données.&lt;/p&gt;</hr:FormattedPublicationDescription>
       </Publication>

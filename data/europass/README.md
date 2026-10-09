@@ -16,7 +16,7 @@ Format : document **Europass Candidate** (HR-XML 3 + extensions Europass/EURES),
 | Éducation et formation | `education[]` (`x-location`, niveau `x-eqf`) |
 | Compétences linguistiques | `languages[]` : code `x-iso639`, niveaux CECRL par dimension `x-cefr` |
 | Compétences numériques | `skills[]` en `x-europass: digital` : un groupe par skill, keywords dédoublonnés |
-| Publications | `publications[]` |
+| Publications | `publications[]` : auteurs (`x-authors`, sinon JSON-LD Zenodo, sinon `basics.name`), DOI joint depuis `data/zenodo/` par URL, lien en référence sinon |
 | Sections libres | Compétences transversales (`x-europass: transversal`), Certifications, Bénévolat, Distinctions & interventions, Projets, Centres d'intérêt (`pro`/`mixed`), Référentiel ESCO |
 
 **ESCO** : le format ne porte pas d'URI. Les concepts sont repris en texte (libellés FR exacts) dans la section libre « Référentiel ESCO » ; pour des compétences *reliées* à ESCO dans le profil Europass, les re-sélectionner dans l'éditeur à partir de ces libellés (ou de `data/esco/_index.csv`).
