@@ -1579,6 +1579,66 @@
           "covers": [
             "Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC)"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/5fd5c985-eaaa-47aa-8314-62359c54505a",
+          "label": "élaborer des contenus numériques",
+          "type": "skill/competence",
+          "covers": [
+            "YouTube",
+            "Dev.to",
+            "Détournements vidéo tech"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/dfb9cec6-3ae3-408a-9d57-c44361bf7aaf",
+          "label": "fournir du contenu multimédia",
+          "type": "skill/competence",
+          "covers": [
+            "YouTube",
+            "Mux",
+            "Détournements vidéo tech"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+          "label": "techniques d'écriture",
+          "type": "knowledge",
+          "covers": [
+            "Storytelling",
+            "Data Storytelling"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/e83ec793-3fbc-42e0-9729-d4bd92d454b3",
+          "label": "rédiger des textes professionnels",
+          "type": "skill/competence",
+          "covers": [
+            "Dev.to",
+            "Vulgarisation",
+            "Documentation"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337",
+          "label": "utiliser des techniques de communication",
+          "type": "skill/competence",
+          "covers": [
+            "Vulgarisation",
+            "Pitching interne",
+            "Tech advocacy interne"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b0560439-14eb-41d1-aa53-1938efc24123",
+          "label": "stratégie de marketing de contenu",
+          "type": "knowledge",
+          "covers": [
+            "Marketing $0",
+            "YouTube",
+            "Dev.to",
+            "Évangélisation par la pratique"
+          ]
         }
       ]
     },
@@ -3804,7 +3864,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.35.2",
+    "version": "v1.35.3",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
