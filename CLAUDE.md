@@ -119,6 +119,7 @@ Le schéma JSON Resume accepte des propriétés additionnelles. Les champs `x-*`
 | `x-esco` | `skills` | Concepts ESCO `{uri, label, type, covers}` — `type` ∈ `knowledge` / `skill/competence`, `covers` = keywords du skill couverts |
 | `x-esco-occupations` | `basics`, `work`, `volunteer` | Métiers ESCO `{uri, label, code}` (code ISCO-ESCO) |
 | `x-esco` | `references` | Concepts ESCO `{uri, label, type}` **attestés par le recommandant**, déduits des `x-tags` via la table « Tags de recos → ESCO » ci-dessous |
+| `x-esco` | `interests` | Concepts ESCO `{uri, label, type}` — uniquement pour les intérêts `pro` / `mixed` (jamais `personal`) |
 | `x-esco` | `languages`, `certificates` | Concepts ESCO `{uri, label, type}` (sans `covers`) — langue : concept parent + aptitudes (comprendre oral/écrit, écrire, interagir) ; certificat : compétences attestées |
 | `x-esco-retrieved` | `meta` | Date de récupération des concepts depuis l'API ESCO (l'API n'expose pas de version) |
 
@@ -626,6 +627,7 @@ La release note doit lister : les changements de contenu (`resume.json`), les do
 | Ajout | Vérification ESCO |
 |---|---|
 | Nouvelle entrée `work[]` / `volunteer[]` | `x-esco-occupations` (1-2 métiers ESCO, avec `code`) — mettre aussi à jour `basics.x-esco-occupations` si le profil global évolue |
+| Nouvel intérêt `pro` / `mixed` | `x-esco` : compétences mobilisées (les intérêts `personal` ne sont pas rattachés) |
 | Nouvelle langue / nouveau certificat | `x-esco` : concept de la langue (+ aptitudes selon le niveau) / compétences attestées par le certificat |
 | Nouveau keyword dans un skill (livre, reco, publication, vidéo, projet…) | Le couvrir par un concept existant du skill (`covers`) ou ajouter un concept ESCO ; sinon le signaler comme non couvert |
 | Nouveau skill | `x-esco` obligatoire (CI : `task audit-esco` échoue sinon) |
