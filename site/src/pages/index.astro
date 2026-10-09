@@ -824,6 +824,14 @@ function levelDots(level: string): number {
                     {item.keywords.map((k: string) => <span class="tag">{k}</span>)}
                   </div>
                 )}
+                {item['x-esco']?.length > 0 && (
+                  <div class="esco-row">
+                    <span class="esco-label" title="Compétences ESCO mobilisées">ESCO</span>
+                    {item['x-esco'].map((e: any) => (
+                      <a class="tag tag-esco" href={escoHref(e.uri)} target="_blank" rel="noopener">{e.label}</a>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
           </div>
