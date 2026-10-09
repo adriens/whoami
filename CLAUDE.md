@@ -160,7 +160,7 @@ Combiner :
 3. **Analyser l'apport metadata de la nouvelle reco** — deux cas distincts :
    - **Tag en 1ère occurrence** : nouvelle facette du profil jamais validée par un tiers (ex: `api-fication` et `open-data` apparus pour la 1ère fois avec Sabrina Vérolle en 2026) → signal fort, potentiellement à promouvoir en skill ou keyword
    - **Tag renforcé** : convergence entre recommandants indépendants → crédibilité accrue (ex: `innovation` à 7x, `transmission` à 4x)
-4. Si un nouveau thème récurrent émerge (validé par ≥2 recos indépendantes), envisager un keyword/skill dédié dans `skills` (ex: la transmission, validée par 4 recos, est devenue une skill Expert)
+4. Si un nouveau thème récurrent émerge (validé par ≥2 recos indépendantes), envisager un keyword/skill dédié dans `skills` (ex: la transmission, validée par 4 recos, est devenue une skill Expert) — **et compléter ESCO** pour ce keyword (voir « Règle absolue — ESCO à chaque ajout »)
 5. Créer le fichier `.md` miroir dans `data/linkedin/adrien-sales/recommendations/` + mettre à jour `_index.csv`
 6. Bump `meta.version` + commit + tag (MINOR — toute nouvelle entrée dans `references[]`)
 7. **Toujours conclure par un feedback structuré** à l'utilisateur :
@@ -399,7 +399,8 @@ Une publication est un signal **en première personne** — plus direct qu'une r
 ### 6. Valider et commiter
 
 1. `task validate` — toujours
-2. Bump `meta.version` + commit `feat(publications):` + tag MINOR (nouvelle entrée dans `publications[]`)
+2. **Compléter ESCO** pour les keywords/skills ajoutés à l'étape 5 + `task audit-esco` (voir « Règle absolue — ESCO à chaque ajout »)
+3. Bump `meta.version` + commit `feat(publications):` + tag MINOR (nouvelle entrée dans `publications[]`)
 
 ## Concept : saga
 
@@ -614,6 +615,19 @@ gh release create vX.Y.Z --title "vX.Y.Z — <titre court>" --notes "<release no
 
 La release note doit lister : les changements de contenu (`resume.json`), les données ajoutées, et les évolutions de docs/workflows. S'appuyer sur `git log vX.Y.(Z-1)..vX.Y.Z --oneline` pour la construire.
 
+## Règle absolue — ESCO à chaque ajout
+
+**Tout ajout au profil doit compléter le rattachement ESCO**, quelle que soit l'origine (livre, reco, publication, vidéo, nouvelle expérience, projet, award…). Avant le commit `feat(...)` :
+
+| Ajout | Vérification ESCO |
+|---|---|
+| Nouvelle entrée `work[]` | `x-esco-occupations` (1-2 métiers ESCO, avec `code`) — mettre aussi à jour `basics.x-esco-occupations` si le profil global évolue |
+| Nouveau keyword dans un skill (livre, reco, publication, vidéo, projet…) | Le couvrir par un concept existant du skill (`covers`) ou ajouter un concept ESCO ; sinon le signaler comme non couvert |
+| Nouveau skill | `x-esco` obligatoire (CI : `task audit-esco` échoue sinon) |
+| Nouveau rôle/compétence révélé par une entrée (`awards`, `projects`, `volunteer`…) sans keyword correspondant | Proposer le keyword + le concept ESCO (ex : co-organisation #HackAVP → *coordonner des événements*) |
+
+Toujours : proposer le mapping à Adrien **entrée par entrée** (tableau concept FR / EN, type, ce qui est couvert) avant d'écrire, puis `task audit-esco` + `task export-esco` (commit `chore(esco)`), et signaler dans le feedback final ce qui a été rattaché à ESCO.
+
 ## Workflow : mapper un skill à ESCO
 
 [ESCO](https://esco.ec.europa.eu/fr) est le référentiel européen des compétences et métiers ; ses URIs (`http://data.europa.eu/esco/skill/<uuid>`) sont les identifiants stables qui permettent de rattacher le profil à Europass, EURES, au matching d'offres et au graphe. **Tout skill doit avoir un `x-esco`** (contrôlé par `task audit-esco`, aussi en CI).
@@ -685,9 +699,10 @@ Le champ `tags` est **créé vide (`tags: []`) pour chaque livre** au fetch et *
 ### 4. Valider et commiter
 
 1. `task validate`
-2. Bump `meta.version` (PATCH si enrichissement, MINOR si nouvelle entrée)
-3. Deux commits séparés : `chore(goodreads):` pour les data, `feat(interests):` (ou autre section) pour `resume.json`
-4. Tag + release
+2. **Compléter ESCO** si un keyword a été ajouté à un skill + `task audit-esco` (voir « Règle absolue — ESCO à chaque ajout »)
+3. Bump `meta.version` (PATCH si enrichissement, MINOR si nouvelle entrée)
+4. Deux commits séparés : `chore(goodreads):` pour les data, `feat(interests):` (ou autre section) pour `resume.json`
+5. Tag + release
 
 ## Règle absolue — Python
 
