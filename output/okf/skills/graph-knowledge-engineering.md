@@ -20,5 +20,10 @@ Mots-clés : Neo4j, Graph Data Science, Cypher, Knowledge Graph, GDS Library, Ne
 - [exploration de données](../esco/exploration-de-donnees.md) — *knowledge*
 - [gérer l’intégration sémantique des TIC](../esco/gerer-lintegration-semantique-des-tic.md) — *skill/competence*
 - [standards du World Wide Web Consortium](../esco/standards-du-world-wide-web-consortium.md) — *knowledge*
+- [créer des modèles de données](../esco/creer-des-modeles-de-donnees.md) — *skill/competence*
+- [modèles de données](../esco/modeles-de-donnees.md) — *knowledge*
+- [algorithmes](../esco/algorithmes.md) — *knowledge*
+- [mathématiques](../esco/mathematiques.md) — *knowledge*
+- [architecture de l’information](../esco/architecture-de-linformation.md) — *knowledge*
 
 **Tags :** [knowledge-graph](../tags/knowledge-graph.md), [neo4j](../tags/neo4j.md)

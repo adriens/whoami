@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-123 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+153 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -37,27 +37,37 @@ timestamp: '2026-10-09'
 - [adapter l’enseignement aux capacités des élèves](adapter-lenseignement-aux-capacites-des-eleves.md) — 1 entrées
 - [administrer un système de gestion de bases de données relationnelles](administrer-un-systeme-de-gestion-de-bases-de-donnees-relationnelles.md) — 1 entrées
 - [aider des étudiants dans leur apprentissage](aider-des-etudiants-dans-leur-apprentissage.md) — 1 entrées
+- [algorithmes](algorithmes.md) — 1 entrées
 - [aligner le logiciel sur l’architecture du système](aligner-le-logiciel-sur-larchitecture-du-systeme.md) — 1 entrées
+- [analyser des mégadonnées](analyser-des-megadonnees.md) — 1 entrées
 - [appliquer des stratégies pédagogiques](appliquer-des-strategies-pedagogiques.md) — 1 entrées
 - [appliquer la gestion du changement](appliquer-la-gestion-du-changement.md) — 1 entrées
 - [appliquer la pédagogie Montessori](appliquer-la-pedagogie-montessori.md) — 1 entrées
+- [appliquer la rétro-ingénierie](appliquer-la-retro-ingenierie.md) — 1 entrées
+- [architecture de l’information](architecture-de-linformation.md) — 1 entrées
 - [assurer un leadership](assurer-un-leadership.md) — 1 entrées
 - [avoir un esprit créatif](avoir-un-esprit-creatif.md) — 1 entrées
+- [cadres d'architecture TIC](cadres-d-architecture-tic.md) — 1 entrées
 - [capteurs](capteurs.md) — 1 entrées
 - [combiner plusieurs domaines de connaissances](combiner-plusieurs-domaines-de-connaissances.md) — 1 entrées
 - [concevoir des interfaces d’application](concevoir-des-interfaces-dapplication.md) — 3 entrées
 - [concevoir des prototypes](concevoir-des-prototypes.md) — 1 entrées
 - [concevoir un schéma de base de données](concevoir-un-schema-de-base-de-donnees.md) — 1 entrées
+- [concevoir un système d’information](concevoir-un-systeme-dinformation.md) — 1 entrées
 - [coordonner des événements](coordonner-des-evenements.md) — 1 entrées
+- [créer des modèles de données](creer-des-modeles-de-donnees.md) — 1 entrées
 - [créer des schémas de base de données](creer-des-schemas-de-base-de-donnees.md) — 1 entrées
+- [créer des traitements de données](creer-des-traitements-de-donnees.md) — 1 entrées
 - [créer un réseau professionnel](creer-un-reseau-professionnel.md) — 1 entrées
 - [créer une architecture d’entreprise](creer-une-architecture-dentreprise.md) — 2 entrées
 - [cycle de vie d’un produit](cycle-de-vie-dun-produit.md) — 1 entrées
 - [diriger d’autres personnes](diriger-dautres-personnes.md) — 1 entrées
 - [diriger une équipe](diriger-une-equipe.md) — 1 entrées
+- [définir la structure physique de la base de données](definir-la-structure-physique-de-la-base-de-donnees.md) — 1 entrées
 - [définir l’architecture logicielle](definir-larchitecture-logicielle.md) — 1 entrées
 - [déléguer des tâches](deleguer-des-taches.md) — 1 entrées
 - [démontrer une volonté d’apprendre](demontrer-une-volonte-dapprendre.md) — 1 entrées
+- [développer des applications de traitement des données](developper-des-applications-de-traitement-des-donnees.md) — 1 entrées
 - [développer des idées créatives](developper-des-idees-creatives.md) — 1 entrées
 - [développer des tests logiciels automatisés](developper-des-tests-logiciels-automatises.md) — 1 entrées
 - [développer l’architecture d’une communauté en ligne](developper-larchitecture-dune-communaute-en-ligne.md) — 2 entrées
@@ -87,23 +97,35 @@ timestamp: '2026-10-09'
 - [guider ses collègues](guider-ses-collegues.md) — 1 entrées
 - [gérer des versions d’un logiciel](gerer-des-versions-dun-logiciel.md) — 1 entrées
 - [gérer du contenu en ligne](gerer-du-contenu-en-ligne.md) — 1 entrées
+- [gérer la conformité en matière de sécurité des TIC](gerer-la-conformite-en-matiere-de-securite-des-tic.md) — 1 entrées
+- [gérer le déploiement d’un système de TIC](gerer-le-deploiement-dun-systeme-de-tic.md) — 1 entrées
 - [gérer le développement professionnel personnel](gerer-le-developpement-professionnel-personnel.md) — 1 entrées
+- [gérer les conséquences de l’obsolescence des TIC](gerer-les-consequences-de-lobsolescence-des-tic.md) — 1 entrées
+- [gérer les données](gerer-les-donnees.md) — 1 entrées
 - [gérer les normes d’échange de données](gerer-les-normes-dechange-de-donnees.md) — 1 entrées
 - [gérer les retours d’information](gerer-les-retours-dinformation.md) — 1 entrées
 - [gérer l’architecture des données TIC](gerer-larchitecture-des-donnees-tic.md) — 1 entrées
 - [gérer l’intégration sémantique des TIC](gerer-lintegration-semantique-des-tic.md) — 1 entrées
 - [gérer une base de données](gerer-une-base-de-donnees.md) — 1 entrées
 - [gérer une équipe](gerer-une-equipe.md) — 1 entrées
+- [identifier les risques de sécurité des TIC](identifier-les-risques-de-securite-des-tic.md) — 1 entrées
 - [interagir au moyen de technologies numériques](interagir-au-moyen-de-technologies-numeriques.md) — 1 entrées
 - [interagir avec les utilisateurs pour définir leurs exigences](interagir-avec-les-utilisateurs-pour-definir-leurs-exigences.md) — 1 entrées
 - [intégration de systèmes de TIC](integration-de-systemes-de-tic.md) — 1 entrées
 - [intégrer des données TIC](integrer-des-donnees-tic.md) — 1 entrées
 - [jouer un rôle de meneur exemplaire au sein d’une organisation](jouer-un-role-de-meneur-exemplaire-au-sein-dune-organisation.md) — 1 entrées
+- [maintenir la sécurité d’une base de données](maintenir-la-securite-dune-base-de-donnees.md) — 1 entrées
+- [mathématiques](mathematiques.md) — 1 entrées
+- [mesurer l’ergonomie d’un logiciel](mesurer-lergonomie-dun-logiciel.md) — 1 entrées
+- [mettre en œuvre des processus de qualité des données](mettre-en-uvre-des-processus-de-qualite-des-donnees.md) — 1 entrées
 - [modèle en code source ouverte](modele-en-code-source-ouverte.md) — 1 entrées
+- [modèles de données](modeles-de-donnees.md) — 1 entrées
+- [modèles d’architecture logicielle](modeles-darchitecture-logicielle.md) — 1 entrées
 - [modélisation orientée services](modelisation-orientee-services.md) — 1 entrées
 - [motiver des employés](motiver-des-employes.md) — 1 entrées
 - [normes de sécurité des TIC](normes-de-securite-des-tic.md) — 1 entrées
 - [normes d’accessibilité TIC](normes-daccessibilite-tic.md) — 1 entrées
+- [outils de développement de bases de données](outils-de-developpement-de-bases-de-donnees.md) — 1 entrées
 - [outils de gestion de configuration logicielle](outils-de-gestion-de-configuration-logicielle.md) — 1 entrées
 - [outils d’extraction de transformation et de chargement](outils-dextraction-de-transformation-et-de-chargement.md) — 1 entrées
 - [pensée systémique](pensee-systemique.md) — 1 entrées
@@ -119,21 +141,29 @@ timestamp: '2026-10-09'
 - [pédagogie](pedagogie.md) — 1 entrées
 - [recommander des méthodes d'apprentissage](recommander-des-methodes-d-apprentissage.md) — 1 entrées
 - [recruter des employés](recruter-des-employes.md) — 1 entrées
+- [respect de la gouvernance de l'information](respect-de-la-gouvernance-de-l-information.md) — 1 entrées
 - [rédiger des textes professionnels](rediger-des-textes-professionnels.md) — 1 entrées
 - [rédiger un article scientifique](rediger-un-article-scientifique.md) — 1 entrées
 - [standards du World Wide Web Consortium](standards-du-world-wide-web-consortium.md) — 1 entrées
+- [stockage de données](stockage-de-donnees.md) — 1 entrées
 - [stratégie de marketing de contenu](strategie-de-marketing-de-contenu.md) — 1 entrées
 - [stratégie d’externalisation](strategie-dexternalisation.md) — 1 entrées
+- [suivre des indicateurs clés de performance](suivre-des-indicateurs-cles-de-performance.md) — 1 entrées
 - [suivre les tendances technologiques](suivre-les-tendances-technologiques.md) — 1 entrées
+- [superviser le développement d’un logiciel](superviser-le-developpement-dun-logiciel.md) — 1 entrées
 - [systèmes embarqués](systemes-embarques.md) — 1 entrées
 - [techniques d'écriture](techniques-d-ecriture.md) — 1 entrées
+- [technologies émergentes](technologies-emergentes.md) — 1 entrées
 - [traitement automatique du langage naturel](traitement-automatique-du-langage-naturel.md) — 1 entrées
 - [transmettre les techniques d’un métier](transmettre-les-techniques-dun-metier.md) — 1 entrées
 - [utiliser des langages de requête](utiliser-des-langages-de-requete.md) — 1 entrées
 - [utiliser des méthodes de conception centrée sur l’utilisateur](utiliser-des-methodes-de-conception-centree-sur-lutilisateur.md) — 2 entrées
 - [utiliser des techniques de communication](utiliser-des-techniques-de-communication.md) — 1 entrées
+- [utiliser la programmation orientée objet](utiliser-la-programmation-orientee-objet.md) — 1 entrées
 - [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 1 entrées
+- [écrire la documentation d’une base de données](ecrire-la-documentation-dune-base-de-donnees.md) — 1 entrées
 - [élaborer des contenus numériques](elaborer-des-contenus-numeriques.md) — 1 entrées
 - [élaborer la conception d'un produit](elaborer-la-conception-d-un-produit.md) — 1 entrées
 - [élaborer un plan de cours](elaborer-un-plan-de-cours.md) — 1 entrées
+- [équilibrer les ressources d’une base de données](equilibrer-les-ressources-dune-base-de-donnees.md) — 1 entrées
 - [évaluer les performances de collaborateurs de l’organisation](evaluer-les-performances-de-collaborateurs-de-lorganisation.md) — 1 entrées

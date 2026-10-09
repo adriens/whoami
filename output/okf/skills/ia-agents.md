@@ -17,3 +17,5 @@ Mots-clés : MCP (Model Context Protocol), Hugging Face, Gradio, Agents IA, RAG,
 - [utiliser l’apprentissage automatique](../esco/utiliser-lapprentissage-automatique.md) — *skill/competence*
 - [traitement automatique du langage naturel](../esco/traitement-automatique-du-langage-naturel.md) — *knowledge*
 - [effectuer des recherches dans des bases de données](../esco/effectuer-des-recherches-dans-des-bases-de-donnees.md) — *skill/competence*
+- [technologies émergentes](../esco/technologies-emergentes.md) — *knowledge*
+- [développer des applications de traitement des données](../esco/developper-des-applications-de-traitement-des-donnees.md) — *skill/competence*

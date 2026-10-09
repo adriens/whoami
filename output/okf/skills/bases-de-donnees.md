@@ -22,5 +22,11 @@ Mots-clés : PostgreSQL, DuckDB, DuckLake, Oracle, SQL, Tuning, SchemaCrawler, A
 - [gérer une base de données](../esco/gerer-une-base-de-donnees.md) — *skill/competence*
 - [créer des schémas de base de données](../esco/creer-des-schemas-de-base-de-donnees.md) — *skill/competence*
 - [concevoir un schéma de base de données](../esco/concevoir-un-schema-de-base-de-donnees.md) — *skill/competence*
+- [appliquer la rétro-ingénierie](../esco/appliquer-la-retro-ingenierie.md) — *skill/competence*
+- [écrire la documentation d’une base de données](../esco/ecrire-la-documentation-dune-base-de-donnees.md) — *skill/competence*
+- [outils de développement de bases de données](../esco/outils-de-developpement-de-bases-de-donnees.md) — *knowledge*
+- [équilibrer les ressources d’une base de données](../esco/equilibrer-les-ressources-dune-base-de-donnees.md) — *skill/competence*
+- [définir la structure physique de la base de données](../esco/definir-la-structure-physique-de-la-base-de-donnees.md) — *skill/competence*
+- [maintenir la sécurité d’une base de données](../esco/maintenir-la-securite-dune-base-de-donnees.md) — *skill/competence*
 
 **Tags :** [duckdb](../tags/duckdb.md), [schemacrawler](../tags/schemacrawler.md)

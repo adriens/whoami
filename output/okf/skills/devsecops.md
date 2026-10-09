@@ -22,5 +22,11 @@ Mots-clés : GitHub Actions, GitHub Issues, Docker, Podman, Kubernetes, Trivy, s
 - [normes d’accessibilité TIC](../esco/normes-daccessibilite-tic.md) — *knowledge*
 - [développer des tests logiciels automatisés](../esco/developper-des-tests-logiciels-automatises.md) — *skill/competence*
 - [normes de sécurité des TIC](../esco/normes-de-securite-des-tic.md) — *knowledge*
+- [gérer les conséquences de l’obsolescence des TIC](../esco/gerer-les-consequences-de-lobsolescence-des-tic.md) — *skill/competence*
+- [identifier les risques de sécurité des TIC](../esco/identifier-les-risques-de-securite-des-tic.md) — *skill/competence*
+- [gérer la conformité en matière de sécurité des TIC](../esco/gerer-la-conformite-en-matiere-de-securite-des-tic.md) — *skill/competence*
+- [gérer le déploiement d’un système de TIC](../esco/gerer-le-deploiement-dun-systeme-de-tic.md) — *skill/competence*
+- [suivre des indicateurs clés de performance](../esco/suivre-des-indicateurs-cles-de-performance.md) — *skill/competence*
+- [mesurer l’ergonomie d’un logiciel](../esco/mesurer-lergonomie-dun-logiciel.md) — *skill/competence*
 
 **Tags :** [devsecops](../tags/devsecops.md), [geol](../tags/geol.md)
