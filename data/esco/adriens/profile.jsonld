@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.36.1",
+  "x-resume-version": "v1.37.0",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -1887,6 +1887,86 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/c2ce7fe9-203b-492a-961e-9698dce7de19",
+      "termCode": "c2ce7fe9-203b-492a-961e-9698dce7de19",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "effectuer une analyse de données de sécurité"
+        },
+        {
+          "@language": "en",
+          "@value": "perform safety data analysis"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/7e1f9657-ab4e-407c-842f-b846197060e3",
+      "termCode": "7e1f9657-ab4e-407c-842f-b846197060e3",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "réaliser des audits informatiques"
+        },
+        {
+          "@language": "en",
+          "@value": "execute ICT audits"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/594bd121-9614-4e87-9ecf-6ccb95507efe",
+      "termCode": "594bd121-9614-4e87-9ecf-6ccb95507efe",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "rédiger une évaluation des risques"
+        },
+        {
+          "@language": "en",
+          "@value": "draw up risk assessment"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/5ef0c719-5bcb-49f8-b8eb-824388225333",
+      "termCode": "5ef0c719-5bcb-49f8-b8eb-824388225333",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "utiliser la programmation de scripts"
+        },
+        {
+          "@language": "en",
+          "@value": "use scripting programming"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/751941a0-5645-4f8b-b97e-b252909d5edb",
       "termCode": "751941a0-5645-4f8b-b97e-b252909d5edb",
       "name": [
@@ -2200,6 +2280,26 @@
         {
           "@language": "en",
           "@value": "apply statistical analysis techniques"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Reporting & Documentation"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/4b244020-5f28-4e20-b74f-1c2dcb6f15cb",
+      "termCode": "4b244020-5f28-4e20-b74f-1c2dcb6f15cb",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "appliquer des techniques de publication assistée par ordinateur"
+        },
+        {
+          "@language": "en",
+          "@value": "apply desktop publishing techniques"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
