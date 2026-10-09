@@ -189,6 +189,8 @@ def main():
         eh = sub(hist, "EmployerHistory")
         sub(eh, "hr:OrganizationName", w["name"])
         org_address(eh, w.get("x-location"))
+        if w.get("x-nace"):
+            sub(eh, "hr:IndustryCode", w["x-nace"])
         if w.get("url"):
             sub(eh, "Link", w["url"])
         ph = sub(eh, "PositionHistory")
@@ -324,6 +326,9 @@ def main():
         for item in r.get(section, []):
             if not item.get("x-location"):
                 warnings.append(f"{section} « {item.get(key)} » : x-location manquant (ville/pays absents du CV Europass)")
+    for w in r.get("work", []):
+        if not re.fullmatch(r"[A-U]", w.get("x-nace", "")):
+            warnings.append(f"work « {w.get('name')} » : x-nace absent ou invalide (section NACE Rev. 2, A à U)")
     for w in warnings:
         print(f"  ⚠ {w}")
     print(f"✓ {OUT.relative_to(ROOT)} — {len(r.get('work', []))} postes, {len(r.get('education', []))} formations, "
