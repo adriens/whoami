@@ -118,6 +118,7 @@ Le schéma JSON Resume accepte des propriétés additionnelles. Les champs `x-*`
 | `x-position`, `x-relationship`, `x-date`, `x-source`, `x-url`, `x-language`, `x-context` | `references` | Traçabilité et filtrage (`x-url` pour sources non-LinkedIn : YouTube, etc.) |
 | `x-label-url` | `education` | URL du label/accréditation (ex: CGE) |
 | `x-nace` | `work` | Secteur de l'**employeur** (pas du rôle) : section NACE Rev. 2 `A`–`U` (ex. OPT-NC `J`, Experian `K`) — utilisé par l'export Europass |
+| `x-authors` | `publications` | Auteurs quand ce n'est pas Adrien seul (ex. `["OPT-NC"]` pour une production interne) — sinon auteurs du JSON-LD Zenodo, ou `basics.name` ; utilisé par l'export Europass |
 | `x-europass` | `skills` | Rubrique Europass : `digital` (« Compétences numériques », un groupe par skill) ou `transversal` (section libre « Compétences transversales ») |
 | `x-iso639` | `languages` | Code ISO 639-2/T de la langue (`fra`, `eng`, `deu`, `spa`) — utilisé par l'export Europass |
 | `x-cefr` | `languages` | `"native"` (langue maternelle) ou niveaux CECRL par dimension `{listening, reading, spokenInteraction, spokenProduction, writing}` (`A1`–`C2`) — `fluency` reste le libellé affiché ; utilisé par l'export Europass |
