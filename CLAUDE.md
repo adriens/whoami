@@ -614,6 +614,15 @@ git add output/okf && git commit -m "chore(kb): rebuild OKF bundle (vX.Y.Z)"
 
 `build-okf-viz` exécute `build-okf` puis génère `output/okf/viz.html`. Le bundle est lié dans le footer du site (`/whoami/okf/viz.html`).
 
+**Règle absolue — régénérer le CV Europass à chaque tag.** Juste après le bundle OKF, avant de poser le tag (le XML embarque `meta.version` dans son `DocumentID`, il doit correspondre au tag) :
+
+```sh
+task export-europass   # régénère data/europass/adriens/europass-cv.xml + validation XSD (échoue si non conforme)
+git add data/europass && git commit -m "chore(europass): rebuild Europass CV export (vX.Y.Z)"
+```
+
+Si `git status` ne montre aucun changement, ne rien commiter. Mentionner dans la release note que `europass-cv.xml` est à jour (à réimporter sur europa.eu/europass si le contenu a changé).
+
 **Règle absolue — pousser le tag et créer la release immédiatement.** `git push` ne pousse pas les tags. Après chaque `git tag vX.Y.Z`, enchaîner sans exception :
 
 ```sh
