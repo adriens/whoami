@@ -33,5 +33,14 @@ Mots-clés : Management d'équipe, Management par la confiance, l'autonomie et l
 - [cycle de vie d’un produit](../esco/cycle-de-vie-dun-produit.md) — *knowledge*
 - [philosophies d’amélioration continue](../esco/philosophies-damelioration-continue.md) — *knowledge*
 - [faire preuve d’esprit d’entreprise](../esco/faire-preuve-desprit-dentreprise.md) — *skill/competence*
+- [diriger d’autres personnes](../esco/diriger-dautres-personnes.md) — *skill/competence*
+- [endosser vis-à-vis de collègues un rôle de meneur, cherchant avant tout à atteindre les objectifs](../esco/endosser-vis-a-vis-de-collegues-un-role-de-meneur-cherchant-avant-tout-a-atteindre-les-objectifs.md) — *skill/competence*
+- [jouer un rôle de meneur exemplaire au sein d’une organisation](../esco/jouer-un-role-de-meneur-exemplaire-au-sein-dune-organisation.md) — *skill/competence*
+- [diriger une équipe](../esco/diriger-une-equipe.md) — *skill/competence*
+- [faire des commentaires constructifs](../esco/faire-des-commentaires-constructifs.md) — *skill/competence*
+- [gérer les retours d’information](../esco/gerer-les-retours-dinformation.md) — *skill/competence*
+- [déléguer des tâches](../esco/deleguer-des-taches.md) — *skill/competence*
+- [interagir au moyen de technologies numériques](../esco/interagir-au-moyen-de-technologies-numeriques.md) — *skill/competence*
+- [évaluer les performances de collaborateurs de l’organisation](../esco/evaluer-les-performances-de-collaborateurs-de-lorganisation.md) — *skill/competence*
 
 **Tags :** [design-thinking](../tags/design-thinking.md), [lean](../tags/lean.md), [scrum](../tags/scrum.md)

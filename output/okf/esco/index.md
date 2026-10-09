@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-106 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+115 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -49,7 +49,10 @@ timestamp: '2026-10-09'
 - [créer un réseau professionnel](creer-un-reseau-professionnel.md) — 1 entrées
 - [créer une architecture d’entreprise](creer-une-architecture-dentreprise.md) — 2 entrées
 - [cycle de vie d’un produit](cycle-de-vie-dun-produit.md) — 1 entrées
+- [diriger d’autres personnes](diriger-dautres-personnes.md) — 1 entrées
+- [diriger une équipe](diriger-une-equipe.md) — 1 entrées
 - [définir l’architecture logicielle](definir-larchitecture-logicielle.md) — 1 entrées
+- [déléguer des tâches](deleguer-des-taches.md) — 1 entrées
 - [démontrer une volonté d’apprendre](demontrer-une-volonte-dapprendre.md) — 1 entrées
 - [développer des idées créatives](developper-des-idees-creatives.md) — 1 entrées
 - [développer des tests logiciels automatisés](developper-des-tests-logiciels-automatises.md) — 1 entrées
@@ -61,10 +64,12 @@ timestamp: '2026-10-09'
 - [effectuer une analyse de données](effectuer-une-analyse-de-donnees.md) — 1 entrées
 - [encourager des équipes à rechercher l’amélioration continue](encourager-des-equipes-a-rechercher-lamelioration-continue.md) — 1 entrées
 - [encourager le renforcement d’équipe](encourager-le-renforcement-dequipe.md) — 1 entrées
+- [endosser vis-à-vis de collègues un rôle de meneur, cherchant avant tout à atteindre les objectifs](endosser-vis-a-vis-de-collegues-un-role-de-meneur-cherchant-avant-tout-a-atteindre-les-objectifs.md) — 1 entrées
 - [enseigner à l'université](enseigner-a-l-universite.md) — 1 entrées
 - [entrepôt de données](entrepot-de-donnees.md) — 1 entrées
 - [entretenir des relations avec des fournisseurs](entretenir-des-relations-avec-des-fournisseurs.md) — 1 entrées
 - [exploration de données](exploration-de-donnees.md) — 1 entrées
+- [faire des commentaires constructifs](faire-des-commentaires-constructifs.md) — 1 entrées
 - [faire preuve de curiosité](faire-preuve-de-curiosite.md) — 1 entrées
 - [faire preuve d’esprit d’entreprise](faire-preuve-desprit-dentreprise.md) — 1 entrées
 - [fournir du contenu multimédia](fournir-du-contenu-multimedia.md) — 1 entrées
@@ -77,13 +82,16 @@ timestamp: '2026-10-09'
 - [gérer du contenu en ligne](gerer-du-contenu-en-ligne.md) — 1 entrées
 - [gérer le développement professionnel personnel](gerer-le-developpement-professionnel-personnel.md) — 1 entrées
 - [gérer les normes d’échange de données](gerer-les-normes-dechange-de-donnees.md) — 1 entrées
+- [gérer les retours d’information](gerer-les-retours-dinformation.md) — 1 entrées
 - [gérer l’architecture des données TIC](gerer-larchitecture-des-donnees-tic.md) — 1 entrées
 - [gérer l’intégration sémantique des TIC](gerer-lintegration-semantique-des-tic.md) — 1 entrées
 - [gérer une base de données](gerer-une-base-de-donnees.md) — 1 entrées
 - [gérer une équipe](gerer-une-equipe.md) — 1 entrées
+- [interagir au moyen de technologies numériques](interagir-au-moyen-de-technologies-numeriques.md) — 1 entrées
 - [interagir avec les utilisateurs pour définir leurs exigences](interagir-avec-les-utilisateurs-pour-definir-leurs-exigences.md) — 1 entrées
 - [intégration de systèmes de TIC](integration-de-systemes-de-tic.md) — 1 entrées
 - [intégrer des données TIC](integrer-des-donnees-tic.md) — 1 entrées
+- [jouer un rôle de meneur exemplaire au sein d’une organisation](jouer-un-role-de-meneur-exemplaire-au-sein-dune-organisation.md) — 1 entrées
 - [modèle en code source ouverte](modele-en-code-source-ouverte.md) — 1 entrées
 - [modélisation orientée services](modelisation-orientee-services.md) — 1 entrées
 - [motiver des employés](motiver-des-employes.md) — 1 entrées
@@ -120,3 +128,4 @@ timestamp: '2026-10-09'
 - [élaborer des contenus numériques](elaborer-des-contenus-numeriques.md) — 1 entrées
 - [élaborer la conception d'un produit](elaborer-la-conception-d-un-produit.md) — 1 entrées
 - [élaborer un plan de cours](elaborer-un-plan-de-cours.md) — 1 entrées
+- [évaluer les performances de collaborateurs de l’organisation](evaluer-les-performances-de-collaborateurs-de-lorganisation.md) — 1 entrées
