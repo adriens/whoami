@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.35.7",
+  "x-resume-version": "v1.35.8",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -1484,7 +1484,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
       "x-profile-skills": [
-        "DevSecOps"
+        "DevSecOps",
+        "Open Source"
       ]
     },
     {
@@ -1805,7 +1806,8 @@
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "Reporting & Documentation",
-        "Developer Relations & Communication"
+        "Developer Relations & Communication",
+        "Open Source"
       ]
     },
     {
@@ -3022,6 +3024,86 @@
         {
           "@language": "en",
           "@value": "conduct ICT code review"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Source"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/580660a6-5d3a-421d-a54f-d85b706c2b2f",
+      "termCode": "580660a6-5d3a-421d-a54f-d85b706c2b2f",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "utiliser des outils en ligne pour collaborer"
+        },
+        {
+          "@language": "en",
+          "@value": "use online tools to collaborate"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Source"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/694dc996-52f3-4afa-a802-672e19f061b7",
+      "termCode": "694dc996-52f3-4afa-a802-672e19f061b7",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "stratégie de crowdsourcing"
+        },
+        {
+          "@language": "en",
+          "@value": "crowdsourcing strategy"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Open Source"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/3bddfd7c-ab6d-40c2-883d-5e97fb7640ba",
+      "termCode": "3bddfd7c-ab6d-40c2-883d-5e97fb7640ba",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "concevoir un logiciel"
+        },
+        {
+          "@language": "en",
+          "@value": "create software design"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Source"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/8b94aa1e-89c9-459d-b3b4-1dfab8dec2df",
+      "termCode": "8b94aa1e-89c9-459d-b3b4-1dfab8dec2df",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "utiliser des bibliothèques logicielles"
+        },
+        {
+          "@language": "en",
+          "@value": "use software libraries"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
