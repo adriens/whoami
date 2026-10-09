@@ -18,7 +18,7 @@ http://data.europa.eu/esco/occupation/<uuid>   # métier (avec code ISCO-08 éte
 | `work[].x-esco-occupations[]` | métiers ESCO par poste `{uri, label, code}` |
 | `meta.x-esco-retrieved` | date de récupération des concepts depuis l'API ESCO |
 
-## Export généré — `adriens/`
+## Export généré — `_index.csv`, `profile.jsonld`
 
 **Ne pas éditer à la main** — régénérer avec `task export-esco` (labels EN récupérés via l'API ESCO).
 
