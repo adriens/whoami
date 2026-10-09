@@ -16,3 +16,5 @@ Mots-clés : Power BI, Power Automate, Microsoft Flow, Custom connectors APIGEE,
 - [développer un flux de travail de TIC](../esco/developper-un-flux-de-travail-de-tic.md) — *skill/competence*
 - [concevoir des interfaces d’application](../esco/concevoir-des-interfaces-dapplication.md) — *skill/competence*
 - [fournir une présentation visuelle des données](../esco/fournir-une-presentation-visuelle-des-donnees.md) — *skill/competence*
+- [informatique décisionnelle](../esco/informatique-decisionnelle.md) — *knowledge*
+- [techniques de présentation visuelle](../esco/techniques-de-presentation-visuelle.md) — *knowledge*

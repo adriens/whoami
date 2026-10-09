@@ -21,3 +21,8 @@ Mots-clés : Imagination, Connexion de domaines éloignés, Pensée transdiscipl
 - [gérer le développement professionnel personnel](../esco/gerer-le-developpement-professionnel-personnel.md) — *skill/competence*
 - [suivre les tendances technologiques](../esco/suivre-les-tendances-technologiques.md) — *skill/competence*
 - [développer des idées créatives](../esco/developper-des-idees-creatives.md) — *skill/competence*
+- [identifier des améliorations de procédés](../esco/identifier-des-ameliorations-de-procedes.md) — *skill/competence*
+- [réfléchir de manière analytique](../esco/reflechir-de-maniere-analytique.md) — *skill/competence*
+- [penser de manière proactive](../esco/penser-de-maniere-proactive.md) — *skill/competence*
+- [travailler de manière autonome](../esco/travailler-de-maniere-autonome.md) — *skill/competence*
+- [rester concentré pendant de longues périodes](../esco/rester-concentre-pendant-de-longues-periodes.md) — *skill/competence*

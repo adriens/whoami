@@ -19,5 +19,10 @@ Mots-clés : API-fication, Validée 3x en recommandations LinkedIn par des pairs
 - [gérer les normes d’échange de données](../esco/gerer-les-normes-dechange-de-donnees.md) — *skill/competence*
 - [procéder à l’extraction de données](../esco/proceder-a-lextraction-de-donnees.md) — *skill/competence*
 - [modélisation orientée services](../esco/modelisation-orientee-services.md) — *knowledge*
+- [intégrer des données TIC](../esco/integrer-des-donnees-tic.md) — *skill/competence*
+- [définir une stratégie d’intégration](../esco/definir-une-strategie-dintegration.md) — *skill/competence*
+- [utiliser des patrons de conception](../esco/utiliser-des-patrons-de-conception.md) — *skill/competence*
+- [bibliothèques de composants logiciels](../esco/bibliotheques-de-composants-logiciels.md) — *knowledge*
+- [développer un prototype de logiciel](../esco/developper-un-prototype-de-logiciel.md) — *skill/competence*
 
 **Tags :** [api-fication](../tags/api-fication.md)

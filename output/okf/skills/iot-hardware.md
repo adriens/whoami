@@ -17,3 +17,6 @@ Mots-clés : Arduino, ESP8266 / NodeMCU, Arduino MKR1000, Raspberry Pi Pico W, P
 - [systèmes embarqués](../esco/systemes-embarques.md) — *knowledge*
 - [capteurs](../esco/capteurs.md) — *knowledge*
 - [concevoir des prototypes](../esco/concevoir-des-prototypes.md) — *skill/competence*
+- [programmer un micrologiciel](../esco/programmer-un-micrologiciel.md) — *skill/competence*
+- [Python (programmation informatique)](../esco/python-programmation-informatique.md) — *knowledge*
+- [C++](../esco/c.md) — *knowledge*

@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-181 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+198 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -26,6 +26,7 @@ timestamp: '2026-10-09'
 ## Compétences & connaissances
 
 - [Apache Maven](apache-maven.md) — 1 entrées
+- [C++](c.md) — 1 entrées
 - [DevOps](devops.md) — 1 entrées
 - [Français](francais.md) — 1 entrées
 - [Internet des objets](internet-des-objets.md) — 1 entrées
@@ -33,7 +34,7 @@ timestamp: '2026-10-09'
 - [NoSQL](nosql.md) — 1 entrées
 - [Oracle Relational Database](oracle-relational-database.md) — 1 entrées
 - [PostgreSQL](postgresql.md) — 1 entrées
-- [Python (programmation informatique)](python-programmation-informatique.md) — 1 entrées
+- [Python (programmation informatique)](python-programmation-informatique.md) — 2 entrées
 - [R](r.md) — 1 entrées
 - [SQL](sql.md) — 1 entrées
 - [adapter l’enseignement au marché du travail](adapter-lenseignement-au-marche-du-travail.md) — 1 entrées
@@ -46,12 +47,14 @@ timestamp: '2026-10-09'
 - [analyser des mégadonnées](analyser-des-megadonnees.md) — 1 entrées
 - [anglais](anglais.md) — 1 entrées
 - [appliquer des stratégies pédagogiques](appliquer-des-strategies-pedagogiques.md) — 1 entrées
+- [appliquer des techniques d’analyse statistique](appliquer-des-techniques-danalyse-statistique.md) — 1 entrées
 - [appliquer la gestion du changement](appliquer-la-gestion-du-changement.md) — 1 entrées
 - [appliquer la pédagogie Montessori](appliquer-la-pedagogie-montessori.md) — 1 entrées
 - [appliquer la rétro-ingénierie](appliquer-la-retro-ingenierie.md) — 1 entrées
 - [architecture de l’information](architecture-de-linformation.md) — 1 entrées
 - [assurer un leadership](assurer-un-leadership.md) — 1 entrées
 - [avoir un esprit créatif](avoir-un-esprit-creatif.md) — 1 entrées
+- [bibliothèques de composants logiciels](bibliotheques-de-composants-logiciels.md) — 1 entrées
 - [cadres d'architecture TIC](cadres-d-architecture-tic.md) — 1 entrées
 - [capteurs](capteurs.md) — 1 entrées
 - [combiner plusieurs domaines de connaissances](combiner-plusieurs-domaines-de-connaissances.md) — 1 entrées
@@ -77,6 +80,7 @@ timestamp: '2026-10-09'
 - [déboguer un logiciel](deboguer-un-logiciel.md) — 1 entrées
 - [définir la structure physique de la base de données](definir-la-structure-physique-de-la-base-de-donnees.md) — 1 entrées
 - [définir l’architecture logicielle](definir-larchitecture-logicielle.md) — 1 entrées
+- [définir une stratégie d’intégration](definir-une-strategie-dintegration.md) — 1 entrées
 - [déléguer des tâches](deleguer-des-taches.md) — 1 entrées
 - [démontrer une volonté d’apprendre](demontrer-une-volonte-dapprendre.md) — 1 entrées
 - [développement par méthode agile](developpement-par-methode-agile.md) — 1 entrées
@@ -85,6 +89,7 @@ timestamp: '2026-10-09'
 - [développer des tests logiciels automatisés](developper-des-tests-logiciels-automatises.md) — 1 entrées
 - [développer l’architecture d’une communauté en ligne](developper-larchitecture-dune-communaute-en-ligne.md) — 2 entrées
 - [développer un flux de travail de TIC](developper-un-flux-de-travail-de-tic.md) — 1 entrées
+- [développer un prototype de logiciel](developper-un-prototype-de-logiciel.md) — 1 entrées
 - [effectuer des présentations publiques](effectuer-des-presentations-publiques.md) — 1 entrées
 - [effectuer des recherches dans des bases de données](effectuer-des-recherches-dans-des-bases-de-donnees.md) — 2 entrées
 - [effectuer l’examen du code source](effectuer-lexamen-du-code-source.md) — 1 entrées
@@ -125,13 +130,15 @@ timestamp: '2026-10-09'
 - [gérer l’intégration sémantique des TIC](gerer-lintegration-semantique-des-tic.md) — 1 entrées
 - [gérer une base de données](gerer-une-base-de-donnees.md) — 1 entrées
 - [gérer une équipe](gerer-une-equipe.md) — 1 entrées
+- [identifier des améliorations de procédés](identifier-des-ameliorations-de-procedes.md) — 1 entrées
 - [identifier les risques de sécurité des TIC](identifier-les-risques-de-securite-des-tic.md) — 1 entrées
+- [informatique décisionnelle](informatique-decisionnelle.md) — 1 entrées
 - [interagir au moyen de technologies numériques](interagir-au-moyen-de-technologies-numeriques.md) — 1 entrées
 - [interagir avec les utilisateurs pour définir leurs exigences](interagir-avec-les-utilisateurs-pour-definir-leurs-exigences.md) — 2 entrées
 - [interagir verbalement en anglais](interagir-verbalement-en-anglais.md) — 1 entrées
 - [interagir verbalement en français](interagir-verbalement-en-francais.md) — 1 entrées
 - [intégration de systèmes de TIC](integration-de-systemes-de-tic.md) — 1 entrées
-- [intégrer des données TIC](integrer-des-donnees-tic.md) — 1 entrées
+- [intégrer des données TIC](integrer-des-donnees-tic.md) — 2 entrées
 - [jouer un rôle de meneur exemplaire au sein d’une organisation](jouer-un-role-de-meneur-exemplaire-au-sein-dune-organisation.md) — 1 entrées
 - [maintenir la sécurité d’une base de données](maintenir-la-securite-dune-base-de-donnees.md) — 1 entrées
 - [mathématiques](mathematiques.md) — 1 entrées
@@ -150,6 +157,7 @@ timestamp: '2026-10-09'
 - [outils de gestion de configuration logicielle](outils-de-gestion-de-configuration-logicielle.md) — 2 entrées
 - [outils d’extraction de transformation et de chargement](outils-dextraction-de-transformation-et-de-chargement.md) — 1 entrées
 - [participer à des échanges au moyen de technologies numériques](participer-a-des-echanges-au-moyen-de-technologies-numeriques.md) — 1 entrées
+- [penser de manière proactive](penser-de-maniere-proactive.md) — 1 entrées
 - [pensée systémique](pensee-systemique.md) — 1 entrées
 - [philosophies d’amélioration continue](philosophies-damelioration-continue.md) — 1 entrées
 - [planifier des évènements](planifier-des-evenements.md) — 1 entrées
@@ -158,14 +166,19 @@ timestamp: '2026-10-09'
 - [procéder à des évaluations de la vulnérabilité en matière de sécurité](proceder-a-des-evaluations-de-la-vulnerabilite-en-matiere-de-securite.md) — 1 entrées
 - [procéder à l’extraction de données](proceder-a-lextraction-de-donnees.md) — 2 entrées
 - [programmation informatique](programmation-informatique.md) — 1 entrées
+- [programmer un micrologiciel](programmer-un-micrologiciel.md) — 1 entrées
 - [protection des données](protection-des-donnees.md) — 1 entrées
 - [présenter des rapports](presenter-des-rapports.md) — 1 entrées
 - [pédagogie](pedagogie.md) — 1 entrées
 - [recommander des méthodes d'apprentissage](recommander-des-methodes-d-apprentissage.md) — 1 entrées
 - [recruter des employés](recruter-des-employes.md) — 1 entrées
 - [respect de la gouvernance de l'information](respect-de-la-gouvernance-de-l-information.md) — 1 entrées
+- [rester concentré pendant de longues périodes](rester-concentre-pendant-de-longues-periodes.md) — 1 entrées
+- [rédiger des rapports sur le travail](rediger-des-rapports-sur-le-travail.md) — 1 entrées
+- [rédiger des rapports techniques](rediger-des-rapports-techniques.md) — 1 entrées
 - [rédiger des textes professionnels](rediger-des-textes-professionnels.md) — 1 entrées
 - [rédiger un article scientifique](rediger-un-article-scientifique.md) — 1 entrées
+- [réfléchir de manière analytique](reflechir-de-maniere-analytique.md) — 1 entrées
 - [standards du World Wide Web Consortium](standards-du-world-wide-web-consortium.md) — 1 entrées
 - [stockage de données](stockage-de-donnees.md) — 1 entrées
 - [stratégie de crowdsourcing](strategie-de-crowdsourcing.md) — 1 entrées
@@ -177,13 +190,17 @@ timestamp: '2026-10-09'
 - [susciter des émotions dans le public](susciter-des-emotions-dans-le-public.md) — 1 entrées
 - [systèmes embarqués](systemes-embarques.md) — 1 entrées
 - [techniques d'écriture](techniques-d-ecriture.md) — 1 entrées
+- [techniques de présentation visuelle](techniques-de-presentation-visuelle.md) — 1 entrées
 - [technologies émergentes](technologies-emergentes.md) — 1 entrées
 - [traitement automatique du langage naturel](traitement-automatique-du-langage-naturel.md) — 1 entrées
 - [transmettre les techniques d’un métier](transmettre-les-techniques-dun-metier.md) — 1 entrées
+- [travailler de manière autonome](travailler-de-maniere-autonome.md) — 1 entrées
 - [utiliser des bibliothèques logicielles](utiliser-des-bibliotheques-logicielles.md) — 1 entrées
+- [utiliser des langages de balisage](utiliser-des-langages-de-balisage.md) — 1 entrées
 - [utiliser des langages de requête](utiliser-des-langages-de-requete.md) — 1 entrées
 - [utiliser des méthodes de conception centrée sur l’utilisateur](utiliser-des-methodes-de-conception-centree-sur-lutilisateur.md) — 2 entrées
 - [utiliser des outils en ligne pour collaborer](utiliser-des-outils-en-ligne-pour-collaborer.md) — 1 entrées
+- [utiliser des patrons de conception](utiliser-des-patrons-de-conception.md) — 1 entrées
 - [utiliser des techniques de communication](utiliser-des-techniques-de-communication.md) — 1 entrées
 - [utiliser la programmation orientée objet](utiliser-la-programmation-orientee-objet.md) — 1 entrées
 - [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 1 entrées
