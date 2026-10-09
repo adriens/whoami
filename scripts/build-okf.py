@@ -182,10 +182,12 @@ def main():
         meta_bits = [b for b in (ref.get("x-relationship"), ref.get("x-source"), ref.get("x-date")) if b]
         if meta_bits:
             body.append(f"*{' · '.join(meta_bits)}*")
-        reg(Record("references", slug, "Reference", ref.get("name", ""),
-                   truncate(text),
-                   ref.get("x-url", CANONICAL), ref.get("x-tags", []),
-                   ref.get("x-date", DEFAULT_TS), body))
+        rec = Record("references", slug, "Reference", ref.get("name", ""),
+                     truncate(text),
+                     ref.get("x-url", CANONICAL), ref.get("x-tags", []),
+                     ref.get("x-date", DEFAULT_TS), body)
+        body += esco_links(rec, ref.get("x-esco", []), "skill")
+        reg(rec)
 
     # certificates
     for c in r.get("certificates", []):

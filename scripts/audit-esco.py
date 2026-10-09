@@ -8,7 +8,7 @@ Vérifie hors-ligne (pas d'appel à l'API ESCO, compatible CI) :
   - `label` vide, `type` hors {knowledge, skill/competence}
   - `covers` qui cite un keyword absent des `keywords` du skill (mapping périmé)
   - occupation (`basics` / `work[]` / `volunteer[]`) sans `code` ISCO-ESCO
-  - `languages[].x-esco` / `certificates[].x-esco` mal formés (URI, label, type)
+  - `languages[].x-esco` / `certificates[].x-esco` / `references[].x-esco` mal formés (URI, label, type)
 - RAPPORT : couverture des keywords par groupe — chaque keyword est soit
   couvert par au moins un concept ESCO (`covers`), soit listé comme non couvert
   (typiquement une techno de niche absente d'ESCO).
@@ -89,6 +89,8 @@ def main():
         check_occupations(f"work « {w.get('name')} »", occs, errors)
     for v in r.get("volunteer", []):
         check_occupations(f"volunteer « {v.get('organization')} »", v.get("x-esco-occupations", []), errors)
+    for ref in r.get("references", []):
+        check_skill_links(f"references « {ref.get('name')} »", ref.get("x-esco", []), errors)
     for section, key in (("languages", "language"), ("certificates", "name")):
         for item in r.get(section, []):
             links = item.get("x-esco", [])

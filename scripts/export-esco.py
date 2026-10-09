@@ -73,6 +73,9 @@ def main():
     for c in r.get("certificates", []):
         for e in c.get("x-esco", []):
             links.append(("skill", e["uri"], e["label"], e["type"], f"certificate: {c['name']}", "", []))
+    for ref in r.get("references", []):
+        for e in ref.get("x-esco", []):
+            links.append(("skill", e["uri"], e["label"], e["type"], f"reference: {ref['name']}", ref.get("x-date", ""), []))
 
     uris = sorted({l[1] for l in links})
     print(f"Fetching EN labels for {len(uris)} ESCO concepts...")
@@ -140,6 +143,11 @@ def main():
              "recognizedBy": {"@type": "Organization", "name": c.get("issuer", "")},
              "about": [defined_term(e["uri"], e["label"], en[e["uri"]]) for e in c.get("x-esco", [])]}
             for c in r.get("certificates", [])
+        ],
+        "x-endorsements": [
+            {"author": ref["name"], "date": ref.get("x-date", ""), "source": ref.get("x-source", ""),
+             "attests": [e["uri"] for e in ref.get("x-esco", [])]}
+            for ref in r.get("references", []) if ref.get("x-esco")
         ],
     }
     (OUT / "profile.jsonld").write_text(json.dumps(profile, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
