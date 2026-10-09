@@ -1,6 +1,6 @@
 ---
 import '@fortawesome/fontawesome-free/css/all.min.css';
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const root = resolve(process.cwd(), '..');
@@ -117,10 +117,24 @@ const topDatasets = [...kaggleDatasets]
   .filter(d => (parseInt(d.download_count) || 0) > 0)
   .slice(0, 6);
 
-const topBooks = [...books]
-  .filter(b => parseInt(b.rating) >= 4)
-  .sort((a, b) => (parseInt(b.rating) - parseInt(a.rating)) || b.date_read.localeCompare(a.date_read))
-  .slice(0, 6);
+// Lectures marquantes : d'abord les livres qui ont nourri le CV (frontmatter `tags`
+// non vide, cf. workflow Goodreads de CLAUDE.md), puis les 5★ les plus récents.
+const booksDir = resolve(root, 'data/goodreads/124105866/books');
+const cvBookIds = new Set(
+  existsSync(booksDir)
+    ? readdirSync(booksDir).filter(f => f.endsWith('.md')).flatMap(f => {
+        const fm = readFileSync(resolve(booksDir, f), 'utf-8').split('\n---')[0];
+        const id = fm.match(/^id: '?(\d+)'?$/m)?.[1];
+        return id && /^tags:\s*\n- /m.test(fm) ? [id] : [];
+      })
+    : []
+);
+const byDateDesc = (a: any, b: any) => b.date_read.localeCompare(a.date_read);
+const cvBooks = books.filter(b => cvBookIds.has(b.id)).sort(byDateDesc);
+const topBooks = [
+  ...cvBooks,
+  ...books.filter(b => !cvBookIds.has(b.id) && parseInt(b.rating) >= 5).sort(byDateDesc),
+].slice(0, 6);
 
 function formatDate(iso: string): string {
   const d = iso.substring(0, 10);
