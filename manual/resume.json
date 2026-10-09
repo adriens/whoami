@@ -2439,6 +2439,62 @@
             "SchemaCrawler",
             "endoflife.date"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/9d2e926f-53d9-41f5-98f3-19dfaa687f3f",
+          "label": "outils de gestion de configuration logicielle",
+          "type": "knowledge",
+          "covers": [
+            "geol",
+            "liquibase",
+            "endoflife.date"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/580660a6-5d3a-421d-a54f-d85b706c2b2f",
+          "label": "utiliser des outils en ligne pour collaborer",
+          "type": "skill/competence",
+          "covers": [
+            "Attraction et fidélisation de contributors externes",
+            "endoflife.date"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/694dc996-52f3-4afa-a802-672e19f061b7",
+          "label": "stratégie de crowdsourcing",
+          "type": "knowledge",
+          "covers": [
+            "Attraction et fidélisation de contributors externes",
+            "endoflife.date"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/3bddfd7c-ab6d-40c2-883d-5e97fb7640ba",
+          "label": "concevoir un logiciel",
+          "type": "skill/competence",
+          "covers": [
+            "geol",
+            "mobitag",
+            "oracle-jutils"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/04dfd9fb-e0cf-40f6-96c6-9d2280c4347e",
+          "label": "fournir une documentation technique",
+          "type": "skill/competence",
+          "covers": [
+            "SchemaCrawler",
+            "geol"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/8b94aa1e-89c9-459d-b3b4-1dfab8dec2df",
+          "label": "utiliser des bibliothèques logicielles",
+          "type": "skill/competence",
+          "covers": [
+            "oracle-jutils",
+            "liquibase"
+          ]
         }
       ]
     },
@@ -4309,7 +4365,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.35.7",
+    "version": "v1.35.8",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
