@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.37.1",
+  "x-resume-version": "v1.37.2",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -857,7 +857,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "IA & Agents"
+        "IA & Agents",
+        "Open Data & Data Science"
       ]
     },
     {
@@ -3767,6 +3768,26 @@
         {
           "@language": "en",
           "@value": "C++"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "IoT & Hardware"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/e87ec79a-c9ff-46f5-84fa-7a0f394cdf40",
+      "termCode": "e87ec79a-c9ff-46f5-84fa-7a0f394cdf40",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "robotique"
+        },
+        {
+          "@language": "en",
+          "@value": "robotics"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
