@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.35.4",
+  "x-resume-version": "v1.35.5",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -2142,6 +2142,166 @@
         {
           "@language": "en",
           "@value": "encourage teambuilding"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Pédagogie & Transmission"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b820c9de-4d00-4e79-9af9-33f26044ff42",
+      "termCode": "b820c9de-4d00-4e79-9af9-33f26044ff42",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "enseigner l’informatique"
+        },
+        {
+          "@language": "en",
+          "@value": "teach computer science"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Pédagogie & Transmission"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/20c2011f-c389-49cd-972e-a4809db0476c",
+      "termCode": "20c2011f-c389-49cd-972e-a4809db0476c",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "appliquer la pédagogie Montessori"
+        },
+        {
+          "@language": "en",
+          "@value": "apply Montessori teaching strategies"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Pédagogie & Transmission"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/59eb177a-2f30-4943-8b30-5f87dd51a80d",
+      "termCode": "59eb177a-2f30-4943-8b30-5f87dd51a80d",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "appliquer des stratégies pédagogiques"
+        },
+        {
+          "@language": "en",
+          "@value": "apply teaching strategies"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Pédagogie & Transmission"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b32e593b-cc7f-4f38-bf50-e69431ec7ada",
+      "termCode": "b32e593b-cc7f-4f38-bf50-e69431ec7ada",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "enseigner en présentant des exemples personnels"
+        },
+        {
+          "@language": "en",
+          "@value": "demonstrate when teaching"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Pédagogie & Transmission"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b4832996-b36c-40b2-b54e-780325b2546e",
+      "termCode": "b4832996-b36c-40b2-b54e-780325b2546e",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "adapter l’enseignement au marché du travail"
+        },
+        {
+          "@language": "en",
+          "@value": "adapt instruction to labour market"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Pédagogie & Transmission"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/573d3f91-c81c-407e-a56d-0f3a63272b43",
+      "termCode": "573d3f91-c81c-407e-a56d-0f3a63272b43",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "adapter l’enseignement aux capacités des élèves"
+        },
+        {
+          "@language": "en",
+          "@value": "adapt teaching to student's capabilities"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Pédagogie & Transmission"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/229b10cf-6f3a-490c-9706-01c107df0562",
+      "termCode": "229b10cf-6f3a-490c-9706-01c107df0562",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "favoriser le travail en équipe entre élèves"
+        },
+        {
+          "@language": "en",
+          "@value": "facilitate teamwork between students"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Pédagogie & Transmission"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/f78877d1-99f3-4649-addc-2d09c9183a1e",
+      "termCode": "f78877d1-99f3-4649-addc-2d09c9183a1e",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "recommander des méthodes d'apprentissage"
+        },
+        {
+          "@language": "en",
+          "@value": "advise on learning methods"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
