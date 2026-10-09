@@ -114,6 +114,7 @@
             </Address>
           </Communication>
         </OrganizationContact>
+        <hr:IndustryCode>J</hr:IndustryCode>
         <Link>https://www.opt.nc</Link>
         <PositionHistory>
           <PositionTitle typeCode="FREETEXT">Chef de Section GLIA — Génie Logiciel Inter-Applicatif</PositionTitle>
@@ -138,6 +139,7 @@
             </Address>
           </Communication>
         </OrganizationContact>
+        <hr:IndustryCode>O</hr:IndustryCode>
         <Link>https://www.noumea.nc</Link>
         <PositionHistory>
           <PositionTitle typeCode="FREETEXT">Architecte Logiciel / Chef de Section Développement &amp; Maintenance</PositionTitle>
@@ -165,6 +167,7 @@
             </Address>
           </Communication>
         </OrganizationContact>
+        <hr:IndustryCode>J</hr:IndustryCode>
         <Link>https://www.docaposte.com</Link>
         <PositionHistory>
           <PositionTitle typeCode="FREETEXT">DBA — Oracle &amp; PostgreSQL</PositionTitle>
@@ -192,6 +195,7 @@
             </Address>
           </Communication>
         </OrganizationContact>
+        <hr:IndustryCode>K</hr:IndustryCode>
         <Link>https://www.experian.com/decision-analytics/</Link>
         <PositionHistory>
           <PositionTitle typeCode="FREETEXT">Consultant Développeur — Couche Base de Données</PositionTitle>
@@ -219,6 +223,7 @@
             </Address>
           </Communication>
         </OrganizationContact>
+        <hr:IndustryCode>P</hr:IndustryCode>
         <Link>https://www.ac-noumea.nc</Link>
         <PositionHistory>
           <PositionTitle typeCode="FREETEXT">Professeur Vacataire de Mathématiques</PositionTitle>
