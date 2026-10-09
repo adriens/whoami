@@ -118,6 +118,7 @@ Le schéma JSON Resume accepte des propriétés additionnelles. Les champs `x-*`
 | `x-position`, `x-relationship`, `x-date`, `x-source`, `x-url`, `x-language`, `x-context` | `references` | Traçabilité et filtrage (`x-url` pour sources non-LinkedIn : YouTube, etc.) |
 | `x-label-url` | `education` | URL du label/accréditation (ex: CGE) |
 | `x-nace` | `work` | Secteur de l'**employeur** (pas du rôle) : section NACE Rev. 2 `A`–`U` (ex. OPT-NC `J`, Experian `K`) — utilisé par l'export Europass |
+| `x-featured` | `references` | `true` = reco mise en avant (texte intégral dans la section « Recommandations » du CV Europass) — choisie par Adrien pour sa qualité, ~1-3 par type de relation |
 | `x-authors` | `publications` | Auteurs quand ce n'est pas Adrien seul (ex. `["OPT-NC"]` pour une production interne) — sinon auteurs du JSON-LD Zenodo, ou `basics.name` ; utilisé par l'export Europass |
 | `x-europass` | `skills` | Rubrique Europass : `digital` (« Compétences numériques », un groupe par skill) ou `transversal` (section libre « Compétences transversales ») |
 | `x-iso639` | `languages` | Code ISO 639-2/T de la langue (`fra`, `eng`, `deu`, `spa`) — utilisé par l'export Europass |
@@ -170,6 +171,7 @@ Combiner :
 
 1. `task validate` — toujours
 1bis. **ESCO** : renseigner `x-esco` de la reco à partir de ses `x-tags` (table « Tags de recos → ESCO ») et mettre à jour le compteur `(N recos)` du keyword correspondant dans la skill « Savoir-être validé par les pairs » ; nouveau tag de savoir-être récurrent (≥ 2 recos) → proposer un concept ESCO + l'ajouter à la table
+1ter. **Europass** : proposer à Adrien de mettre la reco en avant (`x-featured: true`) si elle est plus qualitative que celles déjà retenues pour son type de relation
 2. Audit cohérence des tags : `grep -oP '"x-tags": \[\K[^\]]+' manual/resume.json | grep -oP '"[^"]+"' | sort | uniq -c | sort -rn`
 3. **Analyser l'apport metadata de la nouvelle reco** — deux cas distincts :
    - **Tag en 1ère occurrence** : nouvelle facette du profil jamais validée par un tiers (ex: `api-fication` et `open-data` apparus pour la 1ère fois avec Sabrina Vérolle en 2026) → signal fort, potentiellement à promouvoir en skill ou keyword
