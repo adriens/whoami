@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.35.3",
+  "x-resume-version": "v1.35.4",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -1822,6 +1822,186 @@
         {
           "@language": "en",
           "@value": "show entrepreneurial spirit"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Management & Leadership"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/75d8e5d9-bef3-418b-9011-01bff9f27207",
+      "termCode": "75d8e5d9-bef3-418b-9011-01bff9f27207",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "diriger d’autres personnes"
+        },
+        {
+          "@language": "en",
+          "@value": "lead others"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Management & Leadership"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/0fc0cb61-f44d-4fd0-afd1-18506380b55e",
+      "termCode": "0fc0cb61-f44d-4fd0-afd1-18506380b55e",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "endosser vis-à-vis de collègues un rôle de meneur, cherchant avant tout à atteindre les objectifs"
+        },
+        {
+          "@language": "en",
+          "@value": "exert a goal-oriented leadership role towards colleagues"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Management & Leadership"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/5be1c5fb-3833-4983-949c-b77fbfad26d9",
+      "termCode": "5be1c5fb-3833-4983-949c-b77fbfad26d9",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "jouer un rôle de meneur exemplaire au sein d’une organisation"
+        },
+        {
+          "@language": "en",
+          "@value": "show an exemplary leading role in an organisation"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Management & Leadership"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb",
+      "termCode": "1f1d2ff8-c4c1-45cc-9812-6a7ee84a73cb",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "diriger une équipe"
+        },
+        {
+          "@language": "en",
+          "@value": "lead a team"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Management & Leadership"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b",
+      "termCode": "b9bb1f03-15e2-4079-943e-7e483b21725b",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "faire des commentaires constructifs"
+        },
+        {
+          "@language": "en",
+          "@value": "give constructive feedback"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Management & Leadership"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/08e2ff26-88ff-47b5-9d37-d19ace01b075",
+      "termCode": "08e2ff26-88ff-47b5-9d37-d19ace01b075",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "gérer les retours d’information"
+        },
+        {
+          "@language": "en",
+          "@value": "manage feedback"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Management & Leadership"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b00e948c-19be-4951-8cff-60f88f1046e9",
+      "termCode": "b00e948c-19be-4951-8cff-60f88f1046e9",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "déléguer des tâches"
+        },
+        {
+          "@language": "en",
+          "@value": "delegate activities"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Management & Leadership"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/a12057b4-6d11-4a12-ab8e-15a028ef0a6d",
+      "termCode": "a12057b4-6d11-4a12-ab8e-15a028ef0a6d",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "interagir au moyen de technologies numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "interact through digital technologies"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Management & Leadership"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/5cfd2ec5-ef34-4e3b-9397-e580b903d716",
+      "termCode": "5cfd2ec5-ef34-4e3b-9397-e580b903d716",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "évaluer les performances de collaborateurs de l’organisation"
+        },
+        {
+          "@language": "en",
+          "@value": "evaluate performance of organisational collaborators"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
