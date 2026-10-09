@@ -921,6 +921,49 @@
             "Démultiplication communautaire (apps mobiles, bots, AR, MCPs, dashboards)",
             "Pattern validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/46ec0033-3c71-415e-bcff-b065675ba2dc",
+          "label": "intégrer des données TIC",
+          "type": "skill/competence",
+          "covers": [
+            "Exploitation open data",
+            "Scraping de sources sans API"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a4a882a1-0263-4dd2-b29a-f0028cac2393",
+          "label": "définir une stratégie d’intégration",
+          "type": "skill/competence",
+          "covers": [
+            "Identification de manques d'interopérabilité",
+            "API-fication"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/2b7a79e5-84d8-4880-be66-3d9bb05bea17",
+          "label": "utiliser des patrons de conception",
+          "type": "skill/competence",
+          "covers": [
+            "Pattern validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/484df271-bb52-49f1-8f50-f19624bf4df2",
+          "label": "bibliothèques de composants logiciels",
+          "type": "knowledge",
+          "covers": [
+            "Packaging SDK (Java, Python, Go)",
+            "Catalogue d'APIs publiques (APIGEE)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/797a4416-0b8d-44f3-8fcd-eb10bd0be6b4",
+          "label": "développer un prototype de logiciel",
+          "type": "skill/competence",
+          "covers": [
+            "Démultiplication communautaire (apps mobiles, bots, AR, MCPs, dashboards)"
+          ]
         }
       ]
     },
@@ -1703,6 +1746,23 @@
             "Power BI",
             "Data storytelling"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/143769cb-b61e-47d8-a61e-eedfbec1016c",
+          "label": "informatique décisionnelle",
+          "type": "knowledge",
+          "covers": [
+            "Power BI"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/348b74cd-49ce-4844-8bdf-ec188b497213",
+          "label": "techniques de présentation visuelle",
+          "type": "knowledge",
+          "covers": [
+            "Power BI",
+            "Data storytelling"
+          ]
         }
       ]
     },
@@ -1840,6 +1900,43 @@
           "type": "skill/competence",
           "covers": [
             "Urbanisation SI"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/941364b9-1375-4add-9889-d67bae99bc8c",
+          "label": "rédiger des rapports techniques",
+          "type": "skill/competence",
+          "covers": [
+            "Rapports de sécurité",
+            "Reporting automatisé"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/918f5211-b99f-4b29-9a34-6e475583ef55",
+          "label": "rédiger des rapports sur le travail",
+          "type": "skill/competence",
+          "covers": [
+            "Data-driven management",
+            "Reporting automatisé"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/0af062de-eb43-41e9-9b96-249e2cd22d26",
+          "label": "utiliser des langages de balisage",
+          "type": "skill/competence",
+          "covers": [
+            "Markdown",
+            "Quarto",
+            "GitHub Pages"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/382c11ed-20d5-4ae7-b60e-15fec527fa6c",
+          "label": "appliquer des techniques d’analyse statistique",
+          "type": "skill/competence",
+          "covers": [
+            "R",
+            "Notebooks reproductibles"
           ]
         }
       ]
@@ -2671,6 +2768,33 @@
             "Hackster.io",
             "Arduino"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/cf200547-25b5-47c8-9eda-bca4aedc13fb",
+          "label": "programmer un micrologiciel",
+          "type": "skill/competence",
+          "covers": [
+            "Arduino",
+            "ESP8266 / NodeMCU",
+            "Raspberry Pi Pico W",
+            "CircuitPython"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d",
+          "label": "Python (programmation informatique)",
+          "type": "knowledge",
+          "covers": [
+            "CircuitPython"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b633eb55-8f1f-4ae6-ab4c-2022ffe2cb7f",
+          "label": "C++",
+          "type": "knowledge",
+          "covers": [
+            "Arduino"
+          ]
         }
       ]
     },
@@ -2764,6 +2888,49 @@
             "Idéation en mouvement",
             "MIT Media Lab mindset",
             "Imagination"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/958b8802-ec3e-4813-97f7-6c8f48610dbd",
+          "label": "identifier des améliorations de procédés",
+          "type": "skill/competence",
+          "covers": [
+            "Détection d'inefficacités"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/4707da90-9cfc-46ca-8de0-38a0b7bfb137",
+          "label": "réfléchir de manière analytique",
+          "type": "skill/competence",
+          "covers": [
+            "Pensée systémique (feedback loops, complexité)",
+            "Détection d'inefficacités"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec",
+          "label": "penser de manière proactive",
+          "type": "skill/competence",
+          "covers": [
+            "Expérimentation",
+            "Apprendre → construire → démontrer → enseigner"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/c29aa9d2-4da8-4bdd-831c-8d4a2fb51730",
+          "label": "travailler de manière autonome",
+          "type": "skill/competence",
+          "covers": [
+            "Apprendre → construire → démontrer → enseigner",
+            "Curiosité naturelle"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/9cfd2219-553c-4d67-81e5-951e87c65135",
+          "label": "rester concentré pendant de longues périodes",
+          "type": "skill/competence",
+          "covers": [
+            "Flow & performance cognitive (S. Kotler)"
           ]
         }
       ]
@@ -4546,7 +4713,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.36.0",
+    "version": "v1.36.1",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
