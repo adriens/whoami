@@ -32,4 +32,4 @@ Architecte et urbaniste des SI au croisement des maths (DEA INRIA Sophia Antipol
 - [Work](work/index.md) — 5 entrées
 
 - [Tags](tags/index.md) — 123 concepts (graphe)
-- [ESCO](esco/index.md) — 100 concepts du référentiel européen
+- [ESCO](esco/index.md) — 106 concepts du référentiel européen

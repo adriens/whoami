@@ -22,3 +22,9 @@ Mots-clés : Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation
 - [rédiger un article scientifique](../esco/rediger-un-article-scientifique.md) — *skill/competence*
 - [coordonner des événements](../esco/coordonner-des-evenements.md) — *skill/competence*
 - [planifier des évènements](../esco/planifier-des-evenements.md) — *skill/competence*
+- [élaborer des contenus numériques](../esco/elaborer-des-contenus-numeriques.md) — *skill/competence*
+- [fournir du contenu multimédia](../esco/fournir-du-contenu-multimedia.md) — *skill/competence*
+- [techniques d'écriture](../esco/techniques-d-ecriture.md) — *knowledge*
+- [rédiger des textes professionnels](../esco/rediger-des-textes-professionnels.md) — *skill/competence*
+- [utiliser des techniques de communication](../esco/utiliser-des-techniques-de-communication.md) — *skill/competence*
+- [stratégie de marketing de contenu](../esco/strategie-de-marketing-de-contenu.md) — *knowledge*

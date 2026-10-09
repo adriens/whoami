@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-100 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+106 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -67,6 +67,7 @@ timestamp: '2026-10-09'
 - [exploration de données](exploration-de-donnees.md) — 1 entrées
 - [faire preuve de curiosité](faire-preuve-de-curiosite.md) — 1 entrées
 - [faire preuve d’esprit d’entreprise](faire-preuve-desprit-dentreprise.md) — 1 entrées
+- [fournir du contenu multimédia](fournir-du-contenu-multimedia.md) — 1 entrées
 - [fournir une documentation technique](fournir-une-documentation-technique.md) — 2 entrées
 - [fournir une présentation visuelle des données](fournir-une-presentation-visuelle-des-donnees.md) — 3 entrées
 - [gestion de projets allégée](gestion-de-projets-allegee.md) — 1 entrées
@@ -102,15 +103,20 @@ timestamp: '2026-10-09'
 - [présenter des rapports](presenter-des-rapports.md) — 1 entrées
 - [pédagogie](pedagogie.md) — 1 entrées
 - [recruter des employés](recruter-des-employes.md) — 1 entrées
+- [rédiger des textes professionnels](rediger-des-textes-professionnels.md) — 1 entrées
 - [rédiger un article scientifique](rediger-un-article-scientifique.md) — 1 entrées
 - [standards du World Wide Web Consortium](standards-du-world-wide-web-consortium.md) — 1 entrées
+- [stratégie de marketing de contenu](strategie-de-marketing-de-contenu.md) — 1 entrées
 - [stratégie d’externalisation](strategie-dexternalisation.md) — 1 entrées
 - [suivre les tendances technologiques](suivre-les-tendances-technologiques.md) — 1 entrées
 - [systèmes embarqués](systemes-embarques.md) — 1 entrées
+- [techniques d'écriture](techniques-d-ecriture.md) — 1 entrées
 - [traitement automatique du langage naturel](traitement-automatique-du-langage-naturel.md) — 1 entrées
 - [transmettre les techniques d’un métier](transmettre-les-techniques-dun-metier.md) — 1 entrées
 - [utiliser des langages de requête](utiliser-des-langages-de-requete.md) — 1 entrées
 - [utiliser des méthodes de conception centrée sur l’utilisateur](utiliser-des-methodes-de-conception-centree-sur-lutilisateur.md) — 2 entrées
+- [utiliser des techniques de communication](utiliser-des-techniques-de-communication.md) — 1 entrées
 - [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 1 entrées
+- [élaborer des contenus numériques](elaborer-des-contenus-numeriques.md) — 1 entrées
 - [élaborer la conception d'un produit](elaborer-la-conception-d-un-produit.md) — 1 entrées
 - [élaborer un plan de cours](elaborer-un-plan-de-cours.md) — 1 entrées
