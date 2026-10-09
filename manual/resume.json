@@ -1100,7 +1100,8 @@
         "LangChain",
         "Semantic Router",
         "Vibe coding",
-        "OpenSearch vector search"
+        "OpenSearch vector search",
+        "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)"
       ],
       "x-esco": [
         {
@@ -1112,7 +1113,8 @@
             "MCP (Model Context Protocol)",
             "LangChain",
             "Semantic Router",
-            "Vibe coding"
+            "Vibe coding",
+            "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)"
           ]
         },
         {
@@ -1154,7 +1156,8 @@
           "covers": [
             "Agents IA",
             "MCP (Model Context Protocol)",
-            "Vibe coding"
+            "Vibe coding",
+            "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)"
           ]
         },
         {
@@ -1579,7 +1582,9 @@
         "WCAG",
         "Lighthouse",
         "Accessibility CI checks",
-        "DORA metrics"
+        "DORA metrics",
+        "Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase",
+        "Scripts Bash"
       ],
       "x-esco": [
         {
@@ -1612,7 +1617,8 @@
           "covers": [
             "Trivy",
             "Shift-left security",
-            "geol"
+            "geol",
+            "Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase"
           ]
         },
         {
@@ -1704,6 +1710,38 @@
           "covers": [
             "Lighthouse",
             "Accessibility CI checks"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/c2ce7fe9-203b-492a-961e-9698dce7de19",
+          "label": "effectuer une analyse de données de sécurité",
+          "type": "skill/competence",
+          "covers": [
+            "Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/7e1f9657-ab4e-407c-842f-b846197060e3",
+          "label": "réaliser des audits informatiques",
+          "type": "skill/competence",
+          "covers": [
+            "Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/594bd121-9614-4e87-9ecf-6ccb95507efe",
+          "label": "rédiger une évaluation des risques",
+          "type": "skill/competence",
+          "covers": [
+            "Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/5ef0c719-5bcb-49f8-b8eb-824388225333",
+          "label": "utiliser la programmation de scripts",
+          "type": "skill/competence",
+          "covers": [
+            "Scripts Bash"
           ]
         }
       ]
@@ -1862,7 +1900,8 @@
         "Reporting automatisé",
         "Data-driven management",
         "Markdown",
-        "GitHub Pages"
+        "GitHub Pages",
+        "LaTeX"
       ],
       "x-esco": [
         {
@@ -1908,7 +1947,8 @@
           "type": "skill/competence",
           "covers": [
             "Rapports de sécurité",
-            "Reporting automatisé"
+            "Reporting automatisé",
+            "LaTeX"
           ]
         },
         {
@@ -1927,7 +1967,8 @@
           "covers": [
             "Markdown",
             "Quarto",
-            "GitHub Pages"
+            "GitHub Pages",
+            "LaTeX"
           ]
         },
         {
@@ -1937,6 +1978,14 @@
           "covers": [
             "R",
             "Notebooks reproductibles"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/4b244020-5f28-4e20-b74f-1c2dcb6f15cb",
+          "label": "appliquer des techniques de publication assistée par ordinateur",
+          "type": "skill/competence",
+          "covers": [
+            "LaTeX"
           ]
         }
       ]
@@ -3995,6 +4044,28 @@
       "url": "https://github.com/opt-nc/geol"
     },
     {
+      "name": "geol-showcase — Rapports d'évolution de sécurité (OpenBao, PostgreSQL)",
+      "type": "open-source",
+      "x-tags": [
+        "devsecops",
+        "open-source",
+        "geol",
+        "ai-agents",
+        "solo"
+      ],
+      "startDate": "2025-09",
+      "description": "Vitrine de ce que permet geol combiné à la data science, à l'IA et aux outils DevSecOps : rapports PDF d'évolution de sécurité d'images conteneurs, générés en LaTeX à partir de scans Trivy, de métadonnées skopeo et des cycles de vie geol. Chaque rapport est maintenu par un agent IA (Claude Code) guidé par un CLAUDE.md qui documente la méthodologie de mise à jour.",
+      "highlights": [
+        "OpenBao v2.4.0 → v2.7.0 (15 versions, rapport 17 pages) : 235 → 1 vulnérabilité (-99,6 %), score de sécurité 29,1 → 100/100, recommandation de production v2.6.3+",
+        "Scoring CVE pondéré (Critical 10, High 5, Medium 2, Low 1) à dénominateur fixe — scores stables d'une édition à l'autre et comparables entre produits",
+        "Analyse de la dérive de la base CVE : mêmes images re-scannées à 5 dates pour séparer le vrai travail de sécurité de l'artefact de mesure",
+        "Fraîcheur de l'OS de base : croisement geol × historique des tags Docker Hub pour vérifier si chaque image embarquait la dernière Alpine disponible",
+        "Rapport PostgreSQL (versions supportées et EOL) : à l'origine de la publication Zenodo PostgreSQL Security Analysis",
+        "Méthodologie reproductible : Taskfile (rescan de toutes les versions sur une même base Trivy), scripts Bash d'extraction et de scoring"
+      ],
+      "url": "https://github.com/adriens/geol-showcase"
+    },
+    {
       "name": "Helia Monitor — Stack monitoring consommation mobile OPT-NC",
       "type": "open-source",
       "x-tags": [
@@ -4713,7 +4784,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.36.1",
+    "version": "v1.37.0",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
