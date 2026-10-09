@@ -32,6 +32,16 @@ tasks:
     cmds:
       - uv run scripts/audit-tags.py
 
+  audit-esco:
+    desc: Auditer le rattachement ESCO (URIs, couverture des keywords)
+    cmds:
+      - uv run scripts/audit-esco.py
+
+  export-esco:
+    desc: Exporter le profil ESCO → data/esco/adriens/ (CSV + JSON-LD, labels EN via API ESCO)
+    cmds:
+      - uv run scripts/export-esco.py
+
   install:
     desc: Installer les dependances JS (bun)
     cmds:

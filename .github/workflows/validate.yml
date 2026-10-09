@@ -6,6 +6,7 @@ on:
       - "manual/resume.json"
       - "scripts/validate-json-resume.py"
       - "scripts/audit-tags.py"
+      - "scripts/audit-esco.py"
       - "CLAUDE.md"
       - "data/**/*.md"
   pull_request:
@@ -13,6 +14,7 @@ on:
       - "manual/resume.json"
       - "scripts/validate-json-resume.py"
       - "scripts/audit-tags.py"
+      - "scripts/audit-esco.py"
       - "CLAUDE.md"
       - "data/**/*.md"
   workflow_dispatch:
@@ -31,3 +33,6 @@ jobs:
 
       - name: Audit x-tags taxonomy
         run: uv run scripts/audit-tags.py
+
+      - name: Audit ESCO mapping
+        run: uv run scripts/audit-esco.py
