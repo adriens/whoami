@@ -1494,7 +1494,8 @@
         "Détournements vidéo tech",
         "Tech advocacy interne",
         "Pitching interne",
-        "Évangélisation par la pratique"
+        "Évangélisation par la pratique",
+        "Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC)"
       ],
       "x-esco": [
         {
@@ -1561,6 +1562,22 @@
           "covers": [
             "Dev.to",
             "Documentation"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/2111dff8-f830-46ad-80ce-7885893b3134",
+          "label": "coordonner des événements",
+          "type": "skill/competence",
+          "covers": [
+            "Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a4b7f1be-7058-45e4-ac90-66580499187f",
+          "label": "planifier des évènements",
+          "type": "skill/competence",
+          "covers": [
+            "Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC)"
           ]
         }
       ]
@@ -1714,6 +1731,52 @@
           "covers": [
             "Intérim de direction",
             "Transition & onboarding entrant"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/fd4386c5-96f0-4c6e-970c-c08729ae0cc6",
+          "label": "élaborer la conception d'un produit",
+          "type": "skill/competence",
+          "covers": [
+            "Product Owner",
+            "Running Lean",
+            "Design Sprint"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a8797f21-1af0-4c5e-98ca-bf1442929363",
+          "label": "interagir avec les utilisateurs pour définir leurs exigences",
+          "type": "skill/competence",
+          "covers": [
+            "Product Owner",
+            "Lean UX"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/21e0cad8-4eef-42be-b18b-0f8e37f0dbd0",
+          "label": "cycle de vie d’un produit",
+          "type": "knowledge",
+          "covers": [
+            "Product Owner"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/0550431f-9c8b-4204-9c45-59bc5feacf06",
+          "label": "philosophies d’amélioration continue",
+          "type": "knowledge",
+          "covers": [
+            "LEAN",
+            "5S",
+            "Management visuel"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/bdcf429c-5ccf-4c3d-bb61-4c987573a35e",
+          "label": "faire preuve d’esprit d’entreprise",
+          "type": "skill/competence",
+          "covers": [
+            "Innovation frugale",
+            "Running Lean"
           ]
         }
       ]
@@ -3741,7 +3804,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.35.1",
+    "version": "v1.35.2",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
