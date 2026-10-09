@@ -79,6 +79,14 @@ def rich(*paragraphs, items=()):
     return out
 
 
+def org_address(parent, loc):
+    """OrganizationContact/Communication/Address depuis x-location {city, countryCode}."""
+    if loc:
+        a = sub(sub(sub(parent, "OrganizationContact"), "Communication"), "Address")
+        sub(a, "oa:CityName", loc["city"])
+        sub(a, "CountryCode", loc["countryCode"].lower())
+
+
 def date(parent, tag, value):
     if value:
         sub(sub(parent, tag), "hr:FormattedDateTime", value)
@@ -147,7 +155,6 @@ def candidate_person(root, b):
 def main():
     r = json.loads(RESUME.read_text(encoding="utf-8"))
     b = r["basics"]
-    country = b["location"]["countryCode"].lower()
     doc_id = f"whoami-{r.get('meta', {}).get('version', 'dev')}"
 
     root = ET.Element(q("Candidate"), {q("xsi:schemaLocation"): "http://www.europass.eu/1.0 Candidate.xsd"})
@@ -172,13 +179,16 @@ def main():
                 name="NORMAL" if lang["language"] in LANG_ISO else "FREE_TEXT")
 
     profile = sub(root, "CandidateProfile", languageCode="fr")
-    sub(profile, "hr:ExecutiveSummary", rich(*[p for p in b.get("summary", "").split("\n\n")]))
+    # Pas de champ « titre » dans Europass : basics.label en gras en tête de « À propos »
+    headline = f"<p><strong>{html.escape(b['label'])}</strong></p>" if b.get("label") else ""
+    sub(profile, "hr:ExecutiveSummary", headline + rich(*b.get("summary", "").split("\n\n")))
 
     # Expériences
     hist = sub(profile, "EmploymentHistory")
     for w in r.get("work", []):
         eh = sub(hist, "EmployerHistory")
         sub(eh, "hr:OrganizationName", w["name"])
+        org_address(eh, w.get("x-location"))
         if w.get("url"):
             sub(eh, "Link", w["url"])
         ph = sub(eh, "PositionHistory")
@@ -188,12 +198,16 @@ def main():
         date(period, "eures:EndDate", w.get("endDate"))
         sub(period, "hr:CurrentIndicator", "false" if w.get("endDate") else "true")
         sub(ph, "oa:Description", rich(w.get("summary", ""), items=w.get("highlights", [])))
+        if w.get("x-location"):
+            sub(ph, "City", w["x-location"]["city"])
+            sub(ph, "Country", w["x-location"]["countryCode"].lower())
 
     # Formations
     edu = sub(profile, "EducationHistory")
     for e in r.get("education", []):
         att = sub(edu, "EducationOrganizationAttendance")
         sub(att, "hr:OrganizationName", e["institution"])
+        org_address(att, e.get("x-location"))
         if e.get("url"):
             sub(att, "Link", e["url"])
         period = sub(att, "AttendancePeriod")
@@ -306,6 +320,10 @@ def main():
     xml = ET.tostring(root, encoding="unicode")
     OUT.write_text('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' + xml + "\n", encoding="utf-8")
 
+    for section, key in (("work", "name"), ("education", "institution")):
+        for item in r.get(section, []):
+            if not item.get("x-location"):
+                warnings.append(f"{section} « {item.get(key)} » : x-location manquant (ville/pays absents du CV Europass)")
     for w in warnings:
         print(f"  ⚠ {w}")
     print(f"✓ {OUT.relative_to(ROOT)} — {len(r.get('work', []))} postes, {len(r.get('education', []))} formations, "
