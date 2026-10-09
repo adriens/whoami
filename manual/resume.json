@@ -823,7 +823,10 @@
         "nouvelle-caledonie"
       ],
       "url": "https://www.youtube.com/watch?v=g2JuEcwPvgE",
-      "summary": "Épisode de la série interne 'Paroles d'agent' publiée sur la chaîne YouTube officielle de l'OPT-NC. Présente son rôle d'intégrateur de données à la DSI, sa vision de la collaboration métier/IT, son meilleur succès (débloquer l'adoption d'un logiciel en travaillant main dans la main avec les métiers) et sa devise : 'No excuse'."
+      "summary": "Épisode de la série interne 'Paroles d'agent' publiée sur la chaîne YouTube officielle de l'OPT-NC. Présente son rôle d'intégrateur de données à la DSI, sa vision de la collaboration métier/IT, son meilleur succès (débloquer l'adoption d'un logiciel en travaillant main dans la main avec les métiers) et sa devise : 'No excuse'.",
+      "x-authors": [
+        "OPT-NC"
+      ]
     },
     {
       "name": "Analyse de l'historique Netflix avec Power BI — LinkedIn Pulse",
