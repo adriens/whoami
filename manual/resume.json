@@ -156,7 +156,11 @@
           "label": "concepteur de systèmes informatiques/conceptrice de systèmes informatiques",
           "code": "2511.13"
         }
-      ]
+      ],
+      "x-location": {
+        "city": "Nouméa",
+        "countryCode": "NC"
+      }
     },
     {
       "name": "DSI Ville de Nouméa",
@@ -200,7 +204,11 @@
           "label": "responsable des logiciels",
           "code": "1330.5.1"
         }
-      ]
+      ],
+      "x-location": {
+        "city": "Nouméa",
+        "countryCode": "NC"
+      }
     },
     {
       "name": "Docaposte",
@@ -233,7 +241,11 @@
           "label": "développeur de base de données/développeuse de base de données",
           "code": "2521.3"
         }
-      ]
+      ],
+      "x-location": {
+        "city": "Sophia Antipolis",
+        "countryCode": "FR"
+      }
     },
     {
       "name": "Experian Decision Analytics",
@@ -267,7 +279,11 @@
           "label": "développeur de logiciels/développeuse de logiciels",
           "code": "2512.3"
         }
-      ]
+      ],
+      "x-location": {
+        "city": "Monaco",
+        "countryCode": "MC"
+      }
     },
     {
       "name": "Vice-Rectorat de Nouvelle-Calédonie",
@@ -291,7 +307,11 @@
           "label": "professeur de mathématiques/professeure de mathématiques",
           "code": "2330.1.11"
         }
-      ]
+      ],
+      "x-location": {
+        "city": "Nouméa",
+        "countryCode": "NC"
+      }
     }
   ],
   "volunteer": [
@@ -431,7 +451,11 @@
       "score": "",
       "courses": [
         "Stage de fin d'études en data mining, en collaboration avec l'I3S (laboratoire CNRS — Sophia Antipolis) et Experian Decision Analytics — transformé en embauche directe dès la fin du stage"
-      ]
+      ],
+      "x-location": {
+        "city": "Sophia Antipolis",
+        "countryCode": "FR"
+      }
     },
     {
       "institution": "Université de Nice Sophia-Antipolis",
@@ -443,7 +467,11 @@
       "score": "",
       "courses": [
         "Stage de recherche : INRIA Sophia Antipolis (https://www.inria.fr) — implémentation C++ de LINPACK, bibliothèque de référence en algèbre linéaire numérique haute performance"
-      ]
+      ],
+      "x-location": {
+        "city": "Nice",
+        "countryCode": "FR"
+      }
     },
     {
       "institution": "Université de Nice Sophia-Antipolis",
@@ -453,7 +481,11 @@
       "startDate": "1998-09",
       "endDate": "1999-06",
       "score": "",
-      "courses": []
+      "courses": [],
+      "x-location": {
+        "city": "Nice",
+        "countryCode": "FR"
+      }
     },
     {
       "institution": "Université de la Nouvelle-Calédonie",
@@ -463,7 +495,11 @@
       "startDate": "1997-09",
       "endDate": "1998-09",
       "score": "",
-      "courses": []
+      "courses": [],
+      "x-location": {
+        "city": "Nouméa",
+        "countryCode": "NC"
+      }
     },
     {
       "institution": "Université de Nice Sophia-Antipolis",
@@ -473,7 +509,11 @@
       "startDate": "1994-09",
       "endDate": "1996-06",
       "score": "",
-      "courses": []
+      "courses": [],
+      "x-location": {
+        "city": "Nice",
+        "countryCode": "FR"
+      }
     },
     {
       "institution": "École Montessori Les Pouces Verts — Mouans-Sartoux",
@@ -486,7 +526,11 @@
       "courses": [
         "Fondation d'une posture cognitive durable : apprendre par la manipulation, progresser à son rythme, construire sa propre compréhension",
         "Fil rouge pédagogique : la même philosophie — autonomie, projets réels, apprendre en faisant — se retrouve 45 ans plus tard dans l'enseignement en Master MIAGE et le mentorat de stagiaires"
-      ]
+      ],
+      "x-location": {
+        "city": "Mouans-Sartoux",
+        "countryCode": "FR"
+      }
     }
   ],
   "awards": [
