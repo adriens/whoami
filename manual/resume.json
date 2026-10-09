@@ -160,7 +160,8 @@
       "x-location": {
         "city": "Nouméa",
         "countryCode": "NC"
-      }
+      },
+      "x-nace": "J"
     },
     {
       "name": "DSI Ville de Nouméa",
@@ -208,7 +209,8 @@
       "x-location": {
         "city": "Nouméa",
         "countryCode": "NC"
-      }
+      },
+      "x-nace": "O"
     },
     {
       "name": "Docaposte",
@@ -245,7 +247,8 @@
       "x-location": {
         "city": "Sophia Antipolis",
         "countryCode": "FR"
-      }
+      },
+      "x-nace": "J"
     },
     {
       "name": "Experian Decision Analytics",
@@ -283,7 +286,8 @@
       "x-location": {
         "city": "Monaco",
         "countryCode": "MC"
-      }
+      },
+      "x-nace": "K"
     },
     {
       "name": "Vice-Rectorat de Nouvelle-Calédonie",
@@ -311,7 +315,8 @@
       "x-location": {
         "city": "Nouméa",
         "countryCode": "NC"
-      }
+      },
+      "x-nace": "P"
     }
   ],
   "volunteer": [
