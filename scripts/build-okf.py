@@ -225,9 +225,11 @@ def main():
         body = ["Mots-clés : " + ", ".join(kws)] if kws else []
         if i.get("x-context"):
             body += ["", f"*Contexte : {i['x-context']}*"]
-        records.append(Record("interests", slug, "Interest", i.get("name", ""),
-                              truncate(", ".join(kws)) or i.get("name", ""),
-                              CANONICAL, tags, DEFAULT_TS, body))
+        rec = Record("interests", slug, "Interest", i.get("name", ""),
+                     truncate(", ".join(kws)) or i.get("name", ""),
+                     CANONICAL, tags, DEFAULT_TS, body)
+        body += esco_links(rec, i.get("x-esco", []), "skill")
+        records.append(rec)
 
     # education (pas de x-tags → pas dans le graphe, mais documenté)
     for e in r.get("education", []):

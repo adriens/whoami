@@ -73,6 +73,9 @@ def main():
     for c in r.get("certificates", []):
         for e in c.get("x-esco", []):
             links.append(("skill", e["uri"], e["label"], e["type"], f"certificate: {c['name']}", "", []))
+    for it in r.get("interests", []):
+        for e in it.get("x-esco", []):
+            links.append(("skill", e["uri"], e["label"], e["type"], f"interest: {it['name']}", it.get("x-context", ""), []))
     for ref in r.get("references", []):
         for e in ref.get("x-esco", []):
             links.append(("skill", e["uri"], e["label"], e["type"], f"reference: {ref['name']}", ref.get("x-date", ""), []))
