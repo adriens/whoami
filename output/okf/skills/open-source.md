@@ -1,8 +1,8 @@
 ---
 type: Skill
 title: Open Source
-description: Avancé — endoflife.date, SchemaCrawler, Chocolatey, DuckDB brew extension,
-  geol, oracle-jutils, mobitag, liquibase, Attraction e…
+description: Avancé — Contributions upstream à des projets tiers (endoflife.date,
+  SchemaCrawler, liquibase, Chocolatey), endoflife.date, Sche…
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags:
 - geol
@@ -13,7 +13,7 @@ timestamp: '2026-10-09'
 
 **Niveau : Avancé**
 
-Mots-clés : endoflife.date, SchemaCrawler, Chocolatey, DuckDB brew extension, geol, oracle-jutils, mobitag, liquibase, Attraction et fidélisation de contributors externes
+Mots-clés : Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey), endoflife.date, SchemaCrawler, Chocolatey, DuckDB brew extension, geol, oracle-jutils, mobitag, liquibase, Attraction et fidélisation de contributors externes
 
 **Compétences ESCO :**
 - [modèle en code source ouverte](../esco/modele-en-code-source-ouverte.md) — *knowledge*
@@ -26,5 +26,6 @@ Mots-clés : endoflife.date, SchemaCrawler, Chocolatey, DuckDB brew extension, g
 - [concevoir un logiciel](../esco/concevoir-un-logiciel.md) — *skill/competence*
 - [fournir une documentation technique](../esco/fournir-une-documentation-technique.md) — *skill/competence*
 - [utiliser des bibliothèques logicielles](../esco/utiliser-des-bibliotheques-logicielles.md) — *skill/competence*
+- [déboguer un logiciel](../esco/deboguer-un-logiciel.md) — *skill/competence*
 
 **Tags :** [geol](../tags/geol.md), [open-source](../tags/open-source.md), [schemacrawler](../tags/schemacrawler.md)

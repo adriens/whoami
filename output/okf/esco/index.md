@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-160 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+165 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -56,6 +56,7 @@ timestamp: '2026-10-09'
 - [concevoir un schéma de base de données](concevoir-un-schema-de-base-de-donnees.md) — 1 entrées
 - [concevoir un système d’information](concevoir-un-systeme-dinformation.md) — 1 entrées
 - [coordonner des événements](coordonner-des-evenements.md) — 1 entrées
+- [créer des ensembles de données](creer-des-ensembles-de-donnees.md) — 1 entrées
 - [créer des modèles de données](creer-des-modeles-de-donnees.md) — 1 entrées
 - [créer des schémas de base de données](creer-des-schemas-de-base-de-donnees.md) — 1 entrées
 - [créer des traitements de données](creer-des-traitements-de-donnees.md) — 1 entrées
@@ -64,6 +65,7 @@ timestamp: '2026-10-09'
 - [cycle de vie d’un produit](cycle-de-vie-dun-produit.md) — 1 entrées
 - [diriger d’autres personnes](diriger-dautres-personnes.md) — 1 entrées
 - [diriger une équipe](diriger-une-equipe.md) — 1 entrées
+- [déboguer un logiciel](deboguer-un-logiciel.md) — 1 entrées
 - [définir la structure physique de la base de données](definir-la-structure-physique-de-la-base-de-donnees.md) — 1 entrées
 - [définir l’architecture logicielle](definir-larchitecture-logicielle.md) — 1 entrées
 - [déléguer des tâches](deleguer-des-taches.md) — 1 entrées
@@ -105,6 +107,7 @@ timestamp: '2026-10-09'
 - [gérer le développement professionnel personnel](gerer-le-developpement-professionnel-personnel.md) — 1 entrées
 - [gérer les conséquences de l’obsolescence des TIC](gerer-les-consequences-de-lobsolescence-des-tic.md) — 1 entrées
 - [gérer les données](gerer-les-donnees.md) — 1 entrées
+- [gérer les métadonnées de contenu](gerer-les-metadonnees-de-contenu.md) — 1 entrées
 - [gérer les normes d’échange de données](gerer-les-normes-dechange-de-donnees.md) — 1 entrées
 - [gérer les retours d’information](gerer-les-retours-dinformation.md) — 1 entrées
 - [gérer l’architecture des données TIC](gerer-larchitecture-des-donnees-tic.md) — 1 entrées
@@ -126,11 +129,13 @@ timestamp: '2026-10-09'
 - [modèles d’architecture logicielle](modeles-darchitecture-logicielle.md) — 1 entrées
 - [modélisation orientée services](modelisation-orientee-services.md) — 1 entrées
 - [motiver des employés](motiver-des-employes.md) — 1 entrées
+- [normaliser les données](normaliser-les-donnees.md) — 1 entrées
 - [normes de sécurité des TIC](normes-de-securite-des-tic.md) — 1 entrées
 - [normes d’accessibilité TIC](normes-daccessibilite-tic.md) — 1 entrées
 - [outils de développement de bases de données](outils-de-developpement-de-bases-de-donnees.md) — 1 entrées
 - [outils de gestion de configuration logicielle](outils-de-gestion-de-configuration-logicielle.md) — 2 entrées
 - [outils d’extraction de transformation et de chargement](outils-dextraction-de-transformation-et-de-chargement.md) — 1 entrées
+- [participer à des échanges au moyen de technologies numériques](participer-a-des-echanges-au-moyen-de-technologies-numeriques.md) — 1 entrées
 - [pensée systémique](pensee-systemique.md) — 1 entrées
 - [philosophies d’amélioration continue](philosophies-damelioration-continue.md) — 1 entrées
 - [planifier des évènements](planifier-des-evenements.md) — 1 entrées
