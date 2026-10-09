@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.38.0",
+  "x-resume-version": "v1.38.1",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -475,7 +475,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Méthode signature : API-fication"
+        "Méthode signature : API-fication",
+        "IA & Agents"
       ]
     },
     {
@@ -618,6 +619,87 @@
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "Méthode signature : API-fication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/07e51c60-763a-4335-b4ec-70a15f66d328",
+      "termCode": "07e51c60-763a-4335-b4ec-70a15f66d328",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "proposer des solutions TIC aux problèmes des entreprises"
+        },
+        {
+          "@language": "en",
+          "@value": "propose ICT solutions to business problems"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Méthode signature : API-fication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/4539aeca-b56f-4d03-ba86-8f675a7f2536",
+      "termCode": "4539aeca-b56f-4d03-ba86-8f675a7f2536",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "trouver des solutions à des problèmes d'information"
+        },
+        {
+          "@language": "en",
+          "@value": "develop solutions to information issues"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Méthode signature : API-fication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b04f377b-ee80-4b38-aca1-19d266a23b17",
+      "termCode": "b04f377b-ee80-4b38-aca1-19d266a23b17",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "analyser les exigences des entreprises"
+        },
+        {
+          "@language": "en",
+          "@value": "analyse business requirements"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Méthode signature : API-fication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/751941a0-5645-4f8b-b97e-b252909d5edb",
+      "termCode": "751941a0-5645-4f8b-b97e-b252909d5edb",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "développer un flux de travail de TIC"
+        },
+        {
+          "@language": "en",
+          "@value": "develop ICT workflow"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Méthode signature : API-fication",
+        "Microsoft Power Platform"
       ]
     },
     {
@@ -1964,26 +2046,6 @@
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "DevSecOps"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/751941a0-5645-4f8b-b97e-b252909d5edb",
-      "termCode": "751941a0-5645-4f8b-b97e-b252909d5edb",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "développer un flux de travail de TIC"
-        },
-        {
-          "@language": "en",
-          "@value": "develop ICT workflow"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "skill/competence",
-      "x-profile-skills": [
-        "Microsoft Power Platform"
       ]
     },
     {
