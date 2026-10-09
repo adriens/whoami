@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.35.2",
+  "x-resume-version": "v1.35.3",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -1365,6 +1365,126 @@
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/5fd5c985-eaaa-47aa-8314-62359c54505a",
+      "termCode": "5fd5c985-eaaa-47aa-8314-62359c54505a",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "élaborer des contenus numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "develop digital content"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/dfb9cec6-3ae3-408a-9d57-c44361bf7aaf",
+      "termCode": "dfb9cec6-3ae3-408a-9d57-c44361bf7aaf",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "fournir du contenu multimédia"
+        },
+        {
+          "@language": "en",
+          "@value": "provide multimedia content"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+      "termCode": "91dd8397-063d-499c-83b9-0603a10d94ac",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "techniques d'écriture"
+        },
+        {
+          "@language": "en",
+          "@value": "writing techniques"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/e83ec793-3fbc-42e0-9729-d4bd92d454b3",
+      "termCode": "e83ec793-3fbc-42e0-9729-d4bd92d454b3",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "rédiger des textes professionnels"
+        },
+        {
+          "@language": "en",
+          "@value": "draw up professional texts"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337",
+      "termCode": "7ff2c668-0e86-418a-a962-4958262ee337",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "utiliser des techniques de communication"
+        },
+        {
+          "@language": "en",
+          "@value": "use communication techniques"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b0560439-14eb-41d1-aa53-1938efc24123",
+      "termCode": "b0560439-14eb-41d1-aa53-1938efc24123",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "stratégie de marketing de contenu"
+        },
+        {
+          "@language": "en",
+          "@value": "content marketing strategy"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
       "x-profile-skills": [
         "Developer Relations & Communication"
       ]
