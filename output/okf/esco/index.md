@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-93 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+100 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -44,9 +44,11 @@ timestamp: '2026-10-09'
 - [concevoir des interfaces d’application](concevoir-des-interfaces-dapplication.md) — 3 entrées
 - [concevoir des prototypes](concevoir-des-prototypes.md) — 1 entrées
 - [concevoir un schéma de base de données](concevoir-un-schema-de-base-de-donnees.md) — 1 entrées
+- [coordonner des événements](coordonner-des-evenements.md) — 1 entrées
 - [créer des schémas de base de données](creer-des-schemas-de-base-de-donnees.md) — 1 entrées
 - [créer un réseau professionnel](creer-un-reseau-professionnel.md) — 1 entrées
 - [créer une architecture d’entreprise](creer-une-architecture-dentreprise.md) — 2 entrées
+- [cycle de vie d’un produit](cycle-de-vie-dun-produit.md) — 1 entrées
 - [définir l’architecture logicielle](definir-larchitecture-logicielle.md) — 1 entrées
 - [démontrer une volonté d’apprendre](demontrer-une-volonte-dapprendre.md) — 1 entrées
 - [développer des idées créatives](developper-des-idees-creatives.md) — 1 entrées
@@ -64,6 +66,7 @@ timestamp: '2026-10-09'
 - [entretenir des relations avec des fournisseurs](entretenir-des-relations-avec-des-fournisseurs.md) — 1 entrées
 - [exploration de données](exploration-de-donnees.md) — 1 entrées
 - [faire preuve de curiosité](faire-preuve-de-curiosite.md) — 1 entrées
+- [faire preuve d’esprit d’entreprise](faire-preuve-desprit-dentreprise.md) — 1 entrées
 - [fournir une documentation technique](fournir-une-documentation-technique.md) — 2 entrées
 - [fournir une présentation visuelle des données](fournir-une-presentation-visuelle-des-donnees.md) — 3 entrées
 - [gestion de projets allégée](gestion-de-projets-allegee.md) — 1 entrées
@@ -77,6 +80,7 @@ timestamp: '2026-10-09'
 - [gérer l’intégration sémantique des TIC](gerer-lintegration-semantique-des-tic.md) — 1 entrées
 - [gérer une base de données](gerer-une-base-de-donnees.md) — 1 entrées
 - [gérer une équipe](gerer-une-equipe.md) — 1 entrées
+- [interagir avec les utilisateurs pour définir leurs exigences](interagir-avec-les-utilisateurs-pour-definir-leurs-exigences.md) — 1 entrées
 - [intégration de systèmes de TIC](integration-de-systemes-de-tic.md) — 1 entrées
 - [intégrer des données TIC](integrer-des-donnees-tic.md) — 1 entrées
 - [modèle en code source ouverte](modele-en-code-source-ouverte.md) — 1 entrées
@@ -87,6 +91,8 @@ timestamp: '2026-10-09'
 - [outils de gestion de configuration logicielle](outils-de-gestion-de-configuration-logicielle.md) — 1 entrées
 - [outils d’extraction de transformation et de chargement](outils-dextraction-de-transformation-et-de-chargement.md) — 1 entrées
 - [pensée systémique](pensee-systemique.md) — 1 entrées
+- [philosophies d’amélioration continue](philosophies-damelioration-continue.md) — 1 entrées
+- [planifier des évènements](planifier-des-evenements.md) — 1 entrées
 - [principes de l’intelligence artificielle](principes-de-lintelligence-artificielle.md) — 1 entrées
 - [processus d’innovation](processus-dinnovation.md) — 1 entrées
 - [procéder à des évaluations de la vulnérabilité en matière de sécurité](proceder-a-des-evaluations-de-la-vulnerabilite-en-matiere-de-securite.md) — 1 entrées
@@ -106,4 +112,5 @@ timestamp: '2026-10-09'
 - [utiliser des langages de requête](utiliser-des-langages-de-requete.md) — 1 entrées
 - [utiliser des méthodes de conception centrée sur l’utilisateur](utiliser-des-methodes-de-conception-centree-sur-lutilisateur.md) — 2 entrées
 - [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 1 entrées
+- [élaborer la conception d'un produit](elaborer-la-conception-d-un-produit.md) — 1 entrées
 - [élaborer un plan de cours](elaborer-un-plan-de-cours.md) — 1 entrées

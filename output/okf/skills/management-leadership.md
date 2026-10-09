@@ -28,5 +28,10 @@ Mots-clés : Management d'équipe, Management par la confiance, l'autonomie et l
 - [entretenir des relations avec des fournisseurs](../esco/entretenir-des-relations-avec-des-fournisseurs.md) — *skill/competence*
 - [stratégie d’externalisation](../esco/strategie-dexternalisation.md) — *knowledge*
 - [appliquer la gestion du changement](../esco/appliquer-la-gestion-du-changement.md) — *skill/competence*
+- [élaborer la conception d'un produit](../esco/elaborer-la-conception-d-un-produit.md) — *skill/competence*
+- [interagir avec les utilisateurs pour définir leurs exigences](../esco/interagir-avec-les-utilisateurs-pour-definir-leurs-exigences.md) — *skill/competence*
+- [cycle de vie d’un produit](../esco/cycle-de-vie-dun-produit.md) — *knowledge*
+- [philosophies d’amélioration continue](../esco/philosophies-damelioration-continue.md) — *knowledge*
+- [faire preuve d’esprit d’entreprise](../esco/faire-preuve-desprit-dentreprise.md) — *skill/competence*
 
 **Tags :** [design-thinking](../tags/design-thinking.md), [lean](../tags/lean.md), [scrum](../tags/scrum.md)
