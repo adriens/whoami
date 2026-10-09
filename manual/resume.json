@@ -3583,7 +3583,8 @@
           "label": "utiliser des techniques de communication",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "Raimanu Pain",
@@ -3636,7 +3637,8 @@
           "label": "utiliser des techniques de communication",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "David BROUSTE",
@@ -3693,7 +3695,8 @@
           "label": "faire preuve d’enthousiasme",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "Julie Besson",
@@ -3744,7 +3747,8 @@
           "label": "travailler en équipe",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "Clémentine Galin",
@@ -3846,7 +3850,8 @@
           "label": "respecter des délais",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "Paul Monimeau",
@@ -3894,7 +3899,8 @@
           "label": "travailler en équipe",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "Dévi Bergès",
@@ -4072,7 +4078,8 @@
           "label": "établir des relations de collaboration",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "Romain Pelizzo",
@@ -4154,7 +4161,8 @@
           "label": "penser de manière proactive",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "David Kranitz",
@@ -4245,7 +4253,8 @@
           "label": "établir des relations de collaboration",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "Sébastien Bourlart",
@@ -4347,7 +4356,8 @@
           "label": "faire preuve d’enthousiasme",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "Michel Moureaux",
@@ -4384,7 +4394,8 @@
         "community-contribution",
         "schemacrawler",
         "cross-company"
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "Didier Jean Leroux",
@@ -4427,7 +4438,8 @@
           "label": "respecter des délais",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "Bheem Reddy",
@@ -4494,7 +4506,8 @@
           "label": "utiliser des techniques de communication",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "Malcolm Bertaina",
@@ -4602,7 +4615,8 @@
           "label": "penser de manière proactive",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "Cédric Pitout",
@@ -4748,7 +4762,8 @@
           "label": "penser de manière proactive",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "Clémentine Galin",
@@ -4790,7 +4805,8 @@
           "label": "écouter activement",
           "type": "skill/competence"
         }
-      ]
+      ],
+      "x-featured": true
     },
     {
       "name": "James Langeron",
