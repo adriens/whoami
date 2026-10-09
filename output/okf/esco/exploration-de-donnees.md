@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du prof
 
 URI : <http://data.europa.eu/esco/skill/25f0ea33-b4a2-4f31-b7b4-7d20e827b180>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F25f0ea33-b4a2-4f31-b7b4-7d20e827b180>
+
 - [Graph & Knowledge Engineering](../skills/graph-knowledge-engineering.md) — *Skill*

@@ -11,5 +11,7 @@ Concept du référentiel européen ESCO (ISCO 2511.13) relié à 2 entrées du p
 
 URI : <http://data.europa.eu/esco/occupation/e1c72b5f-4c5c-487c-a6df-e84b64a51dae>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Fe1c72b5f-4c5c-487c-a6df-e84b64a51dae>
+
 - [Adrien Sales](../profile/adrien-sales.md) — *Profile*
 - [Chef de Section GLIA — Génie Logiciel Inter-Applicatif @ OPT-NC (Office des Postes et Télécommunications de Nouvelle-Calédonie)](../work/opt-nc-office-des-postes-et-telecommunications-de-nouvelle-caledonie-chef-de-section-glia-genie-logiciel-inter-applicatif.md) — *Work Experience*

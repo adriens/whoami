@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du prof
 
 URI : <http://data.europa.eu/esco/skill/19a8293b-8e95-4de3-983f-77484079c389>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F19a8293b-8e95-4de3-983f-77484079c389>
+
 - [Architecture & Développement](../skills/architecture-developpement.md) — *Skill*

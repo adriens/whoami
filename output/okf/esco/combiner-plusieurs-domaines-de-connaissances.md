@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées 
 
 URI : <http://data.europa.eu/esco/skill/c983dbc8-8b2e-4f7e-aa66-f9042a898ea8>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2Fc983dbc8-8b2e-4f7e-aa66-f9042a898ea8>
+
 - [Créativité & Apprentissage autodidacte](../skills/creativite-apprentissage-autodidacte.md) — *Skill*

@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du prof
 
 URI : <http://data.europa.eu/esco/skill/6fa1c2c0-a012-4ca0-9642-e01569ba322c>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F6fa1c2c0-a012-4ca0-9642-e01569ba322c>
+
 - [Méthode signature : API-fication](../skills/methode-signature-api-fication.md) — *Skill*

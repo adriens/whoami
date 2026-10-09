@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées 
 
 URI : <http://data.europa.eu/esco/skill/3740b2a0-c94e-4116-bf18-f9fdd5b59f56>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F3740b2a0-c94e-4116-bf18-f9fdd5b59f56>
+
 - [Management & Leadership](../skills/management-leadership.md) — *Skill*

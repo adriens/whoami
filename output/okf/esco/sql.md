@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du prof
 
 URI : <http://data.europa.eu/esco/skill/598de5b0-5b58-4ea7-8058-a4bc4d18c742>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F598de5b0-5b58-4ea7-8058-a4bc4d18c742>
+
 - [Bases de données](../skills/bases-de-donnees.md) — *Skill*

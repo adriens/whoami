@@ -11,5 +11,7 @@ Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées 
 
 URI : <http://data.europa.eu/esco/skill/4216e465-7baa-4884-a241-54b197bb9278>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F4216e465-7baa-4884-a241-54b197bb9278>
+
 - [Méthode signature : API-fication](../skills/methode-signature-api-fication.md) — *Skill*
 - [Open Data & Data Science](../skills/open-data-data-science.md) — *Skill*

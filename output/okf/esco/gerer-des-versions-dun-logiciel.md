@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées 
 
 URI : <http://data.europa.eu/esco/skill/978db6a1-7297-4c89-819a-47605f2c3ba8>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F978db6a1-7297-4c89-819a-47605f2c3ba8>
+
 - [Open Source](../skills/open-source.md) — *Skill*

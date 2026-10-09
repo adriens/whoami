@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du prof
 
 URI : <http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2Fe465a154-93f7-4973-9ce1-31659fe16dd2>
+
 - [IA & Agents](../skills/ia-agents.md) — *Skill*

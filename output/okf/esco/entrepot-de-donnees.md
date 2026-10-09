@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du prof
 
 URI : <http://data.europa.eu/esco/skill/3ec2e4d6-7000-4905-bf1a-c5b1679416de>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F3ec2e4d6-7000-4905-bf1a-c5b1679416de>
+
 - [Data Engineering](../skills/data-engineering.md) — *Skill*

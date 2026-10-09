@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du prof
 
 URI : <http://data.europa.eu/esco/skill/3ff589b7-68df-4ea5-ae41-b395bdb2378f>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F3ff589b7-68df-4ea5-ae41-b395bdb2378f>
+
 - [DevSecOps](../skills/devsecops.md) — *Skill*

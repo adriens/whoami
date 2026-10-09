@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du prof
 
 URI : <http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2Fccd0a1d9-afda-43d9-b901-96344886e14d>
+
 - [Open Data & Data Science](../skills/open-data-data-science.md) — *Skill*

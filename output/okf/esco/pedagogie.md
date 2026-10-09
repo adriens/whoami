@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du prof
 
 URI : <http://data.europa.eu/esco/skill/a117f32c-662b-4dd9-b739-1230dd04cb60>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2Fa117f32c-662b-4dd9-b739-1230dd04cb60>
+
 - [Pédagogie & Transmission](../skills/pedagogie-transmission.md) — *Skill*

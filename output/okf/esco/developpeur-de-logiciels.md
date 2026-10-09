@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (ISCO 2512.3) relié à 1 entrées du pr
 
 URI : <http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/occupation?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Foccupation%2Ff2b15a0e-e65a-438a-affb-29b9d50b77d1>
+
 - [Consultant Développeur — Couche Base de Données @ Experian Decision Analytics](../work/experian-decision-analytics-consultant-developpeur-couche-base-de-donnees.md) — *Work Experience*

@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées 
 
 URI : <http://data.europa.eu/esco/skill/75f839c2-fd9a-4ad3-8921-6e734608568d>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F75f839c2-fd9a-4ad3-8921-6e734608568d>
+
 - [Graph & Knowledge Engineering](../skills/graph-knowledge-engineering.md) — *Skill*

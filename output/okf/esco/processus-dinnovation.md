@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du prof
 
 URI : <http://data.europa.eu/esco/skill/2fb8480e-de3c-462b-b169-e8bbb344da68>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F2fb8480e-de3c-462b-b169-e8bbb344da68>
+
 - [Management & Leadership](../skills/management-leadership.md) — *Skill*

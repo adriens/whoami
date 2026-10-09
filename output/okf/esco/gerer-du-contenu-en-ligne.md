@@ -11,4 +11,6 @@ Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées 
 
 URI : <http://data.europa.eu/esco/skill/c1f29568-f2bb-49d2-b6c2-28748bd1629b>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2Fc1f29568-f2bb-49d2-b6c2-28748bd1629b>
+
 - [Developer Relations & Communication](../skills/developer-relations-communication.md) — *Skill*

@@ -11,5 +11,7 @@ Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées 
 
 URI : <http://data.europa.eu/esco/skill/a1388163-462a-4b76-8649-67470ea858a1>
 
+Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2Fa1388163-462a-4b76-8649-67470ea858a1>
+
 - [Data Engineering](../skills/data-engineering.md) — *Skill*
 - [IA & Agents](../skills/ia-agents.md) — *Skill*
