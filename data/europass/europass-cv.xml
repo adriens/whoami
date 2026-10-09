@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Candidate xmlns="http://www.europass.eu/1.0" xmlns:eures="http://www.europass_eures.eu/1.0" xmlns:hr="http://www.hr-xml.org/3" xmlns:oa="http://www.openapplications.org/oagis/9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.europass.eu/1.0 Candidate.xsd">
-  <hr:DocumentID schemeID="whoami-v1.38.3" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
+  <hr:DocumentID schemeID="whoami-v1.38.4" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
   <CandidateSupplier>
-    <hr:PartyID schemeID="whoami-v1.38.3" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
+    <hr:PartyID schemeID="whoami-v1.38.4" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
     <hr:PartyName>Owner</hr:PartyName>
     <PersonContact>
       <PersonName>
