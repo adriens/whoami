@@ -40,6 +40,7 @@ data/
   iot/adriens/            # inventaire devices IoT/Maker (devices/*.md + _index.csv + _stats.json)
   stagiaires/adriens/    # inventaire stagiaires et projets tutorés encadrés (stagiaires/*.md + _index.csv + _stats.json)
   zenodo/adriens/        # publications scientifiques Zenodo (publications/*.json + _index.csv) — JSON-LD schema.org/ScholarlyArticle, saisie manuelle
+  esco/adriens/          # export ESCO généré depuis resume.json (_index.csv + profile.jsonld) — `task export-esco`, voir data/esco/README.md
 manual/resume.json        # source de vérité CV
 ```
 
@@ -71,19 +72,21 @@ task fetch-pypi             # Packages PyPI @rastadidi (PyPI JSON API)
 task build-knowledge-base   # Générer output/knowledge-base.md (full)
 task build-knowledge-base-lite  # Générer output/knowledge-base.md (lite)
 task build-okf              # Générer output/okf/ — bundle Open Knowledge Format v0.1
+task export-esco            # Générer data/esco/adriens/ (CSV + JSON-LD, labels EN via API ESCO)
 ```
 
 ### Bundle OKF (Open Knowledge Format)
 
 `task build-okf` génère `output/okf/` : un bundle [Open Knowledge Format v0.1](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing) (arborescence de `.md` + frontmatter YAML reliés par liens markdown) depuis `manual/resume.json`. Artefact **généré** — `resume.json` reste la seule source de vérité ; ne jamais éditer `output/okf/` à la main. Local-only (gitignoré via `output/*`).
 
-Particularité : les `x-tags` deviennent des **nœuds-hub** `tags/<tag>.md` reliant les sections entre elles (le graphe de connaissances du profil, navigable sans Neo4j). `skills` et `interests` (sans `x-tags`) s'accrochent au graphe par correspondance `name`/`keywords` ↔ taxonomie `x-tags`. Le script vérifie en fin de run que tous les liens internes résolvent.
+Particularité : les `x-tags` deviennent des **nœuds-hub** `tags/<tag>.md` reliant les sections entre elles (le graphe de connaissances du profil, navigable sans Neo4j). `skills` et `interests` (sans `x-tags`) s'accrochent au graphe par correspondance `name`/`keywords` ↔ taxonomie `x-tags`. Les concepts ESCO (`x-esco`, `x-esco-occupations`) deviennent des nœuds-hub `esco/<concept>.md` (`resource` = URI ESCO) reliant skills, postes et profil au référentiel européen. Le script vérifie en fin de run que tous les liens internes résolvent.
 
 ### CV JSON Resume classique
 
 ```sh
 task validate    # Valider manual/resume.json contre le schéma
 task audit-tags  # Auditer les tags du repo contre la taxonomie canonique
+task audit-esco  # Auditer le rattachement ESCO (URIs, couverture des keywords)
 task build       # Générer public/index.html (thème elegant)
 task serve       # Prévisualiser (localhost:4000)
 task export-html # Exporter resume.html autonome
@@ -103,7 +106,7 @@ cd site && bun run build                 # build Astro
 
 Le schéma JSON Resume accepte des propriétés additionnelles. Les champs `x-*` permettent de stocker métadonnées et filtres sans casser la validation. Utilisés sur : `basics.profiles` (jamais), `references`, `interests`, `work`, `volunteer`, `awards`, `publications`, `certificates`, `projects`, et certaines entrées d'`education`.
 
-**`skills` n'a pas de `x-tags`** — décision explicite : `name` + `level` + `keywords` constituent déjà 3 dimensions de filtrage suffisantes. La valeur des `x-tags` est sur les sections narratives où l'on doit *cacher des entrées entières* selon l'offre ; les skills sont quasi-systématiquement montrés en intégralité.
+**`skills` n'a pas de `x-tags`** (mais porte `x-esco`, rattachement au référentiel externe, pas une taxonomie de filtrage) — décision explicite : `name` + `level` + `keywords` constituent déjà 3 dimensions de filtrage suffisantes. La valeur des `x-tags` est sur les sections narratives où l'on doit *cacher des entrées entières* selon l'offre ; les skills sont quasi-systématiquement montrés en intégralité.
 
 | Champ | Où | Rôle |
 |---|---|---|
@@ -112,6 +115,9 @@ Le schéma JSON Resume accepte des propriétés additionnelles. Les champs `x-*`
 | `x-position`, `x-relationship`, `x-date`, `x-source`, `x-url`, `x-language`, `x-context` | `references` | Traçabilité et filtrage (`x-url` pour sources non-LinkedIn : YouTube, etc.) |
 | `x-label-url` | `education` | URL du label/accréditation (ex: CGE) |
 | `x-summary-short` | `basics` | Version synthétique du `summary` (1 phrase) pour LinkedIn headline / signature email / header version light |
+| `x-esco` | `skills` | Concepts ESCO `{uri, label, type, covers}` — `type` ∈ `knowledge` / `skill/competence`, `covers` = keywords du skill couverts |
+| `x-esco-occupations` | `basics`, `work` | Métiers ESCO `{uri, label, code}` (code ISCO-ESCO) |
+| `x-esco-retrieved` | `meta` | Date de récupération des concepts depuis l'API ESCO (l'API n'expose pas de version) |
 
 ## Workflow : ajouter une recommandation LinkedIn
 
@@ -556,6 +562,7 @@ Ces scopes correspondent aux dossiers `data/<source>/`. Commits quasi-exclusivem
 | `iot` | `data/iot/` | `chore(iot): add Raspberry Pi 5` |
 | `stagiaires` | `data/stagiaires/` | `chore(stagiaires): add Thomas Quillet` |
 | `zenodo` | `data/zenodo/` | `chore(zenodo): add publication JSON-LD` |
+| `esco` | `data/esco/` | `chore(esco): add ESCO profile export` |
 
 ### Scopes — Famille 3 : infra et méta
 
@@ -606,6 +613,41 @@ gh release create vX.Y.Z --title "vX.Y.Z — <titre court>" --notes "<release no
 ```
 
 La release note doit lister : les changements de contenu (`resume.json`), les données ajoutées, et les évolutions de docs/workflows. S'appuyer sur `git log vX.Y.(Z-1)..vX.Y.Z --oneline` pour la construire.
+
+## Workflow : mapper un skill à ESCO
+
+[ESCO](https://esco.ec.europa.eu/fr) est le référentiel européen des compétences et métiers ; ses URIs (`http://data.europa.eu/esco/skill/<uuid>`) sont les identifiants stables qui permettent de rattacher le profil à Europass, EURES, au matching d'offres et au graphe. **Tout skill doit avoir un `x-esco`** (contrôlé par `task audit-esco`, aussi en CI).
+
+### 1. Chercher les candidats (FR)
+
+```sh
+curl -s -G "https://ec.europa.eu/esco/api/search" --data-urlencode "text=<terme>" \
+  -d type=skill -d language=fr -d limit=5 | jq -r '._embedded.results[] | "\(.title) | \(.uri)"'
+```
+
+`type=occupation` pour un métier. Les technos de niche (Neo4j, Quarkus, Docker, Go, Flutter…) n'existent pas dans ESCO → concept parent (NoSQL, Java, DevOps, programmation informatique) ou laisser le keyword non couvert.
+
+### 2. Vérifier chaque URI retenue
+
+```sh
+curl -s -G "https://ec.europa.eu/esco/api/resource/skill" --data-urlencode "uri=<uri>" -d language=fr \
+  | jq '{fr: .preferredLabel.fr, en: .preferredLabel.en, type: ._links.hasSkillType[0].title}'
+```
+
+Contrôler le **label EN** (sens exact : « procéder à l'extraction de données » = *data mining*, pas du scraping). `label` = preferredLabel FR exact. Pour une occupation, récupérer `code`.
+
+### 3. Valider avec Adrien, un groupe à la fois
+
+Présenter un tableau `concept FR / EN | type | keywords couverts` par skill groupe et attendre la validation avant d'écrire dans `resume.json`.
+
+### 4. Écrire, auditer, exporter
+
+1. Ajouter dans `skills[].x-esco` (`covers` = keywords exacts) ou `x-esco-occupations`
+2. `task validate` + `task audit-esco` (couverture keyword par keyword, erreurs si `covers` périmé)
+3. `task export-esco` → commit `chore(esco)` séparé
+4. Bump `meta.version` (PATCH si enrichissement, MINOR si nouvelle dimension) + `meta.x-esco-retrieved`
+
+**Si un keyword est renommé/supprimé dans un skill**, mettre à jour les `covers` correspondants — `task audit-esco` échoue sinon.
 
 ## Workflow : enrichir le CV après une lecture Goodreads
 
