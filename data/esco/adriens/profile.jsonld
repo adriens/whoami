@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.37.2",
+  "x-resume-version": "v1.38.0",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -2547,7 +2547,13 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Developer Relations & Communication"
+        "Developer Relations & Communication",
+        "Savoir-être validé par les pairs",
+        "reference: Yolande Poirier",
+        "reference: Raimanu Pain",
+        "reference: Julie Besson",
+        "reference: Alban Seurat",
+        "reference: Ronny Soutart"
       ]
     },
     {
@@ -4013,7 +4019,13 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Créativité & Apprentissage autodidacte"
+        "Créativité & Apprentissage autodidacte",
+        "Savoir-être validé par les pairs",
+        "reference: Stéphanie BOUVET",
+        "reference: Guillaume Bertherat",
+        "reference: Michèle Barré",
+        "reference: Sabrina Vérolle",
+        "reference: Jean Paul OLIVE"
       ]
     },
     {
@@ -4054,6 +4066,263 @@
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "Créativité & Apprentissage autodidacte"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+      "termCode": "77b636e8-fab3-41a8-8022-1e0a354059dc",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "faire preuve d’empathie"
+        },
+        {
+          "@language": "en",
+          "@value": "show empathy"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Savoir-être validé par les pairs",
+        "reference: Yolande Poirier",
+        "reference: Raimanu Pain",
+        "reference: Clémentine Galin",
+        "reference: Ludwig MARTIN",
+        "reference: Dévi Bergès",
+        "reference: Thouraya Sakis",
+        "reference: Dévi Bergès",
+        "reference: Guillaume Bertherat",
+        "reference: Marc RODRIGUES",
+        "reference: Ronny Soutart",
+        "reference: José GOUE",
+        "reference: Clémentine Galin"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+      "termCode": "a17286c5-238d-4f0b-bc24-29e9121345de",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "écouter activement"
+        },
+        {
+          "@language": "en",
+          "@value": "listen actively"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Savoir-être validé par les pairs",
+        "reference: Yolande Poirier",
+        "reference: Raimanu Pain",
+        "reference: Clémentine Galin",
+        "reference: Ludwig MARTIN",
+        "reference: Dévi Bergès",
+        "reference: Thouraya Sakis",
+        "reference: Dévi Bergès",
+        "reference: Guillaume Bertherat",
+        "reference: Marc RODRIGUES",
+        "reference: Ronny Soutart",
+        "reference: José GOUE",
+        "reference: Clémentine Galin"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+      "termCode": "22b7d99d-252f-4572-8e3c-438ea87607eb",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "faire preuve d’enthousiasme"
+        },
+        {
+          "@language": "en",
+          "@value": "demonstrate enthusiasm"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Savoir-être validé par les pairs",
+        "reference: David BROUSTE",
+        "reference: Ludwig MARTIN",
+        "reference: Paul Monimeau",
+        "reference: Stéphanie BOUVET",
+        "reference: Romain Pelizzo",
+        "reference: Guillaume Bertherat",
+        "reference: David Kranitz",
+        "reference: Marc RODRIGUES",
+        "reference: M'Bakop Djadja",
+        "reference: Malcolm Bertaina",
+        "reference: José GOUE",
+        "reference: Jean Paul OLIVE",
+        "reference: Clémentine Galin",
+        "reference: James Langeron"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+      "termCode": "25e16679-a7d0-464d-916c-63210001bbab",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "agir de manière fiable"
+        },
+        {
+          "@language": "en",
+          "@value": "act reliably"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Savoir-être validé par les pairs",
+        "reference: David BROUSTE",
+        "reference: Ludwig MARTIN",
+        "reference: Dévi Bergès",
+        "reference: Thouraya Sakis",
+        "reference: Dévi Bergès",
+        "reference: Guillaume Bertherat",
+        "reference: Malcolm Bertaina",
+        "reference: Morgan Carré",
+        "reference: James Langeron"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+      "termCode": "18119ac9-9e43-4da3-8b79-45dd75fe6510",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "entretenir de bonnes relations de travail"
+        },
+        {
+          "@language": "en",
+          "@value": "maintain working relationships"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Savoir-être validé par les pairs",
+        "reference: Raimanu Pain",
+        "reference: Ludwig MARTIN",
+        "reference: Paul Monimeau",
+        "reference: Dévi Bergès",
+        "reference: Dévi Bergès",
+        "reference: Marc RODRIGUES",
+        "reference: Michèle Barré"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+      "termCode": "326809fc-238d-40c2-881e-40042f7f2f0d",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "établir des relations de collaboration"
+        },
+        {
+          "@language": "en",
+          "@value": "establish collaborative relations"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Savoir-être validé par les pairs",
+        "reference: Raimanu Pain",
+        "reference: Ludwig MARTIN",
+        "reference: Paul Monimeau",
+        "reference: Dévi Bergès",
+        "reference: Dévi Bergès",
+        "reference: Marc RODRIGUES",
+        "reference: Michèle Barré"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363",
+      "termCode": "91abe492-18be-4cce-93c7-0dca07072363",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "respecter des délais"
+        },
+        {
+          "@language": "en",
+          "@value": "meet deadlines"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Savoir-être validé par les pairs",
+        "reference: David BROUSTE",
+        "reference: Julie Besson",
+        "reference: Ludwig MARTIN",
+        "reference: Marc RODRIGUES",
+        "reference: Richard DEPLANQUE",
+        "reference: Sabrina Vérolle"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/60c78287-22eb-4103-9c8c-28deaa460da0",
+      "termCode": "60c78287-22eb-4103-9c8c-28deaa460da0",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "travailler en équipe"
+        },
+        {
+          "@language": "en",
+          "@value": "work in teams"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Savoir-être validé par les pairs",
+        "reference: David BROUSTE",
+        "reference: Julie Besson",
+        "reference: Paul Monimeau",
+        "reference: Ronny Soutart",
+        "reference: Michèle Barré"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d",
+      "termCode": "68698869-c13c-4563-adc7-118b7644f45d",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "identifier les besoins des clients"
+        },
+        {
+          "@language": "en",
+          "@value": "identify customer's needs"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Savoir-être validé par les pairs",
+        "reference: David BROUSTE",
+        "reference: Julie Besson",
+        "reference: Sébastien Bourlart",
+        "reference: Ida Carapelle Goossens",
+        "reference: Jean Paul OLIVE"
       ]
     },
     {
@@ -4690,6 +4959,298 @@
           ],
           "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills"
         }
+      ]
+    }
+  ],
+  "x-endorsements": [
+    {
+      "author": "Yolande Poirier",
+      "date": "2026-07-22",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+      ]
+    },
+    {
+      "author": "Raimanu Pain",
+      "date": "2026-07-21",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+        "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+        "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+      ]
+    },
+    {
+      "author": "David BROUSTE",
+      "date": "2026-06-27",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d",
+        "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+        "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363",
+        "http://data.europa.eu/esco/skill/60c78287-22eb-4103-9c8c-28deaa460da0",
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb"
+      ]
+    },
+    {
+      "author": "Julie Besson",
+      "date": "2026-06-14",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d",
+        "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337",
+        "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363",
+        "http://data.europa.eu/esco/skill/60c78287-22eb-4103-9c8c-28deaa460da0"
+      ]
+    },
+    {
+      "author": "Clémentine Galin",
+      "date": "2026-06-04",
+      "source": "YouTube",
+      "attests": [
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+      ]
+    },
+    {
+      "author": "Ludwig MARTIN",
+      "date": "2026-05-28",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+        "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+        "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+        "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363"
+      ]
+    },
+    {
+      "author": "Paul Monimeau",
+      "date": "2026-06-04",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+        "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+        "http://data.europa.eu/esco/skill/60c78287-22eb-4103-9c8c-28deaa460da0"
+      ]
+    },
+    {
+      "author": "Dévi Bergès",
+      "date": "2026-06-02",
+      "source": "YouTube",
+      "attests": [
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+        "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+        "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d"
+      ]
+    },
+    {
+      "author": "Stéphanie BOUVET",
+      "date": "2026-06-01",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+        "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec"
+      ]
+    },
+    {
+      "author": "Thouraya Sakis",
+      "date": "2026-05-28",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+      ]
+    },
+    {
+      "author": "Dévi Bergès",
+      "date": "2026-05-28",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+        "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+        "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d"
+      ]
+    },
+    {
+      "author": "Romain Pelizzo",
+      "date": "2026-05-28",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb"
+      ]
+    },
+    {
+      "author": "Guillaume Bertherat",
+      "date": "2026-05-26",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+        "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec"
+      ]
+    },
+    {
+      "author": "David Kranitz",
+      "date": "2026-05-27",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb"
+      ]
+    },
+    {
+      "author": "Marc RODRIGUES",
+      "date": "2026-05-26",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+        "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+        "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d"
+      ]
+    },
+    {
+      "author": "Sébastien Bourlart",
+      "date": "2024-08-01",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d"
+      ]
+    },
+    {
+      "author": "Ida Carapelle Goossens",
+      "date": "2019-05-05",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d"
+      ]
+    },
+    {
+      "author": "Alban Seurat",
+      "date": "2018-11-28",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+      ]
+    },
+    {
+      "author": "M'Bakop Djadja",
+      "date": "2018-10-21",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb"
+      ]
+    },
+    {
+      "author": "Richard DEPLANQUE",
+      "date": "2018-10-23",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363"
+      ]
+    },
+    {
+      "author": "Ronny Soutart",
+      "date": "2021-04-14",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/60c78287-22eb-4103-9c8c-28deaa460da0",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+        "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337"
+      ]
+    },
+    {
+      "author": "Malcolm Bertaina",
+      "date": "2025-03-16",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb"
+      ]
+    },
+    {
+      "author": "Morgan Carré",
+      "date": "2025-03-17",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab"
+      ]
+    },
+    {
+      "author": "Michèle Barré",
+      "date": "2018-10-24",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+        "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+        "http://data.europa.eu/esco/skill/60c78287-22eb-4103-9c8c-28deaa460da0",
+        "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec"
+      ]
+    },
+    {
+      "author": "Sabrina Vérolle",
+      "date": "2026-05-25",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363",
+        "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec"
+      ]
+    },
+    {
+      "author": "José GOUE",
+      "date": "2025-11-24",
+      "source": "YouTube",
+      "attests": [
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+      ]
+    },
+    {
+      "author": "Jean Paul OLIVE",
+      "date": "2026-05-25",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d",
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+        "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec"
+      ]
+    },
+    {
+      "author": "Clémentine Galin",
+      "date": "2026-05-25",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+        "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+        "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de"
+      ]
+    },
+    {
+      "author": "James Langeron",
+      "date": "2026-05-25",
+      "source": "LinkedIn",
+      "attests": [
+        "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+        "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab"
       ]
     }
   ]
