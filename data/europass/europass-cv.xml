@@ -99,6 +99,8 @@
         <oa:PostalCode>98800</oa:PostalCode>
       </Address>
     </Communication>
+    <NationalityCode>fr</NationalityCode>
+    <GenderCode>male</GenderCode>
     <PrimaryLanguageCode name="NORMAL">fra</PrimaryLanguageCode>
   </CandidatePerson>
   <CandidateProfile languageCode="fr">
