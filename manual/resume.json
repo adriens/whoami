@@ -1906,6 +1906,33 @@
             "Dev.to",
             "Évangélisation par la pratique"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/f3dea00d-53d9-4148-9304-986a14ff5b00",
+          "label": "faire preuve d'humour",
+          "type": "skill/competence",
+          "covers": [
+            "Détournements vidéo tech",
+            "Vulgarisation"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/9c72fa23-60c5-4b90-81a8-44a871beb4e5",
+          "label": "susciter des émotions dans le public",
+          "type": "skill/competence",
+          "covers": [
+            "Détournements vidéo tech",
+            "Storytelling"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/5ce80f97-b385-4a41-9339-a6593d0709c1",
+          "label": "effectuer un montage vidéo",
+          "type": "skill/competence",
+          "covers": [
+            "Détournements vidéo tech",
+            "YouTube"
+          ]
         }
       ]
     },
@@ -4282,7 +4309,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.35.6",
+    "version": "v1.35.7",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
