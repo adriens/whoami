@@ -2,7 +2,7 @@
 
 [Europass](https://europa.eu/europass/fr) est la plateforme gratuite de la Commission européenne pour le profil et le CV ; ses sélecteurs de compétences et de métiers sont [ESCO](../esco/README.md).
 
-## Fichier généré — `adriens/europass-cv.xml`
+## Fichier généré — `europass-cv.xml`
 
 **Ne pas éditer à la main** — régénérer avec `task export-europass` (validé contre le schéma par `xmllint`).
 
@@ -19,7 +19,7 @@ Format : document **Europass Candidate** (HR-XML 3 + extensions Europass/EURES),
 | Publications | `publications[]` |
 | Sections libres | Compétences transversales (skills non numériques), Certifications, Bénévolat, Distinctions & interventions, Projets, Centres d'intérêt (`pro`/`mixed`), Référentiel ESCO |
 
-**ESCO** : le format ne porte pas d'URI. Les concepts sont repris en texte (libellés FR exacts) dans la section libre « Référentiel ESCO » ; pour des compétences *reliées* à ESCO dans le profil Europass, les re-sélectionner dans l'éditeur à partir de ces libellés (ou de `data/esco/adriens/_index.csv`).
+**ESCO** : le format ne porte pas d'URI. Les concepts sont repris en texte (libellés FR exacts) dans la section libre « Référentiel ESCO » ; pour des compétences *reliées* à ESCO dans le profil Europass, les re-sélectionner dans l'éditeur à partir de ces libellés (ou de `data/esco/_index.csv`).
 
 ## Import
 
