@@ -3029,6 +3029,111 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Savoir-être validé par les pairs",
+      "level": "Expert",
+      "keywords": [
+        "Approche centrée sur l'humain (12 recos)",
+        "Enthousiasme & dynamisme (14 recos)",
+        "Disponibilité & réactivité (9 recos)",
+        "Relations de confiance durables (7 recos)",
+        "Sens de la livraison (6 recos)",
+        "Culture d'équipe (5 recos)",
+        "Écoute des besoins clients (5 recos)",
+        "Communication (5 recos)",
+        "Force de proposition (5 recos)"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+          "label": "faire preuve d’empathie",
+          "type": "skill/competence",
+          "covers": [
+            "Approche centrée sur l'humain (12 recos)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+          "label": "écouter activement",
+          "type": "skill/competence",
+          "covers": [
+            "Approche centrée sur l'humain (12 recos)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence",
+          "covers": [
+            "Enthousiasme & dynamisme (14 recos)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+          "label": "agir de manière fiable",
+          "type": "skill/competence",
+          "covers": [
+            "Disponibilité & réactivité (9 recos)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+          "label": "entretenir de bonnes relations de travail",
+          "type": "skill/competence",
+          "covers": [
+            "Relations de confiance durables (7 recos)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+          "label": "établir des relations de collaboration",
+          "type": "skill/competence",
+          "covers": [
+            "Relations de confiance durables (7 recos)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363",
+          "label": "respecter des délais",
+          "type": "skill/competence",
+          "covers": [
+            "Sens de la livraison (6 recos)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/60c78287-22eb-4103-9c8c-28deaa460da0",
+          "label": "travailler en équipe",
+          "type": "skill/competence",
+          "covers": [
+            "Culture d'équipe (5 recos)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d",
+          "label": "identifier les besoins des clients",
+          "type": "skill/competence",
+          "covers": [
+            "Écoute des besoins clients (5 recos)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337",
+          "label": "utiliser des techniques de communication",
+          "type": "skill/competence",
+          "covers": [
+            "Communication (5 recos)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec",
+          "label": "penser de manière proactive",
+          "type": "skill/competence",
+          "covers": [
+            "Force de proposition (5 recos)"
+          ]
+        }
+      ]
     }
   ],
   "languages": [
@@ -3237,6 +3342,23 @@
         "nouvelle-caledonie",
         "knowledge-sharing",
         "cross-company"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+          "label": "faire preuve d’empathie",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+          "label": "écouter activement",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337",
+          "label": "utiliser des techniques de communication",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3263,6 +3385,33 @@
         "continuous-improvement",
         "networking",
         "lasting-impact"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+          "label": "faire preuve d’empathie",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+          "label": "écouter activement",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+          "label": "entretenir de bonnes relations de travail",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+          "label": "établir des relations de collaboration",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337",
+          "label": "utiliser des techniques de communication",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3293,6 +3442,33 @@
         "continuous-improvement",
         "management-agile",
         "lean"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d",
+          "label": "identifier les besoins des clients",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+          "label": "agir de manière fiable",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363",
+          "label": "respecter des délais",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/60c78287-22eb-4103-9c8c-28deaa460da0",
+          "label": "travailler en équipe",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3322,6 +3498,28 @@
         "delivery-focus",
         "team-culture",
         "pleasure-to-work-with"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d",
+          "label": "identifier les besoins des clients",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337",
+          "label": "utiliser des techniques de communication",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363",
+          "label": "respecter des délais",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/60c78287-22eb-4103-9c8c-28deaa460da0",
+          "label": "travailler en équipe",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3344,6 +3542,18 @@
         "curiosite",
         "knowledge-sharing",
         "unc-partnership"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+          "label": "faire preuve d’empathie",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+          "label": "écouter activement",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3375,6 +3585,43 @@
         "innovation",
         "delivery-focus",
         "opt-nc"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+          "label": "faire preuve d’empathie",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+          "label": "écouter activement",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+          "label": "entretenir de bonnes relations de travail",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+          "label": "établir des relations de collaboration",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+          "label": "agir de manière fiable",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363",
+          "label": "respecter des délais",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3401,6 +3648,28 @@
         "api-fication",
         "data-science",
         "mobile"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+          "label": "entretenir de bonnes relations de travail",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+          "label": "établir des relations de collaboration",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/60c78287-22eb-4103-9c8c-28deaa460da0",
+          "label": "travailler en équipe",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3426,6 +3695,33 @@
         "unc-partnership",
         "projet-tutore",
         "opt-nc"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+          "label": "faire preuve d’empathie",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+          "label": "écouter activement",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+          "label": "agir de manière fiable",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+          "label": "entretenir de bonnes relations de travail",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+          "label": "établir des relations de collaboration",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3445,6 +3741,18 @@
         "dynamism",
         "technical-expertise",
         "force-de-proposition"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec",
+          "label": "penser de manière proactive",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3469,7 +3777,24 @@
         "civic-tech",
         "isee-nc"
       ],
-      "x-position": "Collaboratrice ISEE-NC"
+      "x-position": "Collaboratrice ISEE-NC",
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+          "label": "agir de manière fiable",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+          "label": "faire preuve d’empathie",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+          "label": "écouter activement",
+          "type": "skill/competence"
+        }
+      ]
     },
     {
       "name": "Dévi Bergès",
@@ -3496,6 +3821,33 @@
         "interoperability",
         "innovation",
         "opt-nc"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+          "label": "faire preuve d’empathie",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+          "label": "écouter activement",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+          "label": "agir de manière fiable",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+          "label": "entretenir de bonnes relations de travail",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+          "label": "établir des relations de collaboration",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3519,6 +3871,13 @@
         "knowledge-sharing",
         "tech-enthusiasm",
         "opt-nc"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3544,6 +3903,33 @@
         "human-centric",
         "force-de-proposition",
         "opt-nc"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+          "label": "agir de manière fiable",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+          "label": "faire preuve d’empathie",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+          "label": "écouter activement",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec",
+          "label": "penser de manière proactive",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3571,6 +3957,13 @@
         "nouvelle-caledonie",
         "iot",
         "tech-enthusiasm"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3596,6 +3989,38 @@
         "pleasure-to-work-with",
         "lasting-impact",
         "opt-nc"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363",
+          "label": "respecter des délais",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+          "label": "faire preuve d’empathie",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+          "label": "écouter activement",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+          "label": "entretenir de bonnes relations de travail",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+          "label": "établir des relations de collaboration",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3612,6 +4037,13 @@
         "client-relationship",
         "technical-expertise",
         "business-acumen"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d",
+          "label": "identifier les besoins des clients",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3631,6 +4063,13 @@
         "networking",
         "client-relationship",
         "qualites-humaines"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d",
+          "label": "identifier les besoins des clients",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3650,6 +4089,13 @@
         "knowledge-sharing",
         "continuous-improvement",
         "pragmatisme-techno"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337",
+          "label": "utiliser des techniques de communication",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3670,6 +4116,13 @@
         "internship-to-hire",
         "lasting-impact",
         "dynamism"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3743,6 +4196,13 @@
         "long-term-collaboration",
         "delivery-focus",
         "innovation"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363",
+          "label": "respecter des délais",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3788,6 +4248,28 @@
         "communication",
         "curiosite",
         "opt-nc"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/60c78287-22eb-4103-9c8c-28deaa460da0",
+          "label": "travailler en équipe",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+          "label": "faire preuve d’empathie",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+          "label": "écouter activement",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/7ff2c668-0e86-418a-a962-4958262ee337",
+          "label": "utiliser des techniques de communication",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3810,6 +4292,18 @@
         "transmission",
         "tech-enthusiasm",
         "opt-nc"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+          "label": "agir de manière fiable",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3832,6 +4326,13 @@
         "stage",
         "polytech-nice",
         "opt-nc"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+          "label": "agir de manière fiable",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3855,6 +4356,28 @@
         "innovation",
         "force-de-proposition",
         "dsi-noumea"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510",
+          "label": "entretenir de bonnes relations de travail",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d",
+          "label": "établir des relations de collaboration",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/60c78287-22eb-4103-9c8c-28deaa460da0",
+          "label": "travailler en équipe",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec",
+          "label": "penser de manière proactive",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3901,6 +4424,18 @@
         "force-de-proposition",
         "knowledge-sharing",
         "opt-nc"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363",
+          "label": "respecter des délais",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec",
+          "label": "penser de manière proactive",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3925,6 +4460,23 @@
         "unc-partnership",
         "pacifique",
         "nouvelle-caledonie"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+          "label": "faire preuve d’empathie",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+          "label": "écouter activement",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3955,6 +4507,23 @@
         "force-de-proposition",
         "lasting-impact",
         "opt-nc"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d",
+          "label": "identifier les besoins des clients",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec",
+          "label": "penser de manière proactive",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -3980,6 +4549,23 @@
         "unc-partnership",
         "human-centric",
         "curiosite"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc",
+          "label": "faire preuve d’empathie",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de",
+          "label": "écouter activement",
+          "type": "skill/competence"
+        }
       ]
     },
     {
@@ -4005,6 +4591,18 @@
         "disponibilite",
         "technical-expertise",
         "unc-partnership"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb",
+          "label": "faire preuve d’enthousiasme",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab",
+          "label": "agir de manière fiable",
+          "type": "skill/competence"
+        }
       ]
     }
   ],
@@ -4830,7 +5428,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.37.2",
+    "version": "v1.38.0",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
