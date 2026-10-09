@@ -312,6 +312,13 @@
         "endoflife.date-neo4j référencé dans le wiki officiel aux côtés de Dynatrace et Shodan",
         "Contributions YAML de données de fin de vie pour plusieurs composants open source, datasets Kaggle automatisés depuis l'API endoflife.date, rapports et fonctionnalités geol — écosystème complet bâti autour du projet",
         "Intégration utilisée dans la stack DevSecOps de l'OPT-NC"
+      ],
+      "x-esco-occupations": [
+        {
+          "uri": "http://data.europa.eu/esco/occupation/f2b15a0e-e65a-438a-affb-29b9d50b77d1",
+          "label": "développeur de logiciels/développeuse de logiciels",
+          "code": "2512.3"
+        }
       ]
     },
     {
@@ -336,6 +343,13 @@
         "Démonstration de l'agent IA de cartographie du SI",
         "Présentation des réalisations des étudiants Master MIAGE",
         "Août 2026 — présentation de geol devant les commissions Data & IA et Cybersécurité réunies (RSSI, DSI, chefs de projets, développeurs, enseignants et étudiants Licence Info UNC) : 3 démos live, dont la mise en œuvre de l'outil sur un repo vierge avec CI en moins de 3 minutes, et un sujet de stage ML issu de l'auditoire"
+      ],
+      "x-esco-occupations": [
+        {
+          "uri": "http://data.europa.eu/esco/occupation/258e46f9-0075-4a2e-adae-1ff0477e0f30",
+          "label": "scientifique des données",
+          "code": "2511.3"
+        }
       ]
     },
     {
@@ -368,6 +382,13 @@
         "Pitch #HackAVP au module (2ème session, août→décembre 2026) : les étudiants de la promotion concourent au hackathon en tant qu'équipes candidates — le module s'articule directement sur un cas réel d'ouverture de données publiques (OPT-NC/Station N/OPEN NC)",
         "Projection de la vidéo teaser #HackAVP (31/08/2026) en cours le soir même — démonstration des ressources open data (API, MCP, dataset HuggingFace) directement au groupe d'étudiants concourant au hackathon",
         "Inscription effective des étudiants au #HackAVP (31/08/2026, le soir même de la projection) — passage de l'intention pédagogique à la participation concrète, en amont du lancement du 09/09/2026"
+      ],
+      "x-esco-occupations": [
+        {
+          "uri": "http://data.europa.eu/esco/occupation/1092dd4c-b96b-4b3f-87fe-4a9e8d1937fb",
+          "label": "chargé de cours/chargée de cours",
+          "code": "2310.1.42"
+        }
       ]
     },
     {
@@ -388,6 +409,13 @@
         "Attaques de requins NC : dataset Kaggle, 3 notebooks d'analyse géospatiale, rapport PDF généré via Quarto — sécurité maritime citoyenne documentée en data science",
         "Eaux de baignade Nouméa : package Python edb-noumea (PyPI v0.4.0), TUI Go, données live — réutilisation publiée et maintenue sur data.gouv.nc",
         "Pattern reproductible #techforgood : open data → scraping → dataset Kaggle → notebooks → rapport Quarto"
+      ],
+      "x-esco-occupations": [
+        {
+          "uri": "http://data.europa.eu/esco/occupation/d3edb8f8-3a06-47a0-8fb9-9b212c006aa2",
+          "label": "analyste de données",
+          "code": "2511.2"
+        }
       ]
     }
   ],
@@ -675,6 +703,23 @@
         "management",
         "scrum",
         "recognition"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4",
+          "label": "gestion de projets par méthode Agile",
+          "type": "knowledge"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/bec4359e-cb92-468f-a997-8fb28e32fba9",
+          "label": "méthodes de gestion de projets TIC",
+          "type": "knowledge"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/dba46f87-0831-49cd-a1c7-340a653c0221",
+          "label": "développement par méthode agile",
+          "type": "knowledge"
+        }
       ]
     },
     {
@@ -686,6 +731,28 @@
         "scrum",
         "product",
         "recognition"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/0a9acb6b-1139-4be9-b431-3a80a959f2f4",
+          "label": "gestion de projets par méthode Agile",
+          "type": "knowledge"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/fd4386c5-96f0-4c6e-970c-c08729ae0cc6",
+          "label": "élaborer la conception d'un produit",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a8797f21-1af0-4c5e-98ca-bf1442929363",
+          "label": "interagir avec les utilisateurs pour définir leurs exigences",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/21e0cad8-4eef-42be-b18b-0f8e37f0dbd0",
+          "label": "cycle de vie d’un produit",
+          "type": "knowledge"
+        }
       ]
     }
   ],
@@ -2705,19 +2772,87 @@
   "languages": [
     {
       "language": "Français",
-      "fluency": "Natif"
+      "fluency": "Natif",
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/e747e77e-0ea1-4001-8b07-1d11946b5f1b",
+          "label": "Français",
+          "type": "knowledge"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/2ce713f2-c684-4fa3-8e56-939e4bfbf4a2",
+          "label": "comprendre le français parlé",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/4ff6df71-6988-4300-8966-9fabb2b59186",
+          "label": "comprendre le français écrit",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/5dfc81aa-c395-4e88-a0e0-a2fbb681ecc0",
+          "label": "écrire en français",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/bfb5f0b8-0ea0-4e44-a48d-7d876f966758",
+          "label": "interagir verbalement en français",
+          "type": "skill/competence"
+        }
+      ]
     },
     {
       "language": "Anglais",
-      "fluency": "Professionnel — articles, talks et vidéos en live"
+      "fluency": "Professionnel — articles, talks et vidéos en live",
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/6d3edede-8951-4621-a835-e04323300fa0",
+          "label": "anglais",
+          "type": "knowledge"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/64ff8d5f-58a8-4efb-af5a-e161854b3e9a",
+          "label": "comprendre l'anglais parlé",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/7ee20fe2-facd-4cc5-837b-927429e0e7ac",
+          "label": "comprendre l’anglais écrit",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/3993c87c-7719-4186-811b-8ddfb40e76be",
+          "label": "écrire en anglais",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/0ee9e985-0ee5-4a73-8a12-78b53b261bb2",
+          "label": "interagir verbalement en anglais",
+          "type": "skill/competence"
+        }
+      ]
     },
     {
       "language": "Allemand",
-      "fluency": "Notions"
+      "fluency": "Notions",
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/4812a4ea-dc55-4dc6-b9b0-4a59bba2c647",
+          "label": "allemand",
+          "type": "knowledge"
+        }
+      ]
     },
     {
       "language": "Espagnol",
-      "fluency": "Notions"
+      "fluency": "Notions",
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/14ee9f76-3524-43d5-8a1a-5ba8283f8bd7",
+          "label": "espagnol",
+          "type": "knowledge"
+        }
+      ]
     }
   ],
   "interests": [
@@ -4411,7 +4546,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.35.9",
+    "version": "v1.36.0",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
