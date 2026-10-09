@@ -108,7 +108,11 @@
         "label": "chargé de cours/chargée de cours",
         "code": "2310.1.42"
       }
-    ]
+    ],
+    "x-nationality": [
+      "FR"
+    ],
+    "x-gender": "male"
   },
   "work": [
     {
