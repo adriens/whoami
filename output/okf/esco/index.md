@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-09'
 ---
 
-153 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+156 concepts ESCO rattachés au profil (retrieved 2026-10-09).
 
 ## Métiers
 
@@ -75,6 +75,7 @@ timestamp: '2026-10-09'
 - [effectuer des présentations publiques](effectuer-des-presentations-publiques.md) — 1 entrées
 - [effectuer des recherches dans des bases de données](effectuer-des-recherches-dans-des-bases-de-donnees.md) — 2 entrées
 - [effectuer l’examen du code source](effectuer-lexamen-du-code-source.md) — 1 entrées
+- [effectuer un montage vidéo](effectuer-un-montage-video.md) — 1 entrées
 - [effectuer une analyse de données](effectuer-une-analyse-de-donnees.md) — 1 entrées
 - [encourager des équipes à rechercher l’amélioration continue](encourager-des-equipes-a-rechercher-lamelioration-continue.md) — 1 entrées
 - [encourager le renforcement d’équipe](encourager-le-renforcement-dequipe.md) — 1 entrées
@@ -86,6 +87,7 @@ timestamp: '2026-10-09'
 - [entretenir des relations avec des fournisseurs](entretenir-des-relations-avec-des-fournisseurs.md) — 1 entrées
 - [exploration de données](exploration-de-donnees.md) — 1 entrées
 - [faire des commentaires constructifs](faire-des-commentaires-constructifs.md) — 1 entrées
+- [faire preuve d'humour](faire-preuve-d-humour.md) — 1 entrées
 - [faire preuve de curiosité](faire-preuve-de-curiosite.md) — 1 entrées
 - [faire preuve d’esprit d’entreprise](faire-preuve-desprit-dentreprise.md) — 1 entrées
 - [favoriser le travail en équipe entre élèves](favoriser-le-travail-en-equipe-entre-eleves.md) — 1 entrées
@@ -151,6 +153,7 @@ timestamp: '2026-10-09'
 - [suivre des indicateurs clés de performance](suivre-des-indicateurs-cles-de-performance.md) — 1 entrées
 - [suivre les tendances technologiques](suivre-les-tendances-technologiques.md) — 1 entrées
 - [superviser le développement d’un logiciel](superviser-le-developpement-dun-logiciel.md) — 1 entrées
+- [susciter des émotions dans le public](susciter-des-emotions-dans-le-public.md) — 1 entrées
 - [systèmes embarqués](systemes-embarques.md) — 1 entrées
 - [techniques d'écriture](techniques-d-ecriture.md) — 1 entrées
 - [technologies émergentes](technologies-emergentes.md) — 1 entrées

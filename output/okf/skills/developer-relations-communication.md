@@ -28,3 +28,6 @@ Mots-clés : Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation
 - [rédiger des textes professionnels](../esco/rediger-des-textes-professionnels.md) — *skill/competence*
 - [utiliser des techniques de communication](../esco/utiliser-des-techniques-de-communication.md) — *skill/competence*
 - [stratégie de marketing de contenu](../esco/strategie-de-marketing-de-contenu.md) — *knowledge*
+- [faire preuve d'humour](../esco/faire-preuve-d-humour.md) — *skill/competence*
+- [susciter des émotions dans le public](../esco/susciter-des-emotions-dans-le-public.md) — *skill/competence*
+- [effectuer un montage vidéo](../esco/effectuer-un-montage-video.md) — *skill/competence*
