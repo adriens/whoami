@@ -1,4 +1,4 @@
-"""Export du profil ESCO depuis manual/resume.json → data/esco/adriens/.
+"""Export du profil ESCO depuis manual/resume.json → data/esco/.
 
 Artefact généré (ne pas éditer à la main) — resume.json reste la source de vérité
 (`skills[].x-esco`, `basics.x-esco-occupations`, `work[].x-esco-occupations`).
@@ -18,7 +18,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 RESUME = ROOT / "manual" / "resume.json"
-OUT = ROOT / "data" / "esco" / "adriens"
+OUT = ROOT / "data" / "esco"
 API = "https://ec.europa.eu/esco/api/resource"
 SCHEMES = {
     "skill": "http://data.europa.eu/esco/concept-scheme/skills",

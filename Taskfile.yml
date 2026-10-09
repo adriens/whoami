@@ -38,12 +38,12 @@ tasks:
       - uv run scripts/audit-esco.py
 
   export-esco:
-    desc: Exporter le profil ESCO → data/esco/adriens/ (CSV + JSON-LD, labels EN via API ESCO)
+    desc: Exporter le profil ESCO → data/esco/ (CSV + JSON-LD, labels EN via API ESCO)
     cmds:
       - uv run scripts/export-esco.py
 
   export-europass:
-    desc: Exporter le CV au format Europass → data/europass/adriens/europass-cv.xml (validé XSD)
+    desc: Exporter le CV au format Europass → data/europass/europass-cv.xml (validé XSD)
     cmds:
       - uv run scripts/export-europass.py
 

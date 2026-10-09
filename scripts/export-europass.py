@@ -27,7 +27,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 RESUME = ROOT / "manual" / "resume.json"
-OUT = ROOT / "data" / "europass" / "adriens" / "europass-cv.xml"
+OUT = ROOT / "data" / "europass" / "europass-cv.xml"
 XSD = ROOT / "data" / "europass" / "schema" / "europass-candidate.xsd"
 
 NS = {
