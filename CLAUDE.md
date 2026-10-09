@@ -25,7 +25,7 @@ Site portfolio Astro déployé sur GitHub Pages : https://adriens.github.io/whoa
 data/
   dev_to/adriens/         # articles DEV.to @adriens
   dev_to/opt-nc/          # articles DEV.to @opt-nc
-  youtube/devops-lab/     # vidéos + _stats.json (subscriber_count) + playlists/*.md + _playlists_index.csv
+  youtube/devops-lab/     # vidéos + _stats.json (subscriber_count) + playlists/*.md + _playlists_index.csv + transcripts/<id>.txt (+ _unavailable.csv)
   goodreads/124105866/    # livres lus
   kaggle/adriensales/     # datasets Kaggle
   huggingface/rastadidi/  # datasets + spaces HuggingFace
@@ -62,6 +62,7 @@ task fetch-all              # Fetch toutes les sources + knowledge base
 task fetch-devto            # Articles DEV.to (adriens + opt-nc)
 task fetch-youtube          # Vidéos + playlists YouTube (devops-lab)
 task fetch-youtube-playlists  # Playlists uniquement (devops-lab)
+task fetch-youtube-transcripts  # Transcriptions (reprise auto ; YouTube bloque l'IP si trop rapide → relancer plus tard)
 task fetch-goodreads        # Livres Goodreads
 task fetch-kaggle           # Datasets Kaggle
 task fetch-hf               # Datasets & spaces HuggingFace (rastadidi)
@@ -317,7 +318,7 @@ views: <int>
 uv run --with youtube-transcript-api scripts/yt-transcript.py <video_id_ou_url>
 ```
 
-Le titre seul ne suffit pas. Le transcript permet de :
+**Enregistrer** le transcript dans `data/youtube/devops-lab/transcripts/<id>.txt` (`task fetch-youtube-transcripts` le fait pour toutes les vidéos manquantes). Le titre seul ne suffit pas. Le transcript permet de :
 - Déterminer la langue réelle (`lang`) — le titre peut être dans une langue, la vidéo dans une autre
 - Identifier les entrées `resume.json` liées (projets, awards, skills mentionnés)
 - Détecter les tags manquants dans les entrées existantes
