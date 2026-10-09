@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-10-09",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.35.6",
+  "x-resume-version": "v1.35.7",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -2085,6 +2085,66 @@
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/f3dea00d-53d9-4148-9304-986a14ff5b00",
+      "termCode": "f3dea00d-53d9-4148-9304-986a14ff5b00",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "faire preuve d'humour"
+        },
+        {
+          "@language": "en",
+          "@value": "practice humour"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/9c72fa23-60c5-4b90-81a8-44a871beb4e5",
+      "termCode": "9c72fa23-60c5-4b90-81a8-44a871beb4e5",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "susciter des émotions dans le public"
+        },
+        {
+          "@language": "en",
+          "@value": "engage the audience emotionally"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/5ce80f97-b385-4a41-9339-a6593d0709c1",
+      "termCode": "5ce80f97-b385-4a41-9339-a6593d0709c1",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "effectuer un montage vidéo"
+        },
+        {
+          "@language": "en",
+          "@value": "perform video editing"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "Developer Relations & Communication"
       ]
