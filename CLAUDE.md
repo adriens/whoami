@@ -40,8 +40,8 @@ data/
   iot/adriens/            # inventaire devices IoT/Maker (devices/*.md + _index.csv + _stats.json)
   stagiaires/adriens/    # inventaire stagiaires et projets tutorés encadrés (stagiaires/*.md + _index.csv + _stats.json)
   zenodo/adriens/        # publications scientifiques Zenodo (publications/*.json + _index.csv) — JSON-LD schema.org/ScholarlyArticle, saisie manuelle
-  esco/adriens/          # export ESCO généré depuis resume.json (_index.csv + profile.jsonld) — `task export-esco`, voir data/esco/README.md
-  europass/adriens/      # CV Europass généré depuis resume.json (europass-cv.xml, à importer sur europa.eu/europass) — `task export-europass`, voir data/europass/README.md
+  esco/                  # export ESCO généré depuis resume.json (_index.csv + profile.jsonld) — `task export-esco`, voir data/esco/README.md
+  europass/              # CV Europass généré depuis resume.json (europass-cv.xml, à importer sur europa.eu/europass) — `task export-europass`, voir data/europass/README.md
 manual/resume.json        # source de vérité CV
 ```
 
@@ -74,8 +74,8 @@ task fetch-pypi             # Packages PyPI @rastadidi (PyPI JSON API)
 task build-knowledge-base   # Générer output/knowledge-base.md (full)
 task build-knowledge-base-lite  # Générer output/knowledge-base.md (lite)
 task build-okf              # Générer output/okf/ — bundle Open Knowledge Format v0.1
-task export-esco            # Générer data/esco/adriens/ (CSV + JSON-LD, labels EN via API ESCO)
-task export-europass        # Générer data/europass/adriens/europass-cv.xml (CV Europass importable, validé XSD)
+task export-esco            # Générer data/esco/ (CSV + JSON-LD, labels EN via API ESCO)
+task export-europass        # Générer data/europass/europass-cv.xml (CV Europass importable, validé XSD)
 ```
 
 ### Bundle OKF (Open Knowledge Format)
@@ -617,7 +617,7 @@ git add output/okf && git commit -m "chore(kb): rebuild OKF bundle (vX.Y.Z)"
 **Règle absolue — régénérer le CV Europass à chaque tag.** Juste après le bundle OKF, avant de poser le tag (le XML embarque `meta.version` dans son `DocumentID`, il doit correspondre au tag) :
 
 ```sh
-task export-europass   # régénère data/europass/adriens/europass-cv.xml + validation XSD (échoue si non conforme)
+task export-europass   # régénère data/europass/europass-cv.xml + validation XSD (échoue si non conforme)
 git add data/europass && git commit -m "chore(europass): rebuild Europass CV export (vX.Y.Z)"
 ```
 
