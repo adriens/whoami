@@ -34,9 +34,18 @@ const escoJsonLd = {
   hasOccupation: [
     ...(basics['x-esco-occupations'] ?? []),
     ...work.flatMap((w: any) => w['x-esco-occupations'] ?? []),
+    ...volunteer.flatMap((v: any) => v['x-esco-occupations'] ?? []),
   ].filter((o: any, i: number, all: any[]) => all.findIndex((x: any) => x.uri === o.uri) === i)
    .map((o: any) => ({ '@type': 'Occupation', name: escoShort(o.label), occupationalCategory: escoTerm(o, 'occupations') })),
   knowsAbout: escoSkills.map((e: any) => escoTerm(e, 'skills')),
+  knowsLanguage: languages.map((l: any) => ({
+    '@type': 'Language', name: l.language,
+    ...(l['x-esco']?.length ? { sameAs: l['x-esco'][0].uri } : {}),
+  })),
+  hasCredential: certificates.map((c: any) => ({
+    '@type': 'EducationalOccupationalCredential', name: c.name,
+    about: (c['x-esco'] ?? []).map((e: any) => escoTerm(e, 'skills')),
+  })),
 };
 
 function awardBadgeClass(date: string): string {
@@ -463,6 +472,14 @@ function levelDots(level: string): number {
                     </div>
                     <time>{v.startDate}{v.endDate ? ` → ${v.endDate}` : ''}</time>
                   </div>
+                  {v['x-esco-occupations']?.length > 0 && (
+                    <div class="esco-row">
+                      <span class="esco-label" title="Métier(s) du référentiel européen ESCO">ESCO</span>
+                      {v['x-esco-occupations'].map((o: any) => (
+                        <a class="tag tag-esco" href={escoHref(o.uri)} target="_blank" rel="noopener" title={`${o.label} — ISCO ${o.code}`}>{escoShort(o.label)}</a>
+                      ))}
+                    </div>
+                  )}
                   {v.summary && <p class="muted">{v.summary}</p>}
                   {v.highlights?.length > 0 && (
                     <details class="highlights-toggle" open>
@@ -549,6 +566,14 @@ function levelDots(level: string): number {
                 <div>
                   <strong>{c.name}</strong>
                   <span class="cert-meta">{c.issuer}{c.date ? ` · ${c.date.substring(0, 4)}` : ''}</span>
+                  {c['x-esco']?.length > 0 && (
+                    <div class="esco-row">
+                      <span class="esco-label" title="Compétences ESCO attestées">ESCO</span>
+                      {c['x-esco'].map((e: any) => (
+                        <a class="tag tag-esco" href={escoHref(e.uri)} target="_blank" rel="noopener">{e.label}</a>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
@@ -810,7 +835,12 @@ function levelDots(level: string): number {
           <h2><i class="fa-solid fa-language"></i> Langues</h2>
           <div class="lang-list">
             {languages.map((l: any) => (
-              <span>{langFlag(l.language)} <strong>{l.language}</strong> — {l.fluency}</span>
+              <span>{langFlag(l.language)} <strong>{l.language}</strong> — {l.fluency}
+                {l['x-esco']?.length > 0 && (
+                  <a class="tag tag-esco" href={escoHref(l['x-esco'][0].uri)} target="_blank" rel="noopener"
+                     title={`ESCO : ${l['x-esco'].map((e: any) => e.label).join(' · ')}`}>ESCO</a>
+                )}
+              </span>
             ))}
           </div>
         </section>
