@@ -3306,7 +3306,24 @@
         "BBC micro:bit",
         "Hackster.io"
       ],
-      "x-context": "mixed"
+      "x-context": "mixed",
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/f049d050-12da-4e40-813a-2b5eb6df6b51",
+          "label": "Internet des objets",
+          "type": "knowledge"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/2180bd8c-86de-4889-8165-adac902eee9d",
+          "label": "systèmes embarqués",
+          "type": "knowledge"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/71f81e1a-e2ca-48d6-b7b8-7a34c56c51f8",
+          "label": "technologie de transmission",
+          "type": "knowledge"
+        }
+      ]
     },
     {
       "name": "Veille technologique & innovation",
@@ -3318,7 +3335,19 @@
         "Open source",
         "Vibe coding Go"
       ],
-      "x-context": "pro"
+      "x-context": "pro",
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/7a17d7ce-01a2-4746-bbcc-22ffe22fa16e",
+          "label": "suivre les tendances technologiques",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/42cb7669-c371-4903-9c0b-13db67b2e4bb",
+          "label": "technologies émergentes",
+          "type": "knowledge"
+        }
+      ]
     },
     {
       "name": "Création de contenu & humour tech",
@@ -3328,7 +3357,24 @@
         "Mèmes tech",
         "Storytelling technique"
       ],
-      "x-context": "mixed"
+      "x-context": "mixed",
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/f3dea00d-53d9-4148-9304-986a14ff5b00",
+          "label": "faire preuve d'humour",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/5ce80f97-b385-4a41-9339-a6593d0709c1",
+          "label": "effectuer un montage vidéo",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/5fd5c985-eaaa-47aa-8314-62359c54505a",
+          "label": "élaborer des contenus numériques",
+          "type": "skill/competence"
+        }
+      ]
     },
     {
       "name": "Écriture",
@@ -3337,7 +3383,24 @@
         "Recueil de nouvelles",
         "Vulgarisation tech"
       ],
-      "x-context": "mixed"
+      "x-context": "mixed",
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/c2f70431-2cc5-4552-bcb7-6564512c15bd",
+          "label": "utiliser des techniques d’écriture spécifiques",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac",
+          "label": "techniques d'écriture",
+          "type": "knowledge"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/e83ec793-3fbc-42e0-9729-d4bd92d454b3",
+          "label": "rédiger des textes professionnels",
+          "type": "skill/competence"
+        }
+      ]
     },
     {
       "name": "Musique",
@@ -3361,7 +3424,19 @@
         "Peak Performance",
         "Lean & Apprenance"
       ],
-      "x-context": "pro"
+      "x-context": "pro",
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/b9fa8c6d-a837-45e3-84ac-848defae9f50",
+          "label": "lire des livres",
+          "type": "skill/competence"
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612",
+          "label": "gérer le développement professionnel personnel",
+          "type": "skill/competence"
+        }
+      ]
     }
   ],
   "references": [
@@ -5476,7 +5551,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.38.1",
+    "version": "v1.38.2",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
