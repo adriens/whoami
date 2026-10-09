@@ -117,6 +117,7 @@ Le schéma JSON Resume accepte des propriétés additionnelles. Les champs `x-*`
 | `x-context` | `interests` | `personal` / `pro` / `mixed` — filtrer interests pour version pro |
 | `x-position`, `x-relationship`, `x-date`, `x-source`, `x-url`, `x-language`, `x-context` | `references` | Traçabilité et filtrage (`x-url` pour sources non-LinkedIn : YouTube, etc.) |
 | `x-label-url` | `education` | URL du label/accréditation (ex: CGE) |
+| `x-nace` | `work` | Secteur de l'**employeur** (pas du rôle) : section NACE Rev. 2 `A`–`U` (ex. OPT-NC `J`, Experian `K`) — utilisé par l'export Europass |
 | `x-location` | `work`, `education` | Lieu structuré `{city, countryCode}` (ISO 3166-1 alpha-2 : `NC`, `FR`, `MC`) — `work.location` du schéma est un texte libre, `education` n'en a pas ; utilisé par l'export Europass |
 | `x-summary-short` | `basics` | Version synthétique du `summary` (1 phrase) pour LinkedIn headline / signature email / header version light |
 | `x-esco` | `skills` | Concepts ESCO `{uri, label, type, covers}` — `type` ∈ `knowledge` / `skill/competence`, `covers` = keywords du skill couverts |
@@ -640,7 +641,7 @@ La release note doit lister : les changements de contenu (`resume.json`), les do
 | Ajout | Vérification ESCO |
 |---|---|
 | Nouvelle entrée `work[]` / `volunteer[]` | `x-esco-occupations` (1-2 métiers ESCO, avec `code`) — mettre aussi à jour `basics.x-esco-occupations` si le profil global évolue |
-| Nouvelle entrée `work[]` / `education[]` | `x-location` `{city, countryCode}` obligatoire (`task export-europass` le signale sinon) |
+| Nouvelle entrée `work[]` / `education[]` | `x-location` `{city, countryCode}` obligatoire, + `x-nace` pour `work[]` (`task export-europass` le signale sinon) |
 | Nouvel intérêt `pro` / `mixed` | `x-esco` : compétences mobilisées (les intérêts `personal` ne sont pas rattachés) |
 | Nouvelle langue / nouveau certificat | `x-esco` : concept de la langue (+ aptitudes selon le niveau) / compétences attestées par le certificat |
 | Nouveau keyword dans un skill (livre, reco, publication, vidéo, projet…) | Le couvrir par un concept existant du skill (`covers`) ou ajouter un concept ESCO ; sinon le signaler comme non couvert |
