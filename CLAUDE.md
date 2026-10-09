@@ -125,6 +125,8 @@ Le schéma JSON Resume accepte des propriétés additionnelles. Les champs `x-*`
 | `x-cefr` | `languages` | `"native"` (langue maternelle) ou niveaux CECRL par dimension `{listening, reading, spokenInteraction, spokenProduction, writing}` (`A1`–`C2`) — `fluency` reste le libellé affiché ; utilisé par l'export Europass |
 | `x-eqf` | `education` | Niveau du Cadre européen des certifications (`1`–`8`, ex. DEA/Mastère `7`, Licence/Maîtrise `6`) — utilisé par l'export Europass |
 | `x-location` | `work`, `education` | Lieu structuré `{city, countryCode}` (ISO 3166-1 alpha-2 : `NC`, `FR`, `MC`) — `work.location` du schéma est un texte libre, `education` n'en a pas ; utilisé par l'export Europass |
+| `x-gender` | `basics` | Genre, codification Europass (`male` / `female` / `other` / `do_not_indicate`) — utilisé par l'export Europass. **Pas de date de naissance** dans `resume.json` (public) : choix explicite d'Adrien |
+| `x-nationality` | `basics` | Nationalité(s), ISO 3166-1 alpha-2 (`["FR"]`) — utilisé par l'export Europass (droit de travailler dans l'UE, EURES) |
 | `x-summary-short` | `basics` | Version synthétique du `summary` (1 phrase) pour LinkedIn headline / signature email / header version light |
 | `x-esco` | `skills` | Concepts ESCO `{uri, label, type, covers}` — `type` ∈ `knowledge` / `skill/competence`, `covers` = keywords du skill couverts |
 | `x-esco-occupations` | `basics`, `work`, `volunteer` | Métiers ESCO `{uri, label, code}` (code ISCO-ESCO) |
