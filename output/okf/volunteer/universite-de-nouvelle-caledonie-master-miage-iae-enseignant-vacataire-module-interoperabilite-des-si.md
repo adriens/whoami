@@ -32,7 +32,6 @@ Enseignement exercé entièrement sur temps personnel, le soir après le travail
 - Pitch #HackAVP au module (2ème session, août→décembre 2026) : les étudiants de la promotion concourent au hackathon en tant qu'équipes candidates — le module s'articule directement sur un cas réel d'ouverture de données publiques (OPT-NC/Station N/OPEN NC)
 - Projection de la vidéo teaser #HackAVP (31/08/2026) en cours le soir même — démonstration des ressources open data (API, MCP, dataset HuggingFace) directement au groupe d'étudiants concourant au hackathon
 - Inscription effective des étudiants au #HackAVP (31/08/2026, le soir même de la projection) — passage de l'intention pédagogique à la participation concrète, en amont du lancement du 09/09/2026
-- Première soumission étudiante #HackAVP publiée (17/10/2026) : « CV Generator » par Quoc-Kim Bui et Anthony Gass — génération de CV, lettre de motivation et guide d'entretien à partir d'un JSON Resume et d'un numéro d'AVP, LLM open source (Qwen3/llama.cpp) hébergé on-prem en Nouvelle-Calédonie, API interopérable consommant l'open data AVP OPT-NC et articulée avec CV-Matching d'un camarade de promotion — le module d'interopérabilité produit des briques composables entre équipes — https://dev.to/spewq/hackavp-cv-generator-la-solution-de-preparation-de-candidature-1p30 · https://youtu.be/Knk0Q_g5QqA
 
 **Métiers ESCO :**
 - [chargé de cours](../esco/charge-de-cours.md) — *ISCO 2310.1.42*
