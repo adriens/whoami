@@ -410,7 +410,8 @@
         "Renouvellement délibéré du terrain pédagogique d'une session sur l'autre — préparation en amont d'un jeu de données open data réel différent à chaque fois : PRIX.NC (1ère promotion, 2025) → données AVP OPT-NC / #HackAVP (2ème promotion, 2026)",
         "Pitch #HackAVP au module (2ème session, août→décembre 2026) : les étudiants de la promotion concourent au hackathon en tant qu'équipes candidates — le module s'articule directement sur un cas réel d'ouverture de données publiques (OPT-NC/Station N/OPEN NC)",
         "Projection de la vidéo teaser #HackAVP (31/08/2026) en cours le soir même — démonstration des ressources open data (API, MCP, dataset HuggingFace) directement au groupe d'étudiants concourant au hackathon",
-        "Inscription effective des étudiants au #HackAVP (31/08/2026, le soir même de la projection) — passage de l'intention pédagogique à la participation concrète, en amont du lancement du 09/09/2026"
+        "Inscription effective des étudiants au #HackAVP (31/08/2026, le soir même de la projection) — passage de l'intention pédagogique à la participation concrète, en amont du lancement du 09/09/2026",
+        "Première soumission étudiante #HackAVP publiée (17/10/2026) : « CV Generator » par Quoc-Kim Bui et Anthony Gass — génération de CV, lettre de motivation et guide d'entretien à partir d'un JSON Resume et d'un numéro d'AVP, LLM open source (Qwen3/llama.cpp) hébergé on-prem en Nouvelle-Calédonie, API interopérable consommant l'open data AVP OPT-NC et articulée avec CV-Matching d'un camarade de promotion — le module d'interopérabilité produit des briques composables entre équipes — https://dev.to/spewq/hackavp-cv-generator-la-solution-de-preparation-de-candidature-1p30 · https://youtu.be/Knk0Q_g5QqA"
       ],
       "x-esco-occupations": [
         {
@@ -5110,7 +5111,8 @@
         "Vidéo « Who am I pipeline - Recevoir une recommendation » (01/09/2026) : ressource candidat #HackAVP illustrant l'industrialisation du CV — transformation en direct d'une recommandation LinkedIn reçue en données versionnées du resume.json via Claude — https://youtu.be/pi3kmAfxIGw",
         "Vidéo « HackAVP - Le slideshow des AVPs et la candidate experience sur TV et mobile » (07/09/2026, J-2 du lancement) : site des AVPs généré avec Hugo exploité en diaporama plein écran pour la valorisation des offres d'emploi sur écran de télévision/projection, avec transfert de l'expérience candidat vers mobile via QR code — https://youtu.be/dZHvKJ1OTRs",
         "Article + démo #HackAVP « Trouver un poste sans rien coder avec le feed RSS » (11/09/2026) : soumission personnelle sur la track SaaS, en conditions réelles — veille automatisée sur le flux RSS des AVPs via Claude CoWork (filtrage hebdomadaire par compétences/appétences), ayant permis de détecter une offre de CDO alignée avec son propre profil, avec génération assistée du CV, de la lettre de motivation et du document de préparation à l'entretien — https://dev.to/adriens/pendant-un-hackathon-data-je-trouve-une-opportunite-de-cdo-dans-ma-propre-entreprise-4bp9",
-        "Vidéo tutoriel #HackAVP « Je soumets ma réalisation » (22/09/2026) : pédagogie candidat — parcours de soumission filmé de bout en bout (prérequis article Dev.to public, remplissage du formulaire), en s'appuyant sur sa propre soumission CDO comme exemple concret — https://youtu.be/3QG_BndMt6o"
+        "Vidéo tutoriel #HackAVP « Je soumets ma réalisation » (22/09/2026) : pédagogie candidat — parcours de soumission filmé de bout en bout (prérequis article Dev.to public, remplissage du formulaire), en s'appuyant sur sa propre soumission CDO comme exemple concret — https://youtu.be/3QG_BndMt6o",
+        "Vidéo démo de la soumission étudiante #HackAVP « CV Generator » (17/10/2026, Master MIAGE IAE-UNC) : preuve par l'usage que l'open data AVP est réutilisable par des tiers — préparation de candidature (CV, lettre, entretien) générée en souveraineté on-prem — https://youtu.be/Knk0Q_g5QqA"
       ],
       "url": "https://huggingface.co/opt-nc"
     },
@@ -5672,7 +5674,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.38.4",
+    "version": "v1.38.5",
     "lastModified": "2026-10-09",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-09"
