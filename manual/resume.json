@@ -1203,7 +1203,9 @@
         "Vibe coding",
         "OpenSearch vector search",
         "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)",
-        "CV-as-code (JSON Resume, enrichissement par agent IA, ESCO)"
+        "CV-as-code (JSON Resume, enrichissement par agent IA, ESCO)",
+        "Embeddings multilingues (multilingual-e5-large, EmbeddingGemma)",
+        "LLM-as-a-judge avec traces de raisonnement (Qwen3-32B, vLLM)"
       ],
       "x-esco": [
         {
@@ -1229,7 +1231,9 @@
             "Cross-encoder reranking (bge-reranker-v2-m3)",
             "ML frugal on-prem (sans GPU)",
             "Ollama",
-            "Gradio"
+            "Gradio",
+            "Embeddings multilingues (multilingual-e5-large, EmbeddingGemma)",
+            "LLM-as-a-judge avec traces de raisonnement (Qwen3-32B, vLLM)"
           ]
         },
         {
@@ -1941,7 +1945,8 @@
         "PyPI",
         "PyPI maintainer",
         "Détection d'anomalies (XGBoost, k-means — PRIX.NC)",
-        "Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face)"
+        "Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face)",
+        "Alignement de corpus sur référentiels (ESCO, ROME, ISCO)"
       ],
       "x-esco": [
         {
@@ -2018,6 +2023,14 @@
           "type": "skill/competence",
           "covers": [
             "Détection d'anomalies (XGBoost, k-means — PRIX.NC)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/fda917eb-0d6a-4371-8c93-2a10bf950966",
+          "label": "gérer l’intégration sémantique des TIC",
+          "type": "skill/competence",
+          "covers": [
+            "Alignement de corpus sur référentiels (ESCO, ROME, ISCO)"
           ]
         }
       ],
@@ -5095,7 +5108,8 @@
         "saga",
         "hackathon",
         "product",
-        "pedagogy"
+        "pedagogy",
+        "embeddings"
       ],
       "startDate": "2024-01",
       "description": "Programme open data autour des données RH de l'OPT-NC : référentiel des métiers, offres d'emploi, AVPS (avis de vacances de poste) et organigramme publiés en open data pour créer une expérience candidat unique. Datasets Hugging Face, agents IA et MCPs pour rendre ces données exploitables par Claude et d'autres LLMs.",
@@ -5110,7 +5124,9 @@
         "Vidéo « Who am I pipeline - Recevoir une recommendation » (01/09/2026) : ressource candidat #HackAVP illustrant l'industrialisation du CV — transformation en direct d'une recommandation LinkedIn reçue en données versionnées du resume.json via Claude — https://youtu.be/pi3kmAfxIGw",
         "Vidéo « HackAVP - Le slideshow des AVPs et la candidate experience sur TV et mobile » (07/09/2026, J-2 du lancement) : site des AVPs généré avec Hugo exploité en diaporama plein écran pour la valorisation des offres d'emploi sur écran de télévision/projection, avec transfert de l'expérience candidat vers mobile via QR code — https://youtu.be/dZHvKJ1OTRs",
         "Article + démo #HackAVP « Trouver un poste sans rien coder avec le feed RSS » (11/09/2026) : soumission personnelle sur la track SaaS, en conditions réelles — veille automatisée sur le flux RSS des AVPs via Claude CoWork (filtrage hebdomadaire par compétences/appétences), ayant permis de détecter une offre de CDO alignée avec son propre profil, avec génération assistée du CV, de la lettre de motivation et du document de préparation à l'entretien — https://dev.to/adriens/pendant-un-hackathon-data-je-trouve-une-opportunite-de-cdo-dans-ma-propre-entreprise-4bp9",
-        "Vidéo tutoriel #HackAVP « Je soumets ma réalisation » (22/09/2026) : pédagogie candidat — parcours de soumission filmé de bout en bout (prérequis article Dev.to public, remplissage du formulaire), en s'appuyant sur sa propre soumission CDO comme exemple concret — https://youtu.be/3QG_BndMt6o"
+        "Vidéo tutoriel #HackAVP « Je soumets ma réalisation » (22/09/2026) : pédagogie candidat — parcours de soumission filmé de bout en bout (prérequis article Dev.to public, remplissage du formulaire), en s'appuyant sur sa propre soumission CDO comme exemple concret — https://youtu.be/3QG_BndMt6o",
+        "Article #HackAVP « Linking ROME French and European ESCO job referentials with Gemma and TabPFN » (04/10/2026, Hacktoberfest Weekend Challenge « Build for a Friend ») : ressource préparée pour les étudiants MIAGE UNC concourant au hackathon — rapprochement des référentiels métiers ROME v4 (France Travail) et ESCO v1.2.1 (UE) avec des modèles ouverts sur Kaggle (EmbeddingGemma, Gemma 4, TabPFN), publiés en datasets interopérables (ROME v4, ROME-ESCO mapping) à partir de la base DuckDB ESCO odata-esco — https://dev.to/adriens/linking-rome-french-and-european-esco-job-referentials-with-gemma-and-tabpfn-f66",
+        "Article + démo #HackAVP « J'ai mappé les offres d'emploi public de l'OPT-NC avec le référentiel ESCO » (18/10/2026) : 2ème soumission personnelle sur la track SaaS, 100 % Kaggle — rappel par embeddings (multilingual-e5-large, ~12 métiers et ~12 compétences ESCO candidats par AVP) puis validation LLM-as-a-judge (Qwen3-32B-AWQ via vLLM, mode raisonnement, traces conservées pour expliquer chaque lien), sur un dataset ESCO v1.2.1 préparé en amont ; analyses : compétences ESCO les plus demandées, profil par direction (postal transversal vs SI compétences dures), drill-down ISCO, exigences sans équivalent ESCO — https://dev.to/adriens/jai-mappe-les-offres-demploi-public-de-lopt-nc-avec-le-referentiel-esco-a-laide-dembeddings-5765 — démo https://youtu.be/cKV_tJ6qdSo — notebook https://www.kaggle.com/code/adriensales/avp-opt-nc-esco-qwen/notebook"
       ],
       "url": "https://huggingface.co/opt-nc"
     },
@@ -5672,9 +5688,9 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.38.4",
-    "lastModified": "2026-10-09",
+    "version": "v1.38.5",
+    "lastModified": "2026-10-19",
     "theme": "elegant",
-    "x-esco-retrieved": "2026-10-09"
+    "x-esco-retrieved": "2026-10-19"
   }
 }
