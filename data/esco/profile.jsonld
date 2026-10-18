@@ -5,9 +5,9 @@
   "name": "Adrien Sales",
   "jobTitle": "Architecte SI & Product Builder | Modélisation · Data · IA Agents | LEAN & Innovation frugale | DevRel",
   "url": "https://adriens.github.io/whoami/",
-  "x-esco-retrieved": "2026-10-09",
+  "x-esco-retrieved": "2026-10-19",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.38.2",
+  "x-resume-version": "v1.38.5",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -779,7 +779,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Graph & Knowledge Engineering"
+        "Graph & Knowledge Engineering",
+        "Open Data & Data Science"
       ]
     },
     {
