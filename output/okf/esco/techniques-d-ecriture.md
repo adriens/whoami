@@ -4,7 +4,7 @@ title: techniques d'écriture
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/91dd8397-063d-499c-83b9-0603a10d94ac
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 2 entrées du profil.

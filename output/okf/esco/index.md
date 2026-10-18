@@ -4,10 +4,10 @@ title: ESCO
 description: Concepts du référentiel européen ESCO
 resource: https://esco.ec.europa.eu/
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
-221 concepts ESCO rattachés au profil (retrieved 2026-10-09).
+221 concepts ESCO rattachés au profil (retrieved 2026-10-19).
 
 ## Métiers
 
@@ -136,7 +136,7 @@ timestamp: '2026-10-09'
 - [gérer les normes d’échange de données](gerer-les-normes-dechange-de-donnees.md) — 2 entrées
 - [gérer les retours d’information](gerer-les-retours-dinformation.md) — 1 entrées
 - [gérer l’architecture des données TIC](gerer-larchitecture-des-donnees-tic.md) — 1 entrées
-- [gérer l’intégration sémantique des TIC](gerer-lintegration-semantique-des-tic.md) — 1 entrées
+- [gérer l’intégration sémantique des TIC](gerer-lintegration-semantique-des-tic.md) — 2 entrées
 - [gérer une base de données](gerer-une-base-de-donnees.md) — 1 entrées
 - [gérer une équipe](gerer-une-equipe.md) — 1 entrées
 - [identifier des améliorations de procédés](identifier-des-ameliorations-de-procedes.md) — 1 entrées

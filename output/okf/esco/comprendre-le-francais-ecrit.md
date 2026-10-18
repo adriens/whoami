@@ -4,7 +4,7 @@ title: comprendre le français écrit
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/4ff6df71-6988-4300-8966-9fabb2b59186
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

@@ -5,12 +5,12 @@ description: Avancé — MCP (Model Context Protocol), Hugging Face, Gradio, Age
   RAG, Embeddings (BAAI/bge-m3), Cross-encoder reranking (…
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 **Niveau : Avancé**
 
-Mots-clés : MCP (Model Context Protocol), Hugging Face, Gradio, Agents IA, RAG, Embeddings (BAAI/bge-m3), Cross-encoder reranking (bge-reranker-v2-m3), Recherche sémantique (retrieve → rerank), ML frugal on-prem (sans GPU), Ollama, LangChain, Semantic Router, Vibe coding, OpenSearch vector search, Rapports maintenus par agent IA (CLAUDE.md, Claude Code), CV-as-code (JSON Resume, enrichissement par agent IA, ESCO)
+Mots-clés : MCP (Model Context Protocol), Hugging Face, Gradio, Agents IA, RAG, Embeddings (BAAI/bge-m3), Cross-encoder reranking (bge-reranker-v2-m3), Recherche sémantique (retrieve → rerank), ML frugal on-prem (sans GPU), Ollama, LangChain, Semantic Router, Vibe coding, OpenSearch vector search, Rapports maintenus par agent IA (CLAUDE.md, Claude Code), CV-as-code (JSON Resume, enrichissement par agent IA, ESCO), Embeddings multilingues (multilingual-e5-large, EmbeddingGemma), LLM-as-a-judge avec traces de raisonnement (Qwen3-32B, vLLM)
 
 **Compétences ESCO :**
 - [principes de l’intelligence artificielle](../esco/principes-de-lintelligence-artificielle.md) — *knowledge*

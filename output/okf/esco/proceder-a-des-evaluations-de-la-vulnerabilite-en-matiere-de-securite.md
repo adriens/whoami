@@ -4,7 +4,7 @@ title: procéder à des évaluations de la vulnérabilité en matière de sécur
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/f4a85869-1855-45d5-a43c-7ee8cd451996
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

@@ -4,7 +4,7 @@ title: faire preuve d’enthousiasme
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/22b7d99d-252f-4572-8e3c-438ea87607eb
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 15 entrées du profil.

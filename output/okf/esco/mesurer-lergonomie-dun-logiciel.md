@@ -4,7 +4,7 @@ title: mesurer l’ergonomie d’un logiciel
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/be0ff6d8-5e61-4021-9c89-e40cf0b75cc6
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

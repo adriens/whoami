@@ -4,7 +4,7 @@ title: interagir avec les utilisateurs pour définir leurs exigences
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/a8797f21-1af0-4c5e-98ca-bf1442929363
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées du profil.

@@ -4,7 +4,7 @@ title: définir une stratégie d’intégration
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/a4a882a1-0263-4dd2-b29a-f0028cac2393
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

@@ -4,7 +4,7 @@ title: appliquer la gestion du changement
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/3c03ee71-4a23-448f-b79e-81fd75d27dca
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

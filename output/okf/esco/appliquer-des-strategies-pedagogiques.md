@@ -4,7 +4,7 @@ title: appliquer des stratégies pédagogiques
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/59eb177a-2f30-4943-8b30-5f87dd51a80d
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

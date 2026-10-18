@@ -4,7 +4,7 @@ title: recognition
 description: 7 entrées taguées « recognition »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept transversal reliant 7 entrées du profil.

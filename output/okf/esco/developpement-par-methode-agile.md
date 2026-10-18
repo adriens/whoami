@@ -4,7 +4,7 @@ title: développement par méthode agile
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/dba46f87-0831-49cd-a1c7-340a653c0221
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

@@ -4,7 +4,7 @@ title: cadres d'architecture TIC
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/c453cf81-6197-428e-84c6-70c773b63f27
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

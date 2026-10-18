@@ -4,7 +4,7 @@ title: analyser des mégadonnées
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/47a49cd6-097d-457a-9f7b-c290c14930d5
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

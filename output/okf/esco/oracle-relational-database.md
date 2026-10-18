@@ -4,7 +4,7 @@ title: Oracle Relational Database
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/de9f85ba-e77f-48fd-8c66-f5ebaf32d655
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

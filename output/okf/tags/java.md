@@ -4,7 +4,7 @@ title: java
 description: 13 entrées taguées « java »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept transversal reliant 13 entrées du profil.

@@ -4,7 +4,7 @@ title: rédiger un article scientifique
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/c3c2420c-ce9a-4371-8eed-1db479c3a562
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

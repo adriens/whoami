@@ -4,7 +4,7 @@ title: gérer la conformité en matière de sécurité des TIC
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/06358891-8424-43c5-891e-d40f226bef40
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

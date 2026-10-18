@@ -8,12 +8,12 @@ tags:
 - duckdb
 - open-data
 - python
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 **Niveau : Avancé**
 
-Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création et publication de datasets open data (Kaggle, Hugging Face), Hackathons, uv, poetry, PyPI, PyPI maintainer, Détection d'anomalies (XGBoost, k-means — PRIX.NC), Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face)
+Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création et publication de datasets open data (Kaggle, Hugging Face), Hackathons, uv, poetry, PyPI, PyPI maintainer, Détection d'anomalies (XGBoost, k-means — PRIX.NC), Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face), Alignement de corpus sur référentiels (ESCO, ROME, ISCO)
 
 **Compétences ESCO :**
 - [Python (programmation informatique)](../esco/python-programmation-informatique.md) — *knowledge*
@@ -24,5 +24,6 @@ Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création 
 - [participer à des échanges au moyen de technologies numériques](../esco/participer-a-des-echanges-au-moyen-de-technologies-numeriques.md) — *skill/competence*
 - [normaliser les données](../esco/normaliser-les-donnees.md) — *skill/competence*
 - [utiliser l’apprentissage automatique](../esco/utiliser-lapprentissage-automatique.md) — *skill/competence*
+- [gérer l’intégration sémantique des TIC](../esco/gerer-lintegration-semantique-des-tic.md) — *skill/competence*
 
 **Tags :** [duckdb](../tags/duckdb.md), [open-data](../tags/open-data.md), [python](../tags/python.md)

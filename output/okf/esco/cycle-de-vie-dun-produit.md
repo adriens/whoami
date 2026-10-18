@@ -4,7 +4,7 @@ title: cycle de vie d’un produit
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/21e0cad8-4eef-42be-b18b-0f8e37f0dbd0
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 2 entrées du profil.

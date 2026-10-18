@@ -4,7 +4,7 @@ title: respecter des délais
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/91abe492-18be-4cce-93c7-0dca07072363
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 7 entrées du profil.

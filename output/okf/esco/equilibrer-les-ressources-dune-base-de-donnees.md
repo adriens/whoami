@@ -4,7 +4,7 @@ title: équilibrer les ressources d’une base de données
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/9ba8fd27-275d-4bad-8c48-f668aa99a578
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

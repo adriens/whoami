@@ -4,7 +4,7 @@ title: human-centric
 description: 14 entrées taguées « human-centric »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept transversal reliant 14 entrées du profil.

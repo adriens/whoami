@@ -4,7 +4,7 @@ title: agir de manière fiable
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/25e16679-a7d0-464d-916c-63210001bbab
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 10 entrées du profil.

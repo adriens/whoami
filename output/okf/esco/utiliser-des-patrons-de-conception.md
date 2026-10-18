@@ -4,7 +4,7 @@ title: utiliser des patrons de conception
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/2b7a79e5-84d8-4880-be66-3d9bb05bea17
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

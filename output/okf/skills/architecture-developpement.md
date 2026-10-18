@@ -10,7 +10,7 @@ tags:
 - go
 - java
 - quarkus
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 **Niveau : Expert**

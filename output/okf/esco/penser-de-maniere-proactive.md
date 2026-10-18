@@ -4,7 +4,7 @@ title: penser de manière proactive
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/e186976a-64f0-4052-a25b-297d19e1d0ec
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 7 entrées du profil.

@@ -4,7 +4,7 @@ title: faire preuve d’esprit d’entreprise
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/bdcf429c-5ccf-4c3d-bb61-4c987573a35e
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

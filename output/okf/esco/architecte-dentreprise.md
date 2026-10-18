@@ -4,7 +4,7 @@ title: architecte d’entreprise
 description: ESCO occupation — ISCO 2511.5
 resource: http://data.europa.eu/esco/occupation/2bef94db-0088-4507-982a-2ca717529adb
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (ISCO 2511.5) relié à 1 entrées du profil.

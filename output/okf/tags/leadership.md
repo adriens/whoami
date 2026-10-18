@@ -4,7 +4,7 @@ title: leadership
 description: 8 entrées taguées « leadership »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept transversal reliant 8 entrées du profil.

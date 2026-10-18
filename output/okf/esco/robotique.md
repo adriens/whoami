@@ -4,7 +4,7 @@ title: robotique
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/e87ec79a-c9ff-46f5-84fa-7a0f394cdf40
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

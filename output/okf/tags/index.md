@@ -4,7 +4,7 @@ title: Tags
 description: Graphe de concepts (x-tags)
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 124 concepts transversaux (graphe de connaissances).
@@ -71,6 +71,7 @@ timestamp: '2026-10-09'
 - [team-culture](team-culture.md) — 5 entrées
 - [architecture-logicielle](architecture-logicielle.md) — 4 entrées
 - [dynamism](dynamism.md) — 4 entrées
+- [embeddings](embeddings.md) — 4 entrées
 - [geol](geol.md) — 4 entrées
 - [mobile](mobile.md) — 4 entrées
 - [packaging](packaging.md) — 4 entrées
@@ -84,7 +85,6 @@ timestamp: '2026-10-09'
 - [design-thinking](design-thinking.md) — 3 entrées
 - [dsi-noumea](dsi-noumea.md) — 3 entrées
 - [elk-stack](elk-stack.md) — 3 entrées
-- [embeddings](embeddings.md) — 3 entrées
 - [exploration-techno](exploration-techno.md) — 3 entrées
 - [flutter](flutter.md) — 3 entrées
 - [management-agile](management-agile.md) — 3 entrées

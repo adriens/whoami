@@ -4,7 +4,7 @@ title: modèles d’architecture logicielle
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/2450c3b3-e78e-435b-b84d-e05d984e71dc
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

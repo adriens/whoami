@@ -4,7 +4,7 @@ title: définir la structure physique de la base de données
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/022dc430-872a-473a-9cf4-fed4895e58ad
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

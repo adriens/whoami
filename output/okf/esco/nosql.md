@@ -4,7 +4,7 @@ title: NoSQL
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/76ef6ed3-1658-4a1a-9593-204d799c6d0c
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

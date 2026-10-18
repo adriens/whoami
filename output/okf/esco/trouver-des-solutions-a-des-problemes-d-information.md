@@ -4,7 +4,7 @@ title: trouver des solutions à des problèmes d'information
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/4539aeca-b56f-4d03-ba86-8f675a7f2536
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

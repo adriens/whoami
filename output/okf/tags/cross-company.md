@@ -4,7 +4,7 @@ title: cross-company
 description: 5 entrées taguées « cross-company »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept transversal reliant 5 entrées du profil.

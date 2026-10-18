@@ -4,7 +4,7 @@ title: entretenir de bonnes relations de travail
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/18119ac9-9e43-4da3-8b79-45dd75fe6510
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 8 entrées du profil.

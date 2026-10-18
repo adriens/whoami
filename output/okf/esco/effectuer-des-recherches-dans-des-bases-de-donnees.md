@@ -4,7 +4,7 @@ title: effectuer des recherches dans des bases de données
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/a1388163-462a-4b76-8649-67470ea858a1
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées du profil.

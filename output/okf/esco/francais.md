@@ -4,7 +4,7 @@ title: Français
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/e747e77e-0ea1-4001-8b07-1d11946b5f1b
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

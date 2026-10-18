@@ -4,7 +4,7 @@ title: appliquer la rétro-ingénierie
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/a7a14be2-78b5-4b4a-ba77-2658285e2756
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

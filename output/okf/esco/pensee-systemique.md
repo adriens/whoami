@@ -4,7 +4,7 @@ title: pensée systémique
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/0f9958d2-f700-4f62-b90b-a5873cb5ae4c
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

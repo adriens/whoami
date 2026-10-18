@@ -4,7 +4,7 @@ title: informatique décisionnelle
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/143769cb-b61e-47d8-a61e-eedfbec1016c
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

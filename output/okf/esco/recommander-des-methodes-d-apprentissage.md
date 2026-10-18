@@ -4,7 +4,7 @@ title: recommander des méthodes d'apprentissage
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/f78877d1-99f3-4649-addc-2d09c9183a1e
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

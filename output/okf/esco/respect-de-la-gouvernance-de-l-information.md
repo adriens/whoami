@@ -4,7 +4,7 @@ title: respect de la gouvernance de l'information
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/9a0d0abc-010d-440b-8242-7e31510471ba
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

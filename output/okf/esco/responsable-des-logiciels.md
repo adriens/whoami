@@ -4,7 +4,7 @@ title: responsable des logiciels
 description: ESCO occupation — ISCO 1330.5.1
 resource: http://data.europa.eu/esco/occupation/f31f487b-4ce2-40f3-90e8-7d0011b4ef1d
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (ISCO 1330.5.1) relié à 3 entrées du profil.

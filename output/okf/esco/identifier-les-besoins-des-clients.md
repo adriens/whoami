@@ -4,7 +4,7 @@ title: identifier les besoins des clients
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/68698869-c13c-4563-adc7-118b7644f45d
 tags: []
-timestamp: '2026-10-09'
+timestamp: '2026-10-19'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 6 entrées du profil.
