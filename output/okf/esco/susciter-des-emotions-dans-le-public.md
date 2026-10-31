@@ -4,7 +4,7 @@ title: susciter des émotions dans le public
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/9c72fa23-60c5-4b90-81a8-44a871beb4e5
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

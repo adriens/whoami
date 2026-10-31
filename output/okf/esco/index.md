@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-10-19'
 ---
 
-221 concepts ESCO rattachés au profil (retrieved 2026-10-19).
+225 concepts ESCO rattachés au profil (retrieved 2026-10-31).
 
 ## Métiers
 
@@ -46,6 +46,7 @@ timestamp: '2026-10-19'
 - [aligner le logiciel sur l’architecture du système](aligner-le-logiciel-sur-larchitecture-du-systeme.md) — 1 entrées
 - [allemand](allemand.md) — 1 entrées
 - [analyser des mégadonnées](analyser-des-megadonnees.md) — 1 entrées
+- [analyser des propositions techniques en matière de TIC](analyser-des-propositions-techniques-en-matiere-de-tic.md) — 1 entrées
 - [analyser les exigences des entreprises](analyser-les-exigences-des-entreprises.md) — 1 entrées
 - [anglais](anglais.md) — 1 entrées
 - [appliquer des stratégies pédagogiques](appliquer-des-strategies-pedagogiques.md) — 1 entrées
@@ -181,6 +182,7 @@ timestamp: '2026-10-19'
 - [proposer des solutions TIC aux problèmes des entreprises](proposer-des-solutions-tic-aux-problemes-des-entreprises.md) — 1 entrées
 - [protection des données](protection-des-donnees.md) — 1 entrées
 - [présenter des rapports](presenter-des-rapports.md) — 1 entrées
+- [présider une réunion](presider-une-reunion.md) — 1 entrées
 - [pédagogie](pedagogie.md) — 1 entrées
 - [recommander des méthodes d'apprentissage](recommander-des-methodes-d-apprentissage.md) — 1 entrées
 - [recruter des employés](recruter-des-employes.md) — 1 entrées
@@ -196,6 +198,7 @@ timestamp: '2026-10-19'
 - [rédiger une évaluation des risques](rediger-une-evaluation-des-risques.md) — 1 entrées
 - [réfléchir de manière analytique](reflechir-de-maniere-analytique.md) — 1 entrées
 - [standards du World Wide Web Consortium](standards-du-world-wide-web-consortium.md) — 1 entrées
+- [statistiques](statistiques.md) — 1 entrées
 - [stockage de données](stockage-de-donnees.md) — 1 entrées
 - [stratégie de crowdsourcing](strategie-de-crowdsourcing.md) — 1 entrées
 - [stratégie de marketing de contenu](strategie-de-marketing-de-contenu.md) — 1 entrées
@@ -234,4 +237,5 @@ timestamp: '2026-10-19'
 - [élaborer un plan de cours](elaborer-un-plan-de-cours.md) — 1 entrées
 - [équilibrer les ressources d’une base de données](equilibrer-les-ressources-dune-base-de-donnees.md) — 1 entrées
 - [établir des relations de collaboration](etablir-des-relations-de-collaboration.md) — 8 entrées
+- [évaluer des informations](evaluer-des-informations.md) — 2 entrées
 - [évaluer les performances de collaborateurs de l’organisation](evaluer-les-performances-de-collaborateurs-de-lorganisation.md) — 1 entrées

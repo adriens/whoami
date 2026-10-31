@@ -4,7 +4,7 @@ title: comprendre l'anglais parlé
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/64ff8d5f-58a8-4efb-af5a-e161854b3e9a
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

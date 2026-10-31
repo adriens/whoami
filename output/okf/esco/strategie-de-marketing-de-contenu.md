@@ -4,7 +4,7 @@ title: stratégie de marketing de contenu
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/b0560439-14eb-41d1-aa53-1938efc24123
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

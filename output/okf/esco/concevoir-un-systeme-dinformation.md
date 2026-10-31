@@ -4,7 +4,7 @@ title: concevoir un système d’information
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/a47d194d-0ffd-4aaa-b695-fbbe0255000e
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

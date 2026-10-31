@@ -4,7 +4,7 @@ title: lire des livres
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/b9fa8c6d-a837-45e3-84ac-848defae9f50
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

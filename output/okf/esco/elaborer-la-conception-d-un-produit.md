@@ -4,7 +4,7 @@ title: élaborer la conception d'un produit
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/fd4386c5-96f0-4c6e-970c-c08729ae0cc6
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées du profil.

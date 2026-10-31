@@ -4,7 +4,7 @@ title: développeur de base de données
 description: ESCO occupation — ISCO 2521.3
 resource: http://data.europa.eu/esco/occupation/b11e1742-5e28-4270-b081-b0193d85ee7d
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (ISCO 2521.3) relié à 2 entrées du profil.

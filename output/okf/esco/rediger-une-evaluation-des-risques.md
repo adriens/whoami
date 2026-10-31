@@ -4,7 +4,7 @@ title: rédiger une évaluation des risques
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/594bd121-9614-4e87-9ecf-6ccb95507efe
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

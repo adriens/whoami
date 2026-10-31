@@ -5,7 +5,7 @@ title: endosser vis-à-vis de collègues un rôle de meneur, cherchant avant tou
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/0fc0cb61-f44d-4fd0-afd1-18506380b55e
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

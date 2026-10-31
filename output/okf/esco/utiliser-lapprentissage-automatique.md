@@ -4,7 +4,7 @@ title: utiliser l’apprentissage automatique
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/8369c2d6-c100-4cf6-bd83-9668d8678433
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées du profil.

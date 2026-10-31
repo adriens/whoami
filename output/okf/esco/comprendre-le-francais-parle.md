@@ -4,7 +4,7 @@ title: comprendre le français parlé
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/2ce713f2-c684-4fa3-8e56-939e4bfbf4a2
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

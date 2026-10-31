@@ -4,7 +4,7 @@ title: rédiger des textes professionnels
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/e83ec793-3fbc-42e0-9729-d4bd92d454b3
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées du profil.

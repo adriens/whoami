@@ -4,7 +4,7 @@ title: mettre en œuvre des processus de qualité des données
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/713fb616-118e-40bc-9366-4a69879a49d5
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

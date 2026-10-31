@@ -4,7 +4,7 @@ title: appliquer la pédagogie Montessori
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/20c2011f-c389-49cd-972e-a4809db0476c
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

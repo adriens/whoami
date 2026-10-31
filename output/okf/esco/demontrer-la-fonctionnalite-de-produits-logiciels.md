@@ -4,7 +4,7 @@ title: démontrer la fonctionnalité de produits logiciels
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/5c8aa481-9e7c-4f32-8197-a8b0fd7ca186
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

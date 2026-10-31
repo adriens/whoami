@@ -4,7 +4,7 @@ title: outils de développement de bases de données
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/9ef0f3a0-9ce2-4ef1-a987-0366b5cb2dbe
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

@@ -4,7 +4,7 @@ title: développer des applications de traitement des données
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/f9670490-8aa4-4540-b121-d440a8294aab
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

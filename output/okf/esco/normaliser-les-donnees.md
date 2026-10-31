@@ -4,7 +4,7 @@ title: normaliser les données
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/07889c08-7220-47c8-96f7-6068fbea00dc
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

@@ -4,7 +4,7 @@ title: suivre des indicateurs clés de performance
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/8dcbcabe-09f7-4d11-940d-125af57bbc40
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

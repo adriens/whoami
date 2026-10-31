@@ -4,7 +4,7 @@ title: faire preuve d'humour
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/f3dea00d-53d9-4148-9304-986a14ff5b00
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées du profil.

@@ -4,7 +4,7 @@ title: travailler en équipe
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/60c78287-22eb-4103-9c8c-28deaa460da0
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 6 entrées du profil.

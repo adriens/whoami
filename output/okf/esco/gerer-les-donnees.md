@@ -4,7 +4,7 @@ title: gérer les données
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/9ff9db9d-d14b-426e-83f3-e7449af6c79f
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

@@ -4,7 +4,7 @@ title: gérer les conséquences de l’obsolescence des TIC
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/861313ba-3a1a-4d33-842a-1b8e45e2415b
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

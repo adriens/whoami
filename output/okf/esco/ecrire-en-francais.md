@@ -4,7 +4,7 @@ title: écrire en français
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/5dfc81aa-c395-4e88-a0e0-a2fbb681ecc0
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

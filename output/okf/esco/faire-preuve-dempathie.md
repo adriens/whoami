@@ -4,7 +4,7 @@ title: faire preuve d’empathie
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/77b636e8-fab3-41a8-8022-1e0a354059dc
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 13 entrées du profil.

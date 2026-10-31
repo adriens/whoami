@@ -4,7 +4,7 @@ title: appliquer des techniques de publication assistée par ordinateur
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/4b244020-5f28-4e20-b74f-1c2dcb6f15cb
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

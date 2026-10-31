@@ -4,7 +4,7 @@ title: outils de gestion de configuration logicielle
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/9d2e926f-53d9-41f5-98f3-19dfaa687f3f
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 2 entrées du profil.

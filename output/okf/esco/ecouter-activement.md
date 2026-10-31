@@ -4,7 +4,7 @@ title: écouter activement
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/a17286c5-238d-4f0b-bc24-29e9121345de
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 13 entrées du profil.

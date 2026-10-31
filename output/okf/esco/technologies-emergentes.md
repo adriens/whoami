@@ -4,7 +4,7 @@ title: technologies émergentes
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/42cb7669-c371-4903-9c0b-13db67b2e4bb
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 2 entrées du profil.

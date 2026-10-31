@@ -4,7 +4,7 @@ title: diriger d’autres personnes
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/75d8e5d9-bef3-418b-9011-01bff9f27207
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

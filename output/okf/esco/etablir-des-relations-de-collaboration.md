@@ -4,7 +4,7 @@ title: établir des relations de collaboration
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/326809fc-238d-40c2-881e-40042f7f2f0d
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 8 entrées du profil.

@@ -4,7 +4,7 @@ title: réaliser des audits informatiques
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/7e1f9657-ab4e-407c-842f-b846197060e3
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

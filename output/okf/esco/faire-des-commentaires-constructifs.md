@@ -4,7 +4,7 @@ title: faire des commentaires constructifs
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/b9bb1f03-15e2-4079-943e-7e483b21725b
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

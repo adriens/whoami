@@ -4,7 +4,7 @@ title: Internet des objets
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/f049d050-12da-4e40-813a-2b5eb6df6b51
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 2 entrées du profil.

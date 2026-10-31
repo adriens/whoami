@@ -4,7 +4,7 @@ title: C++
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/b633eb55-8f1f-4ae6-ab4c-2022ffe2cb7f
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

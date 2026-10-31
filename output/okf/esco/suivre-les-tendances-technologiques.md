@@ -4,7 +4,7 @@ title: suivre les tendances technologiques
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/7a17d7ce-01a2-4746-bbcc-22ffe22fa16e
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées du profil.

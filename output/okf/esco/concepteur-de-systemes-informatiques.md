@@ -4,7 +4,7 @@ title: concepteur de systèmes informatiques
 description: ESCO occupation — ISCO 2511.13
 resource: http://data.europa.eu/esco/occupation/e1c72b5f-4c5c-487c-a6df-e84b64a51dae
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (ISCO 2511.13) relié à 2 entrées du profil.

@@ -4,7 +4,7 @@ title: écrire en anglais
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/3993c87c-7719-4186-811b-8ddfb40e76be
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

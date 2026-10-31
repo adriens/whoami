@@ -4,7 +4,7 @@ title: aligner le logiciel sur l’architecture du système
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/2857540c-180b-4208-9127-e94a01871966
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

@@ -4,7 +4,7 @@ title: élaborer un plan de cours
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/f0699875-51da-48d2-bc92-54b0749baef1
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

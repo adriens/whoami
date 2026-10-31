@@ -4,7 +4,7 @@ title: mathématiques
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/4339176e-3acd-4f7f-a5d9-445bee3d23f2
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

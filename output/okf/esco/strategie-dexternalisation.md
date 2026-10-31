@@ -4,7 +4,7 @@ title: stratégie d’externalisation
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/6f8baa62-bc2b-4cc1-942b-f540c837cfa2
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

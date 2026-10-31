@@ -4,7 +4,7 @@ title: recruter des employés
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/496932f1-0b6b-4f73-9432-d95c7ddcd43b
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

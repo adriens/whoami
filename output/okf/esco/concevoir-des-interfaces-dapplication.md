@@ -4,7 +4,7 @@ title: concevoir des interfaces d’application
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/b0096dc5-2e2d-4bc1-8172-05bf486c3968
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 3 entrées du profil.

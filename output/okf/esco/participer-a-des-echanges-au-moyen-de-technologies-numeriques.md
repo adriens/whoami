@@ -4,7 +4,7 @@ title: participer à des échanges au moyen de technologies numériques
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/40001d93-8937-4859-89d5-2dca53290ff4
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

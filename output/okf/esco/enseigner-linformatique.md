@@ -4,7 +4,7 @@ title: enseigner l’informatique
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/b820c9de-4d00-4e79-9af9-33f26044ff42
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

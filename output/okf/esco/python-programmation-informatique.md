@@ -4,7 +4,7 @@ title: Python (programmation informatique)
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/ccd0a1d9-afda-43d9-b901-96344886e14d
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 2 entrées du profil.

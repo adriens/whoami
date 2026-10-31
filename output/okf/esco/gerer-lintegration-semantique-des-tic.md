@@ -4,7 +4,7 @@ title: gérer l’intégration sémantique des TIC
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/fda917eb-0d6a-4371-8c93-2a10bf950966
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées du profil.

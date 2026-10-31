@@ -4,7 +4,7 @@ title: professeur de mathématiques
 description: ESCO occupation — ISCO 2330.1.11
 resource: http://data.europa.eu/esco/occupation/f0e1cc13-48e0-4995-8699-ee43467bce0d
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (ISCO 2330.1.11) relié à 1 entrées du profil.

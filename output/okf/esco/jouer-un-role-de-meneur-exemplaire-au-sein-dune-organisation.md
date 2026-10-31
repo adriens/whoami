@@ -4,7 +4,7 @@ title: jouer un rôle de meneur exemplaire au sein d’une organisation
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/5be1c5fb-3833-4983-949c-b77fbfad26d9
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

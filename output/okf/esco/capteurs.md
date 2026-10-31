@@ -4,7 +4,7 @@ title: capteurs
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/70a7b3b3-31ef-4b29-a30f-bb7299dff39b
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

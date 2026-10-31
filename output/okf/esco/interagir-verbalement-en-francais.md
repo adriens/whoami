@@ -4,7 +4,7 @@ title: interagir verbalement en français
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/bfb5f0b8-0ea0-4e44-a48d-7d876f966758
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-10-31'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.
