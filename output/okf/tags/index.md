@@ -31,9 +31,9 @@ timestamp: '2026-10-19'
 - [human-centric](human-centric.md) — 14 entrées
 - [java](java.md) — 13 entrées
 - [knowledge-sharing](knowledge-sharing.md) — 12 entrées
+- [speaker](speaker.md) — 12 entrées
 - [unc-partnership](unc-partnership.md) — 12 entrées
 - [neo4j](neo4j.md) — 11 entrées
-- [speaker](speaker.md) — 11 entrées
 - [lasting-impact](lasting-impact.md) — 10 entrées
 - [python](python.md) — 10 entrées
 - [saga](saga.md) — 10 entrées

@@ -32,6 +32,7 @@ Enseignement exercé entièrement sur temps personnel, le soir après le travail
 - Pitch #HackAVP au module (2ème session, août→décembre 2026) : les étudiants de la promotion concourent au hackathon en tant qu'équipes candidates — le module s'articule directement sur un cas réel d'ouverture de données publiques (OPT-NC/Station N/OPEN NC)
 - Projection de la vidéo teaser #HackAVP (31/08/2026) en cours le soir même — démonstration des ressources open data (API, MCP, dataset HuggingFace) directement au groupe d'étudiants concourant au hackathon
 - Inscription effective des étudiants au #HackAVP (31/08/2026, le soir même de la projection) — passage de l'intention pédagogique à la participation concrète, en amont du lancement du 09/09/2026
+- Remise des prix #HackAVP au salon Tech&Co (05/11/2026) : une étudiante de la promotion MIAGE prend la parole sur scène pour représenter l'IAE-UNC, entre la présentation du hackathon et l'annonce des lauréats — prolongement du module jusqu'à la prise de parole publique
 
 **Métiers ESCO :**
 - [chargé de cours](../esco/charge-de-cours.md) — *ISCO 2310.1.42*
