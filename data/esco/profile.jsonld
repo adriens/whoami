@@ -5,7 +5,7 @@
   "name": "Adrien Sales",
   "jobTitle": "Architecte SI & Product Builder | Modélisation · Data · IA Agents | LEAN & Innovation frugale | DevRel",
   "url": "https://adriens.github.io/whoami/",
-  "x-esco-retrieved": "2026-10-19",
+  "x-esco-retrieved": "2026-10-31",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
   "x-resume-version": "v1.38.6",
   "hasOccupation": [
@@ -1024,6 +1024,27 @@
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "IA & Agents"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/7dd94ad3-13d6-43fe-8b94-51fcbf67ced9",
+      "termCode": "7dd94ad3-13d6-43fe-8b94-51fcbf67ced9",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "évaluer des informations"
+        },
+        {
+          "@language": "en",
+          "@value": "evaluate information"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "IA & Agents",
+        "Developer Relations & Communication"
       ]
     },
     {
@@ -2213,6 +2234,26 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+      "termCode": "7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "statistiques"
+        },
+        {
+          "@language": "en",
+          "@value": "statistics"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Open Data & Data Science"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/51586df8-1c46-4b47-8583-773cb63bf00b",
       "termCode": "51586df8-1c46-4b47-8583-773cb63bf00b",
       "name": [
@@ -2717,6 +2758,46 @@
         {
           "@language": "en",
           "@value": "demonstrate functionality of software products"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/5e9e6dea-23d9-46ba-b8ea-749319b48994",
+      "termCode": "5e9e6dea-23d9-46ba-b8ea-749319b48994",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "présider une réunion"
+        },
+        {
+          "@language": "en",
+          "@value": "chair a meeting"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/c1df8590-4b5a-4598-84a1-431f639ba66c",
+      "termCode": "c1df8590-4b5a-4598-84a1-431f639ba66c",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "analyser des propositions techniques en matière de TIC"
+        },
+        {
+          "@language": "en",
+          "@value": "analyse ICT technical proposals"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
