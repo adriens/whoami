@@ -1,6 +1,6 @@
 ---
 author: Yamamoto Tsunetomo
-average_rating: '4.05'
+average_rating: '3.99'
 date_read: '2000-01-13'
 id: '277950'
 isbn: '4770029160'

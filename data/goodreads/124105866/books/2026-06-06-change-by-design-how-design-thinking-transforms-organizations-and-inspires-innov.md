@@ -1,6 +1,6 @@
 ---
-author: Tim    Brown
-average_rating: '3.88'
+author: Tim Brown
+average_rating: '3.89'
 date_read: '2026-06-06'
 id: '6671664'
 isbn: 0061766089

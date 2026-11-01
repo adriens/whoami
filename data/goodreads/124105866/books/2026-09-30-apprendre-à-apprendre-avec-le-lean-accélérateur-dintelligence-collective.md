@@ -1,6 +1,6 @@
 ---
 author: Jacques Chaize
-average_rating: '4.14'
+average_rating: '4.00'
 date_read: '2026-09-30'
 id: '59343784'
 isbn: '2416002589'

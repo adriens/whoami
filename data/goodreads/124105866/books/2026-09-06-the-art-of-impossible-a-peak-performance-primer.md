@@ -1,6 +1,6 @@
 ---
 author: Steven Kotler
-average_rating: '4.16'
+average_rating: '4.18'
 date_read: '2026-09-06'
 id: '50209348'
 isbn: 0062977520

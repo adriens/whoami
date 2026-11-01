@@ -1,6 +1,6 @@
 ---
 author: Simon Sinek
-average_rating: '4.14'
+average_rating: '4.16'
 date_read: '2023-10-29'
 id: '38390751'
 isbn: 073521350X

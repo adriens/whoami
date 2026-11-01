@@ -1,6 +1,6 @@
 ---
 author: Eric Berne
-average_rating: '3.57'
+average_rating: '4.10'
 date_read: '2021-05-12'
 id: '5742979'
 isbn: '2228894257'

@@ -1,6 +1,6 @@
 ---
 author: Ellen J. Langer
-average_rating: '3.77'
+average_rating: '3.80'
 date_read: '2026-02-16'
 id: '224786'
 isbn: 0201523418

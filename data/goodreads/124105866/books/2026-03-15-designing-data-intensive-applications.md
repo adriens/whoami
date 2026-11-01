@@ -1,6 +1,6 @@
 ---
 author: Martin Kleppmann
-average_rating: '4.70'
+average_rating: '4.69'
 date_read: '2026-03-15'
 id: '23463279'
 isbn: ''

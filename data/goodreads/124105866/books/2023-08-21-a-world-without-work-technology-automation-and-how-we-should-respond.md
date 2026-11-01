@@ -1,6 +1,6 @@
 ---
 author: Daniel Susskind
-average_rating: '3.80'
+average_rating: '3.82'
 date_read: '2023-08-21'
 id: '51300408'
 isbn: '1250173523'

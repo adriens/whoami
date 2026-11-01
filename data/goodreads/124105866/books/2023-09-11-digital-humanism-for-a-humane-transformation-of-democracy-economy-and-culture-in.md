@@ -1,6 +1,6 @@
 ---
 author: Julian Nida-Rümelin
-average_rating: '4.17'
+average_rating: '3.96'
 date_read: '2023-09-11'
 id: '122035634'
 isbn: '3031124820'

@@ -1,6 +1,6 @@
 ---
 author: Patrice Franceschi
-average_rating: '4.00'
+average_rating: '3.96'
 date_read: '2020-06-04'
 id: '43985260'
 isbn: ''

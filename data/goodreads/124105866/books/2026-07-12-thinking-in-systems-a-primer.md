@@ -1,6 +1,6 @@
 ---
 author: Donella H. Meadows
-average_rating: '4.15'
+average_rating: '4.17'
 date_read: '2026-07-12'
 id: '3828902'
 isbn: '1603580557'

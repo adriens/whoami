@@ -1,6 +1,6 @@
 ---
 author: Will Storr
-average_rating: '4.01'
+average_rating: '4.04'
 date_read: '2023-10-01'
 id: '43183121'
 isbn: ''

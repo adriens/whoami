@@ -1,6 +1,6 @@
 ---
 author: Edward L. Bernays
-average_rating: '3.73'
+average_rating: '3.72'
 date_read: '2020-11-28'
 id: '493212'
 isbn: 0970312598

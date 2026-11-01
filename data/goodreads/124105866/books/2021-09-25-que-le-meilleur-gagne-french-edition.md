@@ -1,6 +1,6 @@
 ---
 author: André Comte-Sponville
-average_rating: '3.86'
+average_rating: '3.90'
 date_read: '2021-09-25'
 id: '57635541'
 isbn: '2221255747'

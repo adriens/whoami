@@ -1,6 +1,6 @@
 ---
 author: Nick Chater
-average_rating: '3.67'
+average_rating: '3.74'
 date_read: '2021-05-12'
 id: '43087683'
 isbn: '2259268641'

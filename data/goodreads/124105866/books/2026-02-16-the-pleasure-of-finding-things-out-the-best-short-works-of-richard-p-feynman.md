@@ -1,6 +1,6 @@
 ---
-author: Richard P. Feynman
-average_rating: '4.25'
+author: Richard Feynman
+average_rating: '4.22'
 date_read: '2026-02-16'
 id: '10260'
 isbn: ''

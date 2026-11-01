@@ -1,6 +1,6 @@
 ---
 author: Ray Kurzweil
-average_rating: '3.92'
+average_rating: '3.93'
 date_read: '2024-07-21'
 id: '83518'
 isbn: 0143037889

@@ -1,6 +1,6 @@
 ---
 author: Mason Currey
-average_rating: '3.67'
+average_rating: '3.66'
 date_read: '2019-11-06'
 id: '15799151'
 isbn: '0307273601'

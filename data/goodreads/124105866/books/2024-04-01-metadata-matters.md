@@ -1,6 +1,6 @@
 ---
 author: John Horodyski
-average_rating: '3.86'
+average_rating: '3.82'
 date_read: '2024-04-01'
 id: '59858988'
 isbn: '1000597393'

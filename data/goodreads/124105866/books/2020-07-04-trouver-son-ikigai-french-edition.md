@@ -1,6 +1,6 @@
 ---
 author: Christie Vanbremeersch
-average_rating: '3.16'
+average_rating: '3.15'
 date_read: '2020-07-04'
 id: '37867963'
 isbn: '2412036411'

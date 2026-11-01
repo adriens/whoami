@@ -1,6 +1,6 @@
 ---
 author: Vineet Nayar
-average_rating: '3.82'
+average_rating: '3.90'
 date_read: '2020-11-05'
 id: '8038126'
 isbn: '1422139069'

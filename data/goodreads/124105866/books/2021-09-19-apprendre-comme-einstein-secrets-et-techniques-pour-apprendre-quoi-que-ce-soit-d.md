@@ -1,10 +1,10 @@
 ---
 author: Robert Mercier
-average_rating: '3.71'
+average_rating: '3.78'
 date_read: '2021-09-19'
 id: '54018081'
 isbn: ''
-num_pages: '90'
+num_pages: '122'
 published_year: ''
 rating: '3'
 shelf: read

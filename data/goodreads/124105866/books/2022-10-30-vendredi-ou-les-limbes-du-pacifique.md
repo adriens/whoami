@@ -1,6 +1,6 @@
 ---
 author: Michel Tournier
-average_rating: '3.54'
+average_rating: '3.66'
 date_read: ''
 id: '626980'
 isbn: '2070369595'

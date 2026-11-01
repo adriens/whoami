@@ -1,6 +1,6 @@
 ---
 author: Dave Asprey
-average_rating: '3.67'
+average_rating: '3.74'
 date_read: '2024-01-29'
 id: '22299976'
 isbn: 162336518X
