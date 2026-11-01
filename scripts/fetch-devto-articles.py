@@ -11,6 +11,21 @@ import yaml
 
 DEVTO_API = "https://dev.to/api"
 DATA_DIR = Path("data/dev_to")
+MAX_RETRIES = 5
+RETRY_STATUSES = {429, 500, 502, 503, 504}
+
+
+def api_get(url: str, params: dict | None = None) -> requests.Response:
+    """GET avec retry sur 429/5xx (respecte Retry-After, sinon backoff exponentiel)."""
+    for attempt in range(MAX_RETRIES):
+        resp = requests.get(url, params=params, timeout=10)
+        if resp.status_code not in RETRY_STATUSES or attempt == MAX_RETRIES - 1:
+            return resp
+        retry_after = resp.headers.get("Retry-After", "")
+        delay = int(retry_after) if retry_after.isdigit() else 2 ** (attempt + 1)
+        print(f"  HTTP {resp.status_code} sur {url} — retry dans {delay}s ({attempt + 1}/{MAX_RETRIES - 1})")
+        time.sleep(delay)
+    return resp
 
 
 def slugify(text: str) -> str:
@@ -33,10 +48,9 @@ def fetch_articles(username: str, author_filter: str | None = None) -> list[dict
     articles = []
     page = 1
     while True:
-        resp = requests.get(
+        resp = api_get(
             f"{DEVTO_API}/articles",
             params={"username": username, "per_page": 30, "page": page},
-            timeout=10,
         )
         resp.raise_for_status()
         batch = resp.json()
@@ -52,7 +66,7 @@ def fetch_articles(username: str, author_filter: str | None = None) -> list[dict
 
 
 def fetch_body(article_id: int) -> str:
-    resp = requests.get(f"{DEVTO_API}/articles/{article_id}", timeout=10)
+    resp = api_get(f"{DEVTO_API}/articles/{article_id}")
     resp.raise_for_status()
     return resp.json().get("body_markdown", "")
 
@@ -111,7 +125,7 @@ def write_index(user_dir: Path, articles: list[dict]):
 
 
 def fetch_user_stats(username: str, user_dir: Path):
-    resp = requests.get(f"{DEVTO_API}/users/by_username", params={"url": username}, timeout=10)
+    resp = api_get(f"{DEVTO_API}/users/by_username", params={"url": username})
     if resp.status_code == 404:
         print(f"  WARNING: @{username} not found via users API (org account?) — skipping stats")
         stats = {"followers_count": 0, "username": username}
