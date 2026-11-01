@@ -4,7 +4,7 @@ title: mentor
 description: 7 entrées taguées « mentor »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-11-02'
 ---
 
 Concept transversal reliant 7 entrées du profil.

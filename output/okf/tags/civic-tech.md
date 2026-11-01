@@ -4,7 +4,7 @@ title: civic-tech
 description: 22 entrées taguées « civic-tech »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-11-02'
 ---
 
 Concept transversal reliant 22 entrées du profil.

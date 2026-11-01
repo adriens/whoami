@@ -4,7 +4,7 @@ title: Volunteer
 description: Index de la section volunteer
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-11-02'
 ---
 
 4 entrées.

@@ -4,7 +4,7 @@ title: hackathon
 description: 5 entrées taguées « hackathon »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-10-19'
+timestamp: '2026-11-02'
 ---
 
 Concept transversal reliant 5 entrées du profil.
