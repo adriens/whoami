@@ -6,7 +6,7 @@ language: C++
 topics: [brew, community, duckdb, extension, homebrew, sql, csv, dataengineering, datascience, parquet, reporting]
 stars: 2
 created_at: 2026-01-25
-updated_at: 2026-09-09
+updated_at: 2026-10-22
 archived: false
 has_readme: true
 ---
