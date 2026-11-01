@@ -155,6 +155,10 @@ def main():
     entries = fetch_books(args.user)
     books = [extract_book(e) for e in entries]
     print(f"Total : {len(books)} livres")
+    if not books:
+        # RSS vide = Goodreads injoignable/bloquant (ex. IP runner CI) — ne pas écraser l'index
+        print("WARNING: flux RSS vide — données existantes conservées")
+        return
 
     print("Writing _index.csv...")
     write_index(user_dir, books)
