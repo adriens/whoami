@@ -1,5 +1,6 @@
 import argparse
 import csv
+import json
 import re
 import time
 from pathlib import Path
@@ -68,6 +69,32 @@ def extract_book(entry: dict) -> dict:
         "review": (entry.get("user_review") or "").strip(),
         "description": (entry.get("book_description") or "").strip(),
     }
+
+
+def load_scraped(path: Path) -> list[dict]:
+    """Charge un export JSON scrapé depuis l'étagère Goodreads (navigateur connecté).
+
+    Goodreads a coupé les flux RSS (404 depuis ~oct. 2026) : l'étagère n'est plus
+    lisible qu'en session authentifiée. Voir data/goodreads/README.md.
+    """
+    books = json.loads(path.read_text(encoding="utf-8"))
+    return [{
+        "id": str(b["id"]),
+        "title": b["title"],
+        "author": b["author"],
+        # même format d'URL qu'à l'époque du RSS, pour ne pas bruiter les diffs
+        "url": f"https://www.goodreads.com/review/show/{b['reviewId']}?utm_medium=api&utm_source=rss",
+        "isbn": b.get("isbn", ""),
+        "rating": b.get("rating", ""),
+        "average_rating": b.get("average_rating", ""),
+        "num_pages": b.get("num_pages", ""),
+        "date_read": b.get("date_read", ""),
+        "date_added": b.get("date_added", ""),
+        "published_year": b.get("published_year", ""),
+        "shelf": "read",
+        "review": (b.get("review") or "").strip(),
+        "description": "",
+    } for b in books]
 
 
 def read_existing(path: Path) -> tuple[list | None, str]:
@@ -145,15 +172,19 @@ def write_index(user_dir: Path, books: list[dict]):
 def main():
     parser = argparse.ArgumentParser(description="Fetch Goodreads books to markdown")
     parser.add_argument("--user", required=True, help="Goodreads user ID (numerique)")
+    parser.add_argument("--from-json", type=Path, help="Export JSON scrapé (au lieu du RSS)")
     args = parser.parse_args()
 
     user_dir = DATA_DIR / args.user
     books_dir = user_dir / "books"
     books_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"Fetching Goodreads books for user {args.user}...")
-    entries = fetch_books(args.user)
-    books = [extract_book(e) for e in entries]
+    if args.from_json:
+        print(f"Loading Goodreads books from {args.from_json}...")
+        books = load_scraped(args.from_json)
+    else:
+        print(f"Fetching Goodreads books for user {args.user}...")
+        books = [extract_book(e) for e in fetch_books(args.user)]
     print(f"Total : {len(books)} livres")
     if not books:
         # RSS vide = Goodreads injoignable/bloquant (ex. IP runner CI) — ne pas écraser l'index

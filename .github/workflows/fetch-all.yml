@@ -35,7 +35,6 @@ jobs:
           uv run scripts/fetch-devto-articles.py --user adriens
           uv run scripts/fetch-devto-articles.py --user optnc --author adriens
           uv run scripts/fetch-youtube-channel.py --channel devops-lab
-          uv run scripts/fetch-goodreads.py --user 124105866
           uv run scripts/fetch-kaggle-datasets.py --user adriensales
           uv run scripts/fetch-huggingface.py --author rastadidi
           uv run scripts/fetch-github-repos.py

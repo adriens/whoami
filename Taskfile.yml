@@ -95,9 +95,9 @@ tasks:
       - task: fetch-youtube-playlists-devops-lab
 
   fetch-goodreads-adriens:
-    desc: Provisionner les livres Goodreads @adriens (etagere read)
+    desc: Importer les livres Goodreads @adriens depuis l'export navigateur (RSS coupé, voir data/goodreads/README.md)
     cmds:
-      - uv run scripts/fetch-goodreads.py --user 124105866
+      - uv run scripts/fetch-goodreads.py --user 124105866 --from-json output/goodreads-124105866.json
 
   fetch-goodreads:
     desc: Provisionner tous les comptes Goodreads (sequentiel)
