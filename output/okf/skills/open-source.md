@@ -8,12 +8,12 @@ tags:
 - geol
 - open-source
 - schemacrawler
-timestamp: '2026-11-02'
+timestamp: '2026-11-04'
 ---
 
 **Niveau : Avancé**
 
-Mots-clés : Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey), endoflife.date, SchemaCrawler, Chocolatey, DuckDB brew extension, geol, oracle-jutils, mobitag, liquibase, Attraction et fidélisation de contributors externes
+Mots-clés : Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey), endoflife.date, SchemaCrawler, Chocolatey, DuckDB brew extension, DuckDB apt extension, geol, oracle-jutils, mobitag, liquibase, Attraction et fidélisation de contributors externes
 
 **Compétences ESCO :**
 - [modèle en code source ouverte](../esco/modele-en-code-source-ouverte.md) — *knowledge*

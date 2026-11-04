@@ -4,7 +4,7 @@ title: knowledge-sharing
 description: 12 entrées taguées « knowledge-sharing »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-02'
+timestamp: '2026-11-04'
 ---
 
 Concept transversal reliant 12 entrées du profil.

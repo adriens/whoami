@@ -1,14 +1,15 @@
 ---
 type: Tag
 title: data
-description: 37 entrées taguées « data »
+description: 39 entrées taguées « data »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-02'
+timestamp: '2026-11-04'
 ---
 
-Concept transversal reliant 37 entrées du profil.
+Concept transversal reliant 39 entrées du profil.
 
+- [Extension officielle DuckDB Community — apt](../awards/extension-officielle-duckdb-community-apt.md) — *Award*
 - [Extension officielle DuckDB Community — brew](../awards/extension-officielle-duckdb-community-brew.md) — *Award*
 - [Notebooks Expert — Kaggle](../awards/notebooks-expert-kaggle.md) — *Award*
 - [Speaker — Elastic Paris Meetup #58](../awards/speaker-elastic-paris-meetup-58.md) — *Award*
@@ -23,6 +24,7 @@ Concept transversal reliant 37 entrées du profil.
 - [SchemaCrawler — Contribution open source](../projects/schemacrawler-contribution-open-source.md) — *Project*
 - [aquavena — SDK Python scraping menus & tarifs Aquavena NC](../projects/aquavena-sdk-python-scraping-menus-tarifs-aquavena-nc.md) — *Project*
 - [auptitcafe — SDK scraping cafés & restaurants NC](../projects/auptitcafe-sdk-scraping-cafes-restaurants-nc.md) — *Project*
+- [duckdb-apt — Extension DuckDB Community](../projects/duckdb-apt-extension-duckdb-community.md) — *Project*
 - [duckdb-brew — Extension DuckDB Community](../projects/duckdb-brew-extension-duckdb-community.md) — *Project*
 - [edb-noumea — SDK qualité eaux de baignade](../projects/edb-noumea-sdk-qualite-eaux-de-baignade.md) — *Project*
 - [liquibase — Package Chocolatey](../projects/liquibase-package-chocolatey.md) — *Project*

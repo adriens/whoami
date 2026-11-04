@@ -7,7 +7,7 @@ resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.js
 tags:
 - elk-stack
 - kibana
-timestamp: '2026-11-02'
+timestamp: '2026-11-04'
 ---
 
 **Niveau : Avancé**

@@ -1,15 +1,16 @@
 ---
 type: Tag
 title: international
-description: 23 entrées taguées « international »
+description: 25 entrées taguées « international »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-02'
+timestamp: '2026-11-04'
 ---
 
-Concept transversal reliant 23 entrées du profil.
+Concept transversal reliant 25 entrées du profil.
 
 - [Arctic Code Vault Contributor — GitHub](../awards/arctic-code-vault-contributor-github.md) — *Award*
+- [Extension officielle DuckDB Community — apt](../awards/extension-officielle-duckdb-community-apt.md) — *Award*
 - [Extension officielle DuckDB Community — brew](../awards/extension-officielle-duckdb-community-brew.md) — *Award*
 - [Hacktoberfest Maintainer Spotlight — geol](../awards/hacktoberfest-maintainer-spotlight-geol.md) — *Award*
 - [Notebooks Expert — Kaggle](../awards/notebooks-expert-kaggle.md) — *Award*
@@ -19,6 +20,7 @@ Concept transversal reliant 23 entrées du profil.
 - [Speaker — NODES 2024 (Conférence internationale Neo4j)](../awards/speaker-nodes-2024-conference-internationale-neo4j.md) — *Award*
 - [Speaker — Talanoa 2022 / Pacific DataViz Challenge (SPC)](../awards/speaker-talanoa-2022-pacific-dataviz-challenge-spc.md) — *Award*
 - [SchemaCrawler — Contribution open source](../projects/schemacrawler-contribution-open-source.md) — *Project*
+- [duckdb-apt — Extension DuckDB Community](../projects/duckdb-apt-extension-duckdb-community.md) — *Project*
 - [duckdb-brew — Extension DuckDB Community](../projects/duckdb-brew-extension-duckdb-community.md) — *Project*
 - [geol — CLI de gestion des End-of-Life](../projects/geol-cli-de-gestion-des-end-of-life.md) — *Project*
 - [liquibase — Package Chocolatey](../projects/liquibase-package-chocolatey.md) — *Project*

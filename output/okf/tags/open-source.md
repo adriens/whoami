@@ -1,15 +1,16 @@
 ---
 type: Tag
 title: open-source
-description: 45 entrées taguées « open-source »
+description: 47 entrées taguées « open-source »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-02'
+timestamp: '2026-11-04'
 ---
 
-Concept transversal reliant 45 entrées du profil.
+Concept transversal reliant 47 entrées du profil.
 
 - [Arctic Code Vault Contributor — GitHub](../awards/arctic-code-vault-contributor-github.md) — *Award*
+- [Extension officielle DuckDB Community — apt](../awards/extension-officielle-duckdb-community-apt.md) — *Award*
 - [Extension officielle DuckDB Community — brew](../awards/extension-officielle-duckdb-community-brew.md) — *Award*
 - [Hacktoberfest Maintainer Spotlight — geol](../awards/hacktoberfest-maintainer-spotlight-geol.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
@@ -31,6 +32,7 @@ Concept transversal reliant 45 entrées du profil.
 - [SchemaCrawler — Contribution open source](../projects/schemacrawler-contribution-open-source.md) — *Project*
 - [aquavena — SDK Python scraping menus & tarifs Aquavena NC](../projects/aquavena-sdk-python-scraping-menus-tarifs-aquavena-nc.md) — *Project*
 - [auptitcafe — SDK scraping cafés & restaurants NC](../projects/auptitcafe-sdk-scraping-cafes-restaurants-nc.md) — *Project*
+- [duckdb-apt — Extension DuckDB Community](../projects/duckdb-apt-extension-duckdb-community.md) — *Project*
 - [duckdb-brew — Extension DuckDB Community](../projects/duckdb-brew-extension-duckdb-community.md) — *Project*
 - [edb-noumea — SDK qualité eaux de baignade](../projects/edb-noumea-sdk-qualite-eaux-de-baignade.md) — *Project*
 - [geol — CLI de gestion des End-of-Life](../projects/geol-cli-de-gestion-des-end-of-life.md) — *Project*

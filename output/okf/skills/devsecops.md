@@ -7,12 +7,12 @@ resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.js
 tags:
 - devsecops
 - geol
-timestamp: '2026-11-02'
+timestamp: '2026-11-04'
 ---
 
 **Niveau : Avancé**
 
-Mots-clés : GitHub Actions, GitHub Issues, Docker, Podman, Kubernetes, Trivy, skopeo, Shift-left security, geol, goreleaser, RGPD, WCAG, Lighthouse, Accessibility CI checks, DORA metrics, Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase, Scripts Bash, Grype (scanner de vulnérabilités, grype-contribs)
+Mots-clés : GitHub Actions, GitHub Issues, Docker, Podman, Kubernetes, Trivy, skopeo, Shift-left security, geol, goreleaser, RGPD, WCAG, Lighthouse, Accessibility CI checks, DORA metrics, Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase, Scripts Bash, Grype (scanner de vulnérabilités, grype-contribs), Audit de posture sécurité des paquets Debian/Ubuntu en SQL (duckdb-apt : purl, OSV.dev, rapport Quarto)
 
 **Compétences ESCO :**
 - [DevOps](../esco/devops.md) — *knowledge*

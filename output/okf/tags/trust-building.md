@@ -4,7 +4,7 @@ title: trust-building
 description: 7 entrées taguées « trust-building »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-02'
+timestamp: '2026-11-04'
 ---
 
 Concept transversal reliant 7 entrées du profil.

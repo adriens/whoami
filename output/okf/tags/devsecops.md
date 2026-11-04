@@ -1,18 +1,20 @@
 ---
 type: Tag
 title: devsecops
-description: 18 entrées taguées « devsecops »
+description: 20 entrées taguées « devsecops »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-02'
+timestamp: '2026-11-04'
 ---
 
-Concept transversal reliant 18 entrées du profil.
+Concept transversal reliant 20 entrées du profil.
 
+- [Extension officielle DuckDB Community — apt](../awards/extension-officielle-duckdb-community-apt.md) — *Award*
 - [Hacktoberfest Maintainer Spotlight — geol](../awards/hacktoberfest-maintainer-spotlight-geol.md) — *Award*
 - [Speaker — Elastic Paris Meetup #58](../awards/speaker-elastic-paris-meetup-58.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
 - [Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)](../awards/speaker-geol-station-n-commissions-data-ia-cybersecurite.md) — *Award*
+- [duckdb-apt — Extension DuckDB Community](../projects/duckdb-apt-extension-duckdb-community.md) — *Project*
 - [geol — CLI de gestion des End-of-Life](../projects/geol-cli-de-gestion-des-end-of-life.md) — *Project*
 - [geol-showcase — Rapports d'évolution de sécurité (OpenBao, PostgreSQL)](../projects/geol-showcase-rapports-d-evolution-de-securite-openbao-postgresql.md) — *Project*
 - [liquibase — Package Chocolatey](../projects/liquibase-package-chocolatey.md) — *Project*

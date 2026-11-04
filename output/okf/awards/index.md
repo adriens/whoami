@@ -4,13 +4,14 @@ title: Awards
 description: Index de la section awards
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-02'
+timestamp: '2026-11-04'
 ---
 
-14 entrées.
+15 entrées.
 
 - [Admissible au CAPES externe de Mathématiques](admissible-au-capes-externe-de-mathematiques.md) — Admissible au CAPES externe de Mathématiques (concours national sélectif) pendant la période d'ense…
 - [Arctic Code Vault Contributor — GitHub](arctic-code-vault-contributor-github.md) — Code archivé dans le GitHub Arctic Code Vault pour préservation millénaire.
+- [Extension officielle DuckDB Community — apt](extension-officielle-duckdb-community-apt.md) — Extension apt acceptée sur duckdb.org/community_extensions (PR duckdb/community-extensions#3469, me…
 - [Extension officielle DuckDB Community — brew](extension-officielle-duckdb-community-brew.md) — Extension brew listée sur duckdb.org/community_extensions permettant de requêter les packages Homeb…
 - [Hacktoberfest Maintainer Spotlight — geol](hacktoberfest-maintainer-spotlight-geol.md) — Mise en avant officielle comme mainteneur open source pour le projet geol lors du Hacktoberfest 202…
 - [Mentor Pépite NC 2025 — équipe WAZA lauréate](mentor-pepite-nc-2025-equipe-waza-laureate.md) — Mentor du programme Pépite NC 2025 auprès de l'équipe WAZA (Dévi Bergès, Tina Nak, James Langeron,…
