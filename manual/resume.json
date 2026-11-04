@@ -551,6 +551,21 @@
   ],
   "awards": [
     {
+      "title": "Extension officielle DuckDB Community — apt",
+      "date": "2026-11",
+      "awarder": "DuckDB",
+      "x-tags": [
+        "open-source",
+        "data",
+        "duckdb",
+        "maintainer",
+        "recognition",
+        "international",
+        "devsecops"
+      ],
+      "summary": "Extension apt acceptée sur duckdb.org/community_extensions (PR duckdb/community-extensions#3469, mergée le 2026-11-02) : requêter en SQL le gestionnaire de paquets apt/dpkg des systèmes Debian/Ubuntu — paquets installés, dépendances, dépôts et leur niveau de confiance, mises à jour de sécurité, historique. Deuxième extension DuckDB Community après brew. https://duckdb.org/community_extensions/extensions/apt"
+    },
+    {
       "title": "Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)",
       "date": "2026-08-06",
       "awarder": "Station N — Commissions Data & IA / Cybersécurité",
@@ -1715,7 +1730,8 @@
         "DORA metrics",
         "Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase",
         "Scripts Bash",
-        "Grype (scanner de vulnérabilités, grype-contribs)"
+        "Grype (scanner de vulnérabilités, grype-contribs)",
+        "Audit de posture sécurité des paquets Debian/Ubuntu en SQL (duckdb-apt : purl, OSV.dev, rapport Quarto)"
       ],
       "x-esco": [
         {
@@ -1750,7 +1766,8 @@
             "Shift-left security",
             "geol",
             "Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase",
-            "Grype (scanner de vulnérabilités, grype-contribs)"
+            "Grype (scanner de vulnérabilités, grype-contribs)",
+            "Audit de posture sécurité des paquets Debian/Ubuntu en SQL (duckdb-apt : purl, OSV.dev, rapport Quarto)"
           ]
         },
         {
@@ -1804,7 +1821,8 @@
           "covers": [
             "Trivy",
             "Shift-left security",
-            "Grype (scanner de vulnérabilités, grype-contribs)"
+            "Grype (scanner de vulnérabilités, grype-contribs)",
+            "Audit de posture sécurité des paquets Debian/Ubuntu en SQL (duckdb-apt : purl, OSV.dev, rapport Quarto)"
           ]
         },
         {
@@ -1858,7 +1876,8 @@
           "label": "réaliser des audits informatiques",
           "type": "skill/competence",
           "covers": [
-            "Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase"
+            "Rapports d'évolution de sécurité des images (scoring CVE/CVSS, drift de base CVE) — geol-showcase",
+            "Audit de posture sécurité des paquets Debian/Ubuntu en SQL (duckdb-apt : purl, OSV.dev, rapport Quarto)"
           ]
         },
         {
@@ -2856,6 +2875,7 @@
         "SchemaCrawler",
         "Chocolatey",
         "DuckDB brew extension",
+        "DuckDB apt extension",
         "geol",
         "oracle-jutils",
         "mobitag",
@@ -2872,6 +2892,7 @@
             "SchemaCrawler",
             "Chocolatey",
             "DuckDB brew extension",
+            "DuckDB apt extension",
             "geol",
             "oracle-jutils",
             "mobitag",
@@ -2886,7 +2907,8 @@
           "covers": [
             "geol",
             "Chocolatey",
-            "DuckDB brew extension"
+            "DuckDB brew extension",
+            "DuckDB apt extension"
           ]
         },
         {
@@ -5085,6 +5107,31 @@
       "url": "https://adriens.github.io/helia-etat-reseau-data/"
     },
     {
+      "name": "duckdb-apt — Extension DuckDB Community",
+      "type": "open-source",
+      "x-tags": [
+        "data",
+        "duckdb",
+        "open-source",
+        "maintainer",
+        "international",
+        "packaging",
+        "devsecops",
+        "linux",
+        "debian",
+        "saga"
+      ],
+      "startDate": "2026-10",
+      "description": "Extension officielle DuckDB Community (sœur Debian/Ubuntu de duckdb-brew) permettant de requêter en SQL le gestionnaire de paquets apt/dpkg : paquets installés, dépendances, dépôts et leur niveau de confiance, provenance de chaque paquet, mises à jour en attente et historique des changements. Lecture directe des fichiers dpkg/apt (sans sous-processus) via le file system DuckDB, paramètre root pour auditer une image disque ou un conteneur monté. Acceptée sur duckdb.org le 2026-11-02.",
+      "highlights": [
+        "Listée officiellement sur duckdb.org/community_extensions/extensions/apt — documentation : https://adriens.github.io/duckdb-apt/",
+        "Posture sécurité supply chain en SQL : paquets orphelins, dépôts tiers ou non signés, dépôts expirés, mises à jour de sécurité en attente, purl pour les scanners (OSV, Grype, Dependency-Track)",
+        "Base DuckDB prête à l'emploi (tables + clés + vues commentées) enrichie des vulnérabilités connues via OSV.dev, et rapport PDF de sécurité généré en Quarto",
+        "Écrite en C++, testée en CI sur Debian 12/13 et Ubuntu 22.04/24.04/26.04 (comparaison avec apt list --upgradable)"
+      ],
+      "url": "https://github.com/adriens/duckdb-apt"
+    },
+    {
       "name": "duckdb-brew — Extension DuckDB Community",
       "type": "open-source",
       "x-tags": [
@@ -5737,8 +5784,8 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.38.7",
-    "lastModified": "2026-11-02",
+    "version": "v1.39.0",
+    "lastModified": "2026-11-04",
     "theme": "elegant",
     "x-esco-retrieved": "2026-10-31"
   }
