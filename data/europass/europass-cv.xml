@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Candidate xmlns="http://www.europass.eu/1.0" xmlns:eures="http://www.europass_eures.eu/1.0" xmlns:hr="http://www.hr-xml.org/3" xmlns:oa="http://www.openapplications.org/oagis/9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.europass.eu/1.0 Candidate.xsd">
-  <hr:DocumentID schemeID="whoami-v1.38.7" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
+  <hr:DocumentID schemeID="whoami-v1.39.0" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
   <CandidateSupplier>
-    <hr:PartyID schemeID="whoami-v1.38.7" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
+    <hr:PartyID schemeID="whoami-v1.39.0" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
     <hr:PartyName>Owner</hr:PartyName>
     <PersonContact>
       <PersonName>
@@ -993,6 +993,10 @@
           <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
           <hr:CompetencyName>Grype (scanner de vulnérabilités, grype-contribs)</hr:CompetencyName>
         </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Audit de posture sécurité des paquets Debian/Ubuntu en SQL (duckdb-apt : purl, OSV.dev, rapport Qua</hr:CompetencyName>
+        </PersonCompetency>
       </SkillsGroup>
       <SkillsGroup>
         <Title>Microsoft Power Platform (Intermédiaire)</Title>
@@ -1144,6 +1148,10 @@
         <PersonCompetency>
           <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
           <hr:CompetencyName>DuckDB brew extension</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>DuckDB apt extension</hr:CompetencyName>
         </PersonCompetency>
         <PersonCompetency>
           <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
@@ -1325,6 +1333,18 @@
         </Date>
         <Description>&lt;p&gt;Publication de réutilisations sur le portail open data officiel de Nouvelle-Calédonie : analyse et visualisation de données publiques locales à fort impact sociétal (sécurité maritime, qualité des eaux de baignade, sécurité routière). Démarche #techforgood et innovation frugale.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Attaques de requins NC : dataset Kaggle, 3 notebooks d&amp;#x27;analyse géospatiale, rapport PDF généré via Quarto — sécurité maritime citoyenne documentée en data science&lt;/li&gt;&lt;li&gt;Eaux de baignade Nouméa : package Python edb-noumea (PyPI v0.4.0), TUI Go, données live — réutilisation publiée et maintenue sur data.gouv.nc&lt;/li&gt;&lt;li&gt;Pattern reproductible #techforgood : open data → scraping → dataset Kaggle → notebooks → rapport Quarto&lt;/li&gt;&lt;/ul&gt;</Description>
         <Link>https://data.gouv.nc</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Distinctions &amp; interventions</Title>
+      <Other>
+        <Title>Extension officielle DuckDB Community — apt</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2026-11</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;DuckDB&lt;/p&gt;&lt;p&gt;Extension apt acceptée sur duckdb.org/community_extensions (PR duckdb/community-extensions#3469, mergée le 2026-11-02) : requêter en SQL le gestionnaire de paquets apt/dpkg des systèmes Debian/Ubuntu — paquets installés, dépendances, dépôts et leur niveau de confiance, mises à jour de sécurité, historique. Deuxième extension DuckDB Community après brew. https://duckdb.org/community_extensions/extensions/apt&lt;/p&gt;</Description>
       </Other>
     </Others>
     <Others>
@@ -1571,6 +1591,19 @@
         </Date>
         <Description>&lt;p&gt;SDK Python open source helia-etat-reseaux (PyPI, LGPL-3.0) pour scraper les maintenances programmées réseau OPT-NC/HELIA (helia.nc/etat-du-reseau). Enrichissement avec les référentiels open data NC : communes (datavenc), provinces et population légale. Dépôt de données GitHub accumule les interventions actives et archivées. Application web Astro déployée sur GitHub Pages : carte interactive géolocalisée (bulles proportionnelles à la population impactée), vue Kanban des maintenances imminentes, analytics, flux RSS et abonnement calendrier par commune. &amp;quot;Tour des maintenances&amp;quot; : animation spectacle data-art des interventions OPT-NC sur fond cartographique. Lien explicite avec la méthode 5S data-driven.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;SDK helia-etat-reseaux (PyPI v0.6.1, LGPL-3.0) — scraping + enrichissement référentiels communes/provinces/population — https://github.com/adriens/helia-etat-reseau&lt;/li&gt;&lt;li&gt;Data repo GitHub : accumulation maintenances actives et archivées — https://github.com/adriens/helia-etat-reseau-data&lt;/li&gt;&lt;li&gt;Carte interactive géolocalisée : interventions OPT-NC avec bulles proportionnelles à la population impactée par commune&lt;/li&gt;&lt;li&gt;Vue Kanban : maintenances imminentes avec durée, type d&amp;#x27;impact et population concernée&lt;/li&gt;&lt;li&gt;RSS par commune + export calendrier (.ics) : alertes proactives avant coupure planifiée&lt;/li&gt;&lt;li&gt;&amp;quot;Tour des maintenances&amp;quot; : animation data-art spectacle des interventions sur carte — https://youtu.be/P0Q0DY8sCn0&lt;/li&gt;&lt;li&gt;Rétrospective saga temps d&amp;#x27;attente OPT-NC : visualisations reprises dans le plan stratégique, Unity 3D et matrices LED&lt;/li&gt;&lt;/ul&gt;</Description>
         <Link>https://adriens.github.io/helia-etat-reseau-data/</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>duckdb-apt — Extension DuckDB Community</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2026-10</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Extension officielle DuckDB Community (sœur Debian/Ubuntu de duckdb-brew) permettant de requêter en SQL le gestionnaire de paquets apt/dpkg : paquets installés, dépendances, dépôts et leur niveau de confiance, provenance de chaque paquet, mises à jour en attente et historique des changements. Lecture directe des fichiers dpkg/apt (sans sous-processus) via le file system DuckDB, paramètre root pour auditer une image disque ou un conteneur monté. Acceptée sur duckdb.org le 2026-11-02.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Listée officiellement sur duckdb.org/community_extensions/extensions/apt — documentation : https://adriens.github.io/duckdb-apt/&lt;/li&gt;&lt;li&gt;Posture sécurité supply chain en SQL : paquets orphelins, dépôts tiers ou non signés, dépôts expirés, mises à jour de sécurité en attente, purl pour les scanners (OSV, Grype, Dependency-Track)&lt;/li&gt;&lt;li&gt;Base DuckDB prête à l&amp;#x27;emploi (tables + clés + vues commentées) enrichie des vulnérabilités connues via OSV.dev, et rapport PDF de sécurité généré en Quarto&lt;/li&gt;&lt;li&gt;Écrite en C++, testée en CI sur Debian 12/13 et Ubuntu 22.04/24.04/26.04 (comparaison avec apt list --upgradable)&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/adriens/duckdb-apt</Link>
       </Other>
     </Others>
     <Others>
