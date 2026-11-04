@@ -4,9 +4,9 @@ url: https://github.com/adriens/duckdb-apt
 description: "DuckDB extension to report installed apt packages, repositories and their security posture with SQL"
 language: C++
 topics: []
-stars: 0
+stars: 1
 created_at: 2026-10-30
-updated_at: 2026-10-31
+updated_at: 2026-11-03
 archived: false
 has_readme: true
 ---
