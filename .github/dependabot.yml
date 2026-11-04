@@ -11,3 +11,9 @@ updates:
     schedule:
       interval: "weekly"
       day: "monday"
+
+  - package-ecosystem: "uv"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
