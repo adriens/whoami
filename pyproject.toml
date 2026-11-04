@@ -5,7 +5,7 @@ description = "CV Adrien Sales — validation et outillage"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "feedparser>=6.0.12",
+    "feedparser>=6.0.14",
     "huggingface-hub>=1.16.1",
     "kaggle>=2.0.0",
     "jsonschema>=4.26.0",
