@@ -5,9 +5,9 @@
   "name": "Adrien Sales",
   "jobTitle": "Architecte SI & Product Builder | Modélisation · Data · IA Agents | LEAN & Innovation frugale | DevRel",
   "url": "https://adriens.github.io/whoami/",
-  "x-esco-retrieved": "2026-10-31",
+  "x-esco-retrieved": "2026-11-05",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.39.0",
+  "x-resume-version": "v1.40.0",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -2416,6 +2416,47 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8",
+      "termCode": "ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "méthodologie de recherche scientifique"
+        },
+        {
+          "@language": "en",
+          "@value": "scientific research methodology"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Reporting & Documentation"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/c3c2420c-ce9a-4371-8eed-1db479c3a562",
+      "termCode": "c3c2420c-ce9a-4371-8eed-1db479c3a562",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "rédiger un article scientifique"
+        },
+        {
+          "@language": "en",
+          "@value": "write scientific papers"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Reporting & Documentation",
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/fd446407-b08e-49da-b8e3-7e7c79618c3f",
       "termCode": "fd446407-b08e-49da-b8e3-7e7c79618c3f",
       "name": [
@@ -2487,26 +2528,6 @@
         {
           "@language": "en",
           "@value": "develop professional network"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "skill/competence",
-      "x-profile-skills": [
-        "Developer Relations & Communication"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/c3c2420c-ce9a-4371-8eed-1db479c3a562",
-      "termCode": "c3c2420c-ce9a-4371-8eed-1db479c3a562",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "rédiger un article scientifique"
-        },
-        {
-          "@language": "en",
-          "@value": "write scientific papers"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
