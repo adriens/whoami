@@ -6,7 +6,7 @@ language: HTML
 topics: [curriculum, curriculum-vitae, resume, resume-website]
 stars: 0
 created_at: 2026-05-22
-updated_at: 2026-11-01
+updated_at: 2026-11-05
 archived: false
 has_readme: true
 ---
