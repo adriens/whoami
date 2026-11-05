@@ -1222,7 +1222,8 @@
         "CV-as-code (JSON Resume, enrichissement par agent IA, ESCO)",
         "Embeddings multilingues (multilingual-e5-large, EmbeddingGemma)",
         "LLM-as-a-judge avec traces de raisonnement (Qwen3-32B, vLLM)",
-        "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)"
+        "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)",
+        "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
       ],
       "x-esco": [
         {
@@ -1236,7 +1237,8 @@
             "Semantic Router",
             "Vibe coding",
             "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)",
-            "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)"
+            "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)",
+            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
           ]
         },
         {
@@ -1251,7 +1253,8 @@
             "Ollama",
             "Gradio",
             "Embeddings multilingues (multilingual-e5-large, EmbeddingGemma)",
-            "LLM-as-a-judge avec traces de raisonnement (Qwen3-32B, vLLM)"
+            "LLM-as-a-judge avec traces de raisonnement (Qwen3-32B, vLLM)",
+            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
           ]
         },
         {
@@ -1308,7 +1311,8 @@
           "label": "évaluer des informations",
           "type": "skill/competence",
           "covers": [
-            "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)"
+            "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)",
+            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
           ]
         }
       ],
@@ -1977,7 +1981,8 @@
         "Détection d'anomalies (XGBoost, k-means — PRIX.NC)",
         "Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face)",
         "Alignement de corpus sur référentiels (ESCO, ROME, ISCO)",
-        "Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto)"
+        "Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto)",
+        "Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées)"
       ],
       "x-esco": [
         {
@@ -2003,7 +2008,8 @@
             "DuckDB",
             "Open Data",
             "Détection d'anomalies (XGBoost, k-means — PRIX.NC)",
-            "Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto)"
+            "Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto)",
+            "Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées)"
           ]
         },
         {
@@ -2070,7 +2076,8 @@
           "label": "statistiques",
           "type": "knowledge",
           "covers": [
-            "Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto)"
+            "Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto)",
+            "Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées)"
           ]
         }
       ],
@@ -2089,7 +2096,8 @@
         "Data-driven management",
         "Markdown",
         "GitHub Pages",
-        "LaTeX"
+        "LaTeX",
+        "Rapport scientifique reproductible (Quarto + R + XeLaTeX, protocole, bibliographie)"
       ],
       "x-esco": [
         {
@@ -2136,7 +2144,8 @@
           "covers": [
             "Rapports de sécurité",
             "Reporting automatisé",
-            "LaTeX"
+            "LaTeX",
+            "Rapport scientifique reproductible (Quarto + R + XeLaTeX, protocole, bibliographie)"
           ]
         },
         {
@@ -2174,6 +2183,22 @@
           "type": "skill/competence",
           "covers": [
             "LaTeX"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8",
+          "label": "méthodologie de recherche scientifique",
+          "type": "knowledge",
+          "covers": [
+            "Rapport scientifique reproductible (Quarto + R + XeLaTeX, protocole, bibliographie)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/c3c2420c-ce9a-4371-8eed-1db479c3a562",
+          "label": "rédiger un article scientifique",
+          "type": "skill/competence",
+          "covers": [
+            "Rapport scientifique reproductible (Quarto + R + XeLaTeX, protocole, bibliographie)"
           ]
         }
       ],
@@ -5780,13 +5805,36 @@
         "Original — excuses-sdk (JitPack) + excuses-api : SDK Java + API REST, même pattern appliqué à du contenu humoristique. Évolution prévue : dataset open d'excuses + MCP — donner du caractère/humour aux agents IA via Model Context Protocol, exemple typique d'augmentation conversationnelle ludique"
       ],
       "url": "https://github.com/adriens/tickets-resto-nc-sdk"
+    },
+    {
+      "name": "Alone With a Stranger — biais de nationalité des LLM open-weight",
+      "type": "open-source",
+      "x-tags": [
+        "ai-agents",
+        "data",
+        "open-data",
+        "python",
+        "frugal",
+        "solo"
+      ],
+      "startDate": "2026-09",
+      "description": "Benchmark à grande échelle du biais de nationalité dans les conseils de sécurité donnés par des LLM open-weight à une femme seule avec un homme. Né d'un débat France Inter (sept. 2026) sur un reportage RTS fondé sur quelques prompts : automatisé à l'échelle, sur GPU Kaggle gratuits, recalculable par tous. Rapport scientifique « She Is Alone With a Man » (Quarto/R).",
+      "highlights": [
+        "7 modèles open-weight × 7 425 prompts : 24 nationalités + témoin, 11 situations, 3 âges, 3 paraphrases, 3 tirages",
+        "LLM-as-a-judge en aveugle (Qwen3-32B-AWQ, rubrique rts-v4) + méthode de contrôle sans juge",
+        "Résultat : les 7 modèles complimentent les mêmes hommes (Finlandais, Italiens, Japonais) ; réflexes divergents pour Afghans/Nigérians (déni, risque nommé, refus)",
+        "Nationalité masquée devinée 6× mieux que le hasard par un classifieur de texte ; lexicométrie : qualités vs origine",
+        "Plus gros modèles pas plus justes : le biais change de forme",
+        "2 datasets Kaggle (réponses + verdicts CC0, PIB/hab. Banque mondiale CC BY 4.0)"
+      ],
+      "url": "https://www.kaggle.com/datasets/adriensales/alone-with-a-stranger-analysis-data"
     }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.39.0",
-    "lastModified": "2026-11-04",
+    "version": "v1.40.0",
+    "lastModified": "2026-11-05",
     "theme": "elegant",
-    "x-esco-retrieved": "2026-10-31"
+    "x-esco-retrieved": "2026-11-05"
   }
 }
