@@ -4,7 +4,7 @@ title: debian
 description: 2 entrées taguées « debian »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-04'
+timestamp: '2026-11-05'
 ---
 
 Concept transversal reliant 2 entrées du profil.

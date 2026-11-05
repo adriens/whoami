@@ -4,14 +4,14 @@ title: Tags
 description: Graphe de concepts (x-tags)
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-04'
+timestamp: '2026-11-05'
 ---
 
 124 concepts transversaux (graphe de connaissances).
 
 - [open-source](open-source.md) — 47 entrées
 - [nouvelle-caledonie](nouvelle-caledonie.md) — 41 entrées
-- [data](data.md) — 39 entrées
+- [data](data.md) — 40 entrées
 - [pacifique](pacifique.md) — 37 entrées
 - [international](international.md) — 25 entrées
 - [transmission](transmission.md) — 25 entrées
@@ -21,9 +21,9 @@ timestamp: '2026-11-04'
 - [mentorat](mentorat.md) — 22 entrées
 - [pedagogy](pedagogy.md) — 22 entrées
 - [devrel](devrel.md) — 21 entrées
+- [ai-agents](ai-agents.md) — 20 entrées
 - [devsecops](devsecops.md) — 20 entrées
-- [ai-agents](ai-agents.md) — 19 entrées
-- [open-data](open-data.md) — 19 entrées
+- [open-data](open-data.md) — 20 entrées
 - [opt-nc](opt-nc.md) — 19 entrées
 - [innovation](innovation.md) — 17 entrées
 - [pedagogie](pedagogie.md) — 15 entrées
@@ -34,20 +34,20 @@ timestamp: '2026-11-04'
 - [speaker](speaker.md) — 12 entrées
 - [unc-partnership](unc-partnership.md) — 12 entrées
 - [neo4j](neo4j.md) — 11 entrées
+- [python](python.md) — 11 entrées
 - [saga](saga.md) — 11 entrées
 - [duckdb](duckdb.md) — 10 entrées
 - [lasting-impact](lasting-impact.md) — 10 entrées
-- [python](python.md) — 10 entrées
 - [student-recommendation](student-recommendation.md) — 10 entrées
 - [tech-enthusiasm](tech-enthusiasm.md) — 10 entrées
 - [technical-expertise](technical-expertise.md) — 10 entrées
+- [frugal](frugal.md) — 9 entrées
 - [go](go.md) — 9 entrées
 - [knowledge-graph](knowledge-graph.md) — 9 entrées
 - [maintainer](maintainer.md) — 9 entrées
 - [management](management.md) — 9 entrées
 - [curiosite](curiosite.md) — 8 entrées
 - [disponibilite](disponibilite.md) — 8 entrées
-- [frugal](frugal.md) — 8 entrées
 - [iot](iot.md) — 8 entrées
 - [leadership](leadership.md) — 8 entrées
 - [recognition](recognition.md) — 8 entrées
@@ -107,6 +107,7 @@ timestamp: '2026-11-04'
 - [product](product.md) — 2 entrées
 - [responsiveness](responsiveness.md) — 2 entrées
 - [services-web](services-web.md) — 2 entrées
+- [solo](solo.md) — 2 entrées
 - [spring](spring.md) — 2 entrées
 - [stage](stage.md) — 2 entrées
 - [upstream-recognition](upstream-recognition.md) — 2 entrées
@@ -130,6 +131,5 @@ timestamp: '2026-11-04'
 - [power-platform](power-platform.md) — 1 entrées
 - [premiere-experience-pro](premiere-experience-pro.md) — 1 entrées
 - [sig](sig.md) — 1 entrées
-- [solo](solo.md) — 1 entrées
 - [team-fit](team-fit.md) — 1 entrées
 - [umbrella](umbrella.md) — 1 entrées

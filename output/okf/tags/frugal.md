@@ -1,15 +1,16 @@
 ---
 type: Tag
 title: frugal
-description: 8 entrées taguées « frugal »
+description: 9 entrées taguées « frugal »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-04'
+timestamp: '2026-11-05'
 ---
 
-Concept transversal reliant 8 entrées du profil.
+Concept transversal reliant 9 entrées du profil.
 
 - [Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)](../awards/speaker-geol-station-n-commissions-data-ia-cybersecurite.md) — *Award*
+- [Alone With a Stranger — biais de nationalité des LLM open-weight](../projects/alone-with-a-stranger-biais-de-nationalite-des-llm-open-weight.md) — *Project*
 - [BP connectée — Monitoring rack boîtes postales OPT-NC](../projects/bp-connectee-monitoring-rack-boites-postales-opt-nc.md) — *Project*
 - [Helia Monitor — Stack monitoring consommation mobile OPT-NC](../projects/helia-monitor-stack-monitoring-consommation-mobile-opt-nc.md) — *Project*
 - [aquavena — SDK Python scraping menus & tarifs Aquavena NC](../projects/aquavena-sdk-python-scraping-menus-tarifs-aquavena-nc.md) — *Project*

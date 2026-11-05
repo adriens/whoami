@@ -4,7 +4,7 @@ title: évaluer des informations
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/7dd94ad3-13d6-43fe-8b94-51fcbf67ced9
 tags: []
-timestamp: '2026-10-31'
+timestamp: '2026-11-05'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées du profil.

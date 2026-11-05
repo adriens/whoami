@@ -1,18 +1,19 @@
 ---
 type: Tag
 title: ai-agents
-description: 19 entrées taguées « ai-agents »
+description: 20 entrées taguées « ai-agents »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-04'
+timestamp: '2026-11-05'
 ---
 
-Concept transversal reliant 19 entrées du profil.
+Concept transversal reliant 20 entrées du profil.
 
 - [Speaker — NODES 2024 (Conférence internationale Neo4j)](../awards/speaker-nodes-2024-conference-internationale-neo4j.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute-2.md) — *Award*
 - [API-fication calédonienne — SDKs Java & APIs REST](../projects/api-fication-caledonienne-sdks-java-apis-rest.md) — *Project*
+- [Alone With a Stranger — biais de nationalité des LLM open-weight](../projects/alone-with-a-stranger-biais-de-nationalite-des-llm-open-weight.md) — *Project*
 - [Helia Monitor — Stack monitoring consommation mobile OPT-NC](../projects/helia-monitor-stack-monitoring-consommation-mobile-opt-nc.md) — *Project*
 - [Knowledge Graph SI OPT-NC — Neo4j](../projects/knowledge-graph-si-opt-nc-neo4j.md) — *Project*
 - [MCP OPT-NC — Offres d'emploi Hugging Face](../projects/mcp-opt-nc-offres-d-emploi-hugging-face.md) — *Project*

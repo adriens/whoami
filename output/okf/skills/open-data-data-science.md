@@ -8,12 +8,12 @@ tags:
 - duckdb
 - open-data
 - python
-timestamp: '2026-11-04'
+timestamp: '2026-11-05'
 ---
 
 **Niveau : Avancé**
 
-Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création et publication de datasets open data (Kaggle, Hugging Face), Hackathons, uv, poetry, PyPI, PyPI maintainer, Détection d'anomalies (XGBoost, k-means — PRIX.NC), Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face), Alignement de corpus sur référentiels (ESCO, ROME, ISCO), Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto)
+Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création et publication de datasets open data (Kaggle, Hugging Face), Hackathons, uv, poetry, PyPI, PyPI maintainer, Détection d'anomalies (XGBoost, k-means — PRIX.NC), Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face), Alignement de corpus sur référentiels (ESCO, ROME, ISCO), Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto), Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées)
 
 **Compétences ESCO :**
 - [Python (programmation informatique)](../esco/python-programmation-informatique.md) — *knowledge*

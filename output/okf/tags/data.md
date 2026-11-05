@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: data
-description: 39 entrées taguées « data »
+description: 40 entrées taguées « data »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-04'
+timestamp: '2026-11-05'
 ---
 
-Concept transversal reliant 39 entrées du profil.
+Concept transversal reliant 40 entrées du profil.
 
 - [Extension officielle DuckDB Community — apt](../awards/extension-officielle-duckdb-community-apt.md) — *Award*
 - [Extension officielle DuckDB Community — brew](../awards/extension-officielle-duckdb-community-brew.md) — *Award*
@@ -17,6 +17,7 @@ Concept transversal reliant 39 entrées du profil.
 - [Speaker — Talanoa 2022 / Pacific DataViz Challenge (SPC)](../awards/speaker-talanoa-2022-pacific-dataviz-challenge-spc.md) — *Award*
 - [Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)](../awards/speaker-geol-station-n-commissions-data-ia-cybersecurite.md) — *Award*
 - [API-fication calédonienne — SDKs Java & APIs REST](../projects/api-fication-caledonienne-sdks-java-apis-rest.md) — *Project*
+- [Alone With a Stranger — biais de nationalité des LLM open-weight](../projects/alone-with-a-stranger-biais-de-nationalite-des-llm-open-weight.md) — *Project*
 - [Generative Art — Temps d'attente agences OPT-NC](../projects/generative-art-temps-d-attente-agences-opt-nc.md) — *Project*
 - [HELIA État Réseaux — SDK & cartographie des maintenances réseau OPT-NC](../projects/helia-etat-reseaux-sdk-cartographie-des-maintenances-reseau-opt-nc.md) — *Project*
 - [Knowledge Graph SI OPT-NC — Neo4j](../projects/knowledge-graph-si-opt-nc-neo4j.md) — *Project*

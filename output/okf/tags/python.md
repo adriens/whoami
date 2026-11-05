@@ -1,16 +1,17 @@
 ---
 type: Tag
 title: python
-description: 10 entrées taguées « python »
+description: 11 entrées taguées « python »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-04'
+timestamp: '2026-11-05'
 ---
 
-Concept transversal reliant 10 entrées du profil.
+Concept transversal reliant 11 entrées du profil.
 
 - [Notebooks Expert — Kaggle](../awards/notebooks-expert-kaggle.md) — *Award*
 - [API-fication calédonienne — SDKs Java & APIs REST](../projects/api-fication-caledonienne-sdks-java-apis-rest.md) — *Project*
+- [Alone With a Stranger — biais de nationalité des LLM open-weight](../projects/alone-with-a-stranger-biais-de-nationalite-des-llm-open-weight.md) — *Project*
 - [HELIA État Réseaux — SDK & cartographie des maintenances réseau OPT-NC](../projects/helia-etat-reseaux-sdk-cartographie-des-maintenances-reseau-opt-nc.md) — *Project*
 - [Helia Monitor — Stack monitoring consommation mobile OPT-NC](../projects/helia-monitor-stack-monitoring-consommation-mobile-opt-nc.md) — *Project*
 - [aquavena — SDK Python scraping menus & tarifs Aquavena NC](../projects/aquavena-sdk-python-scraping-menus-tarifs-aquavena-nc.md) — *Project*

@@ -4,7 +4,7 @@ title: mcp
 description: 6 entrées taguées « mcp »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-04'
+timestamp: '2026-11-05'
 ---
 
 Concept transversal reliant 6 entrées du profil.

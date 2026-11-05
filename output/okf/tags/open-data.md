@@ -1,17 +1,18 @@
 ---
 type: Tag
 title: open-data
-description: 19 entrées taguées « open-data »
+description: 20 entrées taguées « open-data »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-04'
+timestamp: '2026-11-05'
 ---
 
-Concept transversal reliant 19 entrées du profil.
+Concept transversal reliant 20 entrées du profil.
 
 - [Speaker — NODES 2023 (Conférence internationale Neo4j)](../awards/speaker-nodes-2023-conference-internationale-neo4j.md) — *Award*
 - [Speaker — Talanoa 2022 / Pacific DataViz Challenge (SPC)](../awards/speaker-talanoa-2022-pacific-dataviz-challenge-spc.md) — *Award*
 - [API-fication calédonienne — SDKs Java & APIs REST](../projects/api-fication-caledonienne-sdks-java-apis-rest.md) — *Project*
+- [Alone With a Stranger — biais de nationalité des LLM open-weight](../projects/alone-with-a-stranger-biais-de-nationalite-des-llm-open-weight.md) — *Project*
 - [Enseignement MIAGE UNC — Module Interopérabilité SI](../projects/enseignement-miage-unc-module-interoperabilite-si.md) — *Project*
 - [HELIA État Réseaux — SDK & cartographie des maintenances réseau OPT-NC](../projects/helia-etat-reseaux-sdk-cartographie-des-maintenances-reseau-opt-nc.md) — *Project*
 - [Open Data RH OPT-NC — Expérience candidat augmentée par l'IA](../projects/open-data-rh-opt-nc-experience-candidat-augmentee-par-l-ia.md) — *Project*

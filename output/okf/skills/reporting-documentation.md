@@ -5,12 +5,12 @@ description: Avancé — Quarto, R, Notebooks reproductibles, Urbanisation SI, R
   de sécurité, Reporting automatisé, Data-driven managemen…
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-04'
+timestamp: '2026-11-05'
 ---
 
 **Niveau : Avancé**
 
-Mots-clés : Quarto, R, Notebooks reproductibles, Urbanisation SI, Rapports de sécurité, Reporting automatisé, Data-driven management, Markdown, GitHub Pages, LaTeX
+Mots-clés : Quarto, R, Notebooks reproductibles, Urbanisation SI, Rapports de sécurité, Reporting automatisé, Data-driven management, Markdown, GitHub Pages, LaTeX, Rapport scientifique reproductible (Quarto + R + XeLaTeX, protocole, bibliographie)
 
 **Compétences ESCO :**
 - [R](../esco/r.md) — *knowledge*
@@ -22,3 +22,5 @@ Mots-clés : Quarto, R, Notebooks reproductibles, Urbanisation SI, Rapports de s
 - [utiliser des langages de balisage](../esco/utiliser-des-langages-de-balisage.md) — *skill/competence*
 - [appliquer des techniques d’analyse statistique](../esco/appliquer-des-techniques-danalyse-statistique.md) — *skill/competence*
 - [appliquer des techniques de publication assistée par ordinateur](../esco/appliquer-des-techniques-de-publication-assistee-par-ordinateur.md) — *skill/competence*
+- [méthodologie de recherche scientifique](../esco/methodologie-de-recherche-scientifique.md) — *knowledge*
+- [rédiger un article scientifique](../esco/rediger-un-article-scientifique.md) — *skill/competence*

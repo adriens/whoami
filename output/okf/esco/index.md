@@ -4,10 +4,10 @@ title: ESCO
 description: Concepts du référentiel européen ESCO
 resource: https://esco.ec.europa.eu/
 tags: []
-timestamp: '2026-11-04'
+timestamp: '2026-11-05'
 ---
 
-225 concepts ESCO rattachés au profil (retrieved 2026-10-31).
+226 concepts ESCO rattachés au profil (retrieved 2026-11-05).
 
 ## Métiers
 
@@ -162,6 +162,7 @@ timestamp: '2026-11-04'
 - [modélisation orientée services](modelisation-orientee-services.md) — 1 entrées
 - [motiver des employés](motiver-des-employes.md) — 1 entrées
 - [méthodes de gestion de projets TIC](methodes-de-gestion-de-projets-tic.md) — 1 entrées
+- [méthodologie de recherche scientifique](methodologie-de-recherche-scientifique.md) — 1 entrées
 - [normaliser les données](normaliser-les-donnees.md) — 1 entrées
 - [normes de sécurité des TIC](normes-de-securite-des-tic.md) — 1 entrées
 - [normes d’accessibilité TIC](normes-daccessibilite-tic.md) — 1 entrées
@@ -194,7 +195,7 @@ timestamp: '2026-11-04'
 - [rédiger des rapports sur le travail](rediger-des-rapports-sur-le-travail.md) — 1 entrées
 - [rédiger des rapports techniques](rediger-des-rapports-techniques.md) — 1 entrées
 - [rédiger des textes professionnels](rediger-des-textes-professionnels.md) — 2 entrées
-- [rédiger un article scientifique](rediger-un-article-scientifique.md) — 1 entrées
+- [rédiger un article scientifique](rediger-un-article-scientifique.md) — 2 entrées
 - [rédiger une évaluation des risques](rediger-une-evaluation-des-risques.md) — 1 entrées
 - [réfléchir de manière analytique](reflechir-de-maniere-analytique.md) — 1 entrées
 - [standards du World Wide Web Consortium](standards-du-world-wide-web-consortium.md) — 1 entrées
