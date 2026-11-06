@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-11-06",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.41.0",
+  "x-resume-version": "v1.41.1",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -2453,6 +2453,26 @@
       "x-profile-skills": [
         "Reporting & Documentation",
         "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/c544a9f3-5945-4b54-afed-de0697852817",
+      "termCode": "c544a9f3-5945-4b54-afed-de0697852817",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "communiquer les résultats d’analyse"
+        },
+        {
+          "@language": "en",
+          "@value": "report analysis results"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Reporting & Documentation"
       ]
     },
     {
