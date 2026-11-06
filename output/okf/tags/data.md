@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: data
-description: 40 entrées taguées « data »
+description: 41 entrées taguées « data »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
-Concept transversal reliant 40 entrées du profil.
+Concept transversal reliant 41 entrées du profil.
 
 - [Extension officielle DuckDB Community — apt](../awards/extension-officielle-duckdb-community-apt.md) — *Award*
 - [Extension officielle DuckDB Community — brew](../awards/extension-officielle-duckdb-community-brew.md) — *Award*
@@ -38,6 +38,7 @@ Concept transversal reliant 40 entrées du profil.
 - [Analyse de l'historique Netflix avec Power BI — LinkedIn Pulse](../publications/analyse-de-l-historique-netflix-avec-power-bi-linkedin-pulse.md) — *Publication*
 - [Chaîne YouTube DevOPS-LAB](../publications/chaine-youtube-devops-lab.md) — *Publication*
 - [Open Data OPT-NC sur Kaggle et Hugging Face](../publications/open-data-opt-nc-sur-kaggle-et-hugging-face.md) — *Publication*
+- [She Is Alone With a Man — biais de nationalité des LLM open-weight (Zenodo)](../publications/she-is-alone-with-a-man-biais-de-nationalite-des-llm-open-weight-zenodo.md) — *Publication*
 - [Clémentine Galin](../references/clementine-galin-2.md) — *Reference*
 - [Julie Besson](../references/julie-besson.md) — *Reference*
 - [Marc RODRIGUES](../references/marc-rodrigues.md) — *Reference*

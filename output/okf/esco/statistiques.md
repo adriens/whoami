@@ -4,7 +4,7 @@ title: statistiques
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

@@ -4,7 +4,7 @@ title: créer des schémas de base de données
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/84f58e3d-8669-4d83-8c1d-5dd1e73a654f
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

@@ -4,7 +4,7 @@ title: analyser des propositions techniques en matière de TIC
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/c1df8590-4b5a-4598-84a1-431f639ba66c
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

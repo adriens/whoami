@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: python
-description: 11 entrées taguées « python »
+description: 12 entrées taguées « python »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
-Concept transversal reliant 11 entrées du profil.
+Concept transversal reliant 12 entrées du profil.
 
 - [Notebooks Expert — Kaggle](../awards/notebooks-expert-kaggle.md) — *Award*
 - [API-fication calédonienne — SDKs Java & APIs REST](../projects/api-fication-caledonienne-sdks-java-apis-rest.md) — *Project*
@@ -19,4 +19,5 @@ Concept transversal reliant 11 entrées du profil.
 - [edb-noumea — SDK qualité eaux de baignade](../projects/edb-noumea-sdk-qualite-eaux-de-baignade.md) — *Project*
 - [odata-ncl — Open Data Citoyenne Nouvelle-Calédonie](../projects/odata-ncl-open-data-citoyenne-nouvelle-caledonie.md) — *Project*
 - [Open Data OPT-NC sur Kaggle et Hugging Face](../publications/open-data-opt-nc-sur-kaggle-et-hugging-face.md) — *Publication*
+- [She Is Alone With a Man — biais de nationalité des LLM open-weight (Zenodo)](../publications/she-is-alone-with-a-man-biais-de-nationalite-des-llm-open-weight-zenodo.md) — *Publication*
 - [Open Data & Data Science](../skills/open-data-data-science.md) — *Skill*

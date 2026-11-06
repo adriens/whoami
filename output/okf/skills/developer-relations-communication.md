@@ -5,12 +5,12 @@ description: Expert — Talks internationaux, YouTube, Dev.to, Documentation, Vu
   Storytelling, Data Storytelling, Community buildin…
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
 **Niveau : Expert**
 
-Mots-clés : Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation, Storytelling, Data Storytelling, Community building, Marketing $0, Mux, Détournements vidéo tech, Tech advocacy interne, Pitching interne, Évangélisation par la pratique, Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC), Démos live & unboxings de releases, Constitution et animation d'un jury de hackathon (#HackAVP : 6 jurés + 4 modèles IA, grille /100, gestion des conflits d'intérêt, vote du prix du jury)
+Mots-clés : Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation, Storytelling, Data Storytelling, Community building, Marketing $0, Mux, Détournements vidéo tech, Tech advocacy interne, Pitching interne, Évangélisation par la pratique, Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC), Démos live & unboxings de releases, Constitution et animation d'un jury de hackathon (#HackAVP : 6 jurés + 4 modèles IA, grille /100, gestion des conflits d'intérêt, vote du prix du jury), Enquête data sur une affirmation médiatique (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)
 
 **Compétences ESCO :**
 - [effectuer des présentations publiques](../esco/effectuer-des-presentations-publiques.md) — *skill/competence*
@@ -35,3 +35,4 @@ Mots-clés : Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation
 - [présider une réunion](../esco/presider-une-reunion.md) — *skill/competence*
 - [évaluer des informations](../esco/evaluer-des-informations.md) — *skill/competence*
 - [analyser des propositions techniques en matière de TIC](../esco/analyser-des-propositions-techniques-en-matiere-de-tic.md) — *skill/competence*
+- [rapporter des faits](../esco/rapporter-des-faits.md) — *skill/competence*

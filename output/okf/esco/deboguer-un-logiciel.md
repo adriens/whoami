@@ -4,7 +4,7 @@ title: déboguer un logiciel
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/2522a6ce-3202-4ac8-9f5b-b9cb5a3a83a1
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

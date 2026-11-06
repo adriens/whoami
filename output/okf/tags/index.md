@@ -4,14 +4,14 @@ title: Tags
 description: Graphe de concepts (x-tags)
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
 124 concepts transversaux (graphe de connaissances).
 
 - [open-source](open-source.md) — 47 entrées
+- [data](data.md) — 41 entrées
 - [nouvelle-caledonie](nouvelle-caledonie.md) — 41 entrées
-- [data](data.md) — 40 entrées
 - [pacifique](pacifique.md) — 37 entrées
 - [international](international.md) — 25 entrées
 - [transmission](transmission.md) — 25 entrées
@@ -20,10 +20,10 @@ timestamp: '2026-11-05'
 - [civic-tech](civic-tech.md) — 22 entrées
 - [mentorat](mentorat.md) — 22 entrées
 - [pedagogy](pedagogy.md) — 22 entrées
+- [ai-agents](ai-agents.md) — 21 entrées
 - [devrel](devrel.md) — 21 entrées
-- [ai-agents](ai-agents.md) — 20 entrées
+- [open-data](open-data.md) — 21 entrées
 - [devsecops](devsecops.md) — 20 entrées
-- [open-data](open-data.md) — 20 entrées
 - [opt-nc](opt-nc.md) — 19 entrées
 - [innovation](innovation.md) — 17 entrées
 - [pedagogie](pedagogie.md) — 15 entrées
@@ -31,17 +31,17 @@ timestamp: '2026-11-05'
 - [human-centric](human-centric.md) — 14 entrées
 - [java](java.md) — 13 entrées
 - [knowledge-sharing](knowledge-sharing.md) — 12 entrées
+- [python](python.md) — 12 entrées
 - [speaker](speaker.md) — 12 entrées
 - [unc-partnership](unc-partnership.md) — 12 entrées
 - [neo4j](neo4j.md) — 11 entrées
-- [python](python.md) — 11 entrées
 - [saga](saga.md) — 11 entrées
 - [duckdb](duckdb.md) — 10 entrées
+- [frugal](frugal.md) — 10 entrées
 - [lasting-impact](lasting-impact.md) — 10 entrées
 - [student-recommendation](student-recommendation.md) — 10 entrées
 - [tech-enthusiasm](tech-enthusiasm.md) — 10 entrées
 - [technical-expertise](technical-expertise.md) — 10 entrées
-- [frugal](frugal.md) — 9 entrées
 - [go](go.md) — 9 entrées
 - [knowledge-graph](knowledge-graph.md) — 9 entrées
 - [maintainer](maintainer.md) — 9 entrées
@@ -93,6 +93,7 @@ timestamp: '2026-11-05'
 - [qualites-humaines](qualites-humaines.md) — 3 entrées
 - [quarkus](quarkus.md) — 3 entrées
 - [scrum](scrum.md) — 3 entrées
+- [solo](solo.md) — 3 entrées
 - [veille-technologique](veille-technologique.md) — 3 entrées
 - [accessibility](accessibility.md) — 2 entrées
 - [code-quality](code-quality.md) — 2 entrées
@@ -107,7 +108,6 @@ timestamp: '2026-11-05'
 - [product](product.md) — 2 entrées
 - [responsiveness](responsiveness.md) — 2 entrées
 - [services-web](services-web.md) — 2 entrées
-- [solo](solo.md) — 2 entrées
 - [spring](spring.md) — 2 entrées
 - [stage](stage.md) — 2 entrées
 - [upstream-recognition](upstream-recognition.md) — 2 entrées

@@ -4,7 +4,7 @@ title: gérer les retours d’information
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/08e2ff26-88ff-47b5-9d37-d19ace01b075
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

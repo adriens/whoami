@@ -4,7 +4,7 @@ title: administrer un système de gestion de bases de données relationnelles
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/7369f779-4b71-4aab-8836-48b69c676eec
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

@@ -4,7 +4,7 @@ title: api-fication
 description: 23 entrées taguées « api-fication »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
 Concept transversal reliant 23 entrées du profil.

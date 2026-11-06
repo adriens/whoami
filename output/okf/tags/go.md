@@ -4,7 +4,7 @@ title: go
 description: 9 entrées taguées « go »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
 Concept transversal reliant 9 entrées du profil.

@@ -4,10 +4,10 @@ title: ESCO
 description: Concepts du référentiel européen ESCO
 resource: https://esco.ec.europa.eu/
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
-226 concepts ESCO rattachés au profil (retrieved 2026-11-05).
+227 concepts ESCO rattachés au profil (retrieved 2026-11-06).
 
 ## Métiers
 
@@ -185,6 +185,7 @@ timestamp: '2026-11-05'
 - [présenter des rapports](presenter-des-rapports.md) — 1 entrées
 - [présider une réunion](presider-une-reunion.md) — 1 entrées
 - [pédagogie](pedagogie.md) — 1 entrées
+- [rapporter des faits](rapporter-des-faits.md) — 1 entrées
 - [recommander des méthodes d'apprentissage](recommander-des-methodes-d-apprentissage.md) — 1 entrées
 - [recruter des employés](recruter-des-employes.md) — 1 entrées
 - [respect de la gouvernance de l'information](respect-de-la-gouvernance-de-l-information.md) — 1 entrées

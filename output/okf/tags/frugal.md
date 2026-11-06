@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: frugal
-description: 9 entrées taguées « frugal »
+description: 10 entrées taguées « frugal »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
-Concept transversal reliant 9 entrées du profil.
+Concept transversal reliant 10 entrées du profil.
 
 - [Speaker — geol @ Station N (Commissions Data & IA + Cybersécurité)](../awards/speaker-geol-station-n-commissions-data-ia-cybersecurite.md) — *Award*
 - [Alone With a Stranger — biais de nationalité des LLM open-weight](../projects/alone-with-a-stranger-biais-de-nationalite-des-llm-open-weight.md) — *Project*
@@ -17,4 +17,5 @@ Concept transversal reliant 9 entrées du profil.
 - [geol — CLI de gestion des End-of-Life](../projects/geol-cli-de-gestion-des-end-of-life.md) — *Project*
 - [ollama-models — Dataset stats téléchargements LLM](../projects/ollama-models-dataset-stats-telechargements-llm.md) — *Project*
 - [resume-to-pokemon — CV en données × PokéAPI × embeddings](../projects/resume-to-pokemon-cv-en-donnees-pokeapi-embeddings.md) — *Project*
+- [She Is Alone With a Man — biais de nationalité des LLM open-weight (Zenodo)](../publications/she-is-alone-with-a-man-biais-de-nationalite-des-llm-open-weight-zenodo.md) — *Publication*
 - [Contributeur civic data — Réutilisations open data @ data.gouv.nc — Portail open data officiel de Nouvelle-Calédonie](../volunteer/data-gouv-nc-portail-open-data-officiel-de-nouvelle-caledonie-contributeur-civic-data-reutilisations-open-data.md) — *Volunteer*

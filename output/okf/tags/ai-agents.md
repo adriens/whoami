@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: ai-agents
-description: 20 entrées taguées « ai-agents »
+description: 21 entrées taguées « ai-agents »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
-Concept transversal reliant 20 entrées du profil.
+Concept transversal reliant 21 entrées du profil.
 
 - [Speaker — NODES 2024 (Conférence internationale Neo4j)](../awards/speaker-nodes-2024-conference-internationale-neo4j.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
@@ -26,6 +26,7 @@ Concept transversal reliant 20 entrées du profil.
 - [208 articles techniques — Dev.to](../publications/208-articles-techniques-dev-to.md) — *Publication*
 - [Open Data OPT-NC sur Kaggle et Hugging Face](../publications/open-data-opt-nc-sur-kaggle-et-hugging-face.md) — *Publication*
 - [PostgreSQL Security Analysis — Zenodo](../publications/postgresql-security-analysis-zenodo.md) — *Publication*
+- [She Is Alone With a Man — biais de nationalité des LLM open-weight (Zenodo)](../publications/she-is-alone-with-a-man-biais-de-nationalite-des-llm-open-weight-zenodo.md) — *Publication*
 - [Julie Besson](../references/julie-besson.md) — *Reference*
 - [Membre actif — Conférencier @ Station N — Commission Data & IA](../volunteer/station-n-commission-data-ia-membre-actif-conferencier.md) — *Volunteer*
 - [Chef de Section GLIA — Génie Logiciel Inter-Applicatif @ OPT-NC (Office des Postes et Télécommunications de Nouvelle-Calédonie)](../work/opt-nc-office-des-postes-et-telecommunications-de-nouvelle-caledonie-chef-de-section-glia-genie-logiciel-inter-applicatif.md) — *Work Experience*

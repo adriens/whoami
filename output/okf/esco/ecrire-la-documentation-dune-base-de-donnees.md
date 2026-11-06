@@ -4,7 +4,7 @@ title: écrire la documentation d’une base de données
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/64db87c7-2360-4e20-88d3-d222402e477c
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

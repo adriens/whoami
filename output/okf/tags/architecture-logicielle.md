@@ -4,7 +4,7 @@ title: architecture-logicielle
 description: 4 entrées taguées « architecture-logicielle »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
 Concept transversal reliant 4 entrées du profil.

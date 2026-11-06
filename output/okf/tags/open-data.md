@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: open-data
-description: 20 entrées taguées « open-data »
+description: 21 entrées taguées « open-data »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-05'
+timestamp: '2026-11-06'
 ---
 
-Concept transversal reliant 20 entrées du profil.
+Concept transversal reliant 21 entrées du profil.
 
 - [Speaker — NODES 2023 (Conférence internationale Neo4j)](../awards/speaker-nodes-2023-conference-internationale-neo4j.md) — *Award*
 - [Speaker — Talanoa 2022 / Pacific DataViz Challenge (SPC)](../awards/speaker-talanoa-2022-pacific-dataviz-challenge-spc.md) — *Award*
@@ -23,6 +23,7 @@ Concept transversal reliant 20 entrées du profil.
 - [ollama-models — Dataset stats téléchargements LLM](../projects/ollama-models-dataset-stats-telechargements-llm.md) — *Project*
 - [Chaîne YouTube DevOPS-LAB](../publications/chaine-youtube-devops-lab.md) — *Publication*
 - [Open Data OPT-NC sur Kaggle et Hugging Face](../publications/open-data-opt-nc-sur-kaggle-et-hugging-face.md) — *Publication*
+- [She Is Alone With a Man — biais de nationalité des LLM open-weight (Zenodo)](../publications/she-is-alone-with-a-man-biais-de-nationalite-des-llm-open-weight-zenodo.md) — *Publication*
 - [Clémentine Galin](../references/clementine-galin-2.md) — *Reference*
 - [David Kranitz](../references/david-kranitz.md) — *Reference*
 - [Sabrina Vérolle](../references/sabrina-verolle.md) — *Reference*
