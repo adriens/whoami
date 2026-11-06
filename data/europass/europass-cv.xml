@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Candidate xmlns="http://www.europass.eu/1.0" xmlns:eures="http://www.europass_eures.eu/1.0" xmlns:hr="http://www.hr-xml.org/3" xmlns:oa="http://www.openapplications.org/oagis/9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.europass.eu/1.0 Candidate.xsd">
-  <hr:DocumentID schemeID="whoami-v1.41.0" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
+  <hr:DocumentID schemeID="whoami-v1.41.1" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
   <CandidateSupplier>
-    <hr:PartyID schemeID="whoami-v1.41.0" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
+    <hr:PartyID schemeID="whoami-v1.41.1" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
     <hr:PartyName>Owner</hr:PartyName>
     <PersonContact>
       <PersonName>
@@ -2305,7 +2305,7 @@
       <Title>Référentiel ESCO</Title>
       <Other>
         <Title>Reporting &amp; Documentation</Title>
-        <Description>&lt;ul&gt;&lt;li&gt;R&lt;/li&gt;&lt;li&gt;fournir une documentation technique&lt;/li&gt;&lt;li&gt;présenter des rapports&lt;/li&gt;&lt;li&gt;créer une architecture d’entreprise&lt;/li&gt;&lt;li&gt;rédiger des rapports techniques&lt;/li&gt;&lt;li&gt;rédiger des rapports sur le travail&lt;/li&gt;&lt;li&gt;utiliser des langages de balisage&lt;/li&gt;&lt;li&gt;appliquer des techniques d’analyse statistique&lt;/li&gt;&lt;li&gt;appliquer des techniques de publication assistée par ordinateur&lt;/li&gt;&lt;li&gt;méthodologie de recherche scientifique&lt;/li&gt;&lt;li&gt;rédiger un article scientifique&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Description>&lt;ul&gt;&lt;li&gt;R&lt;/li&gt;&lt;li&gt;fournir une documentation technique&lt;/li&gt;&lt;li&gt;présenter des rapports&lt;/li&gt;&lt;li&gt;créer une architecture d’entreprise&lt;/li&gt;&lt;li&gt;rédiger des rapports techniques&lt;/li&gt;&lt;li&gt;rédiger des rapports sur le travail&lt;/li&gt;&lt;li&gt;utiliser des langages de balisage&lt;/li&gt;&lt;li&gt;appliquer des techniques d’analyse statistique&lt;/li&gt;&lt;li&gt;appliquer des techniques de publication assistée par ordinateur&lt;/li&gt;&lt;li&gt;méthodologie de recherche scientifique&lt;/li&gt;&lt;li&gt;rédiger un article scientifique&lt;/li&gt;&lt;li&gt;communiquer les résultats d’analyse&lt;/li&gt;&lt;/ul&gt;</Description>
       </Other>
     </Others>
     <Others>
