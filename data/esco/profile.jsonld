@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-11-06",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.41.3",
+  "x-resume-version": "v1.41.4",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -2334,6 +2334,46 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/525046fb-3e1a-4083-88e7-5db7e88bc4f7",
+      "termCode": "525046fb-3e1a-4083-88e7-5db7e88bc4f7",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "vérifier l’exactitude d’informations"
+        },
+        {
+          "@language": "en",
+          "@value": "check correctness of information"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Data & Data Science"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/1d6c7de4-350e-4868-a47b-333b4b0d9650",
+      "termCode": "1d6c7de4-350e-4868-a47b-333b4b0d9650",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "évaluer des données, des informations et des contenus numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "evaluate data, information and digital content"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Data & Data Science"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/51586df8-1c46-4b47-8583-773cb63bf00b",
       "termCode": "51586df8-1c46-4b47-8583-773cb63bf00b",
       "name": [
@@ -2919,26 +2959,6 @@
         {
           "@language": "en",
           "@value": "analyse ICT technical proposals"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "skill/competence",
-      "x-profile-skills": [
-        "Developer Relations & Communication"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/525046fb-3e1a-4083-88e7-5db7e88bc4f7",
-      "termCode": "525046fb-3e1a-4083-88e7-5db7e88bc4f7",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "vérifier l’exactitude d’informations"
-        },
-        {
-          "@language": "en",
-          "@value": "check correctness of information"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
