@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Candidate xmlns="http://www.europass.eu/1.0" xmlns:eures="http://www.europass_eures.eu/1.0" xmlns:hr="http://www.hr-xml.org/3" xmlns:oa="http://www.openapplications.org/oagis/9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.europass.eu/1.0 Candidate.xsd">
-  <hr:DocumentID schemeID="whoami-v1.41.3" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
+  <hr:DocumentID schemeID="whoami-v1.41.4" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
   <CandidateSupplier>
-    <hr:PartyID schemeID="whoami-v1.41.3" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
+    <hr:PartyID schemeID="whoami-v1.41.4" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
     <hr:PartyName>Owner</hr:PartyName>
     <PersonContact>
       <PersonName>
@@ -1103,6 +1103,10 @@
           <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
           <hr:CompetencyName>Lexicométrie &amp; classification de texte (analyse des correspondances, nationalité devinée sur répons</hr:CompetencyName>
         </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Fact-checking &amp; enquête data à grande échelle (Alone With a Stranger : test RTS / France Inter véri</hr:CompetencyName>
+        </PersonCompetency>
       </SkillsGroup>
       <SkillsGroup>
         <Title>Reporting &amp; Documentation (Avancé)</Title>
@@ -1250,7 +1254,7 @@
       <Title>Compétences transversales</Title>
       <Other>
         <Title>Developer Relations &amp; Communication (Expert)</Title>
-        <Description>&lt;p&gt;Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation, Storytelling, Data Storytelling, Community building, Marketing $0, Mux, Détournements vidéo tech, Tech advocacy interne, Pitching interne, Évangélisation par la pratique, Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC), Démos live &amp;amp; unboxings de releases, Constitution et animation d&amp;#x27;un jury de hackathon (#HackAVP : 6 jurés + 4 modèles IA, grille /100, gestion des conflits d&amp;#x27;intérêt, vote du prix du jury), Enquête data sur une affirmation médiatique (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)&lt;/p&gt;</Description>
+        <Description>&lt;p&gt;Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation, Storytelling, Data Storytelling, Community building, Marketing $0, Mux, Détournements vidéo tech, Tech advocacy interne, Pitching interne, Évangélisation par la pratique, Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC), Démos live &amp;amp; unboxings de releases, Constitution et animation d&amp;#x27;un jury de hackathon (#HackAVP : 6 jurés + 4 modèles IA, grille /100, gestion des conflits d&amp;#x27;intérêt, vote du prix du jury)&lt;/p&gt;</Description>
       </Other>
     </Others>
     <Others>
@@ -2298,7 +2302,7 @@
       <Title>Référentiel ESCO</Title>
       <Other>
         <Title>Open Data &amp; Data Science</Title>
-        <Description>&lt;ul&gt;&lt;li&gt;Python (programmation informatique)&lt;/li&gt;&lt;li&gt;effectuer une analyse de données&lt;/li&gt;&lt;li&gt;procéder à l’extraction de données&lt;/li&gt;&lt;li&gt;créer des ensembles de données&lt;/li&gt;&lt;li&gt;gérer les métadonnées de contenu&lt;/li&gt;&lt;li&gt;participer à des échanges au moyen de technologies numériques&lt;/li&gt;&lt;li&gt;normaliser les données&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;li&gt;gérer l’intégration sémantique des TIC&lt;/li&gt;&lt;li&gt;statistiques&lt;/li&gt;&lt;li&gt;linguistique informatique&lt;/li&gt;&lt;li&gt;définir des modèles statistiques&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Description>&lt;ul&gt;&lt;li&gt;Python (programmation informatique)&lt;/li&gt;&lt;li&gt;effectuer une analyse de données&lt;/li&gt;&lt;li&gt;procéder à l’extraction de données&lt;/li&gt;&lt;li&gt;créer des ensembles de données&lt;/li&gt;&lt;li&gt;gérer les métadonnées de contenu&lt;/li&gt;&lt;li&gt;participer à des échanges au moyen de technologies numériques&lt;/li&gt;&lt;li&gt;normaliser les données&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;li&gt;gérer l’intégration sémantique des TIC&lt;/li&gt;&lt;li&gt;statistiques&lt;/li&gt;&lt;li&gt;linguistique informatique&lt;/li&gt;&lt;li&gt;définir des modèles statistiques&lt;/li&gt;&lt;li&gt;vérifier l’exactitude d’informations&lt;/li&gt;&lt;li&gt;évaluer des données, des informations et des contenus numériques&lt;/li&gt;&lt;/ul&gt;</Description>
       </Other>
     </Others>
     <Others>
@@ -2312,7 +2316,7 @@
       <Title>Référentiel ESCO</Title>
       <Other>
         <Title>Developer Relations &amp; Communication</Title>
-        <Description>&lt;ul&gt;&lt;li&gt;effectuer des présentations publiques&lt;/li&gt;&lt;li&gt;gérer du contenu en ligne&lt;/li&gt;&lt;li&gt;fournir une documentation technique&lt;/li&gt;&lt;li&gt;fournir une présentation visuelle des données&lt;/li&gt;&lt;li&gt;développer l’architecture d’une communauté en ligne&lt;/li&gt;&lt;li&gt;créer un réseau professionnel&lt;/li&gt;&lt;li&gt;rédiger un article scientifique&lt;/li&gt;&lt;li&gt;coordonner des événements&lt;/li&gt;&lt;li&gt;planifier des évènements&lt;/li&gt;&lt;li&gt;élaborer des contenus numériques&lt;/li&gt;&lt;li&gt;fournir du contenu multimédia&lt;/li&gt;&lt;li&gt;techniques d&amp;#x27;écriture&lt;/li&gt;&lt;li&gt;rédiger des textes professionnels&lt;/li&gt;&lt;li&gt;utiliser des techniques de communication&lt;/li&gt;&lt;li&gt;stratégie de marketing de contenu&lt;/li&gt;&lt;li&gt;faire preuve d&amp;#x27;humour&lt;/li&gt;&lt;li&gt;susciter des émotions dans le public&lt;/li&gt;&lt;li&gt;effectuer un montage vidéo&lt;/li&gt;&lt;li&gt;démontrer la fonctionnalité de produits logiciels&lt;/li&gt;&lt;li&gt;présider une réunion&lt;/li&gt;&lt;li&gt;évaluer des informations&lt;/li&gt;&lt;li&gt;analyser des propositions techniques en matière de TIC&lt;/li&gt;&lt;li&gt;vérifier l’exactitude d’informations&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Description>&lt;ul&gt;&lt;li&gt;effectuer des présentations publiques&lt;/li&gt;&lt;li&gt;gérer du contenu en ligne&lt;/li&gt;&lt;li&gt;fournir une documentation technique&lt;/li&gt;&lt;li&gt;fournir une présentation visuelle des données&lt;/li&gt;&lt;li&gt;développer l’architecture d’une communauté en ligne&lt;/li&gt;&lt;li&gt;créer un réseau professionnel&lt;/li&gt;&lt;li&gt;rédiger un article scientifique&lt;/li&gt;&lt;li&gt;coordonner des événements&lt;/li&gt;&lt;li&gt;planifier des évènements&lt;/li&gt;&lt;li&gt;élaborer des contenus numériques&lt;/li&gt;&lt;li&gt;fournir du contenu multimédia&lt;/li&gt;&lt;li&gt;techniques d&amp;#x27;écriture&lt;/li&gt;&lt;li&gt;rédiger des textes professionnels&lt;/li&gt;&lt;li&gt;utiliser des techniques de communication&lt;/li&gt;&lt;li&gt;stratégie de marketing de contenu&lt;/li&gt;&lt;li&gt;faire preuve d&amp;#x27;humour&lt;/li&gt;&lt;li&gt;susciter des émotions dans le public&lt;/li&gt;&lt;li&gt;effectuer un montage vidéo&lt;/li&gt;&lt;li&gt;démontrer la fonctionnalité de produits logiciels&lt;/li&gt;&lt;li&gt;présider une réunion&lt;/li&gt;&lt;li&gt;évaluer des informations&lt;/li&gt;&lt;li&gt;analyser des propositions techniques en matière de TIC&lt;/li&gt;&lt;/ul&gt;</Description>
       </Other>
     </Others>
     <Others>
