@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-11-06",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.41.1",
+  "x-resume-version": "v1.41.2",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -1045,6 +1045,26 @@
       "x-profile-skills": [
         "IA & Agents",
         "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666",
+      "termCode": "c5e8abde-d2ba-4e8e-a65e-720b71180666",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "données non structurées"
+        },
+        {
+          "@language": "en",
+          "@value": "unstructured data"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "IA & Agents"
       ]
     },
     {
@@ -2248,6 +2268,46 @@
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Open Data & Data Science"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/a056851d-4a8b-4007-b0f6-8224ca1ec1c2",
+      "termCode": "a056851d-4a8b-4007-b0f6-8224ca1ec1c2",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "linguistique informatique"
+        },
+        {
+          "@language": "en",
+          "@value": "computational linguistics"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Open Data & Data Science"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/06670261-ea6b-4b52-a915-c7d4ff837f74",
+      "termCode": "06670261-ea6b-4b52-a915-c7d4ff837f74",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "définir des modèles statistiques"
+        },
+        {
+          "@language": "en",
+          "@value": "identify statistical patterns"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "Open Data & Data Science"
       ]
