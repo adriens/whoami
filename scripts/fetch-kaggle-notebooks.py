@@ -27,7 +27,7 @@ def load_existing_refs(user_dir: Path) -> set[str]:
 
 
 def write_notebook(notebooks_dir: Path, k: object):
-    slug = slugify(k.title or k.ref.split("/")[-1])
+    slug = slugify(k.ref.split("/")[-1])
     filename = f"{slug}.md"
     last_run = str(getattr(k, "last_run_time", "") or "")[:10]
 
@@ -87,7 +87,14 @@ def main():
     first_row = not index_path.exists()
 
     print(f"Fetching notebooks for {args.user}...")
-    all_notebooks = api.kernels_list(user=args.user)
+    all_notebooks = []
+    page = 1
+    while True:
+        batch = api.kernels_list(user=args.user, page=page, page_size=100)
+        all_notebooks += batch
+        if len(batch) < 100:
+            break
+        page += 1
     new_notebooks = [k for k in all_notebooks if k.ref not in existing_refs]
     print(f"Total : {len(all_notebooks)} notebooks ({len(existing_refs)} déjà présents, {len(new_notebooks)} nouveaux)")
 

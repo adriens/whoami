@@ -109,10 +109,16 @@ tasks:
     cmds:
       - uv run scripts/fetch-kaggle-datasets.py --user adriensales
 
+  fetch-kaggle-notebooks-adriensales:
+    desc: Provisionner les notebooks Kaggle @adriensales
+    cmds:
+      - uv run scripts/fetch-kaggle-notebooks.py --user adriensales
+
   fetch-kaggle:
-    desc: Provisionner tous les datasets Kaggle (sequentiel)
+    desc: Provisionner tous les datasets et notebooks Kaggle (sequentiel)
     cmds:
       - task: fetch-kaggle-adriensales
+      - task: fetch-kaggle-notebooks-adriensales
 
   fetch-hf-rastadidi:
     desc: Provisionner les datasets et spaces HuggingFace @rastadidi
