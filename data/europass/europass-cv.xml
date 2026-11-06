@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Candidate xmlns="http://www.europass.eu/1.0" xmlns:eures="http://www.europass_eures.eu/1.0" xmlns:hr="http://www.hr-xml.org/3" xmlns:oa="http://www.openapplications.org/oagis/9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.europass.eu/1.0 Candidate.xsd">
-  <hr:DocumentID schemeID="whoami-v1.41.1" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
+  <hr:DocumentID schemeID="whoami-v1.41.2" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
   <CandidateSupplier>
-    <hr:PartyID schemeID="whoami-v1.41.1" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
+    <hr:PartyID schemeID="whoami-v1.41.2" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
     <hr:PartyName>Owner</hr:PartyName>
     <PersonContact>
       <PersonName>
@@ -2256,7 +2256,7 @@
       <Title>Référentiel ESCO</Title>
       <Other>
         <Title>IA &amp; Agents</Title>
-        <Description>&lt;ul&gt;&lt;li&gt;principes de l’intelligence artificielle&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;li&gt;traitement automatique du langage naturel&lt;/li&gt;&lt;li&gt;effectuer des recherches dans des bases de données&lt;/li&gt;&lt;li&gt;technologies émergentes&lt;/li&gt;&lt;li&gt;développer des applications de traitement des données&lt;/li&gt;&lt;li&gt;gérer les normes d’échange de données&lt;/li&gt;&lt;li&gt;évaluer des informations&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Description>&lt;ul&gt;&lt;li&gt;principes de l’intelligence artificielle&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;li&gt;traitement automatique du langage naturel&lt;/li&gt;&lt;li&gt;effectuer des recherches dans des bases de données&lt;/li&gt;&lt;li&gt;technologies émergentes&lt;/li&gt;&lt;li&gt;développer des applications de traitement des données&lt;/li&gt;&lt;li&gt;gérer les normes d’échange de données&lt;/li&gt;&lt;li&gt;évaluer des informations&lt;/li&gt;&lt;li&gt;données non structurées&lt;/li&gt;&lt;/ul&gt;</Description>
       </Other>
     </Others>
     <Others>
@@ -2298,7 +2298,7 @@
       <Title>Référentiel ESCO</Title>
       <Other>
         <Title>Open Data &amp; Data Science</Title>
-        <Description>&lt;ul&gt;&lt;li&gt;Python (programmation informatique)&lt;/li&gt;&lt;li&gt;effectuer une analyse de données&lt;/li&gt;&lt;li&gt;procéder à l’extraction de données&lt;/li&gt;&lt;li&gt;créer des ensembles de données&lt;/li&gt;&lt;li&gt;gérer les métadonnées de contenu&lt;/li&gt;&lt;li&gt;participer à des échanges au moyen de technologies numériques&lt;/li&gt;&lt;li&gt;normaliser les données&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;li&gt;gérer l’intégration sémantique des TIC&lt;/li&gt;&lt;li&gt;statistiques&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Description>&lt;ul&gt;&lt;li&gt;Python (programmation informatique)&lt;/li&gt;&lt;li&gt;effectuer une analyse de données&lt;/li&gt;&lt;li&gt;procéder à l’extraction de données&lt;/li&gt;&lt;li&gt;créer des ensembles de données&lt;/li&gt;&lt;li&gt;gérer les métadonnées de contenu&lt;/li&gt;&lt;li&gt;participer à des échanges au moyen de technologies numériques&lt;/li&gt;&lt;li&gt;normaliser les données&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;li&gt;gérer l’intégration sémantique des TIC&lt;/li&gt;&lt;li&gt;statistiques&lt;/li&gt;&lt;li&gt;linguistique informatique&lt;/li&gt;&lt;li&gt;définir des modèles statistiques&lt;/li&gt;&lt;/ul&gt;</Description>
       </Other>
     </Others>
     <Others>
