@@ -1,0 +1,10 @@
+---
+kernel_type: ''
+language: ''
+last_run: '2026-07-20'
+ref: adriensales/exercise-loops-and-list-comprehensions
+title: 'Exercise: Loops and List Comprehensions'
+total_votes: 0
+url: https://www.kaggle.com/code/adriensales/exercise-loops-and-list-comprehensions
+---
+
