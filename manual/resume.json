@@ -1337,6 +1337,14 @@
           "covers": [
             "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b2f925ed-3ebd-4f78-b98e-d5d4678e83b5",
+          "label": "respecter un code de conduite éthique",
+          "type": "skill/competence",
+          "covers": [
+            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
+          ]
         }
       ],
       "x-europass": "digital"
@@ -2479,8 +2487,8 @@
           ]
         },
         {
-          "uri": "http://data.europa.eu/esco/skill/be6ab363-3de1-427f-a8ef-85d5b0250822",
-          "label": "rapporter des faits",
+          "uri": "http://data.europa.eu/esco/skill/525046fb-3e1a-4083-88e7-5db7e88bc4f7",
+          "label": "vérifier l’exactitude d’informations",
           "type": "skill/competence",
           "covers": [
             "Enquête data sur une affirmation médiatique (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)"
@@ -5892,7 +5900,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.41.2",
+    "version": "v1.41.3",
     "lastModified": "2026-11-06",
     "theme": "elegant",
     "x-esco-retrieved": "2026-11-06"
