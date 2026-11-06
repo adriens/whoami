@@ -22,3 +22,4 @@ Mots-clés : MCP (Model Context Protocol), Hugging Face, Gradio, Agents IA, RAG,
 - [gérer les normes d’échange de données](../esco/gerer-les-normes-dechange-de-donnees.md) — *skill/competence*
 - [évaluer des informations](../esco/evaluer-des-informations.md) — *skill/competence*
 - [données non structurées](../esco/donnees-non-structurees.md) — *knowledge*
+- [respecter un code de conduite éthique](../esco/respecter-un-code-de-conduite-ethique.md) — *skill/competence*

@@ -35,4 +35,4 @@ Mots-clés : Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation
 - [présider une réunion](../esco/presider-une-reunion.md) — *skill/competence*
 - [évaluer des informations](../esco/evaluer-des-informations.md) — *skill/competence*
 - [analyser des propositions techniques en matière de TIC](../esco/analyser-des-propositions-techniques-en-matiere-de-tic.md) — *skill/competence*
-- [rapporter des faits](../esco/rapporter-des-faits.md) — *skill/competence*
+- [vérifier l’exactitude d’informations](../esco/verifier-lexactitude-dinformations.md) — *skill/competence*
