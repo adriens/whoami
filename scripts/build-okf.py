@@ -10,6 +10,8 @@ des nœuds-hub `tags/<tag>.md` qui relient les sections entre elles — le graph
 de connaissances du profil, navigable sans Neo4j. Les concepts ESCO (`x-esco`,
 `x-esco-occupations`) deviennent des nœuds-hub `esco/<concept>.md` dont la
 `resource` est l'URI officielle ESCO — pont vers le référentiel européen.
+Les concepts ESCO qui sont des compétences DigComp 2.2 sont regroupés en 5
+nœuds-domaine `digcomp/<domaine>.md` (grille fixe ci-dessous, pas dans resume.json).
 
 resume.json reste la seule source de vérité ; ce bundle est un artefact généré.
 """
@@ -91,6 +93,49 @@ def esco_links(rec, concepts, kind):
         entry["recs"].append(rec)
         lines.append(f"- [{c['label'].split('/')[0].strip()}](../esco/{esco_slug(c['label'])}.md) — *{detail}*")
     return lines
+
+
+# --- DigComp ---------------------------------------------------------------
+# Grille DigComp 2.2 (21 compétences, 5 domaines) → URI ESCO du concept transversal
+# correspondant. Référentiel européen figé : table de correspondance, pas une donnée
+# du profil. Une compétence est « couverte » si son URI figure dans esco_map.
+DIGCOMP_URL = "https://joint-research-centre.ec.europa.eu/digcomp_en"
+ESCO_SKILL = "http://data.europa.eu/esco/skill/"
+DIGCOMP_AREAS = [
+    ("1", "information-et-donnees", "Information et données", "Information and data literacy", [
+        ("1.1", "e439742d-558d-4f52-885e-afdc740b48cf", "Naviguer, rechercher et filtrer des données et contenus numériques"),
+        ("1.2", "1d6c7de4-350e-4868-a47b-333b4b0d9650", "Évaluer des données et contenus numériques"),
+        ("1.3", "4d97e3c3-f335-47cc-a4ee-0d779fd42222", "Gérer des données et contenus numériques"),
+    ]),
+    ("2", "communication-et-collaboration", "Communication et collaboration", "Communication and collaboration", [
+        ("2.1", "a12057b4-6d11-4a12-ab8e-15a028ef0a6d", "Interagir au moyen des technologies numériques"),
+        ("2.2", "40001d93-8937-4859-89d5-2dca53290ff4", "Partager au moyen des technologies numériques"),
+        ("2.3", "16a00c69-9c74-4c37-96d7-6301d285e5ce", "S'engager dans la citoyenneté au moyen des technologies numériques"),
+        ("2.4", "2b34a99f-9813-4c91-9509-b6b9b8c3132e", "Collaborer au moyen des technologies numériques"),
+        ("2.5", "97c1895a-a890-47da-abfc-79dc272add2e", "Nétiquette"),
+        ("2.6", "bc0b0b5d-f6be-405a-b224-b6902a4dbe97", "Gérer son identité numérique"),
+    ]),
+    ("3", "creation-de-contenus-numeriques", "Création de contenus numériques", "Digital content creation", [
+        ("3.1", "5fd5c985-eaaa-47aa-8314-62359c54505a", "Développer des contenus numériques"),
+        ("3.2", "5af49836-2269-46d9-87b9-0d3140c6c22e", "Intégrer et réélaborer des contenus numériques"),
+        ("3.3", "a91732ce-988e-4105-9570-f425c6ffdc82", "Droits d'auteur et licences"),
+        ("3.4", "21d2f96d-35f7-4e3f-9745-c533d2dd6e97", "Programmation"),
+    ]),
+    ("4", "securite", "Sécurité", "Safety", [
+        ("4.1", "df329d70-87b0-466b-a214-3431f36e2a5e", "Protéger les équipements"),
+        ("4.2", "33a82b83-c838-4889-ae62-fae1317481eb", "Protéger les données personnelles et la vie privée"),
+        ("4.3", "d1ed5b3a-cab5-4c5d-baf8-0214998b58fb", "Protéger la santé et le bien-être"),
+        ("4.4", "c4ba12d1-4698-42fa-8abb-789462ea2586", "Protéger l'environnement"),
+    ]),
+    ("5", "resolution-de-problemes", "Résolution de problèmes", "Problem solving", [
+        ("5.1", "14832d87-2f2f-4895-b290-e4760ebae42a", "Résoudre des problèmes techniques"),
+        ("5.2", "42fcf80d-7b45-40f3-bd2f-5411c4c0dfa0", "Identifier les besoins et les réponses technologiques"),
+        ("5.3", "1a4cc54f-1e53-442b-a6d2-1682dc8ef8f9", "Être créatif avec les technologies numériques"),
+        ("5.4", "238343b1-7b51-42b3-a9ed-cf24d3a236e7", "Identifier les lacunes en compétences numériques"),
+    ]),
+]
+# URI ESCO → (numéro, slug du domaine)
+DIGCOMP_BY_URI = {ESCO_SKILL + u: (n, slug) for _, slug, _, _, comps in DIGCOMP_AREAS for n, u, _ in comps}
 
 
 def main():
@@ -332,6 +377,9 @@ def main():
         body = [f"Concept du référentiel européen ESCO ({e['detail']}) relié à {len(recs)} entrées du profil.",
                 "", f"URI : <{uri}>", "",
                 f"Fiche : <https://esco.ec.europa.eu/fr/classification/{uri.split('/')[-2]}?uri={quote(uri, safe='')}>", ""]
+        if uri in DIGCOMP_BY_URI:
+            num, area_slug = DIGCOMP_BY_URI[uri]
+            body += [f"Compétence numérique DigComp {num} — [domaine](../digcomp/{area_slug}.md)", ""]
         body += [f"- [{x.title}](../{x.section}/{x.slug}.md) — *{x.type}*" for x in recs]
         write_doc(esco_dir / f"{slug}.md", {
             "type": "EscoSkill" if e["kind"] == "skill" else "EscoOccupation",
@@ -351,6 +399,39 @@ def main():
             "type": "Index", "title": "ESCO", "description": "Concepts du référentiel européen ESCO",
             "resource": "https://esco.ec.europa.eu/", "tags": [], "timestamp": DEFAULT_TS,
         }, body)
+
+    # digcomp/<domaine>.md — 5 nœuds-domaine DigComp 2.2 reliant les hubs esco/
+    digcomp_dir = OUTPUT / "digcomp"
+    n_covered = 0
+    index_body = []
+    for area_num, area_slug, area_fr, area_en, comps in DIGCOMP_AREAS:
+        covered = [(n, u, t) for n, u, t in comps if ESCO_SKILL + u in esco_map]
+        n_covered += len(covered)
+        body = [f"Domaine {area_num} de DigComp 2.2 ({area_en}) : {len(covered)}/{len(comps)} compétences "
+                f"rattachées au profil.", "", f"Référentiel : <{DIGCOMP_URL}>", ""]
+        for n, u, t in comps:
+            e = esco_map.get(ESCO_SKILL + u)
+            if e:
+                recs = sorted({id(x): x for x in e["recs"]}.values(), key=lambda x: x.title)
+                skills = ", ".join(f"[{x.title}](../{x.section}/{x.slug}.md)" for x in recs)
+                body.append(f"- **{n}** {t} — [{e['label'].split('/')[0].strip()}](../esco/{esco_slug(e['label'])}.md) · {skills}")
+            else:
+                body.append(f"- **{n}** {t} — *non rattachée*")
+        write_doc(digcomp_dir / f"{area_slug}.md", {
+            "type": "DigCompArea",
+            "title": f"DigComp {area_num} — {area_fr}",
+            "description": f"{len(covered)}/{len(comps)} compétences DigComp « {area_fr} » rattachées au profil",
+            "resource": DIGCOMP_URL,
+            "tags": [],
+            "timestamp": META.get("x-esco-retrieved", DEFAULT_TS),
+        }, body)
+        index_body.append(f"- [{area_num}. {area_fr}]({area_slug}.md) — {len(covered)}/{len(comps)}")
+    n_total = sum(len(c) for *_, c in DIGCOMP_AREAS)
+    write_doc(digcomp_dir / "index.md", {
+        "type": "Index", "title": "DigComp",
+        "description": "Compétences numériques — référentiel européen DigComp 2.2",
+        "resource": DIGCOMP_URL, "tags": [], "timestamp": DEFAULT_TS,
+    }, [f"{n_covered}/{n_total} compétences DigComp 2.2 rattachées au profil via ESCO.", ""] + index_body)
 
     # index.md par section
     for section, recs in by_section.items():
@@ -384,6 +465,7 @@ def main():
     body += ["", f"- [Tags]({'tags'}/index.md) — {len(tag_map)} concepts (graphe)"]
     if esco_map:
         body.append(f"- [ESCO](esco/index.md) — {len(esco_map)} concepts du référentiel européen")
+    body.append(f"- [DigComp](digcomp/index.md) — {n_covered}/{n_total} compétences numériques européennes")
     write_doc(OUTPUT / "index.md", {
         "type": "Index", "title": f"{b['name']} — OKF Bundle",
         "description": b.get("x-summary-short", b.get("label", "")),
