@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-11-06",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.41.2",
+  "x-resume-version": "v1.41.3",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -1063,6 +1063,26 @@
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "IA & Agents"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b2f925ed-3ebd-4f78-b98e-d5d4678e83b5",
+      "termCode": "b2f925ed-3ebd-4f78-b98e-d5d4678e83b5",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "respecter un code de conduite éthique"
+        },
+        {
+          "@language": "en",
+          "@value": "follow ethical code of conduct"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "IA & Agents"
       ]
@@ -2909,16 +2929,16 @@
     },
     {
       "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/be6ab363-3de1-427f-a8ef-85d5b0250822",
-      "termCode": "be6ab363-3de1-427f-a8ef-85d5b0250822",
+      "@id": "http://data.europa.eu/esco/skill/525046fb-3e1a-4083-88e7-5db7e88bc4f7",
+      "termCode": "525046fb-3e1a-4083-88e7-5db7e88bc4f7",
       "name": [
         {
           "@language": "fr",
-          "@value": "rapporter des faits"
+          "@value": "vérifier l’exactitude d’informations"
         },
         {
           "@language": "en",
-          "@value": "report facts"
+          "@value": "check correctness of information"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
