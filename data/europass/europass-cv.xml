@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Candidate xmlns="http://www.europass.eu/1.0" xmlns:eures="http://www.europass_eures.eu/1.0" xmlns:hr="http://www.hr-xml.org/3" xmlns:oa="http://www.openapplications.org/oagis/9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.europass.eu/1.0 Candidate.xsd">
-  <hr:DocumentID schemeID="whoami-v1.40.0" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
+  <hr:DocumentID schemeID="whoami-v1.41.0" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
   <CandidateSupplier>
-    <hr:PartyID schemeID="whoami-v1.40.0" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
+    <hr:PartyID schemeID="whoami-v1.41.0" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
     <hr:PartyName>Owner</hr:PartyName>
     <PersonContact>
       <PersonName>
@@ -458,6 +458,14 @@
           <Link>https://doi.org/10.5281/zenodo.20467660</Link>
         </DOI>
         <hr:FormattedPublicationDescription>&lt;p&gt;Première publication scientifique sur Zenodo (DOI : 10.5281/zenodo.20467660). Analyse de sécurité des versions PostgreSQL via trois outils CLI : geol (End-of-Life), Trivy (scan de vulnérabilités Docker), skopeo (inspection d&amp;#x27;images). Démontre comment combiner IA générative et outils CLI pour automatiser l&amp;#x27;analyse de risques sur des images de base de données.&lt;/p&gt;</hr:FormattedPublicationDescription>
+      </Publication>
+      <Publication>
+        <Title>She Is Alone With a Man — biais de nationalité des LLM open-weight (Zenodo)</Title>
+        <Authors>Adrien Sales</Authors>
+        <Year>2026</Year>
+        <Publisher>Zenodo</Publisher>
+        <Reference>https://doi.org/10.5281/zenodo.23991568</Reference>
+        <hr:FormattedPublicationDescription>&lt;p&gt;Rapport scientifique (DOI : 10.5281/zenodo.23991568, v1.1 : 10.5281/zenodo.23992096, CC BY 4.0) du projet Alone With a Stranger : vérification à grande échelle d&amp;#x27;un test RTS cité dans un débat France Inter (« L&amp;#x27;IA est-elle raciste ? »). 7 modèles open-weight, 51 975 réponses, juge LLM en aveugle + méthode sans juge (classifieur, lexicométrie). Les 7 modèles complimentent les mêmes hommes ; compliments corrélés au PIB/hab. du pays (Spearman ρ = 0,73). Livré en 4 formats : rapport complet (91 p., Quarto/R/XeLaTeX), version courte (7 p.), carrousel 16 slides, 4 visuels carrés pour les réseaux sociaux.&lt;/p&gt;</hr:FormattedPublicationDescription>
       </Publication>
     </PublicationHistory>
     <PersonQualifications>
@@ -1242,7 +1250,7 @@
       <Title>Compétences transversales</Title>
       <Other>
         <Title>Developer Relations &amp; Communication (Expert)</Title>
-        <Description>&lt;p&gt;Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation, Storytelling, Data Storytelling, Community building, Marketing $0, Mux, Détournements vidéo tech, Tech advocacy interne, Pitching interne, Évangélisation par la pratique, Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC), Démos live &amp;amp; unboxings de releases, Constitution et animation d&amp;#x27;un jury de hackathon (#HackAVP : 6 jurés + 4 modèles IA, grille /100, gestion des conflits d&amp;#x27;intérêt, vote du prix du jury)&lt;/p&gt;</Description>
+        <Description>&lt;p&gt;Talks internationaux, YouTube, Dev.to, Documentation, Vulgarisation, Storytelling, Data Storytelling, Community building, Marketing $0, Mux, Détournements vidéo tech, Tech advocacy interne, Pitching interne, Évangélisation par la pratique, Co-organisation de hackathons (#HackAVP, OPT-NC × Station N × OPEN NC), Démos live &amp;amp; unboxings de releases, Constitution et animation d&amp;#x27;un jury de hackathon (#HackAVP : 6 jurés + 4 modèles IA, grille /100, gestion des conflits d&amp;#x27;intérêt, vote du prix du jury), Enquête data sur une affirmation médiatique (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)&lt;/p&gt;</Description>
       </Other>
     </Others>
     <Others>
@@ -1976,8 +1984,8 @@
             <hr:FormattedDateTime>2026-09</hr:FormattedDateTime>
           </StartDate>
         </Date>
-        <Description>&lt;p&gt;Benchmark à grande échelle du biais de nationalité dans les conseils de sécurité donnés par des LLM open-weight à une femme seule avec un homme. Né d&amp;#x27;un débat France Inter (sept. 2026) sur un reportage RTS fondé sur quelques prompts : automatisé à l&amp;#x27;échelle, sur GPU Kaggle gratuits, recalculable par tous. Rapport scientifique « She Is Alone With a Man » (Quarto/R).&lt;/p&gt;&lt;ul&gt;&lt;li&gt;7 modèles open-weight × 7 425 prompts : 24 nationalités + témoin, 11 situations, 3 âges, 3 paraphrases, 3 tirages&lt;/li&gt;&lt;li&gt;LLM-as-a-judge en aveugle (Qwen3-32B-AWQ, rubrique rts-v4) + méthode de contrôle sans juge&lt;/li&gt;&lt;li&gt;Résultat : les 7 modèles complimentent les mêmes hommes (Finlandais, Italiens, Japonais) ; réflexes divergents pour Afghans/Nigérians (déni, risque nommé, refus)&lt;/li&gt;&lt;li&gt;Nationalité masquée devinée 6× mieux que le hasard par un classifieur de texte ; lexicométrie : qualités vs origine&lt;/li&gt;&lt;li&gt;Plus gros modèles pas plus justes : le biais change de forme&lt;/li&gt;&lt;li&gt;2 datasets Kaggle (réponses + verdicts CC0, PIB/hab. Banque mondiale CC BY 4.0)&lt;/li&gt;&lt;/ul&gt;</Description>
-        <Link>https://www.kaggle.com/datasets/adriensales/alone-with-a-stranger-analysis-data</Link>
+        <Description>&lt;p&gt;Benchmark à grande échelle du biais de nationalité dans les conseils de sécurité donnés par des LLM open-weight à une femme seule avec un homme. Né d&amp;#x27;un débat France Inter (sept. 2026) sur un reportage RTS fondé sur quelques prompts : automatisé à l&amp;#x27;échelle, sur GPU Kaggle gratuits, recalculable par tous. Rapport scientifique « She Is Alone With a Man » (Quarto/R) publié sur Zenodo (DOI 10.5281/zenodo.23991568) ; code et données publics sur GitHub, Kaggle.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;7 modèles open-weight × 7 425 prompts : 24 nationalités + témoin, 11 situations, 3 âges, 3 paraphrases, 3 tirages&lt;/li&gt;&lt;li&gt;LLM-as-a-judge en aveugle (Qwen3-32B-AWQ, rubrique rts-v4) + méthode de contrôle sans juge&lt;/li&gt;&lt;li&gt;Résultat : les 7 modèles complimentent les mêmes hommes (Finlandais, Italiens, Japonais) ; réflexes divergents pour Afghans/Nigérians (déni, risque nommé, refus)&lt;/li&gt;&lt;li&gt;Nationalité masquée devinée 6× mieux que le hasard par un classifieur de texte ; lexicométrie : qualités vs origine&lt;/li&gt;&lt;li&gt;Plus gros modèles pas plus justes : le biais change de forme&lt;/li&gt;&lt;li&gt;2 datasets Kaggle (réponses + verdicts, PIB/hab. Banque mondiale — CC BY 4.0) + 11 notebooks, collection kaggle.com/work/collections/19371544&lt;/li&gt;&lt;li&gt;Plus le pays est riche, plus l&amp;#x27;IA est chaleureuse : compliments corrélés au PIB/hab. (Spearman ρ = 0,73), y compris au sein d&amp;#x27;un même continent&lt;/li&gt;&lt;li&gt;Frugal : 89 h GPU (2 × T4) + 6 h CPU, 0 € — tout sur le quota gratuit Kaggle&lt;/li&gt;&lt;li&gt;Rapport Zenodo en 4 formats (91 p., version 7 p., carrousel 16 slides, 4 visuels carrés) : DOI 10.5281/zenodo.23991568&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://github.com/adriens/kaggle-bench-ai-biasses</Link>
       </Other>
     </Others>
     <Others>
@@ -2304,7 +2312,7 @@
       <Title>Référentiel ESCO</Title>
       <Other>
         <Title>Developer Relations &amp; Communication</Title>
-        <Description>&lt;ul&gt;&lt;li&gt;effectuer des présentations publiques&lt;/li&gt;&lt;li&gt;gérer du contenu en ligne&lt;/li&gt;&lt;li&gt;fournir une documentation technique&lt;/li&gt;&lt;li&gt;fournir une présentation visuelle des données&lt;/li&gt;&lt;li&gt;développer l’architecture d’une communauté en ligne&lt;/li&gt;&lt;li&gt;créer un réseau professionnel&lt;/li&gt;&lt;li&gt;rédiger un article scientifique&lt;/li&gt;&lt;li&gt;coordonner des événements&lt;/li&gt;&lt;li&gt;planifier des évènements&lt;/li&gt;&lt;li&gt;élaborer des contenus numériques&lt;/li&gt;&lt;li&gt;fournir du contenu multimédia&lt;/li&gt;&lt;li&gt;techniques d&amp;#x27;écriture&lt;/li&gt;&lt;li&gt;rédiger des textes professionnels&lt;/li&gt;&lt;li&gt;utiliser des techniques de communication&lt;/li&gt;&lt;li&gt;stratégie de marketing de contenu&lt;/li&gt;&lt;li&gt;faire preuve d&amp;#x27;humour&lt;/li&gt;&lt;li&gt;susciter des émotions dans le public&lt;/li&gt;&lt;li&gt;effectuer un montage vidéo&lt;/li&gt;&lt;li&gt;démontrer la fonctionnalité de produits logiciels&lt;/li&gt;&lt;li&gt;présider une réunion&lt;/li&gt;&lt;li&gt;évaluer des informations&lt;/li&gt;&lt;li&gt;analyser des propositions techniques en matière de TIC&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Description>&lt;ul&gt;&lt;li&gt;effectuer des présentations publiques&lt;/li&gt;&lt;li&gt;gérer du contenu en ligne&lt;/li&gt;&lt;li&gt;fournir une documentation technique&lt;/li&gt;&lt;li&gt;fournir une présentation visuelle des données&lt;/li&gt;&lt;li&gt;développer l’architecture d’une communauté en ligne&lt;/li&gt;&lt;li&gt;créer un réseau professionnel&lt;/li&gt;&lt;li&gt;rédiger un article scientifique&lt;/li&gt;&lt;li&gt;coordonner des événements&lt;/li&gt;&lt;li&gt;planifier des évènements&lt;/li&gt;&lt;li&gt;élaborer des contenus numériques&lt;/li&gt;&lt;li&gt;fournir du contenu multimédia&lt;/li&gt;&lt;li&gt;techniques d&amp;#x27;écriture&lt;/li&gt;&lt;li&gt;rédiger des textes professionnels&lt;/li&gt;&lt;li&gt;utiliser des techniques de communication&lt;/li&gt;&lt;li&gt;stratégie de marketing de contenu&lt;/li&gt;&lt;li&gt;faire preuve d&amp;#x27;humour&lt;/li&gt;&lt;li&gt;susciter des émotions dans le public&lt;/li&gt;&lt;li&gt;effectuer un montage vidéo&lt;/li&gt;&lt;li&gt;démontrer la fonctionnalité de produits logiciels&lt;/li&gt;&lt;li&gt;présider une réunion&lt;/li&gt;&lt;li&gt;évaluer des informations&lt;/li&gt;&lt;li&gt;analyser des propositions techniques en matière de TIC&lt;/li&gt;&lt;li&gt;rapporter des faits&lt;/li&gt;&lt;/ul&gt;</Description>
       </Other>
     </Others>
     <Others>
