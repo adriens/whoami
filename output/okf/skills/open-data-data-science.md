@@ -13,7 +13,7 @@ timestamp: '2026-11-06'
 
 **Niveau : Avancé**
 
-Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création et publication de datasets open data (Kaggle, Hugging Face), Hackathons, uv, poetry, PyPI, PyPI maintainer, Détection d'anomalies (XGBoost, k-means — PRIX.NC), Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face), Alignement de corpus sur référentiels (ESCO, ROME, ISCO), Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto), Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées)
+Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création et publication de datasets open data (Kaggle, Hugging Face), Hackathons, uv, poetry, PyPI, PyPI maintainer, Détection d'anomalies (XGBoost, k-means — PRIX.NC), Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face), Alignement de corpus sur référentiels (ESCO, ROME, ISCO), Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto), Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées), Fact-checking & enquête data à grande échelle (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)
 
 **Compétences ESCO :**
 - [Python (programmation informatique)](../esco/python-programmation-informatique.md) — *knowledge*
@@ -28,5 +28,7 @@ Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création 
 - [statistiques](../esco/statistiques.md) — *knowledge*
 - [linguistique informatique](../esco/linguistique-informatique.md) — *knowledge*
 - [définir des modèles statistiques](../esco/definir-des-modeles-statistiques.md) — *skill/competence*
+- [vérifier l’exactitude d’informations](../esco/verifier-lexactitude-dinformations.md) — *skill/competence*
+- [évaluer des données, des informations et des contenus numériques](../esco/evaluer-des-donnees-des-informations-et-des-contenus-numeriques.md) — *skill/competence*
 
 **Tags :** [duckdb](../tags/duckdb.md), [open-data](../tags/open-data.md), [python](../tags/python.md)

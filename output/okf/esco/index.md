@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-11-06'
 ---
 
-232 concepts ESCO rattachés au profil (retrieved 2026-11-06).
+233 concepts ESCO rattachés au profil (retrieved 2026-11-06).
 
 ## Métiers
 
@@ -244,5 +244,6 @@ timestamp: '2026-11-06'
 - [élaborer un plan de cours](elaborer-un-plan-de-cours.md) — 1 entrées
 - [équilibrer les ressources d’une base de données](equilibrer-les-ressources-dune-base-de-donnees.md) — 1 entrées
 - [établir des relations de collaboration](etablir-des-relations-de-collaboration.md) — 8 entrées
+- [évaluer des données, des informations et des contenus numériques](evaluer-des-donnees-des-informations-et-des-contenus-numeriques.md) — 1 entrées
 - [évaluer des informations](evaluer-des-informations.md) — 2 entrées
 - [évaluer les performances de collaborateurs de l’organisation](evaluer-les-performances-de-collaborateurs-de-lorganisation.md) — 1 entrées
