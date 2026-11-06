@@ -656,8 +656,46 @@ La release note doit lister : les changements de contenu (`resume.json`), les do
 | Nouveau keyword dans un skill (livre, reco, publication, vidéo, projet…) | Le couvrir par un concept existant du skill (`covers`) ou ajouter un concept ESCO ; sinon le signaler comme non couvert |
 | Nouveau skill | `x-esco` obligatoire (CI : `task audit-esco` échoue sinon) + `x-europass` (`digital` / `transversal`) |
 | Nouveau rôle/compétence révélé par une entrée (`awards`, `projects`, `volunteer`…) sans keyword correspondant | Proposer le keyword + le concept ESCO (ex : co-organisation #HackAVP → *coordonner des événements*) |
+| **Tout nouveau contenu** (même sans nouveau keyword) | **Checker DigComp** (table ci-dessous) : le contenu renforce-t-il une compétence DigComp déjà rattachée (ajouter le keyword à ses `covers`), ou la compétence non retenue (4.3) ? |
 
-Toujours : proposer le mapping à Adrien **entrée par entrée** (tableau concept FR / EN, type, ce qui est couvert) avant d'écrire, puis `task audit-esco` + `task export-esco` (commit `chore(esco)`), et signaler dans le feedback final ce qui a été rattaché à ESCO.
+Toujours : proposer le mapping à Adrien **entrée par entrée** (tableau concept FR / EN, type, **définition EN complète**, métiers essentiels, ce qui est couvert) avant d'écrire, puis `task audit-esco` + `task export-esco` (commit `chore(esco)`), et signaler dans le feedback final ce qui a été rattaché à ESCO **et à DigComp**. Le label seul trompe : *rapporter des faits* = « recount events orally », pas du fact-checking ; *documenter des résultats d'analyse* = analyses d'échantillons en laboratoire.
+
+### DigComp — compétences numériques
+
+[DigComp 2.2](https://joint-research-centre.ec.europa.eu/digcomp_en) est le référentiel européen des compétences numériques (21 compétences, 5 domaines). Il sert de base à l'auto-évaluation numérique d'Europass, et ESCO le reprend sous forme de concepts transversaux. Le profil en couvre **20 sur 21** (passe complète en v1.42.0) :
+
+| # | Concept ESCO | URI | Skill(s) |
+|---|---|---|---|
+| 1.1 | tirer parti de données, d'informations et de contenus numériques par la navigation, les recherches et le filtrage | `e439742d…` | Open Data & Data Science |
+| 1.2 | évaluer des données, des informations et des contenus numériques | `1d6c7de4…` | Open Data & Data Science |
+| 1.3 | gérer des données, des informations et des contenus numériques | `4d97e3c3…` | Data Engineering |
+| 2.1 | interagir au moyen de technologies numériques | `a12057b4…` | Management & Leadership |
+| 2.2 | participer à des échanges au moyen de technologies numériques | `40001d93…` | Open Data & Data Science |
+| 2.3 | s'engager dans des actions citoyennes au moyen de technologies numériques | `16a00c69…` | Open Data & Data Science |
+| 2.4 | mener des collaborations au moyen de technologies numériques | `2b34a99f…` | Management & Leadership |
+| 2.5 | utiliser les conventions en ligne de la nétiquette | `97c1895a…` | Pédagogie & Transmission |
+| 2.6 | gérer une identité numérique | `bc0b0b5d…` | Developer Relations & Communication |
+| 3.1 | élaborer des contenus numériques | `5fd5c985…` | Developer Relations & Communication |
+| 3.2 | intégrer et ré-élaborer des contenus numériques | `5af49836…` | Graph & Knowledge Engineering |
+| 3.3 | droits d'auteur et autorisations liées à des contenus numériques | `a91732ce…` | Open Source |
+| 3.4 | programmation informatique | `21d2f96d…` | Architecture & Développement |
+| 4.1 | protéger les dispositifs TIC | `df329d70…` | DevSecOps |
+| 4.2 | protéger des données à caractère personnel et la vie privée | `33a82b83…` | DevSecOps |
+| 4.3 | protéger la santé et le bien-être lors de l'utilisation des technologies numériques | `d1ed5b3a…` | **non retenu** (santé, cyberharcèlement) — à reconsidérer si un contenu le démontre |
+| 4.4 | protéger l'environnement des effets de technologies numériques | `c4ba12d1…` | IA & Agents |
+| 5.1 | résoudre des problèmes techniques | `14832d87…` | DevSecOps |
+| 5.2 | recenser des besoins et déterminer leurs solutions technologiques | `42fcf80d…` | Méthode signature : API-fication |
+| 5.3 | utiliser des technologies numériques de façon créative | `1a4cc54f…` | Créativité & Apprentissage autodidacte |
+| 5.4 | identifier les déficits de compétences numériques | `238343b1…` | Pédagogie & Transmission |
+
+**À chaque nouveau contenu** (livre, reco, publication, vidéo, projet, award…) :
+
+1. Repérer la ou les compétences DigComp que le contenu démontre (lire la définition EN, pas seulement le label)
+2. Si le contenu apporte un keyword à une skill qui porte déjà ce concept → ajouter le keyword aux `covers` du concept
+3. Si la compétence est portée par une autre skill que celle du contenu → proposer d'ajouter le concept à la skill du contenu (un même concept peut figurer sur plusieurs skills)
+4. Compétence 4.3 → la proposer uniquement si le contenu la démontre vraiment
+5. Volet enseignant (Adrien est prof) : penser aussi à *travailler avec des environnements d'apprentissage virtuels* (`b78f324d…`) et *technologies d'apprentissage* (`7fc4c18a…`), portés par Pédagogie & Transmission
+6. Signaler dans le feedback final : « DigComp : N.N renforcé (keyword X) » ou « DigComp : rien de nouveau »
 
 ### Tags de recos → ESCO
 
