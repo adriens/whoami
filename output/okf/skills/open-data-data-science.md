@@ -26,5 +26,7 @@ Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création 
 - [utiliser l’apprentissage automatique](../esco/utiliser-lapprentissage-automatique.md) — *skill/competence*
 - [gérer l’intégration sémantique des TIC](../esco/gerer-lintegration-semantique-des-tic.md) — *skill/competence*
 - [statistiques](../esco/statistiques.md) — *knowledge*
+- [linguistique informatique](../esco/linguistique-informatique.md) — *knowledge*
+- [définir des modèles statistiques](../esco/definir-des-modeles-statistiques.md) — *skill/competence*
 
 **Tags :** [duckdb](../tags/duckdb.md), [open-data](../tags/open-data.md), [python](../tags/python.md)

@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-11-06'
 ---
 
-228 concepts ESCO rattachés au profil (retrieved 2026-11-06).
+231 concepts ESCO rattachés au profil (retrieved 2026-11-06).
 
 ## Métiers
 
@@ -83,7 +83,9 @@ timestamp: '2026-11-06'
 - [cycle de vie d’un produit](cycle-de-vie-dun-produit.md) — 2 entrées
 - [diriger d’autres personnes](diriger-dautres-personnes.md) — 1 entrées
 - [diriger une équipe](diriger-une-equipe.md) — 1 entrées
+- [données non structurées](donnees-non-structurees.md) — 1 entrées
 - [déboguer un logiciel](deboguer-un-logiciel.md) — 1 entrées
+- [définir des modèles statistiques](definir-des-modeles-statistiques.md) — 1 entrées
 - [définir la structure physique de la base de données](definir-la-structure-physique-de-la-base-de-donnees.md) — 1 entrées
 - [définir l’architecture logicielle](definir-larchitecture-logicielle.md) — 1 entrées
 - [définir une stratégie d’intégration](definir-une-strategie-dintegration.md) — 1 entrées
@@ -152,6 +154,7 @@ timestamp: '2026-11-06'
 - [intégration de systèmes de TIC](integration-de-systemes-de-tic.md) — 1 entrées
 - [intégrer des données TIC](integrer-des-donnees-tic.md) — 2 entrées
 - [jouer un rôle de meneur exemplaire au sein d’une organisation](jouer-un-role-de-meneur-exemplaire-au-sein-dune-organisation.md) — 1 entrées
+- [linguistique informatique](linguistique-informatique.md) — 1 entrées
 - [lire des livres](lire-des-livres.md) — 1 entrées
 - [maintenir la sécurité d’une base de données](maintenir-la-securite-dune-base-de-donnees.md) — 1 entrées
 - [mathématiques](mathematiques.md) — 1 entrées
