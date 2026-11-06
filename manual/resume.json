@@ -1094,6 +1094,14 @@
           "covers": [
             "Intégration par flux RSS & automatisation no-code (Feedly, Zapier)"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/42fcf80d-7b45-40f3-bd2f-5411c4c0dfa0",
+          "label": "recenser des besoins et déterminer leurs solutions technologiques",
+          "type": "skill/competence",
+          "covers": [
+            "Identification de manques d'interopérabilité"
+          ]
         }
       ],
       "x-europass": "digital"
@@ -1210,6 +1218,16 @@
           "covers": [
             "Knowledge Graph",
             "Réseaux cachés"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/5af49836-2269-46d9-87b9-0d3140c6c22e",
+          "label": "intégrer et ré-élaborer des contenus numériques",
+          "type": "skill/competence",
+          "covers": [
+            "Knowledge Graph",
+            "JSON-LD",
+            "schema.org"
           ]
         }
       ],
@@ -1344,6 +1362,14 @@
           "type": "skill/competence",
           "covers": [
             "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/c4ba12d1-4698-42fa-8abb-789462ea2586",
+          "label": "protéger l’environnement des effets de technologies numériques",
+          "type": "skill/competence",
+          "covers": [
+            "ML frugal on-prem (sans GPU)"
           ]
         }
       ],
@@ -1613,6 +1639,16 @@
           "covers": [
             "Lakehouse",
             "Apache Superset"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/4d97e3c3-f335-47cc-a4ee-0d779fd42222",
+          "label": "gérer des données, des informations et des contenus numériques",
+          "type": "skill/competence",
+          "covers": [
+            "Gouvernance des métadonnées",
+            "Lakehouse",
+            "Data Products"
           ]
         }
       ],
@@ -1930,6 +1966,33 @@
           "covers": [
             "Scripts Bash"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/df329d70-87b0-466b-a214-3431f36e2a5e",
+          "label": "protéger les dispositifs TIC",
+          "type": "skill/competence",
+          "covers": [
+            "Shift-left security",
+            "Trivy"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/33a82b83-c838-4889-ae62-fae1317481eb",
+          "label": "protéger des données à caractère personnel et la vie privée",
+          "type": "skill/competence",
+          "covers": [
+            "RGPD"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/14832d87-2f2f-4895-b290-e4760ebae42a",
+          "label": "résoudre des problèmes techniques",
+          "type": "skill/competence",
+          "covers": [
+            "Docker",
+            "Kubernetes",
+            "Scripts Bash"
+          ]
         }
       ],
       "x-europass": "digital"
@@ -2142,6 +2205,23 @@
           "label": "évaluer des données, des informations et des contenus numériques",
           "type": "skill/competence",
           "covers": [
+            "Fact-checking & enquête data à grande échelle (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/e439742d-558d-4f52-885e-afdc740b48cf",
+          "label": "tirer parti de données, d’informations et de contenus numériques par la navigation, les recherches et le filtrage",
+          "type": "skill/competence",
+          "covers": [
+            "Web scraping"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/16a00c69-9c74-4c37-96d7-6301d285e5ce",
+          "label": "s’engager dans des actions citoyennes au moyen de technologies numériques",
+          "type": "skill/competence",
+          "covers": [
+            "Open Data",
             "Fact-checking & enquête data à grande échelle (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)"
           ]
         }
@@ -2501,6 +2581,15 @@
           "covers": [
             "Constitution et animation d'un jury de hackathon (#HackAVP : 6 jurés + 4 modèles IA, grille /100, gestion des conflits d'intérêt, vote du prix du jury)"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/bc0b0b5d-f6be-405a-b224-b6902a4dbe97",
+          "label": "gérer une identité numérique",
+          "type": "skill/competence",
+          "covers": [
+            "Dev.to",
+            "YouTube"
+          ]
         }
       ],
       "x-europass": "transversal"
@@ -2781,6 +2870,14 @@
           "covers": [
             "Management d'équipe"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/2b34a99f-9813-4c91-9509-b6b9b8c3132e",
+          "label": "mener des collaborations au moyen de technologies numériques",
+          "type": "skill/competence",
+          "covers": [
+            "Management full-remote async (GitHub issues uniquement)"
+          ]
         }
       ],
       "x-europass": "transversal"
@@ -2960,6 +3057,41 @@
             "Supports pédagogiques vidéo (tutoriels HackAVP, séries MIAGE)",
             "Scénarios interactifs Killercoda"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/97c1895a-a890-47da-abfc-79dc272add2e",
+          "label": "utiliser les conventions en ligne de la nétiquette",
+          "type": "skill/competence",
+          "covers": [
+            "Mentorat à distance full-remote (GitHub issues comme seul canal)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/238343b1-7b51-42b3-a9ed-cf24d3a236e7",
+          "label": "identifier les déficits de compétences numériques",
+          "type": "skill/competence",
+          "covers": [
+            "Conception de stages sur mesure (datascience → APIs → mobile, art génératif, IoT)",
+            "Mentorat de stagiaires"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b78f324d-e16c-43f8-97d2-50d3a7cd1fb3",
+          "label": "travailler avec des environnements d’apprentissage virtuels",
+          "type": "skill/competence",
+          "covers": [
+            "Scénarios interactifs Killercoda",
+            "Mentorat à distance full-remote (GitHub issues comme seul canal)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/7fc4c18a-68f3-425a-aadf-f83633be47a1",
+          "label": "technologies d’apprentissage",
+          "type": "knowledge",
+          "covers": [
+            "Supports pédagogiques vidéo (tutoriels HackAVP, séries MIAGE)",
+            "Scénarios interactifs Killercoda"
+          ]
         }
       ],
       "x-europass": "transversal"
@@ -2978,7 +3110,8 @@
         "oracle-jutils",
         "mobitag",
         "liquibase",
-        "Attraction et fidélisation de contributors externes"
+        "Attraction et fidélisation de contributors externes",
+        "Licences open source & open data (CC BY 4.0, CC0, Apache 2.0, MIT — choix et compatibilité)"
       ],
       "x-esco": [
         {
@@ -3092,6 +3225,14 @@
           "type": "skill/competence",
           "covers": [
             "Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a91732ce-988e-4105-9570-f425c6ffdc82",
+          "label": "droits d’auteur et autorisations liées à des contenus numériques",
+          "type": "knowledge",
+          "covers": [
+            "Licences open source & open data (CC BY 4.0, CC0, Apache 2.0, MIT — choix et compatibilité)"
           ]
         }
       ],
@@ -3330,6 +3471,15 @@
           "type": "skill/competence",
           "covers": [
             "Flow & performance cognitive (S. Kotler)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/1a4cc54f-1e53-442b-a6d2-1682dc8ef8f9",
+          "label": "utiliser des technologies numériques de façon créative",
+          "type": "skill/competence",
+          "covers": [
+            "Expérimentation",
+            "Apprendre → construire → démontrer → enseigner"
           ]
         }
       ],
@@ -5908,7 +6058,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.41.4",
+    "version": "v1.42.0",
     "lastModified": "2026-11-06",
     "theme": "elegant",
     "x-esco-retrieved": "2026-11-06"
