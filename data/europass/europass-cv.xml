@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Candidate xmlns="http://www.europass.eu/1.0" xmlns:eures="http://www.europass_eures.eu/1.0" xmlns:hr="http://www.hr-xml.org/3" xmlns:oa="http://www.openapplications.org/oagis/9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.europass.eu/1.0 Candidate.xsd">
-  <hr:DocumentID schemeID="whoami-v1.41.2" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
+  <hr:DocumentID schemeID="whoami-v1.41.3" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
   <CandidateSupplier>
-    <hr:PartyID schemeID="whoami-v1.41.2" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
+    <hr:PartyID schemeID="whoami-v1.41.3" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
     <hr:PartyName>Owner</hr:PartyName>
     <PersonContact>
       <PersonName>
@@ -2256,7 +2256,7 @@
       <Title>Référentiel ESCO</Title>
       <Other>
         <Title>IA &amp; Agents</Title>
-        <Description>&lt;ul&gt;&lt;li&gt;principes de l’intelligence artificielle&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;li&gt;traitement automatique du langage naturel&lt;/li&gt;&lt;li&gt;effectuer des recherches dans des bases de données&lt;/li&gt;&lt;li&gt;technologies émergentes&lt;/li&gt;&lt;li&gt;développer des applications de traitement des données&lt;/li&gt;&lt;li&gt;gérer les normes d’échange de données&lt;/li&gt;&lt;li&gt;évaluer des informations&lt;/li&gt;&lt;li&gt;données non structurées&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Description>&lt;ul&gt;&lt;li&gt;principes de l’intelligence artificielle&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;li&gt;traitement automatique du langage naturel&lt;/li&gt;&lt;li&gt;effectuer des recherches dans des bases de données&lt;/li&gt;&lt;li&gt;technologies émergentes&lt;/li&gt;&lt;li&gt;développer des applications de traitement des données&lt;/li&gt;&lt;li&gt;gérer les normes d’échange de données&lt;/li&gt;&lt;li&gt;évaluer des informations&lt;/li&gt;&lt;li&gt;données non structurées&lt;/li&gt;&lt;li&gt;respecter un code de conduite éthique&lt;/li&gt;&lt;/ul&gt;</Description>
       </Other>
     </Others>
     <Others>
@@ -2312,7 +2312,7 @@
       <Title>Référentiel ESCO</Title>
       <Other>
         <Title>Developer Relations &amp; Communication</Title>
-        <Description>&lt;ul&gt;&lt;li&gt;effectuer des présentations publiques&lt;/li&gt;&lt;li&gt;gérer du contenu en ligne&lt;/li&gt;&lt;li&gt;fournir une documentation technique&lt;/li&gt;&lt;li&gt;fournir une présentation visuelle des données&lt;/li&gt;&lt;li&gt;développer l’architecture d’une communauté en ligne&lt;/li&gt;&lt;li&gt;créer un réseau professionnel&lt;/li&gt;&lt;li&gt;rédiger un article scientifique&lt;/li&gt;&lt;li&gt;coordonner des événements&lt;/li&gt;&lt;li&gt;planifier des évènements&lt;/li&gt;&lt;li&gt;élaborer des contenus numériques&lt;/li&gt;&lt;li&gt;fournir du contenu multimédia&lt;/li&gt;&lt;li&gt;techniques d&amp;#x27;écriture&lt;/li&gt;&lt;li&gt;rédiger des textes professionnels&lt;/li&gt;&lt;li&gt;utiliser des techniques de communication&lt;/li&gt;&lt;li&gt;stratégie de marketing de contenu&lt;/li&gt;&lt;li&gt;faire preuve d&amp;#x27;humour&lt;/li&gt;&lt;li&gt;susciter des émotions dans le public&lt;/li&gt;&lt;li&gt;effectuer un montage vidéo&lt;/li&gt;&lt;li&gt;démontrer la fonctionnalité de produits logiciels&lt;/li&gt;&lt;li&gt;présider une réunion&lt;/li&gt;&lt;li&gt;évaluer des informations&lt;/li&gt;&lt;li&gt;analyser des propositions techniques en matière de TIC&lt;/li&gt;&lt;li&gt;rapporter des faits&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Description>&lt;ul&gt;&lt;li&gt;effectuer des présentations publiques&lt;/li&gt;&lt;li&gt;gérer du contenu en ligne&lt;/li&gt;&lt;li&gt;fournir une documentation technique&lt;/li&gt;&lt;li&gt;fournir une présentation visuelle des données&lt;/li&gt;&lt;li&gt;développer l’architecture d’une communauté en ligne&lt;/li&gt;&lt;li&gt;créer un réseau professionnel&lt;/li&gt;&lt;li&gt;rédiger un article scientifique&lt;/li&gt;&lt;li&gt;coordonner des événements&lt;/li&gt;&lt;li&gt;planifier des évènements&lt;/li&gt;&lt;li&gt;élaborer des contenus numériques&lt;/li&gt;&lt;li&gt;fournir du contenu multimédia&lt;/li&gt;&lt;li&gt;techniques d&amp;#x27;écriture&lt;/li&gt;&lt;li&gt;rédiger des textes professionnels&lt;/li&gt;&lt;li&gt;utiliser des techniques de communication&lt;/li&gt;&lt;li&gt;stratégie de marketing de contenu&lt;/li&gt;&lt;li&gt;faire preuve d&amp;#x27;humour&lt;/li&gt;&lt;li&gt;susciter des émotions dans le public&lt;/li&gt;&lt;li&gt;effectuer un montage vidéo&lt;/li&gt;&lt;li&gt;démontrer la fonctionnalité de produits logiciels&lt;/li&gt;&lt;li&gt;présider une réunion&lt;/li&gt;&lt;li&gt;évaluer des informations&lt;/li&gt;&lt;li&gt;analyser des propositions techniques en matière de TIC&lt;/li&gt;&lt;li&gt;vérifier l’exactitude d’informations&lt;/li&gt;&lt;/ul&gt;</Description>
       </Other>
     </Others>
     <Others>
