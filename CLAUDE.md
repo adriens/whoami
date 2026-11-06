@@ -27,7 +27,7 @@ data/
   dev_to/opt-nc/          # articles DEV.to @opt-nc
   youtube/devops-lab/     # vidéos + _stats.json (subscriber_count) + playlists/*.md + _playlists_index.csv + transcripts/<id>.txt (+ _unavailable.csv)
   goodreads/124105866/    # livres lus
-  kaggle/adriensales/     # datasets Kaggle
+  kaggle/adriensales/     # datasets Kaggle (datasets/*.md + _index.csv) + notebooks (notebooks/*.md + _notebooks_index.csv)
   huggingface/rastadidi/  # datasets + spaces HuggingFace
   github/adriens/         # repos publics non-forks (repos/*.md + _index.csv + _stats.json)
   hackster/adriensales/   # projets Hackster.io (projects/*.md + _index.csv + _stats.json)
@@ -65,7 +65,7 @@ task fetch-youtube          # Vidéos + playlists YouTube (devops-lab)
 task fetch-youtube-playlists  # Playlists uniquement (devops-lab)
 task fetch-youtube-transcripts  # Transcriptions (reprise auto ; YouTube bloque l'IP si trop rapide → relancer plus tard)
 task fetch-goodreads        # Livres Goodreads
-task fetch-kaggle           # Datasets Kaggle
+task fetch-kaggle           # Datasets + notebooks Kaggle (adriensales)
 task fetch-hf               # Datasets & spaces HuggingFace (rastadidi)
 task fetch-github           # Repos GitHub publics non-forks (adriens)
 task fetch-hackster         # Projets Hackster.io @adriensales (Algolia API + HTML scraping)
