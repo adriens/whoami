@@ -1329,6 +1329,14 @@
             "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)",
             "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666",
+          "label": "données non structurées",
+          "type": "knowledge",
+          "covers": [
+            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
+          ]
         }
       ],
       "x-europass": "digital"
@@ -2093,6 +2101,23 @@
           "covers": [
             "Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto)",
             "Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a056851d-4a8b-4007-b0f6-8224ca1ec1c2",
+          "label": "linguistique informatique",
+          "type": "knowledge",
+          "covers": [
+            "Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/06670261-ea6b-4b52-a915-c7d4ff837f74",
+          "label": "définir des modèles statistiques",
+          "type": "skill/competence",
+          "covers": [
+            "Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées)",
+            "Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto)"
           ]
         }
       ],
@@ -5867,7 +5892,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.41.1",
+    "version": "v1.41.2",
     "lastModified": "2026-11-06",
     "theme": "elegant",
     "x-esco-retrieved": "2026-11-06"
