@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-11-06",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.41.4",
+  "x-resume-version": "v1.42.0",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -704,6 +704,26 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/42fcf80d-7b45-40f3-bd2f-5411c4c0dfa0",
+      "termCode": "42fcf80d-7b45-40f3-bd2f-5411c4c0dfa0",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "recenser des besoins et déterminer leurs solutions technologiques"
+        },
+        {
+          "@language": "en",
+          "@value": "identify needs and technological responses"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Méthode signature : API-fication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/76ef6ed3-1658-4a1a-9593-204d799c6d0c",
       "termCode": "76ef6ed3-1658-4a1a-9593-204d799c6d0c",
       "name": [
@@ -905,6 +925,26 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/5af49836-2269-46d9-87b9-0d3140c6c22e",
+      "termCode": "5af49836-2269-46d9-87b9-0d3140c6c22e",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "intégrer et ré-élaborer des contenus numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "integrate and re-elaborate digital content"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Graph & Knowledge Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2",
       "termCode": "e465a154-93f7-4973-9ce1-31659fe16dd2",
       "name": [
@@ -1079,6 +1119,26 @@
         {
           "@language": "en",
           "@value": "follow ethical code of conduct"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "IA & Agents"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/c4ba12d1-4698-42fa-8abb-789462ea2586",
+      "termCode": "c4ba12d1-4698-42fa-8abb-789462ea2586",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "protéger l’environnement des effets de technologies numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "protect the environment from the impact of the digital technologies"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
@@ -1502,6 +1562,26 @@
         {
           "@language": "en",
           "@value": "analyse big data"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Data Engineering"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/4d97e3c3-f335-47cc-a4ee-0d779fd42222",
+      "termCode": "4d97e3c3-f335-47cc-a4ee-0d779fd42222",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "gérer des données, des informations et des contenus numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "manage data, information and digital content"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
@@ -2113,6 +2193,66 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/df329d70-87b0-466b-a214-3431f36e2a5e",
+      "termCode": "df329d70-87b0-466b-a214-3431f36e2a5e",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "protéger les dispositifs TIC"
+        },
+        {
+          "@language": "en",
+          "@value": "protect ICT devices"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/33a82b83-c838-4889-ae62-fae1317481eb",
+      "termCode": "33a82b83-c838-4889-ae62-fae1317481eb",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "protéger des données à caractère personnel et la vie privée"
+        },
+        {
+          "@language": "en",
+          "@value": "protect personal data and privacy"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/14832d87-2f2f-4895-b290-e4760ebae42a",
+      "termCode": "14832d87-2f2f-4895-b290-e4760ebae42a",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "résoudre des problèmes techniques"
+        },
+        {
+          "@language": "en",
+          "@value": "solve technical problems"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "DevSecOps"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/143769cb-b61e-47d8-a61e-eedfbec1016c",
       "termCode": "143769cb-b61e-47d8-a61e-eedfbec1016c",
       "name": [
@@ -2364,6 +2504,46 @@
         {
           "@language": "en",
           "@value": "evaluate data, information and digital content"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Data & Data Science"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/e439742d-558d-4f52-885e-afdc740b48cf",
+      "termCode": "e439742d-558d-4f52-885e-afdc740b48cf",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "tirer parti de données, d’informations et de contenus numériques par la navigation, les recherches et le filtrage"
+        },
+        {
+          "@language": "en",
+          "@value": "browse, search and filter data, information and digital content"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Data & Data Science"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/16a00c69-9c74-4c37-96d7-6301d285e5ce",
+      "termCode": "16a00c69-9c74-4c37-96d7-6301d285e5ce",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "s’engager dans des actions citoyennes au moyen de technologies numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "engage in citizenship through digital technologies"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
@@ -2969,6 +3149,26 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/bc0b0b5d-f6be-405a-b224-b6902a4dbe97",
+      "termCode": "bc0b0b5d-f6be-405a-b224-b6902a4dbe97",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "gérer une identité numérique"
+        },
+        {
+          "@language": "en",
+          "@value": "manage digital identity"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/cb668e89-6ef5-4ff3-ab4a-506010e7e70b",
       "termCode": "cb668e89-6ef5-4ff3-ab4a-506010e7e70b",
       "name": [
@@ -3495,6 +3695,26 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/2b34a99f-9813-4c91-9509-b6b9b8c3132e",
+      "termCode": "2b34a99f-9813-4c91-9509-b6b9b8c3132e",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "mener des collaborations au moyen de technologies numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "collaborate through digital technologies"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Management & Leadership"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/428ab44b-39ef-42d6-a93d-12f4efc4cb10",
       "termCode": "428ab44b-39ef-42d6-a93d-12f4efc4cb10",
       "name": [
@@ -3815,6 +4035,86 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/97c1895a-a890-47da-abfc-79dc272add2e",
+      "termCode": "97c1895a-a890-47da-abfc-79dc272add2e",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "utiliser les conventions en ligne de la nétiquette"
+        },
+        {
+          "@language": "en",
+          "@value": "use online conventions of netiquette"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Pédagogie & Transmission"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/238343b1-7b51-42b3-a9ed-cf24d3a236e7",
+      "termCode": "238343b1-7b51-42b3-a9ed-cf24d3a236e7",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "identifier les déficits de compétences numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "identify digital competence gaps"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Pédagogie & Transmission"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b78f324d-e16c-43f8-97d2-50d3a7cd1fb3",
+      "termCode": "b78f324d-e16c-43f8-97d2-50d3a7cd1fb3",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "travailler avec des environnements d’apprentissage virtuels"
+        },
+        {
+          "@language": "en",
+          "@value": "work with virtual learning environments"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Pédagogie & Transmission"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/7fc4c18a-68f3-425a-aadf-f83633be47a1",
+      "termCode": "7fc4c18a-68f3-425a-aadf-f83633be47a1",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "technologies d’apprentissage"
+        },
+        {
+          "@language": "en",
+          "@value": "learning technologies"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Pédagogie & Transmission"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/b16200f4-4f39-4b8b-aa9d-3568054d6bdb",
       "termCode": "b16200f4-4f39-4b8b-aa9d-3568054d6bdb",
       "name": [
@@ -3969,6 +4269,26 @@
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Source"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/a91732ce-988e-4105-9570-f425c6ffdc82",
+      "termCode": "a91732ce-988e-4105-9570-f425c6ffdc82",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "droits d’auteur et autorisations liées à des contenus numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "copyright and licenses related to digital content"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
       "x-profile-skills": [
         "Open Source"
       ]
@@ -4375,6 +4695,26 @@
         {
           "@language": "en",
           "@value": "maintain concentration for long periods"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Créativité & Apprentissage autodidacte"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/1a4cc54f-1e53-442b-a6d2-1682dc8ef8f9",
+      "termCode": "1a4cc54f-1e53-442b-a6d2-1682dc8ef8f9",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "utiliser des technologies numériques de façon créative"
+        },
+        {
+          "@language": "en",
+          "@value": "creatively use digital technologies"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
