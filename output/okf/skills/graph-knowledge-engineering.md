@@ -25,5 +25,6 @@ Mots-clés : Neo4j, Graph Data Science, Cypher, Knowledge Graph, GDS Library, Ne
 - [algorithmes](../esco/algorithmes.md) — *knowledge*
 - [mathématiques](../esco/mathematiques.md) — *knowledge*
 - [architecture de l’information](../esco/architecture-de-linformation.md) — *knowledge*
+- [intégrer et ré-élaborer des contenus numériques](../esco/integrer-et-re-elaborer-des-contenus-numeriques.md) — *skill/competence*
 
 **Tags :** [knowledge-graph](../tags/knowledge-graph.md), [neo4j](../tags/neo4j.md)

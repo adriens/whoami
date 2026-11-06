@@ -42,5 +42,6 @@ Mots-clés : Management d'équipe, Management par la confiance, l'autonomie et l
 - [déléguer des tâches](../esco/deleguer-des-taches.md) — *skill/competence*
 - [interagir au moyen de technologies numériques](../esco/interagir-au-moyen-de-technologies-numeriques.md) — *skill/competence*
 - [évaluer les performances de collaborateurs de l’organisation](../esco/evaluer-les-performances-de-collaborateurs-de-lorganisation.md) — *skill/competence*
+- [mener des collaborations au moyen de technologies numériques](../esco/mener-des-collaborations-au-moyen-de-technologies-numeriques.md) — *skill/competence*
 
 **Tags :** [design-thinking](../tags/design-thinking.md), [lean](../tags/lean.md), [scrum](../tags/scrum.md)

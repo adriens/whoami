@@ -32,5 +32,8 @@ Mots-clés : GitHub Actions, GitHub Issues, Docker, Podman, Kubernetes, Trivy, s
 - [réaliser des audits informatiques](../esco/realiser-des-audits-informatiques.md) — *skill/competence*
 - [rédiger une évaluation des risques](../esco/rediger-une-evaluation-des-risques.md) — *skill/competence*
 - [utiliser la programmation de scripts](../esco/utiliser-la-programmation-de-scripts.md) — *skill/competence*
+- [protéger les dispositifs TIC](../esco/proteger-les-dispositifs-tic.md) — *skill/competence*
+- [protéger des données à caractère personnel et la vie privée](../esco/proteger-des-donnees-a-caractere-personnel-et-la-vie-privee.md) — *skill/competence*
+- [résoudre des problèmes techniques](../esco/resoudre-des-problemes-techniques.md) — *skill/competence*
 
 **Tags :** [devsecops](../tags/devsecops.md), [geol](../tags/geol.md)

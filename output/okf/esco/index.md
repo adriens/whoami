@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-11-06'
 ---
 
-233 concepts ESCO rattachés au profil (retrieved 2026-11-06).
+250 concepts ESCO rattachés au profil (retrieved 2026-11-06).
 
 ## Métiers
 
@@ -84,6 +84,7 @@ timestamp: '2026-11-06'
 - [diriger d’autres personnes](diriger-dautres-personnes.md) — 1 entrées
 - [diriger une équipe](diriger-une-equipe.md) — 1 entrées
 - [données non structurées](donnees-non-structurees.md) — 1 entrées
+- [droits d’auteur et autorisations liées à des contenus numériques](droits-dauteur-et-autorisations-liees-a-des-contenus-numeriques.md) — 1 entrées
 - [déboguer un logiciel](deboguer-un-logiciel.md) — 1 entrées
 - [définir des modèles statistiques](definir-des-modeles-statistiques.md) — 1 entrées
 - [définir la structure physique de la base de données](definir-la-structure-physique-de-la-base-de-donnees.md) — 1 entrées
@@ -129,6 +130,7 @@ timestamp: '2026-11-06'
 - [gestion de projets allégée](gestion-de-projets-allegee.md) — 1 entrées
 - [gestion de projets par méthode Agile](gestion-de-projets-par-methode-agile.md) — 3 entrées
 - [guider ses collègues](guider-ses-collegues.md) — 1 entrées
+- [gérer des données, des informations et des contenus numériques](gerer-des-donnees-des-informations-et-des-contenus-numeriques.md) — 1 entrées
 - [gérer des versions d’un logiciel](gerer-des-versions-dun-logiciel.md) — 1 entrées
 - [gérer du contenu en ligne](gerer-du-contenu-en-ligne.md) — 1 entrées
 - [gérer la conformité en matière de sécurité des TIC](gerer-la-conformite-en-matiere-de-securite-des-tic.md) — 1 entrées
@@ -142,9 +144,11 @@ timestamp: '2026-11-06'
 - [gérer l’architecture des données TIC](gerer-larchitecture-des-donnees-tic.md) — 1 entrées
 - [gérer l’intégration sémantique des TIC](gerer-lintegration-semantique-des-tic.md) — 2 entrées
 - [gérer une base de données](gerer-une-base-de-donnees.md) — 1 entrées
+- [gérer une identité numérique](gerer-une-identite-numerique.md) — 1 entrées
 - [gérer une équipe](gerer-une-equipe.md) — 1 entrées
 - [identifier des améliorations de procédés](identifier-des-ameliorations-de-procedes.md) — 1 entrées
 - [identifier les besoins des clients](identifier-les-besoins-des-clients.md) — 6 entrées
+- [identifier les déficits de compétences numériques](identifier-les-deficits-de-competences-numeriques.md) — 1 entrées
 - [identifier les risques de sécurité des TIC](identifier-les-risques-de-securite-des-tic.md) — 1 entrées
 - [informatique décisionnelle](informatique-decisionnelle.md) — 1 entrées
 - [interagir au moyen de technologies numériques](interagir-au-moyen-de-technologies-numeriques.md) — 1 entrées
@@ -153,11 +157,13 @@ timestamp: '2026-11-06'
 - [interagir verbalement en français](interagir-verbalement-en-francais.md) — 1 entrées
 - [intégration de systèmes de TIC](integration-de-systemes-de-tic.md) — 1 entrées
 - [intégrer des données TIC](integrer-des-donnees-tic.md) — 2 entrées
+- [intégrer et ré-élaborer des contenus numériques](integrer-et-re-elaborer-des-contenus-numeriques.md) — 1 entrées
 - [jouer un rôle de meneur exemplaire au sein d’une organisation](jouer-un-role-de-meneur-exemplaire-au-sein-dune-organisation.md) — 1 entrées
 - [linguistique informatique](linguistique-informatique.md) — 1 entrées
 - [lire des livres](lire-des-livres.md) — 1 entrées
 - [maintenir la sécurité d’une base de données](maintenir-la-securite-dune-base-de-donnees.md) — 1 entrées
 - [mathématiques](mathematiques.md) — 1 entrées
+- [mener des collaborations au moyen de technologies numériques](mener-des-collaborations-au-moyen-de-technologies-numeriques.md) — 1 entrées
 - [mesurer l’ergonomie d’un logiciel](mesurer-lergonomie-dun-logiciel.md) — 1 entrées
 - [mettre en œuvre des processus de qualité des données](mettre-en-uvre-des-processus-de-qualite-des-donnees.md) — 1 entrées
 - [modèle en code source ouverte](modele-en-code-source-ouverte.md) — 1 entrées
@@ -186,9 +192,13 @@ timestamp: '2026-11-06'
 - [programmer un micrologiciel](programmer-un-micrologiciel.md) — 1 entrées
 - [proposer des solutions TIC aux problèmes des entreprises](proposer-des-solutions-tic-aux-problemes-des-entreprises.md) — 1 entrées
 - [protection des données](protection-des-donnees.md) — 1 entrées
+- [protéger des données à caractère personnel et la vie privée](proteger-des-donnees-a-caractere-personnel-et-la-vie-privee.md) — 1 entrées
+- [protéger les dispositifs TIC](proteger-les-dispositifs-tic.md) — 1 entrées
+- [protéger l’environnement des effets de technologies numériques](proteger-lenvironnement-des-effets-de-technologies-numeriques.md) — 1 entrées
 - [présenter des rapports](presenter-des-rapports.md) — 1 entrées
 - [présider une réunion](presider-une-reunion.md) — 1 entrées
 - [pédagogie](pedagogie.md) — 1 entrées
+- [recenser des besoins et déterminer leurs solutions technologiques](recenser-des-besoins-et-determiner-leurs-solutions-technologiques.md) — 1 entrées
 - [recommander des méthodes d'apprentissage](recommander-des-methodes-d-apprentissage.md) — 1 entrées
 - [recruter des employés](recruter-des-employes.md) — 1 entrées
 - [respect de la gouvernance de l'information](respect-de-la-gouvernance-de-l-information.md) — 1 entrées
@@ -203,6 +213,7 @@ timestamp: '2026-11-06'
 - [rédiger un article scientifique](rediger-un-article-scientifique.md) — 2 entrées
 - [rédiger une évaluation des risques](rediger-une-evaluation-des-risques.md) — 1 entrées
 - [réfléchir de manière analytique](reflechir-de-maniere-analytique.md) — 1 entrées
+- [résoudre des problèmes techniques](resoudre-des-problemes-techniques.md) — 1 entrées
 - [standards du World Wide Web Consortium](standards-du-world-wide-web-consortium.md) — 1 entrées
 - [statistiques](statistiques.md) — 1 entrées
 - [stockage de données](stockage-de-donnees.md) — 1 entrées
@@ -214,12 +225,16 @@ timestamp: '2026-11-06'
 - [superviser le développement d’un logiciel](superviser-le-developpement-dun-logiciel.md) — 1 entrées
 - [susciter des émotions dans le public](susciter-des-emotions-dans-le-public.md) — 1 entrées
 - [systèmes embarqués](systemes-embarques.md) — 2 entrées
+- [s’engager dans des actions citoyennes au moyen de technologies numériques](sengager-dans-des-actions-citoyennes-au-moyen-de-technologies-numeriques.md) — 1 entrées
 - [techniques d'écriture](techniques-d-ecriture.md) — 2 entrées
 - [techniques de présentation visuelle](techniques-de-presentation-visuelle.md) — 1 entrées
 - [technologie de transmission](technologie-de-transmission.md) — 1 entrées
+- [technologies d’apprentissage](technologies-dapprentissage.md) — 1 entrées
 - [technologies émergentes](technologies-emergentes.md) — 2 entrées
+- [tirer parti de données, d’informations et de contenus numériques par la navigation, les recherches et le filtrage](tirer-parti-de-donnees-dinformations-et-de-contenus-numeriques-par-la-navigation-les-recherches-et-le-filtrage.md) — 1 entrées
 - [traitement automatique du langage naturel](traitement-automatique-du-langage-naturel.md) — 1 entrées
 - [transmettre les techniques d’un métier](transmettre-les-techniques-dun-metier.md) — 1 entrées
+- [travailler avec des environnements d’apprentissage virtuels](travailler-avec-des-environnements-dapprentissage-virtuels.md) — 1 entrées
 - [travailler de manière autonome](travailler-de-maniere-autonome.md) — 1 entrées
 - [travailler en équipe](travailler-en-equipe.md) — 6 entrées
 - [trouver des solutions à des problèmes d'information](trouver-des-solutions-a-des-problemes-d-information.md) — 1 entrées
@@ -231,8 +246,10 @@ timestamp: '2026-11-06'
 - [utiliser des patrons de conception](utiliser-des-patrons-de-conception.md) — 1 entrées
 - [utiliser des techniques de communication](utiliser-des-techniques-de-communication.md) — 7 entrées
 - [utiliser des techniques d’écriture spécifiques](utiliser-des-techniques-decriture-specifiques.md) — 1 entrées
+- [utiliser des technologies numériques de façon créative](utiliser-des-technologies-numeriques-de-facon-creative.md) — 1 entrées
 - [utiliser la programmation de scripts](utiliser-la-programmation-de-scripts.md) — 1 entrées
 - [utiliser la programmation orientée objet](utiliser-la-programmation-orientee-objet.md) — 1 entrées
+- [utiliser les conventions en ligne de la nétiquette](utiliser-les-conventions-en-ligne-de-la-netiquette.md) — 1 entrées
 - [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 2 entrées
 - [vérifier l’exactitude d’informations](verifier-lexactitude-dinformations.md) — 1 entrées
 - [écouter activement](ecouter-activement.md) — 13 entrées

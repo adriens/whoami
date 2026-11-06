@@ -28,5 +28,6 @@ Mots-clés : API-fication, Validée 3x en recommandations LinkedIn par des pairs
 - [trouver des solutions à des problèmes d'information](../esco/trouver-des-solutions-a-des-problemes-d-information.md) — *skill/competence*
 - [analyser les exigences des entreprises](../esco/analyser-les-exigences-des-entreprises.md) — *skill/competence*
 - [développer un flux de travail de TIC](../esco/developper-un-flux-de-travail-de-tic.md) — *skill/competence*
+- [recenser des besoins et déterminer leurs solutions technologiques](../esco/recenser-des-besoins-et-determiner-leurs-solutions-technologiques.md) — *skill/competence*
 
 **Tags :** [api-fication](../tags/api-fication.md)

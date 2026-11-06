@@ -13,7 +13,7 @@ timestamp: '2026-11-06'
 
 **Niveau : Avancé**
 
-Mots-clés : Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey), endoflife.date, SchemaCrawler, Chocolatey, DuckDB brew extension, DuckDB apt extension, geol, oracle-jutils, mobitag, liquibase, Attraction et fidélisation de contributors externes
+Mots-clés : Contributions upstream à des projets tiers (endoflife.date, SchemaCrawler, liquibase, Chocolatey), endoflife.date, SchemaCrawler, Chocolatey, DuckDB brew extension, DuckDB apt extension, geol, oracle-jutils, mobitag, liquibase, Attraction et fidélisation de contributors externes, Licences open source & open data (CC BY 4.0, CC0, Apache 2.0, MIT — choix et compatibilité)
 
 **Compétences ESCO :**
 - [modèle en code source ouverte](../esco/modele-en-code-source-ouverte.md) — *knowledge*
@@ -27,5 +27,6 @@ Mots-clés : Contributions upstream à des projets tiers (endoflife.date, Schema
 - [fournir une documentation technique](../esco/fournir-une-documentation-technique.md) — *skill/competence*
 - [utiliser des bibliothèques logicielles](../esco/utiliser-des-bibliotheques-logicielles.md) — *skill/competence*
 - [déboguer un logiciel](../esco/deboguer-un-logiciel.md) — *skill/competence*
+- [droits d’auteur et autorisations liées à des contenus numériques](../esco/droits-dauteur-et-autorisations-liees-a-des-contenus-numeriques.md) — *knowledge*
 
 **Tags :** [geol](../tags/geol.md), [open-source](../tags/open-source.md), [schemacrawler](../tags/schemacrawler.md)

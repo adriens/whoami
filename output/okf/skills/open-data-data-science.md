@@ -30,5 +30,7 @@ Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création 
 - [définir des modèles statistiques](../esco/definir-des-modeles-statistiques.md) — *skill/competence*
 - [vérifier l’exactitude d’informations](../esco/verifier-lexactitude-dinformations.md) — *skill/competence*
 - [évaluer des données, des informations et des contenus numériques](../esco/evaluer-des-donnees-des-informations-et-des-contenus-numeriques.md) — *skill/competence*
+- [tirer parti de données, d’informations et de contenus numériques par la navigation, les recherches et le filtrage](../esco/tirer-parti-de-donnees-dinformations-et-de-contenus-numeriques-par-la-navigation-les-recherches-et-le-filtrage.md) — *skill/competence*
+- [s’engager dans des actions citoyennes au moyen de technologies numériques](../esco/sengager-dans-des-actions-citoyennes-au-moyen-de-technologies-numeriques.md) — *skill/competence*
 
 **Tags :** [duckdb](../tags/duckdb.md), [open-data](../tags/open-data.md), [python](../tags/python.md)

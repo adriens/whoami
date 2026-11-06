@@ -26,3 +26,4 @@ Mots-clés : Imagination, Connexion de domaines éloignés, Pensée transdiscipl
 - [penser de manière proactive](../esco/penser-de-maniere-proactive.md) — *skill/competence*
 - [travailler de manière autonome](../esco/travailler-de-maniere-autonome.md) — *skill/competence*
 - [rester concentré pendant de longues périodes](../esco/rester-concentre-pendant-de-longues-periodes.md) — *skill/competence*
+- [utiliser des technologies numériques de façon créative](../esco/utiliser-des-technologies-numeriques-de-facon-creative.md) — *skill/competence*

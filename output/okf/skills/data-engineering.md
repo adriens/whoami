@@ -27,5 +27,6 @@ Mots-clés : Apache Airflow, Apache Kafka, MinIO, Apache Superset, Lakehouse, ET
 - [respect de la gouvernance de l'information](../esco/respect-de-la-gouvernance-de-l-information.md) — *knowledge*
 - [mettre en œuvre des processus de qualité des données](../esco/mettre-en-uvre-des-processus-de-qualite-des-donnees.md) — *skill/competence*
 - [analyser des mégadonnées](../esco/analyser-des-megadonnees.md) — *skill/competence*
+- [gérer des données, des informations et des contenus numériques](../esco/gerer-des-donnees-des-informations-et-des-contenus-numeriques.md) — *skill/competence*
 
 **Tags :** [elk-stack](../tags/elk-stack.md), [kibana](../tags/kibana.md)

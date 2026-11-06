@@ -31,5 +31,9 @@ Mots-clés : Enseignement universitaire (Master MIAGE), Pédagogie Montessori, M
 - [favoriser le travail en équipe entre élèves](../esco/favoriser-le-travail-en-equipe-entre-eleves.md) — *skill/competence*
 - [recommander des méthodes d'apprentissage](../esco/recommander-des-methodes-d-apprentissage.md) — *skill/competence*
 - [concevoir du matériel pédagogique numérique](../esco/concevoir-du-materiel-pedagogique-numerique.md) — *skill/competence*
+- [utiliser les conventions en ligne de la nétiquette](../esco/utiliser-les-conventions-en-ligne-de-la-netiquette.md) — *skill/competence*
+- [identifier les déficits de compétences numériques](../esco/identifier-les-deficits-de-competences-numeriques.md) — *skill/competence*
+- [travailler avec des environnements d’apprentissage virtuels](../esco/travailler-avec-des-environnements-dapprentissage-virtuels.md) — *skill/competence*
+- [technologies d’apprentissage](../esco/technologies-dapprentissage.md) — *knowledge*
 
 **Tags :** [knowledge-sharing](../tags/knowledge-sharing.md)
