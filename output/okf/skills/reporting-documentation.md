@@ -24,3 +24,4 @@ Mots-clés : Quarto, R, Notebooks reproductibles, Urbanisation SI, Rapports de s
 - [appliquer des techniques de publication assistée par ordinateur](../esco/appliquer-des-techniques-de-publication-assistee-par-ordinateur.md) — *skill/competence*
 - [méthodologie de recherche scientifique](../esco/methodologie-de-recherche-scientifique.md) — *knowledge*
 - [rédiger un article scientifique](../esco/rediger-un-article-scientifique.md) — *skill/competence*
+- [communiquer les résultats d’analyse](../esco/communiquer-les-resultats-danalyse.md) — *skill/competence*

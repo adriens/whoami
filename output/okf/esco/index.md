@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-11-06'
 ---
 
-227 concepts ESCO rattachés au profil (retrieved 2026-11-06).
+228 concepts ESCO rattachés au profil (retrieved 2026-11-06).
 
 ## Métiers
 
@@ -62,6 +62,7 @@ timestamp: '2026-11-06'
 - [cadres d'architecture TIC](cadres-d-architecture-tic.md) — 1 entrées
 - [capteurs](capteurs.md) — 1 entrées
 - [combiner plusieurs domaines de connaissances](combiner-plusieurs-domaines-de-connaissances.md) — 1 entrées
+- [communiquer les résultats d’analyse](communiquer-les-resultats-danalyse.md) — 1 entrées
 - [comprendre l'anglais parlé](comprendre-l-anglais-parle.md) — 1 entrées
 - [comprendre le français parlé](comprendre-le-francais-parle.md) — 1 entrées
 - [comprendre le français écrit](comprendre-le-francais-ecrit.md) — 1 entrées
