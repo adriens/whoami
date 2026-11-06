@@ -13,4 +13,6 @@ URI : <http://data.europa.eu/esco/skill/5af49836-2269-46d9-87b9-0d3140c6c22e>
 
 Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F5af49836-2269-46d9-87b9-0d3140c6c22e>
 
+Compétence numérique DigComp 3.2 — [domaine](../digcomp/creation-de-contenus-numeriques.md)
+
 - [Graph & Knowledge Engineering](../skills/graph-knowledge-engineering.md) — *Skill*

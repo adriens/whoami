@@ -13,4 +13,6 @@ URI : <http://data.europa.eu/esco/skill/4d97e3c3-f335-47cc-a4ee-0d779fd42222>
 
 Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F4d97e3c3-f335-47cc-a4ee-0d779fd42222>
 
+Compétence numérique DigComp 1.3 — [domaine](../digcomp/information-et-donnees.md)
+
 - [Data Engineering](../skills/data-engineering.md) — *Skill*

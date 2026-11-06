@@ -13,4 +13,6 @@ URI : <http://data.europa.eu/esco/skill/33a82b83-c838-4889-ae62-fae1317481eb>
 
 Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F33a82b83-c838-4889-ae62-fae1317481eb>
 
+Compétence numérique DigComp 4.2 — [domaine](../digcomp/securite.md)
+
 - [DevSecOps](../skills/devsecops.md) — *Skill*

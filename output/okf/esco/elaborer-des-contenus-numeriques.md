@@ -13,5 +13,7 @@ URI : <http://data.europa.eu/esco/skill/5fd5c985-eaaa-47aa-8314-62359c54505a>
 
 Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F5fd5c985-eaaa-47aa-8314-62359c54505a>
 
+Compétence numérique DigComp 3.1 — [domaine](../digcomp/creation-de-contenus-numeriques.md)
+
 - [Création de contenu & humour tech](../interests/creation-de-contenu-humour-tech.md) — *Interest*
 - [Developer Relations & Communication](../skills/developer-relations-communication.md) — *Skill*

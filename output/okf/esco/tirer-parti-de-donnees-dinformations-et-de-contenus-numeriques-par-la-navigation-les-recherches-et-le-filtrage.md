@@ -14,4 +14,6 @@ URI : <http://data.europa.eu/esco/skill/e439742d-558d-4f52-885e-afdc740b48cf>
 
 Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2Fe439742d-558d-4f52-885e-afdc740b48cf>
 
+Compétence numérique DigComp 1.1 — [domaine](../digcomp/information-et-donnees.md)
+
 - [Open Data & Data Science](../skills/open-data-data-science.md) — *Skill*

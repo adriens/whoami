@@ -13,4 +13,6 @@ URI : <http://data.europa.eu/esco/skill/16a00c69-9c74-4c37-96d7-6301d285e5ce>
 
 Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F16a00c69-9c74-4c37-96d7-6301d285e5ce>
 
+Compétence numérique DigComp 2.3 — [domaine](../digcomp/communication-et-collaboration.md)
+
 - [Open Data & Data Science](../skills/open-data-data-science.md) — *Skill*

@@ -13,4 +13,6 @@ URI : <http://data.europa.eu/esco/skill/2b34a99f-9813-4c91-9509-b6b9b8c3132e>
 
 Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F2b34a99f-9813-4c91-9509-b6b9b8c3132e>
 
+Compétence numérique DigComp 2.4 — [domaine](../digcomp/communication-et-collaboration.md)
+
 - [Management & Leadership](../skills/management-leadership.md) — *Skill*

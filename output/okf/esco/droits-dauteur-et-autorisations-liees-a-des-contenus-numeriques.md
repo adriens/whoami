@@ -13,4 +13,6 @@ URI : <http://data.europa.eu/esco/skill/a91732ce-988e-4105-9570-f425c6ffdc82>
 
 Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2Fa91732ce-988e-4105-9570-f425c6ffdc82>
 
+Compétence numérique DigComp 3.3 — [domaine](../digcomp/creation-de-contenus-numeriques.md)
+
 - [Open Source](../skills/open-source.md) — *Skill*

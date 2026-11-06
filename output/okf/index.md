@@ -33,3 +33,4 @@ Architecte et urbaniste des SI au croisement des maths (DEA INRIA Sophia Antipol
 
 - [Tags](tags/index.md) — 124 concepts (graphe)
 - [ESCO](esco/index.md) — 250 concepts du référentiel européen
+- [DigComp](digcomp/index.md) — 20/21 compétences numériques européennes

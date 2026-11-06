@@ -13,4 +13,6 @@ URI : <http://data.europa.eu/esco/skill/97c1895a-a890-47da-abfc-79dc272add2e>
 
 Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2F97c1895a-a890-47da-abfc-79dc272add2e>
 
+Compétence numérique DigComp 2.5 — [domaine](../digcomp/communication-et-collaboration.md)
+
 - [Pédagogie & Transmission](../skills/pedagogie-transmission.md) — *Skill*
