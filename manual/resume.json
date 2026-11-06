@@ -2215,6 +2215,14 @@
           "covers": [
             "Rapport scientifique reproductible (Quarto + R + XeLaTeX, protocole, bibliographie)"
           ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/c544a9f3-5945-4b54-afed-de0697852817",
+          "label": "communiquer les résultats d’analyse",
+          "type": "skill/competence",
+          "covers": [
+            "Rapport scientifique reproductible (Quarto + R + XeLaTeX, protocole, bibliographie)"
+          ]
         }
       ],
       "x-europass": "digital"
@@ -5859,7 +5867,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.41.0",
+    "version": "v1.41.1",
     "lastModified": "2026-11-06",
     "theme": "elegant",
     "x-esco-retrieved": "2026-11-06"
