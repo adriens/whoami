@@ -441,7 +441,7 @@ Pour cohérence du filtrage **cross-section**, utiliser **uniquement** ces tags.
 
 **Convention** : anglais par défaut (`interoperability`, `pedagogy`). Français admis pour soft skills sans équivalent immédiat (`mentorat`, `transmission`, `curiosite`).
 
-- **Domaine** : `data`, `architecture`, `devsecops`, `devrel`, `management`, `pedagogy`, `interoperability`, `iot`, `mobile`, `fintech`, `civic-tech`, `ai-agents`, `accessibility`
+- **Domaine** : `data`, `architecture`, `devsecops`, `devrel`, `management`, `pedagogy`, `interoperability`, `iot`, `mobile`, `fintech`, `civic-tech`, `ai-agents`, `accessibility`, `responsible-ai` *(IA responsable : audit de biais, évaluation, gouvernance de l'IA adossée aux cadres internationaux — ex: Alone With a Stranger / rapport ONU A/HRC/56/68)*
 - **Tech** : `neo4j`, `duckdb`, `airflow`, `kafka`, `python`, `go`, `java`, `quarkus`, `spring`, `flutter`, `huggingface`, `elk-stack`, `kibana`, `power-platform`, `oracle`, `schemacrawler`, `geol`
 - **Pattern** : `api-fication`, `open-source`, `open-data`, `scraping`, `knowledge-graph`, `mcp`, `embeddings` *(recherche sémantique, RAG, reranking cross-encoder, embeddings vectoriels — ex: resume-to-pokemon, aquavena MCP, OpenSearch vector search)*, `lean`, `scrum`, `design-thinking`, `frugal`, `umbrella`, `packaging`, `saga` *(projet exploré progressivement sur plusieurs médias : articles Dev.to + playlist YouTube + composants multiples — ex: ColisNC, domaine.nc, temps d'attente, geol, auptitcafe)*, `hackathon` *(projet construit ou soumis dans le cadre d'un challenge/hackathon time-boxé — DEV.to Challenges, GitHub Copilot CLI Challenge, HackAVP... — ex: Helia Monitor, duckdb-brew, resume-to-pokemon, auptitcafe, Open Data RH OPT-NC)*
 - **Géo** : `pacifique`, `nouvelle-caledonie`, `international`, `monaco`
@@ -667,17 +667,17 @@ Toujours : proposer le mapping à Adrien **entrée par entrée** (tableau concep
 | # | Concept ESCO | URI | Skill(s) |
 |---|---|---|---|
 | 1.1 | tirer parti de données, d'informations et de contenus numériques par la navigation, les recherches et le filtrage | `e439742d…` | Open Data & Data Science |
-| 1.2 | évaluer des données, des informations et des contenus numériques | `1d6c7de4…` | Open Data & Data Science |
+| 1.2 | évaluer des données, des informations et des contenus numériques | `1d6c7de4…` | Recherche appliquée & évaluation responsable de l'IA |
 | 1.3 | gérer des données, des informations et des contenus numériques | `4d97e3c3…` | Data Engineering |
 | 2.1 | interagir au moyen de technologies numériques | `a12057b4…` | Management & Leadership |
 | 2.2 | participer à des échanges au moyen de technologies numériques | `40001d93…` | Open Data & Data Science |
-| 2.3 | s'engager dans des actions citoyennes au moyen de technologies numériques | `16a00c69…` | Open Data & Data Science |
+| 2.3 | s'engager dans des actions citoyennes au moyen de technologies numériques | `16a00c69…` | Open Data & Data Science, Recherche appliquée & évaluation responsable de l'IA |
 | 2.4 | mener des collaborations au moyen de technologies numériques | `2b34a99f…` | Management & Leadership |
 | 2.5 | utiliser les conventions en ligne de la nétiquette | `97c1895a…` | Pédagogie & Transmission |
 | 2.6 | gérer une identité numérique | `bc0b0b5d…` | Developer Relations & Communication |
 | 3.1 | élaborer des contenus numériques | `5fd5c985…` | Developer Relations & Communication |
 | 3.2 | intégrer et ré-élaborer des contenus numériques | `5af49836…` | Graph & Knowledge Engineering |
-| 3.3 | droits d'auteur et autorisations liées à des contenus numériques | `a91732ce…` | Open Source |
+| 3.3 | droits d'auteur et autorisations liées à des contenus numériques | `a91732ce…` | Open Source, Recherche appliquée & évaluation responsable de l'IA |
 | 3.4 | programmation informatique | `21d2f96d…` | Architecture & Développement |
 | 4.1 | protéger les dispositifs TIC | `df329d70…` | DevSecOps |
 | 4.2 | protéger des données à caractère personnel et la vie privée | `33a82b83…` | DevSecOps |

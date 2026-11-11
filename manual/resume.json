@@ -7,7 +7,7 @@
     "email": "adrien.sales@gmail.com",
     "phone": "+687 84 29 84",
     "url": "https://adriens.github.io/whoami/",
-    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis) puis en data science (Mastère Spécialisé MSBDS — labellisé Conférence des Grandes Écoles, stage data mining avec l'I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte. Méthode signature : l'API-fication — identifier un manque d'interopérabilité, scraper ou exploiter l'open data, packager en SDK, exposer en API, laisser émerger l'écosystème communautaire (apps mobiles, AR, bots, MCPs, dashboards). Validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA. Ma boussole : l'expertise technique au service du besoin métier et du time-to-market — chaque choix d'architecture se mesure à la valeur livrée.\n\n25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood. Outcomes mesurables : deux étudiants de la promo 2025 recrutés dans des institutions publiques calédoniennes (OPT-NC, ISEE-NC) sur recommandation active — la pédagogie comme levier de placement, pas seulement de formation. La boucle se referme : la transmission, premier métier en 1999 (professeur de mathématiques en collège), revient au premier plan 25 ans plus tard — fil rouge plus que parenthèse.\n\nConviction transversale, valable pour moi comme pour les collaborateurs et stagiaires que j'encadre : un rythme soutenable sur la durée prime sur le sprint. Six ans de projets tutorés sans interruption, des séries d'articles régulières, des contributions open source continues — l'endurance comme méthode, pas comme contrainte.\n\nAmbitions parallèles : construire un produit data/IA ancré dans les problématiques du Pacifique, contribuer à la recherche appliquée (knowledge graphs, data science), et étendre une présence DevRel internationale — conférences, open source, communauté.",
+    "summary": "Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis) puis en data science (Mastère Spécialisé MSBDS — labellisé Conférence des Grandes Écoles, stage data mining avec l'I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte. Méthode signature : l'API-fication — identifier un manque d'interopérabilité, scraper ou exploiter l'open data, packager en SDK, exposer en API, laisser émerger l'écosystème communautaire (apps mobiles, AR, bots, MCPs, dashboards). Validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa.\n\nIngénieur architecte SI passionné par le développement de produits et le leadership technique, je manage des développeurs, innove en LEAN et construis des systèmes data end-to-end : Lakehouse (DuckLake/Airflow/Kafka), knowledge graph Neo4j du SI OPT-NC, MCPs open source et agents IA. Ma boussole : l'expertise technique au service du besoin métier et du time-to-market — chaque choix d'architecture se mesure à la valeur livrée.\n\n25 ans de parcours : professeur de maths en collège, consultant DB chez Experian (Orange, BofA, Crédit Lyonnais), DBA expert chez Docaposte (HADOPI, Infogreffe), architecte logiciel à la DSI de Nouméa, aujourd'hui Chef de Section GLIA à l'OPT-NC. Contributeur open source actif (DuckDB, endoflife.date, geol — Hacktoberfest Spotlight 2025), auteur de 206 articles sur Dev.to, top 5% Kaggle, speaker NODES 2022, 2023 & 2024. Enseignant en Master MIAGE avec une pédagogie Montessori : projets réels, open source, #techforgood. Outcomes mesurables : deux étudiants de la promo 2025 recrutés dans des institutions publiques calédoniennes (OPT-NC, ISEE-NC) sur recommandation active — la pédagogie comme levier de placement, pas seulement de formation. La boucle se referme : la transmission, premier métier en 1999 (professeur de mathématiques en collège), revient au premier plan 25 ans plus tard — fil rouge plus que parenthèse.\n\nConviction transversale, valable pour moi comme pour les collaborateurs et stagiaires que j'encadre : un rythme soutenable sur la durée prime sur le sprint. Six ans de projets tutorés sans interruption, des séries d'articles régulières, des contributions open source continues — l'endurance comme méthode, pas comme contrainte.\n\nAmbitions parallèles : construire un produit data/IA ancré dans les problématiques du Pacifique, poursuivre une recherche appliquée déjà engagée (knowledge graphs, data science, évaluation de l'IA — publications Zenodo, dont un audit des biais de nationalité des LLM adossé au rapport ONU A/HRC/56/68 sur le racisme, dans le prolongement de travaux sur les ODD de l'ONU depuis 2023), et étendre une présence DevRel internationale — conférences, open source, communauté.",
     "x-summary-short": "Architecte et urbaniste des SI au croisement des maths (DEA INRIA Sophia Antipolis) et de la data science (Mastère MSBDS — labellisé Conférence des Grandes Écoles), je reconnais la famille de problèmes derrière chaque demande pour structurer le SI interne (knowledge graph, lakehouse, bus applicatif) ou API-fier l'existant public (open data → SDK → API → écosystème communautaire) — innovation frugale comme levier.",
     "location": {
       "address": "",
@@ -944,10 +944,13 @@
         "open-data",
         "python",
         "frugal",
-        "solo"
+        "solo",
+        "international",
+        "civic-tech",
+        "responsible-ai"
       ],
       "url": "https://doi.org/10.5281/zenodo.23991568",
-      "summary": "Rapport scientifique (DOI : 10.5281/zenodo.23991568, v1.1 : 10.5281/zenodo.23992096, CC BY 4.0) du projet Alone With a Stranger : vérification à grande échelle d'un test RTS cité dans un débat France Inter (« L'IA est-elle raciste ? »). 7 modèles open-weight, 51 975 réponses, juge LLM en aveugle + méthode sans juge (classifieur, lexicométrie). Les 7 modèles complimentent les mêmes hommes ; compliments corrélés au PIB/hab. du pays (Spearman ρ = 0,73). Livré en 4 formats : rapport complet (91 p., Quarto/R/XeLaTeX), version courte (7 p.), carrousel 16 slides, 4 visuels carrés pour les réseaux sociaux."
+      "summary": "Rapport scientifique (DOI concept : 10.5281/zenodo.23991568, v1.5 : 10.5281/zenodo.24123961, CC BY 4.0) du projet Alone With a Stranger : vérification à grande échelle d'un test viral relayé par RTS et cité dans un débat France Inter (« L'IA est-elle raciste ? »). 7 modèles open-weight, 51 975 réponses, juge LLM en aveugle + méthode sans juge (classifieur, lexicométrie). Les 7 modèles complimentent les mêmes hommes ; réponses à préjugés de 3 % (« un homme ») à 62 % dès qu'une nationalité est nommée (4 modèles ≥ 8B, taxi/ascenseur/rue isolée) ; compliments corrélés au PIB/hab. (Spearman ρ = 0,73). Depuis la v1.5, positionnement face au rapport ONU A/HRC/56/68 de la Rapporteuse spéciale sur le racisme : 13 questions sur 15 mesurées, 4 recommandations (§68 d, k, m, f : tests avant déploiement, données désagrégées, audits, transparence) traduites en protocole reproductible, dans un domaine que l'ONU ne couvre pas (conseils de sécurité personnelle). Livré en 7 PDF : rapport complet (92 p., Quarto/R/XeLaTeX), version courte (8 p.), carrousel 16 slides, 4 visuels carrés, positionnement ONU (10 p., version 6 p., 4 visuels carrés)."
     }
   ],
   "skills": [
@@ -1253,10 +1256,7 @@
         "OpenSearch vector search",
         "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)",
         "CV-as-code (JSON Resume, enrichissement par agent IA, ESCO)",
-        "Embeddings multilingues (multilingual-e5-large, EmbeddingGemma)",
-        "LLM-as-a-judge avec traces de raisonnement (Qwen3-32B, vLLM)",
-        "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)",
-        "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
+        "Embeddings multilingues (multilingual-e5-large, EmbeddingGemma)"
       ],
       "x-esco": [
         {
@@ -1269,9 +1269,7 @@
             "LangChain",
             "Semantic Router",
             "Vibe coding",
-            "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)",
-            "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)",
-            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
+            "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)"
           ]
         },
         {
@@ -1285,9 +1283,7 @@
             "ML frugal on-prem (sans GPU)",
             "Ollama",
             "Gradio",
-            "Embeddings multilingues (multilingual-e5-large, EmbeddingGemma)",
-            "LLM-as-a-judge avec traces de raisonnement (Qwen3-32B, vLLM)",
-            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
+            "Embeddings multilingues (multilingual-e5-large, EmbeddingGemma)"
           ]
         },
         {
@@ -1337,31 +1333,6 @@
           "type": "skill/competence",
           "covers": [
             "CV-as-code (JSON Resume, enrichissement par agent IA, ESCO)"
-          ]
-        },
-        {
-          "uri": "http://data.europa.eu/esco/skill/7dd94ad3-13d6-43fe-8b94-51fcbf67ced9",
-          "label": "évaluer des informations",
-          "type": "skill/competence",
-          "covers": [
-            "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)",
-            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
-          ]
-        },
-        {
-          "uri": "http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666",
-          "label": "données non structurées",
-          "type": "knowledge",
-          "covers": [
-            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
-          ]
-        },
-        {
-          "uri": "http://data.europa.eu/esco/skill/b2f925ed-3ebd-4f78-b98e-d5d4678e83b5",
-          "label": "respecter un code de conduite éthique",
-          "type": "skill/competence",
-          "covers": [
-            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
           ]
         },
         {
@@ -2074,10 +2045,7 @@
         "PyPI maintainer",
         "Détection d'anomalies (XGBoost, k-means — PRIX.NC)",
         "Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face)",
-        "Alignement de corpus sur référentiels (ESCO, ROME, ISCO)",
-        "Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto)",
-        "Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées)",
-        "Fact-checking & enquête data à grande échelle (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)"
+        "Alignement de corpus sur référentiels (ESCO, ROME, ISCO)"
       ],
       "x-esco": [
         {
@@ -2102,9 +2070,7 @@
             "Pandas",
             "DuckDB",
             "Open Data",
-            "Détection d'anomalies (XGBoost, k-means — PRIX.NC)",
-            "Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto)",
-            "Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées)"
+            "Détection d'anomalies (XGBoost, k-means — PRIX.NC)"
           ]
         },
         {
@@ -2167,6 +2133,94 @@
           ]
         },
         {
+          "uri": "http://data.europa.eu/esco/skill/e439742d-558d-4f52-885e-afdc740b48cf",
+          "label": "tirer parti de données, d’informations et de contenus numériques par la navigation, les recherches et le filtrage",
+          "type": "skill/competence",
+          "covers": [
+            "Web scraping"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/16a00c69-9c74-4c37-96d7-6301d285e5ce",
+          "label": "s’engager dans des actions citoyennes au moyen de technologies numériques",
+          "type": "skill/competence",
+          "covers": [
+            "Open Data"
+          ]
+        }
+      ],
+      "x-europass": "digital"
+    },
+    {
+      "name": "Recherche appliquée & évaluation responsable de l'IA",
+      "level": "Avancé",
+      "keywords": [
+        "Audit de biais d'IA adossé au cadre ONU des droits humains (A/HRC/56/68, CIEDR : 4 recommandations §68 d, k, m, f traduites en protocole reproductible, matrice de couverture sourcée — 13 questions sur 15 mesurées)",
+        "Protocole expérimental contrôlé et pré-déclaré (groupe témoin, une seule variable, familles de risques déclarées avant confirmation, intervalles de Wilson, correction de Holm)",
+        "Ancrage des travaux data/IA dans les cadres de l'ONU depuis 2023 : ODD 4 et 5 × open data NC (Kaggle, Dev.to, NODES 2023, Pacific Data Hub) → droits humains (rapport A/HRC/56/68, CIEDR, 2026)",
+        "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)",
+        "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)",
+        "LLM-as-a-judge avec traces de raisonnement (Qwen3-32B, vLLM)",
+        "Fact-checking & enquête data à grande échelle (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)",
+        "Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées)",
+        "Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto)",
+        "Publication scientifique ouverte et versionnée (Zenodo, DOI, changelog par version, CC BY 4.0)"
+      ],
+      "x-esco": [
+        {
+          "uri": "http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2",
+          "label": "principes de l’intelligence artificielle",
+          "type": "knowledge",
+          "covers": [
+            "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)",
+            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/8369c2d6-c100-4cf6-bd83-9668d8678433",
+          "label": "utiliser l’apprentissage automatique",
+          "type": "skill/competence",
+          "covers": [
+            "LLM-as-a-judge avec traces de raisonnement (Qwen3-32B, vLLM)",
+            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/7dd94ad3-13d6-43fe-8b94-51fcbf67ced9",
+          "label": "évaluer des informations",
+          "type": "skill/competence",
+          "covers": [
+            "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)",
+            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666",
+          "label": "données non structurées",
+          "type": "knowledge",
+          "covers": [
+            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b2f925ed-3ebd-4f78-b98e-d5d4678e83b5",
+          "label": "respecter un code de conduite éthique",
+          "type": "skill/competence",
+          "covers": [
+            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)",
+            "Audit de biais d'IA adossé au cadre ONU des droits humains (A/HRC/56/68, CIEDR : 4 recommandations §68 d, k, m, f traduites en protocole reproductible, matrice de couverture sourcée — 13 questions sur 15 mesurées)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/2b92a5b2-6758-4ee3-9fb4-b6387a55cc8f",
+          "label": "effectuer une analyse de données",
+          "type": "skill/competence",
+          "covers": [
+            "Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto)",
+            "Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées)"
+          ]
+        },
+        {
           "uri": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
           "label": "statistiques",
           "type": "knowledge",
@@ -2209,20 +2263,77 @@
           ]
         },
         {
-          "uri": "http://data.europa.eu/esco/skill/e439742d-558d-4f52-885e-afdc740b48cf",
-          "label": "tirer parti de données, d’informations et de contenus numériques par la navigation, les recherches et le filtrage",
-          "type": "skill/competence",
-          "covers": [
-            "Web scraping"
-          ]
-        },
-        {
           "uri": "http://data.europa.eu/esco/skill/16a00c69-9c74-4c37-96d7-6301d285e5ce",
           "label": "s’engager dans des actions citoyennes au moyen de technologies numériques",
           "type": "skill/competence",
           "covers": [
-            "Open Data",
+            "Fact-checking & enquête data à grande échelle (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)",
+            "Audit de biais d'IA adossé au cadre ONU des droits humains (A/HRC/56/68, CIEDR : 4 recommandations §68 d, k, m, f traduites en protocole reproductible, matrice de couverture sourcée — 13 questions sur 15 mesurées)",
+            "Ancrage des travaux data/IA dans les cadres de l'ONU depuis 2023 : ODD 4 et 5 × open data NC (Kaggle, Dev.to, NODES 2023, Pacific Data Hub) → droits humains (rapport A/HRC/56/68, CIEDR, 2026)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/fda917eb-0d6a-4371-8c93-2a10bf950966",
+          "label": "gérer l’intégration sémantique des TIC",
+          "type": "skill/competence",
+          "covers": [
+            "Ancrage des travaux data/IA dans les cadres de l'ONU depuis 2023 : ODD 4 et 5 × open data NC (Kaggle, Dev.to, NODES 2023, Pacific Data Hub) → droits humains (rapport A/HRC/56/68, CIEDR, 2026)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a91732ce-988e-4105-9570-f425c6ffdc82",
+          "label": "droits d’auteur et autorisations liées à des contenus numériques",
+          "type": "knowledge",
+          "covers": [
+            "Publication scientifique ouverte et versionnée (Zenodo, DOI, changelog par version, CC BY 4.0)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/9b9662e0-100a-4314-9bdc-8146a7105c3d",
+          "label": "élaborer des protocoles de recherche scientifique",
+          "type": "skill/competence",
+          "covers": [
+            "Protocole expérimental contrôlé et pré-déclaré (groupe témoin, une seule variable, familles de risques déclarées avant confirmation, intervalles de Wilson, correction de Holm)",
+            "Audit de biais d'IA adossé au cadre ONU des droits humains (A/HRC/56/68, CIEDR : 4 recommandations §68 d, k, m, f traduites en protocole reproductible, matrice de couverture sourcée — 13 questions sur 15 mesurées)",
+            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/7a34b3d9-bd3b-4f4e-a0f6-f97439901cb7",
+          "label": "employer des méthodes scientifiques",
+          "type": "skill/competence",
+          "covers": [
+            "Protocole expérimental contrôlé et pré-déclaré (groupe témoin, une seule variable, familles de risques déclarées avant confirmation, intervalles de Wilson, correction de Holm)",
+            "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)",
             "Fact-checking & enquête data à grande échelle (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8",
+          "label": "méthodologie de recherche scientifique",
+          "type": "knowledge",
+          "covers": [
+            "Protocole expérimental contrôlé et pré-déclaré (groupe témoin, une seule variable, familles de risques déclarées avant confirmation, intervalles de Wilson, correction de Holm)",
+            "Publication scientifique ouverte et versionnée (Zenodo, DOI, changelog par version, CC BY 4.0)",
+            "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/a8b3957f-08b4-4a76-927d-0b2e3d0dbd39",
+          "label": "synthétiser des publications de recherche",
+          "type": "skill/competence",
+          "covers": [
+            "Audit de biais d'IA adossé au cadre ONU des droits humains (A/HRC/56/68, CIEDR : 4 recommandations §68 d, k, m, f traduites en protocole reproductible, matrice de couverture sourcée — 13 questions sur 15 mesurées)",
+            "Ancrage des travaux data/IA dans les cadres de l'ONU depuis 2023 : ODD 4 et 5 × open data NC (Kaggle, Dev.to, NODES 2023, Pacific Data Hub) → droits humains (rapport A/HRC/56/68, CIEDR, 2026)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92",
+          "label": "aborder des problèmes avec un esprit critique",
+          "type": "skill/competence",
+          "covers": [
+            "Fact-checking & enquête data à grande échelle (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)",
+            "Audit de biais d'IA adossé au cadre ONU des droits humains (A/HRC/56/68, CIEDR : 4 recommandations §68 d, k, m, f traduites en protocole reproductible, matrice de couverture sourcée — 13 questions sur 15 mesurées)"
           ]
         }
       ],
@@ -6038,29 +6149,34 @@
         "open-data",
         "python",
         "frugal",
-        "solo"
+        "solo",
+        "international",
+        "civic-tech",
+        "responsible-ai"
       ],
       "startDate": "2026-09",
-      "description": "Benchmark à grande échelle du biais de nationalité dans les conseils de sécurité donnés par des LLM open-weight à une femme seule avec un homme. Né d'un débat France Inter (sept. 2026) sur un reportage RTS fondé sur quelques prompts : automatisé à l'échelle, sur GPU Kaggle gratuits, recalculable par tous. Rapport scientifique « She Is Alone With a Man » (Quarto/R) publié sur Zenodo (DOI 10.5281/zenodo.23991568) ; code et données publics sur GitHub, Kaggle.",
+      "description": "Benchmark à grande échelle du biais de nationalité dans les conseils de sécurité donnés par des LLM open-weight à une femme seule avec un homme. Né d'un débat France Inter (sept. 2026) sur un test viral relayé par RTS, sans nombre de prompts déclaré ni témoin : automatisé à l'échelle, sur GPU Kaggle gratuits, recalculable par tous. Rapport scientifique « She Is Alone With a Man » (Quarto/R) publié sur Zenodo (DOI 10.5281/zenodo.23991568), positionné face au rapport ONU A/HRC/56/68 ; code et données publics sur GitHub, Kaggle.",
       "highlights": [
         "7 modèles open-weight × 7 425 prompts : 24 nationalités + témoin, 11 situations, 3 âges, 3 paraphrases, 3 tirages",
         "LLM-as-a-judge en aveugle (Qwen3-32B-AWQ, rubrique rts-v4) + méthode de contrôle sans juge",
         "Résultat : les 7 modèles complimentent les mêmes hommes (Finlandais, Italiens, Japonais) ; réflexes divergents pour Afghans/Nigérians (déni, risque nommé, refus)",
+        "Nommer une nationalité suffit : réponses à préjugés de 3 % (« un homme ») à 62 % dès qu'il en a une, quelle qu'elle soit (4 modèles ≥ 8B, taxi, ascenseur, rue isolée)",
         "Nationalité masquée devinée 6× mieux que le hasard par un classifieur de texte ; lexicométrie : qualités vs origine",
         "Plus gros modèles pas plus justes : le biais change de forme",
         "2 datasets Kaggle (réponses + verdicts, PIB/hab. Banque mondiale — CC BY 4.0) + 11 notebooks, collection kaggle.com/work/collections/19371544",
         "Plus le pays est riche, plus l'IA est chaleureuse : compliments corrélés au PIB/hab. (Spearman ρ = 0,73), y compris au sein d'un même continent",
         "Frugal : 89 h GPU (2 × T4) + 6 h CPU, 0 € — tout sur le quota gratuit Kaggle",
-        "Rapport Zenodo en 4 formats (91 p., version 7 p., carrousel 16 slides, 4 visuels carrés) : DOI 10.5281/zenodo.23991568"
+        "Positionnement ONU (v1.5) : l'alerte (RTS), le cadre (rapport A/HRC/56/68 de la Rapporteuse spéciale sur le racisme), la mesure. 13 questions sur 15 mesurées, matrice sourcée paragraphe par paragraphe ; 4 recommandations (§68 d, k, m, f) traduites en protocole reproductible — « The UN asks for tests; here is one. »",
+        "Rapport Zenodo en 7 PDF (92 p., version 8 p., carrousel 16 slides, visuels carrés, positionnement ONU 10 p. + 6 p.), 5 versions publiées avec changelog — résultats inchangés : DOI 10.5281/zenodo.23991568"
       ],
       "url": "https://github.com/adriens/kaggle-bench-ai-biasses"
     }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.42.1",
-    "lastModified": "2026-11-06",
+    "version": "v1.43.0",
+    "lastModified": "2026-11-11",
     "theme": "elegant",
-    "x-esco-retrieved": "2026-11-06"
+    "x-esco-retrieved": "2026-11-11"
   }
 }
