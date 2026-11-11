@@ -5,7 +5,7 @@ description: Intermédiaire — Arduino, ESP8266 / NodeMCU, Arduino MKR1000, Ras
   Pi Pico W, Pimoroni Cosmic Unicorn, Arduino IoT Cloud, IFTTT / M…
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 **Niveau : Intermédiaire**

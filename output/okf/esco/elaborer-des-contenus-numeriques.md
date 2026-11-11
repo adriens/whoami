@@ -4,7 +4,7 @@ title: élaborer des contenus numériques
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/5fd5c985-eaaa-47aa-8314-62359c54505a
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées du profil.

@@ -1,19 +1,20 @@
 ---
 type: Tag
 title: civic-tech
-description: 22 entrées taguées « civic-tech »
+description: 24 entrées taguées « civic-tech »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
-Concept transversal reliant 22 entrées du profil.
+Concept transversal reliant 24 entrées du profil.
 
 - [Mentor Pépite NC 2025 — équipe WAZA lauréate](../awards/mentor-pepite-nc-2025-equipe-waza-laureate.md) — *Award*
 - [Speaker — NODES 2023 (Conférence internationale Neo4j)](../awards/speaker-nodes-2023-conference-internationale-neo4j.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
 - [API domaine.nc — Création de l'interopérabilité des noms de domaine .NC](../projects/api-domaine-nc-creation-de-l-interoperabilite-des-noms-de-domaine-nc.md) — *Project*
 - [API-fication calédonienne — SDKs Java & APIs REST](../projects/api-fication-caledonienne-sdks-java-apis-rest.md) — *Project*
+- [Alone With a Stranger — biais de nationalité des LLM open-weight](../projects/alone-with-a-stranger-biais-de-nationalite-des-llm-open-weight.md) — *Project*
 - [BP connectée — Monitoring rack boîtes postales OPT-NC](../projects/bp-connectee-monitoring-rack-boites-postales-opt-nc.md) — *Project*
 - [ColisNC — Écosystème open source suivi de colis OPT-NC](../projects/colisnc-ecosysteme-open-source-suivi-de-colis-opt-nc.md) — *Project*
 - [HELIA État Réseaux — SDK & cartographie des maintenances réseau OPT-NC](../projects/helia-etat-reseaux-sdk-cartographie-des-maintenances-reseau-opt-nc.md) — *Project*
@@ -25,6 +26,7 @@ Concept transversal reliant 22 entrées du profil.
 - [auptitcafe — SDK scraping cafés & restaurants NC](../projects/auptitcafe-sdk-scraping-cafes-restaurants-nc.md) — *Project*
 - [edb-noumea — SDK qualité eaux de baignade](../projects/edb-noumea-sdk-qualite-eaux-de-baignade.md) — *Project*
 - [odata-ncl — Open Data Citoyenne Nouvelle-Calédonie](../projects/odata-ncl-open-data-citoyenne-nouvelle-caledonie.md) — *Project*
+- [She Is Alone With a Man — biais de nationalité des LLM open-weight (Zenodo)](../publications/she-is-alone-with-a-man-biais-de-nationalite-des-llm-open-weight-zenodo.md) — *Publication*
 - [Clémentine Galin](../references/clementine-galin-2.md) — *Reference*
 - [David Kranitz](../references/david-kranitz.md) — *Reference*
 - [Stéphanie BOUVET](../references/stephanie-bouvet.md) — *Reference*

@@ -4,13 +4,14 @@ title: principes de l’intelligence artificielle
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
-Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.
+Concept du référentiel européen ESCO (knowledge) relié à 2 entrées du profil.
 
 URI : <http://data.europa.eu/esco/skill/e465a154-93f7-4973-9ce1-31659fe16dd2>
 
 Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata.europa.eu%2Fesco%2Fskill%2Fe465a154-93f7-4973-9ce1-31659fe16dd2>
 
 - [IA & Agents](../skills/ia-agents.md) — *Skill*
+- [Recherche appliquée & évaluation responsable de l'IA](../skills/recherche-appliquee-evaluation-responsable-de-l-ia.md) — *Skill*

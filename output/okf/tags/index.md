@@ -4,20 +4,20 @@ title: Tags
 description: Graphe de concepts (x-tags)
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
-124 concepts transversaux (graphe de connaissances).
+125 concepts transversaux (graphe de connaissances).
 
 - [open-source](open-source.md) — 47 entrées
 - [data](data.md) — 41 entrées
 - [nouvelle-caledonie](nouvelle-caledonie.md) — 41 entrées
 - [pacifique](pacifique.md) — 37 entrées
-- [international](international.md) — 25 entrées
+- [international](international.md) — 27 entrées
 - [transmission](transmission.md) — 25 entrées
+- [civic-tech](civic-tech.md) — 24 entrées
 - [interoperability](interoperability.md) — 24 entrées
 - [api-fication](api-fication.md) — 23 entrées
-- [civic-tech](civic-tech.md) — 22 entrées
 - [mentorat](mentorat.md) — 22 entrées
 - [pedagogy](pedagogy.md) — 22 entrées
 - [ai-agents](ai-agents.md) — 21 entrées
@@ -106,6 +106,7 @@ timestamp: '2026-11-06'
 - [multi-technology](multi-technology.md) — 2 entrées
 - [networking](networking.md) — 2 entrées
 - [product](product.md) — 2 entrées
+- [responsible-ai](responsible-ai.md) — 2 entrées
 - [responsiveness](responsiveness.md) — 2 entrées
 - [services-web](services-web.md) — 2 entrées
 - [spring](spring.md) — 2 entrées

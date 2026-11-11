@@ -4,7 +4,7 @@ title: communiquer les résultats d’analyse
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/c544a9f3-5945-4b54-afed-de0697852817
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

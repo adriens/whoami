@@ -4,10 +4,10 @@ title: ESCO
 description: Concepts du référentiel européen ESCO
 resource: https://esco.ec.europa.eu/
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
-250 concepts ESCO rattachés au profil (retrieved 2026-11-06).
+254 concepts ESCO rattachés au profil (retrieved 2026-11-11).
 
 ## Métiers
 
@@ -37,6 +37,7 @@ timestamp: '2026-11-06'
 - [Python (programmation informatique)](python-programmation-informatique.md) — 2 entrées
 - [R](r.md) — 1 entrées
 - [SQL](sql.md) — 1 entrées
+- [aborder des problèmes avec un esprit critique](aborder-des-problemes-avec-un-esprit-critique.md) — 1 entrées
 - [adapter l’enseignement au marché du travail](adapter-lenseignement-au-marche-du-travail.md) — 1 entrées
 - [adapter l’enseignement aux capacités des élèves](adapter-lenseignement-aux-capacites-des-eleves.md) — 1 entrées
 - [administrer un système de gestion de bases de données relationnelles](administrer-un-systeme-de-gestion-de-bases-de-donnees-relationnelles.md) — 1 entrées
@@ -84,7 +85,7 @@ timestamp: '2026-11-06'
 - [diriger d’autres personnes](diriger-dautres-personnes.md) — 1 entrées
 - [diriger une équipe](diriger-une-equipe.md) — 1 entrées
 - [données non structurées](donnees-non-structurees.md) — 1 entrées
-- [droits d’auteur et autorisations liées à des contenus numériques](droits-dauteur-et-autorisations-liees-a-des-contenus-numeriques.md) — 1 entrées
+- [droits d’auteur et autorisations liées à des contenus numériques](droits-dauteur-et-autorisations-liees-a-des-contenus-numeriques.md) — 2 entrées
 - [déboguer un logiciel](deboguer-un-logiciel.md) — 1 entrées
 - [définir des modèles statistiques](definir-des-modeles-statistiques.md) — 1 entrées
 - [définir la structure physique de la base de données](definir-la-structure-physique-de-la-base-de-donnees.md) — 1 entrées
@@ -104,8 +105,9 @@ timestamp: '2026-11-06'
 - [effectuer des recherches dans des bases de données](effectuer-des-recherches-dans-des-bases-de-donnees.md) — 2 entrées
 - [effectuer l’examen du code source](effectuer-lexamen-du-code-source.md) — 1 entrées
 - [effectuer un montage vidéo](effectuer-un-montage-video.md) — 2 entrées
-- [effectuer une analyse de données](effectuer-une-analyse-de-donnees.md) — 1 entrées
+- [effectuer une analyse de données](effectuer-une-analyse-de-donnees.md) — 2 entrées
 - [effectuer une analyse de données de sécurité](effectuer-une-analyse-de-donnees-de-securite.md) — 1 entrées
+- [employer des méthodes scientifiques](employer-des-methodes-scientifiques.md) — 1 entrées
 - [encourager des équipes à rechercher l’amélioration continue](encourager-des-equipes-a-rechercher-lamelioration-continue.md) — 1 entrées
 - [encourager le renforcement d’équipe](encourager-le-renforcement-dequipe.md) — 1 entrées
 - [endosser vis-à-vis de collègues un rôle de meneur, cherchant avant tout à atteindre les objectifs](endosser-vis-a-vis-de-collegues-un-role-de-meneur-cherchant-avant-tout-a-atteindre-les-objectifs.md) — 1 entrées
@@ -142,7 +144,7 @@ timestamp: '2026-11-06'
 - [gérer les normes d’échange de données](gerer-les-normes-dechange-de-donnees.md) — 2 entrées
 - [gérer les retours d’information](gerer-les-retours-dinformation.md) — 1 entrées
 - [gérer l’architecture des données TIC](gerer-larchitecture-des-donnees-tic.md) — 1 entrées
-- [gérer l’intégration sémantique des TIC](gerer-lintegration-semantique-des-tic.md) — 2 entrées
+- [gérer l’intégration sémantique des TIC](gerer-lintegration-semantique-des-tic.md) — 3 entrées
 - [gérer une base de données](gerer-une-base-de-donnees.md) — 1 entrées
 - [gérer une identité numérique](gerer-une-identite-numerique.md) — 1 entrées
 - [gérer une équipe](gerer-une-equipe.md) — 1 entrées
@@ -172,7 +174,7 @@ timestamp: '2026-11-06'
 - [modélisation orientée services](modelisation-orientee-services.md) — 1 entrées
 - [motiver des employés](motiver-des-employes.md) — 1 entrées
 - [méthodes de gestion de projets TIC](methodes-de-gestion-de-projets-tic.md) — 1 entrées
-- [méthodologie de recherche scientifique](methodologie-de-recherche-scientifique.md) — 1 entrées
+- [méthodologie de recherche scientifique](methodologie-de-recherche-scientifique.md) — 2 entrées
 - [normaliser les données](normaliser-les-donnees.md) — 1 entrées
 - [normes de sécurité des TIC](normes-de-securite-des-tic.md) — 1 entrées
 - [normes d’accessibilité TIC](normes-daccessibilite-tic.md) — 1 entrées
@@ -184,7 +186,7 @@ timestamp: '2026-11-06'
 - [pensée systémique](pensee-systemique.md) — 1 entrées
 - [philosophies d’amélioration continue](philosophies-damelioration-continue.md) — 1 entrées
 - [planifier des évènements](planifier-des-evenements.md) — 1 entrées
-- [principes de l’intelligence artificielle](principes-de-lintelligence-artificielle.md) — 1 entrées
+- [principes de l’intelligence artificielle](principes-de-lintelligence-artificielle.md) — 2 entrées
 - [processus d’innovation](processus-dinnovation.md) — 1 entrées
 - [procéder à des évaluations de la vulnérabilité en matière de sécurité](proceder-a-des-evaluations-de-la-vulnerabilite-en-matiere-de-securite.md) — 1 entrées
 - [procéder à l’extraction de données](proceder-a-lextraction-de-donnees.md) — 2 entrées
@@ -224,8 +226,9 @@ timestamp: '2026-11-06'
 - [suivre les tendances technologiques](suivre-les-tendances-technologiques.md) — 2 entrées
 - [superviser le développement d’un logiciel](superviser-le-developpement-dun-logiciel.md) — 1 entrées
 - [susciter des émotions dans le public](susciter-des-emotions-dans-le-public.md) — 1 entrées
+- [synthétiser des publications de recherche](synthetiser-des-publications-de-recherche.md) — 1 entrées
 - [systèmes embarqués](systemes-embarques.md) — 2 entrées
-- [s’engager dans des actions citoyennes au moyen de technologies numériques](sengager-dans-des-actions-citoyennes-au-moyen-de-technologies-numeriques.md) — 1 entrées
+- [s’engager dans des actions citoyennes au moyen de technologies numériques](sengager-dans-des-actions-citoyennes-au-moyen-de-technologies-numeriques.md) — 2 entrées
 - [techniques d'écriture](techniques-d-ecriture.md) — 2 entrées
 - [techniques de présentation visuelle](techniques-de-presentation-visuelle.md) — 1 entrées
 - [technologie de transmission](technologie-de-transmission.md) — 1 entrées
@@ -250,13 +253,14 @@ timestamp: '2026-11-06'
 - [utiliser la programmation de scripts](utiliser-la-programmation-de-scripts.md) — 1 entrées
 - [utiliser la programmation orientée objet](utiliser-la-programmation-orientee-objet.md) — 1 entrées
 - [utiliser les conventions en ligne de la nétiquette](utiliser-les-conventions-en-ligne-de-la-netiquette.md) — 1 entrées
-- [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 2 entrées
+- [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 3 entrées
 - [vérifier l’exactitude d’informations](verifier-lexactitude-dinformations.md) — 1 entrées
 - [écouter activement](ecouter-activement.md) — 13 entrées
 - [écrire en anglais](ecrire-en-anglais.md) — 1 entrées
 - [écrire en français](ecrire-en-francais.md) — 1 entrées
 - [écrire la documentation d’une base de données](ecrire-la-documentation-dune-base-de-donnees.md) — 1 entrées
 - [élaborer des contenus numériques](elaborer-des-contenus-numeriques.md) — 2 entrées
+- [élaborer des protocoles de recherche scientifique](elaborer-des-protocoles-de-recherche-scientifique.md) — 1 entrées
 - [élaborer la conception d'un produit](elaborer-la-conception-d-un-produit.md) — 2 entrées
 - [élaborer un plan de cours](elaborer-un-plan-de-cours.md) — 1 entrées
 - [équilibrer les ressources d’une base de données](equilibrer-les-ressources-dune-base-de-donnees.md) — 1 entrées

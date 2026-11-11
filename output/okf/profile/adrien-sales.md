@@ -9,7 +9,7 @@ description: Architecte et urbaniste des SI au croisement des maths (DEA INRIA S
   levier.
 resource: https://adriens.github.io/whoami/
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Ma spécificité : face à n'importe quelle problématique, je reconnais la famille de problèmes à laquelle elle appartient — et j'en tire immédiatement les référentiels, les structures de données et les outils adaptés, qu'ils soient mathématiques ou data. Formé en mathématiques (DEA Mathématiques Appliquées — stage de recherche INRIA Sophia Antipolis) puis en data science (Mastère Spécialisé MSBDS — labellisé Conférence des Grandes Écoles, stage data mining avec l'I3S CNRS), je modélise, lie, package, puis exploite par des agents IA pour créer de la valeur réelle. Et je travaille avec ce qui existe : open data, scraping, APIs publiques — innovation frugale et design thinking comme levier, pas comme contrainte. Méthode signature : l'API-fication — identifier un manque d'interopérabilité, scraper ou exploiter l'open data, packager en SDK, exposer en API, laisser émerger l'écosystème communautaire (apps mobiles, AR, bots, MCPs, dashboards). Validé sur domaine.nc, ColisNC, edb-noumea, kalolo, RIDET, smartcity Nouméa.
@@ -20,7 +20,7 @@ Ingénieur architecte SI passionné par le développement de produits et le lead
 
 Conviction transversale, valable pour moi comme pour les collaborateurs et stagiaires que j'encadre : un rythme soutenable sur la durée prime sur le sprint. Six ans de projets tutorés sans interruption, des séries d'articles régulières, des contributions open source continues — l'endurance comme méthode, pas comme contrainte.
 
-Ambitions parallèles : construire un produit data/IA ancré dans les problématiques du Pacifique, contribuer à la recherche appliquée (knowledge graphs, data science), et étendre une présence DevRel internationale — conférences, open source, communauté.
+Ambitions parallèles : construire un produit data/IA ancré dans les problématiques du Pacifique, poursuivre une recherche appliquée déjà engagée (knowledge graphs, data science, évaluation de l'IA — publications Zenodo, dont un audit des biais de nationalité des LLM adossé au rapport ONU A/HRC/56/68 sur le racisme, dans le prolongement de travaux sur les ODD de l'ONU depuis 2023), et étendre une présence DevRel internationale — conférences, open source, communauté.
 
 *Localisation : Nouméa, NC*
 

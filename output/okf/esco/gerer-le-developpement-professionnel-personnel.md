@@ -4,7 +4,7 @@ title: gérer le développement professionnel personnel
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/a8d24a95-47b3-4f88-92e7-06600bcd3612
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées du profil.

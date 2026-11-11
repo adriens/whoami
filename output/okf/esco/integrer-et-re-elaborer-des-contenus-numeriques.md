@@ -4,7 +4,7 @@ title: intégrer et ré-élaborer des contenus numériques
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/5af49836-2269-46d9-87b9-0d3140c6c22e
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

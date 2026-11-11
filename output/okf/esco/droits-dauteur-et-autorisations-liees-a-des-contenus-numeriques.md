@@ -4,10 +4,10 @@ title: droits d’auteur et autorisations liées à des contenus numériques
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/a91732ce-988e-4105-9570-f425c6ffdc82
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
-Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.
+Concept du référentiel européen ESCO (knowledge) relié à 2 entrées du profil.
 
 URI : <http://data.europa.eu/esco/skill/a91732ce-988e-4105-9570-f425c6ffdc82>
 
@@ -16,3 +16,4 @@ Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata
 Compétence numérique DigComp 3.3 — [domaine](../digcomp/creation-de-contenus-numeriques.md)
 
 - [Open Source](../skills/open-source.md) — *Skill*
+- [Recherche appliquée & évaluation responsable de l'IA](../skills/recherche-appliquee-evaluation-responsable-de-l-ia.md) — *Skill*

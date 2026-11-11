@@ -4,7 +4,7 @@ title: devrel
 description: 21 entrées taguées « devrel »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept transversal reliant 21 entrées du profil.

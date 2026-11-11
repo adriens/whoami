@@ -6,7 +6,7 @@ description: Expert — Enseignement universitaire (Master MIAGE), Pédagogie Mo
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags:
 - knowledge-sharing
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 **Niveau : Expert**

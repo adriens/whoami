@@ -4,7 +4,7 @@ title: systèmes embarqués
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/2180bd8c-86de-4889-8165-adac902eee9d
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 2 entrées du profil.

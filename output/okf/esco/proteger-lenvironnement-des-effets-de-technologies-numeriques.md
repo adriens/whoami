@@ -4,7 +4,7 @@ title: protéger l’environnement des effets de technologies numériques
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/c4ba12d1-4698-42fa-8abb-789462ea2586
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

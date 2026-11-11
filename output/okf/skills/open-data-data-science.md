@@ -8,12 +8,12 @@ tags:
 - duckdb
 - open-data
 - python
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 **Niveau : Avancé**
 
-Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création et publication de datasets open data (Kaggle, Hugging Face), Hackathons, uv, poetry, PyPI, PyPI maintainer, Détection d'anomalies (XGBoost, k-means — PRIX.NC), Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face), Alignement de corpus sur référentiels (ESCO, ROME, ISCO), Analyse statistique multi-évaluateurs (classement Borda, dispersion, accord inter-jurés — DuckDB, R/ggplot2, rapport Quarto), Lexicométrie & classification de texte (analyse des correspondances, nationalité devinée sur réponses masquées), Fact-checking & enquête data à grande échelle (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)
+Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création et publication de datasets open data (Kaggle, Hugging Face), Hackathons, uv, poetry, PyPI, PyPI maintainer, Détection d'anomalies (XGBoost, k-means — PRIX.NC), Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face), Alignement de corpus sur référentiels (ESCO, ROME, ISCO)
 
 **Compétences ESCO :**
 - [Python (programmation informatique)](../esco/python-programmation-informatique.md) — *knowledge*
@@ -25,11 +25,6 @@ Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création 
 - [normaliser les données](../esco/normaliser-les-donnees.md) — *skill/competence*
 - [utiliser l’apprentissage automatique](../esco/utiliser-lapprentissage-automatique.md) — *skill/competence*
 - [gérer l’intégration sémantique des TIC](../esco/gerer-lintegration-semantique-des-tic.md) — *skill/competence*
-- [statistiques](../esco/statistiques.md) — *knowledge*
-- [linguistique informatique](../esco/linguistique-informatique.md) — *knowledge*
-- [définir des modèles statistiques](../esco/definir-des-modeles-statistiques.md) — *skill/competence*
-- [vérifier l’exactitude d’informations](../esco/verifier-lexactitude-dinformations.md) — *skill/competence*
-- [évaluer des données, des informations et des contenus numériques](../esco/evaluer-des-donnees-des-informations-et-des-contenus-numeriques.md) — *skill/competence*
 - [tirer parti de données, d’informations et de contenus numériques par la navigation, les recherches et le filtrage](../esco/tirer-parti-de-donnees-dinformations-et-de-contenus-numeriques-par-la-navigation-les-recherches-et-le-filtrage.md) — *skill/competence*
 - [s’engager dans des actions citoyennes au moyen de technologies numériques](../esco/sengager-dans-des-actions-citoyennes-au-moyen-de-technologies-numeriques.md) — *skill/competence*
 

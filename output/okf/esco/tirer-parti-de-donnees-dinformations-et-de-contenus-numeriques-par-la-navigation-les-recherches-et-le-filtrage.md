@@ -5,7 +5,7 @@ title: tirer parti de données, d’informations et de contenus numériques par 
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/e439742d-558d-4f52-885e-afdc740b48cf
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

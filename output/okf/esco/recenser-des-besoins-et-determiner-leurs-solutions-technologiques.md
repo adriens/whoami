@@ -4,7 +4,7 @@ title: recenser des besoins et déterminer leurs solutions technologiques
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/42fcf80d-7b45-40f3-bd2f-5411c4c0dfa0
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

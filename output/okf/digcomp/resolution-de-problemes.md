@@ -4,7 +4,7 @@ title: DigComp 5 — Résolution de problèmes
 description: 4/4 compétences DigComp « Résolution de problèmes » rattachées au profil
 resource: https://joint-research-centre.ec.europa.eu/digcomp_en
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Domaine 5 de DigComp 2.2 (Problem solving) : 4/4 compétences rattachées au profil.

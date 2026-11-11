@@ -4,7 +4,7 @@ title: utiliser des technologies numériques de façon créative
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/1a4cc54f-1e53-442b-a6d2-1682dc8ef8f9
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

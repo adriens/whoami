@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: international
-description: 25 entrées taguées « international »
+description: 27 entrées taguées « international »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
-Concept transversal reliant 25 entrées du profil.
+Concept transversal reliant 27 entrées du profil.
 
 - [Arctic Code Vault Contributor — GitHub](../awards/arctic-code-vault-contributor-github.md) — *Award*
 - [Extension officielle DuckDB Community — apt](../awards/extension-officielle-duckdb-community-apt.md) — *Award*
@@ -19,6 +19,7 @@ Concept transversal reliant 25 entrées du profil.
 - [Speaker — NODES 2023 (Conférence internationale Neo4j)](../awards/speaker-nodes-2023-conference-internationale-neo4j.md) — *Award*
 - [Speaker — NODES 2024 (Conférence internationale Neo4j)](../awards/speaker-nodes-2024-conference-internationale-neo4j.md) — *Award*
 - [Speaker — Talanoa 2022 / Pacific DataViz Challenge (SPC)](../awards/speaker-talanoa-2022-pacific-dataviz-challenge-spc.md) — *Award*
+- [Alone With a Stranger — biais de nationalité des LLM open-weight](../projects/alone-with-a-stranger-biais-de-nationalite-des-llm-open-weight.md) — *Project*
 - [SchemaCrawler — Contribution open source](../projects/schemacrawler-contribution-open-source.md) — *Project*
 - [duckdb-apt — Extension DuckDB Community](../projects/duckdb-apt-extension-duckdb-community.md) — *Project*
 - [duckdb-brew — Extension DuckDB Community](../projects/duckdb-brew-extension-duckdb-community.md) — *Project*
@@ -29,6 +30,7 @@ Concept transversal reliant 25 entrées du profil.
 - [rfc4180-validator — Validateur CSV strict pour CI/CD](../projects/rfc4180-validator-validateur-csv-strict-pour-ci-cd.md) — *Project*
 - [208 articles techniques — Dev.to](../publications/208-articles-techniques-dev-to.md) — *Publication*
 - [Chaîne YouTube DevOPS-LAB](../publications/chaine-youtube-devops-lab.md) — *Publication*
+- [She Is Alone With a Man — biais de nationalité des LLM open-weight (Zenodo)](../publications/she-is-alone-with-a-man-biais-de-nationalite-des-llm-open-weight-zenodo.md) — *Publication*
 - [Julie Besson](../references/julie-besson.md) — *Reference*
 - [Yolande Poirier](../references/yolande-poirier.md) — *Reference*
 - [Contributeur de données @ endoflife.date — Projet open source communautaire](../volunteer/endoflife-date-projet-open-source-communautaire-contributeur-de-donnees.md) — *Volunteer*

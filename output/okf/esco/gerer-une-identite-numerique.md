@@ -4,7 +4,7 @@ title: gérer une identité numérique
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/bc0b0b5d-f6be-405a-b224-b6902a4dbe97
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

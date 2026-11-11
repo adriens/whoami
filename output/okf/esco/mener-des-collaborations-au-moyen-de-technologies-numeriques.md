@@ -4,7 +4,7 @@ title: mener des collaborations au moyen de technologies numériques
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/2b34a99f-9813-4c91-9509-b6b9b8c3132e
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

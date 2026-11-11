@@ -5,12 +5,12 @@ description: Avancé — MCP (Model Context Protocol), Hugging Face, Gradio, Age
   RAG, Embeddings (BAAI/bge-m3), Cross-encoder reranking (…
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 **Niveau : Avancé**
 
-Mots-clés : MCP (Model Context Protocol), Hugging Face, Gradio, Agents IA, RAG, Embeddings (BAAI/bge-m3), Cross-encoder reranking (bge-reranker-v2-m3), Recherche sémantique (retrieve → rerank), ML frugal on-prem (sans GPU), Ollama, LangChain, Semantic Router, Vibe coding, OpenSearch vector search, Rapports maintenus par agent IA (CLAUDE.md, Claude Code), CV-as-code (JSON Resume, enrichissement par agent IA, ESCO), Embeddings multilingues (multilingual-e5-large, EmbeddingGemma), LLM-as-a-judge avec traces de raisonnement (Qwen3-32B, vLLM), Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins), Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)
+Mots-clés : MCP (Model Context Protocol), Hugging Face, Gradio, Agents IA, RAG, Embeddings (BAAI/bge-m3), Cross-encoder reranking (bge-reranker-v2-m3), Recherche sémantique (retrieve → rerank), ML frugal on-prem (sans GPU), Ollama, LangChain, Semantic Router, Vibe coding, OpenSearch vector search, Rapports maintenus par agent IA (CLAUDE.md, Claude Code), CV-as-code (JSON Resume, enrichissement par agent IA, ESCO), Embeddings multilingues (multilingual-e5-large, EmbeddingGemma)
 
 **Compétences ESCO :**
 - [principes de l’intelligence artificielle](../esco/principes-de-lintelligence-artificielle.md) — *knowledge*
@@ -20,7 +20,4 @@ Mots-clés : MCP (Model Context Protocol), Hugging Face, Gradio, Agents IA, RAG,
 - [technologies émergentes](../esco/technologies-emergentes.md) — *knowledge*
 - [développer des applications de traitement des données](../esco/developper-des-applications-de-traitement-des-donnees.md) — *skill/competence*
 - [gérer les normes d’échange de données](../esco/gerer-les-normes-dechange-de-donnees.md) — *skill/competence*
-- [évaluer des informations](../esco/evaluer-des-informations.md) — *skill/competence*
-- [données non structurées](../esco/donnees-non-structurees.md) — *knowledge*
-- [respecter un code de conduite éthique](../esco/respecter-un-code-de-conduite-ethique.md) — *skill/competence*
 - [protéger l’environnement des effets de technologies numériques](../esco/proteger-lenvironnement-des-effets-de-technologies-numeriques.md) — *skill/competence*

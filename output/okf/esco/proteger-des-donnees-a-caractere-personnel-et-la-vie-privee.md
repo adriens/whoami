@@ -4,7 +4,7 @@ title: protéger des données à caractère personnel et la vie privée
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/33a82b83-c838-4889-ae62-fae1317481eb
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

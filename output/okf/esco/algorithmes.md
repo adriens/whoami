@@ -4,7 +4,7 @@ title: algorithmes
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/54924a2c-daca-40d3-9716-4b38ceb04f38
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

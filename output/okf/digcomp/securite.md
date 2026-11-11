@@ -4,7 +4,7 @@ title: DigComp 4 — Sécurité
 description: 3/4 compétences DigComp « Sécurité » rattachées au profil
 resource: https://joint-research-centre.ec.europa.eu/digcomp_en
 tags: []
-timestamp: '2026-11-06'
+timestamp: '2026-11-11'
 ---
 
 Domaine 4 de DigComp 2.2 (Safety) : 3/4 compétences rattachées au profil.
