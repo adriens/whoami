@@ -5,9 +5,9 @@
   "name": "Adrien Sales",
   "jobTitle": "Architecte SI & Product Builder | Modélisation · Data · IA Agents | LEAN & Innovation frugale | DevRel",
   "url": "https://adriens.github.io/whoami/",
-  "x-esco-retrieved": "2026-11-06",
+  "x-esco-retrieved": "2026-11-11",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.42.0",
+  "x-resume-version": "v1.43.0",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -800,7 +800,8 @@
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "Graph & Knowledge Engineering",
-        "Open Data & Data Science"
+        "Open Data & Data Science",
+        "Recherche appliquée & évaluation responsable de l'IA"
       ]
     },
     {
@@ -960,7 +961,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "knowledge",
       "x-profile-skills": [
-        "IA & Agents"
+        "IA & Agents",
+        "Recherche appliquée & évaluation responsable de l'IA"
       ]
     },
     {
@@ -981,7 +983,8 @@
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
         "IA & Agents",
-        "Open Data & Data Science"
+        "Open Data & Data Science",
+        "Recherche appliquée & évaluation responsable de l'IA"
       ]
     },
     {
@@ -1058,67 +1061,6 @@
         {
           "@language": "en",
           "@value": "develop data processing applications"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "skill/competence",
-      "x-profile-skills": [
-        "IA & Agents"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/7dd94ad3-13d6-43fe-8b94-51fcbf67ced9",
-      "termCode": "7dd94ad3-13d6-43fe-8b94-51fcbf67ced9",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "évaluer des informations"
-        },
-        {
-          "@language": "en",
-          "@value": "evaluate information"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "skill/competence",
-      "x-profile-skills": [
-        "IA & Agents",
-        "Developer Relations & Communication"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666",
-      "termCode": "c5e8abde-d2ba-4e8e-a65e-720b71180666",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "données non structurées"
-        },
-        {
-          "@language": "en",
-          "@value": "unstructured data"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "knowledge",
-      "x-profile-skills": [
-        "IA & Agents"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/b2f925ed-3ebd-4f78-b98e-d5d4678e83b5",
-      "termCode": "b2f925ed-3ebd-4f78-b98e-d5d4678e83b5",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "respecter un code de conduite éthique"
-        },
-        {
-          "@language": "en",
-          "@value": "follow ethical code of conduct"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
@@ -2329,7 +2271,8 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Open Data & Data Science"
+        "Open Data & Data Science",
+        "Recherche appliquée & évaluation responsable de l'IA"
       ]
     },
     {
@@ -2414,106 +2357,6 @@
     },
     {
       "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
-      "termCode": "7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "statistiques"
-        },
-        {
-          "@language": "en",
-          "@value": "statistics"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "knowledge",
-      "x-profile-skills": [
-        "Open Data & Data Science"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/a056851d-4a8b-4007-b0f6-8224ca1ec1c2",
-      "termCode": "a056851d-4a8b-4007-b0f6-8224ca1ec1c2",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "linguistique informatique"
-        },
-        {
-          "@language": "en",
-          "@value": "computational linguistics"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "knowledge",
-      "x-profile-skills": [
-        "Open Data & Data Science"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/06670261-ea6b-4b52-a915-c7d4ff837f74",
-      "termCode": "06670261-ea6b-4b52-a915-c7d4ff837f74",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "définir des modèles statistiques"
-        },
-        {
-          "@language": "en",
-          "@value": "identify statistical patterns"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "skill/competence",
-      "x-profile-skills": [
-        "Open Data & Data Science"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/525046fb-3e1a-4083-88e7-5db7e88bc4f7",
-      "termCode": "525046fb-3e1a-4083-88e7-5db7e88bc4f7",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "vérifier l’exactitude d’informations"
-        },
-        {
-          "@language": "en",
-          "@value": "check correctness of information"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "skill/competence",
-      "x-profile-skills": [
-        "Open Data & Data Science"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/1d6c7de4-350e-4868-a47b-333b4b0d9650",
-      "termCode": "1d6c7de4-350e-4868-a47b-333b4b0d9650",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "évaluer des données, des informations et des contenus numériques"
-        },
-        {
-          "@language": "en",
-          "@value": "evaluate data, information and digital content"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "skill/competence",
-      "x-profile-skills": [
-        "Open Data & Data Science"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/e439742d-558d-4f52-885e-afdc740b48cf",
       "termCode": "e439742d-558d-4f52-885e-afdc740b48cf",
       "name": [
@@ -2549,7 +2392,291 @@
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
       "x-profile-skills": [
-        "Open Data & Data Science"
+        "Open Data & Data Science",
+        "Recherche appliquée & évaluation responsable de l'IA"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/7dd94ad3-13d6-43fe-8b94-51fcbf67ced9",
+      "termCode": "7dd94ad3-13d6-43fe-8b94-51fcbf67ced9",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "évaluer des informations"
+        },
+        {
+          "@language": "en",
+          "@value": "evaluate information"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA",
+        "Developer Relations & Communication"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666",
+      "termCode": "c5e8abde-d2ba-4e8e-a65e-720b71180666",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "données non structurées"
+        },
+        {
+          "@language": "en",
+          "@value": "unstructured data"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b2f925ed-3ebd-4f78-b98e-d5d4678e83b5",
+      "termCode": "b2f925ed-3ebd-4f78-b98e-d5d4678e83b5",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "respecter un code de conduite éthique"
+        },
+        {
+          "@language": "en",
+          "@value": "follow ethical code of conduct"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+      "termCode": "7ee4c2ea-b349-4bd2-81a3-ec31475d4833",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "statistiques"
+        },
+        {
+          "@language": "en",
+          "@value": "statistics"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/a056851d-4a8b-4007-b0f6-8224ca1ec1c2",
+      "termCode": "a056851d-4a8b-4007-b0f6-8224ca1ec1c2",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "linguistique informatique"
+        },
+        {
+          "@language": "en",
+          "@value": "computational linguistics"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/06670261-ea6b-4b52-a915-c7d4ff837f74",
+      "termCode": "06670261-ea6b-4b52-a915-c7d4ff837f74",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "définir des modèles statistiques"
+        },
+        {
+          "@language": "en",
+          "@value": "identify statistical patterns"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/525046fb-3e1a-4083-88e7-5db7e88bc4f7",
+      "termCode": "525046fb-3e1a-4083-88e7-5db7e88bc4f7",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "vérifier l’exactitude d’informations"
+        },
+        {
+          "@language": "en",
+          "@value": "check correctness of information"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/1d6c7de4-350e-4868-a47b-333b4b0d9650",
+      "termCode": "1d6c7de4-350e-4868-a47b-333b4b0d9650",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "évaluer des données, des informations et des contenus numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "evaluate data, information and digital content"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/a91732ce-988e-4105-9570-f425c6ffdc82",
+      "termCode": "a91732ce-988e-4105-9570-f425c6ffdc82",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "droits d’auteur et autorisations liées à des contenus numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "copyright and licenses related to digital content"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA",
+        "Open Source"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/9b9662e0-100a-4314-9bdc-8146a7105c3d",
+      "termCode": "9b9662e0-100a-4314-9bdc-8146a7105c3d",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "élaborer des protocoles de recherche scientifique"
+        },
+        {
+          "@language": "en",
+          "@value": "develop scientific research protocols"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/7a34b3d9-bd3b-4f4e-a0f6-f97439901cb7",
+      "termCode": "7a34b3d9-bd3b-4f4e-a0f6-f97439901cb7",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "employer des méthodes scientifiques"
+        },
+        {
+          "@language": "en",
+          "@value": "apply scientific methods"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8",
+      "termCode": "ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "méthodologie de recherche scientifique"
+        },
+        {
+          "@language": "en",
+          "@value": "scientific research methodology"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "knowledge",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA",
+        "Reporting & Documentation"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/a8b3957f-08b4-4a76-927d-0b2e3d0dbd39",
+      "termCode": "a8b3957f-08b4-4a76-927d-0b2e3d0dbd39",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "synthétiser des publications de recherche"
+        },
+        {
+          "@language": "en",
+          "@value": "synthesise research publications"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92",
+      "termCode": "b9f16465-56a9-426b-a047-0f9f1f95ec92",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "aborder des problèmes avec un esprit critique"
+        },
+        {
+          "@language": "en",
+          "@value": "address problems critically"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Recherche appliquée & évaluation responsable de l'IA"
       ]
     },
     {
@@ -2710,26 +2837,6 @@
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
-      "x-profile-skills": [
-        "Reporting & Documentation"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8",
-      "termCode": "ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "méthodologie de recherche scientifique"
-        },
-        {
-          "@language": "en",
-          "@value": "scientific research methodology"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "knowledge",
       "x-profile-skills": [
         "Reporting & Documentation"
       ]
@@ -4269,26 +4376,6 @@
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
       "x-esco-type": "skill/competence",
-      "x-profile-skills": [
-        "Open Source"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/a91732ce-988e-4105-9570-f425c6ffdc82",
-      "termCode": "a91732ce-988e-4105-9570-f425c6ffdc82",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "droits d’auteur et autorisations liées à des contenus numériques"
-        },
-        {
-          "@language": "en",
-          "@value": "copyright and licenses related to digital content"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "knowledge",
       "x-profile-skills": [
         "Open Source"
       ]
