@@ -2045,7 +2045,8 @@
         "PyPI maintainer",
         "Détection d'anomalies (XGBoost, k-means — PRIX.NC)",
         "Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face)",
-        "Alignement de corpus sur référentiels (ESCO, ROME, ISCO)"
+        "Alignement de corpus sur référentiels (ESCO, ROME, ISCO)",
+        "Civic tech & open data citoyenne NC (odata-ncl, réutilisations data.gouv.nc, SDKs ouverts sur des services publics locaux : ColisNC, edb-noumea, domaine.nc)"
       ],
       "x-esco": [
         {
@@ -2145,7 +2146,8 @@
           "label": "s’engager dans des actions citoyennes au moyen de technologies numériques",
           "type": "skill/competence",
           "covers": [
-            "Open Data"
+            "Open Data",
+            "Civic tech & open data citoyenne NC (odata-ncl, réutilisations data.gouv.nc, SDKs ouverts sur des services publics locaux : ColisNC, edb-noumea, domaine.nc)"
           ]
         }
       ],
@@ -6174,7 +6176,7 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.43.0",
+    "version": "v1.43.1",
     "lastModified": "2026-11-11",
     "theme": "elegant",
     "x-esco-retrieved": "2026-11-11"
