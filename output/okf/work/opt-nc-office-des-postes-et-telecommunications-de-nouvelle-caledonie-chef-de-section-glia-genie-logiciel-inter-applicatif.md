@@ -23,10 +23,10 @@ timestamp: 2019-04
 ---
 
 Pilotage de la section GLIA (6 personnes) : interopérabilité du SI, data engineering, DevSecOps, cartographie du SI par knowledge graph, Developer Relations et innovation. Management d'équipe, formation de stagiaires et mentorat. L'interopérabilité comme posture est une signature de carrière depuis 2013+ — déjà identifiée par mes pairs à la DSI de Nouméa, formalisée aujourd'hui dans le rôle GLIA (Génie Logiciel Inter-Applicatif) et l'enseignement en Master MIAGE.
-- Stack data complète en production : Airflow conteneurisé sur Kubernetes, Lakehouse DuckLake, Superset (dataviz), MinIO (stockage) — pipeline bout en bout opérationnel
-- Cartographie du SI par knowledge graph Neo4j avec release automatisée via GitHub Actions — présenté à NODES 2022 et NODES 2024 (conférence internationale Neo4j), enrichi d'agents IA
-- Stabilisation et rationalisation du bus applicatif Kafka pour un SI hautement disponible et performant
-- Culture DevSecOps complète : GitHub Actions, Quarkus, conteneurisation Podman/Docker, shift-left security avec geol (open source, 1 300+ downloads) intégrant Trivy, Quarto et DuckDB
+- Lakehouse DuckLake en production : une vingtaine de sources de données orchestrées par Airflow conteneurisé sur Kubernetes, stockage MinIO — en remplacement de scripts de CI GitHub Actions
+- Première cartographie du SI de l'OPT-NC (aucune n'existait) : knowledge graph Neo4j de ~1 000 nœuds consulté à l'échelle de la DSI — une analyse d'impact prend désormais ~2 secondes ; release automatisée via GitHub Actions, enrichi d'agents IA — présenté à NODES 2022 et NODES 2024 (conférence internationale Neo4j)
+- Stabilisation et rationalisation du bus applicatif Kafka (~60 topics) pour un SI hautement disponible et performant
+- Culture DevSecOps complète : GitHub Actions, Quarkus, conteneurisation Podman/Docker, shift-left security avec geol (open source, 1 300+ downloads) intégrant Trivy, Quarto et DuckDB — suivi de l'obsolescence automatisé sur ~50 dépôts, auparavant manuel ou inexistant
 - Déploiement et animation du portail API APIGEE grand public : conception, DevRel, vidéos et documentation
 - Animation des organisations OPT-NC sur GitHub (https://github.com/opt-nc), Dev.to (https://dev.to/optnc), Kaggle (https://www.kaggle.com/optnouvellecaldonie) et Hugging Face (https://huggingface.co/opt-nc) : code open source, articles techniques, datasets, notebooks, applications Gradio et MCPs — démo publique : candidature via MCP Claude en 20 minutes
 - CLI mobitag en Go pour envoyer des SMS via l'API Mobitag — distribué via Homebrew/goreleaser, conçu avec l'équipe comme exercice pédagogique
