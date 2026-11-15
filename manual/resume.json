@@ -1256,7 +1256,8 @@
         "OpenSearch vector search",
         "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)",
         "CV-as-code (JSON Resume, enrichissement par agent IA, ESCO)",
-        "Embeddings multilingues (multilingual-e5-large, EmbeddingGemma)"
+        "Embeddings multilingues (multilingual-e5-large, EmbeddingGemma)",
+        "Plugins pour agents IA (Hermes Agent / Nous Research : eol, publié sur la marketplace officielle)"
       ],
       "x-esco": [
         {
@@ -1269,7 +1270,8 @@
             "LangChain",
             "Semantic Router",
             "Vibe coding",
-            "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)"
+            "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)",
+            "Plugins pour agents IA (Hermes Agent / Nous Research : eol, publié sur la marketplace officielle)"
           ]
         },
         {
@@ -1313,7 +1315,8 @@
             "Agents IA",
             "MCP (Model Context Protocol)",
             "Vibe coding",
-            "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)"
+            "Rapports maintenus par agent IA (CLAUDE.md, Claude Code)",
+            "Plugins pour agents IA (Hermes Agent / Nous Research : eol, publié sur la marketplace officielle)"
           ]
         },
         {
@@ -1341,6 +1344,14 @@
           "type": "skill/competence",
           "covers": [
             "ML frugal on-prem (sans GPU)"
+          ]
+        },
+        {
+          "uri": "http://data.europa.eu/esco/skill/04fe962b-4017-4eb7-9139-7d69b6922bc9",
+          "label": "utiliser une interface spécifique à une application",
+          "type": "skill/competence",
+          "covers": [
+            "Plugins pour agents IA (Hermes Agent / Nous Research : eol, publié sur la marketplace officielle)"
           ]
         }
       ],
@@ -5369,7 +5380,8 @@
         "Approche marketing $0 — démos vidéo sur Mux/YouTube et articles dev.to uniquement, zéro budget pub",
         "Août 2026 — présenté à la Station N devant les commissions Data & IA et Cybersécurité réunies (RSSI, DSI, chefs de projets, développeurs, enseignants et étudiants Licence Info UNC) : 3 démos live, dont l'onboarding d'un repo vierge avec CI en moins de 3 minutes ; feedbacks collectés pour orienter la roadmap produit (https://github.com/opt-nc/geol/issues/469)",
         "Sujet de stage ML dérivé du projet : classification des messages de commits sémantiques sur le code source de geol — le repo comme terrain de recherche appliquée pour la Licence Info UNC",
-        "Onboarding sans friction : scénario interactif Killercoda, image Docker et intégration CI — trois portes d'entrée selon le persona (developer, devops, RSSI/sysadmin)"
+        "Onboarding sans friction : scénario interactif Killercoda, image Docker et intégration CI — trois portes d'entrée selon le persona (developer, devops, RSSI/sysadmin)",
+        "Novembre 2026 — l'écosystème geol s'étend aux agents IA : plugin eol pour Hermes Agent (Nous Research), publié sur la marketplace officielle, qui reprend le format .geol.yaml et les règles geol check --strict — https://hermes-agent.nousresearch.com/marketplace/eol"
       ],
       "url": "https://github.com/opt-nc/geol"
     },
@@ -5394,6 +5406,29 @@
         "Méthodologie reproductible : Taskfile (rescan de toutes les versions sur une même base Trivy), scripts Bash d'extraction et de scoring"
       ],
       "url": "https://github.com/adriens/geol-showcase"
+    },
+    {
+      "name": "hermes-eol-plugin — Plugin end-of-life pour Hermes Agent",
+      "type": "open-source",
+      "x-tags": [
+        "devsecops",
+        "ai-agents",
+        "open-source",
+        "python",
+        "geol",
+        "maintainer",
+        "solo",
+        "international"
+      ],
+      "startDate": "2026-11",
+      "description": "Plugin Python pour Hermes Agent (Nous Research), publié sur la marketplace officielle : statut de support et dates de fin de vie en direct pour 480+ produits via l'API endoflife.date, afin que l'agent ne réponde plus de mémoire sur les dates de support. Prolonge la saga geol dans l'écosystème des agents IA.",
+      "highlights": [
+        "Publié sur la marketplace Hermes (Nous Research), catégorie Tools — v0.3.0, MIT, sans dépendance externe",
+        "5 outils : eol_search, eol_product, eol_check (produit+version, purl ou CPE, à n'importe quelle date), eol_stack_check et eol_stack_file (fichiers .geol.yaml, règles geol check --strict)",
+        "Hook pre_llm_call : ajoute un rappel quand la conversation porte sur des versions, des montées de version, l'EOL ou des CVE",
+        "Divulgations claires : appels réseau uniquement vers endoflife.date, pas d'accès fichiers, pas de télémétrie, cache mémoire de 6 h"
+      ],
+      "url": "https://hermes-agent.nousresearch.com/marketplace/eol"
     },
     {
       "name": "Helia Monitor — Stack monitoring consommation mobile OPT-NC",
@@ -6176,9 +6211,9 @@
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.43.1",
+    "version": "v1.44.0",
     "lastModified": "2026-11-11",
     "theme": "elegant",
-    "x-esco-retrieved": "2026-11-11"
+    "x-esco-retrieved": "2026-11-15"
   }
 }
