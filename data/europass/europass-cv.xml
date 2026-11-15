@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Candidate xmlns="http://www.europass.eu/1.0" xmlns:eures="http://www.europass_eures.eu/1.0" xmlns:hr="http://www.hr-xml.org/3" xmlns:oa="http://www.openapplications.org/oagis/9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.europass.eu/1.0 Candidate.xsd">
-  <hr:DocumentID schemeID="whoami-v1.43.1" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
+  <hr:DocumentID schemeID="whoami-v1.44.0" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
   <CandidateSupplier>
-    <hr:PartyID schemeID="whoami-v1.43.1" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
+    <hr:PartyID schemeID="whoami-v1.44.0" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
     <hr:PartyName>Owner</hr:PartyName>
     <PersonContact>
       <PersonName>
@@ -756,6 +756,10 @@
         <PersonCompetency>
           <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
           <hr:CompetencyName>Embeddings multilingues (multilingual-e5-large, EmbeddingGemma)</hr:CompetencyName>
+        </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Plugins pour agents IA (Hermes Agent / Nous Research : eol, publié sur la marketplace officielle)</hr:CompetencyName>
         </PersonCompetency>
       </SkillsGroup>
       <SkillsGroup>
@@ -1601,7 +1605,7 @@
             <hr:FormattedDateTime>2025-08</hr:FormattedDateTime>
           </StartDate>
         </Date>
-        <Description>&lt;p&gt;Outil open source (Go) pour gérer les end-of-life des composants logiciels en terminal et CI. Intègre Trivy pour le scan de vulnérabilités. Reporting Quarto intégré : rapport HTML avec charts visuels (score de dette, calendrier EOL) — instantané, partageable à des décideurs non-techniques. Conçu le week-end sur temps personnel. Hacktoberfest Maintainer Spotlight 2025.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;1 300+ downloads, 11 stars, v2.7.1 activement maintenue&lt;/li&gt;&lt;li&gt;Hacktoberfest 2025 Maintainer Spotlight officiel&lt;/li&gt;&lt;li&gt;Rapport HTML Quarto : score de dette technique, charts visuels et calendrier EOL — généré automatiquement, partageable directement à des décideurs&lt;/li&gt;&lt;li&gt;Approche marketing $0 — démos vidéo sur Mux/YouTube et articles dev.to uniquement, zéro budget pub&lt;/li&gt;&lt;li&gt;Août 2026 — présenté à la Station N devant les commissions Data &amp;amp; IA et Cybersécurité réunies (RSSI, DSI, chefs de projets, développeurs, enseignants et étudiants Licence Info UNC) : 3 démos live, dont l&amp;#x27;onboarding d&amp;#x27;un repo vierge avec CI en moins de 3 minutes ; feedbacks collectés pour orienter la roadmap produit (https://github.com/opt-nc/geol/issues/469)&lt;/li&gt;&lt;li&gt;Sujet de stage ML dérivé du projet : classification des messages de commits sémantiques sur le code source de geol — le repo comme terrain de recherche appliquée pour la Licence Info UNC&lt;/li&gt;&lt;li&gt;Onboarding sans friction : scénario interactif Killercoda, image Docker et intégration CI — trois portes d&amp;#x27;entrée selon le persona (developer, devops, RSSI/sysadmin)&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Description>&lt;p&gt;Outil open source (Go) pour gérer les end-of-life des composants logiciels en terminal et CI. Intègre Trivy pour le scan de vulnérabilités. Reporting Quarto intégré : rapport HTML avec charts visuels (score de dette, calendrier EOL) — instantané, partageable à des décideurs non-techniques. Conçu le week-end sur temps personnel. Hacktoberfest Maintainer Spotlight 2025.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;1 300+ downloads, 11 stars, v2.7.1 activement maintenue&lt;/li&gt;&lt;li&gt;Hacktoberfest 2025 Maintainer Spotlight officiel&lt;/li&gt;&lt;li&gt;Rapport HTML Quarto : score de dette technique, charts visuels et calendrier EOL — généré automatiquement, partageable directement à des décideurs&lt;/li&gt;&lt;li&gt;Approche marketing $0 — démos vidéo sur Mux/YouTube et articles dev.to uniquement, zéro budget pub&lt;/li&gt;&lt;li&gt;Août 2026 — présenté à la Station N devant les commissions Data &amp;amp; IA et Cybersécurité réunies (RSSI, DSI, chefs de projets, développeurs, enseignants et étudiants Licence Info UNC) : 3 démos live, dont l&amp;#x27;onboarding d&amp;#x27;un repo vierge avec CI en moins de 3 minutes ; feedbacks collectés pour orienter la roadmap produit (https://github.com/opt-nc/geol/issues/469)&lt;/li&gt;&lt;li&gt;Sujet de stage ML dérivé du projet : classification des messages de commits sémantiques sur le code source de geol — le repo comme terrain de recherche appliquée pour la Licence Info UNC&lt;/li&gt;&lt;li&gt;Onboarding sans friction : scénario interactif Killercoda, image Docker et intégration CI — trois portes d&amp;#x27;entrée selon le persona (developer, devops, RSSI/sysadmin)&lt;/li&gt;&lt;li&gt;Novembre 2026 — l&amp;#x27;écosystème geol s&amp;#x27;étend aux agents IA : plugin eol pour Hermes Agent (Nous Research), publié sur la marketplace officielle, qui reprend le format .geol.yaml et les règles geol check --strict — https://hermes-agent.nousresearch.com/marketplace/eol&lt;/li&gt;&lt;/ul&gt;</Description>
         <Link>https://github.com/opt-nc/geol</Link>
       </Other>
     </Others>
@@ -1616,6 +1620,19 @@
         </Date>
         <Description>&lt;p&gt;Vitrine de ce que permet geol combiné à la data science, à l&amp;#x27;IA et aux outils DevSecOps : rapports PDF d&amp;#x27;évolution de sécurité d&amp;#x27;images conteneurs, générés en LaTeX à partir de scans Trivy, de métadonnées skopeo et des cycles de vie geol. Chaque rapport est maintenu par un agent IA (Claude Code) guidé par un CLAUDE.md qui documente la méthodologie de mise à jour.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;OpenBao v2.4.0 → v2.7.0 (15 versions, rapport 17 pages) : 235 → 1 vulnérabilité (-99,6 %), score de sécurité 29,1 → 100/100, recommandation de production v2.6.3+&lt;/li&gt;&lt;li&gt;Scoring CVE pondéré (Critical 10, High 5, Medium 2, Low 1) à dénominateur fixe — scores stables d&amp;#x27;une édition à l&amp;#x27;autre et comparables entre produits&lt;/li&gt;&lt;li&gt;Analyse de la dérive de la base CVE : mêmes images re-scannées à 5 dates pour séparer le vrai travail de sécurité de l&amp;#x27;artefact de mesure&lt;/li&gt;&lt;li&gt;Fraîcheur de l&amp;#x27;OS de base : croisement geol × historique des tags Docker Hub pour vérifier si chaque image embarquait la dernière Alpine disponible&lt;/li&gt;&lt;li&gt;Rapport PostgreSQL (versions supportées et EOL) : à l&amp;#x27;origine de la publication Zenodo PostgreSQL Security Analysis&lt;/li&gt;&lt;li&gt;Méthodologie reproductible : Taskfile (rescan de toutes les versions sur une même base Trivy), scripts Bash d&amp;#x27;extraction et de scoring&lt;/li&gt;&lt;/ul&gt;</Description>
         <Link>https://github.com/adriens/geol-showcase</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Projets</Title>
+      <Other>
+        <Title>hermes-eol-plugin — Plugin end-of-life pour Hermes Agent</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2026-11</hr:FormattedDateTime>
+          </StartDate>
+        </Date>
+        <Description>&lt;p&gt;Plugin Python pour Hermes Agent (Nous Research), publié sur la marketplace officielle : statut de support et dates de fin de vie en direct pour 480+ produits via l&amp;#x27;API endoflife.date, afin que l&amp;#x27;agent ne réponde plus de mémoire sur les dates de support. Prolonge la saga geol dans l&amp;#x27;écosystème des agents IA.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Publié sur la marketplace Hermes (Nous Research), catégorie Tools — v0.3.0, MIT, sans dépendance externe&lt;/li&gt;&lt;li&gt;5 outils : eol_search, eol_product, eol_check (produit+version, purl ou CPE, à n&amp;#x27;importe quelle date), eol_stack_check et eol_stack_file (fichiers .geol.yaml, règles geol check --strict)&lt;/li&gt;&lt;li&gt;Hook pre_llm_call : ajoute un rappel quand la conversation porte sur des versions, des montées de version, l&amp;#x27;EOL ou des CVE&lt;/li&gt;&lt;li&gt;Divulgations claires : appels réseau uniquement vers endoflife.date, pas d&amp;#x27;accès fichiers, pas de télémétrie, cache mémoire de 6 h&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://hermes-agent.nousresearch.com/marketplace/eol</Link>
       </Other>
     </Others>
     <Others>
@@ -2287,7 +2304,7 @@
       <Title>Référentiel ESCO</Title>
       <Other>
         <Title>IA &amp; Agents</Title>
-        <Description>&lt;ul&gt;&lt;li&gt;principes de l’intelligence artificielle&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;li&gt;traitement automatique du langage naturel&lt;/li&gt;&lt;li&gt;effectuer des recherches dans des bases de données&lt;/li&gt;&lt;li&gt;technologies émergentes&lt;/li&gt;&lt;li&gt;développer des applications de traitement des données&lt;/li&gt;&lt;li&gt;gérer les normes d’échange de données&lt;/li&gt;&lt;li&gt;protéger l’environnement des effets de technologies numériques&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Description>&lt;ul&gt;&lt;li&gt;principes de l’intelligence artificielle&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;li&gt;traitement automatique du langage naturel&lt;/li&gt;&lt;li&gt;effectuer des recherches dans des bases de données&lt;/li&gt;&lt;li&gt;technologies émergentes&lt;/li&gt;&lt;li&gt;développer des applications de traitement des données&lt;/li&gt;&lt;li&gt;gérer les normes d’échange de données&lt;/li&gt;&lt;li&gt;protéger l’environnement des effets de technologies numériques&lt;/li&gt;&lt;li&gt;utiliser une interface spécifique à une application&lt;/li&gt;&lt;/ul&gt;</Description>
       </Other>
     </Others>
     <Others>
