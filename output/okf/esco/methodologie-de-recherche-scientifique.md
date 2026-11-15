@@ -4,7 +4,7 @@ title: méthodologie de recherche scientifique
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/ed3f3dba-3a35-4ed5-b113-67f4d10ef4c8
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-15'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 2 entrées du profil.

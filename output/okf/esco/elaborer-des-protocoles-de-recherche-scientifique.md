@@ -4,7 +4,7 @@ title: élaborer des protocoles de recherche scientifique
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/9b9662e0-100a-4314-9bdc-8146a7105c3d
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-15'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

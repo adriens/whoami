@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-11-11'
 ---
 
-254 concepts ESCO rattachés au profil (retrieved 2026-11-11).
+255 concepts ESCO rattachés au profil (retrieved 2026-11-15).
 
 ## Métiers
 
@@ -254,6 +254,7 @@ timestamp: '2026-11-11'
 - [utiliser la programmation orientée objet](utiliser-la-programmation-orientee-objet.md) — 1 entrées
 - [utiliser les conventions en ligne de la nétiquette](utiliser-les-conventions-en-ligne-de-la-netiquette.md) — 1 entrées
 - [utiliser l’apprentissage automatique](utiliser-lapprentissage-automatique.md) — 3 entrées
+- [utiliser une interface spécifique à une application](utiliser-une-interface-specifique-a-une-application.md) — 1 entrées
 - [vérifier l’exactitude d’informations](verifier-lexactitude-dinformations.md) — 1 entrées
 - [écouter activement](ecouter-activement.md) — 13 entrées
 - [écrire en anglais](ecrire-en-anglais.md) — 1 entrées

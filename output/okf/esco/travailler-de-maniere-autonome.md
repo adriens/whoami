@@ -4,7 +4,7 @@ title: travailler de manière autonome
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/c29aa9d2-4da8-4bdd-831c-8d4a2fb51730
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-15'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

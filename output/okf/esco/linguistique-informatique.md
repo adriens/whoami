@@ -4,7 +4,7 @@ title: linguistique informatique
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/a056851d-4a8b-4007-b0f6-8224ca1ec1c2
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-15'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

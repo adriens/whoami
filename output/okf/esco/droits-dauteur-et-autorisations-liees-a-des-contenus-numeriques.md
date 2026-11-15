@@ -4,7 +4,7 @@ title: droits d’auteur et autorisations liées à des contenus numériques
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/a91732ce-988e-4105-9570-f425c6ffdc82
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-15'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 2 entrées du profil.

@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: international
-description: 27 entrées taguées « international »
+description: 28 entrées taguées « international »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-11-11'
 ---
 
-Concept transversal reliant 27 entrées du profil.
+Concept transversal reliant 28 entrées du profil.
 
 - [Arctic Code Vault Contributor — GitHub](../awards/arctic-code-vault-contributor-github.md) — *Award*
 - [Extension officielle DuckDB Community — apt](../awards/extension-officielle-duckdb-community-apt.md) — *Award*
@@ -24,6 +24,7 @@ Concept transversal reliant 27 entrées du profil.
 - [duckdb-apt — Extension DuckDB Community](../projects/duckdb-apt-extension-duckdb-community.md) — *Project*
 - [duckdb-brew — Extension DuckDB Community](../projects/duckdb-brew-extension-duckdb-community.md) — *Project*
 - [geol — CLI de gestion des End-of-Life](../projects/geol-cli-de-gestion-des-end-of-life.md) — *Project*
+- [hermes-eol-plugin — Plugin end-of-life pour Hermes Agent](../projects/hermes-eol-plugin-plugin-end-of-life-pour-hermes-agent.md) — *Project*
 - [liquibase — Package Chocolatey](../projects/liquibase-package-chocolatey.md) — *Project*
 - [ollama-models — Dataset stats téléchargements LLM](../projects/ollama-models-dataset-stats-telechargements-llm.md) — *Project*
 - [oracle-jutils — Framework PL/SQL Oracle 11g](../projects/oracle-jutils-framework-pl-sql-oracle-11g.md) — *Project*

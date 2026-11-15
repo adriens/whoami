@@ -4,7 +4,7 @@ title: vérifier l’exactitude d’informations
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/525046fb-3e1a-4083-88e7-5db7e88bc4f7
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-15'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

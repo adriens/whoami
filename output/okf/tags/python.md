@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: python
-description: 12 entrées taguées « python »
+description: 13 entrées taguées « python »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-11-11'
 ---
 
-Concept transversal reliant 12 entrées du profil.
+Concept transversal reliant 13 entrées du profil.
 
 - [Notebooks Expert — Kaggle](../awards/notebooks-expert-kaggle.md) — *Award*
 - [API-fication calédonienne — SDKs Java & APIs REST](../projects/api-fication-caledonienne-sdks-java-apis-rest.md) — *Project*
@@ -17,6 +17,7 @@ Concept transversal reliant 12 entrées du profil.
 - [aquavena — SDK Python scraping menus & tarifs Aquavena NC](../projects/aquavena-sdk-python-scraping-menus-tarifs-aquavena-nc.md) — *Project*
 - [auptitcafe — SDK scraping cafés & restaurants NC](../projects/auptitcafe-sdk-scraping-cafes-restaurants-nc.md) — *Project*
 - [edb-noumea — SDK qualité eaux de baignade](../projects/edb-noumea-sdk-qualite-eaux-de-baignade.md) — *Project*
+- [hermes-eol-plugin — Plugin end-of-life pour Hermes Agent](../projects/hermes-eol-plugin-plugin-end-of-life-pour-hermes-agent.md) — *Project*
 - [odata-ncl — Open Data Citoyenne Nouvelle-Calédonie](../projects/odata-ncl-open-data-citoyenne-nouvelle-caledonie.md) — *Project*
 - [Open Data OPT-NC sur Kaggle et Hugging Face](../publications/open-data-opt-nc-sur-kaggle-et-hugging-face.md) — *Publication*
 - [She Is Alone With a Man — biais de nationalité des LLM open-weight (Zenodo)](../publications/she-is-alone-with-a-man-biais-de-nationalite-des-llm-open-weight-zenodo.md) — *Publication*

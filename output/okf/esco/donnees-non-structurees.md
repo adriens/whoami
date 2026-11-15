@@ -4,7 +4,7 @@ title: données non structurées
 description: ESCO skill — knowledge
 resource: http://data.europa.eu/esco/skill/c5e8abde-d2ba-4e8e-a65e-720b71180666
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-15'
 ---
 
 Concept du référentiel européen ESCO (knowledge) relié à 1 entrées du profil.

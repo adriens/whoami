@@ -4,7 +4,7 @@ title: s’engager dans des actions citoyennes au moyen de technologies numériq
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/16a00c69-9c74-4c37-96d7-6301d285e5ce
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-15'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées du profil.

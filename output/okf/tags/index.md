@@ -9,29 +9,29 @@ timestamp: '2026-11-11'
 
 125 concepts transversaux (graphe de connaissances).
 
-- [open-source](open-source.md) — 47 entrées
+- [open-source](open-source.md) — 48 entrées
 - [data](data.md) — 41 entrées
 - [nouvelle-caledonie](nouvelle-caledonie.md) — 41 entrées
 - [pacifique](pacifique.md) — 37 entrées
-- [international](international.md) — 27 entrées
+- [international](international.md) — 28 entrées
 - [transmission](transmission.md) — 25 entrées
 - [civic-tech](civic-tech.md) — 24 entrées
 - [interoperability](interoperability.md) — 24 entrées
 - [api-fication](api-fication.md) — 23 entrées
+- [ai-agents](ai-agents.md) — 22 entrées
 - [mentorat](mentorat.md) — 22 entrées
 - [pedagogy](pedagogy.md) — 22 entrées
-- [ai-agents](ai-agents.md) — 21 entrées
 - [devrel](devrel.md) — 21 entrées
+- [devsecops](devsecops.md) — 21 entrées
 - [open-data](open-data.md) — 21 entrées
-- [devsecops](devsecops.md) — 20 entrées
 - [opt-nc](opt-nc.md) — 19 entrées
 - [innovation](innovation.md) — 17 entrées
 - [pedagogie](pedagogie.md) — 15 entrées
 - [architecture](architecture.md) — 14 entrées
 - [human-centric](human-centric.md) — 14 entrées
 - [java](java.md) — 13 entrées
+- [python](python.md) — 13 entrées
 - [knowledge-sharing](knowledge-sharing.md) — 12 entrées
-- [python](python.md) — 12 entrées
 - [speaker](speaker.md) — 12 entrées
 - [unc-partnership](unc-partnership.md) — 12 entrées
 - [neo4j](neo4j.md) — 11 entrées
@@ -39,12 +39,12 @@ timestamp: '2026-11-11'
 - [duckdb](duckdb.md) — 10 entrées
 - [frugal](frugal.md) — 10 entrées
 - [lasting-impact](lasting-impact.md) — 10 entrées
+- [maintainer](maintainer.md) — 10 entrées
 - [student-recommendation](student-recommendation.md) — 10 entrées
 - [tech-enthusiasm](tech-enthusiasm.md) — 10 entrées
 - [technical-expertise](technical-expertise.md) — 10 entrées
 - [go](go.md) — 9 entrées
 - [knowledge-graph](knowledge-graph.md) — 9 entrées
-- [maintainer](maintainer.md) — 9 entrées
 - [management](management.md) — 9 entrées
 - [curiosite](curiosite.md) — 8 entrées
 - [disponibilite](disponibilite.md) — 8 entrées
@@ -65,6 +65,7 @@ timestamp: '2026-11-11'
 - [communication](communication.md) — 5 entrées
 - [cross-company](cross-company.md) — 5 entrées
 - [force-de-proposition](force-de-proposition.md) — 5 entrées
+- [geol](geol.md) — 5 entrées
 - [hackathon](hackathon.md) — 5 entrées
 - [lean](lean.md) — 5 entrées
 - [packaging](packaging.md) — 5 entrées
@@ -73,10 +74,10 @@ timestamp: '2026-11-11'
 - [architecture-logicielle](architecture-logicielle.md) — 4 entrées
 - [dynamism](dynamism.md) — 4 entrées
 - [embeddings](embeddings.md) — 4 entrées
-- [geol](geol.md) — 4 entrées
 - [mobile](mobile.md) — 4 entrées
 - [pleasure-to-work-with](pleasure-to-work-with.md) — 4 entrées
 - [projet-tutore](projet-tutore.md) — 4 entrées
+- [solo](solo.md) — 4 entrées
 - [api-design](api-design.md) — 3 entrées
 - [community-contribution](community-contribution.md) — 3 entrées
 - [continuous-improvement](continuous-improvement.md) — 3 entrées
@@ -93,7 +94,6 @@ timestamp: '2026-11-11'
 - [qualites-humaines](qualites-humaines.md) — 3 entrées
 - [quarkus](quarkus.md) — 3 entrées
 - [scrum](scrum.md) — 3 entrées
-- [solo](solo.md) — 3 entrées
 - [veille-technologique](veille-technologique.md) — 3 entrées
 - [accessibility](accessibility.md) — 2 entrées
 - [code-quality](code-quality.md) — 2 entrées

@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: devsecops
-description: 20 entrées taguées « devsecops »
+description: 21 entrées taguées « devsecops »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-11-11'
 ---
 
-Concept transversal reliant 20 entrées du profil.
+Concept transversal reliant 21 entrées du profil.
 
 - [Extension officielle DuckDB Community — apt](../awards/extension-officielle-duckdb-community-apt.md) — *Award*
 - [Hacktoberfest Maintainer Spotlight — geol](../awards/hacktoberfest-maintainer-spotlight-geol.md) — *Award*
@@ -17,6 +17,7 @@ Concept transversal reliant 20 entrées du profil.
 - [duckdb-apt — Extension DuckDB Community](../projects/duckdb-apt-extension-duckdb-community.md) — *Project*
 - [geol — CLI de gestion des End-of-Life](../projects/geol-cli-de-gestion-des-end-of-life.md) — *Project*
 - [geol-showcase — Rapports d'évolution de sécurité (OpenBao, PostgreSQL)](../projects/geol-showcase-rapports-d-evolution-de-securite-openbao-postgresql.md) — *Project*
+- [hermes-eol-plugin — Plugin end-of-life pour Hermes Agent](../projects/hermes-eol-plugin-plugin-end-of-life-pour-hermes-agent.md) — *Project*
 - [liquibase — Package Chocolatey](../projects/liquibase-package-chocolatey.md) — *Project*
 - [rfc4180-validator — Validateur CSV strict pour CI/CD](../projects/rfc4180-validator-validateur-csv-strict-pour-ci-cd.md) — *Project*
 - [Chaîne YouTube DevOPS-LAB](../publications/chaine-youtube-devops-lab.md) — *Publication*

@@ -25,6 +25,7 @@ Outil open source (Go) pour gérer les end-of-life des composants logiciels en t
 - Août 2026 — présenté à la Station N devant les commissions Data & IA et Cybersécurité réunies (RSSI, DSI, chefs de projets, développeurs, enseignants et étudiants Licence Info UNC) : 3 démos live, dont l'onboarding d'un repo vierge avec CI en moins de 3 minutes ; feedbacks collectés pour orienter la roadmap produit (https://github.com/opt-nc/geol/issues/469)
 - Sujet de stage ML dérivé du projet : classification des messages de commits sémantiques sur le code source de geol — le repo comme terrain de recherche appliquée pour la Licence Info UNC
 - Onboarding sans friction : scénario interactif Killercoda, image Docker et intégration CI — trois portes d'entrée selon le persona (developer, devops, RSSI/sysadmin)
+- Novembre 2026 — l'écosystème geol s'étend aux agents IA : plugin eol pour Hermes Agent (Nous Research), publié sur la marketplace officielle, qui reprend le format .geol.yaml et les règles geol check --strict — https://hermes-agent.nousresearch.com/marketplace/eol
 
 *Type : open-source*
 

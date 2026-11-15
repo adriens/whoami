@@ -4,7 +4,7 @@ title: synthétiser des publications de recherche
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/a8b3957f-08b4-4a76-927d-0b2e3d0dbd39
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-15'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.

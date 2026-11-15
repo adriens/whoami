@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: open-source
-description: 47 entrées taguées « open-source »
+description: 48 entrées taguées « open-source »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
 timestamp: '2026-11-11'
 ---
 
-Concept transversal reliant 47 entrées du profil.
+Concept transversal reliant 48 entrées du profil.
 
 - [Arctic Code Vault Contributor — GitHub](../awards/arctic-code-vault-contributor-github.md) — *Award*
 - [Extension officielle DuckDB Community — apt](../awards/extension-officielle-duckdb-community-apt.md) — *Award*
@@ -37,6 +37,7 @@ Concept transversal reliant 47 entrées du profil.
 - [edb-noumea — SDK qualité eaux de baignade](../projects/edb-noumea-sdk-qualite-eaux-de-baignade.md) — *Project*
 - [geol — CLI de gestion des End-of-Life](../projects/geol-cli-de-gestion-des-end-of-life.md) — *Project*
 - [geol-showcase — Rapports d'évolution de sécurité (OpenBao, PostgreSQL)](../projects/geol-showcase-rapports-d-evolution-de-securite-openbao-postgresql.md) — *Project*
+- [hermes-eol-plugin — Plugin end-of-life pour Hermes Agent](../projects/hermes-eol-plugin-plugin-end-of-life-pour-hermes-agent.md) — *Project*
 - [liquibase — Package Chocolatey](../projects/liquibase-package-chocolatey.md) — *Project*
 - [mobitag — CLI Go pour l'envoi de SMS](../projects/mobitag-cli-go-pour-l-envoi-de-sms.md) — *Project*
 - [odata-ncl — Open Data Citoyenne Nouvelle-Calédonie](../projects/odata-ncl-open-data-citoyenne-nouvelle-caledonie.md) — *Project*

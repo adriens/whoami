@@ -5,7 +5,7 @@ description: 6/6 compétences DigComp « Communication et collaboration » ratta
   au profil
 resource: https://joint-research-centre.ec.europa.eu/digcomp_en
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-15'
 ---
 
 Domaine 2 de DigComp 2.2 (Communication and collaboration) : 6/6 compétences rattachées au profil.

@@ -4,7 +4,7 @@ title: DigComp 1 — Information et données
 description: 3/3 compétences DigComp « Information et données » rattachées au profil
 resource: https://joint-research-centre.ec.europa.eu/digcomp_en
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-15'
 ---
 
 Domaine 1 de DigComp 2.2 (Information and data literacy) : 3/3 compétences rattachées au profil.

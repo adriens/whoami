@@ -4,7 +4,7 @@ title: aborder des problèmes avec un esprit critique
 description: ESCO skill — skill/competence
 resource: http://data.europa.eu/esco/skill/b9f16465-56a9-426b-a047-0f9f1f95ec92
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-15'
 ---
 
 Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.
