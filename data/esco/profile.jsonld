@@ -5,9 +5,9 @@
   "name": "Adrien Sales",
   "jobTitle": "Architecte SI & Product Builder | Modélisation · Data · IA Agents | LEAN & Innovation frugale | DevRel",
   "url": "https://adriens.github.io/whoami/",
-  "x-esco-retrieved": "2026-11-11",
+  "x-esco-retrieved": "2026-11-15",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.43.1",
+  "x-resume-version": "v1.44.0",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -1081,6 +1081,26 @@
         {
           "@language": "en",
           "@value": "protect the environment from the impact of the digital technologies"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "IA & Agents"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/04fe962b-4017-4eb7-9139-7d69b6922bc9",
+      "termCode": "04fe962b-4017-4eb7-9139-7d69b6922bc9",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "utiliser une interface spécifique à une application"
+        },
+        {
+          "@language": "en",
+          "@value": "use an application-specific interface"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
