@@ -7,7 +7,7 @@
   "url": "https://adriens.github.io/whoami/",
   "x-esco-retrieved": "2026-11-15",
   "x-source": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-  "x-resume-version": "v1.44.0",
+  "x-resume-version": "v1.45.0",
   "hasOccupation": [
     {
       "@type": "Occupation",
@@ -187,6 +187,30 @@
       },
       "x-position": "Contributeur civic data — Réutilisations open data",
       "x-organization": "data.gouv.nc — Portail open data officiel de Nouvelle-Calédonie",
+      "x-volunteer": true
+    },
+    {
+      "@type": "Occupation",
+      "name": "chargé de mission/chargée de mission",
+      "occupationalCategory": {
+        "@type": "DefinedTerm",
+        "@id": "http://data.europa.eu/esco/occupation/caf7b8fb-b2d6-46b7-bffa-bea7f8e4aed8",
+        "termCode": "caf7b8fb-b2d6-46b7-bffa-bea7f8e4aed8",
+        "name": [
+          {
+            "@language": "fr",
+            "@value": "chargé de mission/chargée de mission"
+          },
+          {
+            "@language": "en",
+            "@value": "policy officer"
+          }
+        ],
+        "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/occupations",
+        "x-isco-code": "2422.10"
+      },
+      "x-position": "Membre actif — Analyse documentaire pour la Nouvelle-Calédonie",
+      "x-organization": "Global Data Barometer — 1ère édition (via la Communauté du Pacifique, CPS)",
       "x-volunteer": true
     },
     {
@@ -2418,6 +2442,27 @@
     },
     {
       "@type": "DefinedTerm",
+      "@id": "http://data.europa.eu/esco/skill/1d6c7de4-350e-4868-a47b-333b4b0d9650",
+      "termCode": "1d6c7de4-350e-4868-a47b-333b4b0d9650",
+      "name": [
+        {
+          "@language": "fr",
+          "@value": "évaluer des données, des informations et des contenus numériques"
+        },
+        {
+          "@language": "en",
+          "@value": "evaluate data, information and digital content"
+        }
+      ],
+      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
+      "x-esco-type": "skill/competence",
+      "x-profile-skills": [
+        "Open Data & Data Science",
+        "Recherche appliquée & évaluation responsable de l'IA"
+      ]
+    },
+    {
+      "@type": "DefinedTerm",
       "@id": "http://data.europa.eu/esco/skill/7dd94ad3-13d6-43fe-8b94-51fcbf67ced9",
       "termCode": "7dd94ad3-13d6-43fe-8b94-51fcbf67ced9",
       "name": [
@@ -2549,26 +2594,6 @@
         {
           "@language": "en",
           "@value": "check correctness of information"
-        }
-      ],
-      "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
-      "x-esco-type": "skill/competence",
-      "x-profile-skills": [
-        "Recherche appliquée & évaluation responsable de l'IA"
-      ]
-    },
-    {
-      "@type": "DefinedTerm",
-      "@id": "http://data.europa.eu/esco/skill/1d6c7de4-350e-4868-a47b-333b4b0d9650",
-      "termCode": "1d6c7de4-350e-4868-a47b-333b4b0d9650",
-      "name": [
-        {
-          "@language": "fr",
-          "@value": "évaluer des données, des informations et des contenus numériques"
-        },
-        {
-          "@language": "en",
-          "@value": "evaluate data, information and digital content"
         }
       ],
       "inDefinedTermSet": "http://data.europa.eu/esco/concept-scheme/skills",
