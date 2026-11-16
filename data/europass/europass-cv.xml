@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Candidate xmlns="http://www.europass.eu/1.0" xmlns:eures="http://www.europass_eures.eu/1.0" xmlns:hr="http://www.hr-xml.org/3" xmlns:oa="http://www.openapplications.org/oagis/9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.europass.eu/1.0 Candidate.xsd">
-  <hr:DocumentID schemeID="whoami-v1.44.0" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
+  <hr:DocumentID schemeID="whoami-v1.45.0" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0" />
   <CandidateSupplier>
-    <hr:PartyID schemeID="whoami-v1.44.0" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
+    <hr:PartyID schemeID="whoami-v1.45.0" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0" />
     <hr:PartyName>Owner</hr:PartyName>
     <PersonContact>
       <PersonName>
@@ -1091,6 +1091,10 @@
           <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
           <hr:CompetencyName>Civic tech &amp; open data citoyenne NC (odata-ncl, réutilisations data.gouv.nc, SDKs ouverts sur des s</hr:CompetencyName>
         </PersonCompetency>
+        <PersonCompetency>
+          <hr:TaxonomyID>Digital_Skill</hr:TaxonomyID>
+          <hr:CompetencyName>Évaluation de l'écosystème open data NC sur un cadre international (Global Data Barometer 2021, CPS</hr:CompetencyName>
+        </PersonCompetency>
       </SkillsGroup>
       <SkillsGroup>
         <Title>Recherche appliquée &amp; évaluation responsable de l'IA (Avancé)</Title>
@@ -1388,6 +1392,22 @@
         </Date>
         <Description>&lt;p&gt;Publication de réutilisations sur le portail open data officiel de Nouvelle-Calédonie : analyse et visualisation de données publiques locales à fort impact sociétal (sécurité maritime, qualité des eaux de baignade, sécurité routière). Démarche #techforgood et innovation frugale.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Attaques de requins NC : dataset Kaggle, 3 notebooks d&amp;#x27;analyse géospatiale, rapport PDF généré via Quarto — sécurité maritime citoyenne documentée en data science&lt;/li&gt;&lt;li&gt;Eaux de baignade Nouméa : package Python edb-noumea (PyPI v0.4.0), TUI Go, données live — réutilisation publiée et maintenue sur data.gouv.nc&lt;/li&gt;&lt;li&gt;Pattern reproductible #techforgood : open data → scraping → dataset Kaggle → notebooks → rapport Quarto&lt;/li&gt;&lt;/ul&gt;</Description>
         <Link>https://data.gouv.nc</Link>
+      </Other>
+    </Others>
+    <Others>
+      <Title>Bénévolat</Title>
+      <Other>
+        <Title>Membre actif — Analyse documentaire pour la Nouvelle-Calédonie — Global Data Barometer — 1ère édition (via la Communauté du Pacifique, CPS)</Title>
+        <Date>
+          <StartDate>
+            <hr:FormattedDateTime>2021-05</hr:FormattedDateTime>
+          </StartDate>
+          <EndDate>
+            <hr:FormattedDateTime>2021-12</hr:FormattedDateTime>
+          </EndDate>
+        </Date>
+        <Description>&lt;p&gt;Contribution à la 1ère édition du Global Data Barometer pour la Nouvelle-Calédonie, via le hub Pacifique (Communauté du Pacifique, CPS — coordination Ida Carapelle Goossens) : analyse des documents publics (textes, politiques et cadres de données, portails) pour compléter les formulaires de l&amp;#x27;enquête d&amp;#x27;experts sur la gouvernance, les capacités, la disponibilité et l&amp;#x27;usage des données d&amp;#x27;intérêt public. La Nouvelle-Calédonie n&amp;#x27;a pas été retenue dans le rapport final (109 pays, mai 2022).&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Analyse documentaire des sources publiques calédoniennes pour renseigner les indicateurs GDB (gouvernance, capacités, disponibilité, usage et impact des données)&lt;/li&gt;&lt;li&gt;Premier jalon d&amp;#x27;évaluation de l&amp;#x27;écosystème open data NC à l&amp;#x27;aune d&amp;#x27;un cadre international, avant les travaux ODD × open data NC (2023)&lt;/li&gt;&lt;li&gt;Rapport : https://firstedition.globaldatabarometer.org/wp-content/uploads/2022/05/GDB-Report-English.pdf&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Link>https://globaldatabarometer.org</Link>
       </Other>
     </Others>
     <Others>
@@ -2346,7 +2366,7 @@
       <Title>Référentiel ESCO</Title>
       <Other>
         <Title>Open Data &amp; Data Science</Title>
-        <Description>&lt;ul&gt;&lt;li&gt;Python (programmation informatique)&lt;/li&gt;&lt;li&gt;effectuer une analyse de données&lt;/li&gt;&lt;li&gt;procéder à l’extraction de données&lt;/li&gt;&lt;li&gt;créer des ensembles de données&lt;/li&gt;&lt;li&gt;gérer les métadonnées de contenu&lt;/li&gt;&lt;li&gt;participer à des échanges au moyen de technologies numériques&lt;/li&gt;&lt;li&gt;normaliser les données&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;li&gt;gérer l’intégration sémantique des TIC&lt;/li&gt;&lt;li&gt;tirer parti de données, d’informations et de contenus numériques par la navigation, les recherches et le filtrage&lt;/li&gt;&lt;li&gt;s’engager dans des actions citoyennes au moyen de technologies numériques&lt;/li&gt;&lt;/ul&gt;</Description>
+        <Description>&lt;ul&gt;&lt;li&gt;Python (programmation informatique)&lt;/li&gt;&lt;li&gt;effectuer une analyse de données&lt;/li&gt;&lt;li&gt;procéder à l’extraction de données&lt;/li&gt;&lt;li&gt;créer des ensembles de données&lt;/li&gt;&lt;li&gt;gérer les métadonnées de contenu&lt;/li&gt;&lt;li&gt;participer à des échanges au moyen de technologies numériques&lt;/li&gt;&lt;li&gt;normaliser les données&lt;/li&gt;&lt;li&gt;utiliser l’apprentissage automatique&lt;/li&gt;&lt;li&gt;gérer l’intégration sémantique des TIC&lt;/li&gt;&lt;li&gt;tirer parti de données, d’informations et de contenus numériques par la navigation, les recherches et le filtrage&lt;/li&gt;&lt;li&gt;s’engager dans des actions citoyennes au moyen de technologies numériques&lt;/li&gt;&lt;li&gt;évaluer des données, des informations et des contenus numériques&lt;/li&gt;&lt;/ul&gt;</Description>
       </Other>
     </Others>
     <Others>
