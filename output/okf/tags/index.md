@@ -4,26 +4,26 @@ title: Tags
 description: Graphe de concepts (x-tags)
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-16'
 ---
 
 125 concepts transversaux (graphe de connaissances).
 
 - [open-source](open-source.md) — 48 entrées
-- [data](data.md) — 41 entrées
-- [nouvelle-caledonie](nouvelle-caledonie.md) — 41 entrées
-- [pacifique](pacifique.md) — 37 entrées
-- [international](international.md) — 28 entrées
+- [data](data.md) — 42 entrées
+- [nouvelle-caledonie](nouvelle-caledonie.md) — 42 entrées
+- [pacifique](pacifique.md) — 38 entrées
+- [international](international.md) — 29 entrées
+- [civic-tech](civic-tech.md) — 25 entrées
 - [transmission](transmission.md) — 25 entrées
-- [civic-tech](civic-tech.md) — 24 entrées
 - [interoperability](interoperability.md) — 24 entrées
 - [api-fication](api-fication.md) — 23 entrées
 - [ai-agents](ai-agents.md) — 22 entrées
 - [mentorat](mentorat.md) — 22 entrées
+- [open-data](open-data.md) — 22 entrées
 - [pedagogy](pedagogy.md) — 22 entrées
 - [devrel](devrel.md) — 21 entrées
 - [devsecops](devsecops.md) — 21 entrées
-- [open-data](open-data.md) — 21 entrées
 - [opt-nc](opt-nc.md) — 19 entrées
 - [innovation](innovation.md) — 17 entrées
 - [pedagogie](pedagogie.md) — 15 entrées

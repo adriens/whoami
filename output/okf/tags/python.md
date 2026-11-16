@@ -4,7 +4,7 @@ title: python
 description: 13 entrées taguées « python »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-16'
 ---
 
 Concept transversal reliant 13 entrées du profil.

@@ -8,12 +8,12 @@ tags:
 - duckdb
 - open-data
 - python
-timestamp: '2026-11-11'
+timestamp: '2026-11-16'
 ---
 
 **Niveau : Avancé**
 
-Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création et publication de datasets open data (Kaggle, Hugging Face), Hackathons, uv, poetry, PyPI, PyPI maintainer, Détection d'anomalies (XGBoost, k-means — PRIX.NC), Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face), Alignement de corpus sur référentiels (ESCO, ROME, ISCO), Civic tech & open data citoyenne NC (odata-ncl, réutilisations data.gouv.nc, SDKs ouverts sur des services publics locaux : ColisNC, edb-noumea, domaine.nc)
+Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création et publication de datasets open data (Kaggle, Hugging Face), Hackathons, uv, poetry, PyPI, PyPI maintainer, Détection d'anomalies (XGBoost, k-means — PRIX.NC), Référentiel métiers & compétences OPT-NC en open data (DuckDB, SQLite, Hugging Face), Alignement de corpus sur référentiels (ESCO, ROME, ISCO), Civic tech & open data citoyenne NC (odata-ncl, réutilisations data.gouv.nc, SDKs ouverts sur des services publics locaux : ColisNC, edb-noumea, domaine.nc), Évaluation de l'écosystème open data NC sur un cadre international (Global Data Barometer 2021, CPS — analyse documentaire)
 
 **Compétences ESCO :**
 - [Python (programmation informatique)](../esco/python-programmation-informatique.md) — *knowledge*
@@ -27,5 +27,6 @@ Mots-clés : Kaggle, Python, Pandas, DuckDB, Web scraping, Open Data, Création 
 - [gérer l’intégration sémantique des TIC](../esco/gerer-lintegration-semantique-des-tic.md) — *skill/competence*
 - [tirer parti de données, d’informations et de contenus numériques par la navigation, les recherches et le filtrage](../esco/tirer-parti-de-donnees-dinformations-et-de-contenus-numeriques-par-la-navigation-les-recherches-et-le-filtrage.md) — *skill/competence*
 - [s’engager dans des actions citoyennes au moyen de technologies numériques](../esco/sengager-dans-des-actions-citoyennes-au-moyen-de-technologies-numeriques.md) — *skill/competence*
+- [évaluer des données, des informations et des contenus numériques](../esco/evaluer-des-donnees-des-informations-et-des-contenus-numeriques.md) — *skill/competence*
 
 **Tags :** [duckdb](../tags/duckdb.md), [open-data](../tags/open-data.md), [python](../tags/python.md)

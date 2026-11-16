@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: pacifique
-description: 37 entrées taguées « pacifique »
+description: 38 entrées taguées « pacifique »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-16'
 ---
 
-Concept transversal reliant 37 entrées du profil.
+Concept transversal reliant 38 entrées du profil.
 
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute.md) — *Award*
 - [Speaker — PMI Horizons Nouméa (Project Management Institute)](../awards/speaker-pmi-horizons-noumea-project-management-institute-2.md) — *Award*
@@ -42,6 +42,7 @@ Concept transversal reliant 37 entrées du profil.
 - [José GOUE](../references/jose-goue.md) — *Reference*
 - [Contributeur civic data — Réutilisations open data @ data.gouv.nc — Portail open data officiel de Nouvelle-Calédonie](../volunteer/data-gouv-nc-portail-open-data-officiel-de-nouvelle-caledonie-contributeur-civic-data-reutilisations-open-data.md) — *Volunteer*
 - [Enseignant vacataire — Module Interopérabilité des SI @ Université de Nouvelle-Calédonie — Master MIAGE (IAE)](../volunteer/universite-de-nouvelle-caledonie-master-miage-iae-enseignant-vacataire-module-interoperabilite-des-si.md) — *Volunteer*
+- [Membre actif — Analyse documentaire pour la Nouvelle-Calédonie @ Global Data Barometer — 1ère édition (via la Communauté du Pacifique, CPS)](../volunteer/global-data-barometer-1ere-edition-via-la-communaute-du-pacifique-cps-membre-actif-analyse-documentaire-pour-la-nouvelle-caledonie.md) — *Volunteer*
 - [Membre actif — Conférencier @ Station N — Commission Data & IA](../volunteer/station-n-commission-data-ia-membre-actif-conferencier.md) — *Volunteer*
 - [Architecte Logiciel / Chef de Section Développement & Maintenance @ DSI Ville de Nouméa](../work/dsi-ville-de-noumea-architecte-logiciel-chef-de-section-developpement-maintenance.md) — *Work Experience*
 - [Chef de Section GLIA — Génie Logiciel Inter-Applicatif @ OPT-NC (Office des Postes et Télécommunications de Nouvelle-Calédonie)](../work/opt-nc-office-des-postes-et-telecommunications-de-nouvelle-caledonie-chef-de-section-glia-genie-logiciel-inter-applicatif.md) — *Work Experience*

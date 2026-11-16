@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: data
-description: 41 entrées taguées « data »
+description: 42 entrées taguées « data »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-16'
 ---
 
-Concept transversal reliant 41 entrées du profil.
+Concept transversal reliant 42 entrées du profil.
 
 - [Extension officielle DuckDB Community — apt](../awards/extension-officielle-duckdb-community-apt.md) — *Award*
 - [Extension officielle DuckDB Community — brew](../awards/extension-officielle-duckdb-community-brew.md) — *Award*
@@ -45,6 +45,7 @@ Concept transversal reliant 41 entrées du profil.
 - [Paul Monimeau](../references/paul-monimeau.md) — *Reference*
 - [Thouraya Sakis](../references/thouraya-sakis.md) — *Reference*
 - [Contributeur civic data — Réutilisations open data @ data.gouv.nc — Portail open data officiel de Nouvelle-Calédonie](../volunteer/data-gouv-nc-portail-open-data-officiel-de-nouvelle-caledonie-contributeur-civic-data-reutilisations-open-data.md) — *Volunteer*
+- [Membre actif — Analyse documentaire pour la Nouvelle-Calédonie @ Global Data Barometer — 1ère édition (via la Communauté du Pacifique, CPS)](../volunteer/global-data-barometer-1ere-edition-via-la-communaute-du-pacifique-cps-membre-actif-analyse-documentaire-pour-la-nouvelle-caledonie.md) — *Volunteer*
 - [Membre actif — Conférencier @ Station N — Commission Data & IA](../volunteer/station-n-commission-data-ia-membre-actif-conferencier.md) — *Volunteer*
 - [Architecte Logiciel / Chef de Section Développement & Maintenance @ DSI Ville de Nouméa](../work/dsi-ville-de-noumea-architecte-logiciel-chef-de-section-developpement-maintenance.md) — *Work Experience*
 - [Chef de Section GLIA — Génie Logiciel Inter-Applicatif @ OPT-NC (Office des Postes et Télécommunications de Nouvelle-Calédonie)](../work/opt-nc-office-des-postes-et-telecommunications-de-nouvelle-caledonie-chef-de-section-glia-genie-logiciel-inter-applicatif.md) — *Work Experience*

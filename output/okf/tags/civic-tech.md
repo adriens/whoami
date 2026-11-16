@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: civic-tech
-description: 24 entrées taguées « civic-tech »
+description: 25 entrées taguées « civic-tech »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-16'
 ---
 
-Concept transversal reliant 24 entrées du profil.
+Concept transversal reliant 25 entrées du profil.
 
 - [Mentor Pépite NC 2025 — équipe WAZA lauréate](../awards/mentor-pepite-nc-2025-equipe-waza-laureate.md) — *Award*
 - [Speaker — NODES 2023 (Conférence internationale Neo4j)](../awards/speaker-nodes-2023-conference-internationale-neo4j.md) — *Award*
@@ -33,3 +33,4 @@ Concept transversal reliant 24 entrées du profil.
 - [Thouraya Sakis](../references/thouraya-sakis.md) — *Reference*
 - [Contributeur civic data — Réutilisations open data @ data.gouv.nc — Portail open data officiel de Nouvelle-Calédonie](../volunteer/data-gouv-nc-portail-open-data-officiel-de-nouvelle-caledonie-contributeur-civic-data-reutilisations-open-data.md) — *Volunteer*
 - [Enseignant vacataire — Module Interopérabilité des SI @ Université de Nouvelle-Calédonie — Master MIAGE (IAE)](../volunteer/universite-de-nouvelle-caledonie-master-miage-iae-enseignant-vacataire-module-interoperabilite-des-si.md) — *Volunteer*
+- [Membre actif — Analyse documentaire pour la Nouvelle-Calédonie @ Global Data Barometer — 1ère édition (via la Communauté du Pacifique, CPS)](../volunteer/global-data-barometer-1ere-edition-via-la-communaute-du-pacifique-cps-membre-actif-analyse-documentaire-pour-la-nouvelle-caledonie.md) — *Volunteer*

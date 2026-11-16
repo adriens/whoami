@@ -1,13 +1,13 @@
 ---
 type: Tag
 title: international
-description: 28 entrées taguées « international »
+description: 29 entrées taguées « international »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-16'
 ---
 
-Concept transversal reliant 28 entrées du profil.
+Concept transversal reliant 29 entrées du profil.
 
 - [Arctic Code Vault Contributor — GitHub](../awards/arctic-code-vault-contributor-github.md) — *Award*
 - [Extension officielle DuckDB Community — apt](../awards/extension-officielle-duckdb-community-apt.md) — *Award*
@@ -35,5 +35,6 @@ Concept transversal reliant 28 entrées du profil.
 - [Julie Besson](../references/julie-besson.md) — *Reference*
 - [Yolande Poirier](../references/yolande-poirier.md) — *Reference*
 - [Contributeur de données @ endoflife.date — Projet open source communautaire](../volunteer/endoflife-date-projet-open-source-communautaire-contributeur-de-donnees.md) — *Volunteer*
+- [Membre actif — Analyse documentaire pour la Nouvelle-Calédonie @ Global Data Barometer — 1ère édition (via la Communauté du Pacifique, CPS)](../volunteer/global-data-barometer-1ere-edition-via-la-communaute-du-pacifique-cps-membre-actif-analyse-documentaire-pour-la-nouvelle-caledonie.md) — *Volunteer*
 - [Consultant Développeur — Couche Base de Données @ Experian Decision Analytics](../work/experian-decision-analytics-consultant-developpeur-couche-base-de-donnees.md) — *Work Experience*
 - [DBA — Oracle & PostgreSQL @ Docaposte](../work/docaposte-dba-oracle-postgresql.md) — *Work Experience*

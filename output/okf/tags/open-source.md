@@ -4,7 +4,7 @@ title: open-source
 description: 48 entrées taguées « open-source »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-16'
 ---
 
 Concept transversal reliant 48 entrées du profil.

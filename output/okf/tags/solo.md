@@ -4,7 +4,7 @@ title: solo
 description: 4 entrées taguées « solo »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-16'
 ---
 
 Concept transversal reliant 4 entrées du profil.

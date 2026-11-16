@@ -4,7 +4,7 @@ title: DigComp
 description: Compétences numériques — référentiel européen DigComp 2.2
 resource: https://joint-research-centre.ec.europa.eu/digcomp_en
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-16'
 ---
 
 20/21 compétences DigComp 2.2 rattachées au profil via ESCO.

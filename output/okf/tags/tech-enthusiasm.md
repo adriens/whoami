@@ -4,7 +4,7 @@ title: tech-enthusiasm
 description: 10 entrées taguées « tech-enthusiasm »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-16'
 ---
 
 Concept transversal reliant 10 entrées du profil.

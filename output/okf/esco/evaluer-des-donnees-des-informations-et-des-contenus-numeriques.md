@@ -7,7 +7,7 @@ tags: []
 timestamp: '2026-11-15'
 ---
 
-Concept du référentiel européen ESCO (skill/competence) relié à 1 entrées du profil.
+Concept du référentiel européen ESCO (skill/competence) relié à 2 entrées du profil.
 
 URI : <http://data.europa.eu/esco/skill/1d6c7de4-350e-4868-a47b-333b4b0d9650>
 
@@ -15,4 +15,5 @@ Fiche : <https://esco.ec.europa.eu/fr/classification/skill?uri=http%3A%2F%2Fdata
 
 Compétence numérique DigComp 1.2 — [domaine](../digcomp/information-et-donnees.md)
 
+- [Open Data & Data Science](../skills/open-data-data-science.md) — *Skill*
 - [Recherche appliquée & évaluation responsable de l'IA](../skills/recherche-appliquee-evaluation-responsable-de-l-ia.md) — *Skill*

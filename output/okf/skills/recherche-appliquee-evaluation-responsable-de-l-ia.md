@@ -5,7 +5,7 @@ description: 'Avancé — Audit de biais d''IA adossé au cadre ONU des droits h
   (A/HRC/56/68, CIEDR : 4 recommandations §68 d, k, m, f tradu…'
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-16'
 ---
 
 **Niveau : Avancé**

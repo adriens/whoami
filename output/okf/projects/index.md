@@ -4,7 +4,7 @@ title: Projects
 description: Index de la section projects
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-11'
+timestamp: '2026-11-16'
 ---
 
 35 entrées.
