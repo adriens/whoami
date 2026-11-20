@@ -4,7 +4,7 @@ title: ESCO
 description: Concepts du référentiel européen ESCO
 resource: https://esco.ec.europa.eu/
 tags: []
-timestamp: '2026-11-16'
+timestamp: '2026-11-21'
 ---
 
 256 concepts ESCO rattachés au profil (retrieved 2026-11-15).

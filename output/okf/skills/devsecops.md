@@ -7,7 +7,7 @@ resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.js
 tags:
 - devsecops
 - geol
-timestamp: '2026-11-16'
+timestamp: '2026-11-21'
 ---
 
 **Niveau : Avancé**

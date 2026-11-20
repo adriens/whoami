@@ -4,7 +4,7 @@ title: linux
 description: 2 entrées taguées « linux »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-16'
+timestamp: '2026-11-21'
 ---
 
 Concept transversal reliant 2 entrées du profil.

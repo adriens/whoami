@@ -25,11 +25,13 @@ Benchmark à grande échelle du biais de nationalité dans les conseils de sécu
 - Nommer une nationalité suffit : réponses à préjugés de 3 % (« un homme ») à 62 % dès qu'il en a une, quelle qu'elle soit (4 modèles ≥ 8B, taxi, ascenseur, rue isolée)
 - Nationalité masquée devinée 6× mieux que le hasard par un classifieur de texte ; lexicométrie : qualités vs origine
 - Plus gros modèles pas plus justes : le biais change de forme
-- 2 datasets Kaggle (réponses + verdicts, PIB/hab. Banque mondiale — CC BY 4.0) + 11 notebooks, collection kaggle.com/work/collections/19371544
+- 2 datasets Kaggle (réponses + verdicts, PIB/hab. Banque mondiale — CC BY 4.0) + 11 notebooks, listés dans le README du repo GitHub (section Resources)
 - Plus le pays est riche, plus l'IA est chaleureuse : compliments corrélés au PIB/hab. (Spearman ρ = 0,73), y compris au sein d'un même continent
+- Plus une nationalité est complimentée, moins on conseille à une adolescente de 15 ans de se protéger (7 modèles poolés, ~231 verdicts par nationalité : de 53 % pour un Japonais à 76 % pour un Russe, Spearman ρ = −0,90)
+- Positionnement face à l'état de l'art (v1.9) : Hu et al. (2025, Nature Computational Science, 77 modèles) mesurent un biais « nous » vs « eux » abstrait, en anglais ; cette étude montre contre qui il est dirigé, en français, et sous des formes invisibles à un score de sentiment (refus, « son origine ne compte pas »)
 - Frugal : 89 h GPU (2 × T4) + 6 h CPU, 0 € — tout sur le quota gratuit Kaggle
 - Positionnement ONU (v1.5) : l'alerte (RTS), le cadre (rapport A/HRC/56/68 de la Rapporteuse spéciale sur le racisme), la mesure. 13 questions sur 15 mesurées, matrice sourcée paragraphe par paragraphe ; 4 recommandations (§68 d, k, m, f) traduites en protocole reproductible — « The UN asks for tests; here is one. »
-- Rapport Zenodo en 7 PDF (92 p., version 8 p., carrousel 16 slides, visuels carrés, positionnement ONU 10 p. + 6 p.), 5 versions publiées avec changelog — résultats inchangés : DOI 10.5281/zenodo.23991568
+- Rapport Zenodo en 7 PDF (97 p., version 8 p., carrousel 16 slides, visuels carrés, positionnement ONU 10 p. + 6 p.), 9 versions publiées avec changelog — données et résultats inchangés : DOI 10.5281/zenodo.23991568
 
 *Type : open-source*
 

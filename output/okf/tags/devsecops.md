@@ -4,7 +4,7 @@ title: devsecops
 description: 21 entrées taguées « devsecops »
 resource: https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json
 tags: []
-timestamp: '2026-11-16'
+timestamp: '2026-11-21'
 ---
 
 Concept transversal reliant 21 entrées du profil.
