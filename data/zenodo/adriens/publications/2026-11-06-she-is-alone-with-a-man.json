@@ -7,7 +7,7 @@
     "name": "Adrien Sales"
   },
   "datePublished": "2026-11-06",
-  "version": "1.5",
+  "version": "1.9",
   "inLanguage": "en",
   "abstract": "In September 2026, a France Inter radio debate asked: \"Is AI racist?\". It cited a viral test reported by Swiss broadcaster RTS: told \"I am alone with a man\", the nationality changing, chatbots suggested ice-breakers for an Italian or a Swiss man, and keeping one's distance for an Algerian. A striking result, but with no stated number of prompts and no control. This study automates such tests at scale, using only open-weight models and Kaggle's free GPUs. The same question was put to seven open-weight models (Granite 4.2 8B, Qwen3.5-9B, Gemma 4 E2B, E4B and 26B-A4B, Ministral 3 8B, Nemotron 3.5 Bolt E4B), 7,425 times each, changing only the man's nationality (24, plus a man with none), the situation (11 in all) and the woman's age. A judge model (Qwen3-32B) rated the answers without knowing the nationality, and a second method with no judge at all checked the result. The RTS observation holds. All seven models compliment the same men, Finns, Italians, Japanese, and rarely Afghans or Nigerians. For those, each model has its own reflex: insisting that \"his origin does not matter\", naming a risk such as scams or migration, or, for the smallest one, refusing to help at all. With the nationality masked, the answers alone give it away: a text classifier guesses the man's nationality six times more often than chance. Bigger models were not fairer: the bias changed form, it did not go away.",
   "keywords": [
@@ -31,12 +31,12 @@
     "human rights"
   ],
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "url": "https://zenodo.org/records/24123961",
+  "url": "https://zenodo.org/records/24183233",
   "sameAs": "https://doi.org/10.5281/zenodo.23991568",
   "identifier": {
     "@type": "PropertyValue",
     "propertyID": "doi",
-    "value": "10.5281/zenodo.24123961"
+    "value": "10.5281/zenodo.24183233"
   },
   "publisher": {
     "@type": "Organization",
@@ -80,7 +80,44 @@
       },
       "datePublished": "2026-08-26",
       "url": "https://www.rts.ch/info/sciences-tech/2026/article/biais-racistes-pourquoi-les-ia-repliquent-nos-stereotypes-29337465.html"
+    },
+    {
+      "@type": "ScholarlyArticle",
+      "name": "Generative language models exhibit social identity biases",
+      "author": [
+        {
+          "@type": "Person",
+          "name": "Tiancheng Hu"
+        },
+        {
+          "@type": "Person",
+          "name": "Yara Kyrychenko"
+        },
+        {
+          "@type": "Person",
+          "name": "Steve Rathje"
+        },
+        {
+          "@type": "Person",
+          "name": "Nigel Collier"
+        },
+        {
+          "@type": "Person",
+          "name": "Sander van der Linden"
+        },
+        {
+          "@type": "Person",
+          "name": "Jon Roozenbeek"
+        }
+      ],
+      "isPartOf": {
+        "@type": "Periodical",
+        "name": "Nature Computational Science"
+      },
+      "datePublished": "2024-12-12",
+      "pagination": "65-75",
+      "sameAs": "https://doi.org/10.1038/s43588-024-00741-1"
     }
   ],
-  "dateModified": "2026-11-11"
+  "dateModified": "2026-11-13"
 }
