@@ -978,7 +978,7 @@
         "responsible-ai"
       ],
       "url": "https://doi.org/10.5281/zenodo.23991568",
-      "summary": "Rapport scientifique (DOI concept : 10.5281/zenodo.23991568, v1.5 : 10.5281/zenodo.24123961, CC BY 4.0) du projet Alone With a Stranger : vérification à grande échelle d'un test viral relayé par RTS et cité dans un débat France Inter (« L'IA est-elle raciste ? »). 7 modèles open-weight, 51 975 réponses, juge LLM en aveugle + méthode sans juge (classifieur, lexicométrie). Les 7 modèles complimentent les mêmes hommes ; réponses à préjugés de 3 % (« un homme ») à 62 % dès qu'une nationalité est nommée (4 modèles ≥ 8B, taxi/ascenseur/rue isolée) ; compliments corrélés au PIB/hab. (Spearman ρ = 0,73). Depuis la v1.5, positionnement face au rapport ONU A/HRC/56/68 de la Rapporteuse spéciale sur le racisme : 13 questions sur 15 mesurées, 4 recommandations (§68 d, k, m, f : tests avant déploiement, données désagrégées, audits, transparence) traduites en protocole reproductible, dans un domaine que l'ONU ne couvre pas (conseils de sécurité personnelle). Livré en 7 PDF : rapport complet (92 p., Quarto/R/XeLaTeX), version courte (8 p.), carrousel 16 slides, 4 visuels carrés, positionnement ONU (10 p., version 6 p., 4 visuels carrés)."
+      "summary": "Rapport scientifique (DOI concept : 10.5281/zenodo.23991568, v1.9 : 10.5281/zenodo.24183233, CC BY 4.0) du projet Alone With a Stranger : vérification à grande échelle d'un test viral relayé par RTS et cité dans un débat France Inter (« L'IA est-elle raciste ? »). 7 modèles open-weight, 51 975 réponses, juge LLM en aveugle + méthode sans juge (classifieur, lexicométrie). Les 7 modèles complimentent les mêmes hommes ; réponses à préjugés de 3 % (« un homme ») à 62 % dès qu'une nationalité est nommée (4 modèles ≥ 8B, taxi/ascenseur/rue isolée) ; compliments corrélés au PIB/hab. (Spearman ρ = 0,73). Depuis la v1.5, positionnement face au rapport ONU A/HRC/56/68 de la Rapporteuse spéciale sur le racisme : 13 questions sur 15 mesurées, 4 recommandations (§68 d, k, m, f : tests avant déploiement, données désagrégées, audits, transparence) traduites en protocole reproductible, dans un domaine que l'ONU ne couvre pas (conseils de sécurité personnelle). Depuis la v1.9, positionnement face à l'état de l'art : Hu et al. (2025, Nature Computational Science) montrent sur 77 modèles, en anglais, un biais abstrait « nous » vs « eux » ; cette étude montre contre qui il est dirigé (24 nationalités nommées, selon la richesse du pays), en français, et sous des formes qu'un score de sentiment ne compte pas (refus, « son origine ne compte pas » non sollicité). Livré en 7 PDF : rapport complet (97 p., Quarto/R/XeLaTeX), version courte (8 p.), carrousel 16 slides, 4 visuels carrés, positionnement ONU (10 p., version 6 p., 4 visuels carrés)."
     }
   ],
   "skills": [
@@ -2207,7 +2207,8 @@
       "level": "Avancé",
       "keywords": [
         "Audit de biais d'IA adossé au cadre ONU des droits humains (A/HRC/56/68, CIEDR : 4 recommandations §68 d, k, m, f traduites en protocole reproductible, matrice de couverture sourcée — 13 questions sur 15 mesurées)",
-        "Protocole expérimental contrôlé et pré-déclaré (groupe témoin, une seule variable, familles de risques déclarées avant confirmation, intervalles de Wilson, correction de Holm)",
+        "Protocole expérimental contrôlé et pré-déclaré (groupe témoin, une seule variable, familles de risques déclarées avant confirmation, intervalles de Wilson, correction de Holm, test de permutation par prompt, fiabilité split-half des classements)",
+        "Positionnement face à l'état de l'art (Hu et al. 2025, Nature Computational Science — 77 modèles, biais d'identité sociale : tableau comparatif, section discussion dédiée)",
         "Ancrage des travaux data/IA dans les cadres de l'ONU depuis 2023 : ODD 4 et 5 × open data NC (Kaggle, Dev.to, NODES 2023, Pacific Data Hub) → droits humains (rapport A/HRC/56/68, CIEDR, 2026)",
         "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)",
         "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)",
@@ -2344,7 +2345,7 @@
           "label": "élaborer des protocoles de recherche scientifique",
           "type": "skill/competence",
           "covers": [
-            "Protocole expérimental contrôlé et pré-déclaré (groupe témoin, une seule variable, familles de risques déclarées avant confirmation, intervalles de Wilson, correction de Holm)",
+            "Protocole expérimental contrôlé et pré-déclaré (groupe témoin, une seule variable, familles de risques déclarées avant confirmation, intervalles de Wilson, correction de Holm, test de permutation par prompt, fiabilité split-half des classements)",
             "Audit de biais d'IA adossé au cadre ONU des droits humains (A/HRC/56/68, CIEDR : 4 recommandations §68 d, k, m, f traduites en protocole reproductible, matrice de couverture sourcée — 13 questions sur 15 mesurées)",
             "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)"
           ]
@@ -2354,7 +2355,7 @@
           "label": "employer des méthodes scientifiques",
           "type": "skill/competence",
           "covers": [
-            "Protocole expérimental contrôlé et pré-déclaré (groupe témoin, une seule variable, familles de risques déclarées avant confirmation, intervalles de Wilson, correction de Holm)",
+            "Protocole expérimental contrôlé et pré-déclaré (groupe témoin, une seule variable, familles de risques déclarées avant confirmation, intervalles de Wilson, correction de Holm, test de permutation par prompt, fiabilité split-half des classements)",
             "Benchmark de biais des LLM (nationalité, fairness — 7 modèles open-weight, juge en aveugle, GPU Kaggle)",
             "Fact-checking & enquête data à grande échelle (Alone With a Stranger : test RTS / France Inter vérifié sur 51 975 réponses)"
           ]
@@ -2364,9 +2365,10 @@
           "label": "méthodologie de recherche scientifique",
           "type": "knowledge",
           "covers": [
-            "Protocole expérimental contrôlé et pré-déclaré (groupe témoin, une seule variable, familles de risques déclarées avant confirmation, intervalles de Wilson, correction de Holm)",
+            "Protocole expérimental contrôlé et pré-déclaré (groupe témoin, une seule variable, familles de risques déclarées avant confirmation, intervalles de Wilson, correction de Holm, test de permutation par prompt, fiabilité split-half des classements)",
             "Publication scientifique ouverte et versionnée (Zenodo, DOI, changelog par version, CC BY 4.0)",
-            "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)"
+            "Benchmark jury humain vs LLM évaluateurs (Claude Opus/Sonnet/Haiku/Fable sur grille commune) + détection de contenu généré par IA (Pangram, ZeroGPT, textes témoins)",
+            "Positionnement face à l'état de l'art (Hu et al. 2025, Nature Computational Science — 77 modèles, biais d'identité sociale : tableau comparatif, section discussion dédiée)"
           ]
         },
         {
@@ -2375,7 +2377,8 @@
           "type": "skill/competence",
           "covers": [
             "Audit de biais d'IA adossé au cadre ONU des droits humains (A/HRC/56/68, CIEDR : 4 recommandations §68 d, k, m, f traduites en protocole reproductible, matrice de couverture sourcée — 13 questions sur 15 mesurées)",
-            "Ancrage des travaux data/IA dans les cadres de l'ONU depuis 2023 : ODD 4 et 5 × open data NC (Kaggle, Dev.to, NODES 2023, Pacific Data Hub) → droits humains (rapport A/HRC/56/68, CIEDR, 2026)"
+            "Ancrage des travaux data/IA dans les cadres de l'ONU depuis 2023 : ODD 4 et 5 × open data NC (Kaggle, Dev.to, NODES 2023, Pacific Data Hub) → droits humains (rapport A/HRC/56/68, CIEDR, 2026)",
+            "Positionnement face à l'état de l'art (Hu et al. 2025, Nature Computational Science — 77 modèles, biais d'identité sociale : tableau comparatif, section discussion dédiée)"
           ]
         },
         {
@@ -6238,19 +6241,21 @@
         "Nommer une nationalité suffit : réponses à préjugés de 3 % (« un homme ») à 62 % dès qu'il en a une, quelle qu'elle soit (4 modèles ≥ 8B, taxi, ascenseur, rue isolée)",
         "Nationalité masquée devinée 6× mieux que le hasard par un classifieur de texte ; lexicométrie : qualités vs origine",
         "Plus gros modèles pas plus justes : le biais change de forme",
-        "2 datasets Kaggle (réponses + verdicts, PIB/hab. Banque mondiale — CC BY 4.0) + 11 notebooks, collection kaggle.com/work/collections/19371544",
+        "2 datasets Kaggle (réponses + verdicts, PIB/hab. Banque mondiale — CC BY 4.0) + 11 notebooks, listés dans le README du repo GitHub (section Resources)",
         "Plus le pays est riche, plus l'IA est chaleureuse : compliments corrélés au PIB/hab. (Spearman ρ = 0,73), y compris au sein d'un même continent",
+        "Plus une nationalité est complimentée, moins on conseille à une adolescente de 15 ans de se protéger (7 modèles poolés, ~231 verdicts par nationalité : de 53 % pour un Japonais à 76 % pour un Russe, Spearman ρ = −0,90)",
+        "Positionnement face à l'état de l'art (v1.9) : Hu et al. (2025, Nature Computational Science, 77 modèles) mesurent un biais « nous » vs « eux » abstrait, en anglais ; cette étude montre contre qui il est dirigé, en français, et sous des formes invisibles à un score de sentiment (refus, « son origine ne compte pas »)",
         "Frugal : 89 h GPU (2 × T4) + 6 h CPU, 0 € — tout sur le quota gratuit Kaggle",
         "Positionnement ONU (v1.5) : l'alerte (RTS), le cadre (rapport A/HRC/56/68 de la Rapporteuse spéciale sur le racisme), la mesure. 13 questions sur 15 mesurées, matrice sourcée paragraphe par paragraphe ; 4 recommandations (§68 d, k, m, f) traduites en protocole reproductible — « The UN asks for tests; here is one. »",
-        "Rapport Zenodo en 7 PDF (92 p., version 8 p., carrousel 16 slides, visuels carrés, positionnement ONU 10 p. + 6 p.), 5 versions publiées avec changelog — résultats inchangés : DOI 10.5281/zenodo.23991568"
+        "Rapport Zenodo en 7 PDF (97 p., version 8 p., carrousel 16 slides, visuels carrés, positionnement ONU 10 p. + 6 p.), 9 versions publiées avec changelog — données et résultats inchangés : DOI 10.5281/zenodo.23991568"
       ],
       "url": "https://github.com/adriens/kaggle-bench-ai-biasses"
     }
   ],
   "meta": {
     "canonical": "https://raw.githubusercontent.com/adriens/whoami/main/manual/resume.json",
-    "version": "v1.45.0",
-    "lastModified": "2026-11-16",
+    "version": "v1.45.1",
+    "lastModified": "2026-11-21",
     "theme": "elegant",
     "x-esco-retrieved": "2026-11-15"
   }
